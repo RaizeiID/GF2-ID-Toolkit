@@ -230,7 +230,18 @@ def main():
     seg_example = []
     seg_desc = 0
     changed_entries = 0
-    for cid, ents in lp.chunks.items():
+    # Menyusuri ~454.000 string dengan belasan ribu aturan makan beberapa menit.
+    # Tanpa tanda apa pun di layar, jendela yang diam terlihat seperti macet --
+    # pemakai toolkit menutupnya sebelum selesai. Jadi laporkan kemajuannya.
+    total_chunks = len(lp.chunks)
+    langkah = max(1, total_chunks // 50)
+    print(f"\n  menerjemahkan {total_chunks:,} chunk — perlu beberapa menit,")
+    print("  JANGAN tutup jendela ini sampai muncul kata TERPASANG/installed.")
+    for n, (cid, ents) in enumerate(lp.chunks.items(), 1):
+        if n % langkah == 0 or n == total_chunks:
+            sys.stdout.write(f"\r  {n * 100 // total_chunks:3d}%  "
+                             f"({n:,}/{total_chunks:,})")
+            sys.stdout.flush()
         new = []
         for sid, txt in ents:
             if txt:
@@ -277,7 +288,7 @@ def main():
             new.append((sid, txt))
         lp.chunks[cid] = new
 
-    print(f"\n  translated entries: {changed_entries:,}"
+    print(f"\n\n  translated entries: {changed_entries:,}"
           f"  (glossary {sum(hits.values()):,} + rules {sum(rule_hits.values()):,}"
           f" + multi-sentence {seg_desc:,})")
     print(f"  distinct terms used: {len(hits):,} / {total_terms}")

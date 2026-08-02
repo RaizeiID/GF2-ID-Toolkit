@@ -10,6 +10,10 @@ DLL** — hanya satu berkas data (tabel teks) yang diganti isinya.
 2. Tutup game.
 3. Klik dua kali **`Pasang-Terjemahan.bat`**.
 
+> ⏱ **Butuh sekitar 10–15 menit.** Ada persentase kemajuan di layar. Jangan tutup
+> jendelanya sampai muncul kata **TERPASANG** — kalau ditutup di tengah jalan,
+> berkas game tidak berubah sama sekali (aman, tapi harus diulang).
+
 Butuh [Python](https://www.python.org/downloads/) — saat memasang, centang
 **"Add python.exe to PATH"**.
 

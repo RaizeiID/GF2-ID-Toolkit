@@ -8,6 +8,10 @@ echo   ============================================
 echo    Terjemahan Bahasa Indonesia - GF2 Exilium
 echo   ============================================
 echo.
+echo   Prosesnya makan waktu SEKITAR 10-15 MENIT.
+echo   Itu normal - jangan ditutup jendelanya.
+echo   Tunggu sampai muncul kata TERPASANG.
+echo.
 
 set "PY="
 where py >nul 2>nul
