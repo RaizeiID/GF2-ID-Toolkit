@@ -3,25 +3,44 @@
 Alih bahasa tidak resmi untuk GF2: Exilium. **Bukan mod, bukan injeksi, bukan
 DLL** — hanya satu berkas data (tabel teks) yang diganti isinya.
 
-## Pasang
+## Pasang — pilih salah satu
 
-1. Unduh repo ini (**Code → Download ZIP**), ekstrak ke mana saja **di luar
-   folder game**.
+### Cara 1 — Instan (paling banyak dipakai)
+
+Unduh `LangPackageTableCnData.bytes` dari [**Releases**](../../releases), lalu
+**timpa** berkas dengan nama sama di:
+
+```
+<folder game>\GF2_Exilium_Data\LocalCache\Data\Table\
+```
+
+Selesai. Tutup game dulu, dan **salin berkas aslimu ke tempat aman lebih dulu**
+supaya bisa dikembalikan.
+
+Berkas ini dibangun dari berkas game versi **29 Juli 2026**. Kalau versi game-mu
+lebih baru, pakai Cara 2 — hasilnya menyesuaikan sendiri.
+
+> Ada juga `Pasang-Cepat-Tanpa-Python.bat` yang melakukan hal yang sama tapi
+> otomatis: mencari folder game, mencadangkan berkas aslimu, lalu menimpa.
+
+### Cara 2 — Bangun dari berkasmu sendiri
+
+1. Unduh repo ini (**Code → Download ZIP**), ekstrak **di luar folder game**.
 2. Tutup game.
 3. Klik dua kali **`Pasang-Terjemahan.bat`**.
+
+Butuh [Python](https://www.python.org/downloads/) — saat memasang, centang
+**"Add python.exe to PATH"**.
 
 > ⏱ **Butuh sekitar 10–15 menit.** Ada persentase kemajuan di layar. Jangan tutup
 > jendelanya sampai muncul kata **TERPASANG** — kalau ditutup di tengah jalan,
 > berkas game tidak berubah sama sekali (aman, tapi harus diulang).
 
-Butuh [Python](https://www.python.org/downloads/) — saat memasang, centang
-**"Add python.exe to PATH"**.
+Lebih lambat, tapi **tahan update game**: hasilnya tetap benar walau versi
+game-mu berbeda dari versi rilis ini.
 
-Membatalkan: **`Kembalikan-Bahasa-Inggris.bat`**.
-
-> Tanpa Python? Ada `Pasang-Cepat-Tanpa-Python.bat` yang memakai berkas jadi dari
-> [Releases](../../releases). Berkas jadi terikat pada satu versi game — kalau
-> game-mu lebih baru, pakai cara utama di atas.
+Membatalkan (kedua cara): **`Kembalikan-Bahasa-Inggris.bat`**, atau kembalikan
+sendiri salinan berkas aslimu.
 
 ## Kenapa membangun ulang, bukan sekadar menimpa berkas jadi
 
