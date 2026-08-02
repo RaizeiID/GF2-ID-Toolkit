@@ -1,0 +1,14 @@
+# Tanpa berkas ini, unduhan ZIP dari GitHub memberikan .bat berakhiran LF.
+# cmd.exe sering tersandung pada .bat LF -- terutama label dan goto -- padahal
+# README menyuruh pengguna mengunduh ZIP. Paksa CRLF untuk berkas Windows.
+*.bat text eol=crlf
+*.txt text eol=crlf
+
+# Skrip dan data: LF. Pembaca TSV di build.py sudah membuang \r
+# (line.rstrip("\n").rstrip("\r")), jadi keduanya aman -- LF menjaga diff bersih.
+*.py  text eol=lf
+*.tsv text eol=lf
+*.md  text eol=lf
+
+# Jangan pernah diperlakukan sebagai teks.
+*.bytes binary
