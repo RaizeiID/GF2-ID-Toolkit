@@ -1,0 +1,39 @@
+# Deskripsi skill — keluarga mekanik putaran ketujuh.
+# Semua kelas tangkapan sengaja dibatasi (\w+, [\w -]+) dan bukan ".+",
+# supaya tidak menelan klausa berikutnya pada kalimat majemuk.
+#range 0 130000
+
+# --- stat sederhana (bentuk imperatif & pasif) ---
+^Increase attack by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan serangan \1\2%</color>.
+^Defense increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense meningkat sebesar \1\2%</color>.
+^Critical rate increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Rate meningkat sebesar \1\2%</color>.
+^Increase damage of active skills by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage skill aktif \1\2%</color>.
+^Active skill damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, effective (<color=#[0-9a-fA-F]+>)once</color>\.$	Damage skill aktif meningkat sebesar \1\2%</color>, berlaku \3sekali</color>.
+^Out-of-turn damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage di luar giliran yang diberikan meningkat sebesar \1\2%</color>.
+^Reduce damage taken outside of turns by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Kurangi damage yang diterima di luar giliran \1\2%</color>.
+^Defense decreases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, damage taken increases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense berkurang sebesar \1\2%</color>, damage yang diterima meningkat sebesar \3\4%</color>.
+^Melee damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum increase of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage melee yang diterima meningkat sebesar \1\2%</color>, hingga kenaikan maksimal \3\4%</color>.
+
+# --- damage per elemen (bentuk umum; aturan spesifik di berkas lain menang lebih dulu) ---
+^(\w+) damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1 yang diberikan meningkat sebesar \2\3%</color>.
+^Damage dealt to targets with (\w+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target dengan debuff \1 meningkat sebesar \2\3%</color>.
+
+# --- kondisi jarak & cover ---
+^Before taking active attack damage, if the distance to the attacker is greater than (<color=#[0-9a-fA-F]+>)([\d.]+) tiles</color>, damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Sebelum menerima damage serangan aktif, jika jarak ke penyerang lebih dari \1\2 tile</color>, damage yang diterima berkurang sebesar \3\4%</color>.
+^When not protected by cover, damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat tidak terlindungi Cover, damage yang diterima meningkat sebesar \1\2%</color>.
+^Before an enemy within (<color=#[0-9a-fA-F]+>)([\d.]+) tiles</color> is attacked by an active attack, applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to it for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Sebelum musuh dalam \1\2 tile</color> terkena serangan aktif, menerapkan \3\4</color> padanya selama \5\6 giliran</color>.
+^(<color=#[0-9a-fA-F]+>)Within a ([\d.]+)-tile radius of self</color>, when an allied Doll takes damage, it spreads (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the damage\.$	\1Dalam radius \2 tile dari diri sendiri</color>, saat Doll sekutu menerima damage, \3\4%</color> damage itu disebarkan.
+
+# --- status & kekebalan ---
+^Cannot be displaced\.$	Tidak bisa dipindahkan.
+^Immune to all damage for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Kebal terhadap semua damage selama \1\2 giliran</color>.
+^Healing received is converted into an equal amount of fixed damage\.$	Healing yang diterima diubah jadi fixed damage dengan jumlah sama.
+^Maximum of ([\d.]+) stacks, considered a debuff\.$	Maksimal \1 stack, dianggap debuff.
+^Priority target for (<color=#[0-9a-fA-F]+>)([\w -]+)</color>\.$	Target prioritas untuk \1\2</color>.
+^At the end of this unit's action, gains (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of stability\.$	Di akhir aksi unit ini, mendapatkan \1\2 poin</color> Stability.
+
+# --- mekanik kompleks ---
+^When the target's stability is at (<color=#[0-9a-fA-F]+>)([\d.]+)</color>, excess stability damage is converted to (\w+) damage, dealing additional (<color=#[0-9a-fA-F]+>)(\w+) damage</color> to the target equal to (<color=#[0-9a-fA-F]+>)\(overflow stability damage amount\) x ([\d.]+)%</color> of attack \(This will not trigger (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\)\.$	Saat Stability target di \1\2</color>, kelebihan damage Stability diubah jadi damage \3, memberikan tambahan damage \4\5</color> ke target sebesar \6(jumlah kelebihan damage Stability) x \7%</color> dari Attack (Ini tidak akan memicu \8\9</color>).
+# Sumber kalimat berikut kehilangan spasi setelah "first" — dicocokkan apa adanya.
+^For the first(<color=#[0-9a-fA-F]+>)([\d.]+)</color> after the start of battle, this unit cannot be directly targeted by enemy skills, but it cannot move either\.$	Selama \1\2</color> pertama setelah pertempuran dimulai, unit ini tidak bisa ditarget langsung oleh skill musuh, tapi juga tidak bisa bergerak.
+^Select 1 enemy target on (<color=#[0-9a-fA-F]+>)Peripheral Battlefield ([\d.]+)</color> or the Core Battlefield and deal AoE Physical damage to it and all enemy targets (<color=#[0-9a-fA-F]+>)within ([\d.]+) tiles</color> of it equal to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of ([\w ]+)\.$	Pilih 1 target musuh di \1Peripheral Battlefield \2</color> atau Core Battlefield dan berikan damage Physical AoE ke target itu serta semua target musuh \3dalam \4 tile</color> darinya sebesar \5\6%</color> dari \7.

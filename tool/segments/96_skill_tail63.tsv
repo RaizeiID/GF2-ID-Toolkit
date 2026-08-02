@@ -1,0 +1,60 @@
+# Deskripsi SKILL — putaran keenam puluh tiga ekor panjang.
+#
+# Tetap 1:1, harfiah ("=").
+#range 0 130000
+
+# --- pendek ---
+=This cannot be cleansed.	Ini tidak bisa dibersihkan.
+=This effect is removed upon Stability Break.	Efek ini hilang saat Stability Break.
+=Cooldown time is reduced by <color=#f26c1c>1 turn</color>.	Waktu cooldown-nya berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=Enter <color=#3487e0>{0}</color> state for <color=#f26c1c>2 turns</color>.	Masuk ke kondisi <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Immune to <color=#8679e8>Corrosion</color> and <color=#e67129>Burn</color> damage.	Kebal terhadap damage <color=#8679e8>Corrosion</color> dan <color=#e67129>Burn</color>.
+=Increases critical rate but reduces critical damage.	Menambah Critical Rate tapi mengurangi Critical Damage.
+=Prioritizes enemy units with <color=#3487e0>{1}</color>.	Mengutamakan unit musuh yang memiliki <color=#3487e0>{1}</color>.
+=Prioritizes enemy units with <color=#3487e0>{2}</color>.	Mengutamakan unit musuh yang memiliki <color=#3487e0>{2}</color>.
+=Deals <color=#d4ae08>Electric damage</color> to the nearest enemy Doll.	Memberikan <color=#d4ae08>Electric damage</color> ke Doll musuh terdekat.
+=Linked to all allied units.	Terhubung dengan semua unit sekutu.
+=All other allied units gain <color=#3487e0>{0}</color>.	Semua unit sekutu lain mendapatkan <color=#3487e0>{0}</color>.
+=When this unit is destroyed, the link effect is removed.	Saat unit ini hancur, efek tautannya hilang.
+=Applies <color=#3487e0>{1}</color> to all allied units.	Menerapkan <color=#3487e0>{1}</color> ke semua unit sekutu.
+=Vector gains <color=#3487e0>{2}</color>.	Vector mendapatkan <color=#3487e0>{2}</color>.
+=Vector gains <color=#3487e0>{3}</color>.	Vector mendapatkan <color=#3487e0>{3}</color>.
+=She recovers HP and gain <color=#3487e0>{0}</color>.	Dia memulihkan HP lalu mendapatkan <color=#3487e0>{0}</color>.
+=In addition, she applies <color=#3487e0>{1}</color> and <color=#3487e0>{3}</color> to them.	Selain itu, dia menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{3}</color> kepada mereka.
+=If the enemy target has <color=#3487e0>{1}</color>, heal 1 additional target.	Jika target musuh memiliki <color=#3487e0>{1}</color>, menyembuhkan 1 target tambahan.
+=If the enemy target has <color=#3487e0>{2}</color>, heal 1 additional target.	Jika target musuh memiliki <color=#3487e0>{2}</color>, menyembuhkan 1 target tambahan.
+
+# --- serangan & Taryz ---
+=Selects an enemy target and summons <color=#3487e0>{6}</color> to follow it.	Memilih target musuh lalu memanggil <color=#3487e0>{6}</color> untuk mengikutinya.
+=Selects an enemy target within <color=#f26c1c>9 tiles</color> and summons <color=#3487e0>{8}</color> to follow it for <color=#f26c1c>3 rounds</color>.	Memilih target musuh <color=#f26c1c>dalam 9 tile</color> lalu memanggil <color=#3487e0>{8}</color> untuk mengikutinya selama <color=#f26c1c>3 ronde</color>.
+=When the target that <color=#3487e0>{6}</color> is following dies, Taryz switches to following the enemy unit with the current highest HP.	Saat target yang diikuti <color=#3487e0>{6}</color> mati, Taryz beralih mengikuti unit musuh dengan HP tertinggi saat itu.
+=When the target that <color=#3487e0>{8}</color> is following dies, Taryz switches to following the enemy unit with the current highest HP.	Saat target yang diikuti <color=#3487e0>{8}</color> mati, Taryz beralih mengikuti unit musuh dengan HP tertinggi saat itu.
+=Applies <color=#3487e0>{1}</color> and <color=#3487e0>{5}</color> to all allied units for <color=#f26c1c>2 rounds</color>.	Menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{5}</color> ke semua unit sekutu selama <color=#f26c1c>2 ronde</color>.
+=Applies <color=#3487e0>{1}</color> and <color=#3487e0>{5}</color> to all allied units.	Menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{5}</color> ke semua unit sekutu.
+=Applies <color=#3487e0>{1}</color> and <color=#3487e0>{7}</color> to all allied units for <color=#f26c1c>2 rounds</color>.	Menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{7}</color> ke semua unit sekutu selama <color=#f26c1c>2 ronde</color>.
+=Applies <color=#3487e0>{1}</color> to all allied units for <color=#f26c1c>3 rounds</color> and <color=#3487e0>{7}</color> for <color=#f26c1c>2 rounds</color>.	Menerapkan <color=#3487e0>{1}</color> ke semua unit sekutu selama <color=#f26c1c>3 ronde</color> dan <color=#3487e0>{7}</color> selama <color=#f26c1c>2 ronde</color>.
+=Cleanses <color=#f26c1c>2</color> debuffs and applies <color=#3487e0>{1}</color> and <color=#3487e0>{2}</color> to all allied units, lasting for <color=#f26c1c>2 turns</color>.	Membersihkan <color=#f26c1c>2</color> debuff lalu menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{2}</color> ke semua unit sekutu, bertahan <color=#f26c1c>2 giliran</color>.
+=Cleanses debuffs and applies <color=#3487e0>{1}</color> and <color=#3487e0>{2}</color> to all allied units.	Membersihkan debuff lalu menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{2}</color> ke semua unit sekutu.
+=After attacking, restore HP equal to <color=#f26c1c>100%</color> of attack to the nearest allied target (excluding the user).	Setelah menyerang, memulihkan HP setara <color=#f26c1c>100%</color> Attack ke target sekutu terdekat (kecuali pengguna).
+=When using a basic attack, Scout SWAP deals AoE physical damage equal to <color=#f26c1c>20%</color> of attack to the target and all enemy targets within a <color=#f26c1c>3x3 area around it</color>.	Saat memakai basic attack, Scout SWAP memberikan AoE physical damage setara <color=#f26c1c>20%</color> Attack ke target dan semua target musuh dalam <color=#f26c1c>area 3x3 di sekitarnya</color>.
+=Welrod deals AoE <color=#8679e8>Corrosion Damage</color> to all enemy targets within a <color=#f26c1c>3x9 tile area in front</color> and pull them towards herself.	Welrod memberikan AoE <color=#8679e8>Corrosion Damage</color> ke semua target musuh dalam <color=#f26c1c>area 3x9 tile di depan</color> lalu menarik mereka ke arahnya.
+=Each arc increases damage dealt by <color=#f26c1c>20%</color> and applies <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Setiap busur menambah damage yang diberikan sebesar <color=#f26c1c>20%</color> lalu menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=Each arc increases the damage dealt and applies <color=#3487e0>{0}</color>.	Setiap busur menambah damage yang diberikan lalu menerapkan <color=#3487e0>{0}</color>.
+
+# --- stat & pemicu ---
+=When attacking a target with <color=#3487e0>{2}</color>, ignores <color=#f26c1c>4 points</color> of stability index and increases damage dealt to them by <color=#f26c1c>20%</color>.	Saat menyerang target yang memiliki <color=#3487e0>{2}</color>, mengabaikan <color=#f26c1c>4 poin</color> Stability Index dan menambah damage kepada mereka sebesar <color=#f26c1c>20%</color>.
+=When attacking a target with <color=#3487e0>{3}</color>, ignores <color=#f26c1c>6 points</color> of stability index and increases damage dealt to them by <color=#f26c1c>30%</color>.	Saat menyerang target yang memiliki <color=#3487e0>{3}</color>, mengabaikan <color=#f26c1c>6 poin</color> Stability Index dan menambah damage kepada mereka sebesar <color=#f26c1c>30%</color>.
+=If the target holds <color=#3487e0>{0}</color>, damage dealt to the target is increased by <color=#f26c1c>30%</color>.	Jika target memiliki <color=#3487e0>{0}</color>, damage kepadanya meningkat sebesar <color=#f26c1c>30%</color>.
+=For <color=#f26c1c>each</color> instance of damage taken, damage dealt is increased by <color=#f26c1c>40%</color>, to a maximum increase of <color=#f26c1c>80%</color>.	Untuk <color=#f26c1c>setiap kali</color> menerima damage, damage yang diberikan meningkat sebesar <color=#f26c1c>40%</color>, maksimal naik sebesar <color=#f26c1c>80%</color>.
+=For each enemy target hit, damage dealt is increased by <color=#f26c1c>20%</color>, to a maximum increase of <color=#f26c1c>100%</color>.	Untuk setiap target musuh yang terkena, damage yang diberikan meningkat sebesar <color=#f26c1c>20%</color>, maksimal naik sebesar <color=#f26c1c>100%</color>.
+=Damage taken by allied units on Burn tiles is reduced by <color=#f26c1c>25%</color>.	Damage yang diterima unit sekutu di atas tile Burn berkurang sebesar <color=#f26c1c>25%</color>.
+=After <color=#3487e0>{0}</color> is cleansed, gains <color=#3487e0>{1}</color> for 2 turns.	Setelah <color=#3487e0>{0}</color> dibersihkan, mendapatkan <color=#3487e0>{1}</color> selama 2 giliran.
+=At the start of the turn, if this unit is standing on a Burn tile or a Burn-derived Polyphase tile (but not a Hydro-derived Polyphase tile), gain <color=#3487e0>{0}</color>.	Di awal giliran, jika unit ini berdiri di atas tile Burn atau tile Polyphase turunan Burn (tapi bukan tile Polyphase turunan Hydro), mendapatkan <color=#3487e0>{0}</color>.
+=If the user is attacked by an enemy while in the Power Up state, they will immediately throw an Oil Barrel at the attacker.	Jika pengguna diserang musuh saat berada dalam kondisi Power Up, dia akan langsung melempar Oil Barrel ke penyerangnya.
+
+# --- spesifik karakter ---
+=At the end of Robella's action, she gains Confectance Index.	Di akhir aksi Robella, dia mendapatkan Confectance Index.
+=When Robella has more than <color=#f26c1c>2 stacks</color> of <color=#3487e0>{2}</color>, her basic attacks turn to deal <color=#42cce0>Freeze Damage</color>, and her critical rate is increased by <color=#f26c1c>20%</color>.	Saat Robella memiliki lebih dari <color=#f26c1c>2 stack</color> <color=#3487e0>{2}</color>, basic attack-nya berubah menjadi memberikan <color=#42cce0>Freeze Damage</color>, dan Critical Rate-nya meningkat sebesar <color=#f26c1c>20%</color>.
+=When Robella has more than <color=#f26c1c>2 stacks</color> of <color=#3487e0>{2}</color>, her basic attacks turn to deal <color=#42cce0>Freeze Damage</color>, and her critical rate is increased.	Saat Robella memiliki lebih dari <color=#f26c1c>2 stack</color> <color=#3487e0>{2}</color>, basic attack-nya berubah menjadi memberikan <color=#42cce0>Freeze Damage</color>, dan Critical Rate-nya meningkat.
+=At the start of the turn, if Makiatto's HP exceeds <color=#f26c1c>80%</color>, gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> until the next turn.	Di awal giliran, jika HP Makiatto melebihi <color=#f26c1c>80%</color>, mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> sampai giliran berikutnya.
+=At the start of battle, Typhon enters <color=#3487e0>{0}</color>.	Di awal pertempuran, Typhon masuk ke <color=#3487e0>{0}</color>.

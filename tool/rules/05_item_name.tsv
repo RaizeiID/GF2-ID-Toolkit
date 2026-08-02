@@ -1,0 +1,48 @@
+# Nama item — keluarga berprefiks.
+#
+# 2.860 dari 5.522 nama item mengikuti pola "<Jenis> - <Nama>". Yang bisa
+# diterjemahkan adalah JENISnya; bagian setelah tanda pisah hampir selalu nama
+# diri (nama karakter, nama senjata, nama kosmetik) dan dibawa lewat backref
+# supaya tidak ikut tersentuh.
+#
+# Keputusan yang sama seperti pada nama skill: nama diri tetap Inggris, label
+# jenis diterjemahkan. Karena itu "Skin - X", "Fixed Key - X", "Common Key - X",
+# "Affinity Key - X" dan "Expansion Key - X" TIDAK ada di sini — kelima kata itu
+# istilah permainan yang dipakai pemain apa adanya, jadi hasilnya akan identik
+# dengan aslinya dan aturannya cuma jadi beban mati.
+#
+# Angka Romawi (I, II, III, IV) dan kode senjata dibawa apa adanya.
+#range 0 130000
+
+# --- potret & bingkai ---
+^Portrait Frame - (.+)$	Bingkai Potret - \1
+^Portrait - (.+)$	Potret - \1
+
+# --- cetak biru senjata ---
+^Weapon Blueprint - (.+)$	Cetak Biru Senjata - \1
+
+# --- lencana, hadiah, busana ---
+^Badge - (.+)$	Lencana - \1
+^Special Gift - (.+)$	Hadiah Spesial - \1
+^Outfit - (.+)$	Busana - \1
+
+# --- barang antik ---
+^Curio - (.+)$	Barang Antik - \1
+^Curio Selection - (.+)$	Pilihan Barang Antik - \1
+^Exquisite Curio - (.+)$	Barang Antik Elok - \1
+^Strange Curio - (.+)$	Barang Antik Aneh - \1
+
+# --- lapisan senjata ---
+^Coating: (.+)$	Lapisan: \1
+
+# --- kotak attachment (kelas senjata dibawa apa adanya) ---
+^(AR|SMG|RF|HG|SG|MG|Blade) Advanced Attachment Box - (.+)$	Kotak Attachment Lanjutan \1 - \2
+^(AR|SMG|RF|HG|SG|MG|Blade) Advanced Attachment Box$	Kotak Attachment Lanjutan \1
+^(AR|SMG|RF|HG|SG|MG|Blade) Attachment Box - (.+)$	Kotak Attachment \1 - \2
+^(AR|SMG|RF|HG|SG|MG|Blade) Attachment Box$	Kotak Attachment \1
+
+# --- paket data pertumbuhan ---
+^Advanced Growth Data Pack$	Paket Data Pertumbuhan Lanjutan
+^Top Growth Data Pack$	Paket Data Pertumbuhan Teratas
+^Luxury Growth Data Pack$	Paket Data Pertumbuhan Mewah
+^Weekly Growth Data Pack$	Paket Data Pertumbuhan Mingguan

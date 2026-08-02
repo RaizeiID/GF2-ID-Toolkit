@@ -1,0 +1,54 @@
+# Deskripsi skill — kalimat NAIK/TURUN STATUS.
+#
+# Lanjutan 13_skill_mech.tsv, tapi rentangnya penuh (0-130.000): berkas lama
+# memakai #range 25000 125000 sehingga ~290 deskripsi skill ber-id di bawah
+# 25.000 dan ratusan di atas 125.000 tidak pernah tersentuh.
+#
+# Nama jenis damage dibawa utuh lewat backref sebagai SUBJEK kalimat, jadi
+# keluarannya "<color>Burn damage</color> yang diterima berkurang ..." dan bukan
+# "Damage <color>Burn damage</color> ..." yang mengulang kata damage.
+#range 0 130000
+
+# --- damage per jenis: diterima / diberikan ---
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1 yang diterima berkurang sebesar \2\3%</color>.
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) taken is reduced\.$	\1 yang diterima berkurang.
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1 yang diterima meningkat sebesar \2\3%</color>.
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1 yang diberikan meningkat sebesar \2\3%</color>.
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) dealt is increased\.$	\1 yang diberikan meningkat.
+^((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) dealt by all allied units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1 dari semua unit sekutu meningkat sebesar \2\3%</color>.
+^When dealing ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?), critical damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan \1, Critical Damage meningkat sebesar \2\3%</color>.
+^Damage dealt to enemy targets on ([A-Za-z]+) tiles is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target musuh di tile \1 meningkat sebesar \2\3%</color>.
+
+# --- damage umum ---
+^Damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan meningkat sebesar \1\2%</color>.
+^Damage dealt is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan berkurang sebesar \1\2%</color>.
+^Damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima berkurang sebesar \1\2%</color>.
+^Damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima meningkat sebesar \1\2%</color>.
+^Critical damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Damage meningkat sebesar \1\2%</color>.
+^Critical rate is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Rate meningkat sebesar \1\2%</color>.
+^Defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense meningkat sebesar \1\2%</color>.
+^Defense is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense berkurang sebesar \1\2%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color>.
+^Attack is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack berkurang sebesar \1\2%</color>.
+^Healing received is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Healing yang diterima meningkat sebesar \1\2%</color>.
+^If this unit has a buff, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika unit ini memiliki buff, damage yang diberikan meningkat sebesar \1\2%</color>.
+
+# --- sekutu: gabungan pertahanan & stability ---
+^Damage taken by allied units is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and stability damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Damage yang diterima unit sekutu berkurang sebesar \1\2%</color> dan damage Stability yang diterima berkurang sebesar \3\4 poin</color>.
+^Allied units' defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and stability damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Defense unit sekutu meningkat sebesar \1\2%</color> dan damage Stability yang diterima berkurang sebesar \3\4 poin</color>.
+^Damage taken by allied units is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima unit sekutu berkurang sebesar \1\2%</color>.
+^When stability is greater than (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>, damage taken by all ally units'? damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat Stability lebih dari \1\2 poin</color>, damage yang diterima semua unit sekutu berkurang sebesar \3\4%</color>.
+^If an allied unit goes into Stability Break, the next active healing additionally restores (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of stability index\.$	Jika unit sekutu masuk Stability Break, healing aktif berikutnya memulihkan tambahan \1\2 poin</color> Stability Index.
+
+# --- penetrasi pertahanan ---
+^If an attack exploits a weakness, it ignores (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Jika serangan mengeksploitasi kelemahan, serangan itu mengabaikan \1\2%</color> Defense target.
+
+# --- batasan efek ---
+^Considered a debuff effect\.$	Dianggap efek debuff.
+^Stackable, cannot be cleansed\.$	Bisa ditumpuk, tidak bisa dibersihkan.
+^Cannot be cleansed\.$	Tidak bisa dibersihkan.
+^Stackable\.$	Bisa ditumpuk.
+^Stackable up to (<color=#[0-9a-fA-F]+>)([\d.]+) times?</color>\.$	Bisa ditumpuk hingga \1\2 kali</color>.
+^Can be stacked up to (<color=#[0-9a-fA-F]+>)([\d.]+) times?</color>\.$	Bisa ditumpuk hingga \1\2 kali</color>.
+^This effect cannot be stacked\.$	Efek ini tidak bisa ditumpuk.
+^Lasts for (<color=#[0-9a-fA-F]+>)([\d.]+) (?:turns?|rounds?)</color>\.$	Bertahan \1\2 giliran</color>.

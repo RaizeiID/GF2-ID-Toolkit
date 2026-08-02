@@ -1,0 +1,122 @@
+# Deskripsi SKILL — putaran kesepuluh ekor panjang.
+#
+# Ditulis bersamaan dengan 42_skill_tail9 (dua batch sekaligus atas permintaan user).
+# Tetap 1:1, harfiah ("=") karena angkanya baku per kalimat.
+#
+# Salah ketik permainan yang disalin apa adanya: "AoE <color=#8679e8>Hydro damage</color>"
+# (kode warnanya milik Corrosion padahal teksnya Hydro), dan "All enemy units on the
+# battlefield gains" (subjek jamak dengan kata kerja tunggal).
+#range 0 130000
+
+# --- serangan ---
+=Deals Physical damage to multiple targets.	Memberikan Physical damage ke beberapa target.
+=Select the nearest <color=#f26c1c>2</color> enemy targets, and deal Physical damage to them and all enemy targets within <color=#f26c1c>2 tiles</color> of them equal to <color=#f26c1c>100%</color> of attack.	Pilih <color=#f26c1c>2</color> target musuh terdekat, lalu berikan Physical damage kepada mereka dan semua target musuh <color=#f26c1c>dalam 2 tile</color> dari mereka setara <color=#f26c1c>100%</color> Attack.
+=Fire missiles at the 2 closest enemy targets and deal AoE Physical damage.	Menembakkan misil ke 2 target musuh terdekat dan memberikan AoE Physical damage.
+=Selects all enemy targets within <color=#f26c1c>3 tiles</color>, deals AoE Burn damage to them and generates <color=#3487e0>{0}</color> tiles.	Memilih semua target musuh <color=#f26c1c>dalam 3 tile</color>, memberikan AoE Burn damage kepada mereka lalu menghasilkan tile <color=#3487e0>{0}</color>.
+=Deals <color=#2caadb>Hydro damage</color> to the target and all enemy targets within <color=#f26c1c>3 tiles</color> and applies <color=#3487e0>{0}</color>.	Memberikan <color=#2caadb>Hydro damage</color> ke target dan semua target musuh <color=#f26c1c>dalam 3 tile</color> lalu menerapkan <color=#3487e0>{0}</color>.
+=Deals AoE <color=#8679e8>Hydro damage</color> to the enemy target and all enemies within <color=#f26c1c>3 tiles</color> around them.	Memberikan AoE <color=#8679e8>Hydro damage</color> ke target musuh dan semua musuh <color=#f26c1c>dalam 3 tile</color> di sekitarnya.
+=Select the nearest enemy target, deal <color=#2caadb>Hydro damage</color> equal to <color=#f26c1c>100%</color> of attack and apply <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Pilih target musuh terdekat, berikan <color=#2caadb>Hydro damage</color> setara <color=#f26c1c>100%</color> Attack lalu terapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Select 1 enemy target, deal <color=#2caadb>Hydro damage</color> equal to <color=#f26c1c>130%</color> of attack to it and apply <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Pilih 1 target musuh, berikan <color=#2caadb>Hydro damage</color> setara <color=#f26c1c>130%</color> Attack kepadanya lalu terapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=Deals AoE <color=#2caadb>Hydro damage</color> in a cone-shaped area and cleanses buff.	Memberikan AoE <color=#2caadb>Hydro damage</color> dalam area berbentuk kerucut dan membersihkan buff.
+=Deals AoE <color=#8679e8>Corrosion Damage</color> to the selected target and all enemies within a <color=#f26c1c>3×3 area</color> and cleanses buffs.	Memberikan AoE <color=#8679e8>Corrosion Damage</color> ke target terpilih dan semua musuh dalam <color=#f26c1c>area 3×3</color> lalu membersihkan buff.
+=Deal AoE <color=#8679e8>Corrosion damage</color> to the target and all enemy units <color=#f26c1c>within a 3x3 area</color>.	Memberikan AoE <color=#8679e8>Corrosion damage</color> ke target dan semua unit musuh <color=#f26c1c>dalam area 3x3</color>.
+=Selects the direction of the nearest enemy target, dealing AoE <color=#e67129>Burn damage</color> in that direction, and generates <color=#3487e0>{0}</color>.	Memilih arah target musuh terdekat, memberikan AoE <color=#e67129>Burn damage</color> ke arah itu, lalu menghasilkan <color=#3487e0>{0}</color>.
+=Selects the direction that can hit the most enemy targets, dealing AoE physical damage equal to <color=#f26c1c>80%</color> of attack to all enemy targets within <color=#f26c1c>5×6 tiles in front</color>.	Memilih arah yang bisa mengenai paling banyak target musuh, memberikan AoE physical damage setara <color=#f26c1c>80%</color> Attack ke semua target musuh <color=#f26c1c>dalam 5×6 tile di depan</color>.
+=Selects the direction that can hit the most enemy targets, dealing AoE physical damage in front.	Memilih arah yang bisa mengenai paling banyak target musuh, memberikan AoE physical damage di depan.
+=Selects the farthest enemy target, dealing physical damage equal to <color=#f26c1c>130%</color> of attack and applies a <color=#3487e0>Defiance</color> mark.	Memilih target musuh terjauh, memberikan physical damage setara <color=#f26c1c>130%</color> Attack lalu menerapkan tanda <color=#3487e0>Defiance</color>.
+=Deals physical damage on the farthest enemy target and applies a <color=#3487e0>Defiance</color> mark.	Memberikan physical damage ke target musuh terjauh lalu menerapkan tanda <color=#3487e0>Defiance</color>.
+=Selects 1 enemy target within <color=#f26c1c>7 tiles</color>, dealing fixed damage to it and all enemy targets within <color=#f26c1c>3 tiles</color>, then applies <color=#3487e0>{0}</color>.	Memilih 1 target musuh <color=#f26c1c>dalam 7 tile</color>, memberikan fixed damage kepadanya dan semua target musuh <color=#f26c1c>dalam 3 tile</color>, lalu menerapkan <color=#3487e0>{0}</color>.
+=At the start of the turn, deals AoE damage equal to <color=#f26c1c>120%</color> of attack to all enemies on the battlefield.	Di awal giliran, memberikan AoE damage setara <color=#f26c1c>120%</color> Attack ke semua musuh di medan perang.
+=At the start of the turn, deal AoE damage to all enemy targets on the battlefield.	Di awal giliran, memberikan AoE damage ke semua target musuh di medan perang.
+=Deals fixed damage equal to <color=#f26c1c>30%</color> of their max HP to all enemy targets on the battlefield and applies <color=#3487e0>{0}</color> to them.	Memberikan fixed damage setara <color=#f26c1c>30%</color> Max HP mereka ke semua target musuh di medan perang lalu menerapkan <color=#3487e0>{0}</color> pada mereka.
+=Deals fixed damage to all enemy targets on the battlefield and applies <color=#3487e0>{0}</color>.	Memberikan fixed damage ke semua target musuh di medan perang dan menerapkan <color=#3487e0>{0}</color>.
+=When the summoner's side's turn ends, deals AoE true damage equal to <color=#f26c1c>3000%</color> of attack to all enemy units.	Saat giliran pihak pemanggil berakhir, memberikan AoE true damage setara <color=#f26c1c>3000%</color> Attack ke semua unit musuh.
+=Self-destructs upon death, dealing <color=#42cce0>Freeze damage</color> equal to <color=#f26c1c>200%</color> of attack to all targets within <color=#f26c1c>3 tiles</color>.	Meledakkan diri saat mati, memberikan <color=#42cce0>Freeze damage</color> setara <color=#f26c1c>200%</color> Attack ke semua target <color=#f26c1c>dalam 3 tile</color>.
+=Self-destructs upon death, dealing <color=#42cce0>Freeze damage</color> to all targets within <color=#f26c1c>3 tiles</color>.	Meledakkan diri saat mati, memberikan <color=#42cce0>Freeze damage</color> ke semua target <color=#f26c1c>dalam 3 tile</color>.
+=At the end of this unit's action, deals AoE Physical damage to all enemy targets <color=#f26c1c>below 20% HP</color> and all targets <color=#f26c1c>within 4 tiles</color> of them.	Di akhir aksi unit ini, memberikan AoE Physical damage ke semua target musuh <color=#f26c1c>ber-HP di bawah 20%</color> dan semua target <color=#f26c1c>dalam 4 tile</color> dari mereka.
+=At the end of the heavy weapons team's action, deal AoE Physical damage to the target and all targets <color=#f26c1c>within 2 tiles</color>	Di akhir aksi heavy weapons team, berikan AoE Physical damage ke target dan semua target <color=#f26c1c>dalam 2 tile</color>
+=After attacking an enemy target, the Patroller-324 nearest to the target performs Support Action, dealing targeted Physical and stability damage.	Setelah menyerang target musuh, Patroller-324 yang terdekat dengan target melakukan Support Action, memberikan Physical damage bertarget dan Stability damage.
+=If there are no enemy units within <color=#f26c1c>4 tiles</color>, perform an additional attack and apply <color=#3487e0>{0}</color> to the target.	Jika tidak ada unit musuh <color=#f26c1c>dalam 4 tile</color>, lakukan serangan tambahan lalu terapkan <color=#3487e0>{0}</color> pada target.
+=If there are no enemy units within <color=#f26c1c>3 tiles</color> around self, perform an additional attack on the original target.	Jika tidak ada unit musuh <color=#f26c1c>dalam 3 tile</color> di sekitar diri sendiri, lakukan serangan tambahan pada target semula.
+=If AoE damage is dealt, apply <color=#f26c1c>1</color> debuff for <color=#f26c1c>1</color> turn.	Jika damage AoE diberikan, terapkan <color=#f26c1c>1</color> debuff selama <color=#f26c1c>1</color> giliran.
+=Apply <color=#3487e0>{1}</color> for <color=#f26c1c>1 turn</color> after the first attack.	Terapkan <color=#3487e0>{1}</color> selama <color=#f26c1c>1 giliran</color> setelah serangan pertama.
+=If the targets are in cover, additionally applies <color=#3487e0>{1}</color>.	Jika target berada di balik Cover, juga menerapkan <color=#3487e0>{1}</color>.
+=If the target is not protected by Cover when damage is dealt, applies <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Jika target tidak terlindungi Cover saat damage diberikan, menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=If the target is not protected by Cover when damage is dealt, applies <color=#3487e0>{0}</color>.	Jika target tidak terlindungi Cover saat damage diberikan, menerapkan <color=#3487e0>{0}</color>.
+
+# --- penerapan status ---
+=Randomly select <color=#f26c1c>2</color> allied units (excluding self), apply <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color>, prioritizing targets without <color=#3487e0>{0}</color>.	Memilih <color=#f26c1c>2</color> unit sekutu secara acak (kecuali diri sendiri), menerapkan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color>, mengutamakan target yang belum memiliki <color=#3487e0>{0}</color>.
+=At the end of this unit's action, applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> to <color=#f26c1c>2</color> allies within <color=#f26c1c>4 tiles</color> of this unit.	Di akhir aksi unit ini, menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> ke <color=#f26c1c>2</color> sekutu <color=#f26c1c>dalam 4 tile</color> dari unit ini.
+=Selects <color=#f26c1c>1 ally unit</color> on the battlefield and applies <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color>.	Memilih <color=#f26c1c>1 unit sekutu</color> di medan perang lalu menerapkan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color>.
+=Apply <color=#3487e0>{0}</color> to an ally unit.	Terapkan <color=#3487e0>{0}</color> ke satu unit sekutu.
+=Selects <color=#f26c1c>1 enemy unit</color> on the battlefield and applies <color=#3487e0>{0}</color> to it for <color=#f26c1c>2 turns</color>.	Memilih <color=#f26c1c>1 unit musuh</color> di medan perang lalu menerapkan <color=#3487e0>{0}</color> kepadanya selama <color=#f26c1c>2 giliran</color>.
+=Applies <color=#3487e0>{0}</color> to an enemy unit.	Menerapkan <color=#3487e0>{0}</color> ke satu unit musuh.
+=All enemy units on the battlefield gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Semua unit musuh di medan perang mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=All enemy units on the battlefield gains <color=#3487e0>{0}</color>.	Semua unit musuh di medan perang mendapatkan <color=#3487e0>{0}</color>.
+=Applies <color=#f26c1c>4 stacks</color> of <color=#3487e0>{0}</color> to the killer of this unit.	Menerapkan <color=#f26c1c>4 stack</color> <color=#3487e0>{0}</color> pada yang membunuh unit ini.
+=Applies <color=#3487e0>{0}</color> to the killer of this unit.	Menerapkan <color=#3487e0>{0}</color> pada yang membunuh unit ini.
+=If this unit has the <color=#3487e0>{0}</color> effect when it is destroyed, applies <color=#3487e0>{1}</color> to all enemy units.	Jika unit ini memiliki efek <color=#3487e0>{0}</color> saat hancur, menerapkan <color=#3487e0>{1}</color> ke semua unit musuh.
+=After launching an active attack on an enemy target, applies <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Setelah melancarkan serangan aktif pada target musuh, menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=After launching an active attack on an enemy target, applies <color=#3487e0>{0}</color>.	Setelah melancarkan serangan aktif pada target musuh, menerapkan <color=#3487e0>{0}</color>.
+=When attacked, if the attacker has no buffs, applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> to self for <color=#f26c1c>3 turns</color>.	Saat diserang, jika penyerangnya tidak memiliki buff, menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> pada diri sendiri selama <color=#f26c1c>3 giliran</color>.
+=When attacked, if the attacker has no buffs, applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> to self.	Saat diserang, jika penyerangnya tidak memiliki buff, menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> pada diri sendiri.
+=Removed after taking damage that exploits a weakness.	Hilang setelah menerima damage yang mengeksploitasi kelemahan.
+=Reduces Confectance Index by 2 points, and reduces target's Confectance skill damage by 30% for 1 turn.	Mengurangi Confectance Index 2 poin, dan mengurangi damage skill Confectance target sebesar 30% selama 1 giliran.
+
+# --- perolehan status ---
+=At the start of action, gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Di awal aksi, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=Enter <color=#3487e0>{0}</color> state.	Masuk ke kondisi <color=#3487e0>{0}</color>.
+=At the end of the round, randomly gains one of <color=#3487e0>{0}</color> or <color=#3487e0>{1}</color>.	Di akhir ronde, secara acak mendapatkan salah satu dari <color=#3487e0>{0}</color> atau <color=#3487e0>{1}</color>.
+=When healing is received, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Saat menerima healing, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=When taking damage, if this unit does not have a Shield-type effect, gains <color=#3487e0>{0}</color>.	Saat menerima damage, jika unit ini tidak memiliki efek bertipe Shield, mendapatkan <color=#3487e0>{0}</color>.
+=At the start of the battle, for each allied target on the field (excluding self), gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> and <color=#f26c1c>1 point</color> of Confectance Index.	Di awal pertempuran, untuk setiap target sekutu di medan (kecuali diri sendiri), mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> dan <color=#f26c1c>1 poin</color> Confectance Index.
+=At the start of the battle, the allied Doll with the highest HP summons a <color=#3487e0>{0}</color>.	Di awal pertempuran, Doll sekutu ber-HP tertinggi memanggil <color=#3487e0>{0}</color>.
+=At the start of the battle, the allied Doll with the highest attack summons a <color=#3487e0>{0}</color>.	Di awal pertempuran, Doll sekutu dengan serangan tertinggi memanggil <color=#3487e0>{0}</color>.
+=If this unit's stability index is greater than <color=#f26c1c>0</color>, grants additional <color=#3487e0>{0}</color>.	Jika Stability Index unit ini lebih dari <color=#f26c1c>0</color>, memberi tambahan <color=#3487e0>{0}</color>.
+
+# --- pemulihan & pertahanan ---
+=At the end of the action, if stability index is greater than <color=#f26c1c>0</color>, restore HP equal to <color=#f26c1c>50%</color> of attack to Atrocity Thorn.	Di akhir aksi, jika Stability Index lebih dari <color=#f26c1c>0</color>, memulihkan HP setara <color=#f26c1c>50%</color> Attack ke Atrocity Thorn.
+=At the end of the action, if stability index is greater than <color=#f26c1c>0</color>, restore HP to self.	Di akhir aksi, jika Stability Index lebih dari <color=#f26c1c>0</color>, memulihkan HP pada diri sendiri.
+=When <color=#3487e0>{0}</color> ends, Belka recovers <color=#f26c1c>30%</color> of maximum HP and <color=#f26c1c>4 points</color> of stability.	Saat <color=#3487e0>{0}</color> berakhir, Belka memulihkan <color=#f26c1c>30%</color> HP maksimum dan <color=#f26c1c>4 poin</color> Stability.
+=Reduces damage taken by <color=#f26c1c>30%</color> and gains 1 stack of <color=#3487e0>{0}</color> after using a Freeze-type skill.	Mengurangi damage yang diterima <color=#f26c1c>30%</color> dan mendapatkan 1 stack <color=#3487e0>{0}</color> setelah memakai skill tipe Freeze.
+=Reduces damage taken and gains <color=#3487e0>{0}</color> after using a Freeze-type skill.	Mengurangi damage yang diterima dan mendapatkan <color=#3487e0>{0}</color> setelah memakai skill tipe Freeze.
+=Each time the user is attacked, an additional <color=#f26c1c>2 points</color> of stability are consumed, reducing damage taken by <color=#f26c1c>50%</color>.	Setiap kali pengguna diserang, tambahan <color=#f26c1c>2 poin</color> Stability terpakai, mengurangi damage yang diterima sebesar <color=#f26c1c>50%</color>.
+=Each time the user is attacked, an additional <color=#f26c1c>2 points</color> of stability are consumed, reducing damage taken.	Setiap kali pengguna diserang, tambahan <color=#f26c1c>2 poin</color> Stability terpakai, mengurangi damage yang diterima.
+=Stability damage taken is reduced by <color=#f26c1c>3 points</color> for every other allied unit on the battlefield.	Stability damage yang diterima berkurang sebesar <color=#f26c1c>3 poin</color> untuk setiap unit sekutu lain di medan perang.
+=Stability damage taken is reduced for every other allied unit on the battlefield.	Stability damage yang diterima berkurang untuk setiap unit sekutu lain di medan perang.
+=When attacked by an enemy unit with a Freeze debuff, damage taken is reduced by <color=#f26c1c>5%</color>.	Saat diserang unit musuh yang memiliki debuff Freeze, damage yang diterima berkurang sebesar <color=#f26c1c>5%</color>.
+=Shield effects applied by this unit are increased by <color=#f26c1c>12%</color>.	Efek shield yang diberikan unit ini meningkat sebesar <color=#f26c1c>12%</color>.
+=Immune to all control effects, cannot be knocked back.	Kebal terhadap semua efek control, tidak bisa didorong mundur.
+=Ignores blocking from enemy units while moving.	Mengabaikan halangan dari unit musuh saat bergerak.
+=If Belka has <color=#3487e0>{0}</color>, she becomes immune to movement debuffs.	Jika Belka memiliki <color=#3487e0>{0}</color>, dia jadi kebal terhadap debuff pergerakan.
+
+# --- stat ---
+=Stability damage dealt by all allied units is increased by <color=#f26c1c>1 point</color>.	Stability damage dari semua unit sekutu meningkat sebesar <color=#f26c1c>1 poin</color>.
+=Damage dealt by active attacks is increased.	Damage dari serangan aktif meningkat.
+=Increases damage dealt by <color=#f26c1c>10%</color> if this unit expends mobility.	Damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color> jika unit ini memakai mobilitasnya.
+=When performing consecutive active attacks on the same enemy target in the same turn, critical damage dealt is increased by <color=#f26c1c>5%</color>.	Saat melakukan serangan aktif berturut-turut pada target musuh yang sama dalam satu giliran, Critical Damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color>.
+=If the target has Corrosion debuffs, increase damage by an additional <color=#f26c1c>2.5%</color>.	Jika target memiliki debuff Corrosion, damage meningkat tambahan <color=#f26c1c>2.5%</color>.
+=If the target has a defense debuff, this skill's cooldown is reduced by <color=#f26c1c>1 turn</color>.	Jika target memiliki debuff Defense, cooldown skill ini berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=For <color=#f26c1c>each</color> <color=#e67129>Blaze Support</color> plugin possessed, attack is increased by <color=#f26c1c>3%</color>, stacking up to <color=#f26c1c>6 times</color>.	Untuk <color=#f26c1c>setiap</color> plugin <color=#e67129>Blaze Support</color> yang dimiliki, Attack meningkat sebesar <color=#f26c1c>3%</color>, menumpuk hingga <color=#f26c1c>6 kali</color>.
+=For <color=#f26c1c>each</color> <color=#e67129>Blaze Support</color> plugin possessed, Burn damage is increased by <color=#f26c1c>5%</color>, stacking up to <color=#f26c1c>9 times</color>.	Untuk <color=#f26c1c>setiap</color> plugin <color=#e67129>Blaze Support</color> yang dimiliki, Burn damage meningkat sebesar <color=#f26c1c>5%</color>, menumpuk hingga <color=#f26c1c>9 kali</color>.
+=When attacking enemy targets on Burn-type terrain tiles, damage dealt is increased by <color=#f26c1c>5%</color>.	Saat menyerang target musuh di tile medan tipe Burn, damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color>.
+=When attacking enemy targets on Burn-type terrain tiles, damage dealt is increased by <color=#f26c1c>10%</color> and critical damage is increased by <color=#f26c1c>20%</color>.	Saat menyerang target musuh di tile medan tipe Burn, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color> dan Critical Damage meningkat sebesar <color=#f26c1c>20%</color>.
+
+# --- Belka & karakter khusus ---
+=At the start of the turn, if there are enemy units within <color=#f26c1c>5 tiles</color> of self, Belka gains <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Di awal giliran, jika ada unit musuh <color=#f26c1c>dalam 5 tile</color> dari diri sendiri, Belka mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=When using the active skill <color=#3487e0>Crackling Core</color> to attack an enemy target with <color=#3487e0>{0}</color>, Belka's attack is increased by <color=#f26c1c>10%</color>.	Saat memakai active skill <color=#3487e0>Crackling Core</color> untuk menyerang target musuh yang memiliki <color=#3487e0>{0}</color>, serangan Belka meningkat sebesar <color=#f26c1c>10%</color>.
+=At the end of the action, if there is a boss unit on the field with <color=#3487e0>{0}</color>, Belka gains <color=#3487e0>{1}</color> and <color=#3487e0>{2}</color> for <color=#f26c1c>1 turn</color>.	Di akhir aksi, jika ada unit boss di medan yang memiliki <color=#3487e0>{0}</color>, Belka mendapatkan <color=#3487e0>{1}</color> dan <color=#3487e0>{2}</color> selama <color=#f26c1c>1 giliran</color>.
+=Before the Ultimate Skill <color=#3487e0>Leaping Arc</color> resolves, Belka cleanses <color=#f26c1c>2</color> buffs from the enemy target.	Sebelum Ultimate Skill <color=#3487e0>Leaping Arc</color> berjalan, Belka membersihkan <color=#f26c1c>2</color> buff dari target musuh.
+
+# --- label & teks internal ---
+=Active 1 Assist	Assist Active 1
+=Load Ammo	Isi Amunisi
+=Reduce Ammo	Kurangi Amunisi
+=Start with full ammo	Mulai dengan amunisi penuh
+=Actual stability consumption	Pemakaian Stability sebenarnya
+=Passively activated, not displayed on stat panel.	Aktif secara pasif, tidak ditampilkan di panel statistik.
+=Picking up armor removes summon	Mengambil armor menghapus summon
+=Riptide buff triggered	Buff Riptide terpicu
+=Weak Fire Spell Field	Weak Fire Spell Field
+=Activate Concussion Grenade	Aktifkan Concussion Grenade
+=Flare Cleanse	Flare Cleanse

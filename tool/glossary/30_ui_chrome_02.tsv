@@ -1,0 +1,118 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 2).
+#
+# "∞", "// R-01", "{0}S", "[Emoji]" tidak dimasukkan: isinya simbol atau kode
+# yang keluarannya identik.
+#
+# "MVP", "MOD", "CG", "VA" dibiarkan Inggris — singkatan yang dipakai pemain.
+#range 75000 90000
+
+Play Count	Jumlah Main
+Get Ready!	Bersiap!
+Click anywhere to start	Klik di mana saja untuk mulai
+Deputy Platoon Leader	Wakil Ketua Platoon
+Disband Platoon	Bubarkan Platoon
+Leave the Platoon	Keluar dari Platoon
+You have already left the Platoon	Kamu sudah keluar dari Platoon
+Enter a name or ID	Masukkan nama atau ID
+Team Name Modification	Ubah Nama Tim
+Interrupted	Terhenti
+Player {0} has withdrawn	Pemain {0} mengundurkan diri
+Immune to attacks for {0}s	Kebal serangan selama {0}d
+Team Withdrawal	Penarikan Tim
+Enemy has escaped	Musuh berhasil kabur
+Manager unlocks	Manajer terbuka
+No Incident	Tidak Ada Insiden
+Collapse storm will begin in 20 seconds	Badai Collapse dimulai dalam 20 detik
+Mission Unlocked	Misi Terbuka
+Decrease per turn:	Penurunan tiap giliran:
+Remaining turns for survival:	Sisa giliran untuk bertahan:
+Eliminate ordinary enemies:	Kalahkan musuh biasa:
+Eliminate elite enemies:	Kalahkan musuh elite:
+Eliminate the enemy boss:	Kalahkan boss musuh:
+Oxygen+{0}	Oksigen+{0}
+Configuration Error	Kesalahan Konfigurasi
+Standard Manufacturing	Manufaktur Standar
+Expert Manufacturing	Manufaktur Ahli
+Please accept my blessing	Terimalah restuku
+No Status Posted	Belum Ada Status
+Bless	Restui
+Blessed	Direstui
+Bless All	Restui Semua
+{0} recruited {1}	{0} merekrut {1}
+Number of blessings: {0}/{1}	Jumlah restu: {0}/{1}
+Platoon Internal Ranking	Peringkat Internal Platoon
+Today's Expedition Experience	Pengalaman Ekspedisi Hari Ini
+Total Expedition Experience	Total Pengalaman Ekspedisi
+Platoon Record	Rekor Platoon
+My Record	Rekorku
+Start Mission	Mulai Misi
+Return to current progress	Kembali ke progres saat ini
+Periodic Returns	Imbal Hasil Berkala
+Reward Summary	Ringkasan Hadiah
+Rewards Reset In {0}	Hadiah Diatur Ulang dalam {0}
+Friend Recommendations	Rekomendasi Teman
+No platoon	Tidak ada platoon
+Last Login	Login Terakhir
+Time Added	Waktu Ditambahkan
+Battle support unit level	Level unit battle support
+Battle Support unit class	Kelas unit Battle Support
+Task List	Daftar Tugas
+Battlelog Ranking	Peringkat Battlelog
+Special Store	Toko Khusus
+Suitability Rating Obtained	Peringkat Kecocokan Didapat
+Currently Unable to Proceed	Saat Ini Tidak Bisa Dilanjutkan
+Points Bonus	Bonus Poin
+Selected New Products	Produk Baru Pilihan
+Voyage Logs Ended	Catatan Pelayaran Berakhir
+No events	Tidak ada peristiwa
+Must activate previous level	Harus mengaktifkan level sebelumnya
+Can be activated	Bisa diaktifkan
+Level activated	Level diaktifkan
+Evolve	Evolusi
+Defeat Boss Reward	Hadiah Kalahkan Boss
+Squad Members Who Defeated the Boss	Anggota Regu yang Mengalahkan Boss
+No Members Yet	Belum Ada Anggota
+Investigation Points	Poin Investigasi
+Outpost Captured	Pos Terdepan Direbut
+Pause Expedition	Jeda Ekspedisi
+Expedition Ended	Ekspedisi Berakhir
+Not taken	Belum diambil
+Taken	Sudah diambil
+No rank	Tidak ada peringkat
+Expedition Event	Peristiwa Ekspedisi
+{0} Star	{0} Bintang
+View All	Lihat Semua
+Item Shards	Serpihan Item
+Storage Tab	Tab Penyimpanan
+Video Volume	Volume Video
+Download	Unduh
+Download voice resource package	Unduh paket sumber daya suara
+Korean VA	VA Korea
+{0} has arrived!	{0} sudah tiba!
+{0} not obtained yet	{0} belum didapat
+MOD conditions not met	Syarat MOD belum terpenuhi
+Too many inputs, please try again later	Terlalu banyak masukan, coba lagi nanti
+Unlockable via story	Bisa dibuka lewat cerita
+Filter Status	Status Filter
+Carrier Card	Kartu Pembawa
+Current Authority Rewards	Hadiah Otoritas Saat Ini
+Auto Battle Available	Auto Battle Tersedia
+Chests explored {0}/{1}	Peti dijelajahi {0}/{1}
+Required score {0}	Skor yang dibutuhkan {0}
+Mellow Commission	Penugasan Santai
+Note: Edit	Catatan: Ubah
+Friend successfully added	Teman berhasil ditambahkan
+Declined	Ditolak
+Failed to add, friend list is full	Gagal menambahkan, daftar teman penuh
+Removal successful	Penghapusan berhasil
+The other person isn't your friend	Orang itu bukan temanmu
+Paste successful	Tempel berhasil
+The World	Dunia
+System	Sistem
+Yesterday {0}	Kemarin {0}
+Over a month ago	Lebih dari sebulan lalu
+Personal Introduction	Perkenalan Pribadi
+Outfit CG	CG Busana
+Unlock current menu item first	Buka dulu item menu saat ini
+Random	Acak
+Confirm Invite	Konfirmasi Undangan

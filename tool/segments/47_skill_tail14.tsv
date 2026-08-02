@@ -1,0 +1,23 @@
+# Deskripsi SKILL — putaran keempat belas ekor panjang.
+#
+# Bagian 4 dari empat berkas yang ditulis sekaligus (44-47). Tetap 1:1, harfiah ("=").
+#
+# Anomali sumber yang disalin apa adanya: apostrof melengkung pada "this skill’s
+# cooldown" dan "the target’s original location".
+#range 0 130000
+
+# --- pemicu & kondisi ---
+=Reduces the Confectance Index consumption of the active skill <color=#3487e0>Slaughter Sequence</color> by <color=#f26c1c>1 point</color>.	Mengurangi pemakaian Confectance Index active skill <color=#3487e0>Slaughter Sequence</color> sebanyak <color=#f26c1c>1 poin</color>.
+=At the start of action, if there are enemy units with <color=#3487e0>{1}</color> on the field, gains <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Di awal aksi, jika ada unit musuh yang memiliki <color=#3487e0>{1}</color> di medan, mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Before attacking, if this unit moved more than <color=#f26c1c>3 tiles</color>, increases the user's critical rate by <color=#f26c1c>10%</color>.	Sebelum menyerang, jika unit ini bergerak lebih dari <color=#f26c1c>3 tile</color>, Critical Rate pengguna meningkat sebesar <color=#f26c1c>10%</color>.
+=If there are no other allied units within <color=#f26c1c>3 tiles</color> of the user, increases damage dealt by <color=#f26c1c>10%</color>.	Jika tidak ada unit sekutu lain <color=#f26c1c>dalam 3 tile</color> dari pengguna, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>.
+=The active skill <color=#3487e0>Crushing Revolution</color> deals <color=#f26c1c>30%</color> increased damage when hitting a single target.	Active skill <color=#3487e0>Crushing Revolution</color> memberikan damage <color=#f26c1c>30%</color> lebih besar saat mengenai satu target.
+=When the active skill <color=#3487e0>Quenching Slash</color> kills an enemy target, reduces this skill’s cooldown by <color=#f26c1c>2 turns</color>.	Jika active skill <color=#3487e0>Quenching Slash</color> membunuh target musuh, cooldown skill ini berkurang sebanyak <color=#f26c1c>2 giliran</color>.
+=If under the effects of a Burn buff, gains immunity to <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color>, and increases damage by <color=#f26c1c>5%</color>.	Jika sedang terkena buff Burn, kebal terhadap <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color>, dan damage meningkat sebesar <color=#f26c1c>5%</color>.
+=When the user has a Burn Buff, they gain immunity to <color=#3487e0>Frozen</color> and <color=#3487e0>Frigid</color>, and increases damage dealt by <color=#f26c1c>5%</color>.	Saat pengguna memiliki Buff Burn, ia kebal terhadap <color=#3487e0>Frozen</color> dan <color=#3487e0>Frigid</color>, dan damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color>.
+=For every <color=#f26c1c>1 tile</color> moved before an attack, the critical rate and critical damage of the attack is increased by <color=#f26c1c>5%</color>, to a maximum increase of <color=#f26c1c>15%</color>.	Untuk setiap <color=#f26c1c>1 tile</color> yang ditempuh sebelum menyerang, Critical Rate dan Critical Damage serangan itu meningkat sebesar <color=#f26c1c>5%</color>, maksimal naik sebesar <color=#f26c1c>15%</color>.
+=Upon taking fatal damage, enter the <color=#3487e0>{0}</color> state for <color=#f26c1c>3 rounds</color>.	Saat menerima damage mematikan, masuk ke kondisi <color=#3487e0>{0}</color> selama <color=#f26c1c>3 ronde</color>.
+=Upon taking fatal damage, enter the <color=#3487e0>{0}</color> state.	Saat menerima damage mematikan, masuk ke kondisi <color=#3487e0>{0}</color>.
+=After attacking, reduce skill cooldown by <color=#f26c1c>1 turn</color>.	Setelah menyerang, cooldown skill berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=The City Warden gains <color=#3487e0>{1}</color>.	City Warden mendapatkan <color=#3487e0>{1}</color>.
+=If the enemy enters Stability Break, gains Confectance Index, restores stability, and applies <color=#3487e0>{1}</color> to the target.	Jika musuh masuk Stability Break, mendapatkan Confectance Index, memulihkan Stability, lalu menerapkan <color=#3487e0>{1}</color> ke target.

@@ -1,0 +1,139 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 8).
+#
+# "Red Dot Notification" adalah titik merah penanda konten baru di menu —
+# diterjemahkan "Notifikasi Titik Merah" supaya jelas bagi pemain yang tidak
+# terbiasa dengan istilah aslinya.
+#
+# "SG Aiming Hint", "SMG Buff Effect 1 Aiming Hint", "Crisis Level Hint 1" dan
+# sejenisnya adalah label internal pembuat game (kunci petunjuk, bukan kalimat
+# yang tampil utuh) — tetap diterjemahkan karena sebagian muncul sebagai judul
+# panel bantuan.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Buff, Cover, Auto Battle,
+# HOC, Imago Factor, Imagoform, Neural Helix, SG, SMG, Lv.
+#range 75000 90000
+
+Put in the ice cubes	Masukkan es batunya
+First, add {0}	Pertama, tambahkan {0}
+Then, add {0}	Lalu, tambahkan {0}
+And you can't go without {0}	Dan tidak boleh ketinggalan {0}
+Finally, don't forget some {0} to taste	Terakhir, jangan lupa {0} secukupnya
+Mixing complete	Pencampuran selesai
+Coffee sold out	Kopi habis terjual
+Stop making drinks	Berhenti membuat minuman
+Today	Hari Ini
+Approval List	Daftar Persetujuan
+Appoint as Deputy Platoon Leader	Angkat jadi Wakil Ketua Platoon
+No Growth Data that match the conditions	Tidak ada Growth Data yang cocok dengan kriteria
+Contains any of the following main stats	Mengandung salah satu stat utama berikut
+Selectable stats	Stat yang bisa dipilih
+Stats selected	Stat terpilih
+Any 1	Salah satu dari 1
+Any 2	Salah satu dari 2
+Default plan	Rencana bawaan
+Triggered <color=#f26c1c>{0}</color>	Memicu <color=#f26c1c>{0}</color>
+Selected <color=#f26c1c>{0}</color> for Clash	Memilih <color=#f26c1c>{0}</color> untuk Clash
+Active Card	Kartu Aktif
+You've reached the limit of your blacklist	Kamu sudah mencapai batas daftar hitam
+You're clicking too rapidly	Kamu mengeklik terlalu cepat
+The order has expired	Pesanannya sudah kedaluwarsa
+The reward is unable to be claimed	Hadiahnya tidak bisa diklaim
+No missions	Tidak ada misi
+Extreme Projection	Proyeksi Ekstrem
+Dual Phase Weaknesses Score	Skor Kelemahan Fase Ganda
+Dual Weaknesses Support Score	Skor Dukungan Kelemahan Ganda
+Single Weakness Score	Skor Kelemahan Tunggal
+Single Weakness Counterattack Score	Skor Serangan Balik Kelemahan Tunggal
+Counterattack Dual Weaknesses Score	Skor Serangan Balik Kelemahan Ganda
+Points increased: {0}	Poin bertambah: {0}
+Points increased: {0} (Maximum reached)	Poin bertambah: {0} (Maksimum tercapai)
+Rewards that can be obtained	Hadiah yang bisa didapat
+Cancel Account	Hapus Akun
+Next level modification preview	Pratinjau modifikasi level berikutnya
+Attachment storage full, cannot discard supplies	Penyimpanan attachment penuh, tidak bisa membuang perbekalan
+No buffs	Tidak ada buff
+Not enough Amplifier Components	Komponen Amplifier tidak cukup
+Breakout Successful	Terobosan Berhasil
+Effect Explanation	Penjelasan Efek
+Auto Skills	Skill Otomatis
+Base Layer Drive	Penggerak Lapisan Dasar
+Current Effects	Efek Saat Ini
+Go to Settings	Buka Pengaturan
+Red Dot Notification for Neural Expansion Upgrades	Notifikasi Titik Merah untuk Peningkatan Neural Expansion
+Red Dot Notifications for Neural Helix	Notifikasi Titik Merah untuk Neural Helix
+Red Dot Notifications for Keybinds	Notifikasi Titik Merah untuk Keybind
+Red Dot Notification for Weapon Replacements	Notifikasi Titik Merah untuk Penggantian Senjata
+Red Dot Notifications for Weapon Calibrations	Notifikasi Titik Merah untuk Kalibrasi Senjata
+Red Dot Notifications for Attachment Replacements	Notifikasi Titik Merah untuk Penggantian Attachment
+Red Dot Notifications for Attachment Calibration	Notifikasi Titik Merah untuk Kalibrasi Attachment
+Route	Rute
+Squad Buff	Buff Regu
+Challenge Level {0}	Level Tantangan {0}
+Floor {0}	Lantai {0}
+Formation saved	Formasi tersimpan
+Max Point: {0}	Poin Maks: {0}
+Entering and exiting Cover	Masuk dan keluar Cover
+Warning! Enemy elites have joined the battle!	Awas! Musuh elite ikut bertempur!
+Don't remind me again for today	Jangan ingatkan lagi hari ini
+Settlement Completed	Perhitungan Selesai
+Doll deployments have been refreshed	Penempatan Doll sudah disegarkan
+Next Floor	Lantai Berikutnya
+Contains any {0} of the following substats	Mengandung {0} dari substat berikut
+Unlock component	Buka komponen
+Unlock all components of the selected type	Buka semua komponen jenis yang dipilih
+No component selected	Tidak ada komponen dipilih
+Too many inputs, please try again in 5 seconds	Terlalu banyak masukan, coba lagi dalam 5 detik
+Component unlocked	Komponen terbuka
+Component locked	Komponen terkunci
+No components match the criteria	Tidak ada komponen yang cocok dengan kriteria
+Default Team	Tim Bawaan
+Set as default team	Jadikan tim bawaan
+Augmentation success	Augmentasi berhasil
+Insufficient materials for Neural Expansion	Bahan untuk Neural Expansion tidak cukup
+Not enough Sardis Gold for Neural Expansion	Sardis Gold untuk Neural Expansion tidak cukup
+The level cap will be increased after limit break	Batas level akan naik setelah limit break
+Exit Observation Mode	Keluar dari Mode Pengamatan
+Defense Results	Hasil Pertahanan
+Outstanding	Luar Biasa
+Vigilant	Waspada
+Unrated	Belum Dinilai
+Route Difficulty	Kesulitan Rute
+Support Effects	Efek Dukungan
+Active Support Effects	Efek Dukungan Aktif
+Soul Affinity	Afinitas Jiwa
+Affinity Dolls: {0}/{1}	Doll Afinitas: {0}/{1}
+Edit Doll	Ubah Doll
+Soul Connection	Koneksi Jiwa
+No stored affinity to retrieve	Tidak ada afinitas tersimpan untuk diambil
+Affinity Details	Detail Afinitas
+Let's talk later	Ngobrol nanti saja
+Selection	Pemilihan
+HOC Parameters	Parameter HOC
+Active Support Skill	Skill Dukungan Aktif
+SG Aiming Hint	Petunjuk Membidik SG
+SMG Buff Effect 1 Aiming Hint	Petunjuk Membidik Efek Buff SMG 1
+SMG Buff Effect 2 Aiming Hint	Petunjuk Membidik Efek Buff SMG 2
+Not enough Delve permit popup	Popup izin Delve tidak cukup
+Crisis Level Hint 1	Petunjuk Tingkat Krisis 1
+Crisis Level Hint 2	Petunjuk Tingkat Krisis 2
+Crisis Level Hint 3	Petunjuk Tingkat Krisis 3
+The Beacon Collection feature has been unlocked	Fitur Beacon Collection sudah terbuka
+Auto Battle has been unlocked	Auto Battle sudah terbuka
+Auto Battle will be unlocked upon level completion	Auto Battle akan terbuka setelah level diselesaikan
+Confirm the dispatch	Konfirmasi pengiriman
+No items	Tidak ada item
+New area unlocked	Area baru terbuka
+Select the type of bounty reward	Pilih jenis hadiah sayembara
+Required Doll Level	Level Doll yang Dibutuhkan
+Select Expedition Depth	Pilih Kedalaman Ekspedisi
+Pursuit failed	Pengejaran gagal
+Pursuit successful	Pengejaran berhasil
+Drop	Jatuhan
+Acquire Eber Paper Cuttings	Dapatkan Eber Paper Cutting
+No Talents	Tidak Ada Talenta
+{0}/{1} Talents Obtained	{0}/{1} Talenta Didapat
+Exploration Level Max	Level Penjelajahan Maks
+Can be claimed at Lv. {0}	Bisa diklaim di Lv. {0}
+Core Stat Multiplier Preview	Pratinjau Core Stat Multiplier
+Imagoform Preview	Pratinjau Imagoform
+Base Stats Improved	Stat Dasar Meningkat

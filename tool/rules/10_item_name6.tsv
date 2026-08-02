@@ -1,0 +1,49 @@
+# Nama item — keluarga sisa.
+#
+# Catatan pola: permainan memakai DUA istilah berbeda untuk hal yang sama —
+# "Attachment Box" dan "Accessory Box" — dan keduanya punya varian tanda pisah
+# maupun titik dua. Semua empat kombinasi ditangkap di sini.
+#
+# Perabot ruang asrama ditulis "<Nama Doll> (Step Bench)". Nama Doll dibawa lewat
+# backref; hanya jenis perabotnya yang diterjemahkan.
+#
+# Kode set plug-in FC: dan FR: dibiarkan apa adanya, sejalan dengan DT:/ES:/DE:.
+#range 0 130000
+
+# --- kotak aksesori (padanan kedua dari Attachment Box) ---
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Accessory Box: (.+)$	Kotak Aksesori Lanjutan \1: \2
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Accessory Box - (.+)$	Kotak Aksesori Lanjutan \1 - \2
+^Assault Rifle Advanced Accessory Box: (.+)$	Kotak Aksesori Lanjutan Assault Rifle: \1
+^Assault Rifle Advanced Accessory Box - (.+)$	Kotak Aksesori Lanjutan Assault Rifle - \1
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Attachment Box: (.+)$	Kotak Attachment Lanjutan \1: \2
+^Custom Stock Bar Box - T(\d)$	Kotak Stock Bar Kustom - T\1
+
+# --- perabot asrama ---
+^(.+) \(Step Bench\)$	\1 (Bangku Tangga)
+^(.+) \(Rec Room Bench\)$	\1 (Bangku Ruang Rekreasi)
+
+# --- kartu fungsi ---
+^Type (I|II|III|IV|V) Function Loadout Card - (.+)$	Kartu Muatan Fungsi Tipe \1 - \2
+^Type (I|II|III|IV|V) Function Carrier Card - (.+)$	Kartu Pembawa Fungsi Tipe \1 - \2
+^Type (I|II|III|IV|V) Component Loadout Card Crafting Permission$	Izin Pembuatan Kartu Muatan Komponen Tipe \1
+
+# --- izin ---
+^Targeted Access Permission$	Izin Akses Bertarget
+^Access Permission$	Izin Akses
+^Parallel Permission$	Izin Paralel
+^Purchase Permission$	Izin Pembelian
+^Practice Permission$	Izin Latihan
+
+# --- poin ---
+^Drill Points$	Poin Latihan
+^Encampment Points$	Poin Perkemahan
+^Ops Points$	Poin Operasi
+^Delivery Performance Points$	Poin Kinerja Pengiriman
+^Courier Points$	Poin Kurir
+^Recon Points$	Poin Pengintaian
+^Troupe Points$	Poin Rombongan
+^Assessment Points$	Poin Penilaian
+
+# --- buku & kenang-kenangan ---
+^Book - (.+)$	Buku - \1
+^Fulfilment Keepsake: (.+)$	Kenang-Kenangan Pemenuhan: \1

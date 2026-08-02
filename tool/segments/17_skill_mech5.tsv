@@ -1,0 +1,39 @@
+# Deskripsi skill — keluarga mekanik putaran kelima.
+# Sumber punya beberapa kejanggalan asli: satu kalimat tanpa titik di ujung,
+# dan satu frasa rusak ("performed in during the round") — dicocokkan apa adanya.
+#range 0 130000
+
+# --- multiplier bertingkat per target ---
+^For each target hit, the damage multiplier is further increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setiap target yang terkena, damage multiplier meningkat lagi \1\2%</color>, hingga maksimal \3\4%</color>.
+^For each target hit, the damage multiplier is further increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum increase of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setiap target yang terkena, damage multiplier meningkat lagi \1\2%</color>, hingga kenaikan maksimal \3\4%</color>.
+^For (<color=#[0-9a-fA-F]+>)each</color> attack performed in during the round, it is increased by an additional (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum increase of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Untuk \1tiap</color> serangan yang dilakukan selama ronde ini, nilainya meningkat tambahan \2\3%</color>, hingga kenaikan maksimal \4\5%</color>.
+
+# --- buff berantai ---
+^After applying a buff to an allied target, increase healing and damage dealt by the next active skill by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah menerapkan buff ke target sekutu, healing dan damage skill aktif berikutnya meningkat sebesar \1\2%</color>.
+# varian berikut TIDAK diakhiri titik di sumbernya
+^When gaining buffs, increase damage dealt by the next (<color=#[0-9a-fA-F]+>)support attack</color> by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, stacking up to (<color=#[0-9a-fA-F]+>)([\d.]+) times</color>$	Saat mendapatkan buff, damage \1support attack</color> berikutnya meningkat sebesar \2\3%</color>, bisa ditumpuk hingga \4\5 kali</color>
+^Considered an (\w+) buff\.$	Dianggap buff \1.
+^Considered a debuff, can be stacked\.$	Dianggap debuff, bisa ditumpuk.
+
+# --- serangan bertarget di medan ---
+^Select 1 enemy target on (<color=#[0-9a-fA-F]+>)Peripheral Battlefield ([\d.]+)</color> or the Core Battlefield, deal Physical damage to it equal to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of (.+) and deal the same damage to other targets (<color=#[0-9a-fA-F]+>)within ([\d.]+) tiles</color>\.$	Pilih 1 target musuh di \1Peripheral Battlefield \2</color> atau Core Battlefield, berikan damage Physical sebesar \3\4%</color> dari \5, dan berikan damage yang sama ke target lain \6dalam \7 tile</color>.
+
+# --- stat ---
+^Increase defense by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan Defense \1\2%</color>.
+^Increase healing and damage dealt by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan healing dan damage yang diberikan \1\2%</color>.
+^Attack decreased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack berkurang sebesar \1\2%</color>.
+^Shield amount gained is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jumlah Shield yang didapat berkurang sebesar \1\2%</color>.
+^Physical and phase damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage Physical dan phase yang diterima berkurang sebesar \1\2%</color>.
+^Increase attack, defense, and HP by ([\d.]+)%\.$	Tingkatkan serangan, Defense, dan HP sebesar \1%.
+^Mobility is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color> for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Mobility berkurang sebesar \1\2 tile</color> selama \3\4 giliran</color>.
+^Damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> per stack, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+) stacks</color>\.$	Damage yang diterima meningkat sebesar \1\2%</color> per stack, hingga maksimal \3\4 stack</color>.
+
+# --- kondisi aksi & elemen ---
+^When making an active attack, attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat melakukan serangan aktif, Attack meningkat sebesar \1\2%</color>.
+^When dealing (<color=#[0-9a-fA-F]+>)(\w+) damage</color>, attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan damage \1\2</color>, Attack meningkat sebesar \3\4%</color>.
+^Damage dealt by active attacks which are not Ultimate skills is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari serangan aktif yang bukan Ultimate skill meningkat sebesar \1\2%</color>.
+^Damage dealt by non-Confectance skills is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari skill non-Confectance meningkat sebesar \1\2%</color>.
+^(\w+) damage increases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> for (<color=#[0-9a-fA-F]+>)([\d.]+) rounds?</color>\.$	Damage \1 meningkat sebesar \2\3%</color> selama \4\5 ronde</color>.
+^(\w+) damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, up to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, lasting for (<color=#[0-9a-fA-F]+>)([\d.]+) rounds?</color>\.$	Damage \1 meningkat sebesar \2\3%</color>, hingga maksimal \4\5%</color>, bertahan \6\7 ronde</color>.
+^When attacked, (<color=#[0-9a-fA-F]+>)each tile</color> of distance from the attacker reduces damage dealt by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum reduction of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat diserang, \1tiap tile</color> jarak dari penyerang mengurangi damage yang diberikan \2\3%</color>, hingga pengurangan maksimal \4\5%</color>.
+^At the end of the action, take fixed damage equal to (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of max HP\.$	Di akhir aksi, menerima fixed damage sebesar \1\2%</color> dari HP maksimum.

@@ -1,0 +1,63 @@
+# Deskripsi SKILL — putaran keenam puluh tujuh ekor panjang.
+#
+# Berkas segments ke-100. Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "mark a  <color=#f26c1c>3×7 tiles area</color>"   (dua spasi)
+#range 0 130000
+
+# --- pendek ---
+=Marks a circle-shaped area within <color=#f26c1c>5 to 10 tiles</color> centered on the user.	Menandai area berbentuk lingkaran <color=#f26c1c>dalam 5 sampai 10 tile</color> berpusat pada pengguna.
+=Marks a circle-shaped area.	Menandai area berbentuk lingkaran.
+=Mark a <color=#f26c1c>5x10 area in front</color> of <color=#3487e0>Arctic Missile Launcher - Electromagnetic</color>.	Menandai <color=#f26c1c>area 5x10 di depan</color> <color=#3487e0>Arctic Missile Launcher - Electromagnetic</color>.
+=Select the nearest enemy target and mark a  <color=#f26c1c>3×7 tiles area</color> around it.	Pilih target musuh terdekat lalu tandai <color=#f26c1c>area 3×7 tile</color> di sekitarnya.
+=Mobility is not affected by movement-type effects.	Mobilitasnya tidak terpengaruh efek bertipe pergerakan.
+=Deals <color=#d4ae08>Electric damage</color> to the nearest enemy target.	Memberikan <color=#d4ae08>Electric damage</color> ke target musuh terdekat.
+=At the start of the turn, gain 5 points of stability.	Di awal giliran, mendapatkan 5 poin Stability.
+=When taking non-weakness damage, stability damage taken is reduced by 1 point.	Saat menerima damage yang bukan kelemahan, Stability damage yang diterima berkurang sebesar 1 poin.
+=Additionally, gains <color=#3487e0>{0}</color>.	Selain itu, mendapatkan <color=#3487e0>{0}</color>.
+=Additionally, this unit gains <color=#3487e0>{0}</color> as well.	Selain itu, unit ini juga mendapatkan <color=#3487e0>{0}</color>.
+=If any weakness is exploited, gains <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Jika ada kelemahan yang dieksploitasi, mendapatkan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=If any weakness is exploited, gains <color=#3487e0>{1}</color>.	Jika ada kelemahan yang dieksploitasi, mendapatkan <color=#3487e0>{1}</color>.
+=Applies <color=#3487e0>{1}</color> to freshly-summoned <color=#3487e0>{0}</color>.	Menerapkan <color=#3487e0>{1}</color> ke <color=#3487e0>{0}</color> yang baru dipanggil.
+=Applies <color=#3487e0>{1}</color> to targets that are not protected by Cover.	Menerapkan <color=#3487e0>{1}</color> ke target yang tidak terlindungi Cover.
+=Applies <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>, and <color=#3487e0>{3}</color> for <color=#f26c1c>1 turn</color>.	Menerapkan <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>, dan <color=#3487e0>{3}</color> selama <color=#f26c1c>1 giliran</color>.
+=Then, applies <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color> to all allies except self.	Setelah itu, menerapkan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color> ke semua sekutu kecuali diri sendiri.
+=The critical damage for this skill is increased by <color=#f26c1c>25%</color>.	Critical Damage skill ini meningkat sebesar <color=#f26c1c>25%</color>.
+=Damage dealt to targets with <color=#3487e0>{0}</color> is increased by <color=#f26c1c>100%</color>.	Damage ke target yang memiliki <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>100%</color>.
+=Reduces this skill's cooldown based on the number of targets hit.	Mengurangi cooldown skill ini berdasarkan jumlah target yang terkena.
+
+# --- serangan ---
+=Selects 1 enemy target <color=#f26c1c>within 9 tiles</color>, deals <color=#2caadb>Hydro damage</color> equal to <color=#f26c1c>120%</color> of attack to it, and expends all points of Confectance Index.	Memilih 1 target musuh <color=#f26c1c>dalam 9 tile</color>, memberikan <color=#2caadb>Hydro damage</color> setara <color=#f26c1c>120%</color> Attack kepadanya, lalu menghabiskan seluruh poin Confectance Index.
+=Launches attack <color=#f26c1c>once</color> against the nearest enemy target within <color=#f26c1c>5 tiles</color> of this unit, dealing targeted Physical damage equal to <color=#f26c1c>100%</color> of defense, <color=#f26c1c>3 points</color> of stability damage, and applies <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Melancarkan serangan <color=#f26c1c>sekali</color> ke target musuh terdekat <color=#f26c1c>dalam 5 tile</color> dari unit ini, memberikan targeted Physical damage setara <color=#f26c1c>100%</color> Defense, <color=#f26c1c>3 poin</color> Stability damage, lalu menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Selects 1 allied target within <color=#f26c1c>6 tiles</color>, restoring HP equal to <color=#f26c1c>100%</color> of attack.	Memilih 1 target sekutu <color=#f26c1c>dalam 6 tile</color>, memulihkan HP setara <color=#f26c1c>100%</color> Attack.
+=If the target is <color=#f26c1c>within 3 tiles</color>, they take an additional <color=#f26c1c>1 instance</color> of this skill's damage.	Jika target berada <color=#f26c1c>dalam 3 tile</color>, mereka menerima tambahan <color=#f26c1c>1 kali</color> damage skill ini.
+=Before the attack resolves, additionally applies <color=#3487e0>{1}</color> to the target for <color=#f26c1c>3 turns</color>.	Sebelum serangannya bekerja, menerapkan juga <color=#3487e0>{1}</color> ke target selama <color=#f26c1c>3 giliran</color>.
+=If the target does not have <color=#3487e0>{0}</color> or <color=#3487e0>{1}</color>, apply <color=#f26c1c>3 stacks</color> of <color=#3487e0>{1}</color> to it instead.	Jika target tidak memiliki <color=#3487e0>{0}</color> atau <color=#3487e0>{1}</color>, justru menerapkan <color=#f26c1c>3 stack</color> <color=#3487e0>{1}</color> kepadanya.
+=If movement exceeds <color=#f26c1c>5 tiles</color>, cleanses <color=#f26c1c>1</color> random buff from the target before attacking.	Jika pergerakannya melebihi <color=#f26c1c>5 tile</color>, membersihkan <color=#f26c1c>1</color> buff acak dari target sebelum menyerang.
+=After using the skill, if it causes the enemy to enter Stability Break, applies <color=#3487e0>{1}</color> to them for <color=#f26c1c>2 turns</color>.	Setelah skill dipakai, jika membuat musuh memasuki Stability Break, menerapkan <color=#3487e0>{1}</color> kepada mereka selama <color=#f26c1c>2 giliran</color>.
+=If the skill causes the target's Stability Break, then <color=#3487e0>{1}</color> is applied to them.	Jika skill ini menimbulkan Stability Break pada target, <color=#3487e0>{1}</color> diterapkan kepada mereka.
+
+# --- peningkatan skill ---
+=The next use of this skill will be enhanced, increasing the damage multiplier to <color=#f26c1c>70%</color>, whilst applying <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Pemakaian skill ini berikutnya akan diperkuat, menaikkan damage multiplier jadi <color=#f26c1c>70%</color>, sekaligus menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=The next use of this skill will be enhanced, increasing the damage multiplier to <color=#f26c1c>90%</color>, whilst applying <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Pemakaian skill ini berikutnya akan diperkuat, menaikkan damage multiplier jadi <color=#f26c1c>90%</color>, sekaligus menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=After enhancing the skill, the next time this skill is cast, the damage multiplier is increased and <color=#3487e0>{0}</color> is applied to the target.	Setelah skill ini diperkuat, pada pemakaian berikutnya damage multiplier-nya meningkat dan <color=#3487e0>{0}</color> diterapkan ke target.
+=When the Confectance Index is full, the active skill <color=#3487e0>Marzanna's Sanction</color> can be used again after this skill.	Saat Confectance Index penuh, skill aktif <color=#3487e0>Marzanna's Sanction</color> bisa dipakai lagi setelah skill ini.
+=After using this skill, Lainie will immediately use the active skill <color=#3487e0>{0}</color> on the selected tile.	Setelah memakai skill ini, Lainie akan langsung memakai skill aktif <color=#3487e0>{0}</color> di tile terpilih.
+=If possessing <color=#3487e0>{3}</color> after the skill, consumes <color=#f26c1c>1 stack</color> of the effect to trigger the extra active skill <color=#3487e0>Hunting Instinct III</color> and <color=#3487e0>{2}</color>.	Jika memiliki <color=#3487e0>{3}</color> setelah skill ini, memakai <color=#f26c1c>1 stack</color> efek itu untuk memicu skill aktif ekstra <color=#3487e0>Hunting Instinct III</color> dan <color=#3487e0>{2}</color>.
+
+# --- Tin Soldier Rank ---
+=The attack gains additional effects based on the highest <color=#3487e0>Rank</color> level Tin Soldier present on the battlefield:	Serangan ini mendapatkan efek tambahan berdasarkan Tin Soldier ber-<color=#3487e0>Rank</color> tertinggi yang ada di medan tempur:
+=<color=#f26c1c>Rank I</color>: Before the attack, gains <color=#3487e0>{0}</color>.	<color=#f26c1c>Rank I</color>: Sebelum serangan, mendapatkan <color=#3487e0>{0}</color>.
+=<color=#f26c1c>Rank III</color>: The damage multiplier is increased to <color=#f26c1c>200%</color> of attack.	<color=#f26c1c>Rank III</color>: Damage multiplier naik menjadi <color=#f26c1c>200%</color> Attack.
+=<color=#f26c1c>Rank III</color>: The damage multiplier is increased.	<color=#f26c1c>Rank III</color>: Damage multiplier-nya meningkat.
+=For <color=#f26c1c>each</color> <color=#3487e0>Tin Soldier</color> on the battlefield, the damage of the attack is increased by (<color=#f26c1c>15%</color> × the <color=#3487e0>Rank</color> level of that Tin Soldier).	Untuk <color=#f26c1c>setiap</color> <color=#3487e0>Tin Soldier</color> di medan tempur, damage serangan ini bertambah (<color=#f26c1c>15%</color> × level <color=#3487e0>Rank</color> Tin Soldier itu).
+=In addition, the critical rate of the attack is increased by (<color=#f26c1c>5%</color> × the <color=#3487e0>Rank</color> level of that Tin Soldier).	Selain itu, Critical Rate serangan ini bertambah (<color=#f26c1c>5%</color> × level <color=#3487e0>Rank</color> Tin Soldier itu).
+
+# --- spesifik karakter ---
+=If Theia is on the field, Theia gains <color=#3487e0>{1}</color>.	Jika Theia ada di medan, Theia mendapatkan <color=#3487e0>{1}</color>.
+=If Theia is on the field, damage dealt is increased to <color=#f26c1c>30%</color>.	Jika Theia ada di medan, damage yang diberikan naik menjadi <color=#f26c1c>30%</color>.
+=Damage dealt to targets with mobility less or equal to Theia is increased by <color=#f26c1c>15%</color>.	Damage ke target yang mobilitasnya setara atau di bawah Theia meningkat sebesar <color=#f26c1c>15%</color>.
+=For <color=#f26c1c>each point</color> of Confectance Index expended, Liushih and <color=#3487e0>{0}</color> gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color> for <color=#f26c1c>1 round</color>.	Untuk <color=#f26c1c>setiap poin</color> Confectance Index yang dipakai, Liushih dan <color=#3487e0>{0}</color> mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color> selama <color=#f26c1c>1 ronde</color>.
+=After the Creepy Doll suffers Stability Break, she loses HP equal to <color=#f26c1c>15%</color> of her max HP and recovers all points of stability 2 turns later.	Setelah Creepy Doll mengalami Stability Break, dia kehilangan HP setara <color=#f26c1c>15%</color> Max HP-nya lalu memulihkan seluruh poin Stability 2 giliran kemudian.
+=After being attacked a total of <color=#f26c1c>20/40/60/80</color> times, damage taken is reduced by <color=#f26c1c>75%/50%/25%/0%</color>.	Setelah diserang sebanyak <color=#f26c1c>20/40/60/80</color> kali, damage yang diterima berkurang sebesar <color=#f26c1c>75%/50%/25%/0%</color>.

@@ -1,0 +1,27 @@
+# Deskripsi skill — keluarga mekanik putaran kedelapan (terakhir yang masih berpola).
+# Nama karakter, senjata, dan skill dibawa backref supaya tetap Inggris.
+#range 0 130000
+
+# --- stat ---
+^Damage increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage meningkat sebesar \1\2%</color>.
+^Critical damage is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Damage berkurang sebesar \1\2%</color>.
+^Damage taken reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, effective (<color=#[0-9a-fA-F]+>)once</color>\.$	Damage yang diterima berkurang sebesar \1\2%</color>, berlaku \3sekali</color>.
+^The next active attack's damage increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage serangan aktif berikutnya meningkat sebesar \1\2%</color>.
+^Increase damage dealt by this skill by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage dari skill ini \1\2%</color>.
+^Attack and defense for all allies on the battlefield is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Serangan dan Defense semua sekutu di medan perang meningkat sebesar \1\2%</color>.
+^Increase mobility by (<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color> and increase attack by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan Mobility \1\2 tile</color> dan tingkatkan serangan \3\4%</color>.
+^Phase damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> but phase damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage phase yang diberikan meningkat sebesar \1\2%</color> tapi damage phase yang diterima meningkat sebesar \3\4%</color>.
+
+# --- kondisi ---
+^When attacking, ignore (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Saat menyerang, abaikan \1\2%</color> Defense target.
+^When dealing damage to enemy targets, if this unit has buffs, attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan damage ke target musuh, jika unit ini memiliki buff, Attack meningkat sebesar \1\2%</color>.
+^Damage dealt increases with the target's remaining HP, with a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan naik seiring sisa HP target, hingga maksimal \1\2%</color>.
+^When taking damage from ([\w -]+) or ([\w -]+), defense is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menerima damage dari \1 atau \2, Defense berkurang sebesar \3\4%</color>.
+^The debuff holder takes (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> more (<color=#[0-9a-fA-F]+>)(\w+) damage</color> from ([\w ]+) and ([\w ]+)\.$	Pemegang debuff menerima \1\2%</color> lebih banyak damage \3\4</color> dari \5 dan \6.
+^When (<color=#[0-9a-fA-F]+>)([\w ]+)</color> reaches (<color=#[0-9a-fA-F]+>)([\d.]+) stacks</color>, (<color=#[0-9a-fA-F]+>)([\w ]+)</color> will use (<color=#[0-9a-fA-F]+>)([\w I]+)</color>\.$	Saat \1\2</color> mencapai \3\4 stack</color>, \5\6</color> akan memakai \7\8</color>.
+
+# --- status & deskripsi item ---
+^Cannot move\.$	Tidak bisa bergerak.
+^Only effective in (<color=#[0-9a-fA-F]+>)([\w -]+)</color>\.$	Hanya berlaku di \1\2</color>.
+^A weapon skin design based on the ([\w. -]+)\.$	Desain weapon skin berdasarkan \1.
+^Unlocks the drink ([\w ]+) upon obtaining\.$	Membuka minuman \1 saat didapat.

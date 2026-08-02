@@ -1,0 +1,66 @@
+# Batch 8 — sasaran misi/achievement dan baris buff berpola (id 0-15.000).
+#
+# Ekor kalimat yang berisi NAMA MODE/STAGE/ITEM sengaja dibawa lewat backref supaya
+# tidak ikut diterjemahkan (Target Study, Ultimate Test, B.R.I.E.F., Breakthrough,
+# Overclock Simulation, kode stage LA-1-17, dst).
+#
+# Catatan: 598 string di rentang ini berbentuk "Fixed Key - <nama>", "Common Key - <nama>",
+# "Affinity Key - <nama>", "Expansion Key - <nama>", dan 252 lagi "Skin - <nama>".
+# Semuanya nama diri yang memang dibiarkan Inggris, jadi TIDAK perlu aturan.
+#range 0 15000
+
+# --- menuntaskan stage & event ---
+^Complete event story mode ([A-Z]{2}-\d+-\d+)$	Selesaikan event story mode \1
+^Complete event challenge mode ([A-Z]{2}-\d+-\d+)$	Selesaikan event challenge mode \1
+^Complete event Story Mode stage ([A-Z]{2}-\d+-\d+)$	Selesaikan stage event Story Mode \1
+^Complete event Hard Mode stage ([A-Z]{2}-\d+-\d+)$	Selesaikan stage event Hard Mode \1
+^Complete event stage ([A-Z]{2}-\d+-\d+) ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Selesaikan stage event \1 \2
+^Complete Peak Value Assessment Level (\d+) Stage (\d+)$	Selesaikan Peak Value Assessment Level \1 Stage \2
+^Complete this performance with (\d+) points$	Selesaikan pertunjukan ini dengan \1 poin
+^Complete any (\d+) B\.R\.I\.E\.F\. Daily Quests$	Selesaikan \1 B.R.I.E.F. Daily Quest mana pun
+^Complete any (<color=#[0-9a-fA-F]+>)(\d+)</color> explorations in Breakthrough$	Selesaikan \1\2</color> penjelajahan mana pun di Breakthrough
+^Complete (<color=#[0-9a-fA-F]+>Story Campaign Normal Stage \d+-\d+</color>)$	Selesaikan \1
+
+# --- syarat bertempur ---
+^In victorious battles, kill a total of (\d+) boss units? with critical hits$	Dalam pertempuran yang dimenangkan, bunuh total \1 unit boss dengan critical hit
+^In victorious battles, use Interceptions or Counterattacks to kill (\d+) boss units?$	Dalam pertempuran yang dimenangkan, pakai Interception atau Counterattack untuk membunuh \1 unit boss
+^Inflict Stability Break a total of (\d+) times in battles you win$	Timbulkan Stability Break total \1 kali dalam pertempuran yang kau menangkan
+^In Phase Turbulence, complete (\d+) ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Di Phase Turbulence, selesaikan \1 \2
+^In Phase Turbulence, enter (\d+) ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Di Phase Turbulence, masuki \1 \2
+^During Ashen Tales, kill a total of (\d+) boss units?$	Dalam Ashen Tales, bunuh total \1 unit boss
+^During Ashen Tales, kill a total of (\d+) elite units?$	Dalam Ashen Tales, bunuh total \1 unit elite
+^During Ashen Tales, collect a total of (\d+) treasures$	Dalam Ashen Tales, kumpulkan total \1 harta
+^Win (\d+) times? in ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Menang \1 kali di \2
+^Dispatch (\d+) times? in the Dispatch Room$	Kirim \1 kali di Ruang Pengiriman
+^Give any (\d+) Affinity Gifts$	Beri \1 Affinity Gift mana pun
+
+# --- skor & pengumpulan ---
+^Score (\d[\d,]*) points or more in ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Raih \1 poin atau lebih di \2
+^Acquire (\d[\d,]*) total score$	Dapatkan total skor \1
+^Accumulate (\d[\d,]*) scores$	Kumpulkan \1 skor
+^Collect (\d+) Gold Coins$	Kumpulkan \1 Gold Coin
+^Collect (\d[\d,]*) points in ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*)$	Kumpulkan \1 poin di \2
+
+# --- membuka lewat kepemilikan ---
+^Acquire (<COLOR=#[0-9a-fA-F]+>.+</COLOR>) to unlock$	Dapatkan \1 untuk membukanya
+^Acquire an (<COLOR=#[0-9a-fA-F]+>.+</COLOR>) to unlock$	Dapatkan \1 untuk membukanya
+^Acquire a (<COLOR=#[0-9a-fA-F]+>.+</COLOR>) to unlock$	Dapatkan \1 untuk membukanya
+^Unlocked by obtaining the (<COLOR=#[0-9a-fA-F]+>.+</COLOR>)$	Terbuka dengan mendapatkan \1
+
+# --- petak & buff medan ---
+^Elemental Tile - (.+)$	Petak Elemen - \1
+^Field Buff - (.+) \(Disabled\)$	Field Buff - \1 (Dinonaktifkan)
+^Field Buff - (.+) is currently disabled and will be enabled after completing a specific event\.$	Field Buff - \1 saat ini dinonaktifkan dan akan diaktifkan setelah menyelesaikan event tertentu.
+^Defense is increased by ([\d.]+)%$	Pertahanan meningkat \1%
+^HP increased by ([\d.]+)%$	HP meningkat \1%
+^Incoming healing \+([\d.]+)%$	Penyembuhan yang diterima +\1%
+
+# --- membuka & Neural Helix ---
+^Activate all nodes in (.+)'s Neural Helix$	Aktifkan semua node di Neural Helix \1
+^Unlocked by reaching Commander Level (\d+)$	Terbuka dengan mencapai Commander Level \1
+
+# --- efek buff satu kalimat ---
+^Max HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Max HP meningkat \1\2%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of initial max HP\.$	Attack meningkat \1\2%</color> dari max HP awal.
+^Damage dealt to boss units is increased by ([\d.]+)%\.$	Damage ke unit boss meningkat \1%.
+^Damage dealt to elite enemies is increased by ([\d.]+)%\.$	Damage ke musuh elite meningkat \1%.

@@ -1,0 +1,70 @@
+# Deskripsi SKILL — rumpun kalimat yang tersisa.
+#
+# Lanjutan batch 21-25. Ekor deskripsi skill sudah tipis (2.843 templat untuk 3.064
+# deskripsi), tapi masih ada delapan rumpun PEMBUKA yang berulang meski kalimat
+# lengkapnya unik: "Deals AoE ..." (107), "Selects the nearest ..." (49), "Deal AoE
+# ..." (28), "Damage dealt to ..." (28), "Deals Physical damage ..." (22), "When this
+# unit has ..." (18), "Selects the farthest ..." (16), "Immune to ..." (16).
+#
+# Yang berubah di dalam rumpun itu cuma jenis damage, angka, dan penanda {n} —
+# semuanya bisa dibawa backref, jadi satu aturan menutupi banyak varian sekaligus.
+#range 0 130000
+
+# --- label pendek ---
+^Passive$	Pasif
+
+# --- serangan AoE berpusat target ---
+^Deals AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)\.$	Memberikan AoE \1.
+^Deals melee AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)\.$	Memberikan AoE \1 melee.
+^Deals AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target and all enemy units within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color> of it\.$	Memberikan AoE \1 ke target dan semua unit musuh dalam \2\3 tile</color> darinya.
+^Deal AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target and all enemy targets within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color> around it\.$	Memberikan AoE \1 ke target dan semua target musuh dalam \2\3 tile</color> di sekitarnya.
+^Deal AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target and all targets (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color>\.$	Memberikan AoE \1 ke target dan semua target \2dalam \3 tile</color>.
+^Deal AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to it and all targets (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color> of it equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of ([\w ]+)\.$	Memberikan AoE \1 ke target itu dan semua target \2dalam \3 tile</color> darinya setara \4\5%</color> dari \6.
+^Deals? AoE ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target and all enemy targets (<color=#[0-9a-fA-F]+>)within a (\d+x\d+ area)</color> and generate(<color=#[0-9a-fA-F]+>)([^<>]+)</color> tiles\.?$	Memberikan AoE \1 ke target dan semua target musuh \2dalam \3</color> lalu menghasilkan tile \4\5</color>.
+
+# --- pemilihan sasaran terdekat / terjauh ---
+^Selects the nearest enemy target and deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to it)?\.$	Memilih target musuh terdekat dan memberikan \1 setara \2\3%</color> Attack.
+^Selects the nearest enemy target and deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)(?: to it)?\.$	Memilih target musuh terdekat dan memberikan \1.
+^Selects the nearest enemy target and randomly deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) or ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)\.$	Memilih target musuh terdekat dan secara acak memberikan \1 atau \2.
+^Selects the nearest enemy target and randomly deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) or ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of [Aa]ttack\.$	Memilih target musuh terdekat dan secara acak memberikan \1 atau \2 setara \3\4%</color> Attack.
+^Selects the farthest enemy target and deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to it)?\.$	Memilih target musuh terjauh dan memberikan \1 setara \2\3%</color> Attack.
+^Selects 1 target within (<color=#[0-9a-fA-F]+>)(\d+) to (\d+) tiles?</color>, dealing ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack to them\.$	Memilih 1 target dalam jarak \1\2 sampai \3 tile</color>, memberikan \4 setara \5\6%</color> Attack ke mereka.
+^Selects 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>, deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack to it, and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memilih 1 target musuh dalam jarak \1\2 tile</color>, memberikan \3 setara \4\5%</color> Attack ke target itu, lalu menerapkan \6\7</color>.
+
+# --- serangan sederhana + penerapan status ---
+^Deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the (most distant|farthest|closest|nearest) enemy target and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memberikan \1 ke target musuh \2 dan menerapkan \3\4</color>.
+^Deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the (most distant|farthest|closest|nearest) enemy target and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> and (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memberikan \1 ke target musuh \2 dan menerapkan \3\4</color> serta \5\6</color>.
+^Deals ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memberikan \1 ke target dan menerapkan \2\3</color>.
+^Deals (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack as ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the most distant enemy target and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Memberikan \1\2%</color> Attack sebagai \3 ke target musuh terjauh dan menerapkan \4\5</color> selama \6\7 giliran</color>.
+^Deals damage and gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memberikan damage dan mendapatkan \1\2</color>.
+^Expends HP and gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Menghabiskan HP dan mendapatkan \1\2</color>.
+^After dealing targeted damage, applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to the target for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Setelah memberikan damage bertarget, menerapkan \1\2</color> ke target selama \3\4 giliran</color>.
+^In addition, generates (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color> of the target\.$	Selain itu, menghasilkan \1\2</color> \3dalam \4 tile</color> dari target.
+^Replaces (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> with (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Mengganti \1\2</color> dengan \3\4</color>.
+^Increase the duration of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> by (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Menambah durasi \1\2</color> sebanyak \3\4 giliran</color>.
+^Enters? the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Masuk ke kondisi \1\2</color> selama \3\4 giliran</color>.
+
+# --- kekebalan & penolakan debuff ---
+^Immune to all Phase damage and weaknesses apart from (<color=#[0-9a-fA-F]+>)([A-Za-z]+)</color>\.?$	Kebal terhadap semua Phase damage dan kelemahan kecuali \1\2</color>.
+^Cannot receive ([A-Za-z]+)-type debuffs\.$	Tidak bisa terkena debuff tipe \1.
+^Reduce damage taken from non-phase weakness attacks by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and is immune to ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)\.$	Damage yang diterima dari serangan bukan kelemahan phase berkurang sebesar \1\2%</color> dan kebal terhadap \3.
+
+# --- damage menurut sasaran ---
+^Damage dealt to enemy targets in Stability Break is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target musuh yang sedang Stability Break meningkat sebesar \1\2%</color>.
+^Damage dealt to enemy targets with (<color=#[0-9a-fA-F]+>)([\d.]+)% or lower</color> HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target musuh ber-HP \1\2% atau kurang</color> meningkat sebesar \3\4%</color>.
+^Damage dealt to targets with ([A-Za-z-]+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target yang memiliki debuff \1 meningkat sebesar \2\3%</color>.
+^Damage dealt to enemies with ([A-Za-z-]+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke musuh yang memiliki debuff \1 meningkat sebesar \2\3%</color>.
+^Damage dealt to targets with a ([A-Za-z-]+) debuff is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and damage dealt to ([\w ]+) units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target yang memiliki debuff \1 meningkat sebesar \2\3%</color> dan damage ke unit \4 meningkat sebesar \5\6%</color>.
+^Damage dealt to targets with ([A-Za-z-]+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and damage dealt to ([\w ]+) units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target yang memiliki debuff \1 meningkat sebesar \2\3%</color> dan damage ke unit \4 meningkat sebesar \5\6%</color>.
+^Damage dealt to targets with ([A-Za-z-]+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and damage dealt to ([\w ]+) is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target yang memiliki debuff \1 meningkat sebesar \2\3%</color> dan damage ke \4 meningkat sebesar \5\6%</color>.
+^Damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> against targets with ([A-Za-z-]+) debuffs\.$	Damage meningkat sebesar \1\2%</color> terhadap target yang memiliki debuff \3.
+^Damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and critical damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> against targets with ([A-Za-z-]+) debuffs\.$	Damage meningkat sebesar \1\2%</color> dan Critical Damage meningkat sebesar \3\4%</color> terhadap target yang memiliki debuff \5.
+^When attacked by enemy units with ([A-Za-z-]+) debuffs, damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat diserang unit musuh yang memiliki debuff \1, damage yang diterima berkurang sebesar \2\3%</color>.
+^When dealing ([A-Za-z]+) damage, the damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan damage \1, damage-nya meningkat sebesar \2\3%</color>.
+^When this unit has an? ([A-Za-z]+) buff, critical rate is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika unit ini memiliki buff \1, Critical Rate meningkat sebesar \2\3%</color>.
+
+# --- pemicu lain ---
+^When entering combat, activates (<color=#[0-9a-fA-F]+>)(\d+)</color> instance of (<color=#[0-9a-fA-F]+>)([^<>]+)</color>\.$	Saat memasuki pertempuran, mengaktifkan \1\2</color> kali \3\4</color>.
+^After applying (<color=#[0-9a-fA-F]+>)(\d+)</color> buff, damage multiplier increases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah menerapkan \1\2</color> buff, damage multiplier naik sebesar \3\4%</color>.
+^After dealing damage (<color=#[0-9a-fA-F]+>)([\d.]+) times</color>, summons (<color=#[0-9a-fA-F]+>)(\d+)</color> ([\w ]+) near self\.$	Setelah memberikan damage \1\2 kali</color>, memanggil \3\4</color> \5 di dekat diri sendiri.
+^For every instance of ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) dealt by this unit, ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) dealt by all allied units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Untuk setiap \1 yang diberikan unit ini, \2 dari semua unit sekutu meningkat sebesar \3\4%</color>, maksimal \5\6%</color>.

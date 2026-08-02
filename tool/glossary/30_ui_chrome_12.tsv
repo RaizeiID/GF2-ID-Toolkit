@@ -1,0 +1,141 @@
+# Antarmuka — pesan panjang, dialog konfirmasi, dan peringatan (bagian 12).
+#
+# Id 87439 berisi "<openpyxl.worksheet.formula.ArrayFormula object at 0x...>" —
+# sisa bug ekspor spreadsheet dari pihak pengembang, bukan teks pemain. Tidak
+# dimasukkan.
+#
+# "This Doll is not authorized. Please go to {0} to bbtain authorization." salah
+# eja di aslinya (bbtain). Ditulis persis begitu supaya barisnya cocok.
+#
+# Baris 87399-87402 adalah pemberitahuan regulasi bermain anak di bawah umur
+# (versi Tiongkok). Diterjemahkan apa adanya, nominal RMB tidak diubah.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Curio, Crew Deck, Soirée,
+# Buff, Platoon, Auto Mode, Neural Expansion, Boundary Push, Arclight Logs.
+#range 75000 90000
+
+Are you sure you want to refresh the reward list for Exchange Spot?	Yakin mau menyegarkan daftar hadiah Exchange Spot?
+Your name includes inappropriate language. Please try again.	Namamu mengandung kata yang tidak pantas. Coba lagi.
+Reached the specified location and completed data collection	Sampai di lokasi yang ditentukan dan pengumpulan data selesai
+Hmm, are we leaving? Feels like we've forgotten something...	Hmm, kita pergi? Rasanya ada yang kelupaan...
+This defense point will be considered to be taken by the faction of the unit that most recently entered it.	Titik pertahanan ini dianggap dikuasai faksi dari unit yang paling terakhir masuk ke sana.
+This defense point will be considered to be taken by the faction that has the most units occupying it.	Titik pertahanan ini dianggap dikuasai faksi yang unitnya paling banyak menduduki.
+Unlocked after clearing <color=#F26C1C>[{0}]</color> for the first time	Terbuka setelah menyelesaikan <color=#F26C1C>[{0}]</color> untuk pertama kali
+There cannot be Dolls with the same name in the same team	Tidak boleh ada Doll bernama sama dalam satu tim
+The maximum limit for collecting Meow Supplies has been reached. You cannot collect more.	Batas maksimum pengumpulan Meow Supplies tercapai. Tidak bisa mengumpulkan lagi.
+Battle rewards will be tallied up in real-time and are not affected by the result of the current round.	Hadiah pertempuran dihitung secara langsung dan tidak dipengaruhi hasil ronde ini.
+Guaranteed to obtain an elite item after <color=#F0AF14>{0}</color> collections	Dijamin dapat item elite setelah <color=#F0AF14>{0}</color> kali pengumpulan
+Click on <color=#F0AF14>【Collection Details】</color> for the mystery box description and item list.	Klik <color=#F0AF14>【Detail Koleksi】</color> untuk deskripsi kotak misteri dan daftar itemnya.
+Attempts remaining this week: <color=#F0AF14>{0}</color>/{1}	Sisa percobaan minggu ini: <color=#F0AF14>{0}</color>/{1}
+Unlock Progress: <color=#efefef>{0}</color>/<color=#aaaaaa>{1}</color>	Progres Pembukaan: <color=#efefef>{0}</color>/<color=#aaaaaa>{1}</color>
+Select venue main road without terrain, {0}/{1} selected	Pilih jalan utama lokasi tanpa medan, {0}/{1} dipilih
+Please select available venue main roads. {0}/{1} selected.	Pilih jalan utama lokasi yang tersedia. {0}/{1} dipilih.
+Select venue main road with construction barriers, {0}/{1} selected	Pilih jalan utama lokasi yang ada pembatas konstruksinya, {0}/{1} dipilih
+Pursuit failed, please adjust your strategy and try again	Pengejaran gagal, sesuaikan strategimu lalu coba lagi
+Intelligence Puzzles will automatically be claimed when performing loop	Intelligence Puzzle otomatis diklaim saat menjalankan loop
+Prioritize consuming same-name weapons that haven't been upgraded	Utamakan memakai senjata bernama sama yang belum ditingkatkan
+This weapon has already been upgraded. Equipped attachments will be removed to storage. Are you sure you want to consume it?	Senjata ini sudah ditingkatkan. Attachment yang terpasang akan dipindah ke penyimpanan. Yakin mau memakainya?
+When the phase imprinting of the attachment and slot are the same, attachment capacity is halved	Kalau phase imprint attachment dan slotnya sama, kapasitas attachment jadi separuh
+Frenzy Level is not high enough to obtain the target reward	Frenzy Level belum cukup tinggi untuk mendapat hadiah targetnya
+Current settings have not been saved yet, do you wish to quit?	Pengaturan saat ini belum disimpan, mau keluar?
+Two identical low-tier commands can be combined into one higher-tier command of the same type	Dua perintah tingkat rendah yang sama bisa digabung jadi satu perintah tingkat lebih tinggi sejenis
+Early withdrawal will result in HP penalties for characters left on battlefield. Confirm withdrawal?	Mundur lebih awal membuat karakter yang tertinggal di medan tempur kena penalti HP. Tetap mundur?
+Attack From Rear: Reduces the monster's stability index by {0} points.	Serangan dari Belakang: Menurunkan stability index monster {0} poin.
+Attack From Cover: Recover the attacking Doll's stability index by 6 points.	Serangan dari Cover: Memulihkan stability index Doll penyerang 6 poin.
+The higher the suitability rating of the Dolls in the combat squad, the stronger the squad's buff effects.	Makin tinggi peringkat kecocokan Doll di regu tempur, makin kuat efek buff regunya.
+Signal reception error, please check your network connection!	Sinyal tidak diterima, periksa koneksi jaringanmu!
+Defeating all bosses for the first time grants a Squad Collectible. Each squad can obtain up to {0}.	Mengalahkan semua boss untuk pertama kali memberi Squad Collectible. Tiap regu bisa dapat maksimal {0}.
+Do you wish to end this expedition and tally the results?	Mau mengakhiri ekspedisi ini dan menghitung hasilnya?
+The attachments on the weapon will be returned to storage when disassembled. Do you want to proceed with the disassembly	Attachment di senjata akan dikembalikan ke penyimpanan saat dibongkar. Lanjut membongkarnya
+The device is currently under heavy load, which could lead to overheating and serious lag in gameplay.	Perangkat sedang bekerja berat, bisa membuatnya kepanasan dan permainan jadi sangat tersendat.
+You're currently on a mobile network. We recommend using Wi-Fi for downloads.	Kamu sedang pakai jaringan seluler. Sebaiknya pakai Wi-Fi untuk mengunduh.
+Preparing to download the voice resource package. The size of the package is: {0}	Bersiap mengunduh paket sumber daya suara. Ukuran paketnya: {0}
+Are you sure you want to delete the <color=#F26C1C>{0}</color> voice pack?	Yakin mau menghapus paket suara <color=#F26C1C>{0}</color>?
+The deleted voice pack will need to be re-downloaded when voice language is switched again.	Paket suara yang dihapus harus diunduh ulang kalau bahasa suaranya diganti lagi.
+Please switch to <color=#f26c1c>{0}</color> in the Prep Room and try again.	Ganti ke <color=#f26c1c>{0}</color> di Prep Room lalu coba lagi.
+Completing the stage under the current Transport Grade will not unlock Auto Mode	Menyelesaikan stage di Transport Grade sekarang tidak akan membuka Auto Mode
+Reach <color=#f0af14>{0}</color> cargo points unlocks the next cargo rating level	Mencapai <color=#f0af14>{0}</color> poin kargo membuka tingkat peringkat kargo berikutnya
+You have been removed from the other party's friend list	Kamu sudah dihapus dari daftar teman pihak lain
+Are you sure you want to calibrate <color=#f26c1c>{0}</color>?	Yakin mau mengkalibrasi <color=#f26c1c>{0}</color>?
+Your current weapon is locked. Would you like to unlock it?	Senjatamu saat ini terkunci. Mau membukanya?
+Dolls with the same name share levels and states of Neural Expansion	Doll bernama sama berbagi level dan status Neural Expansion
+During the event, the Commander can claim a total of Outfit Permit x5 via mail.	Selama acara, Commander bisa mengklaim total Outfit Permit x5 lewat surat.
+New items have arrived in Outfit Procurement, log in to claim them	Item baru sudah tiba di Outfit Procurement, login untuk mengklaimnya
+Cannot start game because {0} is offline. Would you like to quit?	Tidak bisa memulai permainan karena {0} sedang offline. Mau keluar?
+This round of Artifact Recovery has ended. Click confirm to return to the main screen.	Putaran Artifact Recovery ini sudah berakhir. Klik konfirmasi untuk kembali ke layar utama.
+Commander, the Elmo has been refitted. We're ready to resume the journey with you anytime.	Commander, Elmo sudah selesai diperbaiki. Kami siap melanjutkan perjalanan bersamamu kapan saja.
+No more items will be obtained if the battle is attempted again	Tidak ada item lagi kalau pertempurannya diulang
+The next level's resource levels are {0} and the exploration difficulty will be increased	Tingkat sumber daya level berikutnya adalah {0} dan kesulitan penjelajahannya akan naik
+Dusty Relics collected, a mysterious set of coordinates reveals itself...	Dusty Relic terkumpul, sederet koordinat misterius muncul...
+Do you wish to overwrite the current furniture preset with {0}?	Mau menimpa preset perabot saat ini dengan {0}?
+You will lose your current progress if you quit now. Do you wish to quit?	Progresmu saat ini akan hilang kalau keluar sekarang. Tetap keluar?
+Selecting Skip will automatically complete the battle and clear the current stage. Do you wish to skip?	Memilih Lewati akan otomatis menyelesaikan pertempuran dan menuntaskan stage ini. Mau melewatinya?
+The Commander's current gender is <color=#F26C1C>{0}</color>, do you want to change it to <color=#F26C1C>{1}</color>?	Gender Commander saat ini <color=#F26C1C>{0}</color>, mau menggantinya jadi <color=#F26C1C>{1}</color>?
+Enemy units will call for reinforcements during the battle	Unit musuh akan memanggil bala bantuan selama pertempuran
+The selected doll is damaged, deployment is not possible	Doll yang dipilih rusak, tidak bisa ditempatkan
+Autobattle failed, event date has changed, information updated	Autobattle gagal, tanggal acara berubah, informasi diperbarui
+Tip: Adding condiments can bestow special effects on dishes. Condiment effects cannot be stacked.	Tips: Menambah bumbu bisa memberi efek khusus pada hidangan. Efek bumbu tidak bisa ditumpuk.
+Tip: Certain combinations of ingredients will not produce dishes and the ingredients will be lost.	Tips: Kombinasi bahan tertentu tidak menghasilkan hidangan dan bahannya akan hilang.
+When the configured particle accumulator is depleted (applies globally)	Saat akumulator partikel yang dikonfigurasi habis (berlaku menyeluruh)
+Task Force DEFY takes the stage, unlocking a brand new main story campaign	Task Force DEFY tampil, membuka main story campaign yang benar-benar baru
+Log in to receive Targeted Access Permissions, and claim the Elite Doll <color=#fd6189>[Balthilde]</color> for free	Login untuk menerima Targeted Access Permission, dan klaim Doll Elite <color=#fd6189>[Balthilde]</color> gratis
+Also includes discounted outfits, real-life prizes and much, much more	Termasuk juga busana diskon, hadiah nyata, dan banyak lagi
+Previous costumes <color=#f4b940>now on limited-time discount</color>	Busana sebelumnya <color=#f4b940>kini diskon waktu terbatas</color>
+{0} is currently busy, would you like to proceed to her current location?	{0} sedang sibuk, mau menuju lokasinya sekarang?
+{0} is not on the Crew Deck at the moment, please invite her to the Crew Deck	{0} sedang tidak ada di Crew Deck, undang dia ke Crew Deck dulu
+Click and enter the blueprint code to obtain the corresponding Crew Deck scheme	Klik lalu masukkan kode cetak biru untuk mendapat skema Crew Deck terkait
+{0}<color=#f26c1c>{1}</color> difficulty has been unlocked	Kesulitan {0}<color=#f26c1c>{1}</color> sudah terbuka
+Obtain an additional 6 rewards along with a <color=#ffffa4>portrait frame</color>	Dapatkan 6 hadiah tambahan berikut <color=#ffffa4>bingkai potret</color>
+The <color=#F26C1C>Gachapon Machine</color> can be built	<color=#F26C1C>Gachapon Machine</color> sudah bisa dibangun
+Game time and cake collection progress won't be recorded until cleared	Waktu bermain dan progres pengumpulan kue tidak dicatat sampai diselesaikan
+Are you sure you want to abandon the challenge? After quitting, you can only restart from the beginning of the current stage.	Yakin mau meninggalkan tantangan ini? Setelah keluar, kamu hanya bisa mulai lagi dari awal stage ini.
+Non-locked and non-equipped Universal Key: Attribute can be dismantled	Universal Key: Atribut yang tidak terkunci dan tidak terpasang bisa dibongkar
+The current cycle will reset in <color=#F26c1c>{0}</color>	Siklus saat ini diatur ulang dalam <color=#F26c1c>{0}</color>
+Confirm the level of the enemy this round: <color=#F26c1c>{0}</color>	Konfirmasi level musuh ronde ini: <color=#F26c1c>{0}</color>
+Confirm the current Drill rewards at: Level <color=#F26c1c>{0}~{1}</color>	Konfirmasi hadiah Latihan saat ini di: Level <color=#F26c1c>{0}~{1}</color>
+Click the avatar to view details of the current recommended doll	Klik avatarnya untuk melihat detail doll yang disarankan saat ini
+You can select a Platoon member's Doll to assist in battle	Kamu bisa memilih Doll anggota Platoon untuk membantu bertempur
+Future developments depend on the conclusion of the expedition incident {0}	Perkembangan selanjutnya bergantung pada akhir insiden ekspedisi {0}
+Battle Lost: All our outposts have been seized by the enemy	Pertempuran Kalah: Semua pos terdepan kita direbut musuh
+Please complete the preceding subjects before proceeding	Selesaikan dulu materi sebelumnya sebelum lanjut
+Complete the current stage's mission objectives to unlock auto battle	Selesaikan sasaran misi stage ini untuk membuka auto battle
+You can claim a discount on {0}, do you wish to proceed?	Kamu bisa mengklaim diskon untuk {0}, mau lanjut?
+Conquest objectives are difficult to achieve alone, it is recommended to join a platoon for the full rewards	Sasaran penaklukan sulit dicapai sendirian, sebaiknya gabung platoon supaya hadiahnya utuh
+Current plan will be reset to its previous version. Do you wish to reset it?	Rencana saat ini akan dikembalikan ke versi sebelumnya. Mau mengaturnya ulang?
+You will leave this page and implement this plan. Do you wish to proceed?	Kamu akan meninggalkan halaman ini dan menjalankan rencana ini. Mau lanjut?
+This attachment is already equipped by <color=#f26c1c>{0}</color>. Do you want to swap?	Attachment ini sudah dipakai <color=#f26c1c>{0}</color>. Mau menukarnya?
+Complete 'Suitability Selection' to gain participation rights	Selesaikan 'Suitability Selection' untuk mendapat hak ikut serta
+Break through preset combat scenarios to qualify for Overclocked Simulation	Terobos skenario tempur preset untuk lolos ke Overclocked Simulation
+Commander, your flower has withered because you were away for too long. Remove it and start again~	Commander, bungamu layu karena kamu pergi terlalu lama. Cabut saja lalu mulai dari awal~
+You will not lose exploration materials after abandoning the exploration	Kamu tidak akan kehilangan bahan penjelajahan setelah meninggalkan penjelajahan
+Remaining challenges attempts for today: <color=#F26C1C>{0}/{1}</color>	Sisa percobaan tantangan hari ini: <color=#F26C1C>{0}/{1}</color>
+Platoons can collaborate with the various factions. Each faction provides a unique heavy weapons team and expedition bonuses.	Platoon bisa bekerja sama dengan berbagai faksi. Tiap faksi memberi tim senjata berat khas dan bonus ekspedisi.
+You can rewind 6 moves for the current turn or to the start of each turn	Kamu bisa memutar ulang 6 gerakan di giliran ini atau ke awal tiap giliran
+The Appoint On-Duty Attendant setting cannot be used when all used Dolls are randomized	Pengaturan Penunjukan Petugas Jaga tidak bisa dipakai kalau semua Doll diacak
+The current enhancement materials have reached their limit	Bahan peningkatan saat ini sudah mencapai batasnya
+Stability Expansion skill can be used once all slots are equipped with attachments	Skill Stability Expansion bisa dipakai begitu semua slot terisi attachment
+The weapon is currently equipped by {0}. Do you wish to swap it?	Senjatanya sedang dipakai {0}. Mau menukarnya?
+The attachment has already been installed. Do you want to replace it?	Attachment-nya sudah terpasang. Mau menggantinya?
+There are still stages available for challenge. Are you sure you want to end the battle?	Masih ada stage yang bisa ditantang. Yakin mau mengakhiri pertempuran?
+Tip: Adding <color=#f26c1c>special condiments</color> will grant different bonuses. Certain dishes cannot have condiments added.	Tips: Menambah <color=#f26c1c>bumbu khusus</color> memberi bonus berbeda. Hidangan tertentu tidak bisa diberi bumbu.
+Losing the battle will immediately end the current Boundary Push. Collected exploration materials will be kept. Exit?	Kalah bertempur langsung mengakhiri Boundary Push ini. Bahan penjelajahan yang terkumpul tetap disimpan. Keluar?
+Please select <color=#F26C1C>{0}/{1}</color> buff effects	Pilih <color=#F26C1C>{0}/{1}</color> efek buff
+Maximize combat capabilities under the high pressure of a given target	Maksimalkan kemampuan tempur di bawah tekanan tinggi target tertentu
+The highest suitability rating achieved by the Doll will be retained	Peringkat kecocokan tertinggi yang dicapai Doll akan dipertahankan
+Certain settings are missing, do you wish to continue replicating this plan?	Ada pengaturan yang hilang, mau tetap menyalin rencana ini?
+<color=#0068b7>{0}</color> is already in use, <color=#0068b7>{1}</color> has been automatically selected for you	<color=#0068b7>{0}</color> sudah dipakai, <color=#0068b7>{1}</color> otomatis dipilihkan untukmu
+You do not have/are already using the following Doll(s):	Kamu tidak punya/sudah memakai Doll berikut:
+The selected team is already using formation data, do you wish to overwrite it?	Tim yang dipilih sudah memakai data formasi, mau menimpanya?
+Not enough Dolls meet the personality requirements. Cannot perform quick select.	Doll yang memenuhi syarat kepribadian kurang. Pemilihan cepat tidak bisa dilakukan.
+After this exchange, Intelligence Puzzles will exceed storage limit. Excess will be voided. Continue?	Setelah penukaran ini, Intelligence Puzzle akan melebihi batas penyimpanan. Kelebihannya hangus. Lanjut?
+As per regulations, minors are restricted from gaming at this time. Please play during appropriate hours.	Sesuai peraturan, anak di bawah umur dilarang bermain pada jam ini. Bermainlah di jam yang diizinkan.
+As per regulations, you've reached the daily gaming time limit. Please manage your gaming time responsibly.	Sesuai peraturan, kamu sudah mencapai batas waktu bermain harian. Atur waktu bermainmu dengan bijak.
+Per regulations, recharge services unavailable for users under 8 years old.	Sesuai peraturan, layanan isi ulang tidak tersedia untuk pengguna di bawah 8 tahun.
+Per regulations, users 8-16 years old are limited to 50 RMB per recharge, 200 RMB monthly total.	Sesuai peraturan, pengguna 8-16 tahun dibatasi 50 RMB per isi ulang, total 200 RMB per bulan.
+Doll deployments will be deducted once results are tallied	Jatah penempatan Doll dipotong begitu hasilnya dihitung
+Receive <color=#f08423>Outfit Access Permissions ×5</color> for free	Terima <color=#f08423>Outfit Access Permission ×5</color> gratis
+Can obtain <color=#f08423>Outfit Access Permissions, Merkle Leaves</color>	Bisa mendapat <color=#f08423>Outfit Access Permission, Merkle Leave</color>
+Increasing the Arclight Logs Level will unlock the following rewards:	Menaikkan Level Arclight Logs akan membuka hadiah berikut:
+Includes all Rugged Path rewards, and increases the Arclight Logs Level by <color=#f0af14>10</color> immediately.	Termasuk semua hadiah Rugged Path, dan langsung menaikkan Level Arclight Logs <color=#f0af14>10</color>.
+Pathforger Strategy will take effect on the current stage	Strategi Pathforger berlaku di stage ini
+Do you wish to save your current battle progress and return to the main screen?	Mau menyimpan progres pertempuranmu lalu kembali ke layar utama?

@@ -1,0 +1,53 @@
+# Nama item generik — putaran ketiga.
+#
+# Salah ketik permainan yang disalin apa adanya di sisi sumber:
+#   "Breahing Point"  (mestinya "Breathing Point")
+# Sisi Indonesianya tetap diterjemahkan sesuai makna sebenarnya; kalau sumbernya
+# saya rapikan, barisnya tidak akan pernah cocok.
+#
+# Penanda "[Discarded]" dan "[Abandoned]" adalah catatan pengembang untuk item
+# yang sudah tidak dipakai — ikut diterjemahkan supaya jelas bagi pemain kalau
+# sampai muncul, bukan dihapus.
+#range 0 130000
+
+Frame Parts	Suku Cadang Rangka
+Paint	Cat
+Analysis Blueprint	Cetak Biru Analisis
+Extra Analysis Blueprint Bonus	Bonus Cetak Biru Analisis Tambahan
+Extra Combat Report Bonus	Bonus Laporan Tempur Tambahan
+Investigation Report	Laporan Investigasi
+Classic Document	Dokumen Klasik
+Precious Book	Buku Berharga
+Hidden Book Nook	Sudut Buku Tersembunyi
+Old Letter	Surat Lama
+Challenge Letter	Surat Tantangan
+North Sea Underground Brokers' Letter of Appointment	Surat Pengangkatan Broker Bawah Tanah Laut Utara
+Mica Port Letter of Appointment	Surat Pengangkatan Mica Port
+Cliffwatch Town Letter of Appointment	Surat Pengangkatan Cliffwatch Town
+Great Wall Railway Commemorative Badge	Lencana Peringatan Rel Great Wall
+Underground Broker Commemorative Badge	Lencana Peringatan Broker Bawah Tanah
+Mokosh Commemorative Badge	Lencana Peringatan Mokosh
+Honorary Agent Badge	Lencana Agen Kehormatan
+Medal of Honor	Medali Kehormatan
+Supreme Gold Card	Kartu Emas Tertinggi
+Pirate Gold Coin	Koin Emas Bajak Laut
+Ship Ticket of Hope	Tiket Kapal Harapan
+Celebratory Ticket	Tiket Perayaan
+Exchange Gift Voucher	Voucher Tukar Hadiah
+Simple Plant	Tanaman Sederhana
+Succulent Plant	Tanaman Sukulen
+Trace of Nature	Jejak Alam
+Hidden Trace	Jejak Tersembunyi
+Trace Value	Nilai Jejak
+Breahing Point	Titik Napas
+Battle Pass XP after Max Level	XP Battle Pass setelah Level Maksimum
+Coconut Snow Top Pack	Paket Coconut Snow Top
+Sparkling Night Pack	Paket Sparkling Night
+Thick Cream Cheese Pack	Paket Thick Cream Cheese
+Long Summer Pack	Paket Long Summer
+Standard Doll Neural Custom Gift Box	Kotak Hadiah Kustom Neural Doll Standar
+Standard Weapon Custom Gift Box	Kotak Hadiah Kustom Senjata Standar
+Elite Weapon Custom Gift Box	Kotak Hadiah Kustom Senjata Elite
+Standard Neural Gift Box [Abandoned]	Kotak Hadiah Neural Standar [Ditinggalkan]
+Elite Neural Pre-storage Gift Box [Discarded]	Kotak Hadiah Pra-simpan Neural Elite [Dibuang]
+Elite Weapon Pre-Storage Gift Box [Discarded]	Kotak Hadiah Pra-simpan Senjata Elite [Dibuang]

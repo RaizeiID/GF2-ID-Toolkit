@@ -1,0 +1,143 @@
+# Deskripsi ITEM — baris rasa & baris fungsi.
+#
+# Deskripsi item hampir selalu dua bagian yang dipisah baris baru:
+#   <kalimat rasa>\n<kalimat fungsi>
+# Bagian rasa berulang persis puluhan kali (satu kalimat dipakai 149 item), bagian
+# fungsi berbeda hanya pada NAMA karakter/senjata/event. Jadi bagian rasa ditulis
+# harfiah, bagian fungsi ditulis regex dengan nama lewat backref.
+#
+# Catatan pengukuran: teks item UTUH praktis unik (5.708 id -> 5.701 teks, 1,00x),
+# jadi glossary tidak punya daya ungkit sama sekali di sini — satu baris glossary
+# hanya menutup satu item. Yang berulang adalah KALIMATNYA. Sempat terlihat seolah
+# segments juga tidak berdaya (simulasi: 0,8 deskripsi per aturan), tapi itu karena
+# simulasinya mengelompokkan kalimat secara harfiah; begitu nama ditangkap backref,
+# "Obtained by supporting <Nama> ..." yang tadinya 149 kalimat tunggal menyusut jadi
+# satu aturan.
+#
+# Nama diri tetap Inggris: nama Doll, nama senjata, nama event, Catland, Elmo Cloud,
+# Zucchero Cafe, Crew Deck, Feedback Wall, Display Wall, Peak Value Assessment,
+# Artifact Recovery, B.R.I.E.F.
+#range 0 130000
+
+# --- baris rasa: papan peringkat dukungan (event Starwish) ---
+^On the stage, the blossoming light of support has become a pole star by which all voyagers steer\.$	Di atas panggung, cahaya dukungan yang merekah menjadi bintang kutub penuntun para pengelana.
+^On the stage, the rising light of support has become a nova that calls forth the dawn\.$	Di atas panggung, cahaya dukungan yang terbit menjadi nova yang memanggil fajar.
+^On the stage, the blooming light of support turned into a guiding pole star\.$	Di atas panggung, cahaya dukungan yang mekar berubah menjadi bintang kutub penuntun.
+^On the stage, the blooming light of support turns into a guiding pole star\.$	Di atas panggung, cahaya dukungan yang mekar berubah menjadi bintang kutub penuntun.
+^On the stage, the rising light of support turned into a dawning nova\.$	Di atas panggung, cahaya dukungan yang terbit berubah menjadi nova fajar.
+^On the stage, the rising light of support turns into a new star at dawn\.$	Di atas panggung, cahaya dukungan yang terbit berubah menjadi bintang baru saat fajar.
+^On the stage, the rising light of support turned into the morning star of dawn\.$	Di atas panggung, cahaya dukungan yang terbit berubah menjadi bintang timur fajar.
+^On the stage, the blossoming light of support has become a nova that calls forth the dawn\.$	Di atas panggung, cahaya dukungan yang merekah menjadi nova yang memanggil fajar.
+^The sole zenith of all supporters; behold, as all the world beholds you in turn\.$	Satu-satunya puncak dari semua pendukung; lihatlah, saat seluruh dunia balik memandangmu.
+^The sole pinnacle among all supporters, right now, the world focuses here\.$	Satu-satunya puncak di antara semua pendukung; saat ini, dunia tertuju ke sini.
+^The sole pinnacle among all supporters; right now, the world's focus is here\.$	Satu-satunya puncak di antara semua pendukung; saat ini, perhatian dunia ada di sini.
+^The sole pinnacle among all supporters\.$	Satu-satunya puncak di antara semua pendukung.
+^In this moment, the world's focus lies here\.$	Saat ini, perhatian dunia tertuju ke sini.
+^The power of support has gathered into the glorious radiance of the constellations\.$	Kekuatan dukungan berkumpul jadi kilau agung rasi bintang.
+^The power of support has gathered into a dazzling sidereal course\.$	Kekuatan dukungan berkumpul jadi lintasan bintang yang memesona.
+^The power of support converges into the magnificent glow of a star cluster\.$	Kekuatan dukungan menyatu jadi pendar megah gugus bintang.
+^The power of support converges into the dazzling track of a star's journey\.$	Kekuatan dukungan menyatu jadi jejak memesona perjalanan sebuah bintang.
+^The power of support converged into the magnificent brilliance of a star cluster\.$	Kekuatan dukungan menyatu jadi kilau megah gugus bintang.
+^The power of support converged into a dazzling star trail\.$	Kekuatan dukungan menyatu jadi jejak bintang yang memesona.
+^The power of support gathered into the magnificent glow of a star cluster\.$	Kekuatan dukungan berkumpul jadi pendar megah gugus bintang.
+^The power of support gathered into the dazzling track of a star trail\.$	Kekuatan dukungan berkumpul jadi jejak memesona sebuah lintasan bintang.
+^The power of support coalesced into the magnificent glow of a star cluster\.$	Kekuatan dukungan berpadu jadi pendar megah gugus bintang.
+^The power of support coalesced into a dazzling path of stardom\.$	Kekuatan dukungan berpadu jadi jalan ketenaran yang memesona.
+^The beginning of your promise with the girls\.$	Awal dari janjimu bersama para gadis.
+^The beginning of a promise made with the girls\.$	Awal dari janji yang dibuat bersama para gadis.
+^The beginning of making a promise with the girls\.$	Awal dari terjalinnya janji bersama para gadis.
+
+# --- baris fungsi: cara mendapatkan dari event ---
+^Obtained by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) during the ([^.]+?) event and reaching the (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Didapat dengan mendukung \1 selama event \2 dan meraih peringkat \3 di papan peringkat dukungan individu.
+^Obtained by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) during the ([^.]+?) event and reaching the (\d+)(?:st|nd|rd|th) to (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Didapat dengan mendukung \1 selama event \2 dan meraih peringkat \3 sampai \4 di papan peringkat dukungan individu.
+^Obtained by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) in the ([^.]+?) event and ranking (\d+)(?:st|nd|rd|th) in the [Pp]ersonal [Rr]ankings?\.$	Didapat dengan mendukung \1 di event \2 dan meraih peringkat \3 di peringkat pribadi.
+^Obtained by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) in the ([^.]+?) event and ranking (\d+)(?:st|nd|rd|th)-(\d+)(?:st|nd|rd|th) in the [Pp]ersonal [Rr]ankings?\.$	Didapat dengan mendukung \1 di event \2 dan meraih peringkat \3-\4 di peringkat pribadi.
+^Obtained by cheering for ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) in the ([^.]+?) event and ranking (\d+)(?:st|nd|rd|th) in the [Pp]ersonal [Rr]ankings?\.$	Didapat dengan menyemangati \1 di event \2 dan meraih peringkat \3 di peringkat pribadi.
+^Obtained by cheering for ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) in the ([^.]+?) event and ranking (\d+)(?:st|nd|rd|th)-(\d+)(?:st|nd|rd|th) in the [Pp]ersonal [Rr]ankings?\.$	Didapat dengan menyemangati \1 di event \2 dan meraih peringkat \3-\4 di peringkat pribadi.
+^Obtained by taking part in the ([^.]+?) and supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?)\.$	Didapat dengan ikut serta di \1 dan mendukung \2.
+^Obtained by participating in the ([^.]+?) event and supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?)\.$	Didapat dengan ikut serta di event \1 dan mendukung \2.
+^Obtained by participating in the ([^.]+?) event and cheering for ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?)\.$	Didapat dengan ikut serta di event \1 dan menyemangati \2.
+
+# --- blueprint senjata ---
+^A rare weapon blueprint with clean lines outlining the weapon's contours\.$	Blueprint senjata rare dengan garis bersih yang menegaskan lekuk senjatanya.
+^A common weapon blueprint with clean lines outlining the weapon's contours\.$	Blueprint senjata common dengan garis bersih yang menegaskan lekuk senjatanya.
+^An epic weapon blueprint with clean lines outlining the weapon's contours\.$	Blueprint senjata epic dengan garis bersih yang menegaskan lekuk senjatanya.
+^An epic weapon blueprint with simple lines outlining the weapon's contours\.$	Blueprint senjata epic dengan garis sederhana yang menegaskan lekuk senjatanya.
+^An epic weapon blueprint, with simple lines outlining the weapon's contours\.$	Blueprint senjata epic, dengan garis sederhana yang menegaskan lekuk senjatanya.
+^A rare weapon blueprint, with simple lines outlining the weapon's contours\.$	Blueprint senjata rare, dengan garis sederhana yang menegaskan lekuk senjatanya.
+^It can be used to assemble (?:the|an|a) (.+)\.$	Bisa dipakai untuk merakit \1.
+^Can be used to assemble (?:the|an|a) (.+)\.$	Bisa dipakai untuk merakit \1.
+
+# --- peti attachment ---
+^"Modify your weapons!"$	"Modifikasi senjatamu!"
+^After opening, there is a high probability of obtaining a (T\d) weapon attachment with the (.+) set effect\.$	Setelah dibuka, kemungkinan besar mendapat weapon attachment \1 dengan set effect \2.
+^After opening, obtain a (T\d) weapon attachment, which is most likely suitable for (.+)\.$	Setelah dibuka, mendapat weapon attachment \1 yang kemungkinan besar cocok untuk \2.
+^After opening, obtain a (T\d) weapon attachment, most likely suitable for (.+)\.$	Setelah dibuka, mendapat weapon attachment \1 yang kemungkinan besar cocok untuk \2.
+^Upon opening, you are guaranteed to receive (?:one|an|a) (.+)\.$	Setelah dibuka, dijamin mendapat \1.
+^The attachments from this chest have higher base attributes\.$	Attachment dari peti ini punya atribut dasar yang lebih tinggi.
+^Exclusive to (?:the )?([\w.·-]+)(?:'s|’s|'|’)? event\.$	Khusus event \1.
+^The appearance will be randomly selected from any base design\.$	Tampilannya dipilih acak dari desain dasar mana pun.
+^Please use with care!$	Harap dipakai dengan hati-hati!
+^A crystal material specifically used to perform calibration for (T\d) weapon attachments\.$	Material kristal khusus untuk mengalibrasi weapon attachment \1.
+
+# --- Key (Universal / Affinity / Exclusive) ---
+^A Universal Key: Skill, which grants the corresponding skill when equipped\.$	Universal Key: Skill, memberi skill terkait saat dipasang.
+^An Affinity Key which grants the corresponding skill when equipped\.$	Affinity Key yang memberi skill terkait saat dipasang.
+^An Exclusive Key grants its corresponding effects when equipped\.$	Exclusive Key memberi efek terkait saat dipasang.
+^This one belongs to (<color=#[0-9a-fA-F]+>)([^<>]+)</color>$	Yang ini milik \1\2</color>
+^Provides additional bonuses when equipped by ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?)\.$	Memberi bonus tambahan kalau dipasang oleh \1.
+
+# --- chip plugin (Artifact Recovery) ---
+^An external chip that contains plugin programs that can improve a Doll's combat performance in a certain aspect\.$	Chip eksternal berisi program plugin yang bisa meningkatkan performa tempur Doll di aspek tertentu.
+^An external chip containing the plugin system, capable of enhancing certain combat attributes\.$	Chip eksternal berisi sistem plugin, mampu meningkatkan atribut tempur tertentu.
+^This plugin enhances the ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*) tactical framework\.$	Plugin ini memperkuat tactical framework \1.
+^It only functions during Artifact Recovery\.$	Hanya berfungsi selama Artifact Recovery.
+^These plugins are focused on empowering ([A-Z][\w-]*(?: [A-Z0-9][\w-]*)*),? and are only active in Artifact Recovery$	Plugin ini difokuskan untuk memperkuat \1 dan hanya aktif di Artifact Recovery
+
+# --- data simulasi & komponen ---
+^A set of standard T-Doll simulation data faithfully replicates this Doll's combat style\.$	Satu set data simulasi T-Doll standar yang meniru gaya tempur Doll ini dengan setia.
+^([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?)'s simulation data, only effective in Peak Value Assessment\.$	Data simulasi \1, hanya berlaku di Peak Value Assessment.
+^A purple-quality Miniature Base Component whose main stat is ([\w ]+)\.$	Miniature Base Component kualitas ungu dengan stat utama \1.
+^A green-quality Miniature Base Component whose main stat is ([\w ]+)\.$	Miniature Base Component kualitas hijau dengan stat utama \1.
+^A blue-quality Miniature Base Component whose main stat is ([\w ]+)\.$	Miniature Base Component kualitas biru dengan stat utama \1.
+
+# --- senjata umum di zona terkontaminasi ---
+^A cheap weapon purchased from an underground broker\.$	Senjata murah yang dibeli dari broker bawah tanah.
+^An old weapon commonly seen in the contaminated zones\.$	Senjata tua yang lumrah ditemui di zona terkontaminasi.
+^A low-cost weapon commonly found in contamination zones\.$	Senjata murah yang lumrah ditemukan di zona kontaminasi.
+^Modified based on her combat preferences\.$	Dimodifikasi menurut preferensi tempurnya.
+^Modified based on her preferences in combat\.$	Dimodifikasi menurut preferensinya dalam bertempur.
+
+# --- afinitas & hadiah ---
+^A title awarded by B\.R\.I\.E\.F\.$	Gelar yang diberikan B.R.I.E.F.
+^Proof of affinity with a Doll, unlocked after reaching affinity level (\d+)\.$	Bukti afinitas dengan seorang Doll, terbuka setelah mencapai affinity level \1.
+^A Doll affinity return gift, obtained by having your affinity reach a certain level\.$	Hadiah balasan afinitas Doll, didapat kalau afinitasmu mencapai level tertentu.
+^A heartfelt return gift\.$	Hadiah balasan yang tulus.
+^Unlocked after raising affinity with Dolls\.$	Terbuka setelah menaikkan afinitas dengan Doll.
+
+# --- baris fungsi umum ---
+^Once obtained, it can be used to swap out parts of the same category\.$	Setelah didapat, bisa dipakai untuk menukar part dari kategori yang sama.
+^Once obtained, it can be used to swap parts of the same category\.$	Setelah didapat, bisa dipakai untuk menukar part dari kategori yang sama.
+^Can be used to unlock specific classified briefing in the Elmo Cloud\.$	Bisa dipakai untuk membuka classified briefing tertentu di Elmo Cloud.
+^Can be stored in the Storeroom as a souvenir\.$	Bisa disimpan di Storeroom sebagai suvenir.
+^Can be used to change the corresponding weapon coating\.$	Bisa dipakai untuk mengganti weapon coating terkait.
+^Can be used to change the corresponding weapon skin\.$	Bisa dipakai untuk mengganti weapon skin terkait.
+^This can be used to replace the corresponding weapon skin\.\.$	Ini bisa dipakai untuk mengganti weapon skin terkait..
+^Can be used to play Supply Mode stages\.$	Bisa dipakai untuk memainkan stage Supply Mode.
+^Can change the appearance of the corresponding Display Wall\.$	Bisa mengganti tampilan Display Wall terkait.
+^Can be used to consolidate feedback on the Feedback Wall\.$	Bisa dipakai untuk merangkum feedback di Feedback Wall.
+^Changes the Rec Room stool's appearance after use\.$	Mengganti tampilan bangku Rec Room setelah dipakai.
+^A curio from the survey area, collected by chance\.$	Barang antik dari area survei, terkumpul secara kebetulan.
+^Must be used at the Crew Deck's Counter\.$	Harus dipakai di Counter Crew Deck.
+^It must be used at the Crew Deck's Counter\.$	Harus dipakai di Counter Crew Deck.
+^Unlocks the drink ([\w' -]+) upon obtaining\.$	Membuka minuman \1 begitu didapat.
+^During the event, (\d+) tickets are restored daily, up to a maximum of (\d+)\.$	Selama event, \1 tiket dipulihkan tiap hari, maksimal \2.
+^One of the main ingredients for mixing beverages\.$	Salah satu bahan utama untuk meracik minuman.
+^It can be used to (?:mix|make) (<color=#[0-9a-fA-F]+>)([^<>]+)</color> in the Zucchero Caf.\.$	Bisa dipakai untuk meracik \1\2</color> di Zucchero Cafe.
+^It's big and very detailed\.\.\.$	Besar dan sangat detail...
+^Looks like somebody had very vivid recollections of it\.$	Sepertinya ada yang mengingatnya dengan sangat jelas.
+
+# --- skin & desain ---
+^A weapon skin design based on the (.+)\.$	Desain weapon skin berdasarkan \1.
+^An attachment skin based on the (.+)\.$	Attachment skin berdasarkan \1.
+^Attachment skin design based on the (.+)\.$	Desain attachment skin berdasarkan \1.

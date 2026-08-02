@@ -1,0 +1,99 @@
+# Batch 6 — teks tutorial tempur (id 60000-70000), diterjemahkan sebagai string utuh.
+#
+# Nama mekanik & tempat TETAP Inggris karena itu nama diri di dalam game:
+#   Deadwood, Filter, Filter Supply Pile, Exploring Limits, Exploration Area,
+#   Target Area, Cover, Boundary Cover, Full-body Cover, Perfect Cover,
+#   Stability Break, Sentry Gun(GL), Explosive Bombardment, Supply Crate,
+#   Supply Box, dyna box, Auto Battle, Twin Bellators, Dual Defense,
+#   United Advance, Inspiration, Self-Serve Bar, Shop Rating, Note, Jigsaw Puzzle.
+#
+# Beberapa string sumber mengandung salah ketik asli ("machigun", "full- body",
+# "Please<color") — sengaja dicocokkan apa adanya supaya tetap kena.
+#
+# Dialog cerita di rentang ini sengaja dilewati; ini batch tutorial, bukan cerita.
+#range 0 125000
+
+# --- Deadwood & eksplorasi ---
+When we're in the Deadwood, enemy units can't detect us, so we can move around safely.	Saat berada di Deadwood, unit musuh tidak bisa mendeteksi kita, jadi kita bisa bergerak dengan aman.
+Commander, we might be able to use it to hide our tracks.	Komandan, kita mungkin bisa memakainya untuk menyembunyikan jejak.
+But the enemy units can also launch sneak attacks on us in the same way, so please be careful, Commander.	Tapi unit musuh juga bisa menyergap kita dengan cara yang sama, jadi hati-hati, Komandan.
+During Exploring Limits, you can freely explore the current area while gathering supplies.	Selama Exploring Limits, kamu bebas menjelajahi area ini sambil mengumpulkan suplai.
+Commander, we've successfully reached the Target Area and are about to start the operation.	Komandan, kita sudah sampai di Target Area dan siap memulai operasi.
+Please note the evacuation button on the upper left corner of the screen. You can use it to leave the Exploration Area at any time without worrying about any losses.	Perhatikan tombol evakuasi di pojok kiri atas layar. Kamu bisa memakainya untuk keluar dari Exploration Area kapan saja tanpa khawatir kehilangan apa pun.
+When we're too close to enemy units, the risk level will increase significantly. Please keep that in mind, Commander.	Kalau kita terlalu dekat dengan unit musuh, tingkat risikonya naik drastis. Tolong diingat, Komandan.
+Commander, we've found a Filter Supply Pile!	Komandan, kita menemukan Filter Supply Pile!
+By using it, we can restore some Filter life.	Dengan memakainya, kita bisa memulihkan sebagian Filter life.
+Besides combat, only Filter Supply Piles can restore Filter life. If you want to keep going, make sure not to miss them.	Selain pertempuran, hanya Filter Supply Pile yang bisa memulihkan Filter life. Kalau mau lanjut, jangan sampai terlewat.
+Commander, a ladder can be built ahead. Use it to gain access to the high ground and collect the Supply Crate	Komandan, ada tangga yang bisa dibangun di depan. Pakai untuk naik ke dataran tinggi dan ambil Supply Crate
+Oh, by the way, there's a Supply Box next to you, Commander. Why don't you open it and take a look?	Oh iya, ada Supply Box di sebelahmu, Komandan. Coba buka dan lihat isinya.
+
+# --- pengerahan & unit dukungan ---
+In certain stages, deploying support units before the start of battle can greatly increase our combat effectiveness.	Di stage tertentu, mengerahkan unit dukungan sebelum pertempuran dimulai bisa sangat meningkatkan daya tempur kita.
+Support units are listed on the right. Select and deploy the most suitable support units based on the battlefield and your tactics... but I'm sure I don't need to say much more about this.	Unit dukungan ada di sebelah kanan. Pilih dan kerahkan unit dukungan yang paling cocok dengan kondisi medan dan taktikmu... tapi rasanya aku tak perlu menjelaskan panjang lebar soal ini.
+Still, I should remind you that the <color=#ff8236>type</color> and <color=#ff8237>maximum number</color> of support units which can be deployed may vary between each stage.	Tetap saja, perlu kuingatkan bahwa <color=#ff8236>tipe</color> dan <color=#ff8237>jumlah maksimum</color> unit dukungan yang bisa dikerahkan bisa berbeda di tiap stage.
+Click on the <color=#ff8237>support unit deployment point</color> on the tile.	Klik <color=#ff8237>titik pengerahan unit dukungan</color> di tile.
+Please <color=#ff8236>click on the Doll to deploy</color>.	Silakan <color=#ff8236>klik Doll yang akan dikerahkan</color>.
+Please <color=#ff8236>select the deployment location</color>.	Silakan <color=#ff8236>pilih lokasi pengerahan</color>.
+Next, please <color=#ff8236>click on an empty deployment location</color>.	Berikutnya, silakan <color=#ff8236>klik lokasi pengerahan yang kosong</color>.
+There are still deployable units. Are you sure you want to start?	Masih ada unit yang bisa dikerahkan. Yakin mau mulai?
+
+# --- Cover & medan perang ---
+Commander, please note that there are pieces of <color=#ff8236>full- body Cover</color> on the battlefield.	Komandan, perhatikan ada beberapa <color=#ff8236>full- body Cover</color> di medan perang.
+<color=#ff8236>Full-body Cover</color> offers the same protection as normal Cover, but it can also block line of sight.	<color=#ff8236>Full-body Cover</color> memberi perlindungan sama seperti Cover biasa, tapi juga menghalangi garis pandang.
+Please select the target location behind the <color=#ff8236>Boundary Cover</color>.	Silakan pilih lokasi target di balik <color=#ff8236>Boundary Cover</color>.
+The current defense value is not good enough. Please use <color=#ff8236>Perfect Cover</color> to reduce stability damage dealt to me and nearby allied units.	Nilai pertahanan saat ini belum cukup. Silakan pakai <color=#ff8236>Perfect Cover</color> untuk mengurangi damage stability ke aku dan unit sekutu di dekatnya.
+Commander, there are dyna boxes on the battlefield.	Komandan, ada dyna box di medan perang.
+Attacking the dyna boxes will cause them to explode, dealing considerable damage to all units within a 3x3 area and destroying destructible Cover.	Menyerang dyna box akan membuatnya meledak, memberi damage besar ke semua unit dalam area 3x3 dan menghancurkan Cover yang bisa dirusak.
+Detonating the dyna boxes at the right moment can create an advantage for us. Commander, please time it well.	Meledakkan dyna box di saat yang tepat bisa memberi kita keuntungan. Komandan, atur waktunya baik-baik.
+Commander, an inactive <color=#ff8236>Sentry Gun(GL)</color> has been detected on the battlefield.	Komandan, terdeteksi <color=#ff8236>Sentry Gun(GL)</color> nonaktif di medan perang.
+Approach the connected remote switch to interact with and activate it. Once activated, it will provide fire support for our team.	Dekati remote switch yang terhubung untuk berinteraksi dan mengaktifkannya. Setelah aktif, dia akan memberi dukungan tembakan untuk tim kita.
+When modules are present on the battlefield, you can formulate tactics based on the situation.	Saat ada modul di medan perang, kamu bisa menyusun taktik sesuai situasi.
+Beware of enemy machigun turrets	Waspadai turret machine gun musuh
+
+# --- serangan & stability ---
+Commander, I am ready to attack. Please <color=#ff8236>click on my basic attack skill</color>.	Komandan, aku siap menyerang. Silakan <color=#ff8236>klik skill serangan dasarku</color>.
+Here, you can see detailed information about this skill.	Di sini kamu bisa melihat informasi detail tentang skill ini.
+This indicates that the skill deals 4 points of stability damage, which is equal to the enemy's stability index.	Ini menunjukkan skill tersebut memberi 4 poin damage stability, sama dengan indeks stability musuh.
+The icon next to the health bar shows that the enemy currently has 4 points of stability index.	Ikon di samping health bar menunjukkan musuh saat ini punya 4 poin indeks stability.
+During aiming, the change in the target's stability index will be displayed below its health bar. You can see that this attack will reduce stability index from 4 points to 0.	Saat membidik, perubahan indeks stability target akan tampil di bawah health bar-nya. Terlihat bahwa serangan ini akan menurunkan indeks stability dari 4 poin jadi 0.
+Commander, the enemy unit has entered Stability Break, and the Cover's damage reduction effect has been weakened. Please give Nemesis the order to deliver the final blow.	Komandan, unit musuh sudah masuk Stability Break, dan efek pengurangan damage dari Cover melemah. Silakan perintahkan Nemesis untuk memberi pukulan terakhir.
+Next, please <color=#ff8236>click on the enemy target</color>.	Berikutnya, silakan <color=#ff8236>klik target musuh</color>.
+Please <color=#ff8236>click on the enemy target</color>.	Silakan <color=#ff8236>klik target musuh</color>.
+Please <color=#ff8236>click on "Explosive Bombardment"</color>.	Silakan <color=#ff8236>klik "Explosive Bombardment"</color>.
+Please<color=#ff8236>activate</color>.	Silakan<color=#ff8236>aktifkan</color>.
+Please <color=#ff8236>click Confirm</color>.	Silakan <color=#ff8236>klik Konfirmasi</color>.
+Please click Cancel.	Silakan klik Batal.
+Commander, please give the order.	Komandan, silakan beri perintah.
+In Phase 1, kill the Twin Bellators once without them gaining Dual Defense or United Advance.	Di Fase 1, kalahkan Twin Bellators sekali tanpa mereka mendapat Dual Defense atau United Advance.
+
+# --- pesan sistem di rentang ini ---
+Challenge Mode is only available for the duration of the current event	Mode Tantangan hanya tersedia selama event ini berlangsung
+Command Intercept Successful	Intersepsi Perintah Berhasil
+Missions refresh at 05:00AM each day, please take note	Misi diperbarui tiap hari pukul 05:00, mohon diperhatikan
+Today's missions are complete! Thanks for your hard work! Now collecting missions for the next day...	Misi hari ini selesai! Terima kasih atas kerja kerasmu! Sekarang menyiapkan misi untuk besok...
+Complete the Opening Preparation Missions, increase the café's popularity and gain corresponding rewards.	Selesaikan Misi Persiapan Pembukaan, tingkatkan popularitas kafe, dan dapatkan hadiahnya.
+Opening Preparations Have Begun!	Persiapan Pembukaan Dimulai!
+Opening Preparations Are Over	Persiapan Pembukaan Selesai
+Complete Jigsaw Puzzle To Obtain	Selesaikan Jigsaw Puzzle untuk Mendapatkan
+How to Obtain Extra Notes	Cara Mendapatkan Note Tambahan
+Orange square shows the position of the last-placed Note	Kotak oranye menunjukkan posisi Note yang terakhir diletakkan
+Level cap for {0} has been raised to {1}	Batas level {0} dinaikkan jadi {1}
+Maximum exchange amount reached	Jumlah penukaran sudah maksimum
+Maximum number of refreshes reached	Jumlah pembaruan sudah maksimum
+New Mission Tier Unlocked	Tier Misi Baru Terbuka
+{0} Points of {1} Obtained	Mendapat {0} Poin {1}
+Allies have obtained {0} points of {1}	Sekutu mendapat {0} poin {1}
+Select target(s) you wish to intercept. {0}/{1} chosen.	Pilih target yang ingin diintersepsi. {0}/{1} dipilih.
+No Commands that can be intercepted at the moment. Do you wish to continue?	Tidak ada Command yang bisa diintersepsi saat ini. Mau lanjut?
+You can choose one command to obtain	Kamu bisa memilih satu command untuk didapat
+Please select a command for replacement	Pilih command untuk diganti
+Select the command you wish to replace	Pilih command yang ingin diganti
+Choose the number of movement points	Pilih jumlah poin gerakan
+Please select the team members to recover stability {0}/{1}	Pilih anggota tim untuk memulihkan stability {0}/{1}
+Are you sure you want to swap the Inspirations mentioned above?	Yakin mau menukar Inspiration yang disebut di atas?
+Upgrade Self-Serve Bar to level {0}	Tingkatkan Self-Serve Bar ke level {0}
+Unlocks when Shop Rating reaches <color=#d67849>[{0}]</color>	Terbuka saat Shop Rating mencapai <color=#d67849>[{0}]</color>
+Unlocks When Rating Level Reaches <color=#F26C1C>[{0}]</color>	Terbuka Saat Level Rating Mencapai <color=#F26C1C>[{0}]</color>
+<color=#5085ad>{0} ×{1}</color> have been sold	<color=#5085ad>{0} ×{1}</color> telah terjual
+Complete the stage under the current cargo rating to unlock <color=#F26C1C>Auto Battle</color>	Selesaikan stage dengan cargo rating saat ini untuk membuka <color=#F26C1C>Auto Battle</color>
+Auto Battle is unlocked when cargo points reach <color=#F26C1C>{0}</color>	Auto Battle terbuka saat cargo point mencapai <color=#F26C1C>{0}</color>

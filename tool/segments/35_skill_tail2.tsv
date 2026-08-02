@@ -1,0 +1,212 @@
+# Deskripsi SKILL — putaran kedua ekor panjang.
+#
+# Setelah batch 21-25 dan 33, penghalang skill yang tersisa sudah 1:1 (2.960 kalimat
+# unik menutup 2.978 deskripsi), jadi ini kerja baris-per-baris seperti item batch
+# 29-34. Hampir semua ditulis dengan awalan "=" (mode harfiah) karena angkanya sudah
+# baku di tiap kalimat dan tag <color> di dalamnya rawan salah kalau ditulis regex.
+#
+# Banyak kalimat datang berpasangan: versi rinci (dengan persentase) dan versi ringkas
+# (tanpa angka) — permainan memakai keduanya di layar berbeda. Keduanya diterjemahkan.
+#
+# Istilah tetap Inggris: Stability Break, Confectance Index, Cover, Doll, buff, debuff,
+# summon, plugin, Phase, dan seluruh nama karakter serta nama skill.
+#range 0 130000
+
+# --- serangan & pemilihan sasaran ---
+=Select 1 enemy target and deal melee physical damage to it.	Pilih 1 target musuh dan berikan physical damage melee kepadanya.
+=Selects all enemy units <color=#f26c1c>across the battlefield</color> and deals AoE <color=#42cce0>Freeze damage</color> equal to <color=#f26c1c>120%</color> of attack to them.	Memilih semua unit musuh <color=#f26c1c>di seluruh medan perang</color> dan memberikan AoE <color=#42cce0>Freeze damage</color> setara <color=#f26c1c>120%</color> Attack kepada mereka.
+=Selects all enemy units <color=#f26c1c>across the battlefield</color> and deals AoE <color=#42cce0>Freeze damage</color> to them.	Memilih semua unit musuh <color=#f26c1c>di seluruh medan perang</color> dan memberikan AoE <color=#42cce0>Freeze damage</color> kepada mereka.
+=Selects the <color=#f26c1c>furthest and nearest</color> enemy targets, dealing Physical damage and knocks those targets back.	Memilih target musuh <color=#f26c1c>terjauh dan terdekat</color>, memberikan Physical damage dan mendorong target-target itu mundur.
+=Deals Physical damage to the <color=#f26c1c>nearest and farthest</color> enemy units and applies <color=#3487e0>{0}</color> to them.	Memberikan Physical damage ke unit musuh <color=#f26c1c>terdekat dan terjauh</color> lalu menerapkan <color=#3487e0>{0}</color> pada mereka.
+=Deals Physical damage to the target and deals Physical damage to other targets <color=#f26c1c>within 2 tiles</color>.	Memberikan Physical damage ke target dan memberikan Physical damage ke target lain <color=#f26c1c>dalam 2 tile</color>.
+=Deals Physical damage to the closest enemy target, applies <color=#3487e0>{0}</color>, and generates <color=#3487e0>{1}</color>.	Memberikan Physical damage ke target musuh terdekat, menerapkan <color=#3487e0>{0}</color>, lalu menghasilkan <color=#3487e0>{1}</color>.
+=Deals Physical damage equal to 90% of attack and applies <color=#3487e0>{0}</color>.	Memberikan Physical damage setara 90% Attack dan menerapkan <color=#3487e0>{0}</color>.
+=Deals Physical damage, gains Confectance Index, and gains <color=#3487e0>{0}</color>.	Memberikan Physical damage, mendapatkan Confectance Index, dan mendapatkan <color=#3487e0>{0}</color>.
+=Selects the farthest enemy target, deals Physical damage equal to <color=#f26c1c>160%</color> of attack to it, and applies <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Memilih target musuh terjauh, memberikan Physical damage setara <color=#f26c1c>160%</color> Attack kepadanya, lalu menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Selects 1 enemy target within <color=#f26c1c>3 to 8 tiles around this unit</color> and deals <color=#8679e8>Corrosion damage</color> equal to <color=#f26c1c>100%</color> of attack to it.	Memilih 1 target musuh <color=#f26c1c>dalam 3 sampai 8 tile di sekitar unit ini</color> dan memberikan <color=#8679e8>Corrosion damage</color> setara <color=#f26c1c>100%</color> Attack kepadanya.
+=Deals Burn damage to the closest enemy unit within <color=#f26c1c>6 tiles</color> and generates <color=#3487e0>{0}</color> tile.	Memberikan Burn damage ke unit musuh terdekat <color=#f26c1c>dalam 6 tile</color> dan menghasilkan tile <color=#3487e0>{0}</color>.
+=Deals <color=#e67129>Burn damage</color> to all enemy targets on the battlefield and deals fixed damage based on the percentage of the target's remaining HP.	Memberikan <color=#e67129>Burn damage</color> ke semua target musuh di medan perang dan memberikan fixed damage berdasarkan persentase sisa HP target.
+=Deals AoE physical damage that ignores Cover to all enemy targets within <color=#f26c1c>3 to 5 tiles</color> and applies <color=#3487e0>{0}</color>.	Memberikan AoE physical damage yang mengabaikan Cover ke semua target musuh <color=#f26c1c>dalam 3 sampai 5 tile</color> dan menerapkan <color=#3487e0>{0}</color>.
+=Selects the direction of the nearest enemy target around the user, dealing AoE physical damage that ignores Cover equal to 120% of attack to all enemy targets within a 3×2 area in front.	Memilih arah target musuh terdekat di sekitar pengguna, memberikan AoE physical damage yang mengabaikan Cover setara 120% Attack ke semua target musuh dalam area 3×2 di depan.
+=Select a direction, deal area <color=#2caadb>Hydro damage</color> to all enemy units, and leave behind <color=#3487e0>{0}</color>.	Pilih satu arah, berikan <color=#2caadb>Hydro damage</color> area ke semua unit musuh, dan tinggalkan <color=#3487e0>{0}</color>.
+=Deals <color=#2caadb>Hydro damage</color> to all targets in a <color=#f26c1c>4-tile fan-shaped area in front</color>, and generates <color=#3487e0>{0}</color>.	Memberikan <color=#2caadb>Hydro damage</color> ke semua target dalam <color=#f26c1c>area kipas 4 tile di depan</color>, lalu menghasilkan <color=#3487e0>{0}</color>.
+=Deal Fixed damage to a single enemy target, and self gains <color=#3487e0>{0}</color>.	Berikan Fixed damage ke satu target musuh, dan diri sendiri mendapatkan <color=#3487e0>{0}</color>.
+=Destroys all destructible Cover within a <color=#f26c1c>7×7 area</color> around the user, dealing physical damage to all enemies within range, and knocking them back.	Menghancurkan semua Cover yang bisa dihancurkan dalam <color=#f26c1c>area 7×7</color> di sekitar pengguna, memberikan physical damage ke semua musuh dalam jangkauan, lalu mendorong mereka mundur.
+=Self-destructs after moving <color=#f26c1c>within 4 tiles</color> of <color=#3487e0>Amni's Leg</color>, dealing AoE true damage.	Meledakkan diri setelah bergerak <color=#f26c1c>dalam 4 tile</color> dari <color=#3487e0>Amni's Leg</color>, memberikan AoE true damage.
+
+# --- penerapan status ---
+=After the attack, applies <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Setelah serangan itu, menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=After the attack, applies <color=#3487e0>{0}</color>.	Setelah serangan itu, menerapkan <color=#3487e0>{0}</color>.
+=Applies <color=#3487e0>{0}</color> to all allied units.	Menerapkan <color=#3487e0>{0}</color> ke semua unit sekutu.
+=Applies <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> for 2 turns.	Menerapkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> selama 2 giliran.
+=Applies <color=#3487e0>{0}</color> to Physical-type friendly Dolls.	Menerapkan <color=#3487e0>{0}</color> ke Doll sekutu bertipe Physical.
+=Applies <color=#3487e0>{1}</color> to the closest enemy target within <color=#f26c1c>5 tiles</color> for <color=#f26c1c>1 turn</color>.	Menerapkan <color=#3487e0>{1}</color> ke target musuh terdekat <color=#f26c1c>dalam 5 tile</color> selama <color=#f26c1c>1 giliran</color>.
+=Applies <color=#3487e0>{1}</color> to the closest enemy target.	Menerapkan <color=#3487e0>{1}</color> ke target musuh terdekat.
+=After damaging the target, applies 1 stack of <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Setelah melukai target, menerapkan 1 stack <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=When a direct attack causes the enemy target to enter Stability Break, applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>1 turn</color>.	Saat serangan langsung membuat target musuh masuk Stability Break, menerapkan <color=#3487e0>{0}</color> pada mereka selama <color=#f26c1c>1 giliran</color>.
+=When a direct attack causes the enemy target to enter Stability Break, applies <color=#3487e0>{0}</color> to them.	Saat serangan langsung membuat target musuh masuk Stability Break, menerapkan <color=#3487e0>{0}</color> pada mereka.
+=When attacking, if the target is in <color=#3487e0>Stability Break</color>, applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>2 turns</color>.	Saat menyerang, jika target sedang <color=#3487e0>Stability Break</color>, menerapkan <color=#3487e0>{0}</color> pada mereka selama <color=#f26c1c>2 giliran</color>.
+=When attacking, if the target is in <color=#3487e0>Stability Break</color>, applies <color=#3487e0>{0}</color> to them.	Saat menyerang, jika target sedang <color=#3487e0>Stability Break</color>, menerapkan <color=#3487e0>{0}</color> pada mereka.
+=If this unit moved <color=#f26c1c>3 or more tiles</color>, applies <color=#3487e0>{0}</color> to the target before attacking.	Jika unit ini bergerak <color=#f26c1c>3 tile atau lebih</color>, menerapkan <color=#3487e0>{0}</color> ke target sebelum menyerang.
+=If the target has movement debuffs, applies <color=#3487e0>{1}</color> to them for <color=#f26c1c>1 turn</color>.	Jika target memiliki debuff pergerakan, menerapkan <color=#3487e0>{1}</color> pada mereka selama <color=#f26c1c>1 giliran</color>.
+=At the start of the user's turn, apply <color=#3487e0>{0}</color> to the farthest enemy target for <color=#f26c1c>2 turns</color>.	Di awal giliran pengguna, terapkan <color=#3487e0>{0}</color> ke target musuh terjauh selama <color=#f26c1c>2 giliran</color>.
+=Before attacking an enemy target in <color=#f26c1c>Peripheral Battlefield 1</color>, inflicts <color=#3487e0>{0}</color> on them for <color=#f26c1c>2 Rounds</color>.	Sebelum menyerang target musuh di <color=#f26c1c>Peripheral Battlefield 1</color>, menimbulkan <color=#3487e0>{0}</color> pada mereka selama <color=#f26c1c>2 ronde</color>.
+=<color=#8679e8>Kingsnake Enhancement Effect</color>: If Kingsnake is not Short-Circuited, additionally apply 1 <color=#3487e0>{0}</color> to the target.	<color=#8679e8>Kingsnake Enhancement Effect</color>: Jika Kingsnake tidak sedang Short-Circuited, terapkan tambahan 1 <color=#3487e0>{0}</color> ke target.
+=When <color=#3487e0>{2}</color> is triggered, additionally applies <color=#3487e0>{3}</color> and <color=#3487e0>{4}</color> to the allied unit for <color=#f26c1c>1 turn</color>.	Saat <color=#3487e0>{2}</color> terpicu, menerapkan tambahan <color=#3487e0>{3}</color> dan <color=#3487e0>{4}</color> ke unit sekutu selama <color=#f26c1c>1 giliran</color>.
+
+# --- perolehan & pergantian status ---
+=Self and <color=#3487e0>{1}</color> gain <color=#3487e0>{2}</color>.	Diri sendiri dan <color=#3487e0>{1}</color> mendapatkan <color=#3487e0>{2}</color>.
+=The user gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Pengguna mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=The user gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> and deals <color=#e67129>Burn damage</color>.	Pengguna mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> lalu memberikan <color=#e67129>Burn damage</color>.
+=After losing <color=#3487e0>{0}</color>, gain <color=#3487e0>{1}</color>.	Setelah kehilangan <color=#3487e0>{0}</color>, mendapatkan <color=#3487e0>{1}</color>.
+=After attacking or when an ally unit dies, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Setelah menyerang atau saat unit sekutu mati, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=After attacking or when an ally unit dies, gain <color=#3487e0>{0}</color>.	Setelah menyerang atau saat unit sekutu mati, mendapatkan <color=#3487e0>{0}</color>.
+=For <color=#f26c1c>each</color> enemy target hit, gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Untuk <color=#f26c1c>setiap</color> target musuh yang terkena, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=For <color=#f26c1c>each</color> enemy target hit, gains <color=#3487e0>{0}</color>.	Untuk <color=#f26c1c>setiap</color> target musuh yang terkena, mendapatkan <color=#3487e0>{0}</color>.
+=At the end of this unit's action, if they did not attack an enemy this turn, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Di akhir aksi unit ini, jika ia tidak menyerang musuh pada giliran ini, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=At the start of the turn, if there are allied units within <color=#f26c1c>3 tiles</color>, gains <color=#3487e0>{0}</color>.	Di awal giliran, jika ada unit sekutu <color=#f26c1c>dalam 3 tile</color>, mendapatkan <color=#3487e0>{0}</color>.
+=At the start of the turn, Lind gains <color=#3487e0>{0}</color>.	Di awal giliran, Lind mendapatkan <color=#3487e0>{0}</color>.
+=At the start of the battle, summon <color=#3487e0>{0}</color>.	Di awal pertempuran, memanggil <color=#3487e0>{0}</color>.
+=At the start of battle, Mechty enters <color=#3487e0>{0}</color>, and applies <color=#3487e0>{1}</color> to all allied units.	Di awal pertempuran, Mechty masuk ke <color=#3487e0>{0}</color> dan menerapkan <color=#3487e0>{1}</color> ke semua unit sekutu.
+=Alva enters <color=#3487e0>{0}</color> for <color=#f26c1c>3 rounds</color>.	Alva masuk ke <color=#3487e0>{0}</color> selama <color=#f26c1c>3 ronde</color>.
+=Alva enters <color=#3487e0>{0}</color>, and deals <color=#42cce0>Freeze damage</color> to the enemy target.	Alva masuk ke <color=#3487e0>{0}</color> dan memberikan <color=#42cce0>Freeze damage</color> ke target musuh.
+=Change <color=#3487e0>{1}</color> to <color=#3487e0>{0}</color>.	Ubah <color=#3487e0>{1}</color> jadi <color=#3487e0>{0}</color>.
+=<color=#3487e0>{2}</color> is changed to <color=#3487e0>{0}</color>.	<color=#3487e0>{2}</color> diubah jadi <color=#3487e0>{0}</color>.
+=Releases <color=#3487e0>{0}</color> next turn.	Melepaskan <color=#3487e0>{0}</color> pada giliran berikutnya.
+=The duration of <color=#3487e0>{2}</color> is increased by <color=#f26c1c>1 turn</color>.	Durasi <color=#3487e0>{2}</color> bertambah sebanyak <color=#f26c1c>1 giliran</color>.
+=The first time maximum HP goes below <color=#f26c1c>50%</color>, gains <color=#3487e0>{2}</color>.	Pertama kali HP maksimum turun di bawah <color=#f26c1c>50%</color>, mendapatkan <color=#3487e0>{2}</color>.
+=If this kills the target, gain <color=#f26c1c>1 point</color> of Confectance Index.	Jika ini membunuh target, mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=If the enemy enters Stability Break, gains Confectance Index and restores stability.	Jika musuh masuk Stability Break, mendapatkan Confectance Index dan memulihkan Stability.
+=If this unit is not in Stability Break, gain a buff after dealing damage.	Jika unit ini tidak sedang Stability Break, mendapatkan buff setelah memberikan damage.
+=For every Support Attack performed by other allied units, gains <color=#f26c1c>1 point</color> of Confectance Index.	Untuk setiap Support Attack yang dilakukan unit sekutu lain, mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+
+# --- damage & multiplier ---
+=For <color=#f26c1c>each tile</color> by which the target's mobility is reduced, damage multiplier is increased by <color=#f26c1c>5%</color>.	Untuk <color=#f26c1c>setiap tile</color> pengurangan Mobility target, damage multiplier meningkat sebesar <color=#f26c1c>5%</color>.
+=After attacking, the damage multiplier for the next use of this skill is increased by <color=#f26c1c>50%</color>, to a maximum of <color=#f26c1c>100%</color>.	Setelah menyerang, damage multiplier untuk pemakaian skill ini berikutnya meningkat sebesar <color=#f26c1c>50%</color>, maksimal <color=#f26c1c>100%</color>.
+=Damage multiplier is increased to <color=#f26c1c>120%</color> and the damage multiplier increase from consuming <color=#3487e0>{0}</color> is increased to <color=#f26c1c>20%</color>.	Damage multiplier naik menjadi <color=#f26c1c>120%</color> dan kenaikan damage multiplier dari memakai <color=#3487e0>{0}</color> naik menjadi <color=#f26c1c>20%</color>.
+=For <color=#f26c1c>every tile</color> moved before attacking, damage is increased by <color=#f26c1c>10%</color>, up to a maximum of <color=#f26c1c>30%</color>.	Untuk <color=#f26c1c>setiap tile</color> yang ditempuh sebelum menyerang, damage meningkat sebesar <color=#f26c1c>10%</color>, maksimal <color=#f26c1c>30%</color>.
+=For <color=#f26c1c>every tile</color> moved before attacking, damage is increased.	Untuk <color=#f26c1c>setiap tile</color> yang ditempuh sebelum menyerang, damage meningkat.
+=For <color=#f26c1c>each stack</color> of <color=#3487e0>{0}</color> on the target, damage dealt is increased by <color=#f26c1c>10%</color>.	Untuk <color=#f26c1c>setiap stack</color> <color=#3487e0>{0}</color> pada target, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>.
+=For every <color=#f26c1c>1%</color> of max HP lost, increases damage dealt by <color=#f26c1c>1%</color>.	Untuk setiap <color=#f26c1c>1%</color> Max HP yang hilang, damage yang diberikan meningkat sebesar <color=#f26c1c>1%</color>.
+=After taking damage equal to <color=#f26c1c>30%</color> of initial HP, damage dealt is increased by <color=#f26c1c>10%</color>.	Setelah menerima damage setara <color=#f26c1c>30%</color> HP awal, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>.
+=If any weakness is exploited, increases damage dealt by <color=#f26c1c>20%</color>.	Jika kelemahan apa pun dieksploitasi, damage yang diberikan meningkat sebesar <color=#f26c1c>20%</color>.
+=If they have Corrosion debuffs, damage is further increased by <color=#f26c1c>2.5%</color>.	Jika mereka memiliki debuff Corrosion, damage meningkat lagi <color=#f26c1c>2.5%</color>.
+=If target's stability index is lower than this unit's, increases damage dealt to them by <color=#f26c1c>7%</color>.	Jika Stability Index target lebih rendah daripada unit ini, damage ke mereka meningkat sebesar <color=#f26c1c>7%</color>.
+=If the target has defense debuffs, increases critical rate and critical damage by <color=#f26c1c>10%</color>.	Jika target memiliki debuff Defense, Critical Rate dan Critical Damage meningkat sebesar <color=#f26c1c>10%</color>.
+=If attacked by enemy targets with debuffs, reduce damage taken by <color=#f26c1c>10%</color>.	Jika diserang target musuh yang memiliki debuff, damage yang diterima berkurang sebesar <color=#f26c1c>10%</color>.
+=When attacking enemy targets with defensive debuffs, reduce the cooldown of all active skills by <color=#f26c1c>1 turn</color>.	Saat menyerang target musuh yang memiliki debuff Defense, cooldown semua active skill berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=When attacking targets with <color=#3487e0>{2}</color>, increase critical rate by <color=#f26c1c>100%</color>.	Saat menyerang target yang memiliki <color=#3487e0>{2}</color>, Critical Rate meningkat sebesar <color=#f26c1c>100%</color>.
+=When Stability Index is greater than <color=#f26c1c>0</color>, damage dealt is increased by <color=#f26c1c>50%</color>.	Saat Stability Index lebih dari <color=#f26c1c>0</color>, damage yang diberikan meningkat sebesar <color=#f26c1c>50%</color>.
+=When stability index is greater than <color=#f26c1c>0</color>, targeted damage taken is reduced by <color=#f26c1c>80%</color>.	Saat Stability Index lebih dari <color=#f26c1c>0</color>, damage bertarget yang diterima berkurang sebesar <color=#f26c1c>80%</color>.
+=When stability is <color=#f26c1c>greater than 0</color>, max HP is increased by <color=#f26c1c>12%</color>.	Saat Stability <color=#f26c1c>lebih dari 0</color>, Max HP meningkat sebesar <color=#f26c1c>12%</color>.
+=When standing on a phase terrain tile, phase damage of the corresponding attribute is increased by <color=#f26c1c>30%</color>.	Saat berdiri di tile medan phase, phase damage dengan atribut yang sesuai meningkat sebesar <color=#f26c1c>30%</color>.
+=When the unit has a shield, damage dealt is increased by <color=#f26c1c>5%</color>.	Jika unit ini memiliki shield, damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color>.
+=When ally units deal damage, if they have shields, damage dealt is increased by <color=#f26c1c>15%</color>.	Saat unit sekutu memberikan damage, jika mereka memiliki shield, damage yang diberikan meningkat sebesar <color=#f26c1c>15%</color>.
+=When ally units deal damage, if they have shields, damage dealt is increased.	Saat unit sekutu memberikan damage, jika mereka memiliki shield, damage yang diberikan meningkat.
+=When Physical allied units deal damage, they ignore <color=#f26c1c>5%</color> of the target's defense.	Saat unit sekutu bertipe Physical memberikan damage, mereka mengabaikan <color=#f26c1c>5%</color> Defense target.
+=Damage dealt by all allied <color=#3487e0>physical summons</color> on the battlefield is increased by <color=#f26c1c>4%</color>.	Damage dari semua <color=#3487e0>summon physical</color> sekutu di medan perang meningkat sebesar <color=#f26c1c>4%</color>.
+=Damage dealt by attacks that only hit <color=#f26c1c>1</color> enemy unit is increased by <color=#f26c1c>12%</color>.	Damage dari serangan yang hanya mengenai <color=#f26c1c>1</color> unit musuh meningkat sebesar <color=#f26c1c>12%</color>.
+=Damage dealt against enemy units that are <color=#f26c1c>more than 5 tiles</color> away is increased by <color=#f26c1c>12%</color>.	Damage terhadap unit musuh yang berjarak <color=#f26c1c>lebih dari 5 tile</color> meningkat sebesar <color=#f26c1c>12%</color>.
+=Damage dealt to Paradeus humanoid units is increased.	Damage ke unit humanoid Paradeus meningkat.
+=Damage dealt to ELIDs is increased by <color=#f26c1c>2.5%</color>.	Damage ke ELID meningkat sebesar <color=#f26c1c>2.5%</color>.
+=Physical damage taken by enemy units within <color=#f26c1c>3 tiles</color> is increased by <color=#f26c1c>5%</color>.	Physical damage yang diterima unit musuh <color=#f26c1c>dalam 3 tile</color> meningkat sebesar <color=#f26c1c>5%</color>.
+=Damage taken from enemy units <color=#f26c1c>within 3 tiles</color> of this unit is reduced by <color=#f26c1c>0.6%</color>.	Damage dari unit musuh <color=#f26c1c>dalam 3 tile</color> dari unit ini berkurang sebesar <color=#f26c1c>0.6%</color>.
+=Phase damage taken this unit and all ally units within <color=#f26c1c>within 9 tiles</color> is reduced by <color=#f26c1c>40%</color>.	Phase damage yang diterima unit ini dan semua unit sekutu <color=#f26c1c>dalam 9 tile</color> berkurang sebesar <color=#f26c1c>40%</color>.
+=Phase damage taken this unit and all ally units within <color=#f26c1c>within 9 tiles</color> is reduced.	Phase damage yang diterima unit ini dan semua unit sekutu <color=#f26c1c>dalam 9 tile</color> berkurang.
+=Attack is increased by <color=#f26c1c>15%</color>, melee damage taken is increased by <color=#f26c1c>80%</color>.	Attack meningkat sebesar <color=#f26c1c>15%</color>, damage melee yang diterima meningkat sebesar <color=#f26c1c>80%</color>.
+=If damage dealt is not melee damage, it is further reduced by <color=#f26c1c>25%</color>.	Jika damage yang diberikan bukan damage melee, damage itu berkurang lagi <color=#f26c1c>25%</color>.
+=Before taking damage, if not on a Phase tile, Defense decreases by <color=#f26c1c>50%</color>; if not on a Corrosion tile, damage taken increases by <color=#f26c1c>25%</color>.	Sebelum menerima damage, jika tidak berada di tile Phase, Defense turun sebesar <color=#f26c1c>50%</color>; jika tidak berada di tile Corrosion, damage yang diterima naik sebesar <color=#f26c1c>25%</color>.
+=Mobility increased by <color=#f26c1c>3 tiles</color>, attack power increased by <color=#f26c1c>20%</color>, <color=#f26c1c>ammo damage</color> taken increased by <color=#f26c1c>80%</color>.	Mobility meningkat sebanyak <color=#f26c1c>3 tile</color>, Attack meningkat sebesar <color=#f26c1c>20%</color>, <color=#f26c1c>ammo damage</color> yang diterima meningkat sebesar <color=#f26c1c>80%</color>.
+
+# --- stability ---
+=Stability index will be fully restored after being in Stability Break for <color=#f26c1c>2 turns</color>.	Stability Index pulih penuh setelah <color=#f26c1c>2 giliran</color> berada dalam Stability Break.
+=Unable to receive stability restoration effects during Stability Break, restore stability index to full <color=#f26c1c>2 turns</color> after Stability Break.	Tidak bisa menerima efek pemulihan Stability selama Stability Break; Stability Index pulih penuh <color=#f26c1c>2 giliran</color> setelah Stability Break.
+=If the user is under the effects of <color=#3487e0>{1}</color>, increases stability damage dealt by <color=#f26c1c>1 point</color>.	Jika pengguna sedang terkena efek <color=#3487e0>{1}</color>, Stability damage yang diberikan meningkat sebesar <color=#f26c1c>1 poin</color>.
+=Stability damage dealt by <color=#3487e0>{0}</color> increases by <color=#f26c1c>1 point</color>.	Stability damage dari <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>1 poin</color>.
+=<color=#3487e0>{0}</color> deals an additional <color=#f26c1c>2 points</color> of fixed stability damage.	<color=#3487e0>{0}</color> memberikan tambahan <color=#f26c1c>2 poin</color> fixed Stability damage.
+=Reduces stability damage taken when a phase weakness is not exploited, increases stability damage taken when a phase weakness is exploited.	Mengurangi Stability damage yang diterima saat kelemahan phase tidak dieksploitasi, dan menambah Stability damage yang diterima saat kelemahan phase dieksploitasi.
+=At the end of the action, restore <color=#f26c1c>5 points</color> of stability index to all allied targets (excluding self) within <color=#f26c1c>4 tiles</color>.	Di akhir aksi, memulihkan <color=#f26c1c>5 poin</color> Stability Index ke semua target sekutu (kecuali diri sendiri) <color=#f26c1c>dalam 4 tile</color>.
+=At the end of the action, restore stability index to all allied targets (excluding self) within <color=#f26c1c>4 tiles</color>.	Di akhir aksi, memulihkan Stability Index ke semua target sekutu (kecuali diri sendiri) <color=#f26c1c>dalam 4 tile</color>.
+
+# --- penyembuhan ---
+=At the end of this unit's action, selects an allied unit <color=#f26c1c>within 2 tiles</color> and heal it for <color=#f26c1c>100%</color> of its max HP	Di akhir aksi unit ini, memilih satu unit sekutu <color=#f26c1c>dalam 2 tile</color> dan menyembuhkannya sebesar <color=#f26c1c>100%</color> Max HP-nya
+=At the end of this unit's action, selects an allied unit <color=#f26c1c>within 2 tiles</color> and heal it.	Di akhir aksi unit ini, memilih satu unit sekutu <color=#f26c1c>dalam 2 tile</color> dan menyembuhkannya.
+=After dealing damage, the ally unit with the lowest HP percentage recovers HP equal to <color=#f26c1c>20%</color> of Max HP and <color=#f26c1c>1 point</color> of stability.	Setelah memberikan damage, unit sekutu dengan persentase HP terendah memulihkan HP setara <color=#f26c1c>20%</color> Max HP dan <color=#f26c1c>1 poin</color> Stability.
+=After dealing damage, restore HP and stability to the allied unit with the lowest HP percentage.	Setelah memberikan damage, memulihkan HP dan Stability unit sekutu dengan persentase HP terendah.
+=At the end of the action, restores HP equal to <color=#f26c1c>30%</color> of Felamedisin's attack to the allied unit with lowest HP percentage within range (excluding self).	Di akhir aksi, memulihkan HP setara <color=#f26c1c>30%</color> Attack Felamedisin ke unit sekutu dengan persentase HP terendah dalam jangkauan (kecuali diri sendiri).
+=Restores allied unit’s HP at the end of the action.	Memulihkan HP unit sekutu di akhir aksi.
+=After a control effect is applied to this unit, it recovers HP equal to <color=#f26c1c>50%</color> of max HP.	Setelah efek control diterapkan pada unit ini, ia memulihkan HP setara <color=#f26c1c>50%</color> Max HP.
+=After a control effect is applied to this unit, it recovers HP.	Setelah efek control diterapkan pada unit ini, ia memulihkan HP.
+=If an ally within range is subjected to an active attack, they are healed.	Jika sekutu dalam jangkauan terkena serangan aktif, mereka disembuhkan.
+=Healing effects received by allies with <color=#f26c1c>50% or lower</color> HP is increased by <color=#f26c1c>8%</color>.	Efek healing yang diterima sekutu ber-HP <color=#f26c1c>50% atau kurang</color> meningkat sebesar <color=#f26c1c>8%</color>.
+=This unit's healing effects are increased by <color=#f26c1c>12%</color>.	Efek healing unit ini meningkat sebesar <color=#f26c1c>12%</color>.
+
+# --- kekebalan & jangkauan ---
+=Hydro-type debuffs cannot be applied to this unit.	Debuff tipe Hydro tidak bisa diterapkan pada unit ini.
+=Unaffected by control effects applied by Dolls	Tidak terpengaruh efek control yang diterapkan Doll
+=Defense range is increased to <color=#f26c1c>4 tiles</color>.	Jangkauan Defense naik menjadi <color=#f26c1c>4 tile</color>.
+=Defense area has been increased.	Area Defense sudah diperluas.
+=Increase mobility of self by <color=#f26c1c>1 point</color>.	Menambah Mobility diri sendiri <color=#f26c1c>1 poin</color>.
+=Max HP is increased.	Max HP meningkat.
+=The number of enemy targets selected in <color=#f26c1c>Peripheral Battlefield 1</color> is increased by 3.	Jumlah target musuh yang dipilih di <color=#f26c1c>Peripheral Battlefield 1</color> bertambah sebanyak 3.
+=Increases the number of buffed allied targets to <color=#f26c1c>2</color>.	Menambah jumlah target sekutu yang diberi buff jadi <color=#f26c1c>2</color>.
+=Increases the number of allied targets affected by the buff.	Menambah jumlah target sekutu yang terkena buff.
+=Performs this attack <color=#f26c1c>1 additional time</color> for <color=#f26c1c>each</color> component with Short-Circuit, to a maximum of <color=#f26c1c>4 times</color>.	Melakukan serangan ini <color=#f26c1c>1 kali tambahan</color> untuk <color=#f26c1c>setiap</color> komponen yang Short-Circuit, maksimal <color=#f26c1c>4 kali</color>.
+
+# --- kejadian bernama karakter ---
+=When the City Warden is undergoing <color=#3487e0>{0}</color>, Papasha's damage dealt is increased by <color=#f26c1c>20%</color>.	Saat City Warden sedang menjalani <color=#3487e0>{0}</color>, damage yang diberikan Papasha meningkat sebesar <color=#f26c1c>20%</color>.
+=The City Warden is unable to move independently, but its attack is increased by <color=#f26c1c>10%</color>.	City Warden tidak bisa bergerak sendiri, tapi serangannya meningkat sebesar <color=#f26c1c>10%</color>.
+=At the start of the turn, the unit with the lower attack between the user and the City Warden gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Di awal giliran, unit dengan serangan lebih rendah antara pengguna dan City Warden mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=When the distance to the Mysterious Girl - Entropic Exuviate is <color=#f26c1c>5 tiles or less</color>, Mysterious Girl - Entropic Exuviate gains <color=#3487e0>{0}</color>.	Saat jaraknya ke Mysterious Girl - Entropic Exuviate <color=#f26c1c>5 tile atau kurang</color>, Mysterious Girl - Entropic Exuviate mendapatkan <color=#3487e0>{0}</color>.
+=Every enemy unit on the field with <color=#3487e0>{0}</color> increases Faye's mobility by <color=#f26c1c>1 tile</color>, to a maximum increase of <color=#f26c1c>3 tiles</color>.	Setiap unit musuh di medan yang memiliki <color=#3487e0>{0}</color> menambah Mobility Faye sebesar <color=#f26c1c>1 tile</color>, maksimal bertambah sebanyak <color=#f26c1c>3 tile</color>.
+=When Faye's HP is lower than <color=#f26c1c>50%</color>, healing effect received is increased by <color=#f26c1c>30%</color>.	Saat HP Faye di bawah <color=#f26c1c>50%</color>, efek healing yang diterima meningkat sebesar <color=#f26c1c>30%</color>.
+=When an enemy unit with <color=#3487e0>{0}</color> dies, Faye's attack is increased by <color=#f26c1c>4%</color>, to a maximum increase of <color=#f26c1c>20%</color>.	Saat unit musuh yang memiliki <color=#3487e0>{0}</color> mati, serangan Faye meningkat sebesar <color=#f26c1c>4%</color>, maksimal bertambah sebesar <color=#f26c1c>20%</color>.
+=When the active skill <color=#3487e0>Ruinous Whirl</color> only hits <color=#f26c1c>one</color> enemy unit, damage dealt is increased by <color=#f26c1c>20%</color>.	Saat active skill <color=#3487e0>Ruinous Whirl</color> hanya mengenai <color=#f26c1c>satu</color> unit musuh, damage yang diberikan meningkat sebesar <color=#f26c1c>20%</color>.
+=If the Ultimate skill <color=#3487e0>Devastating Drift</color> only hits <color=#f26c1c>1</color> target, increases the damage dealt by <color=#f26c1c>30%</color>.	Jika Ultimate skill <color=#3487e0>Devastating Drift</color> hanya mengenai <color=#f26c1c>1</color> target, damage yang diberikan meningkat sebesar <color=#f26c1c>30%</color>.
+=If the user is under the effects of <color=#3487e0>Blazing Assault</color>, damage dealt is increased.	Jika pengguna sedang terkena efek <color=#3487e0>Blazing Assault</color>, damage yang diberikan meningkat.
+=After using active skills, Florence and <color=#3487e0>{0}</color> recover HP equal to <color=#f26c1c>80%</color> of attack.	Setelah memakai active skill, Florence dan <color=#3487e0>{0}</color> memulihkan HP setara <color=#f26c1c>80%</color> Attack.
+=After Florence or <color=#3487e0>{0}</color> attacks, applies <color=#3487e0>{1}</color> on the enemy unit for <color=#f26c1c>2 turns</color>.	Setelah Florence atau <color=#3487e0>{0}</color> menyerang, menerapkan <color=#3487e0>{1}</color> pada unit musuh selama <color=#f26c1c>2 giliran</color>.
+=After <color=#3487e0>{0}</color> launches a Counterattack, it gains <color=#3487e0>{1}</color> for <color=#f26c1c>1 turn</color>.	Setelah <color=#3487e0>{0}</color> melancarkan Counterattack, ia mendapatkan <color=#3487e0>{1}</color> selama <color=#f26c1c>1 giliran</color>.
+=Using the Ultimate skill pulls all targets <color=#f26c1c>3 tiles</color> towards Florence.	Memakai Ultimate skill menarik semua target <color=#f26c1c>3 tile</color> ke arah Florence.
+=The attack of this unit's physical summons is increased by <color=#f26c1c>7%</color>.	Attack summon physical unit ini meningkat sebesar <color=#f26c1c>7%</color>.
+=If <color=#3487e0>{0}</color> is on the field, <color=#3487e0>{0}</color> will immediately use the basic attack <color=#3487e0>{1}</color> on the target after usage of this skill.	Jika <color=#3487e0>{0}</color> ada di medan, <color=#3487e0>{0}</color> akan langsung memakai basic attack <color=#3487e0>{1}</color> ke target setelah skill ini dipakai.
+=At the end of the turn, if the Mecha-Hound has not attacked, all enemies with <color=#3487e0>{0}</color> gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Di akhir giliran, jika Mecha-Hound belum menyerang, semua musuh yang memiliki <color=#3487e0>{0}</color> mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=At the end of the turn, if the Mecha-Hound has not made an attack, enemy units on the field with <color=#3487e0>{0}</color> gain <color=#3487e0>{0}</color>.	Di akhir giliran, jika Mecha-Hound belum melakukan serangan, unit musuh di medan yang memiliki <color=#3487e0>{0}</color> mendapatkan <color=#3487e0>{0}</color>.
+=When an enemy target within range is affected by <color=#3487e0>{1}</color>, performs <color=#f26c1c>1 instance</color> of {0}, dealing AoE physical damage and stability damage.	Saat target musuh dalam jangkauan terkena <color=#3487e0>{1}</color>, melakukan <color=#f26c1c>1 kali</color> {0}, memberikan AoE physical damage dan Stability damage.
+
+# --- medan & terrain ---
+=If an allied unit ends their action on a Corrosion terrain tile, they gain <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Jika unit sekutu mengakhiri aksinya di tile medan Corrosion, mereka mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=At the end of the allied turn, <color=#3487e0>{0}</color> summons a <color=#3487e0>Flesh Vine</color> in the vicinity of all enemy units on Corrosion tiles.	Di akhir giliran sekutu, <color=#3487e0>{0}</color> memanggil <color=#3487e0>Flesh Vine</color> di sekitar semua unit musuh yang berada di tile Corrosion.
+=When in Stability Break, all <color=#3487e0>Lava</color> tiles on the battlefield are removed.	Saat dalam Stability Break, semua tile <color=#3487e0>Lava</color> di medan perang dihapus.
+=Explodes when Stability Index is <color=#f26c1c>0</color>, generating <color=#3487e0>{0}</color> within a <color=#f26c1c>3-tile radius around self</color>.	Meledak saat Stability Index <color=#f26c1c>0</color>, menghasilkan <color=#3487e0>{0}</color> dalam <color=#f26c1c>radius 3 tile di sekitar diri sendiri</color>.
+=When HP reaches <color=#f26c1c>0</color>, explode, causing <color=#3487e0>{0}</color> within a <color=#f26c1c>3×3 tile area</color> around self.	Saat HP mencapai <color=#f26c1c>0</color>, meledak, menimbulkan <color=#3487e0>{0}</color> dalam <color=#f26c1c>area 3×3 tile</color> di sekitar diri sendiri.
+=Any enemy unit (excluding summons) that enters <color=#f26c1c>3 tiles</color> around the user will have <color=#3487e0>{0}</color> temporarily removed.	Unit musuh mana pun (kecuali summon) yang masuk <color=#f26c1c>3 tile</color> di sekitar pengguna akan kehilangan <color=#3487e0>{0}</color> untuk sementara.
+=At the start of battle, all enemy units gain all <color=#f26c1c>phase weaknesses</color> for <color=#f26c1c>3 rounds</color>.	Di awal pertempuran, semua unit musuh mendapatkan semua <color=#f26c1c>kelemahan phase</color> selama <color=#f26c1c>3 ronde</color>.
+
+# --- buff awal pertempuran & plugin ---
+=At the start of the battle, the <color=#f26c1c>2</color> allied units with the highest attack have their attack increased by <color=#f26c1c>3%</color>.	Di awal pertempuran, <color=#f26c1c>2</color> unit sekutu dengan serangan tertinggi mendapatkan kenaikan serangan <color=#f26c1c>3%</color>.
+=At the start of the battle, selects the <color=#f26c1c>2 units</color> with the highest initial defense and increase their defense by <color=#f26c1c>3%</color>.	Di awal pertempuran, memilih <color=#f26c1c>2 unit</color> dengan Defense awal tertinggi dan menaikkan Defense mereka sebesar <color=#f26c1c>3%</color>.
+=For <color=#f26c1c>each</color> plugin from a different tactical framework, stability damage dealt by all allied Dolls is increased by <color=#f26c1c>2 points</color>.	Untuk <color=#f26c1c>setiap</color> plugin dari tactical framework berbeda, Stability damage dari semua Doll sekutu meningkat sebesar <color=#f26c1c>2 poin</color>.
+=For <color=#f26c1c>each</color> <color=#3487e0>Sudden Event</color> entered, damage dealt by all allied Dolls is increased by <color=#f26c1c>7%</color>.	Untuk <color=#f26c1c>setiap</color> <color=#3487e0>Sudden Event</color> yang dimasuki, damage dari semua Doll sekutu meningkat sebesar <color=#f26c1c>7%</color>.
+=At the start of the turn, if the user's Confectance Index is full, the next instance of AoE damage inflicted by an active attack is increased by <color=#f26c1c>10%</color>.	Di awal giliran, jika Confectance Index pengguna penuh, damage AoE berikutnya dari serangan aktif meningkat sebesar <color=#f26c1c>10%</color>.
+=For every <color=#f26c1c>3 points</color> of Confectance Index consumed, reduces cooldowns of all skills by <color=#f26c1c>1 turn</color>.	Setiap <color=#f26c1c>3 poin</color> Confectance Index yang dipakai, cooldown semua skill berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=<color=#3487e0>{0}</color> gains a new effect, it increases damage to targets in Stability Break by <color=#f26c1c>15%</color>.	<color=#3487e0>{0}</color> mendapatkan efek baru: damage ke target yang sedang Stability Break meningkat sebesar <color=#f26c1c>15%</color>.
+=After using the active skill <color=#3487e0>Expansive Amplification</color>, gains <color=#f26c1c>6 tiles</color> of <color=#3487e0>{0}</color>.	Setelah memakai active skill <color=#3487e0>Expansive Amplification</color>, mendapatkan <color=#f26c1c>6 tile</color> <color=#3487e0>{0}</color>.
+=<color=#3487e0>{0}</color> accumulates the damage it deals and converts the damage to attack, defense and Max HP at a specified ratio, to a maximum of 4,000,000 damage accumulated.	<color=#3487e0>{0}</color> mengumpulkan damage yang diberikannya dan mengubah damage itu jadi serangan, Defense, dan Max HP dengan rasio tertentu, maksimal 4,000,000 damage terkumpul.
+
+# --- label pendek & teks internal ---
+=Opening attack	Serangan pembuka
+=Opening attack (added by Level 2 passive)	Serangan pembuka (ditambahkan pasif Level 2)
+=Cleansing Aura	Cleansing Aura
+=Force Field Device	Force Field Device
+=Generate interactive object	Menghasilkan objek interaktif
+=Main structure calls basic attack (shell only)	Struktur utama memanggil basic attack (cangkang saja)
+=Main structure recovery (shell only)	Pemulihan struktur utama (cangkang saja)
+=Main structure restores HP of all substructures	Struktur utama memulihkan HP semua substruktur
+=Can be used every 2 turns	Bisa dipakai setiap 2 giliran
+=Can be used every 2 turns.	Bisa dipakai setiap 2 giliran.
+=Basic attack range is set to 400*400	Jangkauan basic attack diatur jadi 400*400
+=Basic attack range is set to 400*400.	Jangkauan basic attack diatur jadi 400*400.
+=Buff range expanded to 400*400, with shared damage ratio increased to 15%	Jangkauan buff diperluas jadi 400*400, dengan rasio damage bersama naik menjadi 15%
+=The buff expanded to 400*400, and increase Combat Robot's HP by 10%	Buff-nya diperluas jadi 400*400, dan menaikkan HP Combat Robot sebesar 10%
+=When taunting enemies, their attack is reduced by 20%	Saat memancing musuh, serangan mereka berkurang sebesar 20%

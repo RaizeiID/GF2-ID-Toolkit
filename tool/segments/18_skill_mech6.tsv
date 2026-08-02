@@ -1,0 +1,43 @@
+# Deskripsi skill — keluarga mekanik putaran keenam.
+# Nama faksi/unit (Girard Group, Boss, Sentry (HMG/GL)) dan nama nilai
+# (HOC Power, Precision value) dibawa backref / tetap Inggris.
+#range 0 130000
+
+# --- target khusus ---
+# Kelas karakter dibatasi (bukan ".+"): dengan ".+" pola ini rakus dan menelan
+# kalimat majemuk seperti "...is increased by 2.5% and damage dealt to X units...",
+# menghasilkan terjemahan setengah jadi. Kelas ini tidak bisa melewati "%" atau ".".
+^Damage dealt to ([A-Za-z][\w' -]*) units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke unit \1 meningkat sebesar \2\3%</color>.
+^Damage taken from the inflictor of this status effect is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari pihak yang menimbulkan status ini meningkat sebesar \1\2%</color>.
+
+# --- pengurangan & efek bertahan ---
+^Damage reduction from cover is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Pengurangan damage dari Cover berkurang sebesar \1\2%</color>.
+^Damage reduction from stability is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Pengurangan damage dari Stability berkurang sebesar \1\2%</color>.
+^Targeted damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage tertarget yang diterima berkurang sebesar \1\2%</color>.
+^Stability damage taken reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Damage Stability yang diterima berkurang sebesar \1\2 poin</color>.
+^Healing effects are reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Efek healing berkurang sebesar \1\2%</color>.
+^While below (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> HP, becomes immune to all sources of damage\.$	Saat HP di bawah \1\2%</color>, kebal terhadap semua sumber damage.
+
+# --- serangan & stat ---
+^Targeted active skill damage increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, effective once\.$	Damage skill aktif tertarget meningkat sebesar \1\2%</color>, berlaku sekali.
+^Damage dealt by Ultimate skills is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari Ultimate skill meningkat sebesar \1\2%</color>.
+^When making out-of-turn attacks, attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat melakukan serangan di luar giliran, Attack meningkat sebesar \1\2%</color>.
+^When a weakness is exploited when taking damage, damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat kelemahan tereksploitasi ketika menerima damage, damage yang diterima meningkat sebesar \1\2%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and Max HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color> dan Max HP meningkat sebesar \3\4%</color>.
+^Damage multiplier against the selected target is further increased to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of (.+)\.$	Damage multiplier terhadap target terpilih naik lagi jadi \1\2%</color> dari \3.
+
+# --- efek area & sekutu ---
+^The defense of all allied units with (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense semua unit sekutu yang memiliki \1\2</color> meningkat sebesar \3\4%</color>.
+^When ally units exploit a phase weakness, they recover HP equal to (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of Max HP\.$	Saat unit sekutu mengeksploitasi kelemahan phase, mereka memulihkan HP sebesar \1\2%</color> dari Max HP.
+^If any allied unit within (<color=#[0-9a-fA-F]+>)([\d.]+) tiles</color> is hit by an active attack, restores their HP equal to (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of attack\.$	Jika ada unit sekutu dalam \1\2 tile</color> terkena serangan aktif, HP-nya dipulihkan sebesar \3\4%</color> dari Attack.
+^Any enemy target that enters (<color=#[0-9a-fA-F]+>)([\d.]+) tiles</color> around the user will have (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> temporarily removed\.$	Target musuh mana pun yang masuk \1\2 tile</color> di sekitar pengguna akan kehilangan \3\4</color> untuk sementara.
+^When this effect reaches (<color=#[0-9a-fA-F]+>)([\d.]+) stacks</color>, removes them and gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Saat efek ini mencapai \1\2 stack</color>, stack-nya dihapus dan mendapatkan \3\4</color>.
+^If this unit has (\w+) buffs, damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and critical rate is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika unit ini memiliki buff \1, damage yang diterima berkurang sebesar \2\3%</color>, damage yang diberikan meningkat sebesar \4\5%</color>, dan Critical Rate meningkat sebesar \6\7%</color>.
+
+# --- serangan bertarget ganda ---
+^Select 1 enemy target on (<color=#[0-9a-fA-F]+>)Peripheral Battlefield ([\d.]+)</color> or the Core Battlefield, deal Physical damage to it equal to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of (.+) and deal Physical damage to all enemy units (<color=#[0-9a-fA-F]+>)within ([\d.]+) tiles</color> equal to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of (.+)\.$	Pilih 1 target musuh di \1Peripheral Battlefield \2</color> atau Core Battlefield, berikan damage Physical sebesar \3\4%</color> dari \5, dan berikan damage Physical ke semua unit musuh \6dalam \7 tile</color> sebesar \8\9%</color> dari \g<10>.
+
+# --- teks tutorial/objektif di rentang ini ---
+^Click the supply box to pick it up, reducing incoming damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> for ([\d.]+) turns?\.$	Klik supply box untuk mengambilnya, mengurangi damage masuk sebesar \1\2%</color> selama \3 giliran.
+^Damage taken by the enemy command vehicle is reduced by ([\d.]+)% for each Sentry \(HMG\) and Sentry \(GL\)\.$	Damage yang diterima kendaraan komando musuh berkurang \1% untuk setiap Sentry (HMG) dan Sentry (GL).
+^Unlocks when the North Sea Underground Brokers' Merchant Association Reputation reaches Lv\.$	Terbuka saat Reputasi Merchant Association North Sea Underground Brokers mencapai Lv.

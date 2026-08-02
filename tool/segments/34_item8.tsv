@@ -1,0 +1,247 @@
+# Deskripsi ITEM — putaran kedelapan: menghabiskan sisa "kurang satu kalimat".
+#
+# Ini menuntaskan seluruh 224 penghalang yang tersisa, kecuali lima yang memang
+# bukan teks: "#REF!", "#N/A", "Test", "Unknown", dan satu baris berisi titik saja.
+# Kelimanya dibiarkan apa adanya karena menerjemahkan galat spreadsheet atau
+# placeholder kosong tidak menambah apa pun di layar.
+#
+# Salah ketik milik permainan yang disalin apa adanya: "in in hand", "enemy targes",
+# "8 points,and fixed damage" (spasi hilang), "Represents Mica Port's trust ... ,
+# can increase" (koma sambung), dan dua baris berakhir dua titik.
+#range 0 130000
+
+# --- efek mekanik: shield ---
+^When a shield is broken, deal fixed damage to the destroyer equal to (\d+)% of the applier's defense\.$	Saat shield pecah, berikan fixed damage ke penghancurnya setara \1% pertahanan pemberi shield.
+^When shielded, attacks deal additional fixed damage equal to (\d+)% of shield value\.$	Saat punya shield, serangan memberikan tambahan fixed damage setara \1% nilai shield.
+^When shielded, critical rate is increased by (\d+)%$	Saat punya shield, critical rate meningkat \1%
+^When shielded, ([A-Za-z]+)-type attacks reduce all skill cooldowns by (\d+) turn\.$	Saat punya shield, serangan tipe \1 mengurangi cooldown semua skill \2 giliran.
+
+# --- efek mekanik: eksploitasi kelemahan ---
+^When an active attack causes an ammo weakness exploitation, damage dealt is increased by (\d+)%\.$	Saat serangan aktif mengeksploitasi kelemahan ammo, damage yang diberikan meningkat \1%.
+^When an active attack causes an ammo weakness exploitation, damage dealt is increased by (\d+)% and stability damage is increased by (\d+) points\.$	Saat serangan aktif mengeksploitasi kelemahan ammo, damage yang diberikan meningkat \1% dan stability damage meningkat \2 poin.
+^When an active attack causes an elemental weakness exploitation, damage dealt is increased by (\d+)%\.$	Saat serangan aktif mengeksploitasi kelemahan elemen, damage yang diberikan meningkat \1%.
+^When an active attack causes an elemental weakness exploitation, damage dealt is increased by (\d+)% and stability damage is increased by (\d+) points\.$	Saat serangan aktif mengeksploitasi kelemahan elemen, damage yang diberikan meningkat \1% dan stability damage meningkat \2 poin.
+^When exploiting Phase Weakness outside of a turn, additionally deal (\d+) points of stability damage and fixed damage equal to (\d+)% of attack to the target$	Saat mengeksploitasi Phase Weakness di luar giliran, berikan tambahan \1 poin stability damage dan fixed damage setara \2% serangan ke target
+
+# --- efek mekanik: Charge & Electric ---
+=When this unit has <Positive Charge> and deals Electric damage to an enemy unit on a <Electric tile>, deals additional fixed damage equal to 100% of attack and 9 points of stability damage .	Kalau unit ini punya <Positive Charge> dan memberikan Electric damage ke unit musuh di <Electric tile>, memberikan tambahan fixed damage setara 100% serangan dan 9 poin stability damage .
+=When this unit has <Cation> and deals Electric damage to an enemy unit on a <Electric-type tile>, critical rate is increased by 100%, and critical damage is increased by 75%.	Kalau unit ini punya <Cation> dan memberikan Electric damage ke unit musuh di <Electric-type tile>, critical rate meningkat 100% dan critical damage meningkat 75%.
+=When dealing Electric damage to an enemy target with <Negative Charge> and in Stability Break, fixed damage is increased by 200%.	Saat memberikan Electric damage ke target musuh yang punya <Negative Charge> dan sedang Stability Break, fixed damage meningkat 200%.
+=After dealing targeted Electric damage, deal damage equal to 30% of the triggering attack's damage to all enemy targes with <Negative Charge>.	Setelah memberikan Electric damage bertarget, berikan damage setara 30% damage serangan pemicunya ke semua target musuh yang punya <Negative Charge>.
+=When attacking a target with <Negative Charge>, targeted damage dealt is increased by 5%.	Saat menyerang target yang punya <Negative Charge>, damage bertarget yang diberikan meningkat 5%.
+=When attacking a target with <Negative Charge>, targeted damage dealt is increased by 15% and stability damage dealt is increased by 4 points.	Saat menyerang target yang punya <Negative Charge>, damage bertarget yang diberikan meningkat 15% dan stability damage yang diberikan meningkat 4 poin.
+=When attacking a target with <Negative Charge>, targeted damage dealt is increased by 30%, stability damage dealt is increased by 8 points,and fixed damage dealt is increased by 50%.	Saat menyerang target yang punya <Negative Charge>, damage bertarget yang diberikan meningkat 30%, stability damage yang diberikan meningkat 8 poin,dan fixed damage yang diberikan meningkat 50%.
+
+# --- efek mekanik: serangan di luar giliran ---
+^\[All Assists\] outside of turns gain (\d+)% increased damage and (\d+) points of increased stability damage$	[Semua Assist] di luar giliran mendapat tambahan damage \1% dan tambahan \2 poin stability damage
+^\[All Assists\] outside of turns gain (\d+)% increased damage and (\d+) points of increased stability damage, as well as (\d+)% increased critical damage$	[Semua Assist] di luar giliran mendapat tambahan damage \1%, tambahan \2 poin stability damage, dan tambahan critical damage \3%
+^After attacking outside of a turn, the attacker gains (\d+)% increased defense for (\d+) turns, maximum of (\d+) stacks \[This is a defense buff that does not interact with other systems\]$	Setelah menyerang di luar giliran, penyerangnya mendapat tambahan pertahanan \1% selama \2 giliran, maksimal \3 stack [Ini buff pertahanan yang tidak berinteraksi dengan sistem lain]
+^Always heal (\d+)% of max HP, (\d+) point of stability, and cleanse (\d+) debuff after attacking outside of turn\.$	Selalu memulihkan \1% max HP, \2 poin stability, dan membersihkan \3 debuff setelah menyerang di luar giliran.
+^Before commencing an attack outside of a turn, apply \[Increase ([A-Za-z]+) damage by (\d+)%\] to the target for (\d+) turn\.$	Sebelum melancarkan serangan di luar giliran, terapkan [Damage \1 meningkat \2%] ke target selama \3 giliran.
+^Before commencing an attack outside of a turn, apply \[Increase ([A-Za-z]+) damage by (\d+)%\] and \[Increase Stability damage taken by (\d+) points\] for (\d+) turn\.$	Sebelum melancarkan serangan di luar giliran, terapkan [Damage \1 meningkat \2%] dan [Stability damage yang diterima meningkat \3 poin] selama \4 giliran.
+^Before commencing an attack outside of a turn, if the target is in Stability Break, ignore (\d+)% of their defense$	Sebelum melancarkan serangan di luar giliran, kalau target sedang Stability Break, abaikan \1% pertahanannya
+
+# --- efek mekanik: lain-lain ---
+^When HP is reduced, recover HP equal to (\d+)% of Max HP\.$	Saat HP berkurang, memulihkan HP setara \1% Max HP.
+^Upon killing an enemy, recover HP equal to (\d+)% of Max HP\.$	Saat membunuh musuh, memulihkan HP setara \1% Max HP.
+^When there are fewer than (\d+) enemies on the field, damage dealt by allies is increased by (\d+)%$	Saat ada kurang dari \1 musuh di medan, damage dari sekutu meningkat \2%
+^When there are more than (\d+) enemies on the field, damage dealt by allies is increased by (\d+)%$	Saat ada lebih dari \1 musuh di medan, damage dari sekutu meningkat \2%
+^For each plugin from this set possessed, stability damage \+(\d+), stacking up to (\d+) times$	Untuk tiap plugin dari set ini yang dimiliki, stability damage +\1, menumpuk hingga \2 kali
+^For each plugin from this set possessed, attack is increased by (\d+)%, stacking up to (\d+) times$	Untuk tiap plugin dari set ini yang dimiliki, serangan meningkat \1%, menumpuk hingga \2 kali
+^Attack increased by (\d+)% when attacking an enemy target with ([A-Za-z]+) debuff\(s\)\.$	Serangan meningkat \1% saat menyerang target musuh yang punya debuff \2.
+^Attack increased by (\d+)% and critical damage increased by (\d+)% when attacking an enemy target with ([A-Za-z]+) debuff\(s\)\.$	Serangan meningkat \1% dan critical damage meningkat \2% saat menyerang target musuh yang punya debuff \3.
+^Attack increased by (\d+)%, critical rate increased by (\d+)% and critical damage increased by (\d+)% when attacking an enemy target with ([A-Za-z]+) debuff\(s\)\.$	Serangan meningkat \1%, critical rate meningkat \2%, dan critical damage meningkat \3% saat menyerang target musuh yang punya debuff \4.
+^When an iceball hits a target, it deals fixed damage to the target equal to (\d+)% of attack\.$	Saat bola es mengenai target, ia memberikan fixed damage ke target setara \1% serangan.
+^When healing an ally, all ally units on the field additionally recover HP equal to (\d+)% of their Max HP\.$	Saat menyembuhkan sekutu, semua unit sekutu di medan memulihkan tambahan HP setara \1% Max HP mereka.
+=Emergency Support and Support Action gain one more use	Emergency Support dan Support Action mendapat satu pemakaian tambahan
+=At the start of the turn, if this unit has <Positive Charge>, cleanses 2 debuff effects, recovers HP equal to 25% of Max HP and gains 2 stacks of <Sensitivity> and <Shelter>.	Di awal giliran, kalau unit ini punya <Positive Charge>, membersihkan 2 efek debuff, memulihkan HP setara 25% Max HP, dan mendapat 2 stack <Sensitivity> dan <Shelter>.
+=After every 2 instances of Physical damage dealt, the next instance of damage includes an additional instance of fixed damage equal to number of [A] stacks × 5% of attack.	Tiap 2 kali Physical damage diberikan, damage berikutnya menyertakan tambahan fixed damage setara jumlah stack [A] × 5% serangan.
+=Arthrorhynchus attacks increase the damage dealt by the attacks of Ootheca summons made against the target this turn by 30%, maximum of 60%.	Serangan Arthrorhynchus menaikkan damage serangan summon Ootheca terhadap target itu pada giliran ini sebesar 30%, maksimal 60%.
+=After an Ootheca attacks, the damage multiplier is increased by (10%* [Parasite] stacks), critical rate is increased by (10%* [Parasite] stacks) and critical damage is increased by (10%* [Parasite] stacks), maximum of 30%.	Setelah Ootheca menyerang, damage multiplier meningkat (10%* stack [Parasite]), critical rate meningkat (10%* stack [Parasite]), dan critical damage meningkat (10%* stack [Parasite]), maksimal 30%.
+=Characters will not die upon receiving lethal damage, and remain in this state until the end of their action [This effect can be triggered for every Doll once in a battle], then cleanse all debuffs from self and heal 50% of max HP.	Karakter tidak akan mati saat menerima damage mematikan, dan bertahan dalam kondisi ini sampai akhir aksinya [Efek ini bisa terpicu sekali per Doll dalam satu pertempuran], lalu membersihkan semua debuff dari diri sendiri dan memulihkan 50% max HP.
+=If an allied Doll takes fatal damage while having 10 or more stacks of [A], 10 stacks of [A] are consumed to negate that instance of damage, and fully restores the affected Doll's HP	Kalau Doll sekutu menerima damage mematikan saat punya 10 stack [A] atau lebih, 10 stack [A] dipakai untuk membatalkan damage itu, dan HP Doll yang terkena pulih sepenuhnya
+
+# --- attachment & barang ---
+=A grip with refined craftsmanship.	Grip dengan pengerjaan yang halus.
+=A grip with a distinctly classic and rustic look.	Grip dengan tampilan klasik dan bersahaja yang khas.
+=A muzzle that looks really cool.	Muzzle yang kelihatannya keren sekali.
+=A blade edge that looks like it was made of really sturdy material.	Mata bilah yang kelihatannya dibuat dari material yang benar-benar kokoh.
+=It looks like a handy attachment; let's have a drink first.	Kelihatannya attachment yang praktis; minum dulu, yuk.
+=A box used for transporting medical and military supplies, notable for its large capacity—able to fit a curled-up adult male.	Peti untuk mengangkut perbekalan medis dan militer, terkenal karena kapasitasnya yang besar—muat untuk pria dewasa yang meringkuk.
+=A beautifully crafted fountain pen, even though it has been used for more than a decade, its surface shows no signs of aging.	Pena mata tinta buatan indah; meski sudah dipakai lebih dari sepuluh tahun, permukaannya tak menunjukkan tanda penuaan.
+=These special cores were developed through sampling Doll neural clouds, intended as a universal way to strengthen neural clouds.	Core khusus ini dikembangkan dari sampel neural cloud Doll, dimaksudkan sebagai cara universal untuk memperkuat neural cloud.
+=Neural Cloud	Neural Cloud
+=Resource Package	Paket Sumber Daya
+=[Test Data] Obtained by purchasing or dismantling excess weapons.	[Data Uji] Didapat dengan membeli atau membongkar senjata berlebih.
+
+# --- perabot & ornamen ---
+=Even being placed on a wooden horse does not diminish its gallantry in the slightest.	Bahkan diletakkan di atas kuda kayu pun tak sedikit pun mengurangi gagahnya.
+=Perhaps even its designer never realized that she could become the subject of others' childhood memories someday.	Mungkin bahkan perancangnya tak pernah menyangka ia bisa jadi bagian dari kenangan masa kecil orang lain suatu hari.
+=The King of Cats welcomes you with the loveliest things he can imagine, such as candy and snowflakes.	Raja Kucing menyambutmu dengan hal-hal terindah yang bisa ia bayangkan, seperti permen dan serpih salju.
+=Quiet as mice, sweet as sugar, hiding in their cups, watching over you.	Sesenyap tikus, semanis gula, bersembunyi di dalam cangkirnya, menjagamu.
+=Its chirping foreshadows a certain ending.	Cicitannya memberi firasat akan sebuah akhir tertentu.
+=A cold, oppressive feeling.	Rasa dingin yang menekan.
+=It'll take a while to teach it that smoking does not, in fact, equate to arson.	Butuh waktu untuk mengajarinya bahwa mengepulkan asap itu bukan berarti membakar.
+=Use black-colored industrial refuse to produce the form of living vegetation.	Pakai limbah industri berwarna hitam untuk membentuk rupa tumbuhan yang hidup.
+=A set of pictures containing sunlight and lovely memories, all packed into a single frame.	Serangkaian gambar berisi cahaya matahari dan kenangan manis, semuanya dikemas dalam satu bingkai.
+=3D art captures moments in time.	Seni 3D menangkap momen dalam waktu.
+=An old-school medium carrying new-age beats.	Media jadul yang membawa irama zaman baru.
+=When the player begins to spin, the speakers awaken sleeping memories.	Saat pemutarnya mulai berputar, pengeras suaranya membangunkan kenangan yang tertidur.
+=When your job is electronic music, you'll never work a day in your life.	Kalau pekerjaanmu musik elektronik, kau tak akan pernah merasa bekerja seumur hidupmu.
+=It serves as both a freestyle chair and a place to rest your tired feet.	Berfungsi sekaligus sebagai kursi bebas gaya dan tempat mengistirahatkan kaki yang pegal.
+=It will perform its duties meticulously until the mainspring stops and the potential energy returns to zero.	Ia akan menjalankan tugasnya dengan cermat sampai pegas utamanya berhenti dan energi potensialnya kembali nol.
+=The wrinkles in the bedsheets have long lost their residual warmth, and dust has settled in an even layer of silence on the fabric.	Kerutan di seprai sudah lama kehilangan sisa kehangatannya, dan debu mengendap rata jadi lapisan sunyi di atas kainnya.
+=The sofa remembers every sunken contour, the coffee table holds broken chapters, and the carpet is the only memory that hasn't faded yet.	Sofanya mengingat tiap lekuk yang pernah membekas, meja kopinya menyimpan bab-bab yang patah, dan karpetnya satu-satunya kenangan yang belum pudar.
+=Every inch here is living on behalf of the absent.	Tiap jengkal di sini hidup mewakili mereka yang tak ada.
+=The wrench lies quietly like a monument, the toolbox is half open, unable to finish telling a story of completion.	Kunci pasnya terbaring diam bagai monumen, kotak perkakasnya setengah terbuka, tak sanggup menuntaskan cerita tentang sesuatu yang selesai.
+=Love gives flesh and blood to a soul; that is what you mean to her.	Kehidupan memberi daging dan darah pada jiwa; begitulah artimu baginya.
+
+# --- teks rasa skin & senjata ---
+=The foe's lines crumble like dried leaves.	Barisan musuh runtuh bagai dedaunan kering.
+=The shining edge of reprisal will end all darkness.	Ketajaman berkilau sang pembalas akan mengakhiri semua kegelapan.
+=Your high-flying tactics scatter the foe before you.	Taktikmu yang melambung tinggi mencerai-beraikan musuh di hadapanmu.
+=The enemy is me, and I am the enemy.	Musuh itu aku, dan aku itu musuh.
+=Often, the greatest challenge is overcoming your own limitations.	Sering kali, tantangan terbesar adalah mengalahkan batasmu sendiri.
+=As the battle goes back and forth, the outcome remains unclear until the very end.	Saat pertempuran berbalas-balasan, hasilnya tetap tak jelas sampai detik terakhir.
+=Victory is decided by the slimmest of margins.	Kemenangan ditentukan oleh selisih yang paling tipis.
+=Ruthlessly logical tactics are often more lethal than bullets.	Taktik yang logis tanpa ampun sering lebih mematikan daripada peluru.
+=It isn't just the gun that dazzles, but the flash that comes after you pull the trigger.	Bukan cuma senjatanya yang memesona, tapi juga kilatan yang muncul setelah kau menarik pelatuknya.
+=Stepping outside with it in in hand beckons the rain.	Melangkah keluar sambil menggenggamnya justru memanggil hujan.
+=Right dress! Eyes front! Forward march!	Luruskan barisan! Pandangan ke depan! Maju jalan!
+=The muzzle flash dyes the lives of your opponents the color of rust.	Kilatan moncong mewarnai nyawa lawanmu dengan warna karat.
+=Unleash a fierce onslaught, kicking up a storm of battle.	Lancarkan serbuan yang ganas, kobarkan badai pertempuran.
+=Reforge your scars into a sharper blade and cut a path through your dilemmas.	Tempa ulang luka-lukamu jadi bilah yang lebih tajam dan tebas jalan keluar dari dilemamu.
+=Let the battle be decided before sunset.	Biar pertempuran ini selesai sebelum matahari terbenam.
+=No matter what you hold, you must first be fearless.	Apa pun yang kau genggam, yang pertama harus kau punya adalah keberanian.
+=Does this mean it's a demonic weapon now?	Apa ini berarti sekarang jadi senjata iblis?
+=Relax, this duel is just a game.	Tenang, duel ini cuma permainan.
+=Nobody can bear the psychological damage that comes from being killed by someone with a weapon skin named "Pink Sweetheart".	Tak ada yang sanggup menanggung damage psikologis akibat dibunuh orang yang memakai weapon skin bernama "Pink Sweetheart".
+=The one who rushes to the front with this gun is usually the children's leader.	Yang menyerbu paling depan dengan senjata ini biasanya pemimpin anak-anak.
+=There's just something wrong about not hitting the bullseye.	Ada yang terasa salah kalau tidak kena tepat di tengah sasaran.
+=Please do not spin leeks on the battlefield! Not even if you can dance the polka!	Tolong jangan memutar-mutar daun bawang di medan perang! Sekalipun kau bisa menari polka!
+=The sound of every gunshot is precisely timed to the rhythm of the beat!	Bunyi tiap tembakan diatur pas mengikuti irama ketukan!
+=This is a high-pressure water gun!	Ini pistol air bertekanan tinggi!
+=Sink to the azure bottom of the sea and seal the dream away into eternity.	Tenggelamlah ke dasar laut yang biru dan segel mimpi itu dalam keabadian.
+=Beneath the cold blade, do emotions quietly flow?	Di bawah bilah yang dingin, apakah perasaan mengalir diam-diam?
+=Follow in the footsteps of pioneers and embrace the unknown.	Ikuti jejak para perintis dan rangkul yang tak diketahui.
+=Tickets for the vessel of desire, contracts for the vilest sin.	Tiket untuk bahtera hasrat, kontrak untuk dosa yang paling keji.
+=The scorching summer heat, the splashing water, and the Dolls' laughter all combine to create a heartwarming scene.	Terik musim panas, cipratan air, dan tawa para Doll berpadu jadi pemandangan yang menghangatkan hati.
+=The barrel of the gun is the silent witness of the battlefield, its grooves are badges of honor, and the bullet fired by pulling the trigger is a rousing cheer for the victor.	Laras senjata adalah saksi bisu medan perang, alurnya adalah lencana kehormatan, dan peluru yang ditembakkan lewat tarikan pelatuk adalah sorak kemenangan bagi sang juara.
+=Pledging by the starlit sky, hiding a pure heart; this love never sets like the night, and awakens like the dawn.	Bersumpah di bawah langit berbintang, menyimpan hati yang murni; cinta ini tak pernah terbenam seperti malam, dan terjaga seperti fajar.
+=“We are exiles, searching for an Oasis of our own in a virtual world.” This is a memory from the cloud.	“Kami para pembuang diri, mencari Oasis kami sendiri di dunia maya.” Ini kenangan dari cloud.
+=I shall accept your heartbeat.	Akan kuterima detak jantungmu.
+=Take her hand and dance with her.	Genggam tangannya dan menarilah bersamanya.
+=Your form shimmers in that light.	Sosokmu berkilau dalam cahaya itu.
+=Just look at that kitty's big ol' eyes — How can you NOT rescue it?	Lihat saja mata besar kucing itu — mana tega kau TIDAK menyelamatkannya?
+=Want to bet on a horse race? All wagers are final; no takebacks!	Mau bertaruh di pacuan kuda? Semua taruhan bersifat final; tidak bisa ditarik!
+=Don't laugh at me, you dummy!	Jangan menertawakanku, dasar bodoh!
+=Courage and sincerity are useful outside of a fight.	Keberanian dan ketulusan berguna juga di luar pertarungan.
+=While she looks great from behind, you must always be wary of the whip she carries.	Meski dari belakang penampilannya memikat, kau harus selalu waspada pada cambuk yang ia bawa.
+=While she looks like a cute and sweet girl, she's not nice at all.	Meski kelihatannya gadis yang imut dan manis, sifatnya sama sekali tidak manis.
+=A brawny battler; his big hammer really hurts!	Petarung berotot; palu besarnya benar-benar bikin sakit!
+=It's especially sensitive to your gaze and touch.	Ia sangat peka terhadap tatapan dan sentuhanmu.
+=An idol who shines on the unique stage, the "battlefield"! She prepares meticulously every day for her next performance—this way, she will not easily trip or bump into others again.	Idola yang bersinar di panggung yang unik, "medan perang"! Tiap hari ia bersiap dengan cermat untuk penampilan berikutnya—supaya tak gampang tersandung atau menabrak orang lagi.
+=The gourmet streamer is excitedly reading the danmaku that are coming in, planning where to take you for the next big feast.	Streamer kuliner itu membaca danmaku yang berdatangan dengan antusias, sambil merencanakan ke mana mengajakmu berpesta besar berikutnya.
+=A weapon skin design based on Svarog.	Desain weapon skin berdasarkan Svarog.
+=Weapon skin based on the Sparkling Centerstage.	Weapon skin berdasarkan Sparkling Centerstage.
+=Can be used to change the corresponding weapon skin..	Bisa dipakai untuk mengganti weapon skin terkait..
+=Can be used to change the corresponding accessory coating.	Bisa dipakai untuk mengganti accessory coating terkait.
+
+# --- teks Covenant & afinitas ---
+=A sweet fragrance lingers around her heart whenever she misses you.	Semerbak manis melingkupi hatinya tiap kali ia merindukanmu.
+=If I bet all my sincerity and dissimulation, would you be willing to walk by my side?	Kalau kupertaruhkan seluruh ketulusan dan kepura-puraanku, maukah kau berjalan di sisiku?
+=While she's bad at speaking, Littara will do her best to express her feelings to you.	Meski buruk dalam berkata-kata, Littara akan berusaha sebisanya menyampaikan perasaannya padamu.
+=She looks forward to the chance to join hands with you as you whirl together in the center of the dance floor.	Ia menanti kesempatan bergandengan tangan denganmu sambil berputar bersama di tengah lantai dansa.
+=Her longing for you has never faded, and it has filled her dreams.	Kerinduannya padamu tak pernah pudar, dan telah memenuhi mimpinya.
+=She loves you, and she wants to shout it from the rooftops.	Ia mencintaimu, dan ingin meneriakkannya dari atap-atap rumah.
+=After the noise and bustle dies down, the lamp she keeps burning for you is the sole light in the darkness.	Setelah riuh dan hiruk pikuk mereda, lampu yang terus ia nyalakan untukmu jadi satu-satunya cahaya dalam gelap.
+=From this moment on, the same heat and coldness flows in your blood.	Mulai saat ini, panas dan dingin yang sama mengalir dalam darah kalian.
+=The rose garden hidden deep in her heart blooms for you alone.	Taman mawar yang tersembunyi di lubuk hatinya mekar hanya untukmu.
+=This is proof of her efforts and the basis for her to earn praise.	Ini bukti kerja kerasnya sekaligus dasar baginya untuk mendapat pujian.
+=A photo album hidden in the depths of her heart, recording every precious moment spent with you.	Album foto yang tersembunyi di lubuk hatinya, merekam tiap momen berharga bersamamu.
+=A delicate mimosa which blossoms solely for your sake.	Putri malu yang rapuh, mekar semata-mata demi dirimu.
+=Who says a senior's care and concern can't be selfish? Her otherwise-solid facade of formality crumbles before you alone.	Siapa bilang perhatian seorang senior tak boleh egois? Topeng formalitasnya yang biasanya kokoh runtuh hanya di hadapanmu.
+=The once-timid girl can now stand on her own, because she's always headed in the direction where you are.	Gadis yang dulu penakut kini bisa berdiri sendiri, karena ia selalu melangkah ke arah tempatmu berada.
+=She pays comprehensive attention to the machines in the garage and the minutiae of life for your sake.	Ia memperhatikan mesin-mesin di garasi sekaligus hal-hal kecil dalam hidup dengan menyeluruh, demi dirimu.
+=For the popular imp-kei idol Sharkry, her career and future both shine for you.	Bagi Sharkry, idola imp-kei yang populer, karier dan masa depannya sama-sama bersinar untukmu.
+=Even the grumpiest rabbit has a side of her that she only shows to her special someone.	Bahkan kelinci paling pemarah pun punya sisi yang hanya ia tunjukkan pada orang istimewanya.
+=To ease your pain and bring you comfort and joy.	Untuk meredakan sakitmu serta membawa kenyamanan dan kegembiraan.
+=The footprints left in the snow belong to the one who walked by your side.	Jejak kaki yang tertinggal di salju itu milik orang yang berjalan di sisimu.
+=Among her companions, you're her first choice.	Di antara semua rekannya, kau pilihan pertamanya.
+=Her heart is pure and innocent, and she shows her feelings for you with her toys.	Hatinya murni dan polos, dan ia menunjukkan perasaannya padamu lewat mainan-mainannya.
+=If you're tired, you can lay your head in her embrace and rest.	Kalau kau lelah, kau bisa merebahkan kepalamu dalam pelukannya dan beristirahat.
+=There are some shared memories which reside only in your heart and hers.	Ada kenangan bersama yang hanya tersimpan di hatimu dan hatinya.
+=Whether she's standing in the light or the darkness, she will always be looking in your direction.	Entah ia berdiri dalam terang atau gelap, ia akan selalu memandang ke arahmu.
+=Would that my feelings were a paper plane, and would that it would land on the airstrip of your heart.	Andai perasaanku ini pesawat kertas, dan andai ia mendarat di landasan hatimu.
+=She entrusts true freedom into this willingly-accepted bondage.	Ia menitipkan kebebasan sejati ke dalam ikatan yang ia terima dengan rela.
+=Every wordless approach is her way of sharing her heartfelt excitement with you.	Tiap kedatangan tanpa kata adalah caranya berbagi kegembiraan yang tulus denganmu.
+=The only thing that can patch a hole in a neural cloud is an encounter with a kindred spirit.	Satu-satunya yang bisa menambal lubang di neural cloud adalah perjumpaan dengan jiwa yang sehaluan.
+=The mischievous traces she leaves behind announce her claim on you and her victory — even if it's just for a moment.	Jejak jahil yang ia tinggalkan mengumumkan klaimnya atasmu dan kemenangannya — meski cuma sesaat.
+=She pulls the trigger, piercing through shattered illusions and reaching the truth.	Ia menarik pelatuk, menembus ilusi yang hancur dan sampai ke kebenaran.
+=She says nothing, only watches you gently with her eyes and embracing your feelings.	Ia tak berkata apa-apa, hanya menatapmu lembut dengan matanya sambil merangkul perasaanmu.
+=This neural domain was once shrouded in darkness, but your arrival has restored it to its original clarity.	Domain neural ini dulu diselimuti kegelapan, tapi kedatanganmu memulihkannya ke kejernihan semula.
+=Her carefree laughter washes over your ears like the howling wind.	Tawanya yang lepas menyapu telingamu bagai angin yang meraung.
+=After the dark night has passed, the dawn lights up the sky, reflecting the adamant truth within one's heart.	Setelah malam gelap berlalu, fajar menerangi langit, memantulkan kebenaran yang teguh di dalam hati.
+=The most important person in your life deserves your protection 24 hours a day.	Orang terpenting dalam hidupmu layak kau lindungi 24 jam sehari.
+=An idol's most perfect song will always be sung for the most important fan.	Lagu paling sempurna seorang idola akan selalu dinyanyikan untuk penggemar yang paling penting.
+=The best dreams must include your warmth and voice.	Mimpi terbaik pasti menyertakan kehangatan dan suaramu.
+=Love is being conveyed through a Guzheng's song, the meaning known only to the couple.	Cinta disampaikan lewat lagu Guzheng, maknanya hanya diketahui oleh keduanya.
+=The wind bears her proud laughter aloft, announcing the victory she will bring you.	Angin mengangkat tawa bangganya tinggi-tinggi, mengumumkan kemenangan yang akan ia persembahkan untukmu.
+=Longing knows no borders, and no matter how far apart you are, she will always rush unerringly to your side.	Kerinduan tak mengenal batas, dan sejauh apa pun kalian terpisah, ia akan selalu bergegas tepat ke sisimu.
+=Your valiant form is like a star guiding her through the darkness.	Sosokmu yang gagah bagai bintang yang menuntunnya menembus kegelapan.
+=Behind her glasses, her eyes have already discerned the truth and your true intentions.	Di balik kacamatanya, matanya sudah menangkap kebenaran dan niat aslimu.
+
+# --- baris suara Doll ---
+=“Dona eius requiem.”	“Dona eius requiem.”
+=“If only she could have joined the Elmo's Doll complement...”	“Andai saja dia bisa bergabung dengan jajaran Doll Elmo...”
+=“Your orders please, Commander.”	“Mohon perintahnya, Commander.”
+=“Commence operation Vacuu-suck!”	“Mulai operasi Sedot-Vakum!”
+="Even a Dinergate can be blinded by gold."	“Dinergate pun bisa dibutakan emas.”
+="Commander, won't you lie with me for a while?"	“Commander, tidakkah kau mau berbaring sebentar bersamaku?”
+="You, are you coming over or not?!"	“Kamu, jadi ke sini atau tidak?!”
+="Please, Commander, won't you have a waterfight with Sharkry?"	“Ayolah, Commander, mau perang air bareng Sharkry?”
+="May I have this dance? It would be a shame to waste such beautiful scenery."	“Boleh aku mengajakmu berdansa? Sayang sekali kalau pemandangan seindah ini terbuang.”
+=“Allows you to change the layout of the Curio Display case.”	“Memungkinkanmu mengubah tata letak lemari Curio Display.”
+=“When she says nothing, she looks much smarter than when she opens her mouth.”	“Saat dia diam, dia kelihatan jauh lebih pintar daripada saat membuka mulut.”
+=“Freeze! Stop or I'll shoot!”	“Diam di tempat! Berhenti atau kutembak!”
+=“Hey, exactly how much longer am I supposed to wait here?”	“Hei, sebenarnya berapa lama lagi aku harus menunggu di sini?”
+=“Everyone wants to hear another song, right? Right! Time for Vepley's encore~☆”	“Semuanya mau dengar satu lagu lagi, kan? Betul! Saatnya encore dari Vepley~☆”
+="Did you say Leva was coming? That's great! That's wonderful!"	"Kau bilang Leva akan datang? Bagus sekali! Luar biasa!"
+="This is Mosin-Nagant, always ready to deploy!"	"Ini Mosin-Nagant, selalu siap diterjunkan!"
+="Comrades, this is a good piece of kit!"	"Kamerad, ini perlengkapan yang bagus!"
+="Come take a load off with me, Comrade."	"Ayo istirahat sejenak bersamaku, Kamerad."
+="Oh yes, what's for dinner tonight..."	"Oh iya, makan malam nanti apa ya..."
+="Leader, why do we have a combat mission today?"	"Leader, kenapa hari ini ada misi tempur?"
+="Looking down on me, Caretaker? Take this!"	"Meremehkanku, Caretaker? Rasakan ini!"
+="Uwah, I lost again, this game is haaaaard..."	"Uwah, aku kalah lagi, permainan ini susaaaah..."
+="No matter what kind of wish you have, this genius can grant it for you with a simple flex of the mind!"	"Permintaan apa pun yang kau punya, si jenius ini bisa mengabulkannya cuma dengan sekali kedipan pikiran!"
+="Leva, look at me! Do I look cute in this?"	"Leva, lihat aku! Apa aku kelihatan imut memakai ini?"
+="This outfit is very suitable for arctic warfare."	"Busana ini sangat cocok untuk perang di kutub."
+="Tsk—I can get mad too!"	"Cih—aku juga bisa marah, lho!"
+=What- NO! It, it's not like I'm here because I'm worried about you or anything!	Apa- TIDAK! B-bukan berarti aku di sini karena mengkhawatirkanmu atau apa!
+=Time for Vepley's shining debut ☆!	Saatnya debut gemilang Vepley ☆!
+=Follow the audience and keep your eyes on Sharkry♥	Ikuti penontonnya dan tetap tatap Sharkry♥
+=Come spread blessings to the audience with Sharkry♥	Ayo sebarkan berkah kepada penonton bersama Sharkry♥
+=Commander, come sit down with me and relax~	Commander, ayo duduk bersamaku dan santai~
+=I await your instructions, Master.	Saya menunggu instruksi Anda, Tuan.
+=I wonder if you enjoyed the little gift in today's snack, Master...	Saya penasaran apakah Anda menyukai hadiah kecil di camilan hari ini, Tuan...
+=Springfield, ready and waiting.	Springfield, siap dan menunggu.
+
+# --- item fungsional & event ---
+=After opening, select one from the following: Precision Boost Chip×6, Basic Info Core ×6, or Access Key ×12.	Setelah dibuka, pilih salah satu berikut: Precision Boost Chip×6, Basic Info Core ×6, atau Access Key ×12.
+=After opening, obtain a random Output Component with a rarity ranging from Civilian Grade to Military Grade.	Setelah dibuka, mendapat Output Component acak dengan rarity dari Civilian Grade sampai Military Grade.
+=After opening, obtain An Output Component with a Military Grade rarity.	Setelah dibuka, mendapat Output Component dengan rarity Military Grade.
+=Open to receive random Military Grade supply materials.	Buka untuk menerima material pasokan Military Grade secara acak.
+=Open to receive random Precise Grade supply materials.	Buka untuk menerima material pasokan Precise Grade secara acak.
+=After crafting, gain a random Precise Grade Attachment.	Setelah dirakit, mendapat Attachment Precise Grade secara acak.
+=With these, you can create Spring Fields.	Dengan ini kamu bisa membuat Spring Fields.
+=One of the main ingredients for mixing drinks.	Salah satu bahan utama untuk meracik minuman.
+=There is much that needs to be understood about this vast, sprawling region, Can be used to perform expeditions.	Masih banyak yang perlu dipahami tentang wilayah luas nan terbentang ini, Bisa dipakai untuk melakukan ekspedisi.
+=Represents Mica Port's trust in the squad, can increase Mica Port's reputation level.	Melambangkan kepercayaan Mica Port pada regu ini, bisa menaikkan level reputasi Mica Port.
+=Stage~raise the purple smoke and let's complete the mission of protecting the store anniversary♥ It can be used to obtain rewards in the Rhapsody Commission.	Panggung~kepulkan asap ungunya dan ayo tuntaskan misi menjaga perayaan ulang tahun toko♥ Bisa dipakai untuk mendapat hadiah di Rhapsody Commission.
+=Not only is it a symbol of victory, but it is also recognition from Lenna! It can be used to draw rewards from the surprise data pool.	Bukan cuma lambang kemenangan, tapi juga pengakuan dari Lenna! Bisa dipakai untuk menarik hadiah dari surprise data pool.
+=Give the enemy a blow to the head! It can be used to draw rewards in Pattern Tracing.	Beri musuh pukulan telak di kepala! Bisa dipakai untuk menarik hadiah di Pattern Tracing.
+=The evidence is solid, and the next step is to catch the criminal! It can be used to draw rewards in Pattern Tracing.	Buktinya kuat, langkah berikutnya menangkap pelakunya! Bisa dipakai untuk menarik hadiah di Pattern Tracing.
+=How can you call it cheating to defend against intrusion? It can be used to draw rewards in Pattern Tracing.	Mana bisa disebut curang kalau cuma bertahan dari penyusupan? Bisa dipakai untuk menarik hadiah di Pattern Tracing.
+=Unlock by completing the Intertwined Assault event campaign on Normal Mode	Terbuka dengan menyelesaikan kampanye event Intertwined Assault di Normal Mode
+^Unlocked by reaching Expert V in Combat Exercise Season - ([^.]+)\.$	Terbuka dengan mencapai Expert V di Combat Exercise Season - \1.

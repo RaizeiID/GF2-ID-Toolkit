@@ -1,0 +1,62 @@
+# Deskripsi ITEM — putaran kedua.
+#
+# Cara memilih sasaran di sini berbeda dari batch skill, dan ini yang penting:
+# pengelompokan penghalang HARUS ikut menormalkan NAMA DIRI. Waktu hanya angka yang
+# dinormalkan, keluarga "Unlocked by supporting <Nama> ..." terlihat seperti 25
+# kalimat berbeda yang masing-masing muncul 2 kali — kelihatan tidak berharga.
+# Begitu runtun huruf-besar ikut dimaskkan, keluarga yang sama ternyata 259 deskripsi
+# dan cukup ditutup dua aturan.
+#
+# Beberapa sumber di sini memang rusak dan disalin apa adanya: "obtaining and obtain"
+# (kata kerjanya dobel) dan varian "Starclaim" yang ejaannya beda dari batch 26.
+#range 0 130000
+
+# --- papan peringkat dukungan, varian "Unlocked by" ---
+^Unlocked by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) during the ([^.]+?) event and reaching the (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Terbuka dengan mendukung \1 selama event \2 dan meraih peringkat \3 di papan peringkat dukungan individu.
+^Unlocked by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) during the ([^.]+?) event and reaching the (\d+)(?:st|nd|rd|th) to (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Terbuka dengan mendukung \1 selama event \2 dan meraih peringkat \3 sampai \4 di papan peringkat dukungan individu.
+^Obtained by supporting ([\w'’.·-]+(?:: [A-Z][\w'’.·-]+)?) during the ([^.]+?) event and obtaining and obtain the (\d+)(?:st|nd|rd|th) to (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Didapat dengan mendukung \1 selama event \2 dan meraih peringkat \3 sampai \4 di papan peringkat dukungan individu.
+
+# --- baris rasa yang tersisa ---
+^On the stage, the blooming light of support turned into the guiding pole star\.$	Di atas panggung, cahaya dukungan yang mekar berubah menjadi bintang kutub penuntun.
+^On the stage, the rising light of support turns into a new star of dawn\.$	Di atas panggung, cahaya dukungan yang terbit berubah menjadi bintang baru fajar.
+^The power of support converges into the dazzling track of a star path\.$	Kekuatan dukungan menyatu jadi jejak memesona sebuah jalur bintang.
+
+# --- weapon skin & attachment ---
+^Weapon skin design based on the (.+)\.$	Desain weapon skin berdasarkan \1.
+^A weapon skin based on the (.+)\.$	Weapon skin berdasarkan \1.
+^An attachment skin design based on the (.+)\.$	Desain attachment skin berdasarkan \1.
+^A (.+)-themed weapon skin\.$	Weapon skin bertema \1.
+^No Portrait Frame$	Tanpa Portrait Frame
+
+# --- peti & hadiah ---
+^After opening, you will acquire (\d+) (.+)\.$	Setelah dibuka, kamu akan mendapat \1 \2.
+^After opening, obtain a (T\d) weapon attachment\.$	Setelah dibuka, mendapat weapon attachment \1.
+^After opening, obtain a white grade weapon attachment, most likely suitable for (.+)\.$	Setelah dibuka, mendapat weapon attachment grade putih yang kemungkinan besar cocok untuk \1.
+^After opening, obtain a random ([\w -]+)-rarity Base Component\.$	Setelah dibuka, mendapat Base Component rarity \1 secara acak.
+^Gain ([\w ]+)\*(\d+)$	Mendapat \1*\2
+^Cultivation Material Package (\d+)$	Paket Material Cultivation \1
+^Ops Room Scene Unlock Item (\d+)$	Item Pembuka Scene Ops Room \1
+
+# --- Base Component (warna kualitas diterjemahkan, ukuran & stat lewat backref) ---
+^A gold-quality ([\w ]+) Base Component with ([\w ]+) as (?:the|a) main stat\.$	\1 Base Component kualitas emas dengan stat utama \2.
+^A purple-quality ([\w ]+) Base Component with ([\w ]+) as (?:the|a) main stat\.$	\1 Base Component kualitas ungu dengan stat utama \2.
+^A blue-quality ([\w ]+) Base Component with ([\w ]+) as (?:the|a) main stat\.$	\1 Base Component kualitas biru dengan stat utama \2.
+^A green-quality ([\w ]+) Base Component with ([\w ]+) as (?:the|a) main stat\.$	\1 Base Component kualitas hijau dengan stat utama \2.
+^A gold-quality ([\w ]+) Base Component whose main stat is ([\w ]+)\.$	\1 Base Component kualitas emas dengan stat utama \2.
+
+# --- perakitan & minuman (varian tanpa artikel) ---
+^It can be used to assemble ([A-Z].*)\.$	Bisa dipakai untuk merakit \1.
+^With these, you can make (.+)\.$	Dengan ini kamu bisa membuat \1.
+^Unlocks the drink ([\w' -]+) after obtaining\.$	Membuka minuman \1 setelah didapat.
+
+# --- efek mekanik pada item (tanpa tag warna) ---
+^Healing amount received is increased by ([\d.]+)%\.$	Jumlah healing yang diterima meningkat \1%.
+^Incoming healing \+([\d.]+)%$	Healing yang diterima +\1%
+^When attacking an enemy target with ([A-Za-z]+) debuffs on them, damage dealt is increased by ([\d.]+)%$	Saat menyerang target musuh yang punya debuff \1, damage yang diberikan meningkat \2%
+^Attack is increased by ([\d.]+)% when attacking targets with ([A-Za-z]+) debuffs$	Serangan meningkat \1% saat menyerang target yang punya debuff \2
+^When current HP is equal to max HP, increase damage dealt by ([\d.]+)% and stability damage by ([\d.]+)$	Saat HP sekarang sama dengan max HP, damage yang diberikan meningkat \1% dan stability damage \2
+^When healing an allied unit, both involved units gain ([\d.]+)% attack, maximum of ([\d.]+) stacks\.$	Saat menyembuhkan unit sekutu, kedua unit yang terlibat mendapat \1% serangan, maksimal \2 stack.
+^When enemy HP is lower than ([\d.]+)%, damage dealt is increased by ([\d.]+)%$	Saat HP musuh di bawah \1%, damage yang diberikan meningkat \2%
+^When attacking enemies with defense debuffs, reduces enemy defense by ([\d.]+)% and deals an additional ([\d.]+) points of stability damage\.$	Saat menyerang musuh yang punya debuff pertahanan, menurunkan pertahanan musuh \1% dan memberikan tambahan \2 poin stability damage.
+^Stability damage dealt is increased by ([\d.]+) points, stability damage taken is reduced by ([\d.]+) points, and maximum stability is increased by ([\d.]+) points\.$	Stability damage yang diberikan meningkat \1 poin, stability damage yang diterima berkurang \2 poin, dan stability maksimum meningkat \3 poin.
+^For every ([\w ]+) plugin owned, attack is increased by ([\d.]+)%, stacking up to ([\d.]+) times\.$	Untuk tiap plugin \1 yang dimiliki, serangan meningkat \2%, menumpuk hingga \3 kali.

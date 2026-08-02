@@ -1,0 +1,9 @@
+# Deskripsi skill musuh - putaran 7, bagian d
+# TIGA baris ini memakai NON-BREAKING SPACE (U+00A0) untuk HAMPIR SETIAP
+# spasi, bukan hanya satu. Akibatnya pemisah kalimat tidak memecah baris
+# pertama walau berisi beberapa kalimat. Sumbernya disalin langsung dari
+# tabel game (bukan diketik ulang) supaya byte-nya persis.
+#range 0 130000
+=When dealing Freeze damage, if a critical hit is inflicted, creates a snowflake-shaped pattern of <color=#3487e0>{1}</color> within <color=#f26c1c>3 tiles</color> of the target for <color=#f26c1c>1 turn</color> and deals fixed damage equal to <color=#f26c1c>300%</color> of attack (this effect can trigger a maximum of <color=#f26c1c>once</color> per skill). Attack and critical rate are increased by <color=#f26c1c>10%</color>. Can be stacked.	Saat memberikan Freeze damage, jika terjadi critical hit, membentuk pola serupa kepingan salju dari <color=#3487e0>{1}</color> dalam <color=#f26c1c>3 tile</color> dari target selama <color=#f26c1c>1 giliran</color> dan memberikan fixed damage sebesar <color=#f26c1c>300%</color> dari Attack (efek ini dapat terpicu maksimal <color=#f26c1c>sekali</color> per skill). Attack dan Critical Rate meningkat sebesar <color=#f26c1c>10%</color>. Dapat bertumpuk.
+=<color=#3487e0>{0}</color> dies after colliding <color=#f26c1c>3 times</color>.	<color=#3487e0>{0}</color> mati setelah bertabrakan <color=#f26c1c>3 kali</color>.
+=<color=#3487e0>{2}</color> becomes an allied unit, it charges in the direction of a random enemy unit at the end of its action.	<color=#3487e0>{2}</color> menjadi unit sekutu, ia menerjang ke arah unit musuh acak pada akhir aksinya.

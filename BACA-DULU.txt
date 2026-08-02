@@ -1,0 +1,87 @@
+========================================================================
+  Terjemahan Bahasa Indonesia - Girls' Frontline 2: Exilium
+========================================================================
+
+CARA PAKAI (pilih salah satu)
+
+  A. Pasang-Terjemahan.bat          <- DISARANKAN
+     Membangun terjemahan dari berkas game MILIKMU SENDIRI.
+     Butuh Python (gratis, https://www.python.org/downloads/ ,
+     saat memasang CENTANG "Add python.exe to PATH").
+
+     Kelebihannya: karena pencocokan memakai TEKS INGGRIS dan bukan
+     nomor id internal, cara ini tetap benar walau versi game-mu
+     sedikit berbeda dari versi saat rilis ini dibuat.
+
+  B. Pasang-Cepat-Tanpa-Python.bat
+     Menyalin berkas jadi dari folder "siap-pakai". Tanpa Python.
+     Kekurangannya: berkas itu terikat pada SATU versi game. Kalau
+     game sudah diperbarui, hasilnya bisa salah tempat. Kalau ragu,
+     pakai cara A.
+
+  Membatalkan: Kembalikan-Bahasa-Inggris.bat
+
+
+YANG TERJADI SAAT MEMASANG
+
+  1. Berkas Inggris aslimu disalin ke folder "cadangan" (sekali saja,
+     tidak pernah ditimpa).
+  2. Berkas baru dibangun dari cadangan itu + data terjemahan.
+  3. Struktur berkas diperiksa (jumlah chunk, seluruh string id dan
+     urutannya, indeks offset, UTF-8). Kalau ada satu saja yang gagal,
+     proses berhenti dan BERKAS GAME TIDAK DISENTUH.
+  4. Barulah berkas game diganti.
+
+  Tidak ada kode yang disuntikkan, tidak ada DLL, tidak ada proses yang
+  ditempeli. Yang diganti hanya satu berkas DATA berisi tabel teks.
+
+
+SETELAH GAME UPDATE
+
+  Update akan menimpa berkas game dengan versi Inggris yang baru.
+  Jalankan lagi Pasang-Terjemahan.bat -- ia otomatis mengenali bahwa
+  berkas game sudah berganti, menjadikannya cadangan yang baru, lalu
+  membangun ulang. Tidak perlu menghapus apa pun.
+
+  Menjalankannya dua kali berturut-turut aman: build selalu dimulai
+  dari cadangan Inggris, tidak pernah dari hasil terjemahan.
+
+
+KALAU MUNCUL PESAN "BERHENTI - berkas game sudah berbahasa Indonesia"
+
+  Artinya berkas game sudah diterjemahkan tapi tidak cocok dengan
+  cadangan mana pun di folder ini (misalnya kamu pernah menyalinnya
+  manual, atau folder "cadangan" terhapus). Menjadikannya cadangan akan
+  membuat tombol "Kembalikan Bahasa Inggris" tidak berguna selamanya,
+  jadi proses sengaja dihentikan.
+
+  Kembalikan dulu berkas Inggris aslinya (verifikasi/perbaiki berkas
+  lewat launcher game), lalu jalankan lagi.
+
+
+CAKUPAN TERJEMAHAN SAAT INI
+
+  Bio & kutipan karakter        100%
+  Panduan build                 100%
+  Deskripsi skill               ~100%  (semua karakter, musuh, HOC, summon)
+  Deskripsi item                 52%
+  Antarmuka (UI)                 50%
+  Cerita                          6%
+
+  Nama diri sengaja TETAP bahasa Inggris -- nama karakter, nama skill,
+  nama buff/debuff, dan istilah tempur (Attack, Defense, Stability,
+  Critical Rate, Cover, Confectance Index, dll.). Ini pilihan gaya:
+  supaya cocok dengan panduan, video, dan obrolan komunitas.
+
+
+CATATAN
+
+  - Tutup game sebelum memasang, kalau tidak penyalinan bisa gagal.
+  - Berkas ada di LocalCache. Kalau suatu saat game mengunduh ulang
+    berkas itu sendiri, tinggal pasang lagi.
+  - Mengubah berkas game bisa melanggar ketentuan layanan penerbit.
+    Risiko ada padamu.
+
+  gamepath.txt  : lokasi berkas game (dibuat otomatis, boleh dihapus)
+  cadangan/     : berkas Inggris aslimu - JANGAN DIHAPUS
+  tool/         : data terjemahan + skrip pembangun

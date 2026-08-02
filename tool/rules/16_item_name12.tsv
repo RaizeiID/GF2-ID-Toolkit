@@ -1,0 +1,16 @@
+# Nama item — tipe senjata & entri bergabungnya karakter.
+#
+# "Suppression Weapon Type I" dst. memakai angka Romawi sebagai penanda tipe —
+# dibawa apa adanya. Peran senjata (Suppression/Bearing/Induction/Support) tetap
+# Inggris karena itu istilah kelas yang dipakai pemain.
+#
+# "X - Joined" sudah diterjemahkan lebih dulu di glossary lama sebagai
+# "X - Bergabung"; dua varian lain ("X Joins", "X - Joining the Team") menyusul
+# di sini supaya seragam.
+#range 0 130000
+
+^(Suppression|Bearing|Induction|Support) Weapon Type (I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII)$	Senjata \1 Tipe \2
+^(.+) Joins$	\1 Bergabung
+^(.+) - Joining the Team$	\1 - Bergabung ke Tim
+^Neural Image - (.+)$	Citra Neural - \1
+^(.+) Neural Cloud Archive$	Neural Cloud Archive \1

@@ -1,0 +1,61 @@
+# Deskripsi SKILL — putaran keenam puluh delapan ekor panjang.
+#
+# Tetap 1:1, harfiah ("=").
+#
+# Tiga baris berakhir dengan titik koma, bukan titik — itu satu daftar bertingkat
+# di layar; tanda bacanya disalin apa adanya.
+#range 0 130000
+
+# --- pendek ---
+=Cannot be destroyed.	Tidak bisa dihancurkan.
+=Selects a tile as the center.	Memilih satu tile sebagai pusat.
+=Selects a tile within <color=#f26c1c>8 tiles</color> as the center.	Memilih satu tile <color=#f26c1c>dalam 8 tile</color> sebagai pusat.
+=Select a tile <color=#f26c1c>within 3 to 10 tiles in front</color>.	Pilih satu tile <color=#f26c1c>dalam 3 sampai 10 tile di depan</color>.
+=Selects an empty tile and summons a <color=#3487e0>{0}</color>.	Memilih tile kosong lalu memanggil <color=#3487e0>{0}</color>.
+=Movement is not affected by movement-type effects.	Pergerakannya tidak terpengaruh efek bertipe pergerakan.
+=The skill cooldown is reduced by <color=#f26c1c>1 turn</color>.	Cooldown skill-nya berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=Reduces the cooldown of this skill for each target hit.	Mengurangi cooldown skill ini untuk setiap target yang terkena.
+=HP consumption is reduced by <color=#f26c1c>10%</color>.	Konsumsi HP-nya berkurang sebesar <color=#f26c1c>10%</color>.
+=Cleanses the target’s buff.	Membersihkan buff target.
+=Andoris gains <color=#3487e0>{2}</color> for <color=#f26c1c>2 rounds</color>.	Andoris mendapatkan <color=#3487e0>{2}</color> selama <color=#f26c1c>2 ronde</color>.
+=Applies <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> to all allied Dolls.	Menerapkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> ke semua Doll sekutu.
+=After taking Targeted damage, gains 1 stack of <color=#3487e0>{0}</color>.	Setelah menerima Targeted damage, mendapatkan 1 stack <color=#3487e0>{0}</color>.
+=Upon entering Stability Break, gains 5 stacks of <color=#3487e0>{0}</color>.	Saat memasuki Stability Break, mendapatkan 5 stack <color=#3487e0>{0}</color>.
+=Upon Stability Break, they cleanse <color=#3487e0>{0}</color> and will not gain <color=#3487e0>{0}</color>.	Saat Stability Break, mereka membersihkan <color=#3487e0>{0}</color> dan tidak akan mendapatkan <color=#3487e0>{0}</color>.
+=The active skill <color=#3487e0>Total Suppression</color> additionally generates <color=#3487e0>{4}</color> tiles.	Skill aktif <color=#3487e0>Total Suppression</color> juga menghasilkan tile <color=#3487e0>{4}</color>.
+
+# --- serangan ---
+=Deals AoE <color=#d4ae08>Electric damage</color> to all enemy targets within <color=#f26c1c>3 tiles</color> of the target tile.	Memberikan AoE <color=#d4ae08>Electric damage</color> ke semua target musuh <color=#f26c1c>dalam 3 tile</color> dari tile sasaran.
+=Selects 1 enemy within <color=#f26c1c>6 tiles</color>, dealing <color=#e67129>Burn damage</color> equal to <color=#f26c1c>120%</color> of attack to it.	Memilih 1 musuh <color=#f26c1c>dalam 6 tile</color>, memberikan <color=#e67129>Burn damage</color> setara <color=#f26c1c>120%</color> Attack kepadanya.
+=Selects 1 enemy target within <color=#f26c1c>6 tiles</color> and cleanses <color=#f26c1c>1</color> buff.	Memilih 1 target musuh <color=#f26c1c>dalam 6 tile</color> lalu membersihkan <color=#f26c1c>1</color> buff.
+=For every <color=#f26c1c>3</color> stacks of <color=#3487e0>{0}</color>, cleanses <color=#f26c1c>1</color> additional buff, and deals physical damage equal to <color=#f26c1c>150%</color> of attack to them.	Untuk setiap <color=#f26c1c>3</color> stack <color=#3487e0>{0}</color>, membersihkan <color=#f26c1c>1</color> buff tambahan, lalu memberikan physical damage setara <color=#f26c1c>150%</color> Attack kepada mereka.
+=Based on the number of <color=#3487e0>{0}</color> stacks, cleanses more buffs and deals physical damage.	Berdasarkan jumlah stack <color=#3487e0>{0}</color>, membersihkan lebih banyak buff lalu memberikan physical damage.
+=Expend <color=#f26c1c>1 point</color> of <color=#3487e0>{0}</color> to deal additional fixed damage equal to <color=#f26c1c>10%</color> of the damage accumulated in that point of <color=#3487e0>{0}</color>.	Memakai <color=#f26c1c>1 poin</color> <color=#3487e0>{0}</color> untuk memberikan tambahan fixed damage setara <color=#f26c1c>10%</color> damage yang terkumpul di poin <color=#3487e0>{0}</color> itu.
+=Expend <color=#3487e0>{0}</color> to deal additional fixed damage.	Memakai <color=#3487e0>{0}</color> untuk memberikan tambahan fixed damage.
+=If the enemy already has <color=#3487e0>{0}</color>, convert <color=#3487e0>{0}</color> to <color=#3487e0>{1}</color>.	Jika musuhnya sudah memiliki <color=#3487e0>{0}</color>, mengubah <color=#3487e0>{0}</color> jadi <color=#3487e0>{1}</color>.
+=Applies <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color>, along with <color=#3487e0>{1}</color> which lasts for <color=#f26c1c>3 turns</color> to all allied Dolls.	Menerapkan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color>, sekaligus <color=#3487e0>{1}</color> yang bertahan <color=#f26c1c>3 giliran</color> ke semua Doll sekutu.
+
+# --- stat & pemicu ---
+=Damage dealt and stability damage dealt against targets with <color=#3487e0>{0}</color> are increased.	Damage dan Stability damage terhadap target yang memiliki <color=#3487e0>{0}</color> meningkat.
+=Against targets with <color=#3487e0>{0}</color>, damage dealt is increased by <color=#f26c1c>30%</color>, and stability damage dealt is increased by <color=#f26c1c>1 point</color>.	Terhadap target yang memiliki <color=#3487e0>{0}</color>, damage yang diberikan meningkat sebesar <color=#f26c1c>30%</color>, dan Stability damage yang diberikan bertambah sebesar <color=#f26c1c>1 poin</color>.
+=Damage is increased against targets immune to displacement effects.	Damage meningkat terhadap target yang kebal efek pemindahan.
+=Damage is increased by <color=#f26c1c>15%</color> against targets immune to displacement effects.	Damage meningkat sebesar <color=#f26c1c>15%</color> terhadap target yang kebal efek pemindahan.
+=For <color=#f26c1c>each stack</color> of <color=#3487e0>{0}</color> Peri holds, increases the damage multiplier by <color=#f26c1c>5%</color>.	Untuk <color=#f26c1c>setiap stack</color> <color=#3487e0>{0}</color> yang dimiliki Peri, damage multiplier meningkat sebesar <color=#f26c1c>5%</color>.
+=For <color=#f26c1c>each stack</color> of <color=#3487e0>{0}</color> Peri holds, increases the damage multiplier by <color=#f26c1c>10%</color>.	Untuk <color=#f26c1c>setiap stack</color> <color=#3487e0>{0}</color> yang dimiliki Peri, damage multiplier meningkat sebesar <color=#f26c1c>10%</color>.
+=When this unit's stability is <color=#f26c1c>greater than 0</color>, damage taken by allied units with <color=#3487e0>{0}</color> is reduced by <color=#f26c1c>50%</color>.	Saat Stability unit ini <color=#f26c1c>lebih dari 0</color>, damage yang diterima unit sekutu yang memiliki <color=#3487e0>{0}</color> berkurang sebesar <color=#f26c1c>50%</color>.
+=When this unit's stability is <color=#f26c1c>greater than 0</color>, damage taken by allied units with <color=#3487e0>{0}</color> is reduced.	Saat Stability unit ini <color=#f26c1c>lebih dari 0</color>, damage yang diterima unit sekutu yang memiliki <color=#3487e0>{0}</color> berkurang.
+=When allied units with <color=#3487e0>{0}</color> take damage, this unit also takes fixed damage equal to <color=#f26c1c>80%</color> of the damage sustained.	Saat unit sekutu yang memiliki <color=#3487e0>{0}</color> menerima damage, unit ini juga menerima fixed damage setara <color=#f26c1c>80%</color> damage yang ditanggung.
+=The attack and defense inheritance of <color=#3487e0>{0}</color> is increased to <color=#f26c1c>100%</color>.	Pewarisan serangan dan Defense <color=#3487e0>{0}</color> naik menjadi <color=#f26c1c>100%</color>.
+=When <color=#3487e0>{0}</color> reaches <color=#f26c1c>60 stacks</color>, permanently removes <color=#3487e0>{1}</color>;	Saat <color=#3487e0>{0}</color> mencapai <color=#f26c1c>60 stack</color>, menghapus <color=#3487e0>{1}</color> secara permanen;
+=When <color=#3487e0>{0}</color> reaches <color=#f26c1c>90 stacks</color>, permanently removes <color=#3487e0>{2}</color>;	Saat <color=#3487e0>{0}</color> mencapai <color=#f26c1c>90 stack</color>, menghapus <color=#3487e0>{2}</color> secara permanen;
+=When <color=#3487e0>{0}</color> reaches <color=#f26c1c>120 stacks</color>, permanently removes <color=#3487e0>{3}</color>.	Saat <color=#3487e0>{0}</color> mencapai <color=#f26c1c>120 stack</color>, menghapus <color=#3487e0>{3}</color> secara permanen.
+
+# --- summon & City Warden ---
+=After the <color=#3487e0>{0}</color> is destroyed, the skill enters a <color=#f26c1c>2-turn</color> cooldown.	Setelah <color=#3487e0>{0}</color> hancur, skill ini masuk cooldown <color=#f26c1c>2 giliran</color>.
+=After the <color=#3487e0>{0}</color> is destroyed, the skill enters a <color=#f26c1c>3-turn</color> cooldown.	Setelah <color=#3487e0>{0}</color> hancur, skill ini masuk cooldown <color=#f26c1c>3 giliran</color>.
+=After the <color=#3487e0>{0}</color> is destroyed, the skill enters a cooldown.	Setelah <color=#3487e0>{0}</color> hancur, skill ini masuk cooldown.
+=At the end of the turn, the City Warden will move independently to seek Cover.	Di akhir giliran, City Warden akan bergerak sendiri mencari Cover.
+=The City Warden's healing received is reduced by <color=#f26c1c>100%</color> and it cannot receive shields.	Healing yang diterima City Warden berkurang sebesar <color=#f26c1c>100%</color> dan dia tidak bisa menerima shield.
+=When Andoris is on the field, she applies <color=#3487e0>{3}</color> and <color=#3487e0>{4}</color> to all allied units with <color=#3487e0>{1}</color>.	Saat Andoris ada di medan, dia menerapkan <color=#3487e0>{3}</color> dan <color=#3487e0>{4}</color> ke semua unit sekutu yang memiliki <color=#3487e0>{1}</color>.
+=At the end of this unit's action, if the distance between it and <color=#f26c1c>Bellator-212</color> is no greater than <color=#f26c1c>6 tiles</color>, it gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Di akhir aksi unit ini, jika jaraknya dengan <color=#f26c1c>Bellator-212</color> tidak lebih dari <color=#f26c1c>6 tile</color>, dia mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=At the end of the round, if the Ultimate skill<color=#3487e0>Demolition Severance</color> was not used this turn, the damage accumulated by <color=#3487e0>{2}</color> is converted to <color=#3487e0>{3}</color>.	Di akhir ronde, jika skill Ultimate<color=#3487e0>Demolition Severance</color> tidak dipakai pada giliran ini, damage yang terkumpul oleh <color=#3487e0>{2}</color> diubah jadi <color=#3487e0>{3}</color>.

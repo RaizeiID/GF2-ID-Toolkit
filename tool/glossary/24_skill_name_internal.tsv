@@ -1,0 +1,76 @@
+# Nama skill — entri INTERNAL / PENGEMBANG.
+#
+# Ini bukan nama skill yang dipakai pemain, melainkan sisa nama kerja dari
+# pengembang: slot uji, placeholder, monitor, dan baris yang ditandai
+# "(deprecated)". Sebagian mungkin tidak pernah tampil di layar, tapi sebagian
+# bisa muncul di panel debug atau tooltip yang belum dibersihkan — jadi lebih
+# baik terbaca daripada dibiarkan Inggris setengah jalan.
+#
+# "GM" dibiarkan apa adanya: itu singkatan Game Master yang dipakai verbatim.
+#range 0 130000
+
+Skill Description	Deskripsi Skill
+Stage Interaction Skill	Skill Interaksi Stage
+Placeholder Skills	Skill Placeholder
+Test Skills	Skill Uji
+Test	Uji
+Test Skill Active 1	Skill Uji Aktif 1
+Test Skill Active 2	Skill Uji Aktif 2
+Test Skill Basic Attack 1	Skill Uji Basic Attack 1
+Test Skill Basic Attack 2	Skill Uji Basic Attack 2
+Test Skill - Ultimate	Skill Uji - Ultimate
+Test Cover	Uji Cover
+Weapon Test 1	Uji Senjata 1
+Weapon Test 2	Uji Senjata 2
+Weapon Test 3	Uji Senjata 3
+Weapon Test 4	Uji Senjata 4
+Weapon Test 5	Uji Senjata 5
+Weapon Test 6	Uji Senjata 6
+Naval Ship Test 2	Uji Kapal Perang 2
+Naval Ship Test 3	Uji Kapal Perang 3
+Naval Ship Test 3-1	Uji Kapal Perang 3-1
+Naval Ship Test 4	Uji Kapal Perang 4
+Naval Ship Test 5	Uji Kapal Perang 5
+Naval Ship Test 5-1	Uji Kapal Perang 5-1
+Magic Field Test	Uji Medan Sihir
+Dream Wonderland Test	Uji Dream Wonderland
+Phase Element Weakness Test	Uji Kelemahan Phase Element
+Sharing Robot Test Skill 1	Skill Uji Sharing Robot 1
+Sharing Robot Test Skill 2	Skill Uji Sharing Robot 2
+Sharing Robot Test Skill 3	Skill Uji Sharing Robot 3
+Sharing Robot Test Skill 4	Skill Uji Sharing Robot 4
+Sharing Robot Test Skill 5	Skill Uji Sharing Robot 5
+Sharing Robot Test Skill 6	Skill Uji Sharing Robot 6
+Sharing Robot Test Skill 7	Skill Uji Sharing Robot 7
+Combat Robot Test Normal Attack 1	Uji Normal Attack Combat Robot 1
+Combat Robot Test Normal Attack 2	Uji Normal Attack Combat Robot 2
+Battlefield Robot Test Normal Attack 3	Uji Normal Attack Battlefield Robot 3
+Combat Robot Normal Attack 4	Normal Attack Combat Robot 4
+Combat Robot Normal Attack 5	Normal Attack Combat Robot 5
+Combat Robot Normal Attack 6	Normal Attack Combat Robot 6
+Combat Robot Buff Skill 1	Skill Buff Combat Robot 1
+Combat Robot Buff Skill 2	Skill Buff Combat Robot 2
+Combat Robot Buff Skill 3	Skill Buff Combat Robot 3
+Combat Robot Buff Skill 4	Skill Buff Combat Robot 4
+Combat Robot Buff Skill 5	Skill Buff Combat Robot 5
+Combat Robot Buff Skill 6	Skill Buff Combat Robot 6
+Combat Robot Buff Skill 7	Skill Buff Combat Robot 7
+Explicit Basic Attack	Basic Attack Eksplisit
+Basic Attack (Temporary display for testing)	Basic Attack (Tampilan sementara untuk pengujian)
+Cover Penalty for Basic Attack (Deprecated)	Penalti Cover untuk Basic Attack (Tidak dipakai)
+Thick-skinned Stability deduction (deprecated)	Pengurangan Stability Thick-skinned (tidak dipakai)
+Fire Breath HP Recovery (Deprecated)	Pemulihan HP Fire Breath (Tidak dipakai)
+Cleanse Monitor (deprecated)	Monitor Pembersihan (tidak dipakai)
+Data Monitoring	Pemantauan Data
+Security Monitoring	Pemantauan Keamanan
+Resonance Monitor	Monitor Resonance
+Frost Shield Monitors Venom Attack	Frost Shield Memantau Serangan Venom
+Monitor Groza 402 individual buff	Pantau buff individu Groza 402
+Add Groza 402 Group Monitor Buff	Tambah Buff Monitor Grup Groza 402
+Trigger Tracking Elemental Projectile	Picu Proyektil Elemental Pelacak
+Hyper Maw Blaster triggered skill	Skill terpicu Hyper Maw Blaster
+Nagant's active skill 2 cooldown reduction judgment + execution	Penilaian + eksekusi pengurangan cooldown skill aktif 2 Nagant
+Nagant Active - Additional Enemy Damage	Nagant Aktif - Damage Musuh Tambahan
+Nagant is granted a critical rate boost before using her Ultimate	Nagant mendapat peningkatan critical rate sebelum memakai Ultimate-nya
+Starburst with Cooldown	Starburst dengan Cooldown
+Assist	Bantuan

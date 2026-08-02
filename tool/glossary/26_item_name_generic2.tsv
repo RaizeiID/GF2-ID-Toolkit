@@ -1,0 +1,49 @@
+# Nama item generik — putaran kedua.
+#
+# Barang satuan yang tidak masuk pola regex mana pun. Semuanya deskriptif dan
+# tampil di layar inventaris.
+#
+# "New PvP Ticket (Pending Packaging)" adalah catatan kerja pengembang yang bocor
+# ke nama item — kurungannya ikut diterjemahkan supaya tetap terbaca, bukan
+# dihapus, karena menghapusnya akan mengubah string dan memutus kecocokan.
+#range 0 130000
+
+Intelligence Puzzle	Teka-Teki Intelijen
+Map Pin	Pin Peta
+Screw Set	Set Sekrup
+Silver Tie Pin	Pin Dasi Perak
+Simple Tea Set	Set Teh Sederhana
+Anonymous Evidence	Bukti Anonim
+Classical Record	Rekaman Klasik
+Data Stack	Tumpukan Data
+Data Capsule	Kapsul Data
+Synchronization data	Data sinkronisasi
+Attachment Set Toolkits	Perangkat Set Attachment
+Automatic Fire Control Module	Modul Kendali Tembak Otomatis
+Rifle Suppressor	Suppressor Rifle
+Hi-Cap Battery	Baterai Kapasitas Tinggi
+Basic Lightweight Battery Pack	Paket Baterai Ringan Dasar
+Basic Fuel Power Box	Kotak Daya Bahan Bakar Dasar
+A Box of Blocks	Sekotak Balok
+Peppermints	Permen Mint
+Velvet Latte Pack	Paket Latte Beledu
+Supply Coupon	Kupon Pasokan
+Supply Exchange Voucher	Voucher Tukar Pasokan
+Warm Winter Voucher	Voucher Musim Dingin Hangat
+Grayplume Voucher	Voucher Grayplume
+Halting Voucher	Voucher Penghentian
+Base Ticket	Tiket Markas
+Café Ticket	Tiket Kafe
+Cyborg Ticket	Tiket Cyborg
+Oblivion Ticket	Tiket Oblivion
+New PvP Ticket (Pending Packaging)	Tiket PvP Baru (Menunggu Pengemasan)
+New PvP Exchange Shop Tokens	Token Toko Tukar PvP Baru
+Recreation Point	Poin Rekreasi
+Pulse Point	Poin Pulsa
+Liminal Iteration Attempt Supplement	Suplemen Percobaan Iterasi Liminal
+Top quality Growth Data Random Box	Kotak Acak Data Pertumbuhan Kualitas Puncak
+"Zucchero" Bonus Pack	Paket Bonus "Zucchero"
+Almighty Master Doll	Doll Master Mahakuasa
+Orange Doll	Doll Oranye
+Sycee Doll	Doll Sycee
+Dolphin Doll	Doll Lumba-Lumba

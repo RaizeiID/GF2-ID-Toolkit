@@ -1,0 +1,8 @@
+# Baris antarmuka yang diawali tanda pagar.
+#
+# Glossary dan segments memperlakukan baris yang dimulai dengan "#" sebagai
+# komentar, jadi teks seperti "# of Drinks" mustahil ditulis di sana. Aturan
+# regex bisa karena barisnya diawali "^", bukan "#".
+#range 75000 90000
+
+^# of Drinks$	Jumlah Minuman

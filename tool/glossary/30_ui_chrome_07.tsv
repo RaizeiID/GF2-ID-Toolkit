@@ -1,0 +1,147 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 7).
+#
+# "Become European (◠‿◠)っ[|]~~>" adalah lelucon gacha (orang "Eropa" = hoki,
+# lawan dari "Afrika" = apes). Diterjemahkan jadi "Semoga Hoki" karena istilah
+# Eropa/Afrika-nya tidak dikenal di komunitas Indonesia; emotikonnya dipertahankan.
+#
+# Nama diri dibiarkan: Klukai, Vector, Lenna, Mechty, Andoris, Elmo, Arclight,
+# Balthilde, Sardis, Soirée, Pathforger, Trailblaze, Rugged Path.
+#
+# String yang isinya cuma angka atau simbol ("6", "6500+", "×2", "???", ",", "Q")
+# tidak dimasukkan — keluarannya identik.
+#range 75000 90000
+
+Plan successfully replicated	Rencana berhasil disalin
+Cancel Dispatch	Batalkan Pengiriman
+Claim Earnings	Klaim Penghasilan
+Quick select successful	Pemilihan cepat berhasil
+Insufficient Dolls selected, unable to dispatch	Doll yang dipilih kurang, tidak bisa dikirim
+Echo Resolution	Resolusi Echo
+Click to analyse	Klik untuk menganalisis
+Unlock after analysis	Terbuka setelah analisis
+Analyzing Battlefield Echoes	Menganalisis Battlefield Echo
+All Battlefield Echoes have been unlocked	Semua Battlefield Echo sudah terbuka
+Challenge access unlocked	Akses tantangan terbuka
+{0}/{1} Battlefield Echoes	{0}/{1} Battlefield Echo
+Expected Rewards:	Hadiah yang Diharapkan:
+Exploration ended	Penjelajahan berakhir
+Scoring stats	Statistik skor
+Terrain Tile Type	Jenis Tile Medan
+Leave Temp.	Keluar Sement.
+Unlocks after completing {0} difficulty	Terbuka setelah menyelesaikan kesulitan {0}
+Surprise Encounters	Perjumpaan Mendadak
+Ordinary Encounters	Perjumpaan Biasa
+Monday	Senin
+Tuesday	Selasa
+Not enough attempts remaining!	Sisa percobaan tidak cukup!
+Next refresh: After {0}	Penyegaran berikutnya: Setelah {0}
+Cat Café Level Preview	Pratinjau Level Cat Café
+Affinity Value	Nilai Afinitas
+Cat's Gratitude	Rasa Terima Kasih Kucing
+Position <color=#D67849>+{0}</color>	Posisi <color=#D67849>+{0}</color>
+Cat Cosy <color=#D67849>+{0}</color>	Kenyamanan Kucing <color=#D67849>+{0}</color>
+Café Customers <color=#D67849>+{0}</color>	Pelanggan Café <color=#D67849>+{0}</color>
+Attract more cats to raise your Cat Café Level	Tarik lebih banyak kucing untuk menaikkan Level Cat Café
+Raise your Cat Café Level to unlock more content	Naikkan Level Cat Café untuk membuka lebih banyak konten
+Treasures	Harta Karun
+Claim after unlocking Treasure	Klaim setelah membuka Harta Karun
+All <color=#d65036>{0}</color>/{1}	Semua <color=#d65036>{0}</color>/{1}
+Unlock Treasure to view details	Buka Harta Karun untuk melihat detail
+Plugins	Plugin
+{0}/{1} activated	{0}/{1} diaktifkan
+Blessing	Restu
+Become European (◠‿◠)っ[|]~~>	Semoga Hoki (◠‿◠)っ[|]~~>
+Blessing Successful	Restu Berhasil
+Contains sensitive terms	Mengandung kata sensitif
+Maximum number of blessings for the day reached	Jumlah restu maksimum hari ini tercapai
+Platoon Notice	Pengumuman Platoon
+Sharing successful	Berbagi berhasil
+Please wait to share again	Tunggu sebentar untuk berbagi lagi
+Insufficient Collapse Pieces	Collapse Piece tidak cukup
+Insufficient rest accelerations	Percepatan istirahat tidak cukup
+Challenge complete	Tantangan selesai
+This area is full	Area ini penuh
+No accessories to swap	Tidak ada aksesori untuk ditukar
+Current Settings	Pengaturan Saat Ini
+Monthly limited-purchase Outfit Access Permissions	Izin Akses Busana pembelian terbatas bulanan
+Outfit Access Permission Limited-TIme Gift Box	Kotak Hadiah Waktu Terbatas Izin Akses Busana
+Not yet saved	Belum disimpan
+Record time sequence	Rekam urutan waktu
+Class {0}	Kelas {0}
+Stage Description	Deskripsi Stage
+Scratch	Gores
+Arclight Logs	Catatan Arclight
+Mutual Aid Outpost	Pos Bantuan Timbal Balik
+Opens after {0} day(s)	Dibuka setelah {0} hari
+Build	Bangun
+Insufficient Credits	Credit tidak cukup
+Select a Pathforger Strategy	Pilih Strategi Pathforger
+Trailblaze Item Exchange List	Daftar Penukaran Item Trailblaze
+Countdown:	Hitung Mundur:
+Remaining Enemies: {0}/{1}	Sisa Musuh: {0}/{1}
+Item card obtained: <color=#f26c1c>{0}</color>	Kartu item didapat: <color=#f26c1c>{0}</color>
+Purchased <color=#f26c1c>{0}</color>	Membeli <color=#f26c1c>{0}</color>
+Used the item card <color=#f26c1c>{0}</color>	Memakai kartu item <color=#f26c1c>{0}</color>
+Activated the item card <color=#f26c1c>{0}</color>	Mengaktifkan kartu item <color=#f26c1c>{0}</color>
+Planting...	Menanam...
+Watering...	Menyiram...
+Fertilizing...	Memupuk...
+Removing...	Mencabut...
+Days Planted	Hari Ditanam
+Growth Stage	Tahap Pertumbuhan
+Please select seeds to sow	Pilih benih untuk ditanam
+Craft limit reached, unable to craft	Batas pembuatan tercapai, tidak bisa membuat
+Double Bonus Reset	Atur Ulang Bonus Ganda
+Celebration Wishes	Ucapan Perayaan
+Decorate the cake	Hias kuenya
+Put in the candles	Pasang lilinnya
+Load blueprint code	Muat kode cetak biru
+Copied to clipboard	Disalin ke papan klip
+Share Crew Deck decoration scheme	Bagikan skema dekorasi Crew Deck
+Shared scheme has expired	Skema yang dibagikan sudah kedaluwarsa
+Clipboard is empty	Papan klip kosong
+Blueprint preview	Pratinjau cetak biru
+Save to plan	Simpan ke rencana
+Coffee Carnival Complete	Coffee Carnival Selesai
+Completion Reward	Hadiah Penyelesaian
+Familiar	Akrab
+Sales Time	Waktu Penjualan
+# of Drinks	Jumlah Minuman
+Customer Satisfaction	Kepuasan Pelanggan
+Have you tried the pillow yet? How is it?	Sudah coba bantalnya? Gimana rasanya?
+Completed Assessments	Penilaian Selesai
+Assessing	Menilai
+Assessment Progress	Progres Penilaian
+Auto-use skills	Pakai skill otomatis
+Manually use skills	Pakai skill manual
+Score Obtained	Skor Didapat
+Next Stage	Stage Berikutnya
+Not enough Cache Coins	Cache Coin tidak cukup
+Item Purchased	Item Dibeli
+For Sale	Dijual
+Purchase Time	Waktu Pembelian
+Enhancement Node	Node Peningkatan
+Evolved Node	Node Evolusi
+Node activated	Node diaktifkan
+Preceding node needs to be activated	Node sebelumnya harus diaktifkan dulu
+Shared Range	Jangkauan Bersama
+Includes all other Rugged Path rewards	Termasuk semua hadiah Rugged Path lainnya
+Arclight Collection unlock reward	Hadiah pembuka Arclight Collection
+Complete Missions To Claim	Selesaikan Misi untuk Klaim
+Elite Doll [Balthilde]	Doll Elite [Balthilde]
+Unlock by viewing the previous story scene	Buka dengan menonton adegan cerita sebelumnya
+Unlocks after completing Story Mode Stage {0}	Terbuka setelah menyelesaikan Story Mode Stage {0}
+View story scene to receive reward	Tonton adegan cerita untuk menerima hadiah
+Unable to add friend!	Tidak bisa menambah teman!
+Joining requires review	Bergabung perlu peninjauan
+No review required	Tidak perlu peninjauan
+By invitation only	Hanya lewat undangan
+Minimum level {0}	Level minimum {0}
+Changes after {0}	Berubah setelah {0}
+Active Mechanic - {0}	Mekanik Aktif - {0}
+Today's Highest Grade	Nilai Tertinggi Hari Ini
+Today's Highest Score	Skor Tertinggi Hari Ini
+Rotation Time	Waktu Rotasi
+Retrieve Items	Ambil Item
+{0} <color=#F26C1C>New Record!</color>	{0} <color=#F26C1C>Rekor Baru!</color>
+<color=#F26C1C>[{0}]</color> is now activated	<color=#F26C1C>[{0}]</color> sekarang aktif

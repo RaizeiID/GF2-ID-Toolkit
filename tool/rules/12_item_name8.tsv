@@ -1,0 +1,60 @@
+# Nama item — putaran terakhir.
+#
+# TEMUAN PENTING: "AR Advanced Attachment Box -Voymastina I" ditulis TANPA SPASI
+# setelah tanda pisah, sementara seluruh saudaranya memakai " - ". Empat baris
+# itu lolos dari aturan di 05_item_name.tsv dan tidak akan pernah tertangkap
+# kalau polanya tetap menuntut spasi. Karena itu pola di bawah memakai \s* .
+#
+# Pelajarannya sama dengan spasi ganda pada "Combustion -  Fissure Stem γ":
+# jarak di sekitar tanda pisah di data ini tidak konsisten dan tidak boleh
+# diandalkan.
+#range 0 130000
+
+# --- kotak attachment: tanda pisah tanpa spasi ---
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Attachment Box\s*-\s*(.+)$	Kotak Attachment Lanjutan \1 - \2
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Accessory Box\s*-\s*(.+)$	Kotak Aksesori Lanjutan \1 - \2
+
+# --- kotak pasokan & attachment bertingkat ---
+^T(\d) (AR|SMG|RF|HG|SG|MG|BLD|Blade) Supply Box$	Kotak Pasokan \2 T\1
+^Allay Support T(\d) Attachment Box$	Kotak Attachment Allay Support T\1
+^T(\d) Attachment Box V$	Kotak Attachment T\1 V
+^T(\d) Barrel Attachment Box$	Kotak Attachment Barrel T\1
+^Supply Support Box$	Kotak Dukungan Pasokan
+^Evolution Support Box$	Kotak Dukungan Evolusi
+^Horticulture Aid Box$	Kotak Bantuan Hortikultura
+^Storage Crate$	Peti Penyimpanan
+^Mysterious Black Box$	Kotak Hitam Misterius
+
+# --- kunci lisensi senjata ---
+^"(.+)" Weapons Licensing Key$	Kunci Lisensi Senjata "\1"
+^(.+) Weapons Licensing Key$	Kunci Lisensi Senjata \1
+^Access Key$	Kunci Akses
+
+# --- paket pilih sendiri ---
+^(.+) Neural Archive Self-Select Pack$	Paket Pilih Sendiri Neural Archive \1
+^(.+) Weapon Self-Select Pack$	Paket Pilih Sendiri Senjata \1
+^(.+) Common Key Self-Select Gift Box$	Kotak Hadiah Pilih Sendiri Common Key \1
+
+# --- kotak hadiah evolusi ---
+^Key Evolution Gift Box$	Kotak Hadiah Evolusi Kunci
+^Targeting Evolution Gift Box$	Kotak Hadiah Evolusi Pembidikan
+^Sentiment Gift Box$	Kotak Hadiah Sentiment
+
+# --- izin pembuatan kartu fungsi ---
+^Type (I|II|III|IV|V) Function Loadout Card Crafting Permission$	Izin Pembuatan Kartu Muatan Fungsi Tipe \1
+
+# --- catatan tempel ---
+^(Expectation|Highly Rated|Feedback|Encouragement|Improvement) Sticky Note - (.+)$	Catatan Tempel \1 - \2
+^(Expectation|Highly Rated|Feedback|Encouragement|Improvement) Sticky Note$	Catatan Tempel \1
+
+# --- komponen & kotak musik ---
+^Standard Component$	Komponen Standar
+^High-Quality Component$	Komponen Kualitas Tinggi
+^Music Box: (.+)$	Kotak Musik: \1
+^Buff Module$	Modul Buff
+^Module Slot$	Slot Modul
+^Intelligence Storage Module$	Modul Penyimpanan Intelijen
+^Lucky Draw Ticket$	Tiket Undian
+^Shadow Ticket$	Tiket Bayangan
+^Participation Voucher$	Voucher Partisipasi
+^Zucchero Discount Voucher$	Voucher Diskon Zucchero

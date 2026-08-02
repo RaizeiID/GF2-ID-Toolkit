@@ -1,0 +1,11 @@
+# Kalimat buff berpola yang muncul di rentang tutorial/event (60000-70000)
+# dan tersebar juga di tempat lain.
+#range 0 125000
+
+^This unit's attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Serangan unit ini meningkat \1\2%</color>.
+^(<color=#[0-9a-fA-F]+>)Value Increase:</color> This unit's attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1Kenaikan Nilai:</color> Serangan unit ini meningkat \2\3%</color>.
+^ATK is decreased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, max (<color=#[0-9a-fA-F]+>)(\d+)</color> stacks\.$	ATK berkurang \1\2%</color>, maks \3\4</color> stack.
+^Damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, maximum of (<color=#[0-9a-fA-F]+>)(\d+) stacks</color>\.$	Damage yang diberikan meningkat \1\2%</color>, maksimal \3\4 stack</color>.
+^Debuff, can be cleansed\.$	Debuff, bisa di-cleanse.
+^Cannot be selected or take actions\.$	Tidak bisa dipilih atau melakukan aksi.
+^When this effect expires, recover all HP and stability\.$	Saat efek ini berakhir, pulihkan seluruh HP dan stability.

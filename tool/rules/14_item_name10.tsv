@@ -1,0 +1,41 @@
+# Nama item — tingkat peningkatan plug-in & keluarga kosmetik.
+#
+# "Elevation / Foundation / Delimitation / Differentiation - <nama plug-in>"
+# adalah empat tingkat peningkatan yang dipakai pada set plug-in yang sama.
+# Kata di depan tanda pisah deskriptif dan diterjemahkan; nama plug-in di
+# belakangnya (Blitz Stratagem, Rain of Lead, Zero Distance Contact) nama diri
+# dan dibawa lewat backref.
+#
+# Kode set berhuruf awal BS: dan MB: dibiarkan apa adanya, sejalan dengan
+# DT:/ES:/DE:/FD:/DA:/FC:/FR: — lihat item_name_asis.txt.
+#range 0 130000
+
+# --- tingkat peningkatan plug-in ---
+^Elevation - (.+)$	Peningkatan - \1
+^Foundation - (.+)$	Dasar - \1
+^Delimitation - (.+)$	Pembatasan - \1
+^Differentiation - (.+)$	Diferensiasi - \1
+
+# --- kartu warna sempurna ---
+^Perfect Color Loadout Card - (.+) Crafting Permission$	Izin Pembuatan Kartu Muatan Warna Sempurna - \1
+^Perfect Color Loadout Card - (.+)$	Kartu Muatan Warna Sempurna - \1
+^Perfect Color Carrier Card - (.+)$	Kartu Pembawa Warna Sempurna - \1
+
+# --- kosmetik ---
+^Photo Frame - (.+)$	Bingkai Foto - \1
+^Photo Frame: (.+)$	Bingkai Foto: \1
+^Simple Photo Frame$	Bingkai Foto Sederhana
+^Emblem: (.+)$	Lambang: \1
+^Emblem - (.+)$	Lambang - \1
+^Emblem's Accumulation$	Akumulasi Lambang
+^Camo: (.+)$	Kamuflase: \1
+^Camo - (.+)$	Kamuflase - \1
+^Renewal: (.+)$	Pembaruan: \1
+^Renewal - (.+)$	Pembaruan - \1
+^Epiphyllum Trace - (\d)$	Jejak Epiphyllum - \1
+
+# --- kotak aksesori tingkat tinggi ---
+^Assault Rifle High-Tier Accessory Box: (.+)$	Kotak Aksesori Tingkat Tinggi Assault Rifle: \1
+^Assault Rifle High-Tier Accessory Box\s*-\s*(.+)$	Kotak Aksesori Tingkat Tinggi Assault Rifle - \1
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) High-Tier Accessory Box: (.+)$	Kotak Aksesori Tingkat Tinggi \1: \2
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) High-Tier Accessory Box\s*-\s*(.+)$	Kotak Aksesori Tingkat Tinggi \1 - \2

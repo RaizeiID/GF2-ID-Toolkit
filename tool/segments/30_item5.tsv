@@ -1,0 +1,190 @@
+# Deskripsi ITEM — putaran kelima: attachment, Covenant, dan baris suara.
+#
+# Sisa penghalang di sini benar-benar 1:1 — 743 kalimat unik menutup 744 deskripsi,
+# jadi tidak ada lagi pengganda. Yang dikerjakan dipilih berdasarkan apa yang paling
+# sering dilihat pemain: keterangan attachment di layar modifikasi senjata, teks
+# Covenant, dan baris suara Doll di kartu skin.
+#
+# Sumber rusak yang disalin apa adanya: "Attachment skin design based on the" (nama
+# senjatanya memang hilang di data game), tanda seru ganda "!！" pada satu baris
+# Vepley, dan spasi nyasar sebelum titik di "gains 1 stack of [A] .".
+#
+# Nama diri tetap Inggris: Commander, Doll, Dinergate, Elmo, DEFY, Ootheca,
+# Arthrorhynchus, Parasite, dan seluruh nama Doll.
+#range 0 130000
+
+# --- keterangan attachment & perlengkapan ---
+=A muzzle made from what appears to be an extremely sturdy material.	Muzzle yang tampaknya dibuat dari material yang luar biasa kokoh.
+=A muzzle that looks perfectly suited for desert use.	Muzzle yang kelihatannya sangat cocok dipakai di gurun.
+=A scope made from a material that seems very reliable.	Scope yang dibuat dari material yang tampak sangat andal.
+=A sight, seemingly made from the very sturdy material.	Sight yang sepertinya dibuat dari material yang sangat kokoh.
+=A grip that seems particularly suited for use in the desert.	Grip yang tampaknya sangat cocok dipakai di gurun.
+=A vertical foregrip made of very sturdy material.	Foregrip vertikal yang dibuat dari material sangat kokoh.
+=A blade edge with a technological flair.	Mata bilah bernuansa teknologi.
+=An edge having a robust, technological look and style is critical.	Mata bilah dengan tampilan dan gaya teknologi yang kokoh itu penting.
+=The blade looks very heavy; it must hurt a lot if it hurts someone.	Bilahnya kelihatan sangat berat; pasti sakit sekali kalau sampai melukai seseorang.
+=A specialized sight suitable for RFs with adjustable zoom ranges and controllable zoom ratio.	Sight khusus untuk RF dengan rentang zoom yang bisa diatur dan rasio zoom yang terkendali.
+=Specialized sight for rifles, designed for quicker use at close range.	Sight khusus untuk rifle, dirancang agar lebih cepat dipakai di jarak dekat.
+=Specialized optical rangefinder for assault rifles, which uses a modulated laser to measure the distance to the target.	Rangefinder optik khusus untuk assault rifle, memakai laser termodulasi untuk mengukur jarak ke target.
+=Another type of red dot sight suitable for assault rifles, which projects the aiming dot or reticle onto the sight's lens using electronic imaging, similar to traditional red dot sights.	Jenis lain red dot sight untuk assault rifle, memproyeksikan titik bidik atau reticle ke lensa sight lewat pencitraan elektronik, mirip red dot sight tradisional.
+=Another type of red dot sight suitable for submachine guns, which projects the aiming dot or reticle onto the sight's lens using electronic imaging, similar to traditional red dot sights.	Jenis lain red dot sight untuk submachine gun, memproyeksikan titik bidik atau reticle ke lensa sight lewat pencitraan elektronik, mirip red dot sight tradisional.
+=Another red dot sight designed for assault rifles, with a protective design suitable for a wide range of scenarios, similar to a standard red dot sight.	Red dot sight lain untuk assault rifle, dengan desain pelindung yang cocok untuk berbagai situasi, mirip red dot sight standar.
+=A bipod suitable for RFs that can be extended or retracted on firearms with long barrels, allowing use in different terrains and situations.	Bipod untuk RF yang bisa dipanjangkan atau dilipat pada senjata berlaras panjang, sehingga bisa dipakai di berbagai medan dan situasi.
+=This MG bipod is used on firearms with long barrels to improve accuracy and stability.	Bipod MG ini dipasang pada senjata berlaras panjang untuk meningkatkan akurasi dan kestabilan.
+=A suppressor designed for submachine guns, featuring a compact design for easy carrying and replacement.	Suppressor untuk submachine gun, berdesain ringkas supaya mudah dibawa dan diganti.
+=This is a dedicated large-caliber model suppressor designed for machine guns, providing enough space to slow down the excess gas when firing rounds, achieving the effect of suppressing sound and muzzle flash.	Ini suppressor model kaliber besar khusus untuk machine gun, menyediakan ruang cukup untuk memperlambat gas berlebih saat menembak, sehingga meredam suara dan kilatan moncong.
+=This special large-caliber suppressor muzzle for a rifle provides enough space to slow down excess gas, greatly reducing its volume, and reducing muzzle flash.	Muzzle suppressor kaliber besar khusus untuk rifle ini menyediakan ruang cukup untuk memperlambat gas berlebih, sangat meredam suaranya, sekaligus mengurangi kilatan moncong.
+=The large-caliber muzzle brake for machine guns is lightweight; the extra weight is negligible even for large firearms.	Muzzle brake kaliber besar untuk machine gun ini ringan; bobot tambahannya nyaris tak terasa bahkan pada senjata besar.
+=A unique large-caliber model muzzle brake suitable for machine guns, both easy to equip and disassemble.	Muzzle brake model kaliber besar yang unik untuk machine gun, mudah dipasang sekaligus mudah dibongkar.
+=Also known as a reinforced rivet, it is a form of mechanical fastener made of fine steel used for permanent fixation on firearms and various types of equipment, improving stability and strength.	Dikenal juga sebagai reinforced rivet, ini pengencang mekanis dari baja halus untuk pemasangan permanen pada senjata dan berbagai perlengkapan, meningkatkan kestabilan dan kekuatan.
+
+# --- perangkat genggam & barang temuan ---
+=A handheld device with a thermal imaging screen that prioritizes locating thermally reactive substances.	Perangkat genggam berlayar pencitraan termal yang mengutamakan pencarian zat yang reaktif terhadap panas.
+=A handheld device with a sampling probe, able to highlight various highly corrosive chemical compounds.	Perangkat genggam dengan probe pengambil sampel, mampu menandai berbagai senyawa kimia yang sangat korosif.
+=A scanner with a small antenna, used to find various electromagnetic fields.	Pemindai berantena kecil, dipakai untuk menemukan berbagai medan elektromagnetik.
+=A miniature handheld device that scans for universal modules with the best and most comprehensive performance.	Perangkat genggam mini yang memindai universal module dengan performa terbaik dan terlengkap.
+=A miniature handheld device that converts overclock signals to high-efficiency energy.	Perangkat genggam mini yang mengubah sinyal overclock jadi energi berefisiensi tinggi.
+=A miniature handheld device that emits a low-pitched humming when there is a resonating substance nearby.	Perangkat genggam mini yang mengeluarkan dengung bernada rendah saat ada zat beresonansi di dekatnya.
+=A miniature handheld device that constantly emits a signal that draws in roaming autonomous units nearby to provide support.	Perangkat genggam mini yang terus memancarkan sinyal untuk menarik unit otonom yang berkeliaran di dekatnya agar memberi bantuan.
+=A docking hub with multiple interface ports, capable of connecting to a wide range of technological devices.	Docking hub dengan banyak port antarmuka, mampu terhubung ke berbagai perangkat teknologi.
+=A mysterious black box recorder that automatically logs information encountered during the course of your travels and provides crucial tactical support when facing powerful foes.	Perekam kotak hitam misterius yang otomatis mencatat informasi yang ditemui sepanjang perjalananmu dan memberi dukungan taktis penting saat menghadapi musuh kuat.
+=An open source data pack from the ■■ Research Institute, called "Instantaneous Breakthroughs For Dolls."	Paket data sumber terbuka dari ■■ Research Institute, berjudul "Instantaneous Breakthroughs For Dolls."
+=This license is expired, but the code on it still allows you to reap additional dividends when tallying up your spoils.	Lisensi ini sudah kedaluwarsa, tapi kodenya masih memungkinkanmu meraup dividen tambahan saat menghitung hasil jarahan.
+=An ordinary-looking file bag containing a summary report of local exceptional electronic intrusion cases.	Map berkas yang tampak biasa saja, berisi laporan ringkas kasus penyusupan elektronik luar biasa di daerah setempat.
+=A crudely crafted bird-beak mask modeled after the defense device commonly used by doctors in medieval Europe, and the person who made it seems to have put a lot of effort into it.	Topeng paruh burung buatan kasar yang meniru alat pelindung yang lazim dipakai dokter di Eropa abad pertengahan, dan pembuatnya tampak sudah mencurahkan banyak usaha.
+=A box of scattered wooden building blocks has been repeatedly assembled, pieced together, and then torn down and rebuilt until they are in the most perfect state.	Sekotak balok kayu berserakan yang berulang kali disusun, dirangkai, lalu dibongkar dan dibangun ulang sampai bentuknya paling sempurna.
+=The peace knot, made with thick red thread, contains the owner's good wishes for the future.	Simpul perdamaian dari benang merah tebal ini menyimpan harapan baik pemiliknya untuk masa depan.
+=The plain black hoop earring is in good condition despite having been worn by their owner for many years.	Anting lingkar hitam polos ini masih terawat meski sudah bertahun-tahun dipakai pemiliknya.
+=Don't look down on screws! The Elmo started out from screws too, you know?	Jangan remehkan sekrup! Elmo pun dulu bermula dari sekrup, lho.
+=Check the tubing carefully and watch out for gas leaks.	Periksa selangnya baik-baik dan waspadai kebocoran gas.
+=Full of energy, enough to allow you to work for 30 hours straight!	Penuh energi, cukup untuk membuatmu bekerja 30 jam nonstop!
+=As everyone knows, overnight baguettes are inedible.	Semua orang juga tahu, baguette sisa semalam tidak bisa dimakan.
+=Every day brings a new flavor.	Tiap hari menghadirkan rasa yang baru.
+=Tea leaves roasted at high temperatures emit a subtle fragrance, can be used to complete tasting orders in Creative Tasting events.	Daun teh yang disangrai pada suhu tinggi mengeluarkan aroma yang halus, bisa dipakai untuk menyelesaikan pesanan cicip di event Creative Tasting.
+
+# --- buku, dokumen, dan barang Ops Room ---
+=In the Yellow Zone, electronic dictionaries aren't always reliable.	Di Yellow Zone, kamus elektronik tidak selalu bisa diandalkan.
+=When a Collapse storm approaches, you can use it to kill time.	Saat badai Collapse mendekat, ini bisa dipakai untuk membunuh waktu.
+=Writing will always be the fastest and handiest way to keep records.	Menulis akan selalu jadi cara paling cepat dan paling praktis untuk mencatat.
+=Your knowledge can sometimes outweigh your firepower.	Pengetahuanmu kadang lebih berharga daripada daya tembakmu.
+=Get your coffee and tea ready and prepare to lose yourself in the wide world of literature.	Siapkan kopi dan tehmu, lalu bersiaplah tenggelam dalam luasnya dunia sastra.
+=The Doll community needs help in just about every way.	Komunitas Doll butuh bantuan dalam hampir segala hal.
+=The Dinergate ornaments everyone's been waiting for, they're as cute as small animals.	Ornamen Dinergate yang ditunggu-tunggu semua orang, imutnya seperti hewan-hewan kecil.
+=The Dinergate ornaments everyone's been waiting for, unfortunately you can't take them out on a walk.	Ornamen Dinergate yang ditunggu-tunggu semua orang, sayangnya tidak bisa diajak jalan-jalan.
+=The Dinergate ornaments everyone's been waiting for, their adorable exteriors hide a deadly edge.	Ornamen Dinergate yang ditunggu-tunggu semua orang, tampilannya menggemaskan tapi menyembunyikan sisi mematikan.
+=Supposedly, they were made in the shape of plague doctors.	Katanya, bentuknya dibuat menyerupai dokter wabah.
+=A cat that is full of energy and will welcome every customer with passion.	Kucing yang penuh energi dan akan menyambut tiap pelanggan dengan bersemangat.
+=Just a passing cat.	Cuma kucing yang kebetulan lewat.
+=It doesn't meow, but makes special sounds which cannot be understood by other cats.	Ia tidak mengeong, tapi mengeluarkan suara khas yang tidak dimengerti kucing lain.
+=Full of gusto, but its friends find it hard to understand what it's saying.	Penuh semangat, tapi kawan-kawannya sulit memahami apa yang ia katakan.
+
+# --- teks rasa skin ---
+=Seemingly normal but actually tremendously versatile, capable of clearing away all obstacles in your path.	Kelihatannya biasa saja padahal luar biasa serbaguna, sanggup menyingkirkan semua rintangan di jalanmu.
+=From dust and flying sand.	Dari debu dan pasir yang beterbangan.
+=The words invoke the "cold and dark".	Kata-katanya membangkitkan kesan "dingin dan gelap".
+=A hunter conceals themselves within the interplay of light and shadow.	Seorang pemburu menyembunyikan diri di antara permainan cahaya dan bayangan.
+=Unyielding will, a vow to smash through all obstacles.	Kehendak yang tak tergoyahkan, sumpah untuk menghancurkan semua rintangan.
+=The bullets whipping through the frigid wind are the highest honor the victor can receive.	Peluru yang melesat menembus angin beku adalah kehormatan tertinggi yang bisa diterima sang pemenang.
+=Racing over the snow and riding the wind, ignite the rhythm of your heartbeat as the snowflakes fall.	Melaju di atas salju dan menunggangi angin, nyalakan irama detak jantungmu saat serpih salju berjatuhan.
+=The cunning fox hides in the shadows, reaping its prey's life with lightning speed.	Rubah licik bersembunyi dalam bayangan, memanen nyawa mangsanya secepat kilat.
+=Bullets fired from nowhere are the most deadly.	Peluru yang ditembakkan entah dari mana adalah yang paling mematikan.
+=Crimson trails interweave in the deep blue sky, freezing the momentary flicker into eternity.	Jejak merah saling menjalin di langit biru pekat, membekukan kerlip sesaat jadi keabadian.
+=Some secrets only come into view after the shroud of night falls.	Sebagian rahasia baru terlihat setelah tirai malam turun.
+=Is it water or bullets waiting behind the valve?	Yang menunggu di balik katup itu air atau peluru?
+=Soon it will ALL be clean.	Sebentar lagi SEMUANYA akan bersih.
+=Professionals use professional colors.	Yang profesional memakai warna yang profesional.
+=Back or forth, trailing each other, we lose ourselves in this melody.	Mundur atau maju, saling mengekor, kita larut dalam melodi ini.
+=Forward or backward? Chase each other, and sink into this song together.	Maju atau mundur? Saling mengejar, lalu tenggelam bersama dalam lagu ini.
+=Hunt down all fluttering feelings.	Buru semua perasaan yang berdebar.
+=Trust me, this really isn't a Sten.	Percayalah, ini benar-benar bukan Sten.
+=To become the strongest Doll, close-quarters combat is also an indispensable skill.	Untuk jadi Doll terkuat, pertarungan jarak dekat pun keahlian yang tak bisa ditinggalkan.
+=Stop your useless struggling, put down your weapons, and surrender immediately.	Hentikan perlawanan sia-siamu, letakkan senjata, dan menyerahlah sekarang juga.
+
+# --- teks Covenant & afinitas ---
+=The one thing in her heart that has never changed is the treasure you both cherish.	Satu hal di hatinya yang tak pernah berubah adalah harta yang kalian berdua jaga.
+=Whether in the past or future, she will always be with you.	Entah di masa lalu atau masa depan, ia akan selalu bersamamu.
+=Whether then or now, her smile when she sees you will be forever dazzling.	Entah dulu atau sekarang, senyumnya saat melihatmu akan selamanya memesona.
+=You are her ultimate destination of her hard work as she walks the road to seeking coolness.	Kau adalah muara akhir dari kerja kerasnya sepanjang jalan mencari sisi kerennya sendiri.
+=Lewis is an optimistic designer and you are her muse.	Lewis perancang yang optimistis, dan kau adalah musanya.
+=Come closer, and capture that hint of fragrance that lingers in every movement.	Mendekatlah, dan tangkap semerbak samar yang tertinggal di tiap geraknya.
+=The fairy-like laughter in the blizzard is her exclusive melody that welcomes you.	Tawa bak peri di tengah badai salju adalah melodi khususnya untuk menyambutmu.
+=If you see the branches move, it is because there is a cute little squirrel finding you her beloved pinecones up there.	Kalau kau melihat dahannya bergerak, itu karena ada tupai kecil menggemaskan di atas sana yang sedang mencarikan buah pinus kesayangannya untukmu.
+=She smiles gently because of your existence.	Ia tersenyum lembut karena keberadaanmu.
+=She paints a picture of a glorious future, and then gives it to you.	Ia melukis gambar masa depan yang gemilang, lalu memberikannya padamu.
+=Each meal made for you is filled with her sweet feelings.	Tiap hidangan yang dibuat untukmu sarat dengan perasaan manisnya.
+=The most precious memory in her neural cloud is this teatime spent with you.	Kenangan paling berharga di neural cloud-nya adalah waktu minum teh bersamamu ini.
+=She uses her bright smile to awaken your good mood on a daily basis.	Ia memakai senyum cerahnya untuk membangkitkan suasana hatimu tiap hari.
+=For you, she'll put everything she has into gathering her courage.	Demi kau, ia akan mengerahkan segalanya untuk mengumpulkan keberanian.
+=She may have many partners who share her aspirations, but you are the only one whom she has chosen to accompany forever.	Ia mungkin punya banyak rekan sehaluan, tapi hanya kau yang ia pilih untuk didampingi selamanya.
+=The claws she hides in daily life are bared to protect the people that are precious to her.	Cakar yang ia sembunyikan sehari-hari ia tunjukkan demi melindungi orang-orang yang berharga baginya.
+=Looks like she's curious about how you intend to use this bag.	Sepertinya ia penasaran kau mau memakai tas ini untuk apa.
+
+# --- baris suara Doll ---
+=“If only it could attract fortune...”	“Andai saja ini bisa mendatangkan rezeki...”
+="A brawny battler; his big hammer really hurts!"	"Petarung berotot; palu besarnya benar-benar bikin sakit!"
+='What do you need me to do for you? Commander~'	'Ada yang perlu kulakukan untukmu, Commander~'
+="The moment intelligence gathering is complete, the outcome of the battle is already determined."	"Begitu pengumpulan intelijen rampung, hasil pertempuran sudah ditentukan."
+="DEFY will always be a sharp blade you can trust."	"DEFY akan selalu jadi bilah tajam yang bisa kau percaya."
+="I'm sorry, I just wanted to carefully confirm that even after ten years, you still haven't changed."	"Maaf, aku cuma ingin memastikan baik-baik bahwa setelah sepuluh tahun pun, kau tetap tidak berubah."
+="I could grow this much because of your teachings, Commander!"	"Aku bisa berkembang sejauh ini berkat ajaranmu, Commander!"
+="W-what are you talking about? I'm just practicing my violin skills, I-It's not like I'm playing for you specifically!"	"A-apa sih yang kau bicarakan? Aku cuma melatih kemampuan biolaku, b-bukan berarti aku memainkannya khusus untukmu!"
+="If Dolls had souls, they'd use propane."	"Kalau Doll punya jiwa, jiwanya pasti berbahan propana."
+=“This is everyone's idol Vepley~ We'll be touring the region soon, so make sure you follow us!”	“Ini idola semua orang, Vepley~ Sebentar lagi kami tur keliling wilayah ini, jadi pastikan kalian ikuti kami!”
+=“Even when an idol trades her mic for a gun, she's still an idol~☆”	“Meski idola menukar mik-nya dengan senapan, dia tetap idola~☆”
+=“Come dance with Vepley!”	“Ayo menari bersama Vepley!”
+=“Alright, Leader, Vepley gets it, this is a battle, not a concert, this is a battle, not a concert, this is a battle, not a concert...”	“Baik, Leader, Vepley paham, ini pertempuran bukan konser, ini pertempuran bukan konser, ini pertempuran bukan konser...”
+=“Even a Dinergate's eye can be clouded by gold.”	“Mata Dinergate pun bisa dibutakan emas.”
+=“Mission complete, Commander.”	“Misi selesai, Commander.”
+=“Why do you look so down, Commander? Need me to take a look at you?”	“Kenapa kau kelihatan lesu, Commander? Perlu kuperiksa?”
+=“Commander, Commander! Wait for me!”	“Commander, Commander! Tunggu aku!”
+=“Oh dear, I think I infused too much...”	“Aduh, sepertinya aku menyeduhnya kelewat banyak...”
+=“Pew~ Got you! Haha, I was just kidding, that was just medicine~”	“Dor~ Kena kau! Haha, aku cuma bercanda, itu tadi cuma obat~”
+=“Where's the enemy? Bring them all on!！”	“Mana musuhnya? Maju semua sekalian!！”
+=“Are we finished planning yet? Ready or not, I'm heading out!”	“Sudah selesai belum menyusun rencananya? Siap atau tidak, aku berangkat!”
+=“Hmph! Taste my blade's fury!”	“Hmph! Rasakan amukan bilahku!”
+=“Keep fighting! Fight until you're satisfied!”	“Terus bertarung! Bertarunglah sampai puas!”
+=Part of an idol's job is taking in all the stress you can't keep inside you~☆	Sebagian tugas idola adalah menampung semua stres yang tak sanggup kau simpan sendiri~☆
+
+# --- blueprint & lapisan senjata (varian koma) ---
+=A common weapon blueprint, with clean lines outlining the weapon's contours.	Blueprint senjata common, dengan garis bersih yang menegaskan lekuk senjatanya.
+=A rare weapon blueprint, with clean lines outlining the weapon's contours.	Blueprint senjata rare, dengan garis bersih yang menegaskan lekuk senjatanya.
+=An epic weapon blueprint, with clean lines outlining the weapon's contours.	Blueprint senjata epic, dengan garis bersih yang menegaskan lekuk senjatanya.
+=A weapon coating scheme designed after the old Type 12 assault rifle.	Skema weapon coating yang dirancang meniru assault rifle Type 12 lawas.
+=Attachment skin design based on the	Desain attachment skin berdasarkan
+^A weapon coating design based on (?:the )?(.+)\.$	Desain weapon coating berdasarkan \1.
+^A weapon skin design based on the (.+)$	Desain weapon skin berdasarkan \1
+^([\w'’.·-]+)'s Standard Combat Gear$	Perlengkapan Tempur Standar \1
+^A Peak Key that grants the corresponding effect when equipped\.$	Peak Key yang memberi efek terkait saat dipasang.
+^Unlocked after placing top (\d+)% in the ([^.]+)\.$	Terbuka setelah masuk \1% teratas di \2.
+=Unlocked by supporting during the Glittering Starwish: Starclaim event and reaching the 1st place on the individual support leaderboard.	Terbuka dengan mendukung selama event Glittering Starwish: Starclaim dan meraih peringkat 1 di papan peringkat dukungan individu.
+=On the stage, the blossoming light of support has turned into a guiding pole star.	Di atas panggung, cahaya dukungan yang merekah berubah menjadi bintang kutub penuntun.
+=On the stage, the rising light of support has turned into a nova of the dawn.	Di atas panggung, cahaya dukungan yang terbit berubah menjadi nova fajar.
+=Platoon Blessing Guaranteed Reward	Hadiah Pasti Platoon Blessing
+=Platoon Blessing Random Reward	Hadiah Acak Platoon Blessing
+=Support Unit Upgrade Material Description	Keterangan Material Peningkatan Unit Pendukung
+=Test Personnel	Personel Uji
+=Basic defense platform preset terrain for ordinary defense exercise stage.	Medan preset platform pertahanan dasar untuk stage latihan pertahanan biasa.
+=The advanced training environment is designed for higher-ranked bounty hunters with the acumen for tactical combat, with greater complexity and difficulty.	Lingkungan latihan lanjutan ini dirancang untuk bounty hunter berperingkat tinggi yang punya naluri tempur taktis, dengan kerumitan dan kesulitan yang lebih besar.
+^Test description of the 5th (?:level|floor) preset Doll (\d+) (?:of|in) the [Rr]oguelike mode\.?$	Deskripsi uji Doll preset \1 level ke-5 di mode roguelike
+
+# --- efek mekanik yang tersisa ---
+^This effect stacks\.$	Efek ini bisa ditumpuk.
+^Out-of-turn damage is increased by (\d+)%\.$	Damage di luar giliran meningkat \1%.
+^Out-of-turn damage is increased by (\d+)% and stability damage is increased by (\d+) points\.$	Damage di luar giliran meningkat \1% dan stability damage meningkat \2 poin.
+^Out-of-turn damage is increased by (\d+)%, stability damage is increased by (\d+) points and critical damage is increased by (\d+)%\.$	Damage di luar giliran meningkat \1%, stability damage meningkat \2 poin, dan critical damage meningkat \3%.
+^For every ([\w ]+) plugin owned, ([A-Za-z]+) damage is increased by (\d+)%, stacking up to (\d+) times\.$	Untuk tiap plugin \1 yang dimiliki, damage \2 meningkat \3%, menumpuk hingga \4 kali.
+^When taking stability damage, recovers (\d+) points of stability\.$	Saat menerima stability damage, memulihkan \1 poin stability.
+^When attacking an enemy target with ([A-Za-z]+) debuffs on them, damage dealt is increased by (\d+)% and the attack ignores all of the target's stability\.$	Saat menyerang target musuh yang punya debuff \1, damage yang diberikan meningkat \2% dan serangan itu mengabaikan seluruh stability target.
+^When this unit applies a control effect, it cleanses (\d+) debuffs on itself, recovers HP equal to (\d+)% of max HP, and its defense is increased by (\d+)% for (\d+) turns\.$	Saat unit ini menerapkan efek control, ia membersihkan \1 debuff pada dirinya, memulihkan HP setara \2% max HP, dan pertahanannya meningkat \3% selama \4 giliran.
+^At the start of the turn, gains (\d+) stack of \[([^\]]+)\] \.$	Di awal giliran, mendapat \1 stack [\2] .
+^Corrosion Damage is increased by \((\d+)%\*target's debuffs\)$	Corrosion Damage meningkat (\1%*debuff target)
+^Corrosion Damage is increased by \((\d+)%\*target's debuffs\) and critical rate is increased by \((\d+)%\*target's debuffs\)$	Corrosion Damage meningkat (\1%*debuff target) dan critical rate meningkat (\2%*debuff target)
+^Ootheca summoned unit attack multipliers are increased by \((\d+)%\*target's debuffs\)$	Multiplier serangan unit summon Ootheca meningkat (\1%*debuff target)
+^Corrosion Damage is increased by \((\d+)%\* \[Parasite\] stacks\)$	Corrosion Damage meningkat (\1%* stack [Parasite])
+^Corrosion Damage is increased by \((\d+)%\*\[Parasite\] stacks\) and stability damage is increased by \((\d+)\*\[Parasite\] stacks\)$	Corrosion Damage meningkat (\1%*stack [Parasite]) dan stability damage meningkat (\2*stack [Parasite])
+^Allied Dolls' defense is reduced by (\d+)%, allied summons' defense is increased by (\d+)%$	Pertahanan Doll sekutu berkurang \1%, pertahanan summon sekutu meningkat \2%
+^For each attack an enemy unit receives from a different allied unit during the current round, the damage it takes in the next round is increased by (\d+)%\.$	Untuk tiap serangan yang diterima unit musuh dari unit sekutu berbeda pada ronde ini, damage yang diterimanya pada ronde berikutnya meningkat \1%.
+^For each stack of \[([^\]]+)\] possessed by an allied summon, they recover HP equal to (\d+)% of their max HP after an attack\.$	Untuk tiap stack [\1] yang dimiliki summon sekutu, mereka memulihkan HP setara \2% max HP mereka setelah menyerang.
+^If this unit has not used an active skill, damage dealt by \[([^\]]+)\] is increased by maximum mobility × (\d+)%\.$	Kalau unit ini belum memakai active skill, damage dari [\1] meningkat sebesar mobilitas maksimum × \2%.
+^When \[AoE\] attacks land on enemy units standing on allied Elemental Tiles, deal fixed damage equal to (\d+)% of attack and (\d+) points of fixed stability damage\.$	Saat serangan [AoE] mengenai unit musuh yang berdiri di Elemental Tile sekutu, berikan fixed damage setara \1% serangan dan \2 poin fixed stability damage.
+^Attack is increased by (\d+)% when attacking targets with ([A-Za-z]+) debuffs, and randomly inflict (\d+) higher-level debuffs for (\d+) turns \[Level of debuff is (\d+)\]$	Serangan meningkat \1% saat menyerang target yang punya debuff \2, dan secara acak menimbulkan \3 debuff tingkat lebih tinggi selama \4 giliran [Tingkat debuff adalah \5]

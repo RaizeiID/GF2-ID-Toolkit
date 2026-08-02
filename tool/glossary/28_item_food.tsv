@@ -1,0 +1,62 @@
+# Nama item — makanan, minuman, dan bahan masakan.
+#
+# Kategori ini muncul di dapur Zucchero dan di inventaris bahan. Semuanya nama
+# hidangan sungguhan, bukan nama diri, jadi diterjemahkan penuh.
+#
+# Beberapa nama sengaja TIDAK masuk sini karena sebenarnya nama diri meski
+# mengandung kata makanan: "Coffee Hunter", "Mr. Pizza", "Sweet Dreams Toy
+# Castle", "Sweet Lemony Mood", "Coffee Craze", "Wine-Red Hairband".
+#range 0 130000
+
+Rice	Nasi
+Cheese	Keju
+Curry	Kari
+Creamy Cheese	Keju Krim
+Coffee Beans	Biji Kopi
+Coffee Pod	Kapsul Kopi
+Black Tea	Teh Hitam
+Velvet Latte	Latte Beledu
+Hot Chocolate Warmth	Kehangatan Cokelat Panas
+Fine Wine Under the Moon	Anggur Nikmat di Bawah Bulan
+Purple Sweet Potato	Ubi Ungu
+Synthetic Fish Meat	Daging Ikan Sintetis
+Synthetic Red Meat	Daging Merah Sintetis
+Synthetic White Meat	Daging Putih Sintetis
+Bean Bun	Bakpau Kacang
+Steamed Corn Buns	Bakpau Jagung Kukus
+Purple Sweet Potato Buns	Bakpau Ubi Ungu
+Spicy Purple Sweet Potato Buns	Bakpau Ubi Ungu Pedas
+Purple Sweet Potato Balls	Bola Ubi Ungu
+Veggies and Vermicelli Buns	Bakpau Sayur dan Bihun
+Spicy and Sour Vermicelli Buns	Bakpau Bihun Pedas Asam
+Fried Cucumber Dumplings	Pangsit Timun Goreng
+Sticky Rice Balls	Onde-Onde Ketan
+Sweet Rice Bread	Roti Ketan Manis
+Starry Cake	Kue Berbintang
+Exclusive Cake 2024	Kue Eksklusif 2024
+Exclusive Cake 2025	Kue Eksklusif 2025
+Exclusive Cake 2026	Kue Eksklusif 2026
+Tomato Soup with Bread	Sup Tomat dengan Roti
+Vegetable Tomato Soup	Sup Tomat Sayur
+Tomato Fish Soup	Sup Ikan Tomat
+Vegetable Stew	Semur Sayur
+Tomato Beef Brisket	Sandung Lamur Tomat
+Chicken in Tomato Sauce	Ayam Saus Tomat
+Saucy Tomato Rice	Nasi Tomat Berkuah
+Sweet and Sour Fish	Ikan Asam Manis
+Sweet and Sour Pork	Babi Asam Manis
+Sweet and Sour Chicken	Ayam Asam Manis
+Sweet and Sour Peppers	Cabai Asam Manis
+Sweet and Sour Vegetables	Sayur Asam Manis
+Fish-Flavored Pork Slices	Irisan Babi Rasa Ikan
+Colorful Fish Fillets	Fillet Ikan Warna-Warni
+Broccoli and Beef Stir-Fry	Tumis Brokoli Daging Sapi
+Stir-Fried Vegetables	Tumis Sayur
+Stir-Fried Peppers	Tumis Cabai
+Meat Skewers	Sate Daging
+Surf and Turf Skewers	Sate Laut dan Darat
+Vegetable Salad	Salad Sayur
+Tomato Salad	Salad Tomat
+Cucumber Salad	Salad Timun
+Cold Salad	Salad Dingin
+Tiger Salad Appetizer	Hidangan Pembuka Salad Tiger

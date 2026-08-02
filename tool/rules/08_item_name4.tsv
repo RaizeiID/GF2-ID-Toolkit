@@ -1,0 +1,30 @@
+# Nama item — sisa keluarga kecil.
+#
+# Temuan: beberapa keluarga memakai DUA gaya tanda pisah sekaligus dalam permainan
+# yang sama — "Weapon Coating: X" berdampingan dengan "Weapon Coating - X", dan
+# "Outfit: X" dengan "Outfit - X". Keduanya harus ditangkap.
+#
+# Kode set plug-in berhuruf awal (DT:, ES:, DE:, FD:, DA:) TIDAK diterjemahkan —
+# itu singkatan yang dipakai pemain untuk menyebut set, dan bagian setelah titik
+# dua adalah nama efek. Lihat item_name_asis.txt.
+#
+# "BLD" adalah kode kelas Blade yang terlewat di 06_item_name2.tsv.
+#range 0 130000
+
+# --- lapisan senjata (dua gaya tanda pisah) ---
+^Weapon Coating: (.+)$	Lapisan Senjata: \1
+^Weapon Coating - (.+)$	Lapisan Senjata - \1
+
+# --- busana (varian titik dua) ---
+^Outfit: (.+)$	Busana: \1
+^Outfit Self-Select Voucher$	Voucher Pilih Sendiri Busana
+
+# --- kapsul waktu ---
+^Time Capsule - (.+)$	Kapsul Waktu - \1
+
+# --- kotak attachment: kode kelas & tingkat yang terlewat ---
+^BLD Advanced Attachment Box - (.+)$	Kotak Attachment Lanjutan BLD - \1
+^BLD Advanced Attachment Box$	Kotak Attachment Lanjutan BLD
+^T(\d) (AR|SMG|RF|HG|SG|MG|BLD|Blade) Attachment Box$	Kotak Attachment \2 T\1
+^T(\d) Specialized Attachment Box$	Kotak Attachment Khusus T\1
+^T(\d) (AR|SMG|RF|HG|SG|MG|BLD|Blade) Advanced Attachment Box$	Kotak Attachment Lanjutan \2 T\1

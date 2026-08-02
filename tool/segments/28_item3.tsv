@@ -1,0 +1,105 @@
+# Deskripsi ITEM — putaran ketiga: ekor panjang.
+#
+# Daya ungkit regex sudah habis di sini. Setelah batch 26-27, penghalang yang tersisa
+# adalah kalimat yang muncul 1-2 kali saja (988 templat untuk 1.037 deskripsi), jadi
+# ini memang kerja baris-per-baris. Yang masih layak dikelompokkan cuma dua rumpun:
+# kondisi senjata rongsok dan efek mekanik plugin/attachment.
+#
+# Kalimat rasa ditulis dengan awalan "=" (mode harfiah) supaya tanda baca seperti
+# tanda kutip, kurung, dan apostrof melengkung tidak perlu di-escape satu per satu.
+#
+# Salah ketik milik permainan yang HARUS disalin apa adanya: "samage" (maksudnya
+# damage), "overhear" (maksudnya overheat), dan titik lebar 。 di satu baris perakitan.
+#range 0 130000
+
+# --- kondisi senjata rongsok (kalimat kedua dari "A cheap weapon purchased...") ---
+=Its stock shows some damage, and numerous welding marks are visible across the gun's frame.	Popornya agak rusak, dan banyak bekas las terlihat di rangka senjatanya.
+=Poor maintenance has affected its shooting accuracy, so this gun can only be used in a pinch.	Perawatan yang buruk memengaruhi akurasi tembakannya, jadi senjata ini cuma bisa dipakai saat kepepet.
+=Its style is outdated, but it is still sturdy and functional.	Modelnya ketinggalan zaman, tapi masih kokoh dan berfungsi.
+=Its frame has some dents, but it doesn't affect the firing efficiency.	Rangkanya agak penyok, tapi itu tidak memengaruhi efisiensi tembakannya.
+=Appears worn-out, as if it could break at any moment if not handled with care.	Tampak usang, seolah bisa rusak kapan saja kalau tidak ditangani dengan hati-hati.
+=This gun is a bit old and can barely hit the target.	Senjata ini agak tua dan nyaris tidak bisa mengenai target.
+=While plain and old-fashioned in appearance, it can still be frequently encountered in the contamination zones.	Meski tampilannya biasa dan kuno, senjata ini masih sering ditemui di zona kontaminasi.
+=Somewhat heavy, but overall still reasonably easy to carry.	Agak berat, tapi secara keseluruhan masih cukup mudah dibawa.
+=Its performance and appearance are both equally unremarkable.	Performa dan tampilannya sama-sama biasa saja.
+=It's really old and worn out, and looks like it's reaching the upper limit of its lifespan.	Sudah benar-benar tua dan aus, kelihatannya sudah mendekati batas usia pakainya.
+=There are some problems with the firing mechanism, but one must make do with what they have.	Ada masalah di mekanisme tembakannya, tapi mau bagaimana lagi, pakai saja yang ada.
+=It's about to completely fall apart, but can still be used if you are careful enough.	Sebentar lagi hancur berkeping-keping, tapi masih bisa dipakai kalau kamu cukup hati-hati.
+=It shows a high degree of erosion by the elements.	Terlihat sangat terkikis oleh cuaca.
+=It’s not very stable or reliable, but can still be used, more or less.	Tidak terlalu stabil atau bisa diandalkan, tapi kurang lebih masih bisa dipakai.
+=While it runs the risk of jamming, it can handle the daily demands of protection work.	Meski berisiko macet, senjata ini sanggup memenuhi kebutuhan tugas pengamanan sehari-hari.
+=It jams from time to time, but it can still lay down the lead.	Sesekali macet, tapi masih bisa memuntahkan timah panas.
+=It is tattered and worn, but can still be used.	Sudah lusuh dan aus, tapi masih bisa dipakai.
+=It looks old, but the damage to it is minimal and it can be used normally.	Kelihatan tua, tapi kerusakannya minim dan masih bisa dipakai normal.
+=It's missing a few parts, but it's still (barely) usable.	Beberapa bagiannya hilang, tapi masih (nyaris) bisa dipakai.
+=Its surface is covered in carbon streaks and wear, so please be careful when using it.	Permukaannya penuh jelaga dan bekas aus, jadi hati-hati saat memakainya.
+=Its iron sights are worn down but it's still usable.	Iron sight-nya sudah aus tapi masih bisa dipakai.
+=It is severely worn and almost unusable, but it'll serve in a pinch if you're low on resources.	Ausnya parah dan nyaris tidak bisa dipakai, tapi lumayan buat kepepet kalau sumber dayamu menipis.
+=It looks like crap and handles worse, but it's just barely serviceable for daily use.	Tampilannya jelek dan pegangannya lebih parah lagi, tapi masih pas-pasan untuk pemakaian harian.
+=It has heavy recoil and is tiring to control.	Recoil-nya berat dan melelahkan untuk dikendalikan.
+=While it has a high cyclic rate, its accuracy is poor and extended firing will cause it to overheat and jam.	Meski rate tembaknya tinggi, akurasinya buruk dan menembak terlalu lama akan membuatnya panas lalu macet.
+=It's worn down but still usable.	Sudah aus tapi masih bisa dipakai.
+=It jams fairly often but it's just barely usable.	Cukup sering macet tapi masih pas-pasan bisa dipakai.
+=It's very heavy and prolonged shooting will cause it to overhear and jam.	Sangat berat dan menembak terlalu lama akan membuatnya panas lalu macet.
+=At least it can still be zeroed, and on the whole it will serve for daily use.	Setidaknya masih bisa di-zero, dan secara keseluruhan cukup untuk pemakaian harian.
+=Speckled with rust and barely usable.	Berbintik karat dan nyaris tidak bisa dipakai.
+=It's not very durable but has adequate firepower.	Tidak terlalu awet tapi daya tembaknya memadai.
+=It's covered in dings and rust.	Penuh penyok dan karat.
+=While it's sufficient for daily use, its parts are severely worn and it frequently experiences ammo feeding problems.	Meski cukup untuk pemakaian harian, komponennya aus parah dan sering bermasalah saat memasok amunisi.
+=Its blade is no longer sharp and its handling is noticeably worse.	Bilahnya sudah tidak tajam dan pegangannya terasa jauh lebih buruk.
+=It's covered in scratches, as if it had weathered many storms.	Penuh goresan, seolah sudah melewati banyak badai.
+=Severely worn out, it appears close to complete disrepair.	Aus parah, tampaknya sudah nyaris rusak total.
+=Its surface is covered in rust, but it can still function after thorough maintenance.	Permukaannya penuh karat, tapi masih bisa berfungsi setelah dirawat menyeluruh.
+=Its frame shows numerous repair marks but it still fires normally.	Rangkanya penuh bekas perbaikan tapi masih menembak normal.
+=Poorly maintained, requiring a thorough inspection before use.	Perawatannya buruk, perlu diperiksa menyeluruh sebelum dipakai.
+=A bipod made from very sturdy materials.	Bipod yang dibuat dari material sangat kokoh.
+=A highly durable grip made from sturdy materials.	Grip sangat awet yang dibuat dari material kokoh.
+
+# --- efek mekanik: stat & tim ---
+^Increases Survivor Experience when obtained$	Menambah Survivor Experience saat didapat
+^Increase attack equal to (\d+)% of max HP\.$	Menambah serangan setara \1% max HP.
+^Attack is increased by (\d+)% and healing is evenly shared among the entire team\.$	Serangan meningkat \1% dan healing dibagi rata ke seluruh tim.
+^Defense is increased by (\d+)% and samage is evenly shared among the entire team\.$	Pertahanan meningkat \1% dan damage dibagi rata ke seluruh tim.
+^Incoming Shield and Healing increased by (\d+)%$	Shield dan Healing yang diterima meningkat \1%
+^When shielded, attack is increased by (\d+)%, defense is increased by (\d+)%, mobility is increased by (\d+) tiles$	Saat punya shield, serangan meningkat \1%, pertahanan meningkat \2%, mobilitas meningkat \3 tile
+^At the end of the allied turn, gain a ([\w ]+) with a value of (\d+)% of Max HP for (\d+) turns?\.$	Di akhir giliran sekutu, mendapat \1 senilai \2% Max HP selama \3 giliran.
+
+# --- efek mekanik: serangan [AoE] ---
+^Damage from all \[AoE\] attacks \(including passive and support attacks\) is increased by (\d+)%$	Damage dari semua serangan [AoE] (termasuk serangan pasif dan bantuan) meningkat \1%
+^Damage increased by (\d+)% and stability damage increased by (\d+) points for all \[AoE\] attacks \[Including Passives and Assists\]$	Damage meningkat \1% dan stability damage meningkat \2 poin untuk semua serangan [AoE] [Termasuk Pasif dan Bantuan]
+^Damage increased by (\d+)%, stability damage increased by (\d+) points, and critical rate increased by (\d+)% for all \[AoE\] attacks \[Including Passives and Assists\]$	Damage meningkat \1%, stability damage meningkat \2 poin, dan critical rate meningkat \3% untuk semua serangan [AoE] [Termasuk Pasif dan Bantuan]
+^Before performing an \[AoE\] attack, cleanse a buff from the target$	Sebelum melakukan serangan [AoE], bersihkan satu buff dari target
+
+# --- efek mekanik: setelah bergerak ---
+^After moving, restores HP equal to distance moved × (\d+)% of max HP\.$	Setelah bergerak, memulihkan HP setara jarak tempuh × \1% max HP.
+^After moving, other allied units gain (\d+) points? of Confectance Index\.$	Setelah bergerak, unit sekutu lain mendapat \1 poin Confectance Index.
+^After moving, at the end of this unit's action, deals fixed damage equal to (\d+)% of attack to all enemies within (\d+) tiles and inflicts Stun for (\d+) turns?\.$	Setelah bergerak, di akhir aksi unit ini, memberikan fixed damage setara \1% serangan ke semua musuh dalam \2 tile dan menimbulkan Stun selama \3 giliran.
+^After moving, at the end of this unit's action, cleanses (\d+) debuffs from allied units within (\d+) tiles, recovers HP equal to (\d+)% of max HP, and recovers (\d+) points of stability\.$	Setelah bergerak, di akhir aksi unit ini, membersihkan \1 debuff dari unit sekutu dalam \2 tile, memulihkan HP setara \3% max HP, dan memulihkan \4 poin stability.
+^After moving, at the end of this unit's action, generates \[([^\]]+)\] within (\d+) tiles of this unit\.$	Setelah bergerak, di akhir aksi unit ini, menghasilkan [\1] dalam \2 tile dari unit ini.
+
+# --- efek mekanik: plugin & medan ---
+^For every plugin owned, attack is increased by (\d+)%, stacking up to (\d+) times\.$	Untuk tiap plugin yang dimiliki, serangan meningkat \1%, menumpuk hingga \2 kali.
+^For every plugin owned, Max HP is increased by (\d+)%, stacking up to (\d+) times\.$	Untuk tiap plugin yang dimiliki, Max HP meningkat \1%, menumpuk hingga \2 kali.
+^For every ([\w ]+) plugin owned, critical rate is increased by (\d+)%, stacking up to (\d+) times\.$	Untuk tiap plugin \1 yang dimiliki, critical rate meningkat \2%, menumpuk hingga \3 kali.
+^When an enemy unit is on a ([A-Za-z]+) Tile, increase damage taken by (\d+)% and decrease damage dealt by (\d+)% for the enemy unit$	Saat unit musuh berada di Tile \1, damage yang diterimanya meningkat \2% dan damage yang diberikannya berkurang \3%
+^When attacking enemy targets on ([A-Za-z]+)-type terrain tiles, damage dealt is increased by (\d+)%\.$	Saat menyerang target musuh di tile medan tipe \1, damage yang diberikan meningkat \2%.
+^When attacking enemy targets on ([A-Za-z]+)-type terrain tiles, damage dealt is increased by (\d+)%, critical damage is increased by (\d+)%\.$	Saat menyerang target musuh di tile medan tipe \1, damage yang diberikan meningkat \2%, critical damage meningkat \3%.
+^When attacking enemy targets on ([A-Za-z]+)-type terrain tiles, damage dealt is increased by (\d+)%, critical rate is increased by (\d+)%, critical damage is increased by (\d+)%\.$	Saat menyerang target musuh di tile medan tipe \1, damage yang diberikan meningkat \2%, critical rate meningkat \3%, critical damage meningkat \4%.
+^Before inflicting ([A-Za-z]+) damage, apply \[([^\]]+)\] to the target\.$	Sebelum memberikan damage \1, terapkan [\2] ke target.
+^At the end of the turn, trigger \[([^\]]+)\] once on any boss units standing on ([A-Za-z]+) tiles\.$	Di akhir giliran, memicu [\1] sekali pada unit boss mana pun yang berdiri di tile \2.
+^Before attacking, take fixed damage equal to (\d+)% of Max HP and increase damage dealt by the attack by (\d+)%\.$	Sebelum menyerang, menerima fixed damage setara \1% Max HP dan damage serangan itu meningkat \2%.
+^When dealing melee damage, attacks ignore (\d+)% of the target's defense\.$	Saat memberikan damage melee, serangan mengabaikan \1% pertahanan target.
+^After every (\d+) instances of Physical damage dealt, the next instance reduces the target's defense by (\d+)%\.$	Tiap \1 kali Physical damage diberikan, damage berikutnya menurunkan pertahanan target \2%.
+^If an enemy's mobility becomes 0, damage dealt to them is increased by (\d+)% and ignores (\d+)% of their defense\.$	Kalau mobilitas musuh jadi 0, damage ke mereka meningkat \1% dan mengabaikan \2% pertahanan mereka.
+
+# --- perbaikan keluarga yang masih bocor ---
+^It can be used to assemble (?:the|an|a) (.+)。$	Bisa dipakai untuk merakit \1。
+^It can be used to assemble ([A-Z][\w .'-]*)$	Bisa dipakai untuk merakit \1
+^Unlocked after placing top (\d+)% in the ([^.]+)$	Terbuka setelah masuk \1% teratas di \2
+^([\w ]+) Base Component with ([\w ]+) as the main stat\.A green-quality$	\1 Base Component kualitas hijau dengan stat utama \2.
+
+# --- teks data uji ---
+^Test description of the first (?:level|floor) preset Doll (\d+) (?:of|in) the [Rr]oguelike mode\.?$	Deskripsi uji Doll preset \1 level pertama di mode roguelike
+^Test description of the second (?:level|floor) preset Doll (\d+) (?:of|in) the [Rr]oguelike mode\.?$	Deskripsi uji Doll preset \1 level kedua di mode roguelike
+^Test description of the third (?:level|floor) preset Doll (\d+) (?:of|in) the [Rr]oguelike mode\.?$	Deskripsi uji Doll preset \1 level ketiga di mode roguelike
+^Test description of the 4th (?:level|floor) preset Doll (\d+) (?:of|in) the [Rr]oguelike mode\.?$	Deskripsi uji Doll preset \1 level ke-4 di mode roguelike

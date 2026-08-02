@@ -1,0 +1,160 @@
+# Deskripsi ITEM — putaran keempat: teks rasa skin & Covenant.
+#
+# Ini murni kerja baris-per-baris; tidak ada pola lagi yang bisa diperas. Tiap baris
+# rasa dipakai 1-2 item (skin dan item pratinjaunya), jadi nilainya sekitar 1,5
+# deskripsi per baris. Dikerjakan karena inilah teks yang benar-benar DIBACA pemain
+# di layar skin dan Covenant, bukan karena efisien.
+#
+# Semua kalimat rasa memakai awalan "=" (mode harfiah): teksnya penuh tanda kutip
+# melengkung (“ ”), tanda bintang ☆, dan tanda pisah em (—) yang kalau ditulis
+# sebagai regex harus di-escape satu per satu dan gampang salah.
+#
+# Nama diri tetap Inggris: Commander, Doll, Zucchero, Vepley.
+#range 0 130000
+
+# --- teks rasa: skin senjata & perabot ---
+=Those who touch its edge become fodder for it.	Siapa pun yang menyentuh mata bilahnya jadi santapannya.
+=Don't worry, I won't let anyone interrupt our private time tonight.	Tenang saja, malam ini tak akan kubiarkan siapa pun mengganggu waktu berdua kita.
+=The flutter of silent wings leads to the shattering of illusions and rebirth.	Kepak sayap tanpa suara menuntun pada hancurnya ilusi dan kelahiran kembali.
+=Racing at incredible speeds, across all obstacles, until you reach the place where the light is.	Melaju secepat kilat, menembus segala rintangan, sampai kau tiba di tempat cahaya berada.
+=Her ardence burns brighter than the sun.	Baranya menyala lebih terang daripada matahari.
+=Ride out to welcome spring, and watch the seasons pass as the clouds of prosperity fly past beneath you.	Melajulah menyambut musim semi, dan saksikan musim berganti saat awan kemakmuran melintas di bawahmu.
+=This isn't a bench, it's your hidden maiden's heart.	Ini bukan bangku, ini hati gadis yang kau sembunyikan.
+=Its simple design retains an air of elegance, and this color is said to go well with everything.	Desainnya sederhana tapi tetap anggun, dan katanya warna ini cocok dipadukan dengan apa saja.
+=When the first ray of dawn slips through the window in the morning, you can sit here and quietly enjoy it.	Saat berkas pertama fajar menyelinap lewat jendela di pagi hari, kau bisa duduk di sini dan menikmatinya diam-diam.
+=Two similar souls carry their destinies down diverging paths which will never meet.	Dua jiwa yang serupa membawa takdirnya menyusuri jalan berbeda yang tak akan pernah bertemu.
+=Protecting your data security is the mission of all antivirus software! You don't want your browser history getting out, do you?	Melindungi keamanan datamu adalah misi setiap antivirus! Kamu nggak mau riwayat browser-mu bocor, kan?
+=Its dark colors can't hide its innate brilliance.	Warnanya yang gelap tak sanggup menyembunyikan kilau bawaannya.
+=The observer from the abyss grants intruders eternal silence with her bullets.	Sang pengamat dari jurang menganugerahkan kesunyian abadi kepada penyusup lewat pelurunya.
+=A promise that endures until the end of time	Janji yang bertahan sampai akhir zaman
+=Let tides of joy sweep away the scathing heat and may the waves of youth cleanse your stress.	Biarkan gelombang keriangan menyapu panas yang menyengat, dan semoga ombak masa muda meluruhkan penatmu.
+=As the dust settles, a violet light crowns the victor.	Saat debu mengendap, cahaya ungu memahkotai sang pemenang.
+=Though my best years have passed and the seasons have come and gone, countless memories linger in my heart.	Meski masa terbaikku telah lewat dan musim datang lalu pergi, tak terhitung kenangan yang masih tinggal di hatiku.
+=The first time she touched fingers with that person, a maidenly notion began to stir in her heart.	Saat pertama jemarinya bersentuhan dengan orang itu, perasaan seorang gadis mulai bergejolak di hatinya.
+=The fire that burns shackles away have forged a monument that commemorates the dawn.	Api yang membakar belenggu telah menempa monumen untuk mengenang fajar.
+=Crimson flames race like the wind as heartbeats ignite the shining edge of youth.	Kobaran merah melesat bagai angin saat detak jantung menyalakan sisi terang masa muda.
+=The flowers blooming between the bullets twinkle in this silent night sky.	Bunga-bunga yang mekar di antara peluru berkelip di langit malam yang sunyi ini.
+=Under the smoky sky, use the last of your ammo to light the bonfires of peace.	Di bawah langit berasap, pakai sisa terakhir amunisimu untuk menyalakan api unggun perdamaian.
+=Sealed with sweet words, lost in sweet dreams.	Dikunci dengan kata-kata manis, tenggelam dalam mimpi indah.
+=Bullet scars are badges of honor, while gunsmoke serves as a crown.	Bekas peluru adalah lencana kehormatan, sementara asap mesiu jadi mahkotanya.
+=Cool off, get rid of your worries, and enjoy the sunlight and sea.	Dinginkan kepala, buang kekhawatiranmu, dan nikmati mentari serta laut.
+=A shining blade cleaves the darkness, and evil perishes in flames.	Bilah yang berkilau membelah kegelapan, dan kejahatan binasa dalam api.
+=The hunter's killing intent seeps in through every gap like the chill wind.	Niat membunuh sang pemburu merembes lewat tiap celah seperti angin dingin.
+=When the day of baptism arrives, even the grass will crave the taste of freshly-spilled blood.	Saat hari pembaptisan tiba, bahkan rerumputan pun akan mendamba rasa darah yang baru tertumpah.
+=Listen to the sound of the fresh wind rinsing the jade, inviting you into a dream.	Dengarkan bunyi angin segar membasuh giok, mengundangmu masuk ke dalam mimpi.
+=Light the final embers before the sun sets.	Nyalakan bara terakhir sebelum matahari terbenam.
+=That snow never ends, as though time itself were frozen on the day the wolf queen was crowned.	Salju itu tak pernah berhenti, seolah waktu sendiri membeku pada hari sang ratu serigala dinobatkan.
+=When the sun sinks below the waves, the shades of ghostly vessels stir with the undertow.	Saat matahari tenggelam di balik ombak, bayang kapal-kapal hantu bergerak bersama arus bawah.
+=Racing streaks of light surge and gather as music pulses rhythmically through the air, accompanying her beloved onward into the night.	Garis-garis cahaya melesat, membuncah dan berkumpul saat musik berdenyut berirama di udara, menemani kekasihnya melaju ke dalam malam.
+=Public security at the pool shall depend on this.	Keamanan di kolam renang bergantung pada ini.
+=Love and hate.	Cinta dan benci.
+=Bane of the paranormal and friend of those who love the supernatural.	Momok bagi yang gaib dan kawan bagi para pencinta hal supranatural.
+=A barrage of ammunition like a raging storm, a pure release and showoff of power.	Hujan amunisi bagai badai mengamuk, pelepasan dan pameran kekuatan yang murni.
+=Cut through the shackles of perplexity and break the bonds of fate.	Tebas belenggu kebingungan dan patahkan ikatan takdir.
+=It should be able to fire plasma beams now, right?	Sekarang harusnya bisa menembakkan sinar plasma, kan?
+=I hear that in some stories, lightning arcs like this are always deflected by laser swords.	Katanya di sebagian cerita, busur petir seperti ini selalu ditangkis pedang laser.
+=Is it just sand you're treading on, or is it bullets or gun barrels?	Yang kau injak itu cuma pasir, atau peluru dan laras senapan?
+=The electric arcs are a lie, there are only bullets here.	Busur listriknya bohong, di sini yang ada cuma peluru.
+
+# --- teks rasa berkutip (perhatikan tanda kutip melengkung di sumber) ---
+=“What the heck, it looks kind of cute in model form...”	“Lho, dalam bentuk model kok kelihatan lucu juga...”
+=“It's fluffy, but it looks super vicious and it's not cute at all.”	“Bulunya lembut, tapi tampangnya galak banget dan sama sekali nggak imut.”
+=“Even now, you can still smell the faint scent of burning.”	“Sampai sekarang pun masih tercium samar bau hangus.”
+=“Its model beak crackles with electricity and in a pinch, it can serve as a powerbank.”	“Paruh modelnya berderak dialiri listrik, dan kalau kepepet bisa dipakai sebagai powerbank.”
+=“A familiar face in a completely unfamiliar encounter.”	“Wajah yang familier dalam perjumpaan yang sama sekali asing.”
+=“I hope that this will help everyone somehow...”	“Semoga ini bisa membantu semua orang, entah bagaimana caranya...”
+=“Tadaaaah☆ Bring it with you so you can listen to Vepley's concert!”	“Tadaaaah☆ Bawa ini biar kamu bisa dengar konser Vepley!”
+=“Maintain your dignity, otherwise don't expect it to think well of you.”	“Jaga wibawamu, kalau tidak jangan harap ia menilaimu baik.”
+="Commander, this is my new form! It's cute, right? Riiiiight?"	"Commander, ini wujud baruku! Imut, kan? Iya, kaaaan?"
+="Cube or Doll, I will always be your best choice."	"Kubus atau Doll, aku akan selalu jadi pilihan terbaikmu."
+="Big Sis kept nagging me to remind you to keep an eye on your daily routine, so please sit down and have a rest, Commander!"	"Kakak terus-terusan menyuruhku mengingatkanmu supaya menjaga rutinitas harianmu, jadi duduklah dan istirahat sebentar, Commander!"
+="A mechanical nightmare born of chaos, utterly devoid of mercy."	"Mimpi buruk mekanis yang lahir dari kekacauan, sama sekali tanpa belas kasihan."
+="Whether it's rain or shine, don't leave home without your umbrella!"	"Hujan atau panas, jangan keluar rumah tanpa payungmu!"
+="I'll embrace everything about you, just like you accept everything about me..."	"Aku akan merangkul segala hal tentangmu, sama seperti kau menerima segala hal tentangku..."
+="You're more precious than all my hats put together!"	"Kau lebih berharga daripada semua topiku digabung jadi satu!"
+
+# --- teks rasa: Covenant & afinitas ---
+=You are the coiling strokes of her brush, the most lovely landscape in her heart.	Kau adalah goresan kuasnya yang melingkar, pemandangan terindah di hatinya.
+=Zucchero is always open to its friends, but only you are fit to gaze into its master's heart.	Zucchero selalu terbuka bagi kawan-kawannya, tapi hanya kau yang layak menatap ke dalam hati pemiliknya.
+=This is high praise coming from the coolest Doll and the proof that you're Number One in her heart.	Ini pujian tertinggi dari Doll paling keren sekaligus bukti bahwa kau Nomor Satu di hatinya.
+=When I am lost, you are the only one who can help me find my way.	Saat aku tersesat, hanya kau yang bisa membantuku menemukan jalan.
+=Bring out your favorite flavor with low heat and pour all your feelings into the bowl!	Munculkan rasa favoritmu dengan api kecil dan curahkan seluruh perasaanmu ke dalam mangkuk!
+=This pulse-pounding pirouette was engineered to catch your eye!	Piruet yang bikin jantung berdebar ini dirancang khusus untuk menarik perhatianmu!
+=Associating with the appropriate people will fill you with a sense of liberation.	Bergaul dengan orang yang tepat akan memenuhimu dengan rasa lega.
+=Not even the most cautious bunny would realize that someday, she'd allow someone else to understand her this well.	Bahkan kelinci paling waspada pun tak akan menyangka bahwa suatu hari ia membiarkan orang lain memahaminya sedalam ini.
+=A tireless gourmet who has made countless attempts and learned numberless lessons to find the flavor that you love best.	Penikmat kuliner tanpa lelah yang sudah mencoba tak terhitung kali dan belajar tak terhingga banyaknya demi menemukan rasa yang paling kau sukai.
+=Rather than being a beacon for others, this ace would rather be a follower; meanwhile, you are the sole focus of her progress.	Alih-alih jadi mercusuar bagi orang lain, sang jagoan ini lebih memilih jadi pengikut; sementara itu, kau satu-satunya tujuan dari kemajuannya.
+=From now on, I shall give my everything to you.	Mulai sekarang, akan kuberikan segalanya untukmu.
+=She invites you to witness her passion, conviction and craftsmanship as a toy designer.	Ia mengundangmu menyaksikan gairah, keyakinan, dan keahliannya sebagai perancang mainan.
+=She performs her dreamlike dance moves on the stage for you and you alone.	Ia membawakan gerak tarinya yang seperti mimpi di atas panggung hanya untukmu seorang.
+=When midnight strikes, there are some secrets which can only be whispered to a certain someone.	Saat tengah malam tiba, ada rahasia yang hanya bisa dibisikkan kepada seseorang tertentu.
+=No matter the time, she is always willing to entrust her weaknesses to you.	Kapan pun itu, ia selalu bersedia menitipkan kelemahannya padamu.
+=She walks the line between light and darkness, listening intently to the melody woven of the gray areas.	Ia berjalan di garis antara terang dan gelap, menyimak lekat melodi yang ditenun dari wilayah abu-abu.
+=All she seeks is to soar freely in the skies of your soul.	Yang ia cari hanyalah terbang bebas di langit jiwamu.
+=You can never be free of debt, and when it comes to emotions, it might be better to end up on the debit side.	Kau tak akan pernah lepas dari utang, dan soal perasaan, mungkin lebih baik berakhir di sisi debit.
+=Not many people have gained her unconditional trust, and you are the only one with full read access to all her neural logs.	Tak banyak orang yang mendapat kepercayaan penuhnya, dan hanya kau yang punya akses baca penuh ke seluruh neural log-nya.
+=A self-effacing star can sometimes muster up enough courage to light the way for the person she longs for.	Bintang yang rendah hati kadang bisa mengumpulkan cukup keberanian untuk menerangi jalan bagi orang yang ia rindukan.
+=You can win a mimosa's heart by watering it and tending to it carefully.	Kau bisa memenangkan hati putri malu dengan menyiram dan merawatnya dengan telaten.
+=She offers you a blank check and priceless sincerity, so please cherish both.	Ia menyodorkan cek kosong dan ketulusan yang tak ternilai, jadi tolong hargai keduanya.
+=From the moment you bared your hearts to each other, you signed a covenant that was uniquely yours.	Sejak saat kalian saling membuka hati, kalian menandatangani perjanjian yang khas milik kalian berdua.
+=The laziness flowing from a kitty is often a sign that it's absolutely comfortable with the person beside it.	Kemalasan yang mengalir dari seekor kucing sering jadi tanda bahwa ia benar-benar nyaman dengan orang di sebelahnya.
+=All her divinations point to the same answer—the right place, the right encounter, and the right one; namely, you.	Semua ramalannya menunjuk ke jawaban yang sama—tempat yang tepat, perjumpaan yang tepat, dan orang yang tepat; yaitu kau.
+=The warmest and most private memory that the two of you share is watching a detective drama before bed.	Kenangan paling hangat dan paling pribadi yang kalian berdua punya adalah menonton drama detektif sebelum tidur.
+
+# --- baris rasa papan peringkat yang tersisa ---
+=The power of support has gathered into the magnificent glow of a star cluster.	Kekuatan dukungan berkumpul jadi pendar megah gugus bintang.
+=The power of support has gathered into the dazzling orbit of a star path.	Kekuatan dukungan berkumpul jadi orbit memesona sebuah jalur bintang.
+=The sole pinnacle among all supporters, right now, the world is focused here.	Satu-satunya puncak di antara semua pendukung; saat ini, dunia terpusat di sini.
+=The beginning of the promise made with the girls.	Awal dari janji yang terjalin bersama para gadis.
+=A common weapon blueprint, with simple lines outlining the weapon's shape.	Blueprint senjata common, dengan garis sederhana yang menegaskan bentuk senjatanya.
+=One of the main ingredients for making drinks.	Salah satu bahan utama untuk membuat minuman.
+^An exclusive title from the ([^.]+) event, awarded after all phases of the event are complete and based on your final position on the individual support leaderboard\.$	Gelar eksklusif dari event \1, diberikan setelah seluruh fase event selesai dan berdasarkan posisi akhirmu di papan peringkat dukungan individu.
+^Obtained by supporting ([\w'’.·-]+) during the ([^.]+?) event and obtaining and obtain the (\d+)(?:st|nd|rd|th) place on the individual support leaderboard\.$	Didapat dengan mendukung \1 selama event \2 dan meraih peringkat \3 di papan peringkat dukungan individu.
+
+# --- efek mekanik: syarat serangan ---
+^If the attack deals ([A-Za-z]+) damage, it ignores an additional (\d+)% of the target's defense\.$	Kalau serangan itu memberikan damage \1, ia mengabaikan tambahan \2% pertahanan target.
+^When there are (\d+) or fewer enemies on the field, damage dealt is increased by (\d+)%\.$	Saat ada \1 musuh atau kurang di medan, damage yang diberikan meningkat \2%.
+^When there are more than (\d+) enemies on the field, damage dealt is increased by (\d+)%\.$	Saat ada lebih dari \1 musuh di medan, damage yang diberikan meningkat \2%.
+^When the enemy target's HP is lower than (\d+)%, damage dealt is increased by (\d+)%\.$	Saat HP target musuh di bawah \1%, damage yang diberikan meningkat \2%.
+^When attacking a target with ([A-Za-z]+)-type debuffs, damage dealt is increased by (\d+)%\.$	Saat menyerang target dengan debuff tipe \1, damage yang diberikan meningkat \2%.
+^When attacking a target with ([A-Za-z]+)-type debuffs, damage dealt is increased by (\d+)% and critical damage is increased by (\d+)%\.$	Saat menyerang target dengan debuff tipe \1, damage yang diberikan meningkat \2% dan critical damage meningkat \3%.
+^When attacking a target with ([A-Za-z]+)-type debuffs, damage dealt is increased by (\d+)%, critical damage is increased by (\d+)% and fixed damage dealt is increased by (\d+)%\.$	Saat menyerang target dengan debuff tipe \1, damage yang diberikan meningkat \2%, critical damage meningkat \3%, dan fixed damage yang diberikan meningkat \4%.
+^When an active attack exploits an? ([a-z]+) weakness, damage dealt is increased by (\d+)% and stability damage dealt is increased by (\d+) points\.$	Saat serangan aktif mengeksploitasi kelemahan \1, damage yang diberikan meningkat \2% dan stability damage yang diberikan meningkat \3 poin.
+^When dealing ([A-Za-z]+) damage, critical damage is increased by (\d+)%$	Saat memberikan damage \1, critical damage meningkat \2%
+^When dealing ([A-Za-z]+) damage, critical damage is increased by (\d+)% and stability damage is increased by (\d+) points$	Saat memberikan damage \1, critical damage meningkat \2% dan stability damage meningkat \3 poin
+^When dealing ([A-Za-z]+) damage, critical damage is increased by (\d+)%, attack is increased by (\d+)% and stability damage is increased by (\d+) points$	Saat memberikan damage \1, critical damage meningkat \2%, serangan meningkat \3%, dan stability damage meningkat \4 poin
+
+# --- efek mekanik: stability & giliran ---
+^At the start of the turn, attack is increased by (\d+)%\.$	Di awal giliran, serangan meningkat \1%.
+^At the start of the turn, defense is increased by (\d+)%\.$	Di awal giliran, pertahanan meningkat \1%.
+^When the allied turn begins, heal for (\d+)% of max HP$	Saat giliran sekutu dimulai, memulihkan \1% max HP
+^When an enemy target is killed, restores HP equal to (\d+)% of max HP\.$	Saat target musuh terbunuh, memulihkan HP setara \1% max HP.
+^When healing, heals an additional amount equal to (\d+)% of HP healed$	Saat menyembuhkan, memberikan tambahan setara \1% dari HP yang disembuhkan
+^After dealing damage, deal additional ([A-Za-z]+) damage equal to (\d+)% of this unit's HP\.$	Setelah memberikan damage, memberikan tambahan damage \1 setara \2% HP unit ini.
+^Damage dealt is increased by (\d+)% per each current point of stability\.$	Damage yang diberikan meningkat \1% untuk tiap poin stability yang dimiliki saat ini.
+^Stability damage dealt is increased by this unit's current stability value\.$	Stability damage yang diberikan meningkat sebesar nilai stability unit ini saat ini.
+^Stability damage dealt is increased by (\d+) points, stability damage taken is reduced by (\d+) point, and maximum stability is increased by (\d+) point\.$	Stability damage yang diberikan meningkat \1 poin, stability damage yang diterima berkurang \2 poin, dan stability maksimum meningkat \3 poin.
+^When inflicting Stability Break, cleanses (\d+) buffs from the target and Stun it for (\d+) turns?\.$	Saat menimbulkan Stability Break, membersihkan \1 buff dari target dan menimbulkan Stun selama \2 giliran.
+^When inflicting Stability Break, the target takes additional fixed damage equal to (\d+)% of this unit's max HP\.$	Saat menimbulkan Stability Break, target menerima tambahan fixed damage setara \1% max HP unit ini.
+^When inflicting Stability Break, all allied units and this unit gain (\d+) points? of Confectance Index, and cooldowns are reduced by (\d+) turns?\.$	Saat menimbulkan Stability Break, semua unit sekutu dan unit ini mendapat \1 poin Confectance Index, dan cooldown berkurang \2 giliran.
+^When attacking a unit with 0 stability, damage dealt is increased by (\d+)%$	Saat menyerang unit dengan stability 0, damage yang diberikan meningkat \1%
+^When attacking a unit with 0 stability, damage dealt is increased by (\d+)%, and critical damage is increased by (\d+)%$	Saat menyerang unit dengan stability 0, damage yang diberikan meningkat \1% dan critical damage meningkat \2%
+^When attacking a unit with 0 stability, damage dealt is increased by (\d+)%, critical damage is increased by (\d+)%, and the attack ignores (\d+)% of defense\.$	Saat menyerang unit dengan stability 0, damage yang diberikan meningkat \1%, critical damage meningkat \2%, dan serangan itu mengabaikan \3% pertahanan.
+^If an out-of-turn attack exploits a weakness, deal fixed damage to the enemy target equal to (\d+)% of attack and (\d+) points of fixed stability damage\.$	Kalau serangan di luar giliran mengeksploitasi kelemahan, berikan fixed damage ke target musuh setara \1% serangan dan \2 poin fixed stability damage.
+^Before making an out-of-turn attack, if the target is in Stability Break, ignore (\d+)% of the target's defense\.$	Sebelum melakukan serangan di luar giliran, kalau target sedang Stability Break, abaikan \1% pertahanan target.
+^When attacked, damage taken is reduced by (\d+)% for every debuff on the attack, to a maximum reduction of (\d+)%\.$	Saat diserang, damage yang diterima berkurang \1% untuk tiap debuff pada serangan itu, maksimal berkurang \2%.
+^When ally units end their turn on a ([A-Za-z]+) tile, they recover HP equal to (\d+)% of Max HP and (\d+) points? of stability\.$	Saat unit sekutu mengakhiri gilirannya di tile \1, mereka memulihkan HP setara \2% Max HP dan \3 poin stability.
+^For each stability-disruption plugin owned, stability damage dealt is increased by (\d+) points? and stability damage taken is reduced by (\d+) points?\.$	Untuk tiap plugin pengganggu stability yang dimiliki, stability damage yang diberikan meningkat \1 poin dan stability damage yang diterima berkurang \2 poin.
+
+# --- efek mekanik: skill & mobilitas ---
+^After using an \[AoE\] attack, increase attack and defense by (\d+)% for (\d+) turns$	Setelah memakai serangan [AoE], serangan dan pertahanan meningkat \1% selama \2 giliran
+^After using an \[Ultimate Skill\], increase damage or healing for next \[Active Skill\] by (\d+)%$	Setelah memakai [Ultimate Skill], damage atau healing [Active Skill] berikutnya meningkat \1%
+^When using an \[Ultimate Skill\], increase critical rate and critical damage for it by (\d+)%$	Saat memakai [Ultimate Skill], critical rate dan critical damage-nya meningkat \1%
+^Each point of maximum mobility increases damage by (\d+)%\.$	Tiap poin mobilitas maksimum menaikkan damage \1%.
+^Each point of maximum mobility increases critical rate by (\d+)% and critical damage by (\d+)%\.$	Tiap poin mobilitas maksimum menaikkan critical rate \1% dan critical damage \2%.
+^Each point of maximum mobility increases attack by (\d+)%, damage by (\d+)%, and stability damage dealt by (\d+) point\.$	Tiap poin mobilitas maksimum menaikkan serangan \1%, damage \2%, dan stability damage yang diberikan \3 poin.
+
+# --- teks pendek ---
+^Restore a certain amount of HP when acquired$	Memulihkan sejumlah HP saat didapat
+^Used for performance enhancement$	Dipakai untuk meningkatkan performa
+^Join a Platoon$	Bergabung dengan Platoon

@@ -1,0 +1,35 @@
+# Nama item — keluarga berprefiks lanjutan.
+#
+# Dua temuan yang membuat berkas ini perlu:
+#   1. Sebagian keluarga memakai TITIK DUA, bukan tanda pisah: "Portrait: X" dan
+#      "Badge: X" berdampingan dengan "Portrait - X" dan "Badge - X". Aturan di
+#      05_item_name.tsv hanya menangkap yang bertanda pisah.
+#   2. "Retired" adalah penanda status senjata versi lama. Dalam bahasa Indonesia
+#      letaknya di belakang: "Retired Groza-3" -> "Groza-3 Pensiun".
+#
+# Urutan berkas menentukan: 05 dijalankan lebih dulu, jadi
+# "Weapon Blueprint - Retired KSVK" sudah tertangkap di sana dan tidak sampai ke
+# aturan "Retired" di bawah ini.
+#range 0 130000
+
+# --- varian bertitik dua ---
+^Portrait: (.+)$	Potret: \1
+^Badge: (.+)$	Lencana: \1
+^Portrait Frame: (.+)$	Bingkai Potret: \1
+
+# --- senjata versi pensiun ---
+^Retired (.+)$	\1 Pensiun
+^Skin - Retired (.+)$	Skin - \1 Pensiun
+
+# --- resep & arsip ---
+^(.+) Recipe$	Resep \1
+^(.+) Neural Archive$	Neural Archive \1
+
+# --- salinan draf (aset kerja pengembang) ---
+^\[Draft Copy\] (.+)$	[Salinan Draf] \1
+
+# --- kartu komponen ---
+^Type (I|II|III|IV|V) Component Carrier Card - (.+)$	Kartu Pembawa Komponen Tipe \1 - \2
+^Type (I|II|III|IV|V) Component Loadout Card - (.+)$	Kartu Muatan Komponen Tipe \1 - \2
+^Identity Change Card$	Kartu Ganti Identitas
+^Cardboard Sheet$	Lembar Kardus

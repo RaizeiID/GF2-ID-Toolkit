@@ -1,0 +1,66 @@
+# Deskripsi SKILL — putaran kelima puluh empat ekor panjang.
+#
+# Bagian 3 dari kelompok berikutnya. Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "dies,  <color=#3487e0>Amni's Blaze</color>"   (dua spasi setelah koma)
+#range 0 130000
+
+# --- pendek ---
+=Generates <color=#3487e0>{1}</color> tiles.	Menghasilkan tile <color=#3487e0>{1}</color>.
+=Generates <color=#3487e0>{1}</color> tiles within <color=#f26c1c>1 tile</color> of the target.	Menghasilkan tile <color=#3487e0>{1}</color> <color=#f26c1c>dalam 1 tile</color> dari target.
+=Movement is not blocked by enemy units.	Pergerakannya tidak terhalang unit musuh.
+=Not affected by <color=#3487e0>{0}</color> effects.	Tidak terpengaruh efek <color=#3487e0>{0}</color>.
+=Provides <color=#3487e0>{0}</color> to this unit and all ally units.	Memberikan <color=#3487e0>{0}</color> ke unit ini dan semua unit sekutu.
+=This unit and all ally units recover HP and gain a Shield.	Unit ini dan semua unit sekutu memulihkan HP dan mendapatkan Shield.
+=This can be triggered up to a maximum of <color=#f26c1c>1 time</color> per turn.	Ini bisa aktif maksimal <color=#f26c1c>1 kali</color> setiap giliran.
+=<color=#3487e0>{1}</color> can be triggered a maximum of <color=#f26c1c>1 time</color> per turn.	<color=#3487e0>{1}</color> bisa aktif maksimal <color=#f26c1c>1 kali</color> setiap giliran.
+=Fully restores stability after <color=#f26c1c>2 turns</color> of Stability Break.	Memulihkan Stability sepenuhnya setelah <color=#f26c1c>2 giliran</color> Stability Break.
+=Prioritize attacking the closest enemy target.	Mengutamakan menyerang target musuh terdekat.
+=Gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> after being attacked.	Mendapat <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> setelah diserang.
+=If this unit is on a <color=#3487e0>{1}</color> tile, gains an additional <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color>.	Jika unit ini berada di atas tile <color=#3487e0>{1}</color>, mendapatkan tambahan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color>.
+=Damage dealt to mechanical monsters of the PMC faction increases by <color=#f26c1c>100%</color>.	Damage ke monster mekanis faksi PMC meningkat sebesar <color=#f26c1c>100%</color>.
+=Damage dealt to mechanical monsters of the PMC faction increases.	Damage ke monster mekanis faksi PMC meningkat.
+=Applies Skill Seal to all <color=#f26c1c>Deserters</color> on the battlefield.	Menerapkan Skill Seal ke semua <color=#f26c1c>Deserter</color> di medan tempur.
+=In addition, applies Skill Seal to all <color=#f26c1c>Deserters</color> on the battlefield.	Selain itu, menerapkan Skill Seal ke semua <color=#f26c1c>Deserter</color> di medan tempur.
+=Every 2 turns, at the start of this unit's turn, select 1 enemy target on the Core Battlefield.	Setiap 2 giliran, di awal giliran unit ini, memilih 1 target musuh di Core Battlefield.
+=When this unit dies, all Centralized Goliaths will detonate.	Saat unit ini mati, semua Centralized Goliath akan meledak.
+=Soppo does not gain <color=#3487e0>{0}</color>.	Soppo tidak mendapatkan <color=#3487e0>{0}</color>.
+=Soppo does not gain <color=#3487e0>{0}</color> and <color=#3487e0>{3}</color>.	Soppo tidak mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{3}</color>.
+=After the attack, Qiuhua gains <color=#3487e0>{0}</color>.	Setelah serangan, Qiuhua mendapatkan <color=#3487e0>{0}</color>.
+
+# --- serangan ---
+=Deals AoE <color=#8679e8>Corrosion damage</color> equal to <color=#f26c1c>150%</color> of attack to all enemy targets on the battlefield.	Memberikan AoE <color=#8679e8>Corrosion damage</color> setara <color=#f26c1c>150%</color> Attack ke semua target musuh di medan tempur.
+=Deals AoE <color=#8679e8>Corrosion damage</color> to all enemy targets on the battlefield.	Memberikan AoE <color=#8679e8>Corrosion damage</color> ke semua target musuh di medan tempur.
+=Selects a direction and deals AoE Physical damage equal to <color=#f26c1c>110%</color> of attack to all enemy targets within <color=#f26c1c>4 tiles</color> in the selected direction.	Memilih satu arah lalu memberikan AoE Physical damage setara <color=#f26c1c>110%</color> Attack ke semua target musuh <color=#f26c1c>dalam 4 tile</color> ke arah yang dipilih.
+=Selects a direction and deals AoE Physical damage equal to <color=#f26c1c>110%</color> of attack to all enemy targets within <color=#f26c1c>4 tiles</color> in the selected direction, applying <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Memilih satu arah lalu memberikan AoE Physical damage setara <color=#f26c1c>110%</color> Attack ke semua target musuh <color=#f26c1c>dalam 4 tile</color> ke arah yang dipilih, lalu menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=Selects 1 enemy target <color=#f26c1c>within a 1-tile radius</color> and attacks alternating between the left and right pincers.	Memilih 1 target musuh <color=#f26c1c>dalam radius 1 tile</color> lalu menyerang bergantian dengan capit kiri dan kanan.
+=Simultaneously, destroy destructible Cover outside a <color=#f26c1c>3x3 area</color> within range around self.	Bersamaan dengan itu, menghancurkan Cover yang bisa dihancurkan di luar <color=#f26c1c>area 3x3</color> dalam jangkauan di sekitar diri.
+=Before attacking an enemy target in <color=#f26c1c>Peripheral Battlefield 1</color> or the Core Battlefield, inflicts <color=#3487e0>{0}</color> on them, lasting for <color=#f26c1c>2 Rounds</color>.	Sebelum menyerang target musuh di <color=#f26c1c>Peripheral Battlefield 1</color> atau Core Battlefield, menimbulkan <color=#3487e0>{0}</color> pada mereka selama <color=#f26c1c>2 ronde</color>.
+=If the target has any Hydro debuff, applies <color=#3487e0>{0}</color> to the target.	Jika target memiliki debuff Hydro, menerapkan <color=#3487e0>{0}</color> ke target.
+=If the target's current HP is less than or equal to <color=#f26c1c>50%</color>, applies <color=#3487e0>{0}</color>.	Jika HP target saat ini <color=#f26c1c>50%</color> atau kurang, menerapkan <color=#3487e0>{0}</color>.
+=If the current HP of the target is less than or equal to <color=#f26c1c>50%</color>, inflicts <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Jika HP target saat ini <color=#f26c1c>50%</color> atau kurang, menimbulkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=If the target holds <color=#3487e0>{3}</color>, deals 1 additional instance of fixed damage equal to <color=#f26c1c>50%</color> of attack to it.	Jika target memiliki <color=#3487e0>{3}</color>, memberikan 1 kali tambahan fixed damage setara <color=#f26c1c>50%</color> Attack kepadanya.
+=If the target's HP is <color=#f26c1c>100% or greater</color> before taking damage, this fixed damage is halved.	Jika HP target <color=#f26c1c>100% atau lebih</color> sebelum menerima damage, fixed damage ini dipotong separuh.
+=For <color=#f26c1c>each</color> <color=#f26c1c>Deserter</color> that dies, selects <color=#f26c1c>1</color> additional enemy target and applies Skill Seal to all tiles <color=#f26c1c>within 2 tiles</color> of it.	Untuk <color=#f26c1c>setiap</color> <color=#f26c1c>Deserter</color> yang mati, memilih <color=#f26c1c>1</color> target musuh tambahan lalu menerapkan Skill Seal ke semua tile <color=#f26c1c>dalam 2 tile</color> darinya.
+=For <color=#f26c1c>each</color> <color=#f26c1c>Deserter</color> that dies, selects <color=#f26c1c>1</color> additional enemy target and applies Skill Seal to it.	Untuk <color=#f26c1c>setiap</color> <color=#f26c1c>Deserter</color> yang mati, memilih <color=#f26c1c>1</color> target musuh tambahan lalu menerapkan Skill Seal kepadanya.
+
+# --- stat & status ---
+=The cooldown of the Ultimate Skill <color=#3487e0>Boil and Reduce</color> is reduced by <color=#f26c1c>1 turn</color>.	Cooldown Skill Ultimate <color=#3487e0>Boil and Reduce</color> berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=The cooldown of the Ultimate Skill <color=#3487e0>Boil and Reduce</color> is reduced.	Cooldown Skill Ultimate <color=#3487e0>Boil and Reduce</color> berkurang.
+=At the start of this unit's turn, Chimera Centurion gains a shield equal to <color=#f26c1c>10%</color> of Max HP and recovers HP equal to <color=#f26c1c>10%</color> of Max HP.	Di awal giliran unit ini, Chimera Centurion mendapatkan shield setara <color=#f26c1c>10%</color> Max HP dan memulihkan HP setara <color=#f26c1c>10%</color> Max HP.
+=When this <color=#3487e0>Amni's Leg</color> dies,  <color=#3487e0>Amni's Blaze</color> falls, becoming unselectable, immune to damage and unable to use active skills.	Saat <color=#3487e0>Amni's Leg</color> ini mati, <color=#3487e0>Amni's Blaze</color> jatuh, jadi tidak bisa dipilih, kebal damage, dan tidak bisa memakai skill aktif.
+=When this <color=#3487e0>Amni's Leg</color> dies, <color=#3487e0>Amni's Eye</color> falls, becoming unselectable, immune to damage and unable to use active skills.	Saat <color=#3487e0>Amni's Leg</color> ini mati, <color=#3487e0>Amni's Eye</color> jatuh, jadi tidak bisa dipilih, kebal damage, dan tidak bisa memakai skill aktif.
+=When the <color=#f26c1c>Blaster - Ranged Artillerist</color> connected to this unit dies, removes effects that reduces <color=#3487e0>{0}</color> taken and enters the <color=#3487e0>{1}</color> state.	Saat <color=#f26c1c>Blaster - Ranged Artillerist</color> yang terhubung dengan unit ini mati, menghapus efek yang mengurangi <color=#3487e0>{0}</color> yang diterima lalu masuk ke kondisi <color=#3487e0>{1}</color>.
+=<color=#42cce0>Frost Dragon Enhancement Effect</color>: If Frost Dragon is not Short-Circuited, additionally summon 1 Thoad FRZ near the target.	<color=#42cce0>Efek Peningkatan Frost Dragon</color>: Jika Frost Dragon tidak sedang Short-Circuited, memanggil juga 1 Thoad FRZ di dekat target.
+=<color=#42cce0>Frost Dragon Enhancement Effect</color>: If Frost Dragon is not Short-Circuited, additionally summon a Thoad FRZ near the target.	<color=#42cce0>Efek Peningkatan Frost Dragon</color>: Jika Frost Dragon tidak sedang Short-Circuited, memanggil juga Thoad FRZ di dekat target.
+=When in <color=#3487e0>{2}</color>, this skill instead deals <color=#e67129>Burn damage</color> and generates <color=#3487e0>{4}</color> tiles.	Saat dalam <color=#3487e0>{2}</color>, skill ini justru memberikan <color=#e67129>Burn damage</color> lalu menghasilkan tile <color=#3487e0>{4}</color>.
+=When in <color=#3487e0>{5}</color>, this skill instead deals <color=#e67129>Burn damage</color> and generates <color=#3487e0>{7}</color> tiles.	Saat dalam <color=#3487e0>{5}</color>, skill ini justru memberikan <color=#e67129>Burn damage</color> lalu menghasilkan tile <color=#3487e0>{7}</color>.
+=The active skill <color=#3487e0>Total Suppression</color> additionally generates <color=#3487e0>{6}</color> tiles for <color=#f26c1c>2 turns</color>.	Skill aktif <color=#3487e0>Total Suppression</color> juga menghasilkan tile <color=#3487e0>{6}</color> selama <color=#f26c1c>2 giliran</color>.
+=The active skill <color=#3487e0>Total Suppression</color> additionally generates <color=#3487e0>{6}</color> tiles.	Skill aktif <color=#3487e0>Total Suppression</color> juga menghasilkan tile <color=#3487e0>{6}</color>.
+=For <color=#f26c1c>each</color> Burn buff on Loreley, the damage dealt is increased by <color=#f26c1c>10%</color>, to a maximum of <color=#f26c1c>40%</color>.	Untuk <color=#f26c1c>setiap</color> buff Burn pada Loreley, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>, maksimal <color=#f26c1c>40%</color>.
+=If Loreley has <color=#3487e0>{0}</color>, then deals full damage to each target individually and generates <color=#3487e0>{1}</color> tiles for <color=#f26c1c>3 turns</color>.	Jika Loreley memiliki <color=#3487e0>{0}</color>, dia memberikan damage penuh ke setiap target secara terpisah lalu menghasilkan tile <color=#3487e0>{1}</color> selama <color=#f26c1c>3 giliran</color>.
+=If Loreley has <color=#3487e0>{0}</color>, then deals full damage to each target individually and generates <color=#3487e0>{1}</color> tiles.	Jika Loreley memiliki <color=#3487e0>{0}</color>, dia memberikan damage penuh ke setiap target secara terpisah lalu menghasilkan tile <color=#3487e0>{1}</color>.
+=For each target hit, Zhaohui gains <color=#f26c1c>1 point</color> of Confectance Index, restores <color=#f26c1c>1 point</color> of stability index, and increases the critical rate of the next active attack by <color=#f26c1c>20%</color>.	Untuk setiap target yang terkena, Zhaohui mendapatkan <color=#f26c1c>1 poin</color> Confectance Index, memulihkan <color=#f26c1c>1 poin</color> Stability Index, lalu menambah Critical Rate serangan aktif berikutnya sebesar <color=#f26c1c>20%</color>.
+=Additionally, for each target hit, the critical rate of the next active attack is further increased by <color=#f26c1c>5%</color>.	Selain itu, untuk setiap target yang terkena, Critical Rate serangan aktif berikutnya naik lagi <color=#f26c1c>5%</color>.
+=Zhaohui gains Confectance Index and restores stability index based on the number of targets hit.	Zhaohui mendapatkan Confectance Index dan memulihkan Stability Index berdasarkan jumlah target yang terkena.

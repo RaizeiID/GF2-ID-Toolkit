@@ -1,0 +1,16 @@
+# Antarmuka — sisa terakhir (bagian 15).
+#
+# "Did they \nleave any signature..." memuat garis miring-n harfiah (dua
+# karakter, bukan baris baru sungguhan) di tengah teks permainan. Ditulis persis
+# begitu supaya cocok.
+#
+# Lima judul hadiah karakter (Klukai's Feelings dst.) memakai nama diri di
+# depan — namanya tetap, kata bendanya dialihbahasakan.
+#range 75000 90000
+
+Did they \nleave any signature...	Apa mereka \nmeninggalkan tanda tangan...
+Klukai's Feelings	Perasaan Klukai
+Vector's Gratitude	Rasa Terima Kasih Vector
+Lenna's Repayment	Balas Budi Lenna
+Mechty's Gift	Hadiah dari Mechty
+Andoris' Companionship	Kebersamaan Andoris

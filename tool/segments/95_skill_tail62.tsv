@@ -1,0 +1,69 @@
+# Deskripsi SKILL — putaran keenam puluh dua ekor panjang.
+#
+# Tetap 1:1, harfiah ("="). Antrean penghalang satu-kalimat sudah habis;
+# kembali ke urutan frekuensi seluruh kalimat sisa.
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "<color=#f26c1c>on the entire battlefield</color>and land"  (kurang spasi)
+#   "the basic attack<color=...>" dan "gains<color=...>"        (kurang spasi)
+#range 0 130000
+
+# --- pendek ---
+=Gains <color=#3487e0>{3}</color> after using this skill.	Mendapat <color=#3487e0>{3}</color> setelah memakai skill ini.
+=Gains <color=#3487e0>{5}</color> after using this skill.	Mendapat <color=#3487e0>{5}</color> setelah memakai skill ini.
+=She then gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{2}</color> and <color=#3487e0>{3}</color>.	Setelah itu dia mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{2}</color> dan <color=#3487e0>{3}</color>.
+=She then gains <color=#3487e0>{2}</color> and <color=#3487e0>{3}</color>.	Setelah itu dia mendapatkan <color=#3487e0>{2}</color> dan <color=#3487e0>{3}</color>.
+=When dealing damage, gains <color=#3487e0>{0}</color>.	Saat memberikan damage, mendapatkan <color=#3487e0>{0}</color>.
+=Cleanses all stacks of <color=#3487e0>{0}</color>.	Membersihkan seluruh stack <color=#3487e0>{0}</color>.
+=Increases damage based on Confectance Index.	Menambah damage berdasarkan Confectance Index.
+=When under the effects of <color=#3487e0>{0}</color>, increases the damage multiplier.	Saat terkena efek <color=#3487e0>{0}</color>, damage multiplier meningkat.
+=The damage multiplier is further increased based on the level of the tile.	Damage multiplier naik lagi berdasarkan level tile-nya.
+=If the enemy target is on a <color=#f26c1c>Level 1</color> tile, the damage multiplier is increased.	Jika target musuh berada di atas tile <color=#f26c1c>Level 1</color>, damage multiplier meningkat.
+=For every <color=#f26c1c>1 stack</color> of <color=#3487e0>{2}</color>, the damage multiplier increases by <color=#f26c1c>10%</color>.	Untuk setiap <color=#f26c1c>1 stack</color> <color=#3487e0>{2}</color>, damage multiplier meningkat sebesar <color=#f26c1c>10%</color>.
+=When stability is at <color=#f26c1c>0</color>, the Attack Mode changes.	Saat Stability <color=#f26c1c>0</color>, Attack Mode-nya berubah.
+=The effect of <color=#3487e0>{0}</color> lasts until the start of the user's next turn.	Efek <color=#3487e0>{0}</color> bertahan sampai awal giliran pengguna berikutnya.
+=At the start of the battle, gains <color=#f26c1c>3 stacks</color> of <color=#3487e0>{1}</color>.	Di awal pertempuran, mendapatkan <color=#f26c1c>3 stack</color> <color=#3487e0>{1}</color>.
+=Additionally, applies <color=#3487e0>{0}</color> to targets for <color=#f26c1c>1 turn</color>.	Selain itu, menerapkan <color=#3487e0>{0}</color> ke target selama <color=#f26c1c>1 giliran</color>.
+=Apply <color=#3487e0>{0}</color> within <color=#f26c1c>2 tiles around it</color>.	Menerapkan <color=#3487e0>{0}</color> <color=#f26c1c>dalam 2 tile di sekitarnya</color>.
+=The Heavy Weapons Team gains <color=#3487e0>{2}</color> for <color=#f26c1c>1 turn</color>.	Heavy Weapons Team mendapatkan <color=#3487e0>{2}</color> selama <color=#f26c1c>1 giliran</color>.
+=The Heavy Weapons Team gains <color=#3487e0>{2}</color>.	Heavy Weapons Team mendapatkan <color=#3487e0>{2}</color>.
+
+# --- penanda & area ---
+=Selects the direction with the largest enemy presence and marks a <color=#f26c1c>9x3 area</color> in that direction.	Memilih arah dengan musuh terbanyak lalu menandai <color=#f26c1c>area 9x3</color> ke arah itu.
+=Selects the direction with the largest enemy presence and marks an area in that direction.	Memilih arah dengan musuh terbanyak lalu menandai area ke arah itu.
+=Selects the enemy target with <color=#f26c1c>the highest HP</color>, then marks it and the area within <color=#f26c1c>2 tiles</color> of it.	Memilih target musuh dengan <color=#f26c1c>HP tertinggi</color>, lalu menandainya beserta area <color=#f26c1c>dalam 2 tile</color> darinya.
+=At the start of the next turn, deals AoE Physical damage equal to <color=#f26c1c>60%</color> of attack to all enemy units in the marked area.	Di awal giliran berikutnya, memberikan AoE Physical damage setara <color=#f26c1c>60%</color> Attack ke semua unit musuh di area yang ditandai.
+=At the end of the action, use the location of 1 enemy target within <color=#f26c1c>3 to 8 tiles</color> as the center.	Di akhir aksi, memakai lokasi 1 target musuh <color=#f26c1c>dalam 3 sampai 8 tile</color> sebagai pusat.
+
+# --- tile Freeze/Burn ---
+=Select an unoccupied Freeze or Burn tile <color=#f26c1c>on the entire battlefield</color>and land on it.	Pilih tile Freeze atau Burn yang kosong <color=#f26c1c>di seluruh medan tempur</color> lalu mendarat di atasnya.
+=Lands on an unoccupied Freeze or Burn tile <color=#f26c1c>on the entire battlefield</color>.	Mendarat di tile Freeze atau Burn yang kosong <color=#f26c1c>di seluruh medan tempur</color>.
+=If it is a Freeze or Burn tile, deal <color=#42cce0>Freeze damage</color> or <color=#e67129>Burn damage</color> equal to <color=#f26c1c>80%</color> of attack to the 3 nearest enemy targets <color=#f26c1c>within 8 tiles</color>.	Jika itu tile Freeze atau Burn, berikan <color=#42cce0>Freeze damage</color> atau <color=#e67129>Burn damage</color> setara <color=#f26c1c>80%</color> Attack ke 3 target musuh terdekat <color=#f26c1c>dalam 8 tile</color>.
+=If it is a Freeze or Burn tile, deal <color=#42cce0>Freeze damage</color> or <color=#e67129>Burn damage</color> to the 3 nearest enemy targets.	Jika itu tile Freeze atau Burn, berikan <color=#42cce0>Freeze damage</color> atau <color=#e67129>Burn damage</color> ke 3 target musuh terdekat.
+=If it is a <color=#3487e0>{4}</color> tile, instead deal <color=#f26c1c>1 instance</color> of <color=#42cce0>Freeze damage</color> equal to <color=#f26c1c>80%</color> of attack and <color=#f26c1c>1 instance</color> of <color=#e67129>Burn damage</color> equal to <color=#f26c1c>80%</color> of attack to the 3 nearest enemy targets <color=#f26c1c>within 8 tiles</color>.	Jika itu tile <color=#3487e0>{4}</color>, justru berikan <color=#f26c1c>1 kali</color> <color=#42cce0>Freeze damage</color> setara <color=#f26c1c>80%</color> Attack dan <color=#f26c1c>1 kali</color> <color=#e67129>Burn damage</color> setara <color=#f26c1c>80%</color> Attack ke 3 target musuh terdekat <color=#f26c1c>dalam 8 tile</color>.
+=If Soppo is in <color=#3487e0>{1}</color>, instead deal AoE <color=#e67129>Burn damage</color> to all enemy targets <color=#f26c1c>within 4 tiles</color> equal to <color=#f26c1c>120%</color> of attack.	Jika Soppo sedang dalam <color=#3487e0>{1}</color>, justru berikan AoE <color=#e67129>Burn damage</color> ke semua target musuh <color=#f26c1c>dalam 4 tile</color> setara <color=#f26c1c>120%</color> Attack.
+=After this skill, Soppo performs the basic attack<color=#3487e0>Hunting Fang</color> on the nearest enemy target <color=#f26c1c>within 8 tiles</color> and gains<color=#3487e0>{2}</color>.	Setelah skill ini, Soppo melancarkan basic attack<color=#3487e0>Hunting Fang</color> ke target musuh terdekat <color=#f26c1c>dalam 8 tile</color> lalu mendapatkan<color=#3487e0>{2}</color>.
+=If this skill cannot attack any enemy targets or if the targets do not have <color=#3487e0>{0}</color>, gains <color=#3487e0>{1}</color>.	Jika skill ini tidak bisa menyerang target musuh mana pun atau targetnya tidak memiliki <color=#3487e0>{0}</color>, mendapatkan <color=#3487e0>{1}</color>.
+
+# --- Heavy Weapons Team ---
+=At the start of the turn, selects the 3 enemy targets with the highest HP on <color=#f26c1c>Peripheral Battlefield 1</color>, applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>1 turn</color>, and deals Physical damage equal to <color=#f26c1c>750 + 25%</color> of HOC Power; then selects the 1 enemy target with the highest HP on the Core Battlefield and applies <color=#3487e0>{1}</color> to it for <color=#f26c1c>1 turn</color>.	Di awal giliran, memilih 3 target musuh dengan HP tertinggi di <color=#f26c1c>Peripheral Battlefield 1</color>, menerapkan <color=#3487e0>{0}</color> kepada mereka selama <color=#f26c1c>1 giliran</color>, lalu memberikan Physical damage setara <color=#f26c1c>750 + 25%</color> HOC Power; kemudian memilih 1 target musuh dengan HP tertinggi di Core Battlefield lalu menerapkan <color=#3487e0>{1}</color> kepadanya selama <color=#f26c1c>1 giliran</color>.
+=At the start of the turn, selects the 3 enemy targets with the highest HP on <color=#f26c1c>Peripheral Battlefield 1</color>, applies <color=#3487e0>{0}</color> to them, and deals Physical damage; then selects the 1 enemy target with the highest HP on the Core Battlefield and applies <color=#3487e0>{1}</color> to it.	Di awal giliran, memilih 3 target musuh dengan HP tertinggi di <color=#f26c1c>Peripheral Battlefield 1</color>, menerapkan <color=#3487e0>{0}</color> kepada mereka, lalu memberikan Physical damage; kemudian memilih 1 target musuh dengan HP tertinggi di Core Battlefield lalu menerapkan <color=#3487e0>{1}</color> kepadanya.
+
+# --- stat & pemicu ---
+=If the target is a Boss unit, instead of dealing damage, applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>3 turns</color>.	Jika targetnya unit Boss, alih-alih memberikan damage, menerapkan <color=#3487e0>{0}</color> kepada mereka selama <color=#f26c1c>3 giliran</color>.
+=If the target's stability is less than <color=#f26c1c>6</color> before this attack launches, applies <color=#3487e0>{0}</color>.	Jika Stability target kurang dari <color=#f26c1c>6</color> sebelum serangan ini dilancarkan, menerapkan <color=#3487e0>{0}</color>.
+=At the end of each round, gains <color=#f26c1c>1 stack</color> of immunity, which can withstand <color=#f26c1c>1 instance</color> of any kind of non-fixed damage for <color=#f26c1c>1 turn</color>.	Di akhir setiap ronde, mendapatkan <color=#f26c1c>1 stack</color> kekebalan, yang bisa menahan <color=#f26c1c>1 kali</color> damage jenis apa pun selain fixed damage selama <color=#f26c1c>1 giliran</color>.
+=Unable to receive stability restoration effects during Stability Break; restores stability index to full <color=#f26c1c>2 turns</color> after entering Stability Break.	Tidak bisa menerima efek pemulihan Stability selama Stability Break; memulihkan Stability Index sampai penuh <color=#f26c1c>2 giliran</color> setelah memasuki Stability Break.
+=After the skill, gains <color=#f26c1c>3 points</color> of Confectance Index and <color=#f26c1c>1</color> random buff effect, lasting for <color=#f26c1c>2 rounds</color>.	Setelah skill ini, mendapatkan <color=#f26c1c>3 poin</color> Confectance Index dan <color=#f26c1c>1</color> efek buff acak, bertahan <color=#f26c1c>2 ronde</color>.
+=After attacking, if Confectance Index is at max, consumes all of it and gains <color=#f26c1c>1 instance</color> of an <color=#3487e0>{0}</color>.	Setelah menyerang, jika Confectance Index penuh, menghabiskan seluruhnya lalu mendapatkan <color=#f26c1c>1 kali</color> <color=#3487e0>{0}</color>.
+=After attacking, if Confectance Index is at max, consumes all of it and gains an <color=#3487e0>{0}</color>.	Setelah menyerang, jika Confectance Index penuh, menghabiskan seluruhnya lalu mendapatkan <color=#3487e0>{0}</color>.
+=At the end of this unit's turn, gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>, and recovers HP equal to <color=#f26c1c>10%</color> of attack.	Di akhir giliran unit ini, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>, lalu memulihkan HP setara <color=#f26c1c>10%</color> Attack.
+=<color=#f26c1c>Each time</color> an allied unit deals <color=#2caadb>Hydro damage</color>, this unit gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color>.	<color=#f26c1c>Setiap kali</color> unit sekutu memberikan <color=#2caadb>Hydro damage</color>, unit ini mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color>.
+=This unit gains <color=#3487e0>{1}</color> whenever allied units deal <color=#2caadb>Hydro damage</color>.	Unit ini mendapatkan <color=#3487e0>{1}</color> setiap kali unit sekutu memberikan <color=#2caadb>Hydro damage</color>.
+
+# --- spesifik karakter ---
+=Springfield recovers <color=#f26c1c>20%</color> of Max HP at the end of the action.	Springfield memulihkan <color=#f26c1c>20%</color> Max HP di akhir aksi.
+=Springfield recovers HP at the end of the action.	Springfield memulihkan HP di akhir aksi.
+=At the end of Robella's action, she gains <color=#f26c1c>1 point</color> of Confectance Index.	Di akhir aksi Robella, dia mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=If the target <color=#3487e0>{4}</color> is following deals damage to an allied unit, Taryz performs <color=#3487e0>{2}</color> on it.	Jika target yang diikuti <color=#3487e0>{4}</color> memberikan damage ke unit sekutu, Taryz melancarkan <color=#3487e0>{2}</color> kepadanya.
+=If the target <color=#3487e0>{5}</color> is following deals damage to an allied unit, performs <color=#3487e0>{3}</color> on it.	Jika target yang diikuti <color=#3487e0>{5}</color> memberikan damage ke unit sekutu, melancarkan <color=#3487e0>{3}</color> kepadanya.

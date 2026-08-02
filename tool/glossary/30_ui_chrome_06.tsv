@@ -1,0 +1,121 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 6).
+#
+# "The compatbility limit has been reached" salah eja di teks aslinya
+# (compatbility). Ditulis persis begitu supaya cocok — memperbaiki ejaannya di
+# sisi kiri justru membuat barisnya mati.
+#
+# "Gold/Silver/Iron" di sini adalah tingkat peringkat, bukan bahan mentah —
+# diterjemahkan sebagai Emas/Perak/Besi.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Buff, Sync Point, Key,
+# Platoon, Level, ElmoMart, Elmo Cloud, Dub.
+#range 75000 90000
+
+[{0}] Access Progress	Progres Akses [{0}]
+Accessed {0} times this event	Diakses {0} kali di acara ini
+Harvest Missions	Misi Panen
+Dispatch Plan	Rencana Pengiriman
+Harvest Coins	Koin Panen
+Harvest Coins Gained	Koin Panen Didapat
+Livability System Placeholder	Placeholder Sistem Kelayakan Huni
+Leisure Value Increase Time	Waktu Kenaikan Nilai Santai
+Today's Leisure Value has reached the limit	Nilai Santai hari ini sudah mencapai batas
+This Week's Leisure Value	Nilai Santai Minggu Ini
+No item rewards were obtained from this challenge	Tidak ada hadiah item dari tantangan ini
+Returned from Exploration	Kembali dari Penjelajahan
+Filter Destroyed	Filter Hancur
+All challenge attempts for today have been used up	Semua percobaan tantangan hari ini sudah habis
+Directed Dispatch	Pengiriman Terarah
+Patrol Rewards	Hadiah Patroli
+Daily Patrol has been accomplished	Patroli Harian sudah diselesaikan
+Supply Allocation Log	Catatan Alokasi Perbekalan
+Assigning	Menugaskan
+Assigned	Ditugaskan
+Today's expedition is completed	Ekspedisi hari ini selesai
+Obtained {0} kinds of resources	Mendapat {0} jenis sumber daya
+This team cannot act on this round	Tim ini tidak bisa bergerak di ronde ini
+No Dolls are currently available for selection	Tidak ada Doll yang bisa dipilih saat ini
+Bounty	Sayembara
+Current Collaborator	Kolaborator Saat Ini
+Daily Assistance Settings	Pengaturan Bantuan Harian
+Function Assistance Selection	Pemilihan Bantuan Fungsi
+Choose at least 1 function	Pilih minimal 1 fungsi
+Settings saved	Pengaturan tersimpan
+Appoint On-Duty Attendant Settings	Pengaturan Penunjukan Petugas Jaga
+Randomize All Dolls	Acak Semua Doll
+The compatbility limit has been reached	Batas kecocokan sudah tercapai
+Enhancement level cap reached	Batas level peningkatan tercapai
+Applicable:	Berlaku untuk:
+Low quality, unable to be equipped	Kualitas rendah, tidak bisa dipasang
+Select the materials first	Pilih bahannya dulu
+New record!	Rekor baru!
+Not counted	Tidak dihitung
+Result settlement is in progress, cannot attempt!	Perhitungan hasil sedang berjalan, tidak bisa mencoba!
+Formation Save Successfully	Formasi Berhasil Disimpan
+Simulation Statistics	Statistik Simulasi
+Progress Challenge Rewards	Hadiah Tantangan Progres
+Commander Level {0} required	Butuh Commander Level {0}
+Are you sure you want to break through {0}?	Yakin mau melakukan terobosan {0}?
+Begin Training	Mulai Pelatihan
+Raises Maximum Level To	Menaikkan Level Maksimum ke
+Record unlocked	Rekaman terbuka
+Reminiscing unlocked	Kenangan terbuka
+Voice unlocked	Suara terbuka
+{0}'s Implicit Feedback	Umpan Balik Tersirat {0}
+Gift quota met	Kuota hadiah terpenuhi
+No Gift selected	Tidak ada Hadiah dipilih
+Emotion Voice	Suara Emosi
+Combat Dialogue	Dialog Tempur
+Filter	Saring
+New Function	Fungsi Baru
+Purchasing Period	Periode Pembelian
+Receiving Period	Periode Penerimaan
+Restocking Period	Periode Pengisian Ulang
+Ordering Channel Open	Kanal Pemesanan Dibuka
+Product has arrived	Produk sudah tiba
+Restocking	Mengisi Ulang
+Order Now	Pesan Sekarang
+Unlocked after production	Terbuka setelah produksi
+Effective: {0}/{1}	Berlaku: {0}/{1}
+Functional Dish	Hidangan Fungsional
+Affinity Dish	Hidangan Afinitas
+Add Dish	Tambah Hidangan
+Deployment Time	Waktu Penempatan
+Our Turn	Giliran Kita
+Enemy Turn	Giliran Musuh
+Deployment complete, waiting for other players	Penempatan selesai, menunggu pemain lain
+Current Buff	Buff Saat Ini
+Reset This Layer	Atur Ulang Lapisan Ini
+Phase	Fase
+Congratulations on Clearing	Selamat atas Penyelesaiannya
+Please select the specified number of buff effects	Pilih efek buff sebanyak yang ditentukan
+Group	Grup
+Effect Accumulation	Akumulasi Efek
+Enemy Intelligence I	Intelijen Musuh I
+Enemy Intelligence II	Intelijen Musuh II
+Enemy Intelligence III	Intelijen Musuh III
+Members not dispatched	Anggota belum dikirim
+Unlocked after watching the preceding storyline	Terbuka setelah menonton alur cerita sebelumnya
+Fail	Gagal
+Wipe Out	Habisi
+Defense Line HP	HP Garis Pertahanan
+Assault Rank	Peringkat Serbuan
+Rank updates may take some time to be displayed	Pembaruan peringkat mungkin butuh waktu untuk tampil
+No rank information	Tidak ada informasi peringkat
+Doll attempts have been maxed out	Percobaan Doll sudah mentok
+Settlement failed	Perhitungan gagal
+Gold	Emas
+Silver	Perak
+Iron	Besi
+{0}: Reach {1} or higher Sync Points	{0}: Capai {1} Sync Point atau lebih
+and	dan
+Derivative spiral not activated	Spiral turunan belum diaktifkan
+Extra Advancement Benefits	Manfaat Kemajuan Tambahan
+Extra Advanced Activation	Aktivasi Lanjutan Tambahan
+Successfully activated {0} Evolved Nodes	Berhasil mengaktifkan {0} Node Evolusi
+Development Recommendations	Saran Pengembangan
+Keys	Key
+Beginner Recommendations	Saran untuk Pemula
+You do not own the following Doll(s):	Kamu tidak punya Doll berikut:
+You do not have the following Keys:	Kamu tidak punya Key berikut:
+Confirm and deploy	Konfirmasi lalu tempatkan

@@ -1,0 +1,165 @@
+# Nama attachment senjata.
+#
+# Baris-baris ini semula tercatat di item_name_asis.txt karena penyaring otomatis
+# menganggap seluruh nama berawalan [AR]/[SMG]/dst. sebagai nama diri. Itu keliru:
+# hanya tanda kurung siku (kelas senjata) yang tidak bisa diterjemahkan, sedangkan
+# ekornya frasa biasa. Baris-barisnya sudah dipindahkan ke sini.
+#
+# Nama komponen tetap Inggris karena itu istilah yang dipakai pemain: Suppressor,
+# Foregrip, Bipod, Scope, Red Dot, Holo Sight, Reflex Sight, Muzzle, Muzzle Brake,
+# Flash Hider, Handstop, Choke, Attachment. Hanya kata sifatnya yang dialihkan
+# (Basic - Dasar, Heavy - Berat, Compact - Ringkas, Foldable - Lipat, ...).
+#
+# "QD" (quick detach) dan "Mk./MK." dibawa apa adanya.
+#range 0 130000
+
+[AR] Angled Foregrip	[AR] Foregrip Menyudut
+[AR] Banana Foregrip	[AR] Foregrip Pisang
+[AR] Basic Flash Hider	[AR] Flash Hider Dasar
+[AR] Basic Muzzle Brake	[AR] Muzzle Brake Dasar
+[AR] Basic Suppressor	[AR] Suppressor Dasar
+[AR] Blunderbuss Muzzle	[AR] Muzzle Blunderbuss
+[AR] Compact Suppressor	[AR] Suppressor Ringkas
+[AR] Compact Tactical Flashlight	[AR] Senter Taktis Ringkas
+[AR] Custom Long Muzzle	[AR] Muzzle Panjang Kustom
+[AR] Door Breacher	[AR] Pendobrak Pintu
+[AR] Flashlight	[AR] Senter
+[AR] High Magnification Scope	[AR] Scope Perbesaran Tinggi
+[AR] Internal Red Dot	[AR] Red Dot Internal
+[AR] Knuckle Attachment	[AR] Attachment Buku Jari
+[AR] Love and Hope	[AR] Cinta dan Harapan
+[AR] QD Suppressor	[AR] Suppressor QD
+[AR] QD Tactical Flashlight	[AR] Senter Taktis QD
+[AR] Red Dot Device	[AR] Perangkat Red Dot
+[AR] Tactical Foregrip	[AR] Foregrip Taktis
+[AR] Tactical Handstop	[AR] Handstop Taktis
+[AR] Tactical Range Finder	[AR] Pengukur Jarak Taktis
+[AR] Tube Red Dot	[AR] Red Dot Tabung
+[AR] Variable Red Dot	[AR] Red Dot Variabel
+[AR] Vertical Foregrip	[AR] Foregrip Vertikal
+[AR] Vertical Foregrip Mk.I	[AR] Foregrip Vertikal Mk.I
+[AR] Vertical Foregrip Mk.II	[AR] Foregrip Vertikal Mk.II
+[AR] Widget Sight - Groza Standee	[AR] Widget Sight - Standee Groza
+[Blade] Alloy Ejector Rivet	[Blade] Paku Keling Ejektor Paduan
+[Blade] Carbon Fiber Ejector Rivet	[Blade] Paku Keling Ejektor Serat Karbon
+[Blade] Cold Rolled Edge	[Blade] Bilah Canai Dingin
+[Blade] Dovetail Latch	[Blade] Kait Ekor Merpati
+[Blade] Half-Opened Stealth Latch	[Blade] Kait Siluman Setengah Terbuka
+[Blade] Hot Forged Edge	[Blade] Bilah Tempa Panas
+[Blade] Hypersonic Rotating Edge	[Blade] Bilah Putar Hipersonik
+[Blade] Ngombe Edge	[Blade] Bilah Ngombe
+[Blade] Polymeride Armor	[Blade] Zirah Polimerida
+[Blade] Polymeride Balancer	[Blade] Penyeimbang Polimerida
+[Blade] Polymeride Paw	[Blade] Cakar Polimerida
+[Blade] Power Edge	[Blade] Bilah Bertenaga
+[Blade] Serrated Edge	[Blade] Bilah Bergerigi
+[Blade] Single-Sided Latch	[Blade] Kait Satu Sisi
+[Blade] Steel Ejector Rivet	[Blade] Paku Keling Ejektor Baja
+[HG] Alloy Ejector Rivet	[HG] Paku Keling Ejektor Paduan
+[HG] Carbon Fiber Ejector Rivet	[HG] Paku Keling Ejektor Serat Karbon
+[HG] Dovetail Latch	[HG] Kait Ekor Merpati
+[HG] Flip-up Red Dot Sight	[HG] Red Dot Sight Lipat
+[HG] Half-Opened Stealth Latch	[HG] Kait Siluman Setengah Terbuka
+[HG] Micro Red Dot Sight	[HG] Red Dot Sight Mikro
+[HG] Mini Holo Sight	[HG] Holo Sight Mini
+[HG] Mini Red Dot Sight	[HG] Red Dot Sight Mini
+[HG] Mini Reflex Sight	[HG] Reflex Sight Mini
+[HG] Muzzle Compensator	[HG] Kompensator Muzzle
+[HG] Rail Mounted Suppressor	[HG] Suppressor Pasang Rel
+[HG] Round Red Dot Sight	[HG] Red Dot Sight Bundar
+[HG] Short Range Suppressor	[HG] Suppressor Jarak Dekat
+[HG] Single-Sided Latch	[HG] Kait Satu Sisi
+[HG] Specialized Flash Hider	[HG] Flash Hider Khusus
+[HG] Specialized Muzzle Brake	[HG] Muzzle Brake Khusus
+[HG] Specialized Suppressor	[HG] Suppressor Khusus
+[HG] Steel Ejector Rivet	[HG] Paku Keling Ejektor Baja
+[MG] Adjustable Bipod	[MG] Bipod Setelan
+[MG] Compact Tactical Flashlight	[MG] Senter Taktis Ringkas
+[MG] Flashlight	[MG] Senter
+[MG] Foldable Bipod	[MG] Bipod Lipat
+[MG] Heavy Bipod	[MG] Bipod Berat
+[MG] Heavy Flash Hider	[MG] Flash Hider Berat
+[MG] Heavy Muzzle Brake	[MG] Muzzle Brake Berat
+[MG] Heavy Suppressor	[MG] Suppressor Berat
+[MG] High Magnification Scope	[MG] Scope Perbesaran Tinggi
+[MG] Internal Red Dot	[MG] Red Dot Internal
+[MG] Knuckle Attachment	[MG] Attachment Buku Jari
+[MG] Lightweight Muzzle Brake	[MG] Muzzle Brake Ringan
+[MG] Multi-Purpose Bipod	[MG] Bipod Serbaguna
+[MG] QD Flash Hider	[MG] Flash Hider QD
+[MG] QD Muzzle Brake	[MG] Muzzle Brake QD
+[MG] QD Tactical Flashlight	[MG] Senter Taktis QD
+[MG] Red Dot Device	[MG] Perangkat Red Dot
+[MG] Retractable Bipod	[MG] Bipod Tarik Masuk
+[MG] Tactical QD Bipod	[MG] Bipod QD Taktis
+[MG] Tactical Range Finder	[MG] Pengukur Jarak Taktis
+[MG] Tube Red Dot	[MG] Red Dot Tabung
+[MG] Variable Red Dot	[MG] Red Dot Variabel
+[MG] Widget Sight - Groza Standee	[MG] Widget Sight - Standee Groza
+[RF] Adjustable Bipod	[RF] Bipod Setelan
+[RF] Close Range QM Scope	[RF] Scope QM Jarak Dekat
+[RF] Compact Tactical Flashlight	[RF] Senter Taktis Ringkas
+[RF] Customized High Magnification Scope	[RF] Scope Perbesaran Tinggi Kustom
+[RF] Flashlight	[RF] Senter
+[RF] Foldable Bipod	[RF] Bipod Lipat
+[RF] Heavy Bipod	[RF] Bipod Berat
+[RF] Heavy Flash Hider	[RF] Flash Hider Berat
+[RF] Heavy Muzzle Brake	[RF] Muzzle Brake Berat
+[RF] Heavy Suppressor	[RF] Suppressor Berat
+[RF] High Magnification Scope	[RF] Scope Perbesaran Tinggi
+[RF] High-Precision Scope	[RF] Scope Presisi Tinggi
+[RF] Knuckle Attachment	[RF] Attachment Buku Jari
+[RF] Lightweight Muzzle Brake	[RF] Muzzle Brake Ringan
+[RF] Multi-Purpose Bipod	[RF] Bipod Serbaguna
+[RF] QD Flash Hider	[RF] Flash Hider QD
+[RF] QD Muzzle Brake	[RF] Muzzle Brake QD
+[RF] QD Tactical Flashlight	[RF] Senter Taktis QD
+[RF] Quick-Magnification Scope	[RF] Scope Perbesaran Cepat
+[RF] Red Dot Device	[RF] Perangkat Red Dot
+[RF] Retractable Bipod	[RF] Bipod Tarik Masuk
+[RF] Tactical QD Bipod	[RF] Bipod QD Taktis
+[RF] Tactical Range Finder	[RF] Pengukur Jarak Taktis
+[SG] Alloy Ejector Rivet	[SG] Paku Keling Ejektor Paduan
+[SG] Carbon Fiber Ejector Rivet	[SG] Paku Keling Ejektor Serat Karbon
+[SG] Door Breacher	[SG] Pendobrak Pintu
+[SG] Dovetail Latch	[SG] Kait Ekor Merpati
+[SG] Duckbill Choke	[SG] Choke Paruh Bebek
+[SG] Extended Muzzle	[SG] Muzzle Diperpanjang
+[SG] Flip-up Red Dot Sight	[SG] Red Dot Sight Lipat
+[SG] Half-Opened Stealth Latch	[SG] Kait Siluman Setengah Terbuka
+[SG] Micro Red Dot Sight	[SG] Red Dot Sight Mikro
+[SG] Mini Holo Sight	[SG] Holo Sight Mini
+[SG] Mini Red Dot Sight	[SG] Red Dot Sight Mini
+[SG] Mini Reflex Sight	[SG] Reflex Sight Mini
+[SG] Round Red Dot Sight	[SG] Red Dot Sight Bundar
+[SG] Single-Sided Latch	[SG] Kait Satu Sisi
+[SG] Specialized Flash Hider	[SG] Flash Hider Khusus
+[SG] Specialized Muzzle Brake	[SG] Muzzle Brake Khusus
+[SG] Specialized Suppressor	[SG] Suppressor Khusus
+[SG] Steel Ejector Rivet	[SG] Paku Keling Ejektor Baja
+[SMG] Angled Foregrip	[SMG] Foregrip Menyudut
+[SMG] Banana Foregrip	[SMG] Foregrip Pisang
+[SMG] Basic Flash Hider	[SMG] Flash Hider Dasar
+[SMG] Basic Muzzle Brake	[SMG] Muzzle Brake Dasar
+[SMG] Basic Suppressor	[SMG] Suppressor Dasar
+[SMG] Blunderbuss Muzzle	[SMG] Muzzle Blunderbuss
+[SMG] Compact Suppressor	[SMG] Suppressor Ringkas
+[SMG] Compact Tactical Flashlight	[SMG] Senter Taktis Ringkas
+[SMG] Door Breacher	[SMG] Pendobrak Pintu
+[SMG] Flashlight	[SMG] Senter
+[SMG] High Magnification Scope	[SMG] Scope Perbesaran Tinggi
+[SMG] Internal Red Dot	[SMG] Red Dot Internal
+[SMG] Knuckle Attachment	[SMG] Attachment Buku Jari
+[SMG] Lightweight Foregrip	[SMG] Foregrip Ringan
+[SMG] QD Suppressor	[SMG] Suppressor QD
+[SMG] QD Tactical Flashlight	[SMG] Senter Taktis QD
+[SMG] Red Dot Device	[SMG] Perangkat Red Dot
+[SMG] Tactical Foregrip	[SMG] Foregrip Taktis
+[SMG] Tactical Handstop	[SMG] Handstop Taktis
+[SMG] Tactical Range Finder	[SMG] Pengukur Jarak Taktis
+[SMG] Tube Red Dot	[SMG] Red Dot Tabung
+[SMG] Variable Red Dot	[SMG] Red Dot Variabel
+[SMG] Vertical Foregrip	[SMG] Foregrip Vertikal
+[SMG] Vertical Foregrip MK.II	[SMG] Foregrip Vertikal MK.II
+[SMG] Vertical Foregrip Mk.I	[SMG] Foregrip Vertikal Mk.I
+[SMG] Widget Sight - Groza Standee	[SMG] Widget Sight - Standee Groza

@@ -1,0 +1,23 @@
+# Kalimat penghalang — dipilih dari output `python coverage.py`, yaitu kalimat
+# yang membuat deskripsi gagal lolos padahal kalimat lainnya sudah tercakup.
+#
+# Catatan teknis: kalau backref diikuti angka, WAJIB pakai bentuk \g<1>, karena
+# \10 akan dibaca sebagai grup 10, bukan grup 1 lalu karakter "0".
+#range 0 125000
+
+# nama karakter dibawa backref -> tetap Inggris
+^Join the Trial Stage and fight alongside (.+)!$	Ikut Trial Stage dan bertarung bersama \1!
+
+# jenis debuff (Corrosion, Burn, dsb.) dibawa backref
+^Considered an? (\w+) debuff\.$	Dianggap debuff \1.
+^Considered an? (\w+) debuff, cannot be cleansed\.$	Dianggap debuff \1, tidak bisa di-cleanse.
+^Can be stacked, considered a debuff, cannot be cleansed\.$	Bisa ditumpuk, dianggap debuff, tidak bisa di-cleanse.
+
+^Damage taken reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima berkurang \1\2%</color>.
+^Critical damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical damage meningkat \1\2%</color>.
+^Stability damage dealt is increased by (<color=#[0-9a-fA-F]+>)(\d+) points?</color>\.$	Damage stability yang diberikan meningkat \1\2 poin</color>.
+^Increase the damage of active skills by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage skill aktif \1\2%</color>.
+^Reduce defense by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Kurangi pertahanan \1\2%</color>.
+^This effect can stack up to (\d+) times\.$	Efek ini bisa ditumpuk hingga \1 kali.
+^Damage dealt by allied units to targets with defense debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari unit sekutu ke target dengan debuff pertahanan meningkat \1\2%</color>.
+^When stability index is greater than (<color=#[0-9a-fA-F]+>)0</color>, damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat indeks stability lebih dari \g<1>0</color>, damage yang diterima berkurang \2\3%</color>.

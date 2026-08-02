@@ -1,0 +1,46 @@
+# Panel event gelombang 7 — Beginner Procurement dan kluster
+# [Procurement Description] (Custom Procurement - Armament).
+#
+# Varian Armament memakai istilah sendiri: "Armament" (bukan Weapon),
+# "Extraction Vouchers", "Redundant Fragments", dan "pity system".
+# "pity" dipertahankan karena itu istilah baku di komunitas gacha.
+# Daftar nama Armament di sini TIDAK berkutip di sumbernya — dibawa backref.
+#range 0 125000
+
+# ============ Beginner Procurement ============
+=<color=#32434a>The <b>Beginner Procurement</b> is exclusive for new Commanders</color>.	<color=#32434a><b>Beginner Procurement</b> khusus untuk Komandan baru</color>.
+=In this banner, you can enjoy a 20% discount for every 10 accesses.	Di banner ini, kamu mendapat diskon 20% untuk tiap 10 access.
+=This interface will remain available until 50 accesses have been completed, after which, the Beginner Procurement interface will be closed.	Antarmuka ini tersedia sampai 50 access selesai, setelah itu antarmuka Beginner Procurement akan ditutup.
+=-Elite Doll Drop Rate Details	-Detail Drop Rate Elite Doll
+=-Detailed Rules	-Aturan Rinci
+=In this banner, the base drop rate of obtaining an Elite Doll is <color=#EDA51C>[VAL1]</color>, with an overall drop rate (including guarantees) of <color=#EDA51C>[VAL2]</color>.	Di banner ini, drop rate dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL1]</color>, dengan drop rate keseluruhan (termasuk jaminan) <color=#EDA51C>[VAL2]</color>.
+=In this banner, the base drop rate of obtaining a Standard Doll or Weapon is <color=#AC65E8>[VAL3]</color>, with the base drop rate for Standard Dolls being <color=#AC65E8>[VAL4]</color>.	Di banner ini, drop rate dasar mendapat Standard Doll atau Weapon adalah <color=#AC65E8>[VAL3]</color>, dengan drop rate dasar Standard Doll <color=#AC65E8>[VAL4]</color>.
+=The probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL5]</color>.	Probabilitas mendapat Standard Weapon adalah <color=#AC65E8>[VAL5]</color>.
+=The overall drop rate (including guarantees) for both is <color=#AC65E8>[VAL6]</color>.	Drop rate keseluruhan (termasuk jaminan) untuk keduanya adalah <color=#AC65E8>[VAL6]</color>.
+=In this banner, every 10 accesses guarantee either a Standard Doll, a Standard Weapon, or an Elite Doll.	Di banner ini, tiap 10 access dijamin mendapat Standard Doll, Standard Weapon, atau Elite Doll.
+=If you haven't obtained an Elite Doll in 49 consecutive accesses, the 50th is guaranteed to be an Elite Doll.	Kalau kamu belum mendapat Elite Doll dalam 49 access berturut-turut, access ke-50 dijamin Elite Doll.
+=If an Elite Doll is obtained before the 50th access, the 50th access will not guarantee an Elite Doll.	Kalau Elite Doll sudah didapat sebelum access ke-50, access ke-50 tidak lagi menjamin Elite Doll.
+=The counter to a guaranteed item for this banner accumulates independently of other banners.	Hitungan menuju item jaminan di banner ini terakumulasi terpisah dari banner lain.
+=In this banner, obtaining a Retired Weapon gives 2 Withdrawal Receipts.	Di banner ini, mendapat Retired Weapon memberi 2 Withdrawal Receipts.
+=A Standard Doll or Weapon gives 12 Redundant Pieces; an Elite Doll or Weapon gives 60 Redundant Pieces.	Standard Doll atau Weapon memberi 12 Redundant Pieces; Elite Doll atau Weapon memberi 60 Redundant Pieces.
+=When obtaining duplicate Standard Dolls, the 2nd through 7th acquisitions convert into 30 Neural Archives for the respective Doll; from the 8th acquisition onward, they convert into 18 Redundant Pieces.	Saat mendapat Standard Doll ganda, perolehan ke-2 sampai ke-7 dikonversi jadi 30 Neural Archives untuk Doll terkait; mulai perolehan ke-8, dikonversi jadi 18 Redundant Pieces.
+
+# ============ [Procurement Description] — Custom Procurement - Armament ============
+=<size=22><b>[Procurement Description]</b></size>	<size=22><b>[Deskripsi Procurement]</b></size>
+=<color=#32434a><b>Custom Procurement - Armament</b> is a limited-time Armament procurement</color>.	<color=#32434a><b>Custom Procurement - Armament</b> adalah procurement Armament waktu terbatas</color>.
+^<color=#f26c1c>\*During the event, the limited Elite Armaments (.+) can only be obtained through the \[Custom Procurement - Armament\] event\.$	<color=#f26c1c>*Selama event, Elite Armament terbatas \1 hanya bisa didapat lewat event [Custom Procurement - Armament].
+^After the event ends, the Elite Armaments (.+) will not be added to \[Standard Procurement\]\.</color>$	Setelah event berakhir, Elite Armament \1 tidak akan ditambahkan ke [Standard Procurement].</color>
+=-Elite Armament Probability Description	-Deskripsi Probabilitas Elite Armament
+=-Standard Doll and Armament Probability Description	-Deskripsi Probabilitas Doll dan Armament Standard
+=-Detailed Procurement Rules	-Aturan Procurement Rinci
+=In this type of procurement, the base probability of obtaining an Elite Armament is <color=#EDA51C>[VAL1]</color>, and the overall probability (including the pity system guarantee) is <color=#EDA51C>[VAL2]</color>.	Di tipe procurement ini, probabilitas dasar mendapat Elite Armament adalah <color=#EDA51C>[VAL1]</color>, dan probabilitas keseluruhan (termasuk jaminan sistem pity) adalah <color=#EDA51C>[VAL2]</color>.
+=In this type of procurement, the base probability for Standard Armaments is <color=#AC65E8>[VAL3]</color>, and the overall probability for Standard Armaments (including the pity system guarantee) is <color=#AC65E8>[VAL4]</color>.	Di tipe procurement ini, probabilitas dasar Standard Armament adalah <color=#AC65E8>[VAL3]</color>, dan probabilitas keseluruhan Standard Armament (termasuk jaminan sistem pity) adalah <color=#AC65E8>[VAL4]</color>.
+=In this type of procurement, every 10 procurements guarantee at least a Standard or Elite Armament.	Di tipe procurement ini, tiap 10 procurement dijamin mendapat minimal Standard atau Elite Armament.
+=In this type of procurement, if no Elite Armament is obtained for 50 consecutive attempts, the probability of obtaining an Elite Armament on subsequent attempts will increase.	Di tipe procurement ini, kalau Elite Armament tidak didapat dalam 50 percobaan berturut-turut, probabilitas mendapatkannya pada percobaan berikutnya akan naik.
+=An Elite Armament is guaranteed within 70 procurements.	Elite Armament dijamin didapat dalam 70 procurement.
+=Whenever an Elite Armament is obtained, the counter resets, and the probability of obtaining an Elite Armament returns to the base rate.	Tiap kali Elite Armament didapat, hitungannya direset dan probabilitas mendapat Elite Armament kembali ke rate dasar.
+=If the Elite Armament obtained in this procurement is not the rate-up Elite Armament for this period, the next Elite Armament obtained is guaranteed to be the rate-up Elite Armament for this period.	Kalau Elite Armament yang didapat di procurement ini bukan Elite Armament rate-up periode ini, Elite Armament berikutnya dipastikan yang rate-up periode ini.
+=The pity counter for this type of procurement does not carry over and is completely independent of the pity counters for other types of procurements; they do not affect each other.	Hitungan pity tipe procurement ini tidak terbawa dan sepenuhnya terpisah dari hitungan pity tipe procurement lain; keduanya tidak saling memengaruhi.
+=In this type of procurement, each time an old-style weapon is obtained, 2 additional Extraction Vouchers are given.	Di tipe procurement ini, tiap kali senjata model lama didapat, diberikan tambahan 2 Extraction Vouchers.
+=Each time a Standard Doll or Armament is obtained, 12 additional Redundant Fragments are given.	Tiap kali Standard Doll atau Armament didapat, diberikan tambahan 12 Redundant Fragments.
+=Each time an Elite Doll or Armament is obtained, 60 additional Redundant Fragments are given.	Tiap kali Elite Doll atau Armament didapat, diberikan tambahan 60 Redundant Fragments.

@@ -1,0 +1,82 @@
+# Deskripsi SKILL — putaran kedua puluh tiga ekor panjang.
+#
+# Bagian 2 dari lima berkas yang ditulis sekaligus (55-59). Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "<color=#f26c1c> 1 </color>"        (spasi di dalam tag)
+#   "elite units  is increased"          (dua spasi)
+#   "of the target's defense"            (tanpa titik di akhir)
+#   "Reduce remaining stock by 50% #10040701"  (catatan pengembang, tetap ditampilkan)
+#range 0 130000
+
+# --- serangan ---
+=Deals AoE physical damage to all enemy targets <color=#f26c1c>on the entire battlefield</color> and gains <color=#3487e0>{0}</color>.	Memberikan AoE physical damage ke semua target musuh <color=#f26c1c>di seluruh medan tempur</color> lalu mendapatkan <color=#3487e0>{0}</color>.
+=Deals AoE physical damage equal to <color=#f26c1c>80%</color> of attack to all enemy targets.	Memberikan AoE physical damage setara <color=#f26c1c>80%</color> Attack ke semua target musuh.
+=Deal AoE physical damage to all enemy targets.	Berikan AoE physical damage ke semua target musuh.
+=Selects 1 enemy target within <color=#f26c1c>8 tiles</color>, deals Physical damage equal to <color=#f26c1c>100%</color> of attack, and applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> to the target.	Memilih 1 target musuh <color=#f26c1c>dalam 8 tile</color>, memberikan Physical damage setara <color=#f26c1c>100%</color> Attack, lalu menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> ke target itu.
+=Selects 1 enemy target within <color=#f26c1c>8 tiles</color>, deals Physical damage, and applies <color=#3487e0>{0}</color> to the target.	Memilih 1 target musuh <color=#f26c1c>dalam 8 tile</color>, memberikan Physical damage, lalu menerapkan <color=#3487e0>{0}</color> ke target itu.
+=Select 1 enemy target within a <color=#f26c1c>3x3 area</color> and deal melee physical damage equal to <color=#f26c1c>80%</color> of attack that ignores Cover to it.	Pilih 1 target musuh dalam <color=#f26c1c>area 3x3</color> lalu berikan melee physical damage setara <color=#f26c1c>80%</color> Attack yang mengabaikan Cover kepadanya.
+=Selects 1 enemy target and deals melee physical damage that ignores Cover to them.	Memilih 1 target musuh dan memberikan melee physical damage yang mengabaikan Cover kepada mereka.
+=Selects an enemy target within a <color=#f26c1c>5 tile radius</color> and deals physical damage to them.	Memilih target musuh dalam <color=#f26c1c>radius 5 tile</color> dan memberikan physical damage kepada mereka.
+=Effective range expands to <color=#f26c1c>3 tiles</color>.	Jangkauan efektifnya meluas jadi <color=#f26c1c>3 tile</color>.
+
+# --- area & dukungan ---
+=Selects all enemy targets <color=#f26c1c>on the entire battlefield</color> and applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>2 turns</color>.	Memilih semua target musuh <color=#f26c1c>di seluruh medan tempur</color> lalu menerapkan <color=#3487e0>{0}</color> kepada mereka selama <color=#f26c1c>2 giliran</color>.
+=Applies <color=#3487e0>{0}</color> to all allies within a <color=#f26c1c>9 tile area</color> around this unit.	Menerapkan <color=#3487e0>{0}</color> ke semua sekutu dalam <color=#f26c1c>area 9 tile</color> di sekitar unit ini.
+=Applies <color=#3487e0>{0}</color> to all allies within a certain area.	Menerapkan <color=#3487e0>{0}</color> ke semua sekutu dalam area tertentu.
+=Applies <color=#3487e0>{0}</color> to this unit and all Emotional Projections on the battlefield for <color=#f26c1c>1 turn</color>.	Menerapkan <color=#3487e0>{0}</color> ke unit ini dan semua Emotional Projection di medan tempur selama <color=#f26c1c>1 giliran</color>.
+=Applies <color=#3487e0>{0}</color> to this unit and all Emotional Projections on the battlefield.	Menerapkan <color=#3487e0>{0}</color> ke unit ini dan semua Emotional Projection di medan tempur.
+=Summons 1 <color=#3487e0>Goliath</color> on the field and applies <color=#3487e0>{0}</color> to it.	Memanggil 1 <color=#3487e0>Goliath</color> ke medan lalu menerapkan <color=#3487e0>{0}</color> kepadanya.
+=Summons a <color=#3487e0>Goliath</color> and applies <color=#3487e0>{0}</color> to it.	Memanggil <color=#3487e0>Goliath</color> lalu menerapkan <color=#3487e0>{0}</color> kepadanya.
+=Gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color> each time when attacked.	Mendapat <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color> setiap kali diserang.
+=Gains <color=#3487e0>{0}</color> each time when attacked.	Mendapat <color=#3487e0>{0}</color> setiap kali diserang.
+=If any weakness is exploited, apply <color=#3487e0>{1}</color> to the target for <color=#f26c1c>1 turn</color>.	Jika ada kelemahan yang dieksploitasi, menerapkan <color=#3487e0>{1}</color> ke target selama <color=#f26c1c>1 giliran</color>.
+=If an allied unit ends their action on a Corrosion terrain tile, they recover HP equal to <color=#f26c1c>30%</color> of max HP and <color=#f26c1c>2 points</color> of stability.	Jika unit sekutu mengakhiri aksinya di atas tile medan Corrosion, mereka memulihkan HP setara <color=#f26c1c>30%</color> Max HP dan <color=#f26c1c>2 poin</color> Stability.
+
+# --- stat ---
+=For every <color=#f26c1c>2 instances</color> of Physical damage dealt, the next attack ignores <color=#f26c1c>10%</color> of the target's defense.	Untuk setiap <color=#f26c1c>2 kali</color> Physical damage diberikan, serangan berikutnya mengabaikan <color=#f26c1c>10%</color> Defense target.
+=For every <color=#f26c1c>2 instances</color> of Physical damage dealt, the next attack deals <color=#f26c1c>1</color> additional instance of fixed damage equal to (stacks of <color=#3487e0>{0}</color>)*<color=#f26c1c>5%</color> of attack.	Untuk setiap <color=#f26c1c>2 kali</color> Physical damage diberikan, serangan berikutnya memberikan <color=#f26c1c>1</color> kali tambahan fixed damage setara (stack <color=#3487e0>{0}</color>)*<color=#f26c1c>5%</color> Attack.
+=For AoE Physical damage, defense ignored is increased by <color=#f26c1c>5%</color>.	Untuk AoE Physical damage, Defense yang diabaikan bertambah sebesar <color=#f26c1c>5%</color>.
+=For AoE Physical damage, damage dealt is increased by <color=#f26c1c>10%</color>, and defense ignored is increased by <color=#f26c1c>10%</color>.	Untuk AoE Physical damage, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>, dan Defense yang diabaikan bertambah sebesar <color=#f26c1c>10%</color>.
+=When dealing melee damage, attacks ignore <color=#f26c1c>10%</color> of the target's defense.	Saat memberikan melee damage, serangannya mengabaikan <color=#f26c1c>10%</color> Defense target.
+=When dealing damage, if the target has no Electric debuffs, damage dealt is reduced.	Saat memberikan damage, jika target tidak memiliki debuff Electric, damage yang diberikan berkurang.
+=When dealing damage, if the enemy target has no debuffs, attack is further reduced by <color=#f26c1c>20%</color>.	Saat memberikan damage, jika target musuh tidak memiliki debuff, Attack berkurang lagi <color=#f26c1c>20%</color>.
+=When dealing damage, If there are <color=#f26c1c>3 or fewer</color> enemy units on the battlefield with an <color=#3487e0>{0}</color> of less than <color=#f26c1c>50%</color>, the damage multiplier is increased to <color=#f26c1c>380%</color>.	Saat memberikan damage, Jika ada <color=#f26c1c>3 atau kurang</color> unit musuh di medan tempur dengan <color=#3487e0>{0}</color> di bawah <color=#f26c1c>50%</color>, damage multiplier naik menjadi <color=#f26c1c>380%</color>.
+=Damage dealt to elite units  is increased by <color=#f26c1c>20%</color>.	Damage ke unit elite meningkat sebesar <color=#f26c1c>20%</color>.
+=When an enemy target's HP is lower than <color=#f26c1c>40%</color>, damage dealt is increased by <color=#f26c1c>10%</color>.	Saat HP target musuh di bawah <color=#f26c1c>40%</color>, damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>.
+=At the start of the turn, attack is increased by <color=#f26c1c>3%</color>.	Di awal giliran, Attack meningkat sebesar <color=#f26c1c>3%</color>.
+=At the start of the turn, defense is increased by <color=#f26c1c>3%</color>.	Di awal giliran, Defense meningkat sebesar <color=#f26c1c>3%</color>.
+=Damage dealt to targets with Burn or Freeze debuffs is increased by <color=#f26c1c>2.5%</color>.	Damage ke target yang memiliki debuff Burn atau Freeze meningkat sebesar <color=#f26c1c>2.5%</color>.
+=If the target has <color=#3487e0>{1}</color>, the attack ignores <color=#f26c1c>50%</color> of the target's defense	Jika target memiliki <color=#3487e0>{1}</color>, serangan ini mengabaikan <color=#f26c1c>50%</color> Defense target
+=When attacked by an enemy, for <color=#f26c1c>each</color> debuff on the attacker, damage taken is reduced by <color=#f26c1c>5%</color>, to a maximum reduction of <color=#f26c1c>50%</color>.	Saat diserang musuh, untuk <color=#f26c1c>setiap</color> debuff pada penyerangnya, damage yang diterima berkurang sebesar <color=#f26c1c>5%</color>, maksimal turun sebesar <color=#f26c1c>50%</color>.
+=Enemy targets within <color=#f26c1c>5 tiles</color> takes <color=#f26c1c>1 point</color> of increased stability damage when directly attacked.	Target musuh <color=#f26c1c>dalam 5 tile</color> menerima tambahan <color=#f26c1c>1 poin</color> Stability damage saat diserang langsung.
+=Enemy targets within <color=#f26c1c>5 tiles</color> takes increased stability damage when directly attacked.	Target musuh <color=#f26c1c>dalam 5 tile</color> menerima tambahan Stability damage saat diserang langsung.
+
+# --- summon & debuff ---
+=When an enemy unit with <color=#3487e0>{0}</color> dies, applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color> to all enemy units and applies an additional <color=#f26c1c>1 stack</color> to Boss units.	Saat unit musuh yang memiliki <color=#3487e0>{0}</color> mati, menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color> ke semua unit musuh dan menerapkan tambahan <color=#f26c1c>1 stack</color> ke unit Boss.
+=For <color=#f26c1c>each</color> debuff on the target, damage dealt by <color=#3487e0>{0}</color>'s summons is increased by <color=#f26c1c>5%</color>, to a maximum increase of <color=#f26c1c>25%</color>.	Untuk <color=#f26c1c>setiap</color> debuff pada target, damage yang diberikan summon <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>5%</color>, maksimal naik sebesar <color=#f26c1c>25%</color>.
+=For <color=#f26c1c>each</color> debuff on the target, damage dealt by <color=#3487e0>{0}</color>'s summons is increased by <color=#f26c1c>8%</color>, to a maximum increase of <color=#f26c1c>40%</color>.	Untuk <color=#f26c1c>setiap</color> debuff pada target, damage yang diberikan summon <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>8%</color>, maksimal naik sebesar <color=#f26c1c>40%</color>.
+=After <color=#3487e0>{0}</color>'s summons attack, Corrosion Damage taken during this turn is increased by <color=#f26c1c>25%</color>.	Setelah summon <color=#3487e0>{0}</color> menyerang, Corrosion Damage yang diterima pada giliran ini meningkat sebesar <color=#f26c1c>25%</color>.
+=For <color=#f26c1c>each</color> debuff on the target, Corrosion Damage dealt is increased by <color=#f26c1c>3%</color>, to a maximum increase of <color=#f26c1c>15%</color>.	Untuk <color=#f26c1c>setiap</color> debuff pada target, Corrosion Damage yang diberikan meningkat sebesar <color=#f26c1c>3%</color>, maksimal naik sebesar <color=#f26c1c>15%</color>.
+=For <color=#f26c1c>each</color> debuff on the target, Corrosion Damage dealt is increased by <color=#f26c1c>5%</color> and critical rate is increased by <color=#f26c1c>5%</color>, to a maximum increase of <color=#f26c1c>25%</color>.	Untuk <color=#f26c1c>setiap</color> debuff pada target, Corrosion Damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color> dan Critical Rate meningkat sebesar <color=#f26c1c>5%</color>, maksimal naik sebesar <color=#f26c1c>25%</color>.
+=Damage dealt by <color=#3487e0>{0}</color> is changed to <color=#e67129>Burn damage</color>.	Damage yang diberikan <color=#3487e0>{0}</color> diubah jadi <color=#e67129>Burn damage</color>.
+=The attack, defense and Max HP of <color=#3487e0>{0}</color> is increased by <color=#f26c1c>5%</color> for <color=#f26c1c>each</color> treasure acquired.	Serangan, Defense dan Max HP <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>5%</color> untuk <color=#f26c1c>setiap</color> harta yang didapat.
+
+# --- spesifik karakter ---
+=If the first enemy target to deal damage to the user this turn is in Cover, launches <color=#f26c1c> 1 </color> instance of <color=#3487e0>Unstable Combustible</color> towards that target at the start of the next turn.	Jika target musuh pertama yang memberi damage ke pengguna pada giliran ini sedang di Cover, melancarkan <color=#f26c1c> 1 </color> kali <color=#3487e0>Unstable Combustible</color> ke target itu di awal giliran berikutnya.
+=At the start of Oljefat's turn, they will assess the first enemy target that attacked them in the previous turn.	Di awal giliran Oljefat, mereka akan menilai target musuh pertama yang menyerang mereka pada giliran sebelumnya.
+=At the start of the action, if the user has <color=#3487e0>Frenzy</color>, randomly targets 1 enemy target with Burn weakness and applies <color=#3487e0>Volatile Combustion</color>.	Di awal aksi, jika pengguna memiliki <color=#3487e0>Frenzy</color>, menyasar 1 target musuh berkelemahan Burn secara acak lalu menerapkan <color=#3487e0>Volatile Combustion</color>.
+=If the unit is under the effects of <color=#3487e0>Frenzy</color>, randomly targets 1 enemy target with Burn weakness and applies <color=#3487e0>Volatile Combustion</color>.	Jika unit ini sedang terkena efek <color=#3487e0>Frenzy</color>, menyasar 1 target musuh berkelemahan Burn secara acak lalu menerapkan <color=#3487e0>Volatile Combustion</color>.
+=At the end of the action, if this unit is within <color=#f26c1c>6 tiles</color> of Bellator 137, gains <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Di akhir aksi, jika unit ini berada <color=#f26c1c>dalam 6 tile</color> dari Bellator 137, mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=At the end of action, if this unit is within <color=#f26c1c>3 tiles</color> of Bellator 212, gains <color=#3487e0>{0}</color>.	Di akhir aksi, jika unit ini berada <color=#f26c1c>dalam 3 tile</color> dari Bellator 212, mendapatkan <color=#3487e0>{0}</color>.
+=At the end of action, if this unit is within <color=#f26c1c>3 tiles</color> of Bellator 212, gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 turn</color>.	Di akhir aksi, jika unit ini berada <color=#f26c1c>dalam 3 tile</color> dari Bellator 212, mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 giliran</color>.
+=Increases Combat Robot’s HP by 30%	Menambah HP Combat Robot sebesar 30%
+
+# --- teks internal ---
+=Basic Attack Weakness Penalty	Penalti Kelemahan Basic Attack
+=Basic Attack Cover Penalty	Penalti Cover Basic Attack
+=Change "Select Enemy Target" to "Select Tile"	Ubah "Select Enemy Target" jadi "Select Tile"
+=At the start of the turn, the character with this skill gains a stability buff	Di awal giliran, karakter pemilik skill ini mendapatkan buff Stability
+=Upon action completion, the character with this skill gains a stability buff.	Saat aksi selesai, karakter pemilik skill ini mendapatkan buff Stability.
+=Reduce remaining stock by 50% #10040701	Kurangi sisa stok sebesar 50% #10040701
+=Original Battle Mech 2 Graze Check	Cek Graze Battle Mech 2 Asli

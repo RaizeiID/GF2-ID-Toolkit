@@ -1,0 +1,71 @@
+# Panel event gelombang 6 — banner permanen & pemula:
+#   Standard Procurement (banner permanen, paling sering dilihat pemain),
+#   Initial Procurement (eksklusif Komandan baru),
+#   dan varian Standard Procurement dengan pemilihan rate-up.
+#range 0 125000
+
+# --- judul bagian varian ---
+=- Elite Doll and Weapon Drop Rate Details:	- Detail Drop Rate Elite Doll dan Weapon:
+=-Elite Doll and Weapon Drop Rate Details	-Detail Drop Rate Elite Doll dan Weapon
+=-Standard Doll and Weapon Drop Rate Details	-Detail Drop Rate Doll dan Senjata Standard
+=- Access Detailed Rules	- Aturan Access Rinci
+=-Rate-up Selection Details	-Detail Pemilihan Rate-up
+
+# ============ Standard Procurement (banner permanen) ============
+=<color=#32434a><b>Standard Procurement</b> is a permanent access option</color>.	<color=#32434a><b>Standard Procurement</b> adalah opsi access permanen</color>.
+=In this banner, the base drop rate for Elite Dolls and Weapons is <color=#EDA51C>{0}</color>.	Di banner ini, drop rate dasar Elite Doll dan Weapon adalah <color=#EDA51C>{0}</color>.
+=In this banner, the base drop rate for Elite Dolls and Weapons is <color=#EDA51C>[VAL1]</color>.	Di banner ini, drop rate dasar Elite Doll dan Weapon adalah <color=#EDA51C>[VAL1]</color>.
+=The base drop rate for obtaining an Elite Doll is <color=#EDA51C>0.3%{1}</color>, and the base drop rate for obtaining an Elite Weapon is <color=#EDA51C>0.3%{2}</color>.	Drop rate dasar mendapat Elite Doll adalah <color=#EDA51C>0.3%{1}</color>, dan drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>0.3%{2}</color>.
+=The base drop rate for obtaining an Elite Doll is <color=#EDA51C>[VAL2]</color>, and the base drop rate for obtaining an Elite Weapon is <color=#EDA51C>[VAL3]</color>.	Drop rate dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL2]</color>, dan drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL3]</color>.
+=The overall drop rate of obtaining an Elite Doll or Weapon (including guaranteed pulls) is <color=#EDA51C>{3}</color>.	Drop rate keseluruhan mendapat Elite Doll atau Weapon (termasuk pull jaminan) adalah <color=#EDA51C>{3}</color>.
+=The overall drop rate of obtaining an Elite Doll or Weapon (including guaranteed pulls) is <color=#EDA51C>[VAL4]</color>.	Drop rate keseluruhan mendapat Elite Doll atau Weapon (termasuk pull jaminan) adalah <color=#EDA51C>[VAL4]</color>.
+=In this banner, the base drop rate for Standard Dolls and Weapons is <color=#AC65E8>{4}</color>.	Di banner ini, drop rate dasar Doll dan Weapon standar adalah <color=#AC65E8>{4}</color>.
+=In this banner, the base drop rate for Standard Dolls and Weapons is <color=#AC65E8>[VAL5]</color>.	Di banner ini, drop rate dasar Doll dan Weapon standar adalah <color=#AC65E8>[VAL5]</color>.
+=The base drop rate for obtaining a Standard Doll is <color=#AC65E8>{5}</color>, and the base drop rate for obtaining a Standard Weapon is <color=#AC65E8>{6}</color>.	Drop rate dasar mendapat Standard Doll adalah <color=#AC65E8>{5}</color>, dan drop rate dasar mendapat Standard Weapon adalah <color=#AC65E8>{6}</color>.
+=The base drop rate for obtaining a Standard Doll is <color=#AC65E8>[VAL6]</color>, and the base drop rate for obtaining a Standard Weapon is <color=#AC65E8>[VAL7]</color>.	Drop rate dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL6]</color>, dan drop rate dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL7]</color>.
+=The overall drop rate of obtaining a Standard Doll or Weapon (including guaranteed accesses) is <color=#AC65E8>{7}</color>.	Drop rate keseluruhan mendapat Standard Doll atau Weapon (termasuk access jaminan) adalah <color=#AC65E8>{7}</color>.
+=The overall drop rate of obtaining a Standard Doll or Weapon (including guaranteed accesses) is <color=#AC65E8>[VAL8]</color>.	Drop rate keseluruhan mendapat Standard Doll atau Weapon (termasuk access jaminan) adalah <color=#AC65E8>[VAL8]</color>.
+=The overall drop rate of obtaining a Standard Doll or Weapon (including guaranteed accesses) is <color=#AC65E8>[VAL6]</color>.	Drop rate keseluruhan mendapat Standard Doll atau Weapon (termasuk access jaminan) adalah <color=#AC65E8>[VAL6]</color>.
+=In this banner, every 10 accesses guarantees a Standard or Elite Doll or Weapon.	Di banner ini, tiap 10 access dijamin mendapat Doll atau Weapon standar maupun Elite.
+=In this banner, if 58 consecutive accesses do not yield an Elite Doll or Weapon, the drop rate of obtaining an Elite Doll or Weapon will increase until an Elite Doll or Weapon is obtained within 80 accesses.	Di banner ini, kalau 58 access berturut-turut tidak menghasilkan Elite Doll atau Weapon, drop rate-nya akan naik sampai Elite Doll atau Weapon didapat dalam 80 access.
+=In this banner, if 58 consecutive accesses do not yield an Elite Doll or Weapon, the drop rate of obtaining an Elite Doll or Weapon will increase.	Di banner ini, kalau 58 access berturut-turut tidak menghasilkan Elite Doll atau Weapon, drop rate-nya akan naik.
+=The probability increases by <color=#EDA51C>[VAL17]</color> for the next access and continues increasing by the same amount for every access thereafter, until an Elite Doll or Weapon is obtained within 80 accesses.	Probabilitasnya naik <color=#EDA51C>[VAL17]</color> untuk access berikutnya dan terus naik dengan jumlah sama untuk tiap access setelahnya, sampai Elite Doll atau Weapon didapat dalam 80 access.
+=Once an Elite Doll or Weapon is obtained, the counter resets, and the drop rate returns to its base value.	Begitu Elite Doll atau Weapon didapat, hitungannya direset dan drop rate-nya kembali ke nilai dasar.
+=The guaranteed counter for this banner will always accumulate and is independent of other banners.	Hitungan jaminan banner ini selalu terakumulasi dan terpisah dari banner lain.
+
+# --- pemilihan rate-up ---
+=In this banner, once a rate-up item is selected, there is a 50% chance that any obtained Elite Doll or Elite Weapon will be the selected target.	Di banner ini, begitu item rate-up dipilih, ada peluang 50% bahwa Elite Doll atau Elite Weapon yang didapat adalah target pilihanmu.
+=(The probability of obtaining the rate-up item is 50% and the probability of not obtaining it is also 50%, until the rate-up item is obtained.)	(Probabilitas mendapat item rate-up adalah 50% dan probabilitas tidak mendapatkannya juga 50%, sampai item rate-up itu didapat.)
+=If the obtained Elite Doll or Elite Weapon is not the current selected rate-up item, the next Elite Doll or Elite Weapon will definitely be the selected one.	Kalau Elite Doll atau Elite Weapon yang didapat bukan item rate-up yang dipilih, Elite Doll atau Elite Weapon berikutnya dipastikan yang dipilih.
+=If no rate-up item is selected, the above rules will not apply.	Kalau tidak ada item rate-up yang dipilih, aturan di atas tidak berlaku.
+
+# ============ Initial Procurement (Komandan baru) ============
+=<color=#32434a><b>Initial Procurement</b> is an exclusive access for new Commanders.</color>	<color=#32434a><b>Initial Procurement</b> adalah access eksklusif untuk Komandan baru.</color>
+=In this banner, the base drop rate for obtaining an Elite Doll is <color=#EDA51C>[VAL1]</color>, with a total drop rate (including guaranteed accesses) of <color=#EDA51C>[VAL2]</color> for Elite Dolls.	Di banner ini, drop rate dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL1]</color>, dengan total drop rate (termasuk access jaminan) <color=#EDA51C>[VAL2]</color> untuk Elite Doll.
+=In this banner, the base drop rate for obtaining a Standard Doll or Weapon is <color=#AC65E8>[VAL3]</color>.	Di banner ini, drop rate dasar mendapat Standard Doll atau Weapon adalah <color=#AC65E8>[VAL3]</color>.
+=The base drop rate for obtaining a Standard Doll is <color=#AC65E8>[VAL4]</color>, and the base drop rate for obtaining a Standard Weapon is <color=#AC65E8>[VAL5]</color>.	Drop rate dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL4]</color>, dan drop rate dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL5]</color>.
+=In this banner, every 10 accesses guarantees one of the following: a Standard Doll, an Elite Doll, or a Standard Weapon.	Di banner ini, tiap 10 access dijamin mendapat salah satu dari: Standard Doll, Elite Doll, atau Standard Weapon.
+=In this banner, if an Elite Doll is not obtained within 49 consecutive accesses, the 50th access is guaranteed to yield an Elite Doll.	Di banner ini, kalau Elite Doll tidak didapat dalam 49 access berturut-turut, access ke-50 dijamin memberi Elite Doll.
+=If an Elite Doll is obtained earlier, the 50th access is not guaranteed to yield an Elite Doll.	Kalau Elite Doll sudah didapat lebih awal, access ke-50 tidak lagi menjamin Elite Doll.
+=The guarantee count for this banner will always accumulate and is independent of other banners.	Hitungan jaminan banner ini selalu terakumulasi dan terpisah dari banner lain.
+
+# --- bonus & konversi (bentuk pasif) ---
+=In this banner, each time a Retired Weapon is obtained, an additional 2 Withdrawal Receipts are awarded.	Di banner ini, tiap kali Retired Weapon didapat, diberikan tambahan 2 Withdrawal Receipts.
+=Each time a Standard Doll or Weapon is obtained, an additional 12 Redundant Pieces are awarded.	Tiap kali Standard Doll atau Weapon didapat, diberikan tambahan 12 Redundant Pieces.
+=Each time an Elite Doll or Weapon is obtained, an additional 60 Redundant Pieces are awarded.	Tiap kali Elite Doll atau Weapon didapat, diberikan tambahan 60 Redundant Pieces.
+=When obtaining duplicate Standard Dolls, the 2nd to 7th time will be converted into 30 Neural Archives for the respective Doll.	Saat mendapat Standard Doll ganda, perolehan ke-2 sampai ke-7 dikonversi jadi 30 Neural Archives untuk Doll terkait.
+=When obtaining duplicate Elite Dolls, the 2nd to 7th time will be converted into 30 Neural Archives for the respective Doll.	Saat mendapat Elite Doll ganda, perolehan ke-2 sampai ke-7 dikonversi jadi 30 Neural Archives untuk Doll terkait.
+=From the 8th time onward, they will be converted into 18 Redundant Pieces.	Mulai perolehan ke-8, dikonversi jadi 18 Redundant Pieces.
+=From the 8th time onward, they will be converted into 90 Redundant Pieces.	Mulai perolehan ke-8, dikonversi jadi 90 Redundant Pieces.
+
+# --- rincian per-tipe ---
+=The base drop rate for obtaining an Elite Doll is <color=#EDA51C>[VAL2]</color>.	Drop rate dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL2]</color>.
+=The base drop rate for obtaining an Elite Weapon is <color=#EDA51C>[VAL3]</color>.	Drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL3]</color>.
+=The base drop rate for obtaining a Standard Doll is <color=#AC65E8>[VAL6]</color>.	Drop rate dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL6]</color>.
+=The base drop rate for obtaining a Standard Weapon is <color=#AC65E8>[VAL7]</color>.	Drop rate dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL7]</color>.
+=The probability of obtaining each Elite Doll is the same.	Probabilitas mendapat tiap Elite Doll adalah sama.
+=The probability of obtaining each Standard Doll is the same.	Probabilitas mendapat tiap Standard Doll adalah sama.
+=The base probability of obtaining an Elite Doll is <color=#EDA51C>[VAL9]</color> (with a total combined probability of <color=#EDA51C>[VAL10]</color> after including the guarantee).	Probabilitas dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL9]</color> (dengan total probabilitas gabungan <color=#EDA51C>[VAL10]</color> setelah menghitung jaminan).
+=The base probability of obtaining a Standard Doll is <color=#AC65E8>[VAL11]</color> (with a total combined probability of <color=#AC65E8>[VAL12]</color> after including the guarantee).	Probabilitas dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL11]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL12]</color> setelah menghitung jaminan).
+=The base probability of obtaining an Elite Weapon is <color=#EDA51C>[VAL13]</color> (with a total combined probability of <color=#EDA51C>[VAL14]</color> after including the guarantee).	Probabilitas dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL13]</color> (dengan total probabilitas gabungan <color=#EDA51C>[VAL14]</color> setelah menghitung jaminan).
+=The base probability of obtaining a standard Weapon is <color=#AC65E8>[VAL15]</color> (with a total combined probability of <color=#AC65E8>[VAL16]</color> after including the guarantee).	Probabilitas dasar mendapat senjata standar adalah <color=#AC65E8>[VAL15]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL16]</color> setelah menghitung jaminan).

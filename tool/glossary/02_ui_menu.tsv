@@ -1,0 +1,242 @@
+﻿# Batch 2 — label menu, status, dan pesan sistem (rentang UI 0-125000)
+# TIDAK diterjemahkan (sengaja dilewati): nama skill, nama mode/event, nama fasilitas,
+# nama kelas & organisasi, dan istilah gamer yang lazim Inggris
+# (Level, Auto, HP, Damage, Buff, Doll, Elite, Filter, Preset, Status, Online,
+#  Game Over, Milestone, Edit, Target, Total, Refit, Attachments, Plugins,
+#  Neural Helix, Soar Phase, Vanguard, Sentinel, Pathforger, dll).
+#range 0 125000
+
+# --- hasil & status pertempuran ---
+Victory	Menang
+Defeat	Kalah
+Draw	Seri
+Battle	Pertempuran
+Combat	Pertempuran
+Battle Failed	Pertempuran Gagal
+Battle Rewards	Hadiah Pertempuran
+Start Battle	Mulai Bertempur
+Restart Battle	Ulangi Pertempuran
+Combat Start	Tempur Dimulai
+Deploy Defense	Kerahkan Pertahanan
+Enemy	Musuh
+Ally	Sekutu
+Opposing Team	Tim Lawan
+Weakness	Kelemahan
+Range	Jangkauan
+Effectiveness	Efektivitas
+Damage Stats	Statistik Damage
+Current Buffs	Buff Saat Ini
+Formation	Formasi
+Round {0}	Ronde {0}
+Preceding battle not completed	Pertempuran sebelumnya belum selesai
+Evacuation Point has appeared	Titik evakuasi telah muncul
+Evacuation Successful	Evakuasi Berhasil
+
+# --- tantangan & skor ---
+Challenge Mode	Mode Tantangan
+Challenge Objectives	Tujuan Tantangan
+Challenge Completed	Tantangan Selesai
+Challenge Successful	Tantangan Berhasil
+Challenge Points	Poin Tantangan
+Challenge again	Tantang lagi
+Story Mode	Mode Cerita
+Current Score	Skor Saat Ini
+Total Score	Total Skor
+High Score	Skor Tertinggi
+Highest Record	Rekor Tertinggi
+Tactical Score	Skor Taktis
+Mood Score	Skor Mood
+Score Reward	Hadiah Skor
+Score for this round	Skor ronde ini
+Points	Poin
+Ranking	Peringkat
+Rankings	Peringkat
+Your Rank	Peringkat Anda
+Unranked	Tanpa Peringkat
+
+# --- aksi umum ---
+Back	Kembali
+Leave	Keluar
+Quit	Keluar
+Abandon	Tinggalkan
+Abort	Batalkan
+Retry	Coba Lagi
+Again	Lagi
+Repeat	Ulangi
+Begin	Mulai
+Buy	Beli
+Sell	Jual
+Equip	Pasang
+Install	Pasang
+Replace	Ganti
+Add	Tambah
+Adjust	Sesuaikan
+Compare	Bandingkan
+Expand	Perluas
+Expend	Pakai
+Refresh	Perbarui
+Rotate	Putar
+Share	Bagikan
+View	Lihat
+View Details	Lihat Detail
+View Rewards	Lihat Hadiah
+Select All	Pilih Semua
+Quick Select	Pilih Cepat
+Clear All	Hapus Semua
+Confirm Selection	Konfirmasi Pilihan
+Confirm Purchase	Konfirmasi Pembelian
+Claim Reward	Klaim Hadiah
+1-Click Claim	Klaim Sekali Klik
+Obtain Rewards	Dapatkan Hadiah
+Obtain immediately	Dapatkan langsung
+Obtain {0}	Dapatkan {0}
+Consume {0}	Konsumsi {0}
+
+# --- label & judul menu ---
+Shop	Toko
+Archive	Arsip
+Gallery	Galeri
+Memories	Kenangan
+Achievements	Pencapaian
+Backpack	Tas
+Progress	Progres
+Current Progress	Progres Saat Ini
+Reward Progress	Progres Hadiah
+Rewards	Hadiah
+Rewards:	Hadiah:
+Reward List	Daftar Hadiah
+Reward Preview	Pratinjau Hadiah
+Prize Preview	Pratinjau Hadiah
+Map Preview	Pratinjau Peta
+Upgrade Preview	Pratinjau Peningkatan
+Calibration Preview	Pratinjau Kalibrasi
+Calibration Rank	Peringkat Kalibrasi
+Calibration Successful	Kalibrasi Berhasil
+Stage Rewards	Hadiah Stage
+Clear Rewards	Hadiah Penuntasan
+First-Clear Reward	Hadiah Tuntas Pertama
+Survey	Survei
+Survey Rewards	Hadiah Survei
+Modification	Modifikasi
+Special Effects	Efek Khusus
+Experience	Pengalaman
+Expedition Experience	Pengalaman Ekspedisi
+Material Consumption	Konsumsi Material
+Collection Count	Jumlah Koleksi
+Quantity	Jumlah
+Cost	Biaya
+Source	Sumber
+Note	Catatan
+Type	Tipe
+Popularity	Popularitas
+Price Fluctuation	Fluktuasi Harga
+Supply Mode	Mode Suplai
+Supported Doll	Doll Didukung
+Total Support	Total Dukungan
+Commander	Komandan
+Commander Level {0}	Level Komandan {0}
+Recommended	Disarankan
+Recommended Level	Level Disarankan
+Recommended Level {0}	Level Disarankan {0}
+Number of Auto Battles	Jumlah Auto Battle
+Offense Victories	Kemenangan Menyerang
+Mission Completion Rate	Tingkat Penyelesaian Misi
+Platoon Performance	Performa Platoon
+Platoon Ranking	Peringkat Platoon
+Friend	Teman
+Add Friend	Tambah Teman
+Friend Requests	Permintaan Teman
+
+# --- status ---
+Max	Maks
+Basic	Dasar
+Rare	Langka
+Complete	Selesai
+Achieved	Tercapai
+Not Achieved	Belum Tercapai
+Not achieved	Belum tercapai
+Not Yet Achieved	Belum Tercapai
+Collected	Terkumpul
+Obtained	Didapat
+Not Owned	Belum Dimiliki
+Purchased	Sudah Dibeli
+Claimable	Bisa Diklaim
+Applied	Diterapkan
+Enabled	Aktif
+In Use	Sedang Dipakai
+Swapped	Ditukar
+Removed	Dilepas
+Empty	Kosong
+Full	Penuh
+None	Tidak Ada
+Unknown	Tidak Diketahui
+Ended	Berakhir
+Expired	Kedaluwarsa
+Left	Kiri
+Right	Kanan
+Yes	Ya
+No	Tidak
+Free	Gratis
+Coming Soon	Segera Hadir
+Stay tuned	Nantikan
+To Be Continued	Bersambung
+Not Connected	Tidak Terhubung
+Temporarily Away	Sedang Pergi
+Not In Platoon	Tidak Dalam Platoon
+Once Per Day	Sekali Sehari
+Random Events	Event Acak
+
+# --- pesan sistem ---
+Mission Completed	Misi Selesai
+Mission completed	Misi selesai
+Commission Completed	Komisi Selesai
+Dispatch successful	Pengiriman berhasil
+Change successful	Perubahan berhasil
+Sync successful	Sinkronisasi berhasil
+Successfully set	Berhasil diatur
+Succeed to craft	Berhasil dibuat
+Plan saved	Rencana tersimpan
+Reward claimed	Hadiah diklaim
+The reward has been claimed	Hadiah sudah diklaim
+Mail has expired	Surat sudah kedaluwarsa
+No messages	Tidak ada pesan
+Items Obtained	Item Didapat
+Character limit exceeded	Melebihi batas karakter
+Reached maximum limit	Sudah mencapai batas maksimum
+No Dolls available to select	Tidak ada Doll yang bisa dipilih
+No available acquisition method	Tidak ada cara perolehan
+Please enter a name	Masukkan nama
+Please select a Doll	Pilih Doll
+Please dispatch 2 Dolls	Kirim 2 Doll
+Input your message	Masukkan pesan Anda
+Click to continue	Klik untuk lanjut
+Disable automatic popup	Matikan popup otomatis
+Don't show this again today	Jangan tampilkan lagi hari ini
+A new season has begun	Musim baru telah dimulai
+Complete missions to collect	Selesaikan misi untuk mengumpulkan
+Complete the preceding stage	Selesaikan stage sebelumnya
+Claim via cumulative login	Klaim lewat login kumulatif
+Log in to receive	Login untuk menerima
+Login to Claim	Login untuk Klaim
+Login to claim	Login untuk klaim
+Claim Tomorrow	Klaim Besok
+
+# --- waktu & placeholder ---
+Remaining	Sisa
+Remaining Time	Sisa Waktu
+Refreshes in {0}	Diperbarui dalam {0}
+Refresh in {0}	Diperbarui dalam {0}
+Ends after {0}	Berakhir setelah {0}
+Expires after {0}	Kedaluwarsa setelah {0}
+Opens in {0} days	Buka dalam {0} hari
+Settlement	Penyelesaian
+Settlement in {0}	Penyelesaian dalam {0}
+{0} days remaining	Sisa {0} hari
+{0} Days Left	Sisa {0} Hari
+{0} Min {1} Sec	{0} Mnt {1} Dtk
+Stock {0}	Stok {0}
+Saved to {0}	Disimpan ke {0}
+Story {0}%	Cerita {0}%
+Insufficient {0}!	{0} tidak cukup!
+Limited-Time Acquisition: {0}	Perolehan Waktu Terbatas: {0}
+Unlocked after passing {0}	Terbuka setelah melewati {0}

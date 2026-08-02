@@ -1,0 +1,396 @@
+# Batch 3 — lanjutan UI: layar misi, ekspedisi, platoon, toko, pengaturan
+# Dilewati (sengaja): nama event & paket (Daybreak Twin Pack, Gilded Banquet, ElmoMart,
+#   Glittering Starwish, Outfit - Silent Heart, ...), nama fasilitas & lokasi (Safehouse,
+#   Dormitory, Storeroom, Trading Post, Dark Zone, Iliad, Polyarnya Roza, ...),
+#   nama elemen/mekanik (Hydro, Electric, Physical, Corrosion, Shield, Clash, Combo,
+#   Resonance, Covenant, Pulse Point), tier rarity (Common, Uncommon), mata uang &
+#   item (Cipher Points, Sardis Gold, Intelligence Puzzles, Curios, Sundries),
+#   dan istilah gamer (EXP, Cooldown, Critical Rate, Critical Damage, Rate of Fire,
+#   Skin, Slot, Intel, Tips, Outfit, Event, UID, T2/T3/T4).
+# Baris dialog karakter juga dilewati — itu bagian cerita, bukan UI.
+#range 0 125000
+
+# --- misi & objektif ---
+Mission Complete	Misi Selesai
+Mission Failed	Misi Gagal
+Mission Rewards	Hadiah Misi
+Mission Score	Skor Misi
+Mission Achievements	Pencapaian Misi
+Mission Objectives {0}/{1}	Tujuan Misi {0}/{1}
+Hide Mission Record	Sembunyikan Catatan Misi
+Purchasing Mission	Misi Pembelian
+Operation Completed	Operasi Selesai
+Completion Time	Waktu Penyelesaian
+Clear Duration	Durasi Penuntasan
+Cleared	Tuntas
+Passed	Lulus
+Failed	Gagal
+Perfect	Sempurna
+Excellent	Luar Biasa
+Rookie	Pemula
+Medium	Sedang
+Heroic	Heroik
+Hero Difficulty	Tingkat Hero
+Select Difficulty	Pilih Kesulitan
+Meet conditions to unlock	Penuhi syarat untuk membuka
+Complete previous stages to unlock	Selesaikan stage sebelumnya untuk membuka
+Stage Information	Informasi Stage
+Stage Mechanics	Mekanik Stage
+Choose Campaign	Pilih Kampanye
+
+# --- pertempuran ---
+Exit Battle	Keluar Pertempuran
+Do you wish to exit this battle?	Mau keluar dari pertempuran ini?
+Next Battle	Pertempuran Berikutnya
+Standard Battle	Pertempuran Standar
+In Combat	Dalam Pertempuran
+Combat Report	Laporan Tempur
+Combat Support	Dukungan Tempur
+Enemy Action	Aksi Musuh
+Enemy Turn Begins	Giliran Musuh Dimulai
+Enemy Unit	Unit Musuh
+Our Action	Aksi Kita
+Opponent goes first	Lawan bergerak duluan
+Enemies Eliminated	Musuh Dikalahkan
+Defeated	Kalah
+Damage Taken	Damage Diterima
+Highest Damage	Damage Tertinggi
+Remaining Ammo	Sisa Amunisi
+Initial Energy	Energi Awal
+Stability Regen	Regen Stabilitas
+Turn	Giliran
+Moves	Gerakan
+Shooting	Tembak
+Fight	Bertarung
+Emergency Retreat	Mundur Darurat
+Evacuated	Dievakuasi
+Defense Failed	Pertahanan Gagal
+Defense Successful	Pertahanan Berhasil
+The Boss Fight has concluded	Pertarungan Boss telah selesai
+The defense system was triggered.	Sistem pertahanan aktif.
+Succeeded to open the gate	Berhasil membuka gerbang
+Next Phase	Fase Berikutnya
+Phase {0}	Fase {0}
+Occupying Party	Pihak Penguasa
+Peripheral Battlefield	Medan Perang Pinggiran
+Terrain Expansion	Perluasan Medan
+Tactical Aims	Sasaran Taktis
+Select One Tactic	Pilih Satu Taktik
+
+# --- Doll & perlengkapan ---
+Doll Details	Detail Doll
+Doll Stats	Statistik Doll
+Doll Affinity	Afinitas Doll
+Doll Not Registered	Doll Belum Terdaftar
+Doll not registered	Doll belum terdaftar
+Doll deployments restored	Pengerahan Doll dipulihkan
+Deploy Doll	Kerahkan Doll
+Deploy Cost	Biaya Pengerahan
+Deploy at least one Doll	Kerahkan setidaknya satu Doll
+Deployment	Pengerahan
+Select Dolls	Pilih Doll
+Select a Doll	Pilih Doll
+Select a Weapon	Pilih Senjata
+Select Stat Array	Pilih Susunan Stat
+Recommended Dolls	Doll Disarankan
+Support Doll	Doll Dukungan
+Raise Doll	Kembangkan Doll
+Echelon Line-up	Susunan Eselon
+Formation Backup	Cadangan Formasi
+Current Equipment	Perlengkapan Saat Ini
+Equip Status	Status Perlengkapan
+Not Equipped	Belum Terpasang
+Elite Weapon	Senjata Elite
+Standard Weapon	Senjata Standar
+Retired Weapons	Senjata Pensiun
+Skin Replacement	Ganti Skin
+Set Effects	Efek Set
+Passive Support Skill	Skill Dukungan Pasif
+Talent Overview	Ringkasan Talenta
+Growth Speed	Kecepatan Pertumbuhan
+Recovery Level	Level Pemulihan
+Mood Level	Level Mood
+Level Cap	Batas Level
+Expected Training Level	Perkiraan Level Latihan
+Enhancement	Peningkatan
+Enhancement preview	Pratinjau peningkatan
+Special Enhancements	Peningkatan Khusus
+Current Modification	Modifikasi Saat Ini
+Modification Level:	Level Modifikasi:
+Not Calibrated	Belum Dikalibrasi
+Targeted Adjustments	Penyesuaian Tertarget
+Dismantle	Bongkar
+Obtained After Disassembly:	Didapat Setelah Pembongkaran:
+
+# --- ekspedisi, survei, pengiriman ---
+Explore	Jelajahi
+Exploration Level	Level Eksplorasi
+Exploration Level:	Level Eksplorasi:
+Exploration Successful	Eksplorasi Berhasil
+Exploration successful	Eksplorasi berhasil
+Items obtained from exploration	Item didapat dari eksplorasi
+End Expedition	Akhiri Ekspedisi
+Expedition Rewards	Hadiah Ekspedisi
+Expedition Support	Dukungan Ekspedisi
+Expedition Experience Gained	Pengalaman Ekspedisi Didapat
+Surveying	Sedang Survei
+Survey Completed	Survei Selesai
+This Doll is currently surveying	Doll ini sedang survei
+Dispatch	Pengiriman
+Dispatch Assessment	Penilaian Pengiriman
+Dispatch Income	Pendapatan Pengiriman
+Current Area	Area Saat Ini
+Estimated Progress	Perkiraan Progres
+Rest and resupply	Istirahat dan isi ulang
+Retrieve Supplies	Ambil Suplai
+Supervising Doll Creation	Mengawasi Pembuatan Doll
+
+# --- platoon & sosial ---
+Register Platoon	Daftarkan Platoon
+Platoon Declaration	Deklarasi Platoon
+Platoon Records	Rekaman Platoon
+Platoon Rewards	Hadiah Platoon
+Platoon Tag	Tag Platoon
+Friends	Teman
+My Friend	Teman Saya
+Friend List	Daftar Teman
+Friend Leaderboard	Papan Peringkat Teman
+Invite Friends	Undang Teman
+Members	Anggota
+Team	Tim
+Team Details	Detail Tim
+Individual Performance	Performa Individu
+Reputation	Reputasi
+Leaderboard is empty	Papan peringkat kosong
+The leaderboard is currently empty	Papan peringkat sedang kosong
+Leaderboard refresh may be delayed	Pembaruan papan peringkat mungkin tertunda
+Ranking Reward	Hadiah Peringkat
+Support Her	Dukung Dia
+Support Rewards	Hadiah Dukungan
+Support Settings	Pengaturan Dukungan
+Support Successful	Dukungan Berhasil
+Currently Supporting	Sedang Mendukung
+
+# --- toko & hadiah ---
+Sort by Price	Urutkan per Harga
+Today's Price	Harga Hari Ini
+Purchase Level	Level Pembelian
+Purchase Successful!	Pembelian Berhasil!
+Purchase limit reached	Batas pembelian tercapai
+Unable to purchase	Tidak bisa dibeli
+Currently Purchasing	Sedang Membeli
+Craft All	Buat Semua
+Produce	Produksi
+Package Details	Detail Paket
+Probability	Probabilitas
+Probability Disclosure	Pengungkapan Probabilitas
+Grand Prize Preview	Pratinjau Hadiah Utama
+Reward Obtained	Hadiah Diterima
+Reward Overview	Ringkasan Hadiah
+Reward Gift Repository	Gudang Hadiah
+Reward acquisition limit reached	Batas perolehan hadiah tercapai
+Rewards Available	Hadiah Tersedia
+Current Rewards	Hadiah Saat Ini
+Exclusive Rewards	Hadiah Eksklusif
+Improved Rewards	Hadiah Ditingkatkan
+Performance Rewards	Hadiah Performa
+Reactivation Rewards	Hadiah Reaktivasi
+Daily Activity Rewards	Hadiah Aktivitas Harian
+Increased Supply Mission Rewards	Hadiah Misi Suplai Ditingkatkan
+First Clear Reward	Hadiah Tuntas Pertama
+Obtain Item	Dapatkan Item
+Obtain through Login Event	Dapatkan lewat Event Login
+Proceed to Gifting	Lanjut ke Pemberian Hadiah
+Proceed to Unlock	Lanjut untuk Membuka
+Currently Owned:	Dimiliki Saat Ini:
+Items Collected	Item Terkumpul
+Storage Box	Kotak Penyimpanan
+Store Items	Simpan Item
+Exchange successful	Penukaran berhasil
+Swap Successful	Penukaran Berhasil
+Promotion Successful	Promosi Berhasil
+Purification Complete	Pemurnian Selesai
+Not Enough Materials	Material Tidak Cukup
+Insufficient items	Item tidak cukup
+Insufficient resources	Sumber daya tidak cukup
+Not enough credits	Kredit tidak cukup
+Insufficient {0}, unable to open	{0} tidak cukup, tidak bisa dibuka
+Stat maximum reached	Stat sudah maksimum
+Maximum selected	Pilihan sudah maksimum
+
+# --- catatan & progres ---
+Journey Logs	Catatan Perjalanan
+Journey Records	Rekaman Perjalanan
+Open Record	Buka Catatan
+No Record	Tidak Ada Catatan
+No records	Tidak ada catatan
+New Record!	Rekor Baru!
+Recollection Score	Skor Kenangan
+Collection Progress	Progres Koleksi
+Progress Detail	Detail Progres
+Progress:	Progres:
+Progress: {0}%	Progres: {0}%
+Current Points: {0}	Poin Saat Ini: {0}
+Highest Score: {0}	Skor Tertinggi: {0}
+Maximum Challenge Points	Poin Tantangan Maksimum
+Number of Attempts	Jumlah Percobaan
+Highest Grade	Tingkat Tertinggi
+Grade	Tingkat
+Rating	Penilaian
+Rating improved	Penilaian meningkat
+Graded Auto Mode	Mode Auto Bertingkat
+Seasonal Bonus	Bonus Musiman
+New Season	Musim Baru
+Settlement by season	Penyelesaian per musim
+Reset Plan	Atur Ulang Rencana
+Reset Progress	Atur Ulang Progres
+Reset in {0}	Atur ulang dalam {0}
+Plan {0}	Rencana {0}
+Returnee Plan	Rencana Kembali
+Returnee Record	Catatan Kembali
+
+# --- event & waktu ---
+Event Details	Detail Event
+Event Review	Tinjauan Event
+Event has ended	Event telah berakhir
+Event not started	Event belum dimulai
+Past Events	Event Lampau
+Sudden Event	Event Mendadak
+Time-Limited Events	Event Waktu Terbatas
+Go to Event Floor	Ke Lantai Event
+Enter Soirée	Masuk Soirée
+Soirée in Progress	Soirée Berlangsung
+Coming soon	Segera hadir
+Permanenetly Open	Terbuka Permanen
+Time Remaining	Sisa Waktu
+Ends in {0} days	Berakhir dalam {0} hari
+Ends in {0} days {1} hours	Berakhir dalam {0} hari {1} jam
+Ends in {0}d {1}h	Berakhir dalam {0}h {1}j
+Opens in {0} days and {0} hours	Buka dalam {0} hari {0} jam
+Joint Action Expired	Aksi Gabungan Kedaluwarsa
+Daily Commission	Komisi Harian
+Daily Patrol	Patroli Harian
+Patrol Benchmarks	Tolok Ukur Patroli
+Patrol Encounter	Perjumpaan Patroli
+Friday	Jumat
+Saturday	Sabtu
+Sunday	Minggu
+Thursday	Kamis
+
+# --- pengaturan & sistem ---
+System Settings	Pengaturan Sistem
+System Guide	Panduan Sistem
+Setting	Pengaturan
+Music Volume	Volume Musik
+Sound Effects Volume	Volume Efek Suara
+Display	Tampilan
+Loading	Memuat
+Reconnecting	Menyambung ulang
+Save Successful	Penyimpanan Berhasil
+Save successful	Penyimpanan berhasil
+Save and sync successful	Simpan dan sinkronisasi berhasil
+Set Successful	Berhasil Diatur
+Refresh successful	Pembaruan berhasil
+Successfully refreshed!	Berhasil diperbarui!
+Successfully retrieved	Berhasil diambil
+Submission successful	Pengajuan berhasil
+Share successful	Berbagi berhasil
+Deletion successful	Penghapusan berhasil
+Import complete	Impor selesai
+Compatibility Success	Kompatibilitas Berhasil
+Status information not available	Informasi status tidak tersedia
+Image saved to System Album	Gambar disimpan ke Album Sistem
+Maximum number of photos reached	Jumlah foto sudah maksimum
+Please enter text	Masukkan teks
+Please enter your redeem code	Masukkan kode redeem
+Do Not Auto-Popup	Jangan Popup Otomatis
+Leave For Now	Tinggalkan Dulu
+Leave Game	Keluar Permainan
+Continue Game	Lanjutkan Permainan
+Confirm Rewind	Konfirmasi Putar Ulang
+
+# --- label umum ---
+Name	Nama
+Description	Deskripsi
+Overview	Ringkasan
+More	Lainnya
+Other	Lain-lain
+Order	Urutan
+Region	Wilayah
+Map	Peta
+Log	Catatan
+Diary	Buku Harian
+Class	Kelas
+Size	Ukuran
+Part 1	Bagian 1
+Part 2	Bagian 2
+Supplies {0}%	Suplai {0}%
+Supply {0}%	Suplai {0}%
+Double	Ganda
+Own	Miliki
+Items	Item
+Communication	Komunikasi
+Livability	Kenyamanan
+Furnitures	Furnitur
+Furniture Shop	Toko Furnitur
+Furniture Layout	Tata Letak Furnitur
+Ornament Layout	Tata Letak Ornamen
+Plugin Gallery	Galeri Plugin
+Rotation Preview	Pratinjau Rotasi
+Rehearsal Preview	Pratinjau Latihan
+Female	Perempuan
+Male	Laki-laki
+My position	Posisi saya
+Mark as Favorite	Tandai Favorit
+Special Guests	Tamu Spesial
+Rewards for current Drill	Hadiah Latihan saat ini
+Simulated Training Scenario	Skenario Latihan Simulasi
+
+# --- aksi & toggle ---
+Start	Mulai
+Stop	Berhenti
+End	Akhiri
+Send	Kirim
+Set	Atur
+Switch	Ganti
+Sync	Sinkronkan
+Copy	Salin
+Hide	Sembunyikan
+Lock	Kunci
+Jump	Lompat
+Place	Tempatkan
+Quick Place	Tempatkan Cepat
+Interact	Interaksi
+Restore	Pulihkan
+Return	Kembali
+Review	Tinjau
+Try Again	Coba Lagi
+Enable	Aktifkan
+Remove All	Lepas Semua
+Decline All	Tolak Semua
+Replaced	Diganti
+On	Nyala
+Off	Mati
+
+# --- status kosong / negatif ---
+No Data	Tidak Ada Data
+No Doll	Tidak Ada Doll
+No Dolls	Tidak Ada Doll
+No Plugins	Tidak Ada Plugin
+No Collectibles	Tidak Ada Koleksi
+No Treasures	Tidak Ada Harta
+No attachments	Tidak ada attachment
+No multipliers	Tidak ada multiplier
+Not Complete	Belum Selesai
+Not activated	Belum aktif
+Not obtained	Belum didapat
+Not Obtained	Belum Didapat
+Not yet achieved	Belum tercapai
+Not watered today	Belum disiram hari ini
+Temporarily unused	Sementara tidak dipakai
+T2 and below	T2 ke bawah
+T3 and below	T3 ke bawah
+T4 and below	T4 ke bawah
+Unimproved T2 and below	T2 ke bawah belum ditingkatkan
+Unimproved T3 and below	T3 ke bawah belum ditingkatkan
+Unimproved T4 and below	T4 ke bawah belum ditingkatkan

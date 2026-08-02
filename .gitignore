@@ -1,0 +1,12 @@
+# Berkas milik pengguna / hasil build — jangan pernah masuk repo.
+gamepath.txt
+cadangan/
+LangPackageTableCnData.id.bytes
+tool/__pycache__/
+tool/_mk.py
+
+# Berkas jadi 46 MB. Kalau ingin membagikannya, unggah sebagai lampiran
+# GitHub Release, JANGAN di-commit: tiap rilis menambah 46 MB ke riwayat git
+# selamanya dan tidak bisa dihapus tanpa menulis ulang riwayat.
+# Ia juga sebagian besar berisi teks asli penerbit (cerita baru 6% diterjemahkan).
+siap-pakai/

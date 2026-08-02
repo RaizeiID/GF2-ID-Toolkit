@@ -1,0 +1,54 @@
+# Nama item — varian titik dua yang terlewat + keluarga baru.
+#
+# Pola berulang di proyek ini: hampir tiap keluarga item punya varian tanda pisah
+# DAN varian titik dua, dan keduanya benar-benar dipakai. Sudah ketemu pada
+# Portrait, Badge, Outfit, Weapon Coating, Attachment Box — dan sekarang pada
+# Weapon Blueprint serta Time Capsule juga.
+#
+# Karena itu tiap kali menambah keluarga baru, kedua bentuk perlu ditulis.
+#range 0 130000
+
+# --- varian titik dua yang terlewat ---
+^Weapon Blueprint: (.+)$	Cetak Biru Senjata: \1
+^Time Capsule: (.+)$	Kapsul Waktu: \1
+^Timespace Capsule: (.+)$	Kapsul Ruang-Waktu: \1
+^Curio: (.+)$	Barang Antik: \1
+^Special Gift: (.+)$	Hadiah Spesial: \1
+
+# --- skin bawaan ---
+^(.+) Default Skin$	Skin Bawaan \1
+
+# --- setelan tempur & tas ---
+^Combat Suit - (.+)$	Setelan Tempur - \1
+^Combat Suit: (.+)$	Setelan Tempur: \1
+^(.+)'s Combat Suit - (.+)$	Setelan Tempur \1 - \2
+^Handbag - (.+)$	Tas Tangan - \1
+^Handbag: (.+)$	Tas Tangan: \1
+
+# --- kunci rantai per kelas ---
+^(Bulwark|Vanguard|Sentinel|Support) Chain Key$	Kunci Rantai \1
+^Universal Key$	Kunci Universal
+
+# --- kotak hadiah berwarna ---
+^(Blue-Green|Orange-Brown|Orange-Blue|Black-Brown|Purple-Brown|White-Gold|Red-Purple) Gift Box$	Kotak Hadiah \1
+^Exquisite Gift Box$	Kotak Hadiah Elok
+^Wishing Gift Box$	Kotak Hadiah Permohonan
+^Keepsake Lucky Bag$	Kantong Keberuntungan Kenang-Kenangan
+^Sealed Document Bag$	Tas Dokumen Tersegel
+^Ammo Bag$	Tas Amunisi
+
+# --- kotak pasokan bertingkat ---
+^Specialized T(\d) Supply Box$	Kotak Pasokan Khusus T\1
+^Quota Supply Box$	Kotak Pasokan Kuota
+^Great Value Supply Support Box$	Kotak Dukungan Pasokan Nilai Besar
+
+# --- kotak attachment tingkat tinggi ---
+^Assault Rifle High-Tier Attachment Box: (.+)$	Kotak Attachment Tingkat Tinggi Assault Rifle: \1
+^(AR|SMG|RF|HG|SG|MG|BLD|Blade) High-Tier Attachment Box: (.+)$	Kotak Attachment Tingkat Tinggi \1: \2
+
+# --- lain-lain berpola ---
+^Special Instructions - (.+)$	Instruksi Khusus - \1
+^Paint - (.+)$	Cat - \1
+^Dinergate Series - (\d)$	Seri Dinergate - \1
+^(.+) Calibration Chip$	Chip Kalibrasi \1
+^Precision Boost Chip$	Chip Peningkat Precision

@@ -1,0 +1,46 @@
+# Nama item — keluarga teratur terakhir.
+#
+# "Combustion -  Fissure Stem γ" di data permainan punya DUA SPASI setelah tanda
+# pisah, sementara semua saudaranya satu spasi. Karena itu pola set plug-in di
+# bawah memakai \s+ , bukan spasi harfiah — kalau tidak, satu baris itu lolos.
+#range 0 130000
+
+# --- data simulasi karakter ---
+^(.+) - ETs Simulation Data$	Data Simulasi ETs \1
+^(.+) - Convergence Field Simulation Data$	Data Simulasi Convergence Field \1
+^(.+) Flash Simulation Data$	Data Simulasi Flash \1
+^(.+) Simulation Data$	Data Simulasi \1
+
+# --- kartu set komponen ---
+^Type (I|II|III|IV|V) Set Carrier Card - (.+)$	Kartu Pembawa Set Tipe \1 - \2
+^Type (I|II|III|IV|V) Set Loadout Card - (.+)$	Kartu Muatan Set Tipe \1 - \2
+^Type (I|II|III|IV|V) Set Loadout Card Crafting Permission$	Izin Pembuatan Kartu Muatan Set Tipe \1
+
+# --- bahan logam ---
+^Iron Material$	Bahan Besi
+^Copper Material$	Bahan Tembaga
+^Aluminum Material$	Bahan Aluminium
+^High-Elasticity Composite Material$	Bahan Komposit Elastisitas Tinggi
+
+# --- kontrak & izin ---
+^Monthly Crystal Contract$	Kontrak Kristal Bulanan
+^Monthly Incremental Contract$	Kontrak Inkremental Bulanan
+^Five-Day Feedback Contract$	Kontrak Umpan Balik Lima Hari
+^Mercenary Contract$	Kontrak Tentara Bayaran
+^Procurement Contract$	Kontrak Pengadaan
+^Contract Discount Code$	Kode Diskon Kontrak
+^Transport Permit$	Izin Angkut
+
+# --- tanda masuk ---
+^Exercise Entry Pass$	Kartu Masuk Latihan
+^Simulation Access Pass$	Kartu Akses Simulasi
+^Tattered Access Pass$	Kartu Akses Lusuh
+^Exploration Pass$	Kartu Penjelajahan
+
+# --- lencana ---
+^Boreal Badge$	Lencana Boreal
+^Honor Badge$	Lencana Kehormatan
+^Broken Badge$	Lencana Rusak
+^Orderly Badge$	Lencana Tertib
+^Abyss Badge$	Lencana Abyss
+^Exercise Badge$	Lencana Latihan

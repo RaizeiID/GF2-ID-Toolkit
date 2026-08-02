@@ -1,0 +1,65 @@
+# Deskripsi SKILL — putaran kelima puluh satu ekor panjang.
+#
+# Bagian 10 dari sepuluh berkas (75-84). Tetap 1:1, harfiah ("=").
+#
+# "Pizza</color>." adalah potongan baris yang terpotong oleh baris baru di
+# tengah nama — tag pembukanya ada di baris sebelumnya. Diterjemahkan apa adanya
+# supaya potongannya tetap sepadan.
+#range 0 130000
+
+# --- Liushih ---
+=The basic attack damage multiplier for Liushih and <color=#3487e0>{0}</color> is increased depending on Liushih's initial attack.	Damage multiplier basic attack Liushih dan <color=#3487e0>{0}</color> meningkat tergantung Attack awal Liushih.
+=For every <color=#f26c1c>60 points</color> of Liushih's initial attack, the basic attack damage multiplier for both herself and <color=#3487e0>{0}</color> is increased by <color=#f26c1c>5%</color>, to a maximum increase of <color=#f26c1c>50%</color>.	Untuk setiap <color=#f26c1c>60 poin</color> Attack awal Liushih, damage multiplier basic attack dirinya dan <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>5%</color>, maksimal naik sebesar <color=#f26c1c>50%</color>.
+=Before using the active skill <color=#3487e0>Desperate Gambit</color> or the Ultimate skill <color=#3487e0>One Doll Cavalry</color>, applies <color=#3487e0>{1}</color> to the target.	Sebelum memakai skill aktif <color=#3487e0>Desperate Gambit</color> atau skill Ultimate <color=#3487e0>One Doll Cavalry</color>, menerapkan <color=#3487e0>{1}</color> ke target.
+=Before using the active skill <color=#3487e0>Desperate Gambit</color> or the Ultimate skill <color=#3487e0>One Doll Cavalry</color>, applies <color=#3487e0>{1}</color> to the target for <color=#f26c1c>2 rounds</color>.	Sebelum memakai skill aktif <color=#3487e0>Desperate Gambit</color> atau skill Ultimate <color=#3487e0>One Doll Cavalry</color>, menerapkan <color=#3487e0>{1}</color> ke target selama <color=#f26c1c>2 ronde</color>.
+=After <color=#3487e0>{0}</color> uses <color=#3487e0>{2}</color>, Liushih gains Confectance Index.	Setelah <color=#3487e0>{0}</color> memakai <color=#3487e0>{2}</color>, Liushih mendapatkan Confectance Index.
+=After <color=#3487e0>{0}</color> uses <color=#3487e0>{2}</color>, Liushih gains <color=#f26c1c>1 point</color> of Confectance Index.	Setelah <color=#3487e0>{0}</color> memakai <color=#3487e0>{2}</color>, Liushih mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+
+# --- Lainie ---
+=At the end of the round, Lainie expends Confectance Index.	Di akhir ronde, Lainie memakai Confectance Index.
+=This skill cannot be used when Simulacrum is on the field.	Skill ini tidak bisa dipakai saat Simulacrum ada di medan.
+=When <color=#3487e0>{2}</color> is on the field, Lainie does not die even when she takes fatal damage.	Saat <color=#3487e0>{2}</color> ada di medan, Lainie tidak mati meski menerima damage mematikan.
+=After it is triggered, <color=#3487e0>{2}</color> vanishes.	Setelah aktif, <color=#3487e0>{2}</color> lenyap.
+
+# --- Lenna & Balthilde ---
+=When an enemy unit is inflicted with <color=#3487e0>{1}</color>, Lenna gains <color=#f26c1c>1 point</color> of Confectance Index.	Saat unit musuh terkena <color=#3487e0>{1}</color>, Lenna mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=When an enemy unit is inflicted with <color=#3487e0>{1}</color>, Lenna gains Confectance Index.	Saat unit musuh terkena <color=#3487e0>{1}</color>, Lenna mendapatkan Confectance Index.
+=If the active skill <color=#3487e0>Demolition Protocol</color> was not used this turn, Balthilde can use <color=#3487e0>Demolition Protocol</color> once.	Jika skill aktif <color=#3487e0>Demolition Protocol</color> tidak dipakai pada giliran ini, Balthilde bisa memakai <color=#3487e0>Demolition Protocol</color> sekali.
+=At the end of the action, Zhaohui may land on the selected tile within <color=#f26c1c>2 tiles</color> of the selected <color=#3487e0>Imperturbable Arrow</color>, gaining Confectance Index.	Di akhir aksi, Zhaohui boleh mendarat di tile terpilih <color=#f26c1c>dalam 2 tile</color> dari <color=#3487e0>Imperturbable Arrow</color> yang dipilih, lalu mendapatkan Confectance Index.
+=Before this skill's active and passive attacks resolve, Voymastina's attack is increased by <color=#f26c1c>10%</color> for <color=#f26c1c>1 round</color>.	Sebelum serangan aktif dan passive skill ini bekerja, serangan Voymastina meningkat sebesar <color=#f26c1c>10%</color> selama <color=#f26c1c>1 ronde</color>.
+=When the effect of <color=#3487e0>{1}</color> is triggered without using the Ultimate Skill <color=#3487e0>Grand Isekai Adventure</color>, gains <color=#f26c1c>2 points</color> of <color=#3487e0>{2}</color>.	Saat efek <color=#3487e0>{1}</color> aktif tanpa memakai Skill Ultimate <color=#3487e0>Grand Isekai Adventure</color>, mendapatkan <color=#f26c1c>2 poin</color> <color=#3487e0>{2}</color>.
+=When the effect of <color=#3487e0>{1}</color> is triggered without using the Ultimate Skill <color=#3487e0>Grand Isekai Adventure</color>, gains <color=#3487e0>{2}</color>.	Saat efek <color=#3487e0>{1}</color> aktif tanpa memakai Skill Ultimate <color=#3487e0>Grand Isekai Adventure</color>, mendapatkan <color=#3487e0>{2}</color>.
+=If <color=#3487e0>{1}</color> is on the field, <color=#3487e0>{1}</color> will immediately use the active skill <color=#3487e0>{2}</color> centered on herself after usage of this skill.	Jika <color=#3487e0>{1}</color> ada di medan, <color=#3487e0>{1}</color> akan langsung memakai skill aktif <color=#3487e0>{2}</color> berpusat pada dirinya setelah skill ini dipakai.
+
+# --- serangan & tile ---
+=Selects one empty tile and summons <color=#3487e0>{0}</color>.	Memilih satu tile kosong lalu memanggil <color=#3487e0>{0}</color>.
+=Selects a direction and deals AoE melee Physical damage that ignores cover to all enemy units within a <color=#f26c1c>forward-facing 1×2 tile area</color> in the selected direction.	Memilih satu arah lalu memberikan AoE melee Physical damage yang mengabaikan Cover ke semua unit musuh dalam <color=#f26c1c>area 1×2 tile menghadap ke depan</color> ke arah yang dipilih.
+=After dealing targeted damage, generates <color=#3487e0>{0}</color> tiles within <color=#f26c1c>1 tile</color> around the target for <color=#f26c1c>2 turns</color>.	Setelah memberikan targeted damage, menghasilkan tile <color=#3487e0>{0}</color> <color=#f26c1c>dalam 1 tile</color> di sekitar target selama <color=#f26c1c>2 giliran</color>.
+=After dealing targeted damage, generates <color=#3487e0>{0}</color> tiles within <color=#f26c1c>1 tile</color> around the target.	Setelah memberikan targeted damage, menghasilkan tile <color=#3487e0>{0}</color> <color=#f26c1c>dalam 1 tile</color> di sekitar target.
+=Before dealing Burn damage, if the target has <color=#3487e0>{0}</color>, inflicts <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Sebelum memberikan Burn damage, jika target memiliki <color=#3487e0>{0}</color>, menimbulkan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=If the enemy is standing on a Burn tile, the damage dealt by <color=#3487e0>{1}</color> is increased by <color=#f26c1c>30%</color>.	Jika musuhnya berdiri di atas tile Burn, damage yang diberikan <color=#3487e0>{1}</color> meningkat sebesar <color=#f26c1c>30%</color>.
+=Immune to negative effects inflicted by Burn tiles.	Kebal terhadap efek negatif dari tile Burn.
+=If there are obstacles along the knockback path, applies <color=#3487e0>{1}</color> to the knockback target.	Jika ada penghalang di jalur dorongan, menerapkan <color=#3487e0>{1}</color> ke target yang terdorong.
+=Before the attack resolves, applies <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> to the target.	Sebelum serangannya bekerja, menerapkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> ke target.
+=Applies <color=#3487e0>{0}</color> to the enemy target for <color=#f26c1c>1 turn</color>.	Menerapkan <color=#3487e0>{0}</color> ke target musuh selama <color=#f26c1c>1 giliran</color>.
+=When allied units gain Shields, the Shields are converted into <color=#3487e0>{0}</color> with an equal value.	Saat unit sekutu mendapatkan Shield, Shield itu diubah jadi <color=#3487e0>{0}</color> dengan nilai yang sama.
+
+# --- stat & status ---
+=After the attack, gains <color=#f26c1c>2 points</color> of Confectance Index.	Setelah serangan, mendapatkan <color=#f26c1c>2 poin</color> Confectance Index.
+=At the start of the action, gains <color=#f26c1c>1 point</color> of Confectance Index.	Di awal aksi, mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=For <color=#f26c1c>each instance</color> of damage dealt, gains <color=#f26c1c>1 point</color> of Confectance Index.	Untuk <color=#f26c1c>setiap kali</color> damage diberikan, mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=When dealing damage, gains Confectance Index and deals increased damage to enemy targets with movement debuffs.	Saat memberikan damage, mendapatkan Confectance Index dan memberikan damage lebih besar ke target musuh yang memiliki debuff pergerakan.
+=Gain <color=#3487e0>{0}</color> after attacking.	Mendapat <color=#3487e0>{0}</color> setelah menyerang.
+=Gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Mendapat <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=For each <color=#f26c1c>stack</color> of <color=#3487e0>{1}</color> possessed, the damage multiplier increases by <color=#f26c1c>5%</color>.	Untuk setiap <color=#f26c1c>stack</color> <color=#3487e0>{1}</color> yang dimiliki, damage multiplier meningkat sebesar <color=#f26c1c>5%</color>.
+=If the enemy target's defense is <color=#f26c1c>0 or lower</color>, critical damage dealt to it is increased by <color=#f26c1c>10%</color>.	Jika Defense target musuh <color=#f26c1c>0 atau kurang</color>, Critical Damage kepadanya meningkat sebesar <color=#f26c1c>10%</color>.
+=Can be cleansed.	Bisa dibersihkan.
+=Can only have <color=#f26c1c>1</color> gear at a time.	Hanya bisa memiliki <color=#f26c1c>1</color> gear pada satu waktu.
+=At the end of the last action, removes all gears except <color=#3487e0>{1}</color> and gains <color=#3487e0>{2}</color>.	Di akhir aksi terakhir, menghapus semua gear kecuali <color=#3487e0>{1}</color> lalu mendapatkan <color=#3487e0>{2}</color>.
+=Ignores enemy blocking, immune to <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color>, <color=#3487e0>{5}</color>, displacement and Mobility reduction debuffs.	Mengabaikan halangan musuh, kebal terhadap <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color>, <color=#3487e0>{5}</color>, efek pemindahan dan debuff pengurang Mobility.
+=At the end of an action, if in <color=#3487e0>{6}</color>, casts <color=#3487e0>{7}</color>; if in <color=#3487e0>{8}</color>, casts <color=#3487e0>{9}</color>.	Di akhir aksi, jika dalam <color=#3487e0>{6}</color>, merapal <color=#3487e0>{7}</color>; jika dalam <color=#3487e0>{8}</color>, merapal <color=#3487e0>{9}</color>.
+
+# --- potongan & teks internal ---
+=Pizza</color>.	Pizza</color>.
+=<color=#3487e0>Firing Command? - Offense</color>	<color=#3487e0>Perintah Tembak? - Ofensif</color>
+=<color=#3487e0>Firing Command? - Defense</color>	<color=#3487e0>Perintah Tembak? - Defensif</color>

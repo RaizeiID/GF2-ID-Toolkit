@@ -1,0 +1,77 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 4).
+#
+# Id 86721-86726 ("l'am*LU*or", "ch *S*e move", ... , "LUSTRATIO") adalah
+# potongan kutipan Dante berbahasa Italia yang sengaja dipecah sebagai teka-teki
+# di dalam permainan. Tidak diterjemahkan — memecah atau menerjemahkannya akan
+# merusak teka-tekinya.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Curio, Crit, Loop, Pt.
+#range 75000 90000
+
+...Stars... drift, gather and disperse...	...Bintang-bintang... hanyut, berkumpul, lalu berpencar...
+Write the final period in the book of fate.	Tuliskan titik terakhir dalam kitab takdir.
+The teleport point is occupied, teleport failed.	Titik teleport sedang terisi, teleportasi gagal.
+<color=#F26C1C>[{0}]</color> rating required	Butuh peringkat <color=#F26C1C>[{0}]</color>
+Failure to activate will increase the crisis level	Kegagalan mengaktifkan akan menaikkan tingkat krisis
+This account has not unlocked the Curio Display	Akun ini belum membuka Tampilan Curio
+No autobattle stage for the selected reward	Tidak ada stage autobattle untuk hadiah yang dipilih
+Unlocked after competing Recovery Route V	Terbuka setelah menyelesaikan Recovery Route V
+Are you sure you want to delete this friend?	Yakin mau menghapus teman ini?
+The Platoon Leader has disbanded the Platoon	Ketua Platoon sudah membubarkan Platoon
+Unlocked upon reaching Commander Level {0}	Terbuka setelah mencapai Commander Level {0}
+Optimal Range: Deals critical damage when firing	Jarak Optimal: Memberikan critical damage saat menembak
+Dormitory is being cleaned, please wait warmly	Asrama sedang dibersihkan, mohon tunggu sebentar
+Time-Limited pack will be removed after {0}	Paket waktu terbatas akan dihapus setelah {0}
+The main camp has been attacked, you must withdraw	Kamp utama diserang, kamu harus mundur
+All forces defeated, cannot continue fighting	Semua pasukan kalah, tidak bisa melanjutkan pertempuran
+You may deploy Dolls from this new outpost	Kamu bisa menempatkan Doll dari pos terdepan baru ini
+You may only embark on one expedition per day	Kamu hanya bisa berangkat satu ekspedisi per hari
+Choose the item you would like to disassemble	Pilih item yang mau kamu bongkar
+One of the above bosses exists within the stage	Salah satu boss di atas ada di dalam stage ini
+Unlocked after <color=#F26C1C>{0}</color>	Terbuka setelah <color=#F26C1C>{0}</color>
+Unlocks when Refitting Room reaches Level {0}	Terbuka saat Refitting Room mencapai Level {0}
+Failed to add, friend list of other party is full	Gagal menambahkan, daftar teman pihak lain penuh
+Performing Loop will automatically claim rewards	Menjalankan Loop akan otomatis mengklaim hadiah
+Limited Time Offer - Couturier Surprise Voucher	Penawaran Waktu Terbatas - Voucher Kejutan Couturier
+Collect Dusty Relics to unlock a special challenge	Kumpulkan Dusty Relic untuk membuka tantangan khusus
+Click anywhere to close	Klik di mana saja untuk menutup
+Battle in progress	Pertempuran sedang berlangsung
+Battle complete	Pertempuran selesai
+Change Successful	Perubahan Berhasil
+Fire here!	Tembak ke sini!
+Route updated	Rute diperbarui
+Global Events	Peristiwa Global
+Crisis Level	Tingkat Krisis
+All clear, proceed with confidence	Aman, lanjutkan dengan tenang
+Enemy units on high alert, stay hidden	Unit musuh siaga tinggi, tetap bersembunyi
+Enemy detection speed increased	Kecepatan deteksi musuh meningkat
+Enemy alertness level increased	Tingkat kewaspadaan musuh meningkat
+Primary Vulnerability Information	Informasi Kerentanan Utama
+Insufficient challenge rights	Hak tantangan tidak cukup
+Current Stage Group Rewards	Hadiah Grup Stage Saat Ini
+Deployment consumes energy	Penempatan memakan energi
+Insufficient energy remaining, unable to deploy	Sisa energi tidak cukup, tidak bisa menempatkan
+Tactical score: {0}	Skor taktis: {0}
+Quick Standby	Siaga Cepat
+Standard Mode	Mode Standar
+Performance Mode	Mode Performa
+Strategy Mode	Mode Strategi
+Camera Angle	Sudut Kamera
+35 Degrees	35 Derajat
+45 Degrees	45 Derajat
+Save Failed	Gagal Menyimpan
+Too many requests, please try again later	Terlalu banyak permintaan, coba lagi nanti
+Cannot change Doll	Tidak bisa mengganti Doll
+Too many operations	Terlalu banyak operasi
+Highest Cooking Experience title reached	Gelar Pengalaman Memasak tertinggi tercapai
+Current Cooking Experience	Pengalaman Memasak Saat Ini
+Additional success rate from title	Tambahan tingkat keberhasilan dari gelar
+Next Cooking Experience title	Gelar Pengalaman Memasak berikutnya
+Please select a dish with the same attribute bonus	Pilih hidangan dengan bonus atribut yang sama
+Stat bonus	Bonus stat
+Particle Energy Accumulator	Akumulator Energi Partikel
+Purchase Quantity:	Jumlah Pembelian:
+Configured	Terkonfigurasi
+Switch Doll	Ganti Doll
+Trait	Sifat
+Next Pt.	Pt. Berikutnya

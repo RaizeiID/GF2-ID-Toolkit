@@ -1,0 +1,79 @@
+# Panel event gelombang 5 — Exclusive Procurement (banner Komandan baru),
+# Targeted Procurement Doll, dan panel rate dengan rincian Retired Weapon.
+#
+# Sumber memuat salah ketik asli "probabiility" dan satu tempat tanpa spasi
+# sebelum kurung — dicocokkan apa adanya supaya tetap kena.
+# Nama tetap Inggris: Exclusive/Targeted/Standard Procurement, Elite Doll,
+# Standard/Retired Weapon, Neural Archives, Withdrawal Receipts, Redundant Pieces.
+#range 0 125000
+
+# --- judul bagian varian tanpa spasi / tanpa titik dua ---
+=-Duplicate Doll Conversion Rules:	-Aturan Konversi Doll Ganda:
+=-Duplicate Doll Conversion Rules	-Aturan Konversi Doll Ganda
+=Duplicate Doll Conversion Rules:	Aturan Konversi Doll Ganda:
+=Detailed Access Rules:	Aturan Access Rinci:
+=-Elite Doll Probability Details	-Detail Probabilitas Elite Doll
+=-Access Detailed Rules	-Aturan Access Rinci
+=-Retired Weapon Probability Details	-Detail Probabilitas Retired Weapon
+
+# --- probabilitas "each ... is the same" ---
+=The probability for obtaining each Elite Doll is the same.	Probabilitas mendapat tiap Elite Doll adalah sama.
+=The probability for obtaining each Standard Doll is the same.	Probabilitas mendapat tiap Standard Doll adalah sama.
+=The probability for obtaining each Standard Weapon is the same.	Probabilitas mendapat tiap Standard Weapon adalah sama.
+=The probability for obtaining each rate-up standard weapon is the same.	Probabilitas mendapat tiap senjata standar rate-up adalah sama.
+=The probability for obtaining each non-rate up standard weapon is the same.	Probabilitas mendapat tiap senjata standar non-rate-up adalah sama.
+=The probability of obtaining each rate-up retired weapon is the same.	Probabilitas mendapat tiap retired weapon rate-up adalah sama.
+=The probability of obtaining each non-rate up retired weapon is the same.	Probabilitas mendapat tiap retired weapon non-rate-up adalah sama.
+
+# --- probabilitas dasar & gabungan ---
+=The base probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL5]</color>.	Probabilitas dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL5]</color>.
+=The total probability of obtaining a Standard Doll or Weapon (including guarantee) is <color=#AC65E8>[VAL6]</color>.	Total probabilitas mendapat Standard Doll atau Weapon (termasuk jaminan) adalah <color=#AC65E8>[VAL6]</color>.
+=The base probability of obtaining a Standard Doll is <color=#AC65E8>[VAL7]</color> (with a total combined probability of <color=#AC65E8>[VAL8]</color> after including the guarantee).	Probabilitas dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL7]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL8]</color> setelah menghitung jaminan).
+=The base probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL9]</color> (with a total combined probability of <color=#AC65E8>[VAL10]</color> after including the guarantee).	Probabilitas dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL9]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL10]</color> setelah menghitung jaminan).
+=The base probability of obtaining an Elite Doll is <color=#EDA51C>[VAL11]</color> (with a total combined probability of <color=#EDA51C>[VAL12]</color> after including the guarantee).	Probabilitas dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL11]</color> (dengan total probabilitas gabungan <color=#EDA51C>[VAL12]</color> setelah menghitung jaminan).
+=The base probability of obtaining an Elite Doll is <color=#EDA51C>[VAL7]</color> (with a total combined probability of <color=#EDA51C>[VAL8]</color> after including the guarantee).	Probabilitas dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL7]</color> (dengan total probabilitas gabungan <color=#EDA51C>[VAL8]</color> setelah menghitung jaminan).
+=The base probability of obtaining a Standard Doll is <color=#AC65E8>[VAL9]</color> (with a total combined probability of <color=#AC65E8>[VAL10]</color> after including the guarantee).	Probabilitas dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL9]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL10]</color> setelah menghitung jaminan).
+=The base probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL11]</color> (with a total combined probability of <color=#AC65E8>[VAL12]</color> after including the guarantee).	Probabilitas dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL11]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL12]</color> setelah menghitung jaminan).
+=In this access type, the base probability of obtaining a Standard Doll or Weapon is <color=#AC65E8>[VAL3]</color>, the base probability of obtaining a Standard Doll is <color=#AC65E8>[VAL4]</color>.	Di tipe access ini, probabilitas dasar mendapat Standard Doll atau Weapon adalah <color=#AC65E8>[VAL3]</color>, probabilitas dasar mendapat Standard Doll adalah <color=#AC65E8>[VAL4]</color>.
+=The probability increases by <color=#EDA51C>[VAL13]</color> for the next access and continues increasing by the same amount for every access thereafter.	Probabilitasnya naik <color=#EDA51C>[VAL13]</color> untuk access berikutnya dan terus naik dengan jumlah sama untuk tiap access setelahnya.
+
+# ============ Exclusive Procurement (banner Komandan baru) ============
+=<color=#32434a><b>Exclusive Procurement</b> is a special procurement event for new Commanders</color>.	<color=#32434a><b>Exclusive Procurement</b> adalah event procurement khusus untuk Komandan baru</color>.
+=For this banner, Commanders will enjoy a 20% discount when performing 10 accesses.	Di banner ini, Komandan mendapat diskon 20% saat melakukan 10 access.
+=This banner will last until 50 accesses have been performed and will automatically close once those accesses have been performed.	Banner ini berlangsung sampai 50 access dilakukan dan otomatis tutup begitu jumlah itu tercapai.
+=During this access, every 10 accesses will guarantee one of the following: a standard Doll, an Elite Doll or a standard weapon.	Di access ini, tiap 10 access dijamin mendapat salah satu dari: Doll standar, Elite Doll, atau senjata standar.
+=In this access type, if an Elite Doll is not obtained within 49 consecutive accesses, the 50th access is guaranteed to yield an Elite Doll.	Di tipe access ini, kalau Elite Doll tidak didapat dalam 49 access berturut-turut, access ke-50 dijamin memberi Elite Doll.
+=If an Elite Doll is obtained beforehand, an Elite Doll is not guaranteed on the 50th access.	Kalau Elite Doll sudah didapat sebelumnya, access ke-50 tidak lagi menjamin Elite Doll.
+=In this access type, an Elite Doll must be selected from the list provided before accesses can be performed.	Di tipe access ini, satu Elite Doll harus dipilih dari daftar yang tersedia sebelum access bisa dilakukan.
+=The selected Doll can be changed at any time and once a Doll is selected, the Elite Doll obtained will be the selected Doll.	Doll yang dipilih bisa diganti kapan saja, dan begitu satu Doll dipilih, Elite Doll yang didapat adalah Doll itu.
+=The guarantee counter for this banner will always accumulate and is independent of other banners.	Hitungan jaminan banner ini selalu terakumulasi dan terpisah dari banner lain.
+
+# ============ Targeted Procurement (Doll) ============
+=<color=#32434a><b>Targeted Procurement</b> is a limited-time Doll access event</color>.	<color=#32434a><b>Targeted Procurement</b> adalah event access Doll waktu terbatas</color>.
+=<color=#f26c1c>※During the event, the limited Elite Doll "{0}", limited Standard Weapon "{1}", and limited Retired Weapon "{2}" can only be obtained through the [{3}] event.	<color=#f26c1c>※Selama event, Elite Doll terbatas "{0}", Standard Weapon terbatas "{1}", dan Retired Weapon terbatas "{2}" hanya bisa didapat lewat event [{3}].
+=After the event concludes, the Elite Doll "{4}" will not be added to Standard Procurement.</color>	Setelah event berakhir, Elite Doll "{4}" tidak akan ditambahkan ke Standard Procurement.</color>
+=In this access type, the base probability of obtaining an Elite Doll is <color=#EDA51C>[VAL1]</color>, with an overall probability (including guarantees) of <color=#EDA51C>[VAL2]</color>.	Di tipe access ini, probabilitas dasar mendapat Elite Doll adalah <color=#EDA51C>[VAL1]</color>, dengan probabilitas keseluruhan (termasuk jaminan) <color=#EDA51C>[VAL2]</color>.
+=In this access type, the base probability of obtaining a Standard Doll or Weapon is <color=#AC65E8>[VAL3]</color>, with the base probability for Standard Dolls being <color=#AC65E8>[VAL4]</color> and for Standard Weapons being <color=#AC65E8>[VAL5]</color>.	Di tipe access ini, probabilitas dasar mendapat Standard Doll atau Weapon adalah <color=#AC65E8>[VAL3]</color>, dengan probabilitas dasar Standard Doll <color=#AC65E8>[VAL4]</color> dan Standard Weapon <color=#AC65E8>[VAL5]</color>.
+=The overall probability (including guarantees) for both is <color=#AC65E8>[VAL6]</color>.	Probabilitas keseluruhan (termasuk jaminan) untuk keduanya adalah <color=#AC65E8>[VAL6]</color>.
+=In this access type, every 10 accesses guarantee the acquisition of either a Standard Doll, Weapon, or an Elite Doll.	Di tipe access ini, tiap 10 access dijamin mendapat Standard Doll, Weapon, atau Elite Doll.
+=If no Elite Doll is obtained after 58 consecutive accesses, the probability of acquiring one will increase with each subsequent access, with a guarantee of obtaining an Elite Doll by the 80th access.	Kalau Elite Doll tidak didapat setelah 58 access berturut-turut, probabilitasnya naik tiap access berikutnya, dengan jaminan mendapat Elite Doll pada access ke-80.
+=Upon obtaining an Elite Doll, the counter resets, returning the probability to its base value.	Begitu Elite Doll didapat, hitungannya direset dan probabilitasnya kembali ke nilai dasar.
+=If the acquired Elite Doll is not the current event's highlighted Doll, the next Elite Doll obtained is guaranteed to be the featured one.	Kalau Elite Doll yang didapat bukan Doll unggulan event ini, Elite Doll berikutnya dipastikan yang unggulan.
+=The counter to a guaranteed item accumulates independently and does not affect other access types.	Hitungan menuju item jaminan terakumulasi sendiri dan tidak memengaruhi tipe access lain.
+=During this access event, each time you obtain a Retired Weapon, you will receive 2 additional Withdrawal Receipts; acquiring a Standard Doll or Weapon grants 12 extra Redundant Pieces; obtaining an Elite Doll or Weapon awards 60 extra Redundant Pieces.	Selama event access ini, tiap kali mendapat Retired Weapon, kamu menerima tambahan 2 Withdrawal Receipts; mendapat Standard Doll atau Weapon memberi tambahan 12 Redundant Pieces; mendapat Elite Doll atau Weapon memberi tambahan 60 Redundant Pieces.
+=Regardless of the method (including but not limited to access, conversion, events, etc.), duplicate Dolls are converted according to the following rules:	Bagaimanapun caranya (termasuk tapi tidak terbatas pada access, konversi, event, dsb.), Doll ganda dikonversi menurut aturan berikut:
+=When obtaining a duplicate Standard Doll, the 2nd through 7th acquisitions convert into 30 Neural Archives for the respective Doll; from the 8th acquisition onward, they convert into 18 Redundant Pieces.	Saat mendapat Standard Doll ganda, perolehan ke-2 sampai ke-7 dikonversi jadi 30 Neural Archives untuk Doll terkait; mulai perolehan ke-8, dikonversi jadi 18 Redundant Pieces.
+=For duplicate Elite Dolls, the 2nd through 7th acquisitions convert into 30 Neural Archives for the respective Doll; from the 8th acquisition onward, they convert into 90 Redundant Pieces.	Untuk Elite Doll ganda, perolehan ke-2 sampai ke-7 dikonversi jadi 30 Neural Archives untuk Doll terkait; mulai perolehan ke-8, dikonversi jadi 90 Redundant Pieces.
+
+# ============ rincian rate-up & Retired Weapon ============
+=When an Elite Weapon is obtained, the probability that it is the rate-up Elite Weapon is <color=#EDA51C>[VAL3]</color> and the probability that it is the non-rate up Elite Weapon is <color=#EDA51C>[VAL4]</color>.	Saat Elite Weapon didapat, probabilitas bahwa itu Elite Weapon rate-up adalah <color=#EDA51C>[VAL3]</color> dan probabilitas bahwa itu Elite Weapon non-rate-up adalah <color=#EDA51C>[VAL4]</color>.
+=In this access type, the base probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL5]</color>, with an overall probability (including guarantees) of <color=#AC65E8>[VAL6]</color>.	Di tipe access ini, probabilitas dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL5]</color>, dengan probabilitas keseluruhan (termasuk jaminan) <color=#AC65E8>[VAL6]</color>.
+=When a standard weapon is obtained, the probability that it is a rate-up standard weapon is <color=#AC65E8>[VAL7]</color>.	Saat senjata standar didapat, probabilitas bahwa itu senjata standar rate-up adalah <color=#AC65E8>[VAL7]</color>.
+=The probability that it is a non-rate up standard weapon is <color=#AC65E8>[VAL8]</color>.	Probabilitas bahwa itu senjata standar non-rate-up adalah <color=#AC65E8>[VAL8]</color>.
+=The base probability of obtaining a retired weapon is <color=#3191ab>[VAL9]</color>.	Probabilitas dasar mendapat retired weapon adalah <color=#3191ab>[VAL9]</color>.
+=The combined probability of obtaining a retired weapon (including the guarantee) is <color=#3191ab>[VAL10]</color>.	Probabilitas gabungan mendapat retired weapon (termasuk jaminan) adalah <color=#3191ab>[VAL10]</color>.
+=When obtaining a retired weapon, there is a <color=#3191ab>[VAL11]</color> probability that it is a rate-up retired weapon.	Saat mendapat retired weapon, ada probabilitas <color=#3191ab>[VAL11]</color> bahwa itu retired weapon rate-up.
+=The probability of obtaining a non-rate up retired weapon is <color=#3191ab>[VAL12]</color>.	Probabilitas mendapat retired weapon non-rate-up adalah <color=#3191ab>[VAL12]</color>.
+=The probabiility of obtaining a standard weapon is <color=#AC65E8>[VAL13]</color> (with a total combined probability of [VAL14] after including the guarantee).	Probabilitas mendapat senjata standar adalah <color=#AC65E8>[VAL13]</color> (dengan total probabilitas gabungan [VAL14] setelah menghitung jaminan).
+=The probabiility of obtaining an Elite Weapon is <color=#EDA51C>[VAL15]</color>(with a total combined probability of <color=#EDA51C>[VAL16]</color> after including the guarantee).	Probabilitas mendapat Elite Weapon adalah <color=#EDA51C>[VAL15]</color>(dengan total probabilitas gabungan <color=#EDA51C>[VAL16]</color> setelah menghitung jaminan).
+=If no Elite Weapon is obtained after 50 consecutive accesses, the probability of obtaining one increases with each subsequent access, The probability increases by <color=#EDA51C>[VAL17]</color> for the next access and continues increasing by the same amount for every access thereafter, with a guarantee of receiving an Elite Weapon by the 70th access.	Kalau Elite Weapon tidak didapat setelah 50 access berturut-turut, probabilitasnya naik tiap access berikutnya. Probabilitasnya naik <color=#EDA51C>[VAL17]</color> untuk access berikutnya dan terus naik dengan jumlah sama untuk tiap access setelahnya, dengan jaminan mendapat Elite Weapon pada access ke-70.

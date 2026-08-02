@@ -1,0 +1,92 @@
+# Deskripsi SKILL — putaran keempat puluh delapan ekor panjang.
+#
+# Bagian 7 dari sepuluh berkas (75-84). Tetap 1:1, harfiah ("=").
+#
+# Daftar penghalang satu-kalimat sudah habis; mulai berkas ini kembali ke
+# urutan frekuensi seluruh kalimat sisa (lihat _splain.txt — sudah disaring
+# dari baris ber-NBSP yang tidak boleh diketik tangan).
+#range 0 130000
+
+# --- klausa pendek ---
+=At the start of the turn, gains Confectance Index.	Di awal giliran, mendapatkan Confectance Index.
+=At the end of the action, gains Confectance Index.	Di akhir aksi, mendapatkan Confectance Index.
+=At the end of the action, gains <color=#f26c1c>2 points</color> of Confectance Index.	Di akhir aksi, mendapatkan <color=#f26c1c>2 poin</color> Confectance Index.
+=If a tile reaction is triggered, gains <color=#f26c1c>5 points</color> of Confectance Index.	Jika reaksi tile terpicu, mendapatkan <color=#f26c1c>5 poin</color> Confectance Index.
+=This damage can be split.	Damage ini bisa dibagi.
+=This unit dies after using this skill.	Unit ini mati setelah memakai skill ini.
+=This unit gains <color=#3487e0>{0}</color>.	Unit ini mendapatkan <color=#3487e0>{0}</color>.
+=Lenna gains <color=#3487e0>{1}</color>.	Lenna mendapatkan <color=#3487e0>{1}</color>.
+=This skill is also applied to <color=#3487e0>{5}</color>.	Skill ini juga diterapkan ke <color=#3487e0>{5}</color>.
+=Select <color=#f26c1c>1</color> enemy target.	Pilih <color=#f26c1c>1</color> target musuh.
+=Mark all tiles on the battlefield.	Tandai semua tile di medan tempur.
+=Enter warning stance.	Masuk ke sikap siaga.
+=Marks the location of all enemies and an area of <color=#f26c1c>2 tiles</color> around them.	Menandai lokasi semua musuh dan area <color=#f26c1c>2 tile</color> di sekitar mereka.
+=Cannot receive Stability recovery effects during Stability Break.	Tidak bisa menerima efek pemulihan Stability selama Stability Break.
+=Restores all Stability Index <color=#f26c1c>2 turns</color> after Stability Break.	Memulihkan seluruh Stability Index <color=#f26c1c>2 giliran</color> setelah Stability Break.
+=Restores stability to full <color=#f26c1c>2 turns</color> after entering Stability Break.	Memulihkan Stability sampai penuh <color=#f26c1c>2 giliran</color> setelah memasuki Stability Break.
+=During Stability Break, damage taken is reduced and this unit is unable to receive stability restoration effects.	Selama Stability Break, damage yang diterima berkurang dan unit ini tidak bisa menerima efek pemulihan Stability.
+=Before the attack, cleanses <color=#f26c1c>1</color> buff from the target.	Sebelum serangan, membersihkan <color=#f26c1c>1</color> buff dari target.
+=Before making an active attack, applies <color=#3487e0>{1}</color> to the target.	Sebelum melancarkan serangan aktif, menerapkan <color=#3487e0>{1}</color> ke target.
+=Rank can be increased by a maximum of <color=#f26c1c>once</color> per round.	Rank bisa naik maksimal <color=#f26c1c>sekali</color> setiap ronde.
+=Each <color=#3487e0>{1}</color> can trigger this effect <color=#f26c1c>once</color> per turn.	Setiap <color=#3487e0>{1}</color> bisa memicu efek ini <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can trigger up to <color=#f26c1c>2 times</color> a turn.	Efek ini bisa aktif maksimal <color=#f26c1c>2 kali</color> setiap giliran.
+=Applies <color=#3487e0>{1}</color> to all enemy units.	Menerapkan <color=#3487e0>{1}</color> ke semua unit musuh.
+=Applies <color=#f26c1c>100%</color> of <color=#3487e0>{1}</color> to all enemy units.	Menerapkan <color=#f26c1c>100%</color> <color=#3487e0>{1}</color> ke semua unit musuh.
+=Deals AoE <color=#8679e8>Corrosion damage</color> to the selected target.	Memberikan AoE <color=#8679e8>Corrosion damage</color> ke target terpilih.
+=Damage dealt to flying units is increased.	Damage ke unit terbang meningkat.
+=Damage dealt to enemy units in the Core Battlefield is increased.	Damage ke unit musuh di Core Battlefield meningkat.
+=Attacks ignore <color=#f26c1c>15%</color> of the target's Cover damage reduction.	Serangannya mengabaikan <color=#f26c1c>15%</color> pengurangan damage dari Cover milik target.
+=When stability is greater than <color=#f26c1c>0</color>, damage taken is reduced.	Saat Stability lebih dari <color=#f26c1c>0</color>, damage yang diterima berkurang.
+=When this unit's stability index is greater than <color=#f26c1c>0</color>, gains <color=#3487e0>{0}</color>.	Saat Stability Index unit ini lebih dari <color=#f26c1c>0</color>, mendapatkan <color=#3487e0>{0}</color>.
+=Ally units within the area-of-effect recover HP and cleanse a debuff.	Unit sekutu di dalam area efeknya memulihkan HP dan membersihkan satu debuff.
+
+# --- serangan ---
+=Triggers a tile reaction from all Hydro tiles within range, dealing fixed damage to all enemy units on those tiles or within <color=#f26c1c>2 tiles</color> of the user, applying <color=#3487e0>{0}</color> to them, and removes the tiles.	Memicu reaksi tile dari semua tile Hydro dalam jangkauan, memberikan fixed damage ke semua unit musuh di atas tile itu atau <color=#f26c1c>dalam 2 tile</color> dari pengguna, menerapkan <color=#3487e0>{0}</color> kepada mereka, lalu menghapus tile-nya.
+=Applies <color=#3487e0>{0}</color> to the target and all enemy targets within <color=#f26c1c>3 tiles</color> of the target.	Menerapkan <color=#3487e0>{0}</color> ke target dan semua target musuh <color=#f26c1c>dalam 3 tile</color> dari target.
+=Selects 1 direction, deals AoE melee <color=#d4ae08>Electric damage</color> to all enemy targets within a <color=#f26c1c>3x9 tile forward-facing area</color>, and generates <color=#3487e0>{0}</color> tiles.	Memilih 1 arah, memberikan AoE melee <color=#d4ae08>Electric damage</color> ke semua target musuh dalam <color=#f26c1c>area 3x9 tile menghadap ke depan</color>, lalu menghasilkan tile <color=#3487e0>{0}</color>.
+=If an enemy target has <color=#3487e0>{2}</color>, deals <color=#f26c1c>1 additional instance</color> of melee <color=#d4ae08>Electric damage</color>.	Jika target musuh memiliki <color=#3487e0>{2}</color>, memberikan <color=#f26c1c>1 kali tambahan</color> melee <color=#d4ae08>Electric damage</color>.
+=If an enemy target has <color=#3487e0>{2}</color>, deals <color=#f26c1c>1 additional instance</color> of melee <color=#d4ae08>Electric damage</color> with the same damage multiplier.	Jika target musuh memiliki <color=#3487e0>{2}</color>, memberikan <color=#f26c1c>1 kali tambahan</color> melee <color=#d4ae08>Electric damage</color> dengan damage multiplier yang sama.
+=If movement exceeds <color=#f26c1c>4 tiles</color>, cleanses <color=#f26c1c>2</color> random buffs from the target before attacking.	Jika pergerakannya melebihi <color=#f26c1c>4 tile</color>, membersihkan <color=#f26c1c>2</color> buff acak dari target sebelum menyerang.
+=Deals additional fixed damage equal to <color=#f26c1c>20%</color> of attack each time damage is dealt.	Memberikan tambahan fixed damage setara <color=#f26c1c>20%</color> Attack setiap kali damage diberikan.
+=Selects 1 empty tile <color=#f26c1c>within 8 tiles</color> and summons a <color=#3487e0>{0}</color>.	Memilih 1 tile kosong <color=#f26c1c>dalam 8 tile</color> lalu memanggil <color=#3487e0>{0}</color>.
+=When all enemy units in the Peripheral Battlefield are eliminated, inflicts <color=#3487e0>{3}</color> on the friendly unit with the highest Attack in the Core Battlefield.	Saat semua unit musuh di Peripheral Battlefield habis, menimbulkan <color=#3487e0>{3}</color> pada unit kawan dengan Serangan tertinggi di Core Battlefield.
+
+# --- stat ---
+=For <color=#f26c1c>each point</color> of Confectance Index expended, the damage multiplier of this attack is increased by <color=#f26c1c>5%</color>.	Untuk <color=#f26c1c>setiap poin</color> Confectance Index yang dipakai, damage multiplier serangan ini meningkat sebesar <color=#f26c1c>5%</color>.
+=The damage multiplier is increased by <color=#f26c1c>10%</color> for <color=#f26c1c>each stack</color> of <color=#3487e0>{1}</color>.	Damage multiplier meningkat sebesar <color=#f26c1c>10%</color> untuk <color=#f26c1c>setiap stack</color> <color=#3487e0>{1}</color>.
+=The damage multiplier is increased based on the number of <color=#3487e0>{1}</color> stacks.	Damage multiplier meningkat berdasarkan jumlah stack <color=#3487e0>{1}</color>.
+=After applying <color=#f26c1c>1</color> buff, the damage multiplier increases by <color=#f26c1c>50%</color>.	Setelah menerapkan <color=#f26c1c>1</color> buff, damage multiplier meningkat sebesar <color=#f26c1c>50%</color>.
+=For every <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>, reduces this skill's cooldown by <color=#f26c1c>1 turn</color>.	Untuk setiap <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>, mengurangi cooldown skill ini sebesar <color=#f26c1c>1 giliran</color>.
+=While under the effects of <color=#3487e0>{0}</color>, increases the range of active skills and Support Attacks (except Ultimates) by <color=#f26c1c>1 tile</color>.	Saat terkena efek <color=#3487e0>{0}</color>, jangkauan skill aktif dan Support Attack (kecuali Ultimate) bertambah sebanyak <color=#f26c1c>1 tile</color>.
+=When dealing damage, critical damage is increased by <color=#f26c1c>5%</color> for every <color=#f26c1c>10%</color> of <color=#3487e0>{1}</color> held by the target.	Saat memberikan damage, Critical Damage meningkat sebesar <color=#f26c1c>5%</color> untuk setiap <color=#f26c1c>10%</color> <color=#3487e0>{1}</color> yang dimiliki target.
+=If there are more than <color=#f26c1c>2</color> allied Dolls on the battlefield with <color=#3487e0>{0}</color>, damage dealt by <color=#3487e0>{1}</color> is increased.	Jika ada lebih dari <color=#f26c1c>2</color> Doll sekutu di medan tempur yang memiliki <color=#3487e0>{0}</color>, damage yang diberikan <color=#3487e0>{1}</color> meningkat.
+=Damage Down I: Reduces damage dealt by <color=#f26c1c>10%</color>.	Damage Down I: Mengurangi damage yang diberikan <color=#f26c1c>10%</color>.
+=Damage Down II: Reduces damage dealt by <color=#f26c1c>20%</color>.	Damage Down II: Mengurangi damage yang diberikan <color=#f26c1c>20%</color>.
+=When taking targeted damage, if the attacker has movement debuffs, applies <color=#3487e0>Damage Down I</color> to them for <color=#f26c1c>1 turn</color> before the damage is dealt.	Saat menerima targeted damage, jika penyerangnya memiliki debuff pergerakan, menerapkan <color=#3487e0>Damage Down I</color> kepada mereka selama <color=#f26c1c>1 giliran</color> sebelum damage-nya masuk.
+=When taking damage, if the user is on a Corrosion-type tile, transfer <color=#f26c1c>50%</color> of the <color=#3487e0>{2}</color> to the allied unit with the highest HP (excluding the user).	Saat menerima damage, jika pengguna berada di atas tile tipe Corrosion, memindahkan <color=#f26c1c>50%</color> <color=#3487e0>{2}</color> ke unit sekutu dengan HP tertinggi (kecuali pengguna).
+=The absorption strength of the <color=#3487e0>{3}</color> is equal to <color=#f26c1c>65%</color> of initial attack but cannot exceed <color=#f26c1c>60%</color> of Max HP.	Daya serap <color=#3487e0>{3}</color> setara <color=#f26c1c>65%</color> Attack awal tapi tidak boleh melebihi <color=#f26c1c>60%</color> Max HP.
+=During Taunt, reduces enemy Attack by 20%.	Selama Taunt, mengurangi Serangan musuh sebesar 20%.
+=If this skill <color=#f26c1c>does not hit</color> an enemy target, gains <color=#3487e0>{1}</color>.	Jika skill ini <color=#f26c1c>tidak mengenai</color> target musuh, mendapatkan <color=#3487e0>{1}</color>.
+=Consuming Confectance Index enhances the skill, gaining <color=#3487e0>{3}</color>.	Memakai Confectance Index memperkuat skill ini, mendapatkan <color=#3487e0>{3}</color>.
+=Gains additional <color=#3487e0>{1}</color> based on the target's <color=#3487e0>{3}</color>.	Mendapat tambahan <color=#3487e0>{1}</color> berdasarkan <color=#3487e0>{3}</color> milik target.
+=The attack gains additional effects based on the highest <color=#3487e0>Rank</color> level Tin Soldier present on the battlefield (Higher ranks include all the effects of lower ranks):	Serangan ini mendapatkan efek tambahan berdasarkan Tin Soldier ber-<color=#3487e0>Rank</color> tertinggi yang ada di medan tempur (Rank lebih tinggi mencakup semua efek Rank di bawahnya):
+=When such units deal <color=#e67129>Burn damage</color>, they gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{3}</color>.	Saat unit semacam itu memberikan <color=#e67129>Burn damage</color>, mereka mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{3}</color>.
+=At the end of the round, these units consume <color=#f26c1c>4 stacks</color> of <color=#3487e0>{3}</color> to increase the <color=#3487e0>{4}</color> level of their attached <color=#3487e0>{1}</color>.	Di akhir ronde, unit-unit ini memakai <color=#f26c1c>4 stack</color> <color=#3487e0>{3}</color> untuk menaikkan level <color=#3487e0>{4}</color> dari <color=#3487e0>{1}</color> yang menempel pada mereka.
+
+# --- spesifik karakter ---
+=After the skill resolves, Sextans gains <color=#3487e0>{1}</color>.	Setelah skill ini bekerja, Sextans mendapatkan <color=#3487e0>{1}</color>.
+=After the skill resolves, Sextans gains <color=#f26c1c>2 stacks</color> of <color=#3487e0>{1}</color>.	Setelah skill ini bekerja, Sextans mendapatkan <color=#f26c1c>2 stack</color> <color=#3487e0>{1}</color>.
+=For <color=#f26c1c>each</color> additional <color=#3487e0>{3}</color> of the target, Sextans gains an additional <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color>.	Untuk <color=#f26c1c>setiap</color> tambahan <color=#3487e0>{3}</color> pada target, Sextans mendapatkan tambahan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color>.
+=If an enemy target is hit, Sextans performs <color=#f26c1c>1 instance</color> of <color=#3487e0>{4}</color> and gains <color=#f26c1c>1 point</color> of Confectance Index.	Jika ada target musuh yang terkena, Sextans melancarkan <color=#f26c1c>1 kali</color> <color=#3487e0>{4}</color> lalu mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=If the active skill <color=#3487e0>Reinforcement Protocol</color> was not used this turn, Balthilde can use <color=#3487e0>Reinforcement Protocol</color> once.	Jika skill aktif <color=#3487e0>Reinforcement Protocol</color> tidak dipakai pada giliran ini, Balthilde bisa memakai <color=#3487e0>Reinforcement Protocol</color> sekali.
+=If possessing <color=#3487e0>{3}</color> after the skill, consumes the effect to trigger the extra active skill <color=#3487e0>Hunting Instinct II</color> and <color=#3487e0>{2}</color>.	Jika memiliki <color=#3487e0>{3}</color> setelah skill ini, memakai efek itu untuk memicu skill aktif ekstra <color=#3487e0>Hunting Instinct II</color> dan <color=#3487e0>{2}</color>.
+=If neither condition is met, Soppo gains <color=#3487e0>{8}</color>.	Jika kedua syaratnya tidak terpenuhi, Soppo mendapatkan <color=#3487e0>{8}</color>.
+=Whenever any <color=#3487e0>{0}</color> dies, Andoris gains <color=#f26c1c>1 point</color> of Confectance Index.	Setiap kali <color=#3487e0>{0}</color> mana pun mati, Andoris mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=While inside a <color=#3487e0>{2}</color>, Cheyanne does not die even when she is killed.	Selama berada di dalam <color=#3487e0>{2}</color>, Cheyanne tidak mati meski terbunuh.
+=At the end of an enemy unit's action <color=#f26c1c>anywhere on the map</color>, Cheyanne performs <color=#3487e0>{0}</color>.	Di akhir aksi unit musuh <color=#f26c1c>di mana pun di peta</color>, Cheyanne melancarkan <color=#3487e0>{0}</color>.
+=At the end of an enemy unit's action, Cheyanne performs <color=#3487e0>{0}</color>.	Di akhir aksi unit musuh, Cheyanne melancarkan <color=#3487e0>{0}</color>.
+=If Cheyanne has dealt damage to an enemy unit this turn with an <color=#3487e0>{1}</color> of <color=#f26c1c>50%</color> or greater, the damage multiplier is increased.	Jika Cheyanne sudah memberikan damage ke unit musuh pada giliran ini dengan <color=#3487e0>{1}</color> <color=#f26c1c>50%</color> atau lebih, damage multiplier-nya meningkat.
+=When allied units deal Physical damage, Yoohee gains <color=#f26c1c>1 point</color> of Confectance Index.	Saat unit sekutu memberikan Physical damage, Yoohee mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=When allied units deal Physical damage, Yoohee gains Confectance Index.	Saat unit sekutu memberikan Physical damage, Yoohee mendapatkan Confectance Index.
+=When Yoohee has <color=#3487e0>Troupe's Core</color>, <color=#3487e0>Never Give Up</color> gains an additional effect: Damage taken by allied units is reduced by <color=#f26c1c>30%</color>.	Saat Yoohee memiliki <color=#3487e0>Troupe's Core</color>, <color=#3487e0>Never Give Up</color> mendapatkan efek tambahan: Damage yang diterima unit sekutu berkurang sebesar <color=#f26c1c>30%</color>.
+=After the mission is complete, switches from <color=#3487e0>{2}</color> to <color=#3487e0>{3}</color>.	Setelah misi selesai, beralih dari <color=#3487e0>{2}</color> ke <color=#3487e0>{3}</color>.

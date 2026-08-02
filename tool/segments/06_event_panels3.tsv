@@ -1,0 +1,30 @@
+# Panel event gelombang 3 — varian [Access Instructions] (Targeted Procurement),
+# plus judul [Intro] yang tertinggal di gelombang 2.
+#
+# Varian ini memakai istilah berbeda dari [Access Details]: "Extraction Vouchers"
+# dan "Redundant Fragments" (bukan Withdrawal Receipts / Redundant Pieces).
+# Keduanya nama item, jadi tetap Inggris.
+#range 0 125000
+
+=<size=24><color=#1a2c33><b>[Intro]</b></color></size>	<size=24><color=#1a2c33><b>[Pengantar]</b></color></size>
+
+# --- [Access Instructions] : Targeted Procurement: Armament ---
+=<size=22><b>[Access Instructions]</b></size>	<size=22><b>[Petunjuk Access]</b></size>
+=<color=#32434a><b>Targeted Procurement: Armament</b> is a limited-time Weapon Access event.</color>	<color=#32434a><b>Targeted Procurement: Armament</b> adalah event Weapon Access waktu terbatas.</color>
+^<color=#f26c1c>※ During the event, the limited Elite Weapons (.+) can only be obtained in the \[Targeted Procurement: Armament\] event\.$	<color=#f26c1c>※ Selama event, Elite Weapon terbatas \1 hanya bisa didapat di event [Targeted Procurement: Armament].
+=- Elite Weapon Probability Instructions	- Petunjuk Probabilitas Elite Weapon
+=- Standard Doll and Weapon Probability Instructions	- Petunjuk Probabilitas Doll dan Senjata Standard
+=- Detailed Access Rules	- Aturan Access Rinci
+=In this type of Access, the base probability of obtaining an Elite Weapon is <color=#EDA51C>[VAL1]</color>, and the comprehensive probability of obtaining an Elite Weapon (including the guarantee) is <color=#EDA51C>[VAL2]</color>.	Di tipe Access ini, probabilitas dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL1]</color>, dan probabilitas menyeluruh mendapat Elite Weapon (termasuk jaminan) adalah <color=#EDA51C>[VAL2]</color>.
+=In this type of Access, the base probability of obtaining a Standard Weapon is <color=#AC65E8>[VAL3]</color>, and the comprehensive probability of obtaining a Standard Weapon (including the guarantee) is <color=#AC65E8>[VAL4]</color>.	Di tipe Access ini, probabilitas dasar mendapat Standard Weapon adalah <color=#AC65E8>[VAL3]</color>, dan probabilitas menyeluruh mendapat Standard Weapon (termasuk jaminan) adalah <color=#AC65E8>[VAL4]</color>.
+=The probability of obtaining each Elite Weapon is the same.	Probabilitas mendapat tiap Elite Weapon adalah sama.
+=The probability of obtaining each Standard Weapon is the same.	Probabilitas mendapat tiap Standard Weapon adalah sama.
+=In this type of Access, every 10 Accesses guarantees obtaining a Standard or Elite Weapon.	Di tipe Access ini, tiap 10 Access dijamin mendapat Standard atau Elite Weapon.
+=The base probability for a Standard Weapon is <color=#AC65E8>[VAL5]</color> (comprehensive probability including guarantee: <color=#AC65E8>[VAL6]</color>), and the base probability for an Elite Weapon is <color=#EDA51C>[VAL7]</color> (comprehensive probability including guarantee: <color=#EDA51C>[VAL8]</color>).	Probabilitas dasar Standard Weapon adalah <color=#AC65E8>[VAL5]</color> (probabilitas menyeluruh termasuk jaminan: <color=#AC65E8>[VAL6]</color>), dan probabilitas dasar Elite Weapon adalah <color=#EDA51C>[VAL7]</color> (probabilitas menyeluruh termasuk jaminan: <color=#EDA51C>[VAL8]</color>).
+=In this type of Access, if an Elite Weapon is not obtained in 50 consecutive Accesses, the probability of obtaining an Elite Weapon will increase.	Di tipe Access ini, kalau Elite Weapon tidak didapat dalam 50 Access berturut-turut, probabilitas mendapat Elite Weapon akan naik.
+=Starting from the next Access, the probability will increase by <color=#EDA51C>[VAL9]</color> each time.	Mulai Access berikutnya, probabilitasnya naik <color=#EDA51C>[VAL9]</color> tiap kali.
+=Every 70 Accesses guarantees obtaining an Elite Weapon.	Tiap 70 Access dijamin mendapat Elite Weapon.
+=Whenever an Elite Weapon is obtained, the count resets, and the probability of obtaining an Elite Weapon reverts to the base probability.	Tiap kali Elite Weapon didapat, hitungannya direset dan probabilitas mendapat Elite Weapon kembali ke probabilitas dasar.
+=If the Elite Weapon obtained in this Access is not the Elite Weapon with the probability increase for this period, the next Elite Weapon obtained will definitely be the Elite Weapon with the probability increase for this period.	Kalau Elite Weapon yang didapat di Access ini bukan Elite Weapon yang probabilitasnya dinaikkan periode ini, Elite Weapon berikutnya dipastikan yang probabilitasnya dinaikkan periode ini.
+=The guarantee count for this type of Access does not accumulate with, and is independent of, the guarantee counts for other types of Access, without affecting each other.	Hitungan jaminan tipe Access ini tidak terakumulasi dan terpisah dari hitungan jaminan tipe Access lain, tanpa saling memengaruhi.
+=In this type of Access, every time an old-style weapon is obtained, 2 additional Extraction Vouchers will be awarded; every time a Standard Doll or Weapon is obtained, 12 additional Redundant Fragments will be awarded; every time an Elite Doll or Weapon is obtained, 60 additional Redundant Fragments will be awarded.	Di tipe Access ini, tiap kali senjata model lama didapat, diberikan tambahan 2 Extraction Vouchers; tiap kali Standard Doll atau Weapon didapat, diberikan tambahan 12 Redundant Fragments; tiap kali Elite Doll atau Weapon didapat, diberikan tambahan 60 Redundant Fragments.

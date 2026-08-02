@@ -1,0 +1,66 @@
+# Deskripsi SKILL — putaran ketiga puluh tujuh ekor panjang.
+#
+# Bagian 1 dari lima berkas (70-74). Tetap 1:1, harfiah ("=").
+#
+# Mulai putaran ini urutannya BUKAN lagi "penghalang satu kalimat" (tinggal 40),
+# melainkan frekuensi seluruh kalimat sisa. Frekuensi tertingginya cuma 8, jadi
+# ekornya rata — tidak ada lagi jalan pintas, semua harus ditulis satu per satu.
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "this unit and it's summons"   (mestinya "its")
+#range 0 130000
+
+# --- klausa pembatas ---
+=This can be triggered <color=#f26c1c>once</color> per turn.	Ini bisa aktif <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can trigger up to <color=#f26c1c>1 time</color> per round.	Efek ini bisa aktif maksimal <color=#f26c1c>1 kali</color> setiap ronde.
+=This effect can trigger up to <color=#f26c1c>once</color> per turn.	Efek ini bisa aktif maksimal <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can only trigger <color=#f26c1c>once</color> per battle.	Efek ini hanya bisa aktif <color=#f26c1c>sekali</color> setiap pertempuran.
+=This effect lasts for <color=#f26c1c>1 round</color>.	Efek ini bertahan <color=#f26c1c>1 ronde</color>.
+=This is considered a debuff.	Ini dihitung sebagai debuff.
+=On odd rounds, the effect is doubled.	Pada ronde ganjil, efeknya jadi dua kali lipat.
+=<color=#3487e0>{0}</color> taken is reduced.	<color=#3487e0>{0}</color> yang diterima berkurang.
+=Immune to faction-changing effects.	Kebal terhadap efek pengubah faksi.
+=Immune to effects including: reducing healing received, preventing being healed, and converting healing to damage.	Kebal terhadap efek berikut: mengurangi healing yang diterima, mencegah disembuhkan, dan mengubah healing jadi damage.
+=Marks a large area around this unit.	Menandai area luas di sekitar unit ini.
+=Select a direction.	Pilih satu arah.
+
+# --- rantai skill & summon ---
+=After this skill, switch to <color=#3487e0>{1}</color>.	Setelah skill ini, beralih ke <color=#3487e0>{1}</color>.
+=If <color=#3487e0>{2}</color> is not on the field, summons <color=#3487e0>{2}</color> after the skill resolves.	Jika <color=#3487e0>{2}</color> tidak ada di medan, memanggil <color=#3487e0>{2}</color> setelah skill ini bekerja.
+=If <color=#3487e0>{1}</color> already exists, resummons it at the new position.	Jika <color=#3487e0>{1}</color> sudah ada, memanggilnya ulang di posisi baru.
+=After using this skill, Belka can use the active skill <color=#3487e0>Sylvan Vault</color> or her basic attack <color=#3487e0>Nutcracker Shell</color>.	Setelah memakai skill ini, Belka bisa memakai skill aktif <color=#3487e0>Sylvan Vault</color> atau basic attack <color=#3487e0>Nutcracker Shell</color>.
+=After skill usage, Lind can use the active skill <color=#3487e0>Assault Spray</color>, the active skill <color=#3487e0>Overwhelming Burst</color>, or the basic attack <color=#3487e0>Repulsive Shot</color>.	Setelah skill dipakai, Lind bisa memakai skill aktif <color=#3487e0>Assault Spray</color>, skill aktif <color=#3487e0>Overwhelming Burst</color>, atau basic attack <color=#3487e0>Repulsive Shot</color>.
+=If there are no empty tiles to charge to, shoots the enemy target to deal damage instead.	Jika tidak ada tile kosong untuk diterjang, justru menembak target musuh untuk memberikan damage.
+=If Lainie does not have enough Confectance Index, her Simulacrum vanishes.	Jika Confectance Index Lainie tidak cukup, Simulacrum-nya lenyap.
+
+# --- serangan ---
+=Attacks 1 enemy character, dealing X% damage and applying Taunt for 1 turn.	Menyerang 1 karakter musuh, memberikan X% damage lalu menerapkan Taunt selama 1 giliran.
+=Selects 1 direction and deals AoE <color=#d4ae08>Electric damage</color> equal to <color=#f26c1c>110%</color> of attack to all enemy units within 8 tiles in that direction.	Memilih 1 arah dan memberikan AoE <color=#d4ae08>Electric damage</color> setara <color=#f26c1c>110%</color> Attack ke semua unit musuh dalam 8 tile ke arah itu.
+=At the end of the heavy weapons team's action, select the enemy target on the <color=#f26c1c>Peripheral Battlefield 1</color> or Core Battlefield with the lowest HP.	Di akhir aksi heavy weapons team, memilih target musuh dengan HP terendah di <color=#f26c1c>Peripheral Battlefield 1</color> atau Core Battlefield.
+=Damage multiplier is increased based on the amount of mobility expended.	Damage multiplier meningkat berdasarkan jumlah Mobility yang dipakai.
+=After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range.	Setelah skill ini bekerja, memicu semua debuff Corrosion yang dimiliki unit musuh dalam jangkauan efektif skill ini.
+
+# --- stat ---
+=If Corrosion damage is dealt, Corrosion damage dealt is increased by <color=#f26c1c>10%</color>.	Jika Corrosion damage diberikan, Corrosion damage yang diberikan meningkat sebesar <color=#f26c1c>10%</color>.
+=Damage increased by <color=#f26c1c>10%</color> against targets without buffs.	Damage meningkat sebesar <color=#f26c1c>10%</color> terhadap target yang tidak memiliki buff.
+=If the target has a debuff, damage is increased by an additional <color=#f26c1c>5%</color>.	Jika target memiliki debuff, damage meningkat tambahan <color=#f26c1c>5%</color>.
+=For targets with lower HP percentage than the user, increase critical damage by <color=#f26c1c>20%</color>.	Untuk target yang persentase HP-nya lebih rendah dari pengguna, Critical Damage bertambah sebesar <color=#f26c1c>20%</color>.
+=After each attack in the current round, the damage of the next skill increases by <color=#f26c1c>4%</color>, up to a maximum of <color=#f26c1c>16%</color>.	Setelah setiap serangan pada ronde ini, damage skill berikutnya meningkat sebesar <color=#f26c1c>4%</color>, maksimal <color=#f26c1c>16%</color>.
+=After the unit or an allied unit launches a Support Attack, the critical rate of its next active attack is increased by <color=#f26c1c>10%</color>, up to a maximum of <color=#f26c1c>30%</color>.	Setelah unit ini atau unit sekutu melancarkan Support Attack, Critical Rate serangan aktif berikutnya meningkat sebesar <color=#f26c1c>10%</color>, maksimal <color=#f26c1c>30%</color>.
+=Additionally, Electric damage dealt is permanently increased by <color=#f26c1c>5%</color>, and stability damage dealt is permanently increased by <color=#f26c1c>1 point</color>.	Selain itu, Electric damage yang diberikan meningkat permanen <color=#f26c1c>5%</color>, dan Stability damage yang diberikan bertambah permanen <color=#f26c1c>1 poin</color>.
+=Critical Damage of all allied Physical Summons is increased by <color=#f26c1c>5%</color>.	Critical Damage semua Physical Summon sekutu meningkat sebesar <color=#f26c1c>5%</color>.
+=When allied units deal Physical damage by active attacks, ignores <color=#f26c1c>10%</color> of the enemy target's defense.	Saat unit sekutu memberikan Physical damage lewat serangan aktif, mengabaikan <color=#f26c1c>10%</color> Defense target musuh.
+=Damage dealt to enemy units in the Core Battlefield is increased; when all enemy units in the Peripheral Battlefield are eliminated, its own damage dealt is increased.	Damage ke unit musuh di Core Battlefield meningkat; saat semua unit musuh di Peripheral Battlefield habis, damage yang diberikannya sendiri meningkat.
+=Gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> for each instance of damage dealt.	Mendapat <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> untuk setiap kali damage diberikan.
+=At the end of the action, recovers HP equal to <color=#f26c1c>5%</color> of Max HP.	Di akhir aksi, memulihkan HP setara <color=#f26c1c>5%</color> Max HP.
+=Before using a normal attack or active skill, this unit and it's summons gain <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Sebelum memakai normal Attack atau skill aktif, unit ini dan summon-nya mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+
+# --- spesifik karakter ---
+=At the start of battle, Welrod gains <color=#3487e0>{0}</color>.	Di awal pertempuran, Welrod mendapatkan <color=#3487e0>{0}</color>.
+=At the start of battle, Mityl gains <color=#3487e0>{2}</color>.	Di awal pertempuran, Mityl mendapatkan <color=#3487e0>{2}</color>.
+=At the end of Springfield's action, if Confectance Index is maxed out, expends all Confectance Index and gains <color=#3487e0>{0}</color>.	Di akhir aksi Springfield, jika Confectance Index penuh, menghabiskan seluruh Confectance Index lalu mendapatkan <color=#3487e0>{0}</color>.
+=When she has <color=#f26c1c>8 or more stacks</color> of <color=#3487e0>{2}</color>, she gains <color=#3487e0>{7}</color>.	Saat dia memiliki <color=#f26c1c>8 stack atau lebih</color> <color=#3487e0>{2}</color>, dia mendapatkan <color=#3487e0>{7}</color>.
+=When allied units gain Burn buffs, this unit and all her allied units gain <color=#3487e0>{2}</color> for <color=#f26c1c>2 turns</color>.	Saat unit sekutu mendapatkan buff Burn, unit ini dan semua unit sekutunya mendapatkan <color=#3487e0>{2}</color> selama <color=#f26c1c>2 giliran</color>.
+=At the start of the action, randomly gains <color=#f26c1c>2 types</color> of effects, this being either targeted and AoE damage boosts, or Confectance and basic damage boosts.	Di awal aksi, mendapatkan <color=#f26c1c>2 jenis</color> efek secara acak, yaitu peningkatan targeted dan AoE damage, atau peningkatan Confectance dan basic damage.
+=Lenna is immune to the negative effects of Electric tiles.	Lenna kebal terhadap efek negatif tile Electric.
+=At the start of the turn, if Sextans' Confectance Index is not full, recovers all Confectance Index and applies <color=#3487e0>{3}</color> to enemy units which ended their action on Electric tiles.	Di awal giliran, jika Confectance Index Sextans belum penuh, memulihkan seluruh Confectance Index lalu menerapkan <color=#3487e0>{3}</color> ke unit musuh yang mengakhiri aksinya di atas tile Electric.

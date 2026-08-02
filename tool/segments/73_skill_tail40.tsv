@@ -1,0 +1,65 @@
+# Deskripsi SKILL — putaran keempat puluh ekor panjang.
+#
+# Bagian 4 dari lima berkas (70-74). Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "the Ultimate skill<color=#3487e0>Demolition Severance</color>"  (kurang spasi)
+#range 0 130000
+
+# --- klausa pendek ---
+=This can be used <color=#f26c1c>once</color> per turn.	Ini bisa dipakai <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can only be triggered <color=#f26c1c>once</color> per battle.	Efek ini hanya bisa aktif <color=#f26c1c>sekali</color> setiap pertempuran.
+=The user can also gain the same buff.	Pengguna juga bisa mendapatkan buff yang sama.
+=The ball is not affected.	Bolanya tidak terpengaruh.
+=Expends all Confectance Index.	Menghabiskan seluruh Confectance Index.
+=Increase stability damage dealt.	Menambah Stability damage yang diberikan.
+=Deal <color=#2caadb>Hydro damage</color>.	Berikan <color=#2caadb>Hydro damage</color>.
+=Damage dealt increases based on the Energy points consumed.	Damage yang diberikan meningkat berdasarkan poin Energi yang dipakai.
+=At the end of the turn, cleanses all debuffs on this unit.	Di akhir giliran, membersihkan semua debuff pada unit ini.
+=Up to <color=#f26c1c>2</color> <color=#3487e0>{2}</color>s can be present at any one time.	Maksimal <color=#f26c1c>2</color> <color=#3487e0>{2}</color> bisa ada pada satu waktu.
+=Every <color=#f26c1c>2 times</color> this skill is used, gain <color=#3487e0>{1}</color>.	Setiap <color=#f26c1c>2 kali</color> skill ini dipakai, mendapatkan <color=#3487e0>{1}</color>.
+=Prioritizes the direction containing enemies with <color=#3487e0>{3}</color>.	Mengutamakan arah yang berisi musuh dengan <color=#3487e0>{3}</color>.
+=Zhaohui gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color>.	Zhaohui mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color>.
+=After skill usage, Phaetusa gains <color=#3487e0>{2}</color>.	Setelah skill dipakai, Phaetusa mendapatkan <color=#3487e0>{2}</color>.
+=Nikketa gains <color=#f26c1c>2 points</color> of Confectance Index and <color=#3487e0>{1}</color>.	Nikketa mendapatkan <color=#f26c1c>2 poin</color> Confectance Index dan <color=#3487e0>{1}</color>.
+
+# --- serangan ---
+=Selects 1 enemy target within <color=#f26c1c>6 tiles</color>, dealing AoE Physical damage equal to <color=#f26c1c>80%</color> of attack to the target and all enemy targets within <color=#f26c1c>1 tile</color>.	Memilih 1 target musuh <color=#f26c1c>dalam 6 tile</color>, memberikan AoE Physical damage setara <color=#f26c1c>80%</color> Attack ke target dan semua target musuh <color=#f26c1c>dalam 1 tile</color>.
+=Applies <color=#3487e0>{0}</color> to the nearest enemy target within <color=#f26c1c>7 tiles</color> for <color=#f26c1c>1 turn</color> and deals Physical damage equal to <color=#f26c1c>30%</color> of attack to it.	Menerapkan <color=#3487e0>{0}</color> ke target musuh terdekat <color=#f26c1c>dalam 7 tile</color> selama <color=#f26c1c>1 giliran</color> lalu memberikan Physical damage setara <color=#f26c1c>30%</color> Attack kepadanya.
+=Before attacking the enemy target in <color=#f26c1c>Peripheral Battlefield 1</color>, apply <color=#3487e0>{0}</color> to it, lasting for <color=#f26c1c>2 Rounds</color>.	Sebelum menyerang target musuh di <color=#f26c1c>Peripheral Battlefield 1</color>, menerapkan <color=#3487e0>{0}</color> kepadanya selama <color=#f26c1c>2 ronde</color>.
+=If the user did not move before the attack, the damage type changes to AoE <color=#e67129>Burn Damage</color>.	Jika pengguna tidak bergerak sebelum menyerang, tipe damage-nya berubah menjadi AoE <color=#e67129>Burn Damage</color>.
+=After attacking, the damage multiplier of this skill for the next use is increased by <color=#f26c1c>50%</color>, up to a maximum of <color=#f26c1c>100%</color>.	Setelah menyerang, damage multiplier skill ini untuk pemakaian berikutnya meningkat sebesar <color=#f26c1c>50%</color>, maksimal <color=#f26c1c>100%</color>.
+=When dealing damage, applies <color=#3487e0>{0}</color> to the target for <color=#f26c1c>2 turns</color>.	Saat memberikan damage, menerapkan <color=#3487e0>{0}</color> ke target selama <color=#f26c1c>2 giliran</color>.
+=Before taking damage, Imaginary Friend inflicts <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> on the attacker for <color=#f26c1c>1 turn</color>.	Sebelum menerima damage, Imaginary Friend menimbulkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> pada penyerangnya selama <color=#f26c1c>1 giliran</color>.
+=If this unit successfully stuns the enemy, gains <color=#3487e0>{2}</color>.	Jika unit ini berhasil membuat musuh pingsan, mendapatkan <color=#3487e0>{2}</color>.
+
+# --- dukungan & summon ---
+=Selects 1 allied target within <color=#f26c1c>6 tiles</color>, restoring HP equal to <color=#f26c1c>130%</color> of attack, <color=#f26c1c>2 points</color> of stability index, and applies <color=#3487e0>{0}</color>.	Memilih 1 target sekutu <color=#f26c1c>dalam 6 tile</color>, memulihkan HP setara <color=#f26c1c>130%</color> Attack, <color=#f26c1c>2 poin</color> Stability Index, lalu menerapkan <color=#3487e0>{0}</color>.
+=Restores HP and stability index to an allied target and applies <color=#3487e0>{0}</color>.	Memulihkan HP dan Stability Index satu target sekutu lalu menerapkan <color=#3487e0>{0}</color>.
+=If the target's HP is fully restored after healing, applies <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Jika HP target pulih sepenuhnya setelah healing, menerapkan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=If the target's HP is fully restored after healing, applies <color=#3487e0>{1}</color>.	Jika HP target pulih sepenuhnya setelah healing, menerapkan <color=#3487e0>{1}</color>.
+=If allied units have <color=#3487e0>{4}</color>, applies <color=#3487e0>{5}</color> to them.	Jika unit sekutu memiliki <color=#3487e0>{4}</color>, menerapkan <color=#3487e0>{5}</color> kepada mereka.
+=If an enemy unit is on an allied <color=#3487e0>{0}</color> tile, that unit gains <color=#3487e0>{2}</color>.	Jika unit musuh berada di atas tile <color=#3487e0>{0}</color> sekutu, unit itu mendapatkan <color=#3487e0>{2}</color>.
+=Summons <color=#f26c1c>1</color> Fortress Device at a random location within <color=#f26c1c>6 to 8 tiles</color> around self.	Memanggil <color=#f26c1c>1</color> Fortress Device di lokasi acak <color=#f26c1c>dalam 6 sampai 8 tile</color> di sekitar diri.
+=If the target is a Doll, boss or large unit, this skill summons a <color=#3487e0>{3}</color> instead.	Jika targetnya Doll, boss, atau unit besar, skill ini justru memanggil <color=#3487e0>{3}</color>.
+=Detached Limbs cannot act on the turn they were summoned.	Detached Limb tidak bisa bergerak pada giliran saat mereka dipanggil.
+
+# --- spesifik karakter ---
+=Voymastina is immune to damage and fixed damage, lasting until the end of this passive effect.	Voymastina kebal terhadap damage dan fixed damage, bertahan sampai efek passive ini berakhir.
+=Voymastina is immune to displacement and mobility debuffs.	Voymastina kebal terhadap efek pemindahan dan debuff Mobility.
+=After using the active skill <color=#3487e0>Overwrite Trap</color>, Phaetusa can use <color=#3487e0>Synchrony</color>.	Setelah memakai skill aktif <color=#3487e0>Overwrite Trap</color>, Phaetusa bisa memakai <color=#3487e0>Synchrony</color>.
+=When <color=#3487e0>{1}</color> is active, the active skill <color=#3487e0>Dreamquake</color> or the basic attack <color=#3487e0>Bedtime Warmup</color> can be used after using this skill.	Saat <color=#3487e0>{1}</color> aktif, skill aktif <color=#3487e0>Dreamquake</color> atau basic attack <color=#3487e0>Bedtime Warmup</color> bisa dipakai setelah memakai skill ini.
+=When in <color=#3487e0>{1}</color>, the active skill <color=#3487e0>Dreamquake</color> or the basic attack <color=#3487e0>Bedtime Warmup</color> can be used after using this skill.	Saat dalam <color=#3487e0>{1}</color>, skill aktif <color=#3487e0>Dreamquake</color> atau basic attack <color=#3487e0>Bedtime Warmup</color> bisa dipakai setelah memakai skill ini.
+=When any <color=#3487e0>Imperturbable Arrow</color> is on the field, Zhaohui's damage dealt is increased by <color=#f26c1c>10%</color>.	Saat ada <color=#3487e0>Imperturbable Arrow</color> di medan, damage yang diberikan Zhaohui meningkat sebesar <color=#f26c1c>10%</color>.
+=Before using the skill, if Lenna's Confectance Index is greater than or equal to <color=#f26c1c>3 points</color>, consumes <color=#f26c1c>3 points</color> of Confectance Index to enhance the skill, gaining <color=#3487e0>{1}</color>.	Sebelum memakai skill, jika Confectance Index Lenna <color=#f26c1c>3 poin</color> atau lebih, memakai <color=#f26c1c>3 poin</color> Confectance Index untuk memperkuat skill, lalu mendapatkan <color=#3487e0>{1}</color>.
+=When using the active skill <color=#3487e0>Graceful Pirouette</color> or the active skill <color=#3487e0>Passionate Resonance</color> on this turn, the effects are applied to all allied units.	Saat memakai skill aktif <color=#3487e0>Graceful Pirouette</color> atau skill aktif <color=#3487e0>Passionate Resonance</color> pada giliran ini, efeknya diterapkan ke semua unit sekutu.
+=Arios absorbs all damage that Florence takes.	Arios menyerap seluruh damage yang diterima Florence.
+=When Arios is more than <color=#f26c1c>6 tiles</color> away from Florence, it teleports to Florence's vicinity.	Saat Arios berjarak lebih dari <color=#f26c1c>6 tile</color> dari Florence, dia berteleportasi ke dekat Florence.
+=For each time Arios takes damage, it gains 1 stack of <color=#3487e0>{0}</color>.	Setiap kali Arios menerima damage, dia mendapatkan 1 stack <color=#3487e0>{0}</color>.
+=When <color=#3487e0>{0}</color> reaches 5 stacks, it is converted to <color=#3487e0>{1}</color>.	Saat <color=#3487e0>{0}</color> mencapai 5 stack, dia berubah menjadi <color=#3487e0>{1}</color>.
+=After using this skill, gains <color=#f26c1c>6 points</color> of Confectance Index and teleports <color=#3487e0>{2}</color> to Florence's side.	Setelah memakai skill ini, mendapatkan <color=#f26c1c>6 poin</color> Confectance Index lalu memindahkan <color=#3487e0>{2}</color> ke sisi Florence.
+=After using this skill, gains Confectance Index and teleports <color=#3487e0>{2}</color> to Florence's side.	Setelah memakai skill ini, mendapatkan Confectance Index lalu memindahkan <color=#3487e0>{2}</color> ke sisi Florence.
+=When ally units (excluding Sextans herself) attack with a Blade, expends Confectance Index and performs <color=#3487e0>{2}</color>.	Saat unit sekutu (kecuali Sextans sendiri) menyerang dengan Blade, memakai Confectance Index lalu melancarkan <color=#3487e0>{2}</color>.
+=At the end of the round, if the Ultimate skill<color=#3487e0>Demolition Severance</color> was not used this turn, gain <color=#3487e0>{3}</color>.	Di akhir ronde, jika skill Ultimate<color=#3487e0>Demolition Severance</color> tidak dipakai pada giliran ini, mendapatkan <color=#3487e0>{3}</color>.
+=At the end of OTs-14's action, if she is in the <color=#3487e0>{1}</color> state, she switches to the <color=#3487e0>{0}</color> state.	Di akhir aksi OTs-14, jika dia berada dalam kondisi <color=#3487e0>{1}</color>, dia beralih ke kondisi <color=#3487e0>{0}</color>.
+=This skill can be used if OTs-14 is in the <color=#3487e0>{0}</color> state and the amount of damage accumulated through <color=#3487e0>{2}</color> or <color=#3487e0>{1}</color> is <color=#f26c1c>greater than 0</color>.	Skill ini bisa dipakai jika OTs-14 berada dalam kondisi <color=#3487e0>{0}</color> dan jumlah damage yang terkumpul lewat <color=#3487e0>{2}</color> atau <color=#3487e0>{1}</color> <color=#f26c1c>lebih dari 0</color>.

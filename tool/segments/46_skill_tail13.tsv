@@ -1,0 +1,104 @@
+# Deskripsi SKILL — putaran ketiga belas ekor panjang.
+#
+# Bagian 3 dari empat berkas yang ditulis sekaligus (44-47). Tetap 1:1, harfiah ("=").
+#
+# Anomali sumber yang disalin apa adanya: spasi sebelum koma di "in possession ,
+# attack is increased", dan apostrof melengkung pada "the user’s max HP".
+#range 0 130000
+
+# --- serangan ---
+=Deals AoE <color=#8679e8>Corrosion damage</color> to enemy targets and generates <color=#3487e0>{0}</color>.	Memberikan AoE <color=#8679e8>Corrosion damage</color> ke target musuh lalu menghasilkan <color=#3487e0>{0}</color>.
+=Selects the nearest <color=#f26c1c>1</color> enemy target, deals physical damage equal to <color=#f26c1c>130%</color> of attack and restores <color=#f26c1c>20%</color> of the user’s max HP.	Memilih <color=#f26c1c>1</color> target musuh terdekat, memberikan physical damage setara <color=#f26c1c>130%</color> Attack lalu memulihkan <color=#f26c1c>20%</color> Max HP pengguna.
+=Deals Physical damage to the nearest <color=#f26c1c>1</color> enemy target, and recovers the user’s HP.	Memberikan Physical damage ke <color=#f26c1c>1</color> target musuh terdekat, lalu memulihkan HP pengguna.
+=Selects 1 nearby enemy unit, deals <color=#8679e8>Corrosion damage</color> to it and applies <color=#3487e0>{0}</color>.	Memilih 1 unit musuh di dekatnya, memberikan <color=#8679e8>Corrosion damage</color> kepadanya lalu menerapkan <color=#3487e0>{0}</color>.
+=Deals AoE physical damage equal to <color=#f26c1c>150%</color> of attack to all units in a <color=#f26c1c>3×3 area</color> centered on self.	Memberikan AoE physical damage setara <color=#f26c1c>150%</color> Attack ke semua unit dalam <color=#f26c1c>area 3×3</color> berpusat pada diri sendiri.
+=Deals AoE physical damage to all units in a <color=#f26c1c>3×3 area</color> centered on self.	Memberikan AoE physical damage ke semua unit dalam <color=#f26c1c>area 3×3</color> berpusat pada diri sendiri.
+=Deals AoE Physical damage to the furthest enemy target and all targets <color=#f26c1c>within 2 tiles</color> and applies <color=#3487e0>{0}</color>.	Memberikan AoE Physical damage ke target musuh terjauh dan semua target <color=#f26c1c>dalam 2 tile</color> lalu menerapkan <color=#3487e0>{0}</color>.
+=Deals Corrosion damage to the closest enemy target within <color=#f26c1c>6 tiles</color> and generates <color=#f26c1c>1 tile</color> of <color=#3487e0>{0}</color> on the target's location.	Memberikan Corrosion damage ke target musuh terdekat <color=#f26c1c>dalam 6 tile</color> lalu menghasilkan <color=#f26c1c>1 tile</color> <color=#3487e0>{0}</color> di lokasi target.
+=Deals AoE Burn damage equal to <color=#f26c1c>80%</color> of attack to the enemy targets and generates <color=#3487e0>{0}</color>.	Memberikan AoE Burn damage setara <color=#f26c1c>80%</color> Attack ke target musuh lalu menghasilkan <color=#3487e0>{0}</color>.
+=Selects 1 random enemy target on the field to deal physical damage equal to <color=#f26c1c>110%</color> of attack and apply <color=#3487e0>{0}</color>.	Memilih 1 target musuh acak di medan untuk diberi physical damage setara <color=#f26c1c>110%</color> Attack lalu menerapkan <color=#3487e0>{0}</color>.
+=When dealing <color=#d4ae08>Electric damage</color>, if the target is in Stability Break and has <color=#3487e0>{0}</color>, then deals additional fixed damage equal to <color=#f26c1c>10%</color> of attack.	Saat memberikan <color=#d4ae08>Electric damage</color>, jika target sedang Stability Break dan memiliki <color=#3487e0>{0}</color>, memberikan tambahan fixed damage setara <color=#f26c1c>10%</color> Attack.
+=When dealing <color=#d4ae08>Electric damage</color>, if the target is in Stability Break and has <color=#3487e0>{0}</color>, then deals additional fixed damage.	Saat memberikan <color=#d4ae08>Electric damage</color>, jika target sedang Stability Break dan memiliki <color=#3487e0>{0}</color>, memberikan tambahan fixed damage.
+=If the target is under the effects of Stability Break, ignore <color=#f26c1c>30%</color> of its defense.	Jika target sedang terkena Stability Break, abaikan <color=#f26c1c>30%</color> pertahanannya.
+
+# --- penerapan status ---
+=When attacking, applies <color=#3487e0>{0}</color> to the target for <color=#f26c1c>2 turns</color>.	Saat menyerang, menerapkan <color=#3487e0>{0}</color> ke target selama <color=#f26c1c>2 giliran</color>.
+=When attacking, applies <color=#3487e0>{0}</color> to the target.	Saat menyerang, menerapkan <color=#3487e0>{0}</color> ke target.
+=Increases the duration of <color=#3487e0>{0}</color> by <color=#f26c1c>1 turn</color>.	Menambah durasi <color=#3487e0>{0}</color> sebanyak <color=#f26c1c>1 giliran</color>.
+=When Andoris applies <color=#3487e0>{0}</color> to allied units, she cleanses <color=#f26c1c>2</color> debuffs on them and all of her Auto-Turrets.	Saat Andoris menerapkan <color=#3487e0>{0}</color> ke unit sekutu, dia membersihkan <color=#f26c1c>2</color> debuff pada mereka dan semua Auto-Turret miliknya.
+=At the start of the battle, Andoris applies <color=#3487e0>{0}</color> to all allied Dolls for <color=#f26c1c>3 turns</color>.	Di awal pertempuran, Andoris menerapkan <color=#3487e0>{0}</color> ke semua Doll sekutu selama <color=#f26c1c>3 giliran</color>.
+=At the start of the battle, Andoris applies <color=#3487e0>{0}</color> to all allied Dolls.	Di awal pertempuran, Andoris menerapkan <color=#3487e0>{0}</color> ke semua Doll sekutu.
+=At the start of the battle, applies <color=#3487e0>{0}</color> to the enemy unit with the highest max HP for <color=#f26c1c>2 turns</color>.	Di awal pertempuran, menerapkan <color=#3487e0>{0}</color> ke unit musuh dengan Max HP tertinggi selama <color=#f26c1c>2 giliran</color>.
+=At the start of the battle, applies <color=#3487e0>{0}</color> to the enemy unit with the highest max HP.	Di awal pertempuran, menerapkan <color=#3487e0>{0}</color> ke unit musuh dengan Max HP tertinggi.
+=At the start of battle, inflicts <color=#3487e0>{0}</color> on the enemy unit with the highest HP, lasting for <color=#f26c1c>2 rounds</color>.	Di awal pertempuran, menimbulkan <color=#3487e0>{0}</color> pada unit musuh ber-HP tertinggi, bertahan <color=#f26c1c>2 ronde</color>.
+=Apply the <color=#3487e0>{0}</color> effect to allied units within a <color=#f26c1c>5-tile radius</color>.	Menerapkan efek <color=#3487e0>{0}</color> ke unit sekutu dalam <color=#f26c1c>radius 5 tile</color>.
+=Apply <color=#3487e0>{0}</color> to all units on the field.	Terapkan <color=#3487e0>{0}</color> ke semua unit di medan.
+=At the end of the turn, randomly apply <color=#f26c1c>1 debuff</color> to all enemy targets <color=#f26c1c>on the map</color> for <color=#f26c1c>2 turns</color>.	Di akhir giliran, secara acak menerapkan <color=#f26c1c>1 debuff</color> ke semua target musuh <color=#f26c1c>di peta</color> selama <color=#f26c1c>2 giliran</color>.
+=At the end of the turn, randomly apply a debuff to all enemy targets <color=#f26c1c>on the map</color>.	Di akhir giliran, secara acak menerapkan satu debuff ke semua target musuh <color=#f26c1c>di peta</color>.
+=At the end of the turn, randomly apply <color=#f26c1c>2 debuffs</color> to all enemy targets <color=#f26c1c>on the map</color> for <color=#f26c1c>2 turns</color>.	Di akhir giliran, secara acak menerapkan <color=#f26c1c>2 debuff</color> ke semua target musuh <color=#f26c1c>di peta</color> selama <color=#f26c1c>2 giliran</color>.
+=After being attacked, applies <color=#3487e0>{0}</color> to the attacker for <color=#f26c1c>2 turns</color>.	Setelah diserang, menerapkan <color=#3487e0>{0}</color> pada penyerangnya selama <color=#f26c1c>2 giliran</color>.
+=After being attacked, applies <color=#3487e0>{0}</color> to the attacker.	Setelah diserang, menerapkan <color=#3487e0>{0}</color> pada penyerangnya.
+=If <color=#42cce0>Freeze damage</color> is dealt, applies <color=#3487e0>{0}</color> to the target for <color=#f26c1c>2 turns</color>.	Jika <color=#42cce0>Freeze damage</color> diberikan, menerapkan <color=#3487e0>{0}</color> ke target selama <color=#f26c1c>2 giliran</color>.
+=Before using the extra active skill <color=#3487e0>Hunting Instinct</color>, dispels <color=#f26c1c>1</color> buff from the target.	Sebelum memakai active skill tambahan <color=#3487e0>Hunting Instinct</color>, menghapus <color=#f26c1c>1</color> buff dari target.
+=The number of debuffs cleansed increases by <color=#f26c1c>1</color>, and removes <color=#3487e0>{3}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{4}</color>, and <color=#3487e0>{2}</color>.	Jumlah debuff yang dibersihkan bertambah sebanyak <color=#f26c1c>1</color>, dan menghapus <color=#3487e0>{3}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{4}</color>, dan <color=#3487e0>{2}</color>.
+=At the start of the round, generates <color=#3487e0>{0}</color> tiles <color=#f26c1c>within a 1-tile radius</color> around self, lasting for <color=#f26c1c>2 rounds</color>.	Di awal ronde, menghasilkan tile <color=#3487e0>{0}</color> <color=#f26c1c>dalam radius 1 tile</color> di sekitar diri sendiri, bertahan <color=#f26c1c>2 ronde</color>.
+
+# --- perolehan & pemulihan ---
+=Summons <color=#f26c1c>3</color> Entropics nearby.	Memanggil <color=#f26c1c>3</color> Entropic di dekatnya.
+=Summons Lightning Rods.	Memanggil Lightning Rod.
+=For every allied unit that dies, recovers HP equal to <color=#f26c1c>20%</color> of max HP and gains 1 stack of <color=#3487e0>{0}</color>.	Untuk setiap unit sekutu yang mati, memulihkan HP setara <color=#f26c1c>20%</color> Max HP dan mendapatkan 1 stack <color=#3487e0>{0}</color>.
+=For every allied unit that dies, recovers HP and gain 1 stack of <color=#3487e0>{0}</color>.	Untuk setiap unit sekutu yang mati, memulihkan HP dan mendapatkan 1 stack <color=#3487e0>{0}</color>.
+=Restore stability index for <color=#f26c1c>2</color> allies with the lowest stability, then further increase it by <color=#f26c1c>1 point</color>.	Memulihkan Stability Index <color=#f26c1c>2</color> sekutu dengan Stability terendah, lalu menaikkannya lagi <color=#f26c1c>1 poin</color>.
+=Stability index recovery increases by <color=#f26c1c>2 points</color>.	Pemulihan Stability Index bertambah sebesar <color=#f26c1c>2 poin</color>.
+=Cooldown reduced by <color=#f26c1c>1 turn</color>.	Cooldown berkurang sebanyak <color=#f26c1c>1 giliran</color>.
+=Restore stability after 2 turns of Stability Break	Pulihkan Stability setelah 2 giliran Stability Break
+=When stability is below 0, remove damage reduction	Saat Stability di bawah 0, hilangkan pengurangan damage
+=This unit and <color=#f26c1c>2</color> other allied units within <color=#f26c1c>5 tiles</color> gain <color=#3487e0>{0}</color> equal to <color=#f26c1c>30%</color> of max HP for <color=#f26c1c>2 turns</color>.	Unit ini dan <color=#f26c1c>2</color> unit sekutu lain <color=#f26c1c>dalam 5 tile</color> mendapatkan <color=#3487e0>{0}</color> setara <color=#f26c1c>30%</color> Max HP selama <color=#f26c1c>2 giliran</color>.
+=This unit and allied units gain <color=#3487e0>{0}</color>.	Unit ini dan unit sekutu mendapatkan <color=#3487e0>{0}</color>.
+=Gains 1 random buff for <color=#f26c1c>1 turn</color> if the user has full HP at the start of the action.	Mendapat 1 buff acak selama <color=#f26c1c>1 giliran</color> jika HP pengguna penuh di awal aksi.
+=The active skill <color=#3487e0>Neural Adjustment</color> gains a new effect: Gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Active skill <color=#3487e0>Neural Adjustment</color> mendapatkan efek baru: Mendapat <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=Upon death, grants <color=#f26c1c>1</color> random buff to <color=#f26c1c>2</color> random allied targets within a <color=#f26c1c>3×3 area</color> for <color=#f26c1c>1 turn</color>.	Saat mati, memberi <color=#f26c1c>1</color> buff acak ke <color=#f26c1c>2</color> target sekutu acak dalam <color=#f26c1c>area 3×3</color> selama <color=#f26c1c>1 giliran</color>.
+=When the user dies, grants a random buff to <color=#f26c1c>2</color> random allied units within range.	Saat pengguna mati, memberi buff acak ke <color=#f26c1c>2</color> unit sekutu acak dalam jangkauan.
+
+# --- stat ---
+=For <color=#f26c1c>each</color> ally unit on the battlefield, damage dealt by all ally units is increased by <color=#f26c1c>2%</color>.	Untuk <color=#f26c1c>setiap</color> unit sekutu di medan perang, damage semua unit sekutu meningkat sebesar <color=#f26c1c>2%</color>.
+=Increase damage dealt by ally units based on the number of ally units on the battlefield.	Menaikkan damage unit sekutu berdasarkan jumlah unit sekutu di medan perang.
+=When the number of permanent <color=#3487e0>{1}</color> stacks reaches max, ignores <color=#f26c1c>15%</color> of Cover damage reduction when attacking <color=#3487e0>Exposed</color> enemies.	Saat jumlah stack permanen <color=#3487e0>{1}</color> mencapai maksimum, mengabaikan <color=#f26c1c>15%</color> pengurangan damage Cover saat menyerang musuh yang <color=#3487e0>Exposed</color>.
+=Attack reduced by <color=#f26c1c>30%</color>; when an active attack deals damage, if not on a Phase tile, Attack is additionally reduced by <color=#f26c1c>20%</color>.	Attack berkurang sebesar <color=#f26c1c>30%</color>; saat serangan aktif memberikan damage, jika tidak berada di tile Phase, Attack berkurang tambahan <color=#f26c1c>20%</color>.
+=When attacking an enemy with <color=#3487e0>{0}</color>, targeted damage dealt is increased by <color=#f26c1c>5%</color>.	Saat menyerang musuh yang memiliki <color=#3487e0>{0}</color>, damage bertarget yang diberikan meningkat sebesar <color=#f26c1c>5%</color>.
+=When attacking an enemy with <color=#3487e0>{0}</color>, targeted damage dealt is increased by <color=#f26c1c>15%</color> and stability damage dealt is increased by <color=#f26c1c>4 points</color>.	Saat menyerang musuh yang memiliki <color=#3487e0>{0}</color>, damage bertarget yang diberikan meningkat sebesar <color=#f26c1c>15%</color> dan Stability damage meningkat sebesar <color=#f26c1c>4 poin</color>.
+=For <color=#f26c1c>each</color> <color=#d4ae08>Electric Impact</color>-type plugin in possession , attack is increased by <color=#f26c1c>3%</color>, stacking up to <color=#f26c1c>6 times</color>.	Untuk <color=#f26c1c>setiap</color> plugin tipe <color=#d4ae08>Electric Impact</color> yang dimiliki , Attack meningkat sebesar <color=#f26c1c>3%</color>, menumpuk hingga <color=#f26c1c>6 kali</color>.
+=Damage is increased by <color=#f26c1c>20%</color>, critical damage is increased by <color=#f26c1c>25%</color>, and fixed damage is increased by <color=#f26c1c>50%</color> against targets with Electric debuffs.	Damage meningkat sebesar <color=#f26c1c>20%</color>, Critical Damage meningkat sebesar <color=#f26c1c>25%</color>, dan fixed damage meningkat sebesar <color=#f26c1c>50%</color> terhadap target yang memiliki debuff Electric.
+=When stability is greater than <color=#f26c1c>0 points</color>, this unit deals additional stability damage when attacking enemy targets.	Saat Stability lebih dari <color=#f26c1c>0 poin</color>, unit ini memberikan tambahan Stability damage saat menyerang target musuh.
+=Increase damage dealt to enemy targets with Freeze debuffs by <color=#f26c1c>10%</color>.	Damage ke target musuh yang memiliki debuff Freeze meningkat sebesar <color=#f26c1c>10%</color>.
+=When HP is greater than <color=#f26c1c>50%</color>, reduce AoE damage taken by <color=#f26c1c>20%</color>.	Saat HP lebih dari <color=#f26c1c>50%</color>, damage AoE yang diterima berkurang sebesar <color=#f26c1c>20%</color>.
+=Increase damage dealt against enemy targets with movement debuffs by <color=#f26c1c>7%</color>.	Damage terhadap target musuh yang memiliki debuff pergerakan meningkat sebesar <color=#f26c1c>7%</color>.
+=If the target's stability before attacking is greater than <color=#f26c1c>0</color>, damage dealt to the target is increased by <color=#f26c1c>10%</color>.	Jika Stability target sebelum diserang lebih dari <color=#f26c1c>0</color>, damage ke target itu meningkat sebesar <color=#f26c1c>10%</color>.
+=Damage dealt to targets with Burn debuffs is increased by <color=#f26c1c>2.5%</color>, and damage dealt to PMC targets is increased by <color=#f26c1c>2.5%</color>.	Damage ke target yang memiliki debuff Burn meningkat sebesar <color=#f26c1c>2.5%</color>, dan damage ke target PMC meningkat sebesar <color=#f26c1c>2.5%</color>.
+=If the target has defense debuffs, increase critical rate by <color=#f26c1c>20%</color>.	Jika target memiliki debuff Defense, Critical Rate meningkat sebesar <color=#f26c1c>20%</color>.
+=Damage dealt to enemy units whose HP is not full increases by <color=#f26c1c>7%</color>.	Damage ke unit musuh yang HP-nya belum penuh meningkat sebesar <color=#f26c1c>7%</color>.
+=When on a Corrosion tile, damage taken is reduced by <color=#f26c1c>15%</color>, and Stability Damage taken is reduced by <color=#f26c1c>1</color>.	Saat berada di tile Corrosion, damage yang diterima berkurang sebesar <color=#f26c1c>15%</color>, dan Stability Damage yang diterima berkurang sebanyak <color=#f26c1c>1</color>.
+=At the start of the round, if self is on a <color=#f26c1c>Level 3</color> Phase tile, AoE damage dealt increases by <color=#f26c1c>10%</color>, lasting for <color=#f26c1c>1 round</color>.	Di awal ronde, jika diri sendiri berada di tile Phase <color=#f26c1c>Level 3</color>, damage AoE yang diberikan meningkat sebesar <color=#f26c1c>10%</color>, bertahan <color=#f26c1c>1 ronde</color>.
+=At the start of the turn, this unit's attack is increased by <color=#f26c1c>1%</color>.	Di awal giliran, serangan unit ini meningkat sebesar <color=#f26c1c>1%</color>.
+=At the start of the turn, this unit's defense is increased by <color=#f26c1c>1%</color>.	Di awal giliran, Defense unit ini meningkat sebesar <color=#f26c1c>1%</color>.
+=At the start of the turn, attack and defense are increased by <color=#f26c1c>3%</color>.	Di awal giliran, serangan dan Defense meningkat sebesar <color=#f26c1c>3%</color>.
+=At the end of the turn, Max HP and critical damage is increased by <color=#f26c1c>5%</color>.	Di akhir giliran, Max HP dan Critical Damage meningkat sebesar <color=#f26c1c>5%</color>.
+=When an enemy target's HP is less than <color=#f26c1c>80%</color>, damage dealt to it is increased by <color=#f26c1c>30%</color>.	Saat HP target musuh di bawah <color=#f26c1c>80%</color>, damage kepadanya meningkat sebesar <color=#f26c1c>30%</color>.
+=When enemy HP is below <color=#f26c1c>40%</color>, damage dealt is increased by <color=#f26c1c>15%</color>.	Saat HP musuh di bawah <color=#f26c1c>40%</color>, damage yang diberikan meningkat sebesar <color=#f26c1c>15%</color>.
+=Damage dealt to Varjagers is increased by <color=#f26c1c>2.5%</color>.	Damage ke Varjager meningkat sebesar <color=#f26c1c>2.5%</color>.
+=Max HP is increased to <color=#f26c1c>300%</color> and max stability is increased to <color=#f26c1c>150%</color>.	Max HP naik menjadi <color=#f26c1c>300%</color> dan Stability maksimum naik menjadi <color=#f26c1c>150%</color>.
+=Max HP and max stability are greatly increased.	Max HP dan Stability maksimum meningkat drastis.
+
+# --- kekebalan Corrosion ---
+=<color=#8679e8>Corrosion Damage</color> taken is reduced by <color=#f26c1c>50%</color>.	<color=#8679e8>Corrosion Damage</color> yang diterima berkurang sebesar <color=#f26c1c>50%</color>.
+=<color=#8679e8>Corrosion Damage</color> taken is reduced.	<color=#8679e8>Corrosion Damage</color> yang diterima berkurang.
+=<color=#8679e8>Corrosion Damage</color> taken is reduced by <color=#f26c1c>80%</color>, immune to Corrosion-type debuffs.	<color=#8679e8>Corrosion Damage</color> yang diterima berkurang sebesar <color=#f26c1c>80%</color>, kebal terhadap debuff tipe Corrosion.
+=<color=#8679e8>Corrosion Damage</color> taken is reduced, immune to Corrosion-type debuffs.	<color=#8679e8>Corrosion Damage</color> yang diterima berkurang, kebal terhadap debuff tipe Corrosion.
+=Immune to <color=#8679e8>Corrosion Damage</color>, immune to Corrosion-type debuffs, attacks ignore <color=#f26c1c>5 points</color> of stability.	Kebal terhadap <color=#8679e8>Corrosion Damage</color>, kebal terhadap debuff tipe Corrosion, serangannya mengabaikan <color=#f26c1c>5 poin</color> Stability.
+=Immune to <color=#8679e8>Corrosion Damage</color>, immune to Corrosion-type debuffs, attacks ignore stability.	Kebal terhadap <color=#8679e8>Corrosion Damage</color>, kebal terhadap debuff tipe Corrosion, serangannya mengabaikan Stability.
+
+# --- teks internal ---
+=1x1 Gas Pipe	1x1 Gas Pipe
+=3x3 Gas Pipe	3x3 Gas Pipe
+=AI is used for assessing the dual-layer cache	AI dipakai untuk menilai cache dua lapis
+=AI is utilized for evaluating a 3-tier magazine	AI dipakai untuk mengevaluasi magazine 3 tingkat

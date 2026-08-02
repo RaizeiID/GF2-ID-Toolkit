@@ -1,0 +1,6 @@
+# Deskripsi skill Vertebrae & Neural Helix - batch 7i (satu kalimat sisa Faye)
+# Sumber memakai NON-BREAKING SPACE (U+00A0) setelah "Confectance Index," dan
+# setelah "{0}</color>," - bukan spasi biasa. Pemisah kalimat tidak memecah di
+# situ, jadi polanya harus memuat NBSP literal agar cocok.
+#range 0 130000
+=At the end of an enemy unit's action, if it is within <color=#f26c1c>6 tiles</color>, Faye gains Confectance Index, applies <color=#3487e0>{0}</color>, and deals Physical damage and stability damage.	Pada akhir aksi unit musuh, jika unit itu berada dalam <color=#f26c1c>6 tile</color>, Faye mendapatkan Confectance Index, memberikan <color=#3487e0>{0}</color>, serta memberikan Physical damage dan Stability damage.

@@ -1,0 +1,115 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 3).
+#
+# "Soirée - Wölfe und Lämmer" dan "Mímisbrunnr's Loop" adalah nama acara dalam
+# bahasa Prancis/Jerman/Norse — nama diri, dibiarkan apa adanya termasuk huruf
+# beraksennya.
+#
+# "Did they \nleave any signature..." mengandung baris baru harfiah \n di dalam
+# teks permainan; ditulis persis begitu supaya cocok.
+#
+# Istilah permainan tetap Inggris: Crew Deck, Confectance, Neural Archive,
+# Plugin, Artifact, Crit, Lv., CV, Soirée.
+#range 75000 90000
+
+Unlocks after Crew Deck reaches Level {0}	Terbuka setelah Crew Deck mencapai Level {0}
+Great Success	Sukses Besar
+Delicious	Lezat
+Meh	Biasa saja
+To Battle!	Maju Bertempur!
+Target Calibration Stage	Tahap Kalibrasi Target
+Not Acquired	Belum Didapat
+Confectance requirements	Syarat Confectance
+Confectance Cost	Biaya Confectance
+Starting Points	Poin Awal
+Skill Details	Detail Skill
+Expansion Consumption	Konsumsi Ekspansi
+Purchase successful	Pembelian berhasil
+Updates to ranking may be slightly delayed	Pembaruan peringkat mungkin sedikit tertunda
+No Price Fluctuations	Tidak Ada Fluktuasi Harga
+Command Dice × {0}	Dadu Komando × {0}
+Remote Dice × {0}	Dadu Jarak Jauh × {0}
+Patrol Consumption	Konsumsi Patroli
+View Special Buff Details	Lihat Detail Buff Khusus
+Special Buff Name	Nama Buff Khusus
+Enemy Features	Ciri Musuh
+Instant Elimination	Pemusnahan Seketika
+Insufficient fragment coins	Koin fragmen tidak cukup
+Reached the purchase limit for this rank	Batas pembelian untuk peringkat ini tercapai
+Quantity overflow	Jumlah berlebih
+Exceeds current required quantity	Melebihi jumlah yang dibutuhkan saat ini
+【Limit <color=#F26C1C>+{0}</color>】	【Batas <color=#F26C1C>+{0}</color>】
+Level limit increased by {0}	Batas level naik {0}
+Select material for enhancement	Pilih bahan untuk peningkatan
+Character Story	Cerita Karakter
+Character Voice	Suara Karakter
+Catchphrase	Kalimat Khas
+Frame Model	Model Rangka
+Imprint ID	ID Imprint
+Affiliation	Afiliasi
+Military Simulation - Season Settlement	Simulasi Militer - Penyelesaian Musim
+Offensive Battles	Pertempuran Ofensif
+Season Rewards	Hadiah Musim
+Edit attack formation	Ubah formasi serangan
+Select effect	Pilih efek
+Platoon Supplies	Perbekalan Platoon
+Collect resources	Kumpulkan sumber daya
+Current production of {0}	Produksi {0} saat ini
+Dispatch Rewards	Hadiah Pengiriman
+Dispatch Count Rewards	Hadiah Jumlah Pengiriman
+No rewards available to claim	Tidak ada hadiah yang bisa diklaim
+No Set Bonuses	Tidak Ada Bonus Set
+This costs {0}, won't you get one?	Ini harganya {0}, tidak mau ambil satu?
+Not enough Artifacts	Artifact tidak cukup
+(Current number of Plugins is {0})	(Jumlah Plugin saat ini {0})
+Targeted Procurement Information	Informasi Pengadaan Bertarget
+Reignition Pack	Paket Reignition
+Returnee Assistance	Bantuan Pemain Kembali
+Soirée is in progress, cannot fast travel	Soirée sedang berlangsung, tidak bisa fast travel
+Soirée is in progress, cannot use	Soirée sedang berlangsung, tidak bisa dipakai
+Soirée Echoes has ended	Soirée Echoes sudah berakhir
+Soirée Complete	Soirée Selesai
+Soirée is over	Soirée sudah usai
+Phase complete	Fase selesai
+Are you sure you want to select {0}	Yakin mau memilih {0}
+Leave Crew Deck	Tinggalkan Crew Deck
+Rank Completed	Peringkat Selesai
+Turn {0} - Allied Turn	Giliran {0} - Giliran Sekutu
+Turn {0} - Neutral Turn	Giliran {0} - Giliran Netral
+There is a turn limit for this level	Ada batas giliran untuk level ini
+Remaining turns:	Sisa giliran:
+Calculate Battle Results	Hitung Hasil Pertempuran
+Chiral Redundancy	Redundansi Kiral
+Precise Grade	Kelas Presisi
+Installed	Terpasang
+Not Installed	Belum Terpasang
+Evolution Status	Status Evolusi
+Evolved	Sudah Evolusi
+Not Evolved	Belum Evolusi
+Insufficient Neural Archives	Neural Archive tidak cukup
+Refresh upon next entry	Disegarkan saat masuk berikutnya
+Ready Room	Ruang Siaga
+Battle Support Configuration	Konfigurasi Battle Support
+Platoon not joined	Belum bergabung ke Platoon
+Add friend successfully!	Teman berhasil ditambahkan!
+Declined.	Ditolak.
+Will be distributed by mail	Akan dikirim lewat surat
+Daybreak Twin Pack	Paket Kembar Daybreak
+Custom Gift Box	Kotak Hadiah Kustom
+Limited-time outfit discounts are back!!	Diskon busana waktu terbatas kembali lagi!!
+Hell	Neraka
+Unlock Challenge	Buka Tantangan
+Badge Buff:	Buff Lencana:
+Pictures	Gambar
+No pictures saved on this device	Tidak ada gambar tersimpan di perangkat ini
+Blur Distance	Jarak Blur
+Blur Radius	Radius Blur
+Nothing to Edit	Tidak Ada yang Diubah
+Depth of Field	Kedalaman Bidang
+Please try again when the door is closed	Coba lagi saat pintunya tertutup
+Crew Deck Lv.	Lv. Crew Deck
+This area cannot be edited	Area ini tidak bisa diubah
+Exit Directly	Keluar Langsung
+Save & Quit	Simpan & Keluar
+Do you wish to leave the Crew Deck?	Mau meninggalkan Crew Deck?
+Can be edited after construction	Bisa diubah setelah dibangun
+Take part in Combat Exercise {0}/{1} times	Ikut Combat Exercise {0}/{1} kali

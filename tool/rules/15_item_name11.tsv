@@ -1,0 +1,12 @@
+# Nama item — kotak attachment & laporan misi sisa.
+#
+# Angka Romawi tingkat kotak (III, IV, V, VI) dibawa apa adanya — itu penanda
+# tingkat, bukan angka yang boleh dilokalkan.
+#range 0 130000
+
+^T(\d) Attachment Box (III|IV|V|VI|VII)$	Kotak Attachment T\1 \2
+^Phase Resonance T(\d) Attachment Box$	Kotak Attachment Phase Resonance T\1
+^Mission Report File: (.+)$	Berkas Laporan Misi: \1
+^Mission Report File - (.+)$	Berkas Laporan Misi - \1
+^(.+) - Silent Chain Sim Data$	Data Sim Silent Chain \1
+^Nemesis' Original Frame$	Rangka Asli Nemesis

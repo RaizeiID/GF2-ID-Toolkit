@@ -1,0 +1,68 @@
+# Deskripsi SKILL — putaran keempat puluh satu ekor panjang.
+#
+# Bagian 5 dari lima berkas (70-74). Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "the basic attack<color=#3487e0>Hunting Fang</color>"  (kurang spasi)
+#   "this unit’s HP"                                       (apostrof melengkung)
+#range 0 130000
+
+# --- klausa pendek ---
+=This can be triggered at most <color=#f26c1c>once</color> per turn.	Ini bisa aktif maksimal <color=#f26c1c>sekali</color> setiap giliran.
+=This effect has a cooldown of <color=#f26c1c>1 turn</color>.	Efek ini memiliki cooldown <color=#f26c1c>1 giliran</color>.
+=Stability Break state lasts for <color=#f26c1c>2 turns</color>.	Kondisi Stability Break bertahan <color=#f26c1c>2 giliran</color>.
+=Selects a direction to charge in.	Memilih arah untuk menerjang.
+=<color=#f26c1c>Non-physical Dolls are immune to this damage</color>.	<color=#f26c1c>Doll non-physical kebal terhadap damage ini</color>.
+=In addition, it generates <color=#3487e0>{1}</color> terrain tiles.	Selain itu, dia menghasilkan tile medan <color=#3487e0>{1}</color>.
+=The critical rate of the next active attack is increased.	Critical Rate serangan aktif berikutnya meningkat.
+=The user gains <color=#3487e0>{0}</color>.	Pengguna mendapatkan <color=#3487e0>{0}</color>.
+=Gain <color=#f26c1c>1 point</color> of Confectance Index.	Mendapat <color=#f26c1c>1 poin</color> Confectance Index.
+=Gains <color=#f26c1c>6 tiles</color> of <color=#3487e0>{0}</color>.	Mendapat <color=#3487e0>{0}</color> sebanyak <color=#f26c1c>6 tile</color>.
+=Gains Confectance Index and random buff effects after the skill.	Mendapat Confectance Index dan efek buff acak setelah skill ini.
+=If an enemy is killed from this skill, gains Confectance Index.	Jika ada musuh yang terbunuh oleh skill ini, mendapatkan Confectance Index.
+=At the start of battle, gains <color=#f26c1c>2 stacks</color> of <color=#3487e0>{0}</color>.	Di awal pertempuran, mendapatkan <color=#f26c1c>2 stack</color> <color=#3487e0>{0}</color>.
+=At the end of this unit's turn, gains <color=#3487e0>{0}</color> and recovers HP.	Di akhir giliran unit ini, mendapatkan <color=#3487e0>{0}</color> lalu memulihkan HP.
+=Immune to all negative <color=#3487e0>{2}</color> tile effects.	Kebal terhadap semua efek negatif tile <color=#3487e0>{2}</color>.
+=Equipped with special sensor modules.	Dilengkapi modul sensor khusus.
+=After the attack, the user returns to the position before the action.	Setelah serangan, pengguna kembali ke posisi sebelum aksi.
+=Does not benefit from cover, critical rate is reduced, Max HP is increased and damage taken is reduced.	Tidak mendapatkan keuntungan dari Cover, Critical Rate berkurang, Max HP bertambah dan damage yang diterima berkurang.
+=Gains immunity to healing effect reduction, cannot be healed or gain effects that convert healing to damage.	Mendapat kekebalan terhadap pengurangan efek healing, tidak bisa disembuhkan atau terkena efek yang mengubah healing jadi damage.
+=Increases critical rate by <color=#f26c1c>40%</color> and reduces critical damage by <color=#f26c1c>10%</color>.	Menambah Critical Rate <color=#f26c1c>40%</color> dan mengurangi Critical Damage sebesar <color=#f26c1c>10%</color>.
+
+# --- serangan ---
+=Deals AoE <color=#8679e8>Corrosion damage</color> to the target and all enemies within <color=#f26c1c>1 tile</color> of the target.	Memberikan AoE <color=#8679e8>Corrosion damage</color> ke target dan semua musuh <color=#f26c1c>dalam 1 tile</color> dari target.
+=Selects a tile within <color=#f26c1c>7 tiles</color>, dealing AoE Burn damage equal to <color=#f26c1c>60%</color> of attack to all enemy units within <color=#f26c1c>7 tiles</color> of the target tile, and generates <color=#3487e0>{0}</color> tiles, lasting for <color=#f26c1c>2 turns</color>.	Memilih satu tile <color=#f26c1c>dalam 7 tile</color>, memberikan AoE Burn damage setara <color=#f26c1c>60%</color> Attack ke semua unit musuh <color=#f26c1c>dalam 7 tile</color> dari tile sasaran, lalu menghasilkan tile <color=#3487e0>{0}</color> yang bertahan <color=#f26c1c>2 giliran</color>.
+=Deals AoE Burn damage to the target and all enemy targets within <color=#f26c1c>7 tiles</color> of the target and generates <color=#3487e0>{0}</color> tiles.	Memberikan AoE Burn damage ke target dan semua target musuh <color=#f26c1c>dalam 7 tile</color> dari target lalu menghasilkan tile <color=#3487e0>{0}</color>.
+=If Soppo is in <color=#3487e0>{1}</color>, instead deal AoE <color=#e67129>Burn damage</color> to all enemy targets <color=#f26c1c>within 4 tiles</color>.	Jika Soppo sedang dalam <color=#3487e0>{1}</color>, justru memberikan AoE <color=#e67129>Burn damage</color> ke semua target musuh <color=#f26c1c>dalam 4 tile</color>.
+=When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <color=#f26c1c>1 instance</color> of <color=#3487e0>{1}</color>, dealing Physical damage equal to <color=#f26c1c>80%</color> of attack and <color=#f26c1c>3 points</color> of stability damage to the enemy unit, and applies <color=#3487e0>{0}</color> to the allied unit for <color=#f26c1c>2 turns</color>.	Saat unit musuh dalam jangkauan menerima targeted damage dari unit sekutu, mengutamakan melancarkan <color=#f26c1c>1 kali</color> <color=#3487e0>{1}</color>, memberikan Physical damage setara <color=#f26c1c>80%</color> Attack dan <color=#f26c1c>3 poin</color> Stability damage ke unit musuh itu, lalu menerapkan <color=#3487e0>{0}</color> ke unit sekutu tadi selama <color=#f26c1c>2 giliran</color>.
+=If <color=#f26c1c>2</color> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <color=#f26c1c>1</color> additional time.	Jika <color=#f26c1c>2</color> target atau lebih atau seorang Boss yang terkena, skill ini bisa dipakai lagi, maksimal <color=#f26c1c>1</color> kali tambahan.
+
+# --- stat ---
+=If the target has <color=#3487e0>{1}</color>, ignores <color=#f26c1c>10%</color> of its defense.	Jika target memiliki <color=#3487e0>{1}</color>, mengabaikan <color=#f26c1c>10%</color> pertahanannya.
+=If the target has an Electric debuff, increases damage dealt and gains Confectance Index.	Jika target memiliki debuff Electric, menambah damage yang diberikan dan mendapatkan Confectance Index.
+=If the enemy target is on a <color=#f26c1c>Level 1</color> tile, the damage multiplier is increased by <color=#f26c1c>10%</color>.	Jika target musuh berada di atas tile <color=#f26c1c>Level 1</color>, damage multiplier meningkat sebesar <color=#f26c1c>10%</color>.
+=For <color=#f26c1c>each additional</color> tile level, the damage multiplier is further increased by <color=#f26c1c>10%</color>.	Untuk <color=#f26c1c>setiap tambahan</color> level tile, damage multiplier naik lagi <color=#f26c1c>10%</color>.
+
+# --- dukungan ---
+=Recovers HP equal to <color=#f26c1c>120%</color> of attack and <color=#f26c1c>6 points</color> of stability, cleanses <color=#f26c1c>2</color> debuffs and removes <color=#3487e0>{2}</color>, <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color> and <color=#3487e0>{5}</color> from all allied units.	Memulihkan HP setara <color=#f26c1c>120%</color> Attack dan <color=#f26c1c>6 poin</color> Stability, membersihkan <color=#f26c1c>2</color> debuff lalu menghapus <color=#3487e0>{2}</color>, <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color> dan <color=#3487e0>{5}</color> dari semua unit sekutu.
+=Recovers HP and stability, cleanses debuffs and removes <color=#3487e0>{2}</color>, <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color> and <color=#3487e0>{5}</color> from all allied units.	Memulihkan HP dan Stability, membersihkan debuff lalu menghapus <color=#3487e0>{2}</color>, <color=#3487e0>{3}</color>, <color=#3487e0>{4}</color> dan <color=#3487e0>{5}</color> dari semua unit sekutu.
+=Applies <color=#3487e0>{1}</color> and <color=#3487e0>{7}</color> to all allied units.	Menerapkan <color=#3487e0>{1}</color> dan <color=#3487e0>{7}</color> ke semua unit sekutu.
+=Applies <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> to 1 allied unit (excluding Yoohee).	Menerapkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> ke 1 unit sekutu (kecuali Yoohee).
+=Selects 1 allied unit within <color=#f26c1c>8 tiles</color> (excluding Yoohee), and applies <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> for <color=#f26c1c>3 turns</color>.	Memilih 1 unit sekutu <color=#f26c1c>dalam 8 tile</color> (kecuali Yoohee), lalu menerapkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> selama <color=#f26c1c>3 giliran</color>.
+=In addition, she applies <color=#3487e0>{1}</color> to them for <color=#f26c1c>1 turn</color> and <color=#3487e0>{3}</color> to them for <color=#f26c1c>2 turns</color>.	Selain itu, dia menerapkan <color=#3487e0>{1}</color> kepada mereka selama <color=#f26c1c>1 giliran</color> dan <color=#3487e0>{3}</color> selama <color=#f26c1c>2 giliran</color>.
+=She recovers HP equal to <color=#f26c1c>20%</color> of accumulated damage and gains <color=#3487e0>{0}</color> for <color=#f26c1c>1 round</color>.	Dia memulihkan HP setara <color=#f26c1c>20%</color> damage yang terkumpul lalu mendapatkan <color=#3487e0>{0}</color> selama <color=#f26c1c>1 ronde</color>.
+=Gain <color=#3487e0>{1}</color>, which can be activated up to <color=#f26c1c>2 times</color> per turn for <color=#f26c1c>2 turns</color>.	Mendapat <color=#3487e0>{1}</color>, yang bisa aktif maksimal <color=#f26c1c>2 kali</color> setiap giliran selama <color=#f26c1c>2 giliran</color>.
+=If Helen takes fatal damage in the process of sharing damage, she will not die but instead recovers HP equal to <color=#f26c1c>150%</color> of defense.	Jika Helen menerima damage mematikan saat ikut menanggung damage, dia tidak mati melainkan memulihkan HP setara <color=#f26c1c>150%</color> Defense.
+
+# --- spesifik karakter ---
+=At the start of the turn, Belka gains <color=#f26c1c>1 point</color> of Confectance Index.	Di awal giliran, Belka mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=At the start of the turn, Belka gains Confectance Index.	Di awal giliran, Belka mendapatkan Confectance Index.
+=When Belka deals targeted Electric damage to a target with <color=#3487e0>{1}</color>, the multiplier of the fixed damage of <color=#3487e0>{1}</color> is increased to <color=#f26c1c>40%</color>.	Saat Belka memberikan targeted Electric damage ke target yang memiliki <color=#3487e0>{1}</color>, fixed damage multiplier <color=#3487e0>{1}</color> naik menjadi <color=#f26c1c>40%</color>.
+=At the end of her action, Welrod applies <color=#3487e0>{1}</color> to all enemy targets <color=#f26c1c>within 6 tiles</color> for <color=#f26c1c>1 turn</color>.	Di akhir aksinya, Welrod menerapkan <color=#3487e0>{1}</color> ke semua target musuh <color=#f26c1c>dalam 6 tile</color> selama <color=#f26c1c>1 giliran</color>.
+=At the end of her action, Welrod applies <color=#3487e0>{1}</color> to all enemy targets <color=#f26c1c>within 6 tiles</color>.	Di akhir aksinya, Welrod menerapkan <color=#3487e0>{1}</color> ke semua target musuh <color=#f26c1c>dalam 6 tile</color>.
+=At the end of the action, Lind gains <color=#f26c1c>1 point</color> of Confectance Index.	Di akhir aksi, Lind mendapatkan <color=#f26c1c>1 poin</color> Confectance Index.
+=When an enemy unit with <color=#3487e0>{0}</color> dies or an allied unit deals <color=#8679e8>Corrosion damage</color>, Lind gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color>.	Saat unit musuh yang memiliki <color=#3487e0>{0}</color> mati atau unit sekutu memberikan <color=#8679e8>Corrosion damage</color>, Lind mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color>.
+=At the start of the turn, if HP is higher than <color=#f26c1c>80%</color>, Springfield gains <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Di awal giliran, jika HP di atas <color=#f26c1c>80%</color>, Springfield mendapatkan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=At the start of the turn, if HP is higher than <color=#f26c1c>80%</color>, Springfield gains <color=#3487e0>{1}</color>.	Di awal giliran, jika HP di atas <color=#f26c1c>80%</color>, Springfield mendapatkan <color=#3487e0>{1}</color>.
+=At the start of the turn, if this unit’s HP exceeds <color=#f26c1c>80%</color>, gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> until the next turn.	Di awal giliran, jika HP unit ini melebihi <color=#f26c1c>80%</color>, mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> sampai giliran berikutnya.
+=After this skill, perform the basic attack<color=#3487e0>Hunting Fang</color> on the nearest enemy target <color=#f26c1c>within 8 tiles</color> and gain <color=#3487e0>{0}</color>.	Setelah skill ini, melancarkan basic attack<color=#3487e0>Hunting Fang</color> ke target musuh terdekat <color=#f26c1c>dalam 8 tile</color> lalu mendapatkan <color=#3487e0>{0}</color>.

@@ -1,0 +1,130 @@
+# Nama skill — hanya LABEL FUNGSI / STAT.
+#
+# Keputusan yang disepakati: nama diri skill (Rolling Thunder, Snowchild's Waltz,
+# Terminal Settlement, dst.) TETAP Inggris. Alasannya dua:
+#   1. Konsistensi — 269 nama itu dikutip apa adanya di dalam deskripsi yang sudah
+#      diterjemahkan; kalau tombolnya berbahasa Indonesia tapi deskripsi di
+#      bawahnya menyebut nama Inggris, pemain melihat keduanya bersebelahan.
+#   2. Kebiasaan pemain — panduan dan tier list GF2 berbahasa Inggris; nama skill
+#      yang diterjemahkan justru menyulitkan pencarian.
+#
+# Yang DITERJEMAHKAN di berkas ini adalah label yang memang deskriptif, bukan
+# nama: "HP Up", "AoE Damage Reduction", "Freeze damage enhancement".
+#
+# Istilah permainan tetap Inggris di dalam label: HP, Damage, AoE, Buff, Shield,
+# Healing, Crit, Stability, Burn/Freeze/Electric/Hydro/Corrosion/Physical.
+#range 0 130000
+
+AoE Damage Reduction	Pengurangan AoE Damage
+Targeted Damage Reduction	Pengurangan Targeted Damage
+Damage enhancement vs bosses	Peningkatan damage lawan boss
+Boss critical damage	Critical damage lawan boss
+Boss damage reduction	Pengurangan damage lawan boss
+Defense Up	Pertahanan Naik
+HP Up	HP Naik
+Damage Up	Damage Naik
+Damage Taken Up	Damage yang Diterima Naik
+Critical Rate Up	Critical Rate Naik
+Attack HP boost	Peningkatan serangan HP
+Dual Boost	Peningkatan Ganda
+Healing Shield Boost	Peningkatan Healing Shield
+Summon Boost	Peningkatan Summon
+Shield Amplification	Penguatan Shield
+Turbo Boost	Peningkatan Turbo
+Splash Enhancement	Peningkatan Splash
+Range Extension	Perpanjangan Jangkauan
+Phase Enhancement	Peningkatan Phase
+Kinetic Enhancement	Peningkatan Kinetik
+Assault Enhancement	Peningkatan Serbuan
+Enhancement Proliferation	Perambatan Peningkatan
+Negative Temperature Boost	Peningkatan Suhu Negatif
+Teamwide Fixed HP Increase	Kenaikan HP Tetap Setim
+Teamwide Fixed Attack Increase	Kenaikan Serangan Tetap Setim
+Teamwide HP Increase	Kenaikan HP Setim
+Teamwide Attack Increase	Kenaikan Serangan Setim
+Attack to HP conversion	Konversi serangan ke HP
+HP conversion to attack	Konversi HP ke serangan
+Stability Conversion	Konversi Stability
+Out-of-Turn Damage	Damage di Luar Giliran
+Out-of-turn critical damage	Critical damage di luar giliran
+Active damage enhancement	Peningkatan damage aktif
+Active skill critical damage	Critical damage skill aktif
+Multi-target damage reduction	Pengurangan damage multi-target
+Single target damage reduction	Pengurangan damage target tunggal
+More than 6 tiles damage enhancement	Peningkatan damage di atas 6 tile
+Within 3 tile damage reduction	Pengurangan damage dalam 3 tile
+Attack enhancement within 3 tiles	Peningkatan serangan dalam 3 tile
+Close-Range Advantage	Keunggulan Jarak Dekat
+Long-Range Support	Dukungan Jarak Jauh
+Long-range Targeting	Pembidikan Jarak Jauh
+Stability Break damage enhancement	Peningkatan damage Stability Break
+Physical damage enhancement	Peningkatan Physical damage
+Physical damage enhancement aura	Aura peningkatan Physical damage
+Physical damage reduction	Pengurangan Physical damage
+Burn damage enhancement	Peningkatan Burn damage
+Burn damage enhancement aura	Aura peningkatan Burn damage
+Burn damage reduction	Pengurangan Burn damage
+Freeze damage enhancement	Peningkatan Freeze damage
+Freeze damage enhancement aura	Aura peningkatan Freeze damage
+Freeze damage reduction	Pengurangan Freeze damage
+Electric damage enhancement	Peningkatan Electric damage
+Electric damage enhancement aura	Aura peningkatan Electric damage
+Electric damage reduction	Pengurangan Electric damage
+Hydro damage enhancement	Peningkatan Hydro damage
+Hydro damage enhancement aura	Aura peningkatan Hydro damage
+Hydro damage reduction	Pengurangan Hydro damage
+Corrosion damage enhancement	Peningkatan Corrosion damage
+Corrosion damage enhancement aura	Aura peningkatan Corrosion damage
+Corrosion damage reduction	Pengurangan Corrosion damage
+Damage Reduction Armor	Armor Pengurang Damage
+Damage Reduction Program	Program Pengurang Damage
+Damage Reflection	Pemantulan Damage
+Damage Degradation	Pelemahan Damage
+Damage Control Unbound	Kendali Damage Tanpa Batas
+Stability Reinforcement	Penguatan Stability
+Steady Stability Regen	Regen Stability Stabil
+Stability Growth	Pertumbuhan Stability
+Stability Advantage	Keunggulan Stability
+Breaking Stability Advantage	Keunggulan Pemecah Stability
+Stability Absorption	Penyerapan Stability
+Stability Suppression	Penekanan Stability
+Stability Stripping	Pengikisan Stability
+Stability Balance	Keseimbangan Stability
+Stability Barrier	Penghalang Stability
+Stability Shockwave	Gelombang Kejut Stability
+Stability Thorns	Duri Stability
+Stability Churn	Pusaran Stability
+Stability Concatenation	Rangkaian Stability
+Low-Stability Repair	Perbaikan Stability Rendah
+Linear Stability Break	Stability Break Linear
+Shield Building	Pembangunan Shield
+Force Shield Generator	Pembangkit Force Shield
+Triggered Defense	Pertahanan Terpicu
+Apply Defense Boost	Terapkan Peningkatan Pertahanan
+Apply Attack Boost	Terapkan Peningkatan Serangan
+Attack Response	Respons Serangan
+Disruption Attack	Serangan Pengacau
+Interdicting Attack	Serangan Penghadang
+Tailored Attack	Serangan Terukur
+All-Round Enhancement I	Peningkatan Menyeluruh I
+All-Round Enhancement II	Peningkatan Menyeluruh II
+All-Round Enhancement III	Peningkatan Menyeluruh III
+Buff Cleanse	Pembersihan Buff
+Flare Cleanse	Pembersihan Suar
+Cleanse stat bonus	Bonus stat pembersihan
+Random Buff	Buff Acak
+Debuff Roulette	Roulette Debuff
+Healing Protocol	Protokol Healing
+Stability Protocol	Protokol Stability
+Forced Cooldown	Cooldown Paksa
+Clustering Effect	Efek Pengelompokan
+Swarming Effect	Efek Kerumunan
+Disconnection Effect	Efek Terputus
+Field effect	Efek medan
+Expand Frenzy range	Perluas jangkauan Frenzy
+Reduce Frenzy range	Kurangi jangkauan Frenzy
+Applies Splash Damage on Death	Menerapkan Splash Damage saat mati
+Scythe Attack Restores HP	Serangan Sabit Memulihkan HP
+The first attack each turn applies stability damage	Serangan pertama tiap giliran memberikan stability damage
+Apply stability difference buff before attacking	Terapkan buff selisih stability sebelum menyerang
+No attack mark applied	Tidak ada penanda serangan yang diterapkan

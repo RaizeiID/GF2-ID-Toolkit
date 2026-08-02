@@ -1,0 +1,58 @@
+# Batch 4 — aturan regex untuk teks berpola (angka berubah-ubah)
+# Format: <regex><TAB><pengganti>   — dicocokkan dengan re.fullmatch, jadi harus pas
+# seluruh string. Backref \1 \2 membawa angka/kode stage apa adanya.
+# Build akan MENOLAK jalan kalau sebuah aturan menghilangkan angka atau placeholder.
+#
+# Kode stage (DF-7-2, BH-1-1), nama lokasi, nama story/event, dan nama item
+# sengaja dibiarkan lewat backref supaya tidak ikut diterjemahkan.
+#range 0 125000
+
+# --- objektif pertempuran ---
+^Eliminate at least (\d+) enemy units within the first (\d+) turns$	Kalahkan minimal \1 unit musuh dalam \2 giliran pertama
+^Capture at least (\d+) Control Points within the first (\d+) turns$	Rebut minimal \1 Control Point dalam \2 giliran pertama
+^Eliminate all enemy units \{0\}/(\d+)$	Kalahkan semua unit musuh {0}/\1
+^Or eliminate all enemy units \{0\}/(\d+)$	Atau kalahkan semua unit musuh {0}/\1
+^Hold off enemy attacks for (\d+) turns \{0\}/(\d+)$	Tahan serangan musuh selama \1 giliran {0}/\2
+^Wave (\d+) - Horde (\d+)$	Gelombang \1 - Horde \2
+
+# --- syarat menuntaskan stage (kode stage dibawa apa adanya) ---
+^Clear Story Mode Stage (\S+)$	Tuntaskan Stage Mode Cerita \1
+^Clear Story Mode stage (\S+)$	Tuntaskan stage Mode Cerita \1
+^Complete Story Mode Stage (\S+)$	Selesaikan Stage Mode Cerita \1
+^Complete Story Mode stage (\S+)$	Selesaikan stage Mode Cerita \1
+^Complete Story Campaign Stage (\S+)$	Selesaikan Stage Kampanye Cerita \1
+^Complete the Battle Campaign Hard Mode (\S+)$	Selesaikan Kampanye Tempur Mode Sulit \1
+^Complete Challenge Mode Stage (\S+)$	Selesaikan Stage Mode Tantangan \1
+^Clear Challenge Mode Stage (\S+)$	Tuntaskan Stage Mode Tantangan \1
+^Clear Challenge Mode stage (\S+)$	Tuntaskan stage Mode Tantangan \1
+^Complete Supply Mode Stage (\S+)$	Selesaikan Stage Mode Suplai \1
+^Clear Supply Mode Stage (\S+)$	Tuntaskan Stage Mode Suplai \1
+^Complete Supply Mode stage (\S+)$	Selesaikan stage Mode Suplai \1
+^Clear Supply Mode stage (\S+)$	Tuntaskan stage Mode Suplai \1
+^Clear Material Mode Stage (\S+)$	Tuntaskan Stage Mode Material \1
+^Complete event stage (\S+)$	Selesaikan stage event \1
+^Complete event Challenge Mode stage (\S+)$	Selesaikan stage Mode Tantangan event \1
+^Complete event Supply Mode stage (\S+)$	Selesaikan stage Mode Suplai event \1
+
+# --- syarat progres akun ---
+^Log in for (\d+) days$	Login selama \1 hari
+^Commander Level (\d+)$	Level Komandan \1
+^Total level of Dolls reaches (\d+)$	Total level Doll mencapai \1
+^Obtain (\d+) Standard Weapons$	Dapatkan \1 Senjata Standar
+^Obtain (\d+) Elite Weapons$	Dapatkan \1 Senjata Elite
+^Score a total of ([\d,]+) points$	Kumpulkan total \1 poin
+^Accumulate ([\d,]+) Reputation$	Kumpulkan \1 Reputasi
+^Total score reaches ([\d,]+) \(\{0\}/([\d,]+)\)$	Total skor mencapai \1 ({0}/\2)
+^Score (\d+) points or more in Key Passage (\d+)$	Raih \1 poin atau lebih di Key Passage \2
+^Complete dispatching (\d+) times in the Dispatch Room$	Selesaikan pengiriman \1 kali di Dispatch Room
+^Visit the Sarr Database in the Visitor Room (\d+) times$	Kunjungi Sarr Database di Visitor Room \1 kali
+^Consume ([\d,]+) Intelligence Puzzles$	Konsumsi \1 Intelligence Puzzles
+^Season (\d+)$	Musim \1
+
+# --- deskripsi buff berpola ---
+^Attack increased by (\d+)%$	Serangan meningkat \1%
+^Damage dealt is increased by (\d+)%$	Damage yang diberikan meningkat \1%
+^Max HP is increased by (\d+)%$	HP Maks meningkat \1%
+^Critical Damage increased by (\d+)%$	Critical Damage meningkat \1%
+^On-Hit damage increased by (\d+)%$	Damage On-Hit meningkat \1%
+^Self base damage increased by (\d+)%$	Damage dasar sendiri meningkat \1%

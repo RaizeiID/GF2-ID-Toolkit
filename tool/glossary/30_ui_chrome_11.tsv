@@ -1,0 +1,326 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 11).
+#
+# Nama diri (Doll, tempat, acara, bab) dibiarkan Inggris: Groza, Krolik,
+# Colphne, Nemesis, Vepley, Belka, Leva, Zucchero, Elmo, Mokosh Streets,
+# Gunsmoke Frontline, Broker's Path/Pact, Dawnforger, Xenomension Abyss,
+# Splash Bash, Iliad, Trojan Legacy, Mimicrate, Dinergate, Sardis.
+#
+# "Diamond" di sini tingkat peringkat, bukan batu permata — tetap "Diamond"
+# karena dipakai berdampingan dengan Gold/Silver/Iron sebagai jenjang.
+#
+# "//.Survey Overview" mempertahankan awalan "//." — itu gaya antarmuka game,
+# bukan komentar kode.
+#range 75000 90000
+
+Favored Support Type	Tipe Dukungan Favorit
+Begin {0}	Mulai {0}
+Breakthrough	Terobosan
+All intel collected	Semua intel terkumpul
+Select {0} item(s) from the rewards above	Pilih {0} item dari hadiah di atas
+Please choose {0} reward item(s)	Pilih {0} item hadiah
+Extra Claimable:	Bisa Diklaim Tambahan:
+Exceeded limit of selectable rewards	Melebihi batas hadiah yang bisa dipilih
+{0} Unlocked	{0} Terbuka
+{0}'s Wish for Lost Items	Permohonan {0} untuk Barang Hilang
+Unlocked at Affinity Level {0}	Terbuka di Level Afinitas {0}
+Stat bonuses only take effect in Gunsmoke Frontline	Bonus stat hanya berlaku di Gunsmoke Frontline
+Platoon updates	Pembaruan Platoon
+Weekly Special	Spesial Mingguan
+Platoon Restriction	Batasan Platoon
+Merit This Week	Jasa Minggu Ini
+Total Merit	Total Jasa
+Select the faction you wish to collaborate with	Pilih faksi yang mau kamu ajak bekerja sama
+Collaborator Factions	Faksi Kolaborator
+Collaborate	Bekerja Sama
+Join Platoon	Gabung Platoon
+Platoon Expedition Experience	Pengalaman Ekspedisi Platoon
+Bestselling	Terlaris
+No available skins	Tidak ada skin tersedia
+Monthly Limit {0}	Batas Bulanan {0}
+Weekly Limit {0}	Batas Mingguan {0}
+Daily Limit {0}	Batas Harian {0}
+Keep Shopping	Lanjut Belanja
+Failed to discard	Gagal membuang
+Initiative Engagement	Pertempuran Inisiatif
+Reactive Engagement	Pertempuran Reaktif
+Equip Successfully	Berhasil Dipasang
+Uninstall Successfully	Berhasil Dilepas
+Weapon Modification Successful	Modifikasi Senjata Berhasil
+Modification can be used to enhance weapon trait levels	Modifikasi bisa dipakai menaikkan level sifat senjata
+Glass Island Expedition	Ekspedisi Glass Island
+Data Recovery	Pemulihan Data
+Trade Center	Pusat Perdagangan
+Artifact Recovery: Season 4	Artifact Recovery: Musim 4
+Tactical Framework Updated	Tactical Framework Diperbarui
+Xenomension Abyss: Season 2	Xenomension Abyss: Musim 2
+Assault Simulation: Season 4	Assault Simulation: Musim 4
+Dawnforger: Part 1	Dawnforger: Bagian 1
+Dawnforger: Part 2	Dawnforger: Bagian 2
+Stage Objectives	Sasaran Stage
+Dreams Come True	Mimpi Jadi Nyata
+Coins Collected	Koin Terkumpul
+Adventure Reward	Hadiah Petualangan
+Bloom Points: {0}(<color=#ffe15b>+{1}/day</color>)	Poin Mekar: {0}(<color=#ffe15b>+{1}/hari</color>)
+Watered {0} time(s) today	Disiram {0} kali hari ini
+Maximum waterings for today reached	Batas penyiraman hari ini tercapai
+Fertilize	Pupuk
+Improves flower growth stage	Meningkatkan tahap pertumbuhan bunga
+In Echelon	Di Echelon
+Unlocks after reaching function level {0}	Terbuka setelah mencapai level fungsi {0}
+Reach {0} or higher Sync Points	Capai {0} Sync Point atau lebih
+Ratings & Sync Points	Peringkat & Sync Point
+Auto Battle for {0}{1} activated	Auto Battle untuk {0}{1} diaktifkan
+Weapon Overview	Ikhtisar Senjata
+Highest Capacity	Kapasitas Tertinggi
+Quick Selection Completed	Pemilihan Cepat Selesai
+Already Equipped	Sudah Terpasang
+Filter Consumption Rate	Laju Konsumsi Filter
+Lower than critical threshold for Filter	Di bawah ambang kritis Filter
+Departure Event	Peristiwa Keberangkatan
+Index Events	Peristiwa Indeks
+Homecoming Event	Peristiwa Kepulangan
+Mission is already completed	Misinya sudah selesai
+Attachment Type	Jenis Attachment
+Frenzy Buff	Buff Frenzy
+Deployment Limit: <color=#F26C1C>{0}</color>	Batas Penempatan: <color=#F26C1C>{0}</color>
+Recommended Level: <color=#F26C1C>{0}</color>	Level yang Disarankan: <color=#F26C1C>{0}</color>
+First-Clear Rewards	Hadiah Penyelesaian Pertama
+[X/Y] Frenzy Level Rewards	[X/Y] Hadiah Level Frenzy
+Support successful, support for {0} has increased	Dukungan berhasil, dukungan untuk {0} bertambah
+{0} obtained during Support Phase:	{0} didapat selama Fase Dukungan:
+Voting Support	Dukungan Suara
+{0} gained during this battle:	{0} didapat selama pertempuran ini:
+Obtained {0} have been automatically used	{0} yang didapat sudah dipakai otomatis
+Select Preview Board	Pilih Papan Pratinjau
+Preset Synced	Preset Tersinkron
+Assign Weapon	Tetapkan Senjata
+Assign Accessories	Tetapkan Aksesori
+Assign Fixed Key	Tetapkan Fixed Key
+Assign Common Key	Tetapkan Common Key
+Assign Expansion Key	Tetapkan Expansion Key
+Limited Fortification	Fortifikasi Terbatas
+Neural Fortification Complete	Fortifikasi Neural Selesai
+Fortification Level {0} Needed	Butuh Fortifikasi Level {0}
+Not Enough Fortification Points	Poin Fortifikasi tidak cukup
+Fortification Successful	Fortifikasi Berhasil
+Platoon application does not exist	Pengajuan Platoon tidak ada
+Gunsmoke Frontline will open in {0}	Gunsmoke Frontline dibuka dalam {0}
+Supplemental aid has been updated	Bantuan tambahan sudah diperbarui
+Platoon name cannot consist entirely of numbers	Nama Platoon tidak boleh seluruhnya angka
+Platoon function not unlocked	Fungsi Platoon belum terbuka
+Result	Hasil
+Cannot be used	Tidak bisa dipakai
+Crew Deck: Freshly Unveiled	Crew Deck: Baru Diresmikan
+Crew Deck Unlocked: Experience Brand-New Activities	Crew Deck Terbuka: Rasakan Aktivitas Serba Baru
+And receive free furniture ornaments	Dan dapatkan ornamen perabot gratis
+Crew Deck Gift	Hadiah Crew Deck
+Dolls' Gifts	Hadiah dari Doll
+Enter After Turn	Masuk Setelah Giliran
+Event Summary	Ringkasan Acara
+Cannot be opened from this side	Tidak bisa dibuka dari sisi ini
+{0} successfully equipped	{0} berhasil dipasang
+Backstab Attack	Serangan dari Belakang
+Cover Attack	Serangan Cover
+Optimal Range	Jarak Optimal
+Growth data not yet installed	Growth data belum terpasang
+Insufficient Sardis Gold required	Sardis Gold yang dibutuhkan tidak cukup
+Return original weapon enhancement materials	Kembalikan bahan peningkatan senjata asli
+Optional Features	Fitur Opsional
+Enhancement Material Return	Pengembalian Bahan Peningkatan
+Successful weapon upgrade	Peningkatan senjata berhasil
+Special Edition Preview	Pratinjau Edisi Khusus
+Quick Selection	Pemilihan Cepat
+How was your nap? Do you feel fully relaxed now?	Gimana tidur siangnya? Sudah benar-benar rileks?
+Belka's Little Scheme	Rencana Kecil Belka
+Leva's Blessing	Restu Leva
+Select a Doll to Clash with	Pilih Doll untuk diajak Clash
+Bash	Hantam
+Petite	Mungil
+Large	Besar
+Cautious	Hati-hati
+Agile	Gesit
+UAV Flight Vehicle Settings	Pengaturan Wahana Terbang UAV
+Can be Crafted	Bisa Dibuat
+Insufficient Crafting Materials	Bahan pembuatan tidak cukup
+Craft Preview	Pratinjau Pembuatan
+Candlelight Yearly Letter	Surat Tahunan Candlelight
+Candlelight Yearly Letter {0}	Surat Tahunan Candlelight {0}
+About to jump to the Lounge. Proceed?	Akan melompat ke Lounge. Lanjutkan?
+Friend Suggestions	Saran Teman
+Search UID to add friends	Cari UID untuk menambah teman
+Battle Support Unit	Unit Battle Support
+No matching attachments	Tidak ada attachment yang cocok
+Attribute selection range	Jangkauan pemilihan atribut
+Attribute selection number	Jumlah pemilihan atribut
+Default Plan	Rencana Bawaan
+Create new plan	Buat rencana baru
+No lock-on plan yet	Belum ada rencana penguncian
+Not enough remaining survey attempts	Sisa percobaan survei tidak cukup
+All tasks have been completed	Semua tugas sudah selesai
+Current Doll Investigation	Investigasi Doll Saat Ini
+{0}x Points Bonus	Bonus Poin {0}x
+{0} times	{0} kali
+View Replies	Lihat Balasan
+View Missions	Lihat Misi
+Palatial Reunion	Reuni Istana
+Opens in {0} day(s)	Dibuka dalam {0} hari
+Plan {0} has been deleted	Rencana {0} sudah dihapus
+No plan	Tidak ada rencana
+Plan has not yet been saved. Do you wish to continue?	Rencananya belum disimpan. Mau lanjut?
+[{0}] has been enabled	[{0}] sudah diaktifkan
+Too many actions. Please try again in 5 seconds	Terlalu banyak aksi. Coba lagi dalam 5 detik
+Villa of Moments - Part 2	Villa of Moments - Bagian 2
+Fragments of Time	Serpihan Waktu
+Frontline Survivors	Penyintas Garis Depan
+Rhythmic Tempo	Tempo Berirama
+Over	Berakhir
+Opens In {0} Days	Dibuka dalam {0} Hari
+In Selection	Sedang Dipilih
+Acquired Items	Item yang Didapat
+Confirm to delete all mails?	Yakin mau menghapus semua surat?
+Dearest Commander~~	Commander tersayang~~
+Select Combat Reports you wish to use	Pilih Combat Report yang mau kamu pakai
+Target Proficiency	Target Kemahiran
+Currently Selected	Sedang Dipilih
+Imprint Boost	Peningkatan Imprint
+Proficiency	Kemahiran
+No stat selected for enhancement	Tidak ada stat yang dipilih untuk ditingkatkan
+Extreme Calibration is at maximum	Extreme Calibration sudah maksimum
+Current Mission Completed	Misi Saat Ini Selesai
+Complete the challenge stages to claim rewards	Selesaikan stage tantangan untuk mengklaim hadiah
+Remaining Survey Attempts:	Sisa Percobaan Survei:
+//.Survey Overview	//.Ikhtisar Survei
+A new mission has appeared!	Misi baru muncul!
+<color=#8f8f8f>Withered</color>	<color=#8f8f8f>Layu</color>
+Flower Bloom Points<color=#ffe15b>+{0}</color>	Poin Mekar Bunga<color=#ffe15b>+{0}</color>
+Claimable rewards available	Ada hadiah yang bisa diklaim
+Plan has been saved, do you wish to return?	Rencananya sudah disimpan, mau kembali?
+Can be collected after Bloom Points reach {0}	Bisa diambil setelah Poin Mekar mencapai {0}
+Watered for {1} days (<color=#f26c1c>{0}</color>/{1})	Disiram selama {1} hari (<color=#f26c1c>{0}</color>/{1})
+Quick Purchase	Pembelian Cepat
+Load Consumption	Konsumsi Beban
+Obtain 1 Dispatch Voucher per 1000 Harvest Coins spent	Dapat 1 Dispatch Voucher tiap 1000 Koin Panen dipakai
+Not enough Dispatch Vouchers	Dispatch Voucher tidak cukup
+Total Dispatch Vouchers Obtained: {0}	Total Dispatch Voucher Didapat: {0}
+Mission has expired, cannot be completed	Misinya sudah kedaluwarsa, tidak bisa diselesaikan
+Environment cleanup has expired	Pembersihan lingkungan sudah kedaluwarsa
+Insufficient supplies	Perbekalan tidak cukup
+Unlocked after the first clear	Terbuka setelah penyelesaian pertama
+Resource Scavenging	Pemulungan Sumber Daya
+Official phase event name	Nama resmi peristiwa fase
+Official phase event description	Deskripsi resmi peristiwa fase
+Upgrade Chart	Bagan Peningkatan
+Recovery Missions	Misi Pemulihan
+Platoon Summary	Ringkasan Platoon
+My Records	Rekorku
+Replay	Putar Ulang
+Our Control Point has been breached	Titik Kendali kita ditembus
+Configuration Access	Akses Konfigurasi
+Analysis Access	Akses Analisis
+Monthly Incremental Contract in Effect	Kontrak Bertahap Bulanan Berlaku
+Celebration Details	Detail Perayaan
+Login after {0} to claim	Login setelah {0} untuk mengklaim
+Starry Celebrations, Great Munificence	Perayaan Berbintang, Kemurahan Melimpah
+Proceed to Wishes	Lanjut ke Permohonan
+Operation Gourmand	Operasi Gourmand
+Current Prosperity Points	Poin Kemakmuran Saat Ini
+Not Started	Belum Dimulai
+Current Battle Status	Status Pertempuran Saat Ini
+Crosshair movement sensitivity	Sensitivitas gerak crosshair
+End Simulation	Akhiri Simulasi
+Playback	Pemutaran
+Batch Download	Unduh Sekaligus
+Delete All	Hapus Semua
+Download All	Unduh Semua
+Refitting Room Animation	Animasi Refitting Room
+Friend Communication	Komunikasi Teman
+Platoon invitation	Undangan Platoon
+Invitation Accepted	Undangan Diterima
+Remaining Activity Coins: {0}	Sisa Activity Coin: {0}
+Copy successful	Penyalinan berhasil
+Can use Activity Coins	Bisa memakai Activity Coin
+Accessing data, please try again	Mengakses data, coba lagi
+Can pick	Bisa dipetik
+Bloom Points: {0}({1})	Poin Mekar: {0}({1})
+Bloom Points: {0}	Poin Mekar: {0}
+<color=#91b842>+{0}/day</color>	<color=#91b842>+{0}/hari</color>
+<color=#f8d07b>+{0}/day</color>	<color=#f8d07b>+{0}/hari</color>
+<color=#e09344>+{0}/day</color>	<color=#e09344>+{0}/hari</color>
+<color=#8f8f8f>Stopped Growing</color>	<color=#8f8f8f>Berhenti Tumbuh</color>
+{0} days	{0} hari
+<color=#f8d07b>Can pick</color>	<color=#f8d07b>Bisa dipetik</color>
+Proceed to check	Lanjut memeriksa
+About Interludes	Tentang Interlude
+Participating Dolls	Doll yang Ikut
+Interludes	Interlude
+{0}'s Affinity has reached Level {1}	Afinitas {0} sudah mencapai Level {1}
+Ends in {0} day(s)	Berakhir dalam {0} hari
+Shop Not Yet Open	Toko Belum Buka
+Units under crowd control cannot be controlled	Unit yang kena crowd control tidak bisa dikendalikan
+{0} Tiles	{0} Tile
+Exploited	Dieksploitasi
+Action Completed	Aksi Selesai
+Action Order Details	Detail Urutan Aksi
+ELID Type:	Tipe ELID:
+Will crack after {0} turns	Akan retak setelah {0} giliran
+Source: Unknown	Sumber: Tidak Diketahui
+Skip All	Lewati Semua
+All chapter rewards have been claimed	Semua hadiah bab sudah diklaim
+Rare Supply Crate	Peti Perbekalan Langka
+Exquisite Supply Crate	Peti Perbekalan Istimewa
+Normal Supply Crate	Peti Perbekalan Biasa
+Purification Reward	Hadiah Pemurnian
+Complete all missions to obtain	Selesaikan semua misi untuk mendapatkannya
+Stage Effects	Efek Stage
+Total damage for this round	Total damage ronde ini
+Effectiveness Enhancement	Peningkatan Efektivitas
+Widget Details	Detail Widget
+Doll Effects	Efek Doll
+Refreshes in {0}d {1}h	Disegarkan dalam {0}h {1}j
+Weekly	Mingguan
+Livability Bonus	Bonus Kelayakan Huni
+This Week	Minggu Ini
+Last Week	Minggu Lalu
+Next Week	Minggu Depan
+Event Exclusive	Eksklusif Acara
+Purchase and Save	Beli dan Hemat
+Furniture Suites	Set Perabot
+Rapid Setup	Penataan Cepat
+Temporarily Unavailable	Sementara Tidak Tersedia
+Weapon Skin	Skin Senjata
+Attachment Skin	Skin Attachment
+Actual Appearance	Tampilan Asli
+Skin Appearance	Tampilan Skin
+Squad {0} is at full capacity	Regu {0} sudah penuh
+Up to 3 Dolls can be deployed as battle support units	Maksimal 3 Doll bisa ditempatkan sebagai unit battle support
+Battle support Doll has been adjusted	Doll battle support sudah disesuaikan
+Just now	Baru saja
+Friend request has been accepted	Permintaan pertemanan diterima
+Friend list is full	Daftar teman penuh
+The player's friends list is full	Daftar teman pemain itu penuh
+Round Overview	Ikhtisar Ronde
+Battle Reports	Battle Report
+No Battle Reports	Tidak Ada Battle Report
+Passive Item Cards	Kartu Item Pasif
+Please save your plan first	Simpan dulu rencanamu
+Please save your edits before sharing your plan	Simpan perubahanmu sebelum membagikan rencana
+Does not have current skill	Tidak punya skill ini
+Cannot repeat choices in the priority plan	Pilihan tidak boleh diulang di rencana prioritas
+Please select plan save slot	Pilih slot penyimpanan rencana
+Please return to the previous screen to save your plan	Kembali ke layar sebelumnya untuk menyimpan rencana
+Liminal Iteration Leaderboard	Papan Peringkat Liminal Iteration
+Party - Light of Wishes	Pesta - Cahaya Permohonan
+Iliad - Part 1	Iliad - Bagian 1
+Iliad - Part 2	Iliad - Bagian 2
+Immortal Defense Line	Garis Pertahanan Abadi
+Challenge Mode - Part 1	Challenge Mode - Bagian 1
+Challenge Mode - Part 2	Challenge Mode - Bagian 2
+Quick Aim (Boundary Push)	Bidik Cepat (Boundary Push)
+Hazard Patrol	Patroli Bahaya
+Wasteland Impact	Dampak Wasteland
+Celebration Largesse	Kemurahan Perayaan
+Dawn of the Stele Caster	Fajar Sang Stele Caster
+Safehouse	Rumah Aman
+Shooting Game Title	Judul Game Tembak-tembakan
+Challenge Mode: Part 1	Challenge Mode: Bagian 1
+Challenge Mode: Part 2	Challenge Mode: Bagian 2

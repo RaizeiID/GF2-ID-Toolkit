@@ -1,0 +1,60 @@
+# Deskripsi skill — kalimat SERANGAN (batch besar).
+#
+# Kalimat serangan adalah keluarga terbesar di teks skill, tapi permainan menulis
+# hal yang sama dengan banyak variasi kata: "Selects 1" / "Select an", ", dealing" /
+# " and deals", "to it" / "to them" / tanpa ekor, dan letak tag <color> yang
+# berpindah-pindah ("within <color>6 tiles</color>" vs "<color>within 6 tiles</color>").
+#
+# Variasi kata yang TIDAK membawa angka ditulis sebagai alternasi non-capturing
+# (?:...) dan hasilnya diseragamkan ke satu kalimat Indonesia. Yang ditangkap hanya
+# yang WAJIB lolos utuh: tag warna, angka, dan nama jenis damage — jadi Physical,
+# Burn, Electric, Corrosion, Freeze, Hydro tetap Inggris.
+#
+# DUA JEBAKAN yang sudah memakan korban di sini:
+#
+# 1. Jangkauan "3 to 8 tiles" TIDAK boleh ditangkap sebagai satu grup (\d+(?: to \d+)?),
+#    karena kata "to" ikut terbawa mentah ke hasil ("dalam jarak 3 to 8 tile"). Setiap
+#    aturan berjangkauan karena itu punya sepasang varian: satu angka, dan "N to M"
+#    yang menerjemahkan penghubungnya jadi "sampai".
+#
+# 2. "Select an enemy target" tidak punya digit, jadi hasilnya TIDAK boleh menulis
+#    "1 target" — penjaga token membandingkan daftar angka sumber vs hasil dan build
+#    akan berhenti. Varian berhuruf memakai "satu", varian berdigit memakai "1".
+#
+# Jenis damage ditulis ((?:AoE )?(?:<color=...>)?\w+ damage(?:</color>)?) dalam SATU
+# grup supaya "AoE" ikut terbawa apa adanya; grup opsional harus selalu ikut
+# berpartisipasi (pakai ((?:AoE )?), bukan (AoE )?), karena m.expand() melempar
+# "unmatched group" kalau grupnya tidak pernah cocok.
+#range 0 130000
+
+# --- serangan target tunggal, jangkauan satu angka ---
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them|the target))?\.$	Memilih 1 target musuh dalam jarak \1\2 tile</color>, memberikan \3 setara \4\5%</color> Attack.
+^Selects? (?:one|an) enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them|the target))?\.$	Memilih satu target musuh dalam jarak \1\2 tile</color>, memberikan \3 setara \4\5%</color> Attack.
+^Selects? 1 enemy target (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them|the target))?\.$	Memilih 1 target musuh \1dalam jarak \2 tile</color>, memberikan \3 setara \4\5%</color> Attack.
+^Selects? (?:one|an) enemy target (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them|the target))?\.$	Memilih satu target musuh \1dalam jarak \2 tile</color>, memberikan \3 setara \4\5%</color> Attack.
+
+# --- serangan target tunggal, jangkauan "N to M" ---
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) to (\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them|the target))?\.$	Memilih 1 target musuh dalam jarak \1\2 sampai \3 tile</color>, memberikan \4 setara \5\6%</color> Attack.
+
+# --- serangan + penerapan status dalam satu kalimat ---
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them))?,? and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)(\d+) (?:turns?|rounds?)</color>\.$	Memilih 1 target musuh dalam jarak \1\2 tile</color>, memberikan \3 setara \4\5%</color> Attack, lalu menerapkan \6\7</color> selama \8\9 giliran</color>.
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) to (\d+) tiles?</color>(?:,| and)? ?(?:dealing|deals?) ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them))?,? and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)(\d+) (?:turns?|rounds?)</color>\.$	Memilih 1 target musuh dalam jarak \1\2 sampai \3 tile</color>, memberikan \4 setara \5\6%</color> Attack, lalu menerapkan \7\8</color> selama \9\g<10> giliran</color>.
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>, applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)(\d+) (?:turns?|rounds?)</color>, and deals ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack(?: to (?:it|them))?\.$	Memilih 1 target musuh dalam jarak \1\2 tile</color>, menerapkan \3\4</color> selama \5\6 giliran</color>, lalu memberikan \7 setara \8\9%</color> Attack.
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color> and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)(\d+) (?:turns?|rounds?)</color>\.$	Memilih 1 target musuh dalam jarak \1\2 tile</color> dan menerapkan \3\4</color> selama \5\6 giliran</color>.
+
+# --- serangan area di sekitar target ---
+^Deals? ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to it and all targets within a (<color=#[0-9a-fA-F]+>)(\d+) tile area</color> equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of (Response value|HOC Power|Tactical value|attack)\.$	Memberikan \1 ke target itu dan semua target dalam area \2\3 tile</color> setara \4\5%</color> dari \6.
+^Deals? ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to it and all targets (<color=#[0-9a-fA-F]+>)within (\d+) tiles?</color> equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of (Response value|HOC Power|Tactical value|attack)\.$	Memberikan \1 ke target itu dan semua target \2dalam jarak \3 tile</color> setara \4\5%</color> dari \6.
+^Selects? 1 enemy target within (<color=#[0-9a-fA-F]+>)(\d+) to (\d+) tiles?</color> and generates (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color> around the target's location\.$	Memilih 1 target musuh dalam jarak \1\2 sampai \3 tile</color> lalu menghasilkan \4\5</color> \6\7 tile</color> di sekitar lokasi target.
+
+# --- pemilihan medan (Core / Peripheral Battlefield) ---
+^Selects? 1 enemy target on (<color=#[0-9a-fA-F]+>)(Peripheral Battlefield \d+)</color> or the Core Battlefield\.$	Memilih 1 target musuh di \1\2</color> atau Core Battlefield.
+^Selects? an enemy target on (<color=#[0-9a-fA-F]+>)(Peripheral Battlefield \d+)</color> or the Core Battlefield\.$	Memilih satu target musuh di \1\2</color> atau Core Battlefield.
+^Damage dealt to enemy units (?:in|on) the Core Battlefield (?:is increased|increases); after all enemy units (?:in|on) the Peripheral Battlefield die, (?:own damage dealt is increased|the damage dealt by the unit increases)\.$	Damage ke unit musuh di Core Battlefield meningkat; setelah semua unit musuh di Peripheral Battlefield mati, damage yang diberikan unit ini meningkat.
+
+# --- serangan sederhana tanpa angka ---
+^Deals? ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) to the target\.$	Memberikan \1 ke target.
+^Deals? ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) and applies ((?:<color=#[0-9a-fA-F]+>)?\{\d+\}(?:</color>)?)\.$	Memberikan \1 dan menerapkan \2.
+^Immune to ((?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?)\.$	Kebal terhadap \1.
+^After taking damage from an enemy, launches a Counterattack, dealing ((?:AoE )?(?:<color=#[0-9a-fA-F]+>)?[A-Za-z]+ damage(?:</color>)?) equal to (<color=#[0-9a-fA-F]+>)([\d.+]+)%</color> of attack\.$	Setelah terkena damage dari musuh, melancarkan Counterattack, memberikan \1 setara \2\3%</color> Attack.
+^Destroys any destructible Cover within a (<color=#[0-9a-fA-F]+>)(\d+x\d+ area)</color> around the user\.$	Menghancurkan Cover yang bisa dihancurkan dalam area \1\2</color> di sekitar pengguna.

@@ -1,0 +1,17 @@
+# Batch 4 — sisa label UI pertempuran & layar tantangan
+# Dilewati: nama mode/tingkat kesulitan (Nightmare, Annihilation, Extreme Peak,
+#   Decisive Battle, Outpost Battle, Bounties, Milestone), nama fasilitas
+#   (Crew Deck, Dispatch Room, Refitting Room), dan istilah gamer
+#   (Ultimate, MAX, Buff, Damage, Doll, Elite, Filter, Preset, Status, Edit,
+#    Target, Total, Build, Attachments, Plugins).
+#range 0 125000
+
+Warning	Peringatan
+Counterattack	Serangan Balik
+Basic Attack	Serangan Dasar
+Eliminate all enemies	Kalahkan semua musuh
+Select battle reward	Pilih hadiah pertempuran
+Continue Challenge	Lanjutkan Tantangan
+Attempts	Percobaan
+Auto Mode Preparation	Persiapan Mode Auto
+Attachment Details	Detail Attachment

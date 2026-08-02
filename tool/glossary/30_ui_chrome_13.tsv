@@ -1,0 +1,114 @@
+# Antarmuka — pesan panjang, dialog konfirmasi, dan peringatan (bagian 13).
+#
+# "Can obtain <color=#ff2c52>Outfit Permit, Merkele Leave</color>" salah eja di
+# aslinya (Merkele, sementara baris lain menulis Merkle). Ditulis persis begitu
+# supaya barisnya cocok.
+#
+# Tanggal "After 19th August, 5:00 a.m." dipertahankan sebagai tanggal — hanya
+# nama bulannya yang dialihbahasakan.
+#
+# Nama diri dibiarkan: Cheeta, Koleda, Asteria, Blade Titan, ElmoMart, Pathforger,
+# Boundary Push, Phase Clash, Hunter's Path, Voyage Logs, Starwish.
+#range 75000 90000
+
+<color=#f26c1c>Clash Incident</color> triggered, <color=#f26c1c>{0}</color> selected, points gained: <color=#f26c1c>{1}</color>	<color=#f26c1c>Clash Incident</color> terpicu, <color=#f26c1c>{0}</color> dipilih, poin didapat: <color=#f26c1c>{1}</color>
+Purchased <color=#f26c1c>{1}</color> from <color=#f26c1c>{0}</color>	Membeli <color=#f26c1c>{1}</color> dari <color=#f26c1c>{0}</color>
+Modified <color=#f26c1c>{0}</color> to <color=#f26c1c>{1}</color>	Mengubah <color=#f26c1c>{0}</color> jadi <color=#f26c1c>{1}</color>
+Triggered <color=#f26c1c>{0}</color>'s effect, points gained: <color=#f26c1c>{1}</color>	Memicu efek <color=#f26c1c>{0}</color>, poin didapat: <color=#f26c1c>{1}</color>
+Insufficient cipher points. Please refer to the map legend to locate and eliminate the target enemy.	Poin sandi tidak cukup. Lihat keterangan peta untuk menemukan dan menghabisi musuh targetnya.
+{0} is insufficient. Please proceed to the chest to obtain more.	{0} tidak cukup. Menujulah ke petinya untuk mendapat lebih banyak.
+This action cannot be applied to this enemy, please select an appropriate target	Aksi ini tidak bisa dipakai pada musuh ini, pilih target yang sesuai
+There are no enemies on this tile, please select an appropriate target	Tidak ada musuh di tile ini, pilih target yang sesuai
+Unable to select this tile, please choose an appropriate target	Tidak bisa memilih tile ini, pilih target yang sesuai
+Gain additional rewards by consuming drinks on the Crew Deck	Dapatkan hadiah tambahan dengan menikmati minuman di Crew Deck
+Key claimed. It will come into effect after installation	Key diklaim. Berlaku setelah dipasang
+Arclight Logs is about to end, weekly missions will not be refreshed.	Arclight Logs segera berakhir, misi mingguan tidak akan disegarkan.
+The current instalment of Arclight Logs has ended, returning to the main screen.	Edisi Arclight Logs ini sudah berakhir, kembali ke layar utama.
+Participate in the event to scratch and win great prizes	Ikuti acaranya untuk menggosok dan memenangkan hadiah menarik
+Unable to add friend; your friend list is full. Please try again when there's room.	Tidak bisa menambah teman; daftar temanmu penuh. Coba lagi kalau sudah ada ruang.
+Unable to add friend, their friend list is already full!	Tidak bisa menambah teman, daftar teman mereka sudah penuh!
+Adding this player to the blacklist will also result in removing them as a friend. Are you sure you want to blacklist this player?	Memasukkan pemain ini ke daftar hitam juga akan menghapusnya dari daftar teman. Yakin mau memasukkannya ke daftar hitam?
+<color=#F26C1C>[Cargo Insurance]</color> triggered, no materials lost in this evacuation	<color=#F26C1C>[Cargo Insurance]</color> terpicu, tidak ada bahan yang hilang di evakuasi ini
+Triggered <color=#f26c1c>{0}</color> and additionally gained points from the base terrain tile <color=#f26c1c>1</color> time	Memicu <color=#f26c1c>{0}</color> dan mendapat tambahan poin dari tile medan dasar <color=#f26c1c>1</color> kali
+Triggered <color=#f26c1c>{0}</color>'s effect and gave <color=#f26c1c>{1}</color> <color=#f26c1c>{2}</color> points	Memicu efek <color=#f26c1c>{0}</color> dan memberi <color=#f26c1c>{1}</color> <color=#f26c1c>{2}</color> poin
+We've detected that your account is logged in on another device. Please try logging in again	Kami mendeteksi akunmu login di perangkat lain. Coba login ulang
+You aren't friends with this player, so they won't receive your message.	Kamu bukan teman pemain ini, jadi pesanmu tidak akan sampai.
+Sensitive characters or other errors, please enter again	Ada karakter sensitif atau kesalahan lain, masukkan lagi
+You've removed this friend or added them to your blacklist; therefore, they are unable to receive your messages	Kamu sudah menghapus teman ini atau memasukkannya ke daftar hitam; karena itu pesanmu tidak sampai
+Redeem code verified successfully! Please check your mail to claim your rewards.	Kode penukaran berhasil diverifikasi! Cek suratmu untuk mengklaim hadiahnya.
+There is no limit to the cargo volume for other supplies	Tidak ada batas volume kargo untuk perbekalan lain
+Maintain at least {0} units of supplies for transportation	Jaga minimal {0} unit perbekalan untuk pengangkutan
+Please grant permission to the app in Settings > Privacy > Pictures	Berikan izin ke aplikasi lewat Pengaturan > Privasi > Gambar
+Red Dot Notifications for Doll Obtainment and Neural Fortification	Notifikasi Titik Merah untuk Perolehan Doll dan Neural Fortification
+Are you sure you want to spend {0}{1} to initiate {2} combat?	Yakin mau memakai {0}{1} untuk memulai {2} pertempuran?
+The settlement will be based on the current challenge points. Are you sure you want to retreat?	Perhitungannya memakai poin tantangan saat ini. Yakin mau mundur?
+Retreating the team will discard all changes made. Do you want to discard the changes and exit?	Menarik mundur tim akan membuang semua perubahan. Mau membuang perubahannya lalu keluar?
+This Doll is not authorized. Please go to {0} to bbtain authorization.	Doll ini belum diizinkan. Menujulah ke {0} untuk mendapat izin.
+This Doll is already in Squad {0}. Do you want to withdraw the Doll and deploy it to Squad {1}?	Doll ini sudah ada di Regu {0}. Mau menariknya lalu menempatkannya di Regu {1}?
+An elite enemy is approaching, it will show up after eliminating {0} enemy unit(s)	Musuh elite mendekat, akan muncul setelah {0} unit musuh dikalahkan
+<color=#f36764>Floor {0}</color> progress has been reset	Progres <color=#f36764>Lantai {0}</color> sudah diatur ulang
+This floor has been completed, <color=#f36764>Floor {0}</color> is now open	Lantai ini selesai, <color=#f36764>Lantai {0}</color> kini terbuka
+<color=#e24c38>{0}</color> additional choice(s) from Plugin Selection	<color=#e24c38>{0}</color> pilihan tambahan dari Pemilihan Plugin
+<color=#e24c38>{0}</color> additional choice(s) from Treasure Selection	<color=#e24c38>{0}</color> pilihan tambahan dari Pemilihan Harta Karun
+This choice will affect plot development, so please choose wisely.	Pilihan ini memengaruhi jalannya cerita, jadi pilihlah dengan bijak.
+This Talent Component has been enhanced. Once it is consumed, the materials used to enhance it will be refunded.	Talent Component ini sudah ditingkatkan. Begitu dipakai, bahan peningkatannya akan dikembalikan.
+This Talent Component has been installed in another layout. Once it is consumed, it will be automatically removed.	Talent Component ini terpasang di tata letak lain. Begitu dipakai, otomatis akan dilepas.
+This Talent Component has been locked. After confirming, it will be automatically unlocked.	Talent Component ini terkunci. Setelah dikonfirmasi, otomatis akan dibuka.
+Forced evacuation will not result in the loss of acquired resources. Are you sure you want to proceed with the evacuation?	Evakuasi paksa tidak membuat sumber daya yang sudah didapat hilang. Yakin mau melanjutkan evakuasi?
+The deeper you go, the better the rewards. Depth can be changed at any time.	Makin dalam kamu masuk, makin bagus hadiahnya. Kedalamannya bisa diubah kapan saja.
+Take part in the event to obtain [Time Capsule - Lady's Slipper], as well as crew deck ornaments and other fabulous prizes	Ikuti acaranya untuk mendapat [Time Capsule - Lady's Slipper], berikut ornamen crew deck dan hadiah menarik lainnya
+No carrier card selected. Are you sure you want to proceed to battle?	Belum ada kartu pembawa yang dipilih. Yakin mau lanjut bertempur?
+Please arrange your Dolls for expeditions based on their unique characteristics to gather needed supplies.	Susun Doll-mu untuk ekspedisi berdasarkan ciri khasnya masing-masing supaya perbekalan yang dibutuhkan terkumpul.
+Gathering resources will prevent the echelon from performing further actions	Mengumpulkan sumber daya membuat echelon tidak bisa beraksi lagi
+You will be attacked by a specific enemy target in the next turn	Kamu akan diserang target musuh tertentu di giliran berikutnya
+Upon conducting a basic attack or deploying a skill in this area, you'll face an assault from a specific enemy target	Begitu melakukan basic attack atau memakai skill di area ini, kamu akan diserang target musuh tertentu
+You will be under attack from specific enemy targets before you move out of this area	Kamu akan diserang target musuh tertentu sebelum keluar dari area ini
+You will be attacked by the Blade Titan in the next turn.	Kamu akan diserang Blade Titan di giliran berikutnya.
+<color=#3487e0>Ultimatum</color>: Causes prohibitive fixed damage if the mission is not complete by the end of the given duration	<color=#3487e0>Ultimatum</color>: Memberi fixed damage yang sangat besar kalau misinya tidak selesai sampai batas waktunya habis
+Cipher sample collected. Do you wish to end the Cipher Simulation?	Sampel sandi terkumpul. Mau mengakhiri Cipher Simulation?
+You might end up taking the big sleep if you fall in—jump over it!	Kamu bisa tidur selamanya kalau jatuh ke sana—lompati saja!
+Invert gravity, and the world will turn upside down just for you.	Balikkan gravitasi, dan dunia akan terjungkir hanya untukmu.
+Unlocked after completing all missions in the previous rank	Terbuka setelah menyelesaikan semua misi di peringkat sebelumnya
+Completing all missions will upgrade Cheeta to "Segment - Six"	Menyelesaikan semua misi akan menaikkan Cheeta ke "Segment - Six"
+Your current client version is outdated, please re-login for an update	Versi klienmu sudah usang, login ulang untuk memperbaruinya
+This stage is quite difficult and is recommended for Commanders at Level 60. Do you still wish to proceed?	Stage ini cukup sulit dan disarankan untuk Commander Level 60. Tetap mau lanjut?
+Rewards will automatically be sent to your inbox after the Showdown	Hadiah otomatis dikirim ke kotak masukmu setelah Showdown
+- You and other Commanders worked together to defeat {0}	- Kamu dan Commander lain bahu-membahu mengalahkan {0}
+Unclaimed rewards will be automatically sent to your inbox	Hadiah yang belum diklaim otomatis dikirim ke kotak masukmu
+Once the store rating reaches the highest level, each {0} can be converted into {1}{2} ounces.	Begitu peringkat toko mencapai level tertinggi, tiap {0} bisa ditukar jadi {1}{2} ons.
+We apologize, but the current round of ElmoMart purchasing has ended.	Mohon maaf, putaran pembelian ElmoMart kali ini sudah berakhir.
+Heavy weapons teams will be automatically deployed and do not need to be placed on the battlefield	Tim senjata berat otomatis ditempatkan dan tidak perlu diletakkan di medan tempur
+All adjustments to the current formation will be reverted. Do you wish to proceed?	Semua penyesuaian formasi ini akan dikembalikan. Mau lanjut?
+Please select 1 target within the skill's area of effect.	Pilih 1 target di dalam area efek skill-nya.
+No participation in battle. Settlement will result in an immediate retreat from the battle	Tidak ikut bertempur. Perhitungan akan langsung menarik mundur dari pertempuran
+Ammo can be selected after heavy weapons team is assigned	Amunisi bisa dipilih setelah tim senjata berat ditugaskan
+This will place all Curios with one click and the current layout will change. Do you wish to proceed?	Ini akan menempatkan semua Curio sekali klik dan tata letaknya berubah. Mau lanjut?
+Can be edited after building. Do you wish to proceed to the Build screen?	Bisa diubah setelah dibangun. Mau menuju layar Bangun?
+The following Dolls have less than five particle accumulators equipped. Would you like to replenish them?	Doll berikut memasang kurang dari lima akumulator partikel. Mau mengisinya?
+Entering the dark zone consumes Doll power, which is restored and replenished at 5 A.M. daily	Masuk ke zona gelap memakan tenaga Doll, yang dipulihkan tiap hari pukul 5 pagi
+After successfully equipping special gear, a portion of the original weapon enhancement materials will be returned	Setelah perlengkapan khusus berhasil dipasang, sebagian bahan peningkatan senjata asli dikembalikan
+Are you sure you want to evolve <color={0}>{1}-star {2}</color> to a <color={3}>{4}-star {5}</color>	Yakin mau mengevolusikan <color={0}>{2} bintang {1}</color> jadi <color={3}>{5} bintang {4}</color>
+Adjustments to the current Doll will be reverted, do you wish to proceed?	Penyesuaian pada Doll ini akan dikembalikan, mau lanjut?
+Boost in weapon load capacity <color=#f26c1c>{0}</color>	Kapasitas beban senjata naik <color=#f26c1c>{0}</color>
+Complete mission to gain <color=#B4E830>Photo Decorations</color> and <color=#B4E830>Exclusive Titles</color>	Selesaikan misi untuk mendapat <color=#B4E830>Dekorasi Foto</color> dan <color=#B4E830>Gelar Eksklusif</color>
+<color=#ff2c52>Koleda and Asteria</color> make their debut, unlocking a brand new campaign story	<color=#ff2c52>Koleda dan Asteria</color> tampil perdana, membuka cerita campaign yang benar-benar baru
+The last Boundary Push operation was not completed. Do you wish to return to the battlefield?	Operasi Boundary Push terakhir belum selesai. Mau kembali ke medan tempur?
+A brand new Outfit Procurement is open, free Outfit Access Permissions on giveaway	Outfit Procurement yang benar-benar baru sudah dibuka, ada Outfit Access Permission gratis
+Spend <color=#f26c1c>{1} x{0}</color> to unlock and view this intelligence?	Pakai <color=#f26c1c>{1} x{0}</color> untuk membuka dan melihat intel ini?
+Can obtain <color=#ff2c52>Outfit Permit, Merkele Leave</color>	Bisa mendapat <color=#ff2c52>Outfit Permit, Merkele Leave</color>
+Spend <color=#F26C1C>{1}</color> {0}, gain <color=#F26C1C>1</color> Starwish Ticket(s)	Pakai <color=#F26C1C>{1}</color> {0}, dapat <color=#F26C1C>1</color> Tiket Starwish
+Do you want to remove all components for the current framework?	Mau melepas semua komponen di framework ini?
+Not enough Talent Components of the same kind. More can be obtained through [Phase Clash] in Boundary Push	Talent Component sejenis tidak cukup. Bisa didapat lebih banyak lewat [Phase Clash] di Boundary Push
+This level-up will preserve the current experience progress	Kenaikan level ini mempertahankan progres pengalaman saat ini
+After 19th August, 5:00 a.m., activity points can no longer be gained and raffle tickets can no longer be scratched.	Setelah 19 Agustus pukul 5.00 pagi, poin aktivitas tidak bisa didapat lagi dan tiket undian tidak bisa digosok lagi.
+Cannot save, requires at least one skill to be used more than once.	Tidak bisa disimpan, minimal satu skill harus dipakai lebih dari sekali.
+The following time-limited items<color=#f26c1c> have expired</color> and have been automatically reclaimed by the system.	Item waktu terbatas berikut<color=#f26c1c> sudah kedaluwarsa</color> dan otomatis ditarik kembali oleh sistem.
+3-star Pathforger objective accomplished, you may end the stage now	Sasaran Pathforger 3 bintang tercapai, kamu boleh mengakhiri stage-nya sekarang
+Pathforger objective for this game has been completed, starting next game...	Sasaran Pathforger untuk permainan ini selesai, memulai permainan berikutnya...
+Do you wish to abandon the current functions and refresh the selection?	Mau meninggalkan fungsi saat ini dan menyegarkan pilihannya?
+Can only rewind to the start of the current turn or the start of the previous turn	Hanya bisa memutar ulang ke awal giliran ini atau awal giliran sebelumnya
+The team will not be able to take any more actions after {0}	Tim tidak bisa beraksi lagi setelah {0}
+Increasing the Voyage Logs Level will unlock the following rewards:	Menaikkan Level Voyage Logs akan membuka hadiah berikut:
+Includes all Hunter's Path rewards, and increases the Voyage Logs Level by <color=#f0af14>10</color> immediately.	Termasuk semua hadiah Hunter's Path, dan langsung menaikkan Level Voyage Logs <color=#f0af14>10</color>.
+Increase your Affinity to unlock archives and Doll Feedback	Naikkan Afinitasmu untuk membuka arsip dan Doll Feedback
+Join a platoon to receive the full event experience and event rewards	Gabung platoon untuk mendapat pengalaman dan hadiah acara sepenuhnya

@@ -1,0 +1,47 @@
+# Deskripsi skill — kalimat KONDISI, PEMICU & SUMBER DAYA.
+#
+# Nama karakter ditangkap dengan kelas karakter yang tidak bisa melompati batas
+# klausa (bukan (.+)), sesuai jebakan "ekor separuh Inggris" yang tercatat di
+# README: ekor bebas hanya boleh dipakai kalau polanya memang berakhir di ujung
+# string DAN isinya memang nama diri.
+#range 0 130000
+
+# --- awal/akhir giliran & pertempuran ---
+^At the start of battle, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal pertempuran, mendapatkan \1\2</color>.
+^At the start of the battle, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal pertempuran, mendapatkan \1\2</color>.
+^At the start of the battle, enter the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state\.$	Di awal pertempuran, masuk ke kondisi \1\2</color>.
+^At the start of battle, enter the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state\.$	Di awal pertempuran, masuk ke kondisi \1\2</color>.
+^At the start of the turn, gains? (<color=#[0-9a-fA-F]+>)([\d.]+) stacks?</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal giliran, mendapatkan \1\2 stack</color> \3\4</color>.
+^At the start of the round, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal ronde, mendapatkan \1\2</color>.
+^At the end of the action, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di akhir aksi, mendapatkan \1\2</color>.
+^At the end of the round, if the Ultimate Skill (<color=#[0-9a-fA-F]+>)([^<>]+)</color> was not used this turn, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di akhir ronde, jika Ultimate Skill \1\2</color> tidak dipakai giliran ini, mendapatkan \3\4</color>.
+^After skill usage, (?:she|he|they) gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Setelah skill dipakai, dia mendapatkan \1\2</color>.
+^After skill usage, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Setelah skill dipakai, mendapatkan \1\2</color>.
+^After this skill resolves, ([A-Z][A-Za-z0-9'’.-]*) gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Setelah skill ini selesai, \1 mendapatkan \2\3</color>.
+^After using this skill, gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Setelah memakai skill ini, mendapatkan \1\2</color>.
+
+# --- mendapatkan status ---
+^Gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Mendapat \1\2</color>.
+^Gains? (<color=#[0-9a-fA-F]+>)([\d.]+) stacks?</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Mendapat \1\2 stack</color> \3\4</color>.
+^(<color=#[0-9a-fA-F]+>)(\{\d+\})</color> gains? (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	\1\2</color> mendapatkan \3\4</color>.
+^If cleansed, it causes all allied units to gain (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)([\d.]+) (?:rounds?|turns?)</color>\.$	Jika dibersihkan, semua unit sekutu mendapatkan \1\2</color> selama \3\4 giliran</color>.
+^Refreshes the duration of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> whenever an active attack kills the target or exploits any weakness of a target with ([A-Za-z]+) debuffs\.$	Menyegarkan durasi \1\2</color> setiap kali serangan aktif membunuh target atau mengeksploitasi kelemahan target yang memiliki debuff \3.
+^Otherwise, convert the damage accumulated through (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Jika tidak, ubah damage yang terkumpul lewat \1\2</color> jadi \3\4 poin</color> \5\6</color>.
+
+# --- pergantian kondisi (nama karakter lewat backref) ---
+^If ([A-Z][A-Za-z0-9'’.-]*) is in the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state at the end of (?:her|his|their) action, (?:she|he|they) switches? to the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state\.$	Jika \1 sedang dalam kondisi \2\3</color> di akhir aksinya, dia beralih ke kondisi \4\5</color>.
+^Enters? the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state\.$	Masuk ke kondisi \1\2</color>.
+
+# --- perlindungan / pengalihan damage ---
+^When this unit takes damage (<color=#[0-9a-fA-F]+>)within ([\d.]+) tiles?</color> of ([A-Z][A-Za-z0-9'’.-]*), ([A-Z][A-Za-z0-9'’.-]*) takes (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the initial damage for them\.$	Saat unit ini terkena damage \1dalam jarak \2 tile</color> dari \3, \4 menanggung \5\6%</color> damage awalnya untuk mereka.
+
+# --- Energy & Confectance Index ---
+^Consumes all Energy\.$	Menghabiskan semua Energy.
+^For every (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of Energy consumed, damage dealt increases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, up to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setiap \1\2 poin</color> Energy yang dipakai, damage yang diberikan naik sebesar \3\4%</color>, maksimal \5\6%</color>.
+^Consumes all Energy; for every (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of Energy consumed, damage dealt increases by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, up to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Menghabiskan semua Energy; setiap \1\2 poin</color> Energy yang dipakai, damage yang diberikan naik sebesar \3\4%</color>, maksimal \5\6%</color>.
+^([A-Z][A-Za-z0-9'’.-]*) gains (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of Confectance Index\.$	\1 mendapatkan \2\3 poin</color> Confectance Index.
+^([A-Z][A-Za-z0-9'’.-]*) gains Confectance Index\.$	\1 mendapatkan Confectance Index.
+^Gains Confectance Index\.$	Mendapat Confectance Index.
+
+# --- pemicu terbatas ---
+^This effect can be triggered up to (<color=#[0-9a-fA-F]+>)([\d.]+) times?</color> per turn\.$	Efek ini bisa terpicu hingga \1\2 kali</color> per giliran.

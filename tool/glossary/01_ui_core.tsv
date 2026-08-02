@@ -1,0 +1,156 @@
+# Core UI / system strings -> Bahasa Indonesia (gaya gamer, natural)
+# Format: <english><TAB><indonesian>
+# Dibatasi ke string-id UI/sistem supaya kata umum tidak menimpa dialog cerita.
+#range 0 125000
+
+# --- tombol & aksi dasar ---
+Confirm	Konfirmasi
+Cancel	Batal
+Claim	Klaim
+Claim All	Klaim Semua
+Purchase	Beli
+Proceed	Lanjut
+Continue	Lanjutkan
+Activate	Aktifkan
+Use	Gunakan
+Save	Simpan
+Check	Periksa
+Change	Ubah
+Collect	Kumpulkan
+Pick Up	Ambil
+Craft	Buat
+Investigate	Selidiki
+Upgrade	Tingkatkan
+Enhance	Perkuat
+Calibrate	Kalibrasi
+Remove	Lepas
+Swap	Tukar
+Select	Pilih
+Selected	Dipilih
+Reset	Atur Ulang
+Restart	Mulai Ulang
+Skip	Lewati
+Next	Berikutnya
+Close	Tutup
+Exit	Keluar
+Pause	Jeda
+Open	Buka
+Unlock	Buka
+Obtain	Dapatkan
+Withdraw	Tarik
+Deploy	Kerahkan
+Retreat	Mundur
+Preview	Pratinjau
+
+# --- status ---
+Locked	Terkunci
+Unlocked	Terbuka
+Owned	Dimiliki
+Claimed	Sudah Diklaim
+Equipped	Terpasang
+Acquired	Didapat
+Activated	Aktif
+Active	Aktif
+Inactive	Nonaktif
+Passive	Pasif
+Completed	Selesai
+Incomplete	Belum Selesai
+In Progress	Berlangsung
+Pending	Menunggu
+Not reached	Belum tercapai
+Not enabled	Tidak aktif
+Not Ranked	Belum Berperingkat
+Sold Out	Habis
+Maxed	Maks
+Max Level	Level Maks
+Current	Saat Ini
+Closed	Tertutup
+New	Baru
+Default	Bawaan
+Non-Interactive	Tidak Interaktif
+
+# --- label & judul ---
+All	Semua
+Story	Cerita
+Notice	Pemberitahuan
+Hint	Petunjuk
+Details	Detail
+Item Details	Detail Item
+Reward	Hadiah
+Reward Details	Detail Hadiah
+Rewards Preview	Pratinjau Hadiah
+Challenge	Tantangan
+Challenge Rewards	Hadiah Tantangan
+Obtain Methods	Cara Mendapatkan
+Supply	Suplai
+Supplies	Suplai
+Expenditure	Pengeluaran
+Weapons	Senjata
+Rarity	Kelangkaan
+Score	Skor
+Highest Score	Skor Tertinggi
+New Record	Rekor Baru
+Rank	Peringkat
+Leaderboard	Papan Peringkat
+Affinity	Afinitas
+Duration	Durasi
+Settings	Pengaturan
+Inventory	Inventaris
+Support	Dukungan
+Member	Anggota
+Gift	Hadiah
+Caution	Perhatian
+Level Up	Naik Level
+Daily Missions	Misi Harian
+Materials Exchange	Tukar Material
+Mission Objective	Tujuan Misi
+Mission Objectives	Tujuan Misi
+Combat Effectiveness	Daya Tempur
+Takeover Bonus	Bonus Pengambilalihan
+
+# --- pertempuran ---
+Attack	Serangan
+Enemy Units	Unit Musuh
+Enemy Information	Informasi Musuh
+Start Combat	Mulai Tempur
+Enter combat	Masuk pertempuran
+Start Operation	Mulai Operasi
+End Turn	Akhiri Giliran
+Deployment completed	Pengerahan selesai
+Damage received	Damage diterima
+Squad damaged	Skuad terkena damage
+Time of Battle	Waktu Pertempuran
+The First Move	Gerakan Pertama
+The Second Move	Gerakan Kedua
+Battlefield Search	Pencarian Medan Perang
+Security Gate	Gerbang Keamanan
+Remote Switch	Sakelar Jarak Jauh
+Select Doll	Pilih Doll
+Choose Doll	Pilih Doll
+Hard	Sulit
+Heroic Mode	Mode Heroik
+Heroic Difficulty	Tingkat Heroik
+Insufficient Fuel!	Bahan Bakar Tidak Cukup!
+
+# --- kalimat dengan placeholder (jaga {0} persis) ---
+Unlocks after completing {0}	Terbuka setelah menyelesaikan {0}
+Unlocked after completing {0}	Terbuka setelah menyelesaikan {0}
+Unlocked after clearing stage {0}	Terbuka setelah menuntaskan stage {0}
+Unlocked after {0}	Terbuka setelah {0}
+Unlocks after {0}	Terbuka setelah {0}
+Opens after {0}	Terbuka setelah {0}
+{0} has been unlocked	{0} telah terbuka
+Insufficient {0}	{0} tidak cukup
+Use {0}	Gunakan {0}
+Ends in {0}	Berakhir dalam {0}
+
+# --- pesan sistem ---
+Reward obtained	Hadiah diterima
+All rewards have been claimed	Semua hadiah sudah diklaim
+All rewards have been obtained	Semua hadiah sudah didapat
+Obtain upon unlocking	Didapat saat terbuka
+Proceed to Acquire	Lanjut untuk Mendapatkan
+Log in to claim	Login untuk klaim
+Click anywhere to continue	Klik di mana saja untuk lanjut
+Event is over	Event telah berakhir
+The event has ended	Event telah berakhir

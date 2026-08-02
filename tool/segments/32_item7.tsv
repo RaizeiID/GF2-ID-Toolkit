@@ -1,0 +1,218 @@
+# Deskripsi ITEM — putaran ketujuh: menuntaskan sisa "kurang satu kalimat".
+#
+# Semua baris di sini menutup tepat satu deskripsi. Diambil dari daftar 410 penghalang
+# yang tersisa setelah batch 26-31, diurutkan dari yang paling terlihat pemain:
+# efek mekanik plugin, keterangan attachment, perabot, lalu teks rasa dan baris suara.
+#
+# Salah ketik milik permainan yang disalin apa adanya: "refuced" (reduced), "simialr"
+# (similar), "the core fo the mystery" (of), "Commande" (Commander), dan tiga baris
+# blueprint yang berakhir dengan dua titik.
+#range 0 130000
+
+# --- efek mekanik: plugin & set ---
+^For each plugin set effect possessed, damage taken is reduced by (\d+)%$	Untuk tiap efek set plugin yang dimiliki, damage yang diterima berkurang \1%
+^For each plugin set effect possessed, damage dealt by allies is increased by (\d+)%$	Untuk tiap efek set plugin yang dimiliki, damage dari sekutu meningkat \1%
+^For each plugin set effect possessed, stability damage dealt is increased by (\d+) points\.$	Untuk tiap efek set plugin yang dimiliki, stability damage yang diberikan meningkat \1 poin.
+^For each ([\w ]+) set plugin possessed, AoE damage dealt is increased by (\d+)%, to a maximum of (\d+) stacks$	Untuk tiap plugin set \1 yang dimiliki, damage AoE yang diberikan meningkat \2%, maksimal \3 stack
+^For each ([\w ]+) set plugin possessed, damage dealt is increased by (\d+)%, stability damage is increased by (\d+) point, to a maximum of (\d+) stacks$	Untuk tiap plugin set \1 yang dimiliki, damage yang diberikan meningkat \2%, stability damage meningkat \3 poin, maksimal \4 stack
+^Damage dealt to (normal|elite|boss) targets is increased by (\d+)%$	Damage ke target \1 meningkat \2%
+
+# --- efek mekanik: HP naik-turun ---
+^When HP decreases, damage taken is reduced by (\d+)%, stacking up to (\d+) times\.$	Saat HP berkurang, damage yang diterima berkurang \1%, menumpuk hingga \2 kali.
+^When HP decreases, Max HP is increased by (\d+)%, stacking up to (\d+) times\.$	Saat HP berkurang, Max HP meningkat \1%, menumpuk hingga \2 kali.
+^When HP increases, attack is increased by (\d+)%, stacking up to (\d+) times\.$	Saat HP bertambah, serangan meningkat \1%, menumpuk hingga \2 kali.
+^When HP increases, damage dealt is increased by (\d+)%, stacking up to (\d+) times\.$	Saat HP bertambah, damage yang diberikan meningkat \1%, menumpuk hingga \2 kali.
+^When healed, attack is increased by (\d+)%, stacking up to (\d+) times\.$	Saat disembuhkan, serangan meningkat \1%, menumpuk hingga \2 kali.
+^When healed, Max HP is increased by (\d+)%, stacking up to (\d+) times\.$	Saat disembuhkan, Max HP meningkat \1%, menumpuk hingga \2 kali.
+^Before being healed, take fixed damage equal to (\d+)% of Max HP to increase amount healed by (\d+)%\.$	Sebelum disembuhkan, menerima fixed damage setara \1% Max HP untuk menambah jumlah healing sebesar \2%.
+^At the start of the turn, recover HP equal to (\d+)% of Max HP\.$	Di awal giliran, memulihkan HP setara \1% Max HP.
+^When attacking, take fixed damage equal to (\d+)% of initial Max HP and the damage dealt by the current attack is increased by (\d+)%\.$	Saat menyerang, menerima fixed damage setara \1% Max HP awal dan damage serangan tersebut meningkat \2%.
+^When current HP is equal to Max HP, increase damage dealt by (\d+)% and stability damage by (\d+)$	Saat HP sekarang sama dengan Max HP, damage yang diberikan meningkat \1% dan stability damage \2
+
+# --- efek mekanik: lain-lain ---
+^When dealing AoE damage, critical rate is increased by (\d+)%$	Saat memberikan damage AoE, critical rate meningkat \1%
+^When using an \[AoE\] attack, if only 1 target is hit, deals additional fixed damage equal to (\d+)% of attack\.$	Saat memakai serangan [AoE], kalau hanya 1 target yang kena, memberikan tambahan fixed damage setara \1% serangan.
+^When inflicting a critical hit with ([A-Za-z]+) damage, after the attack, the cooldowns for all ([A-Za-z]+)-type skills are reduced by (\d+) turn\.$	Saat memberikan critical hit dengan damage \1, setelah serangan itu cooldown semua skill tipe \2 berkurang \3 giliran.
+^When gaining Confectance Index, all skill cooldowns are refuced by (\d+) turn\.$	Saat mendapat Confectance Index, cooldown semua skill berkurang \1 giliran.
+^After attacking an iceball, attacks on the next turn deal additional fixed damage equal to attack\*(\d+)%$	Setelah menyerang bola es, serangan pada giliran berikutnya memberikan tambahan fixed damage setara serangan*\1%
+^\[All Assists\] outside of turns gain (\d+)% increased damage$	[Semua Assist] di luar giliran mendapat tambahan damage \1%
+^When healed, every (\d+)% of this unit's Max HP that is overhealed is converted to (\d+) stack of \[Max HP is increased by (\d+)%\]$	Saat disembuhkan, tiap \1% Max HP unit ini yang kelebihan healing diubah jadi \2 stack [Max HP meningkat \3%]
+^The overall drop rate of obtaining various types of attachment is ([\d.]+)%\.$	Tingkat drop keseluruhan untuk mendapat berbagai jenis attachment adalah \1%.
+=If the target has <Negative Charge>, before dealing Electric damage, generate <Voltage> tiles within 1 tile of the target.	Kalau target punya <Negative Charge>, sebelum memberikan Electric damage, hasilkan tile <Voltage> dalam 1 tile dari target.
+
+# --- attachment ---
+=Flash hiders for submachine guns, effectively prevents muzzle flashes and achieving the goal of self-concealment.	Flash hider untuk submachine gun, efektif meredam kilatan moncong sehingga membantu menyembunyikan diri.
+=Designed for assault rifles, simialr to the angled grip, both grips provide excellent bonuses, significantly reducing recoil.	Dirancang untuk assault rifle, mirip angled grip, kedua grip ini memberi bonus yang bagus dan sangat meredam recoil.
+=A blade sheath attachment part, with a one or two-foot design with metal rings for improved stability.	Komponen attachment sarung bilah, berdesain satu atau dua kaki dengan cincin logam untuk menambah kestabilan.
+=A highly durable muzzle made from sturdy materials.	Muzzle sangat awet yang dibuat dari material kokoh.
+=A muzzle that looks very well-made.	Muzzle yang kelihatannya dibuat dengan sangat rapi.
+=A scope that looks perfect for use in a desert.	Scope yang kelihatannya pas sekali dipakai di gurun.
+=A bipod which looks very sturdy.	Bipod yang kelihatannya sangat kokoh.
+=A foregrip that looks really cool.	Foregrip yang kelihatannya keren sekali.
+=An anti-slip foregrip that seems really reliable.	Foregrip anti-selip yang tampaknya sangat bisa diandalkan.
+=A blade edge that has a classical feeling to it.	Mata bilah yang terasa klasik.
+=A blade with a very cool paint job.	Bilah dengan cat yang sangat keren.
+=Another type of attachment that also seems to be made with rather sturdy material.	Jenis attachment lain yang tampaknya juga dibuat dari material yang cukup kokoh.
+
+# --- perabot & ornamen ---
+=Life breathes within its little world.	Kehidupan bernapas di dalam dunia kecilnya.
+=A hint of green lights up the entire room.	Sedikit sentuhan hijau menyalakan seisi ruangan.
+=An azure fairy from the depths of the sea.	Peri biru dari kedalaman laut.
+=A little sprite that swam out of a storybook.	Peri kecil yang berenang keluar dari buku cerita.
+=You don't need to stay so far away, it really is just an ornament.	Tak perlu menjauh begitu, ini benar-benar cuma ornamen.
+=It is only when you see the vastness of space that you realize just how small and insignificant you are.	Baru setelah melihat luasnya angkasa kau sadar betapa kecil dan tak berartinya dirimu.
+=It can take the heat and bear the loneliness.	Ia tahan panas dan sanggup menanggung kesepian.
+=Fear not, it will handle everything you need to bring.	Jangan khawatir, ia sanggup menampung semua yang perlu kau bawa.
+=A per~fect~ly harm~less bag that holds more than just medicine~	Tas yang sem~pur~na tak ber~ba~haya, isinya bukan cuma obat~
+=Its branches and banana-like leaves spread out with beautiful curves.	Dahan dan daunnya yang mirip pisang terbentang dengan lengkung yang indah.
+=A gentle breeze sets the greenery aflutter	Angin sepoi membuat dedaunan hijaunya bergoyang
+=Its curved branches are like a dancer's swaying body.	Dahannya yang melengkung bagai tubuh penari yang meliuk.
+=Its big leaves provide plenty of greenery.	Daunnya yang besar menghadirkan banyak kehijauan.
+=Like a Buddha of puppets, it calmly observes the conflicts of the world.	Bagai Buddha di antara boneka, ia mengamati pertikaian dunia dengan tenang.
+=A world that is completely different, yet filled with memories, all sealed in a little glass globe.	Dunia yang sama sekali berbeda tapi penuh kenangan, semuanya tersegel dalam bola kaca kecil.
+=The Dinergate ornaments everyone's been waiting for, with cute ribbons on their heads and crushed Varjagers underfoot.	Ornamen Dinergate yang ditunggu-tunggu semua orang, berpita imut di kepala dengan Varjager remuk di bawah kakinya.
+=The fiercest (and cutest) King of Dinosaurs, gaooooo~	Raja Dinosaurus yang paling garang (sekaligus paling imut), gaooooo~
+=Made by putting a Dinergate into a freezer for 100 days.	Dibuat dengan memasukkan Dinergate ke dalam freezer selama 100 hari.
+=A cute and sweet little snowgirl, but will that lantern she's holding melt her faster?	Gadis salju kecil yang imut dan manis, tapi apa lentera yang ia pegang justru bikin dia meleleh lebih cepat?
+=Gently swaying, light and easy.	Bergoyang lembut, ringan dan santai.
+=The moment you sink in, the whole world becomes light and soft.	Begitu kau merebahkan diri, seluruh dunia jadi ringan dan lembut.
+=When two people sit side by side, the afterglow just falls on their shoulders.	Saat dua orang duduk berdampingan, cahaya senja jatuh pas di bahu mereka.
+=Stepping on it barefoot, the warmth spreads from the soles of the feet all the way to the heart.	Menginjaknya tanpa alas kaki, kehangatannya menjalar dari telapak sampai ke hati.
+=Just a few steps high, perfectly separating day and night gently.	Cuma setinggi beberapa anak tangga, memisahkan siang dan malam dengan lembut dan pas.
+=A rectangular platform raised above the ground, resting quietly in the twilight, naturally forming a peaceful corner.	Platform persegi panjang yang meninggi dari lantai, berdiam tenang dalam senja, membentuk sudut yang damai dengan sendirinya.
+=Step by step ascending, the light and shadows gradually stretch beneath your feet.	Menanjak setapak demi setapak, cahaya dan bayangan perlahan memanjang di bawah kakimu.
+=Every tool waits in line, their order making chores feel grounded.	Tiap perkakas menunggu berbaris, keteraturannya membuat pekerjaan rumah terasa membumi.
+=Slice the lemons, add plenty of ice cubes, and enjoy this refreshing surprise!	Iris lemonnya, tambahkan banyak es batu, lalu nikmati kejutan yang menyegarkan ini!
+=Wok and spatula meet in boiling oil; they just can't bear to be apart.	Wajan dan sutil bertemu dalam minyak mendidih; keduanya tak sanggup berpisah.
+=Strategic ration reserve for the kitchen operations squad! No pinching!	Cadangan ransum strategis untuk regu operasi dapur! Dilarang mencomot!
+
+# --- teks rasa skin & senjata ---
+=Even in a concrete jungle, you must still beware the wildlife.	Bahkan di rimba beton, kau tetap harus waspada pada satwa liarnya.
+=She's just standing there, but she still gives off a sense of danger...	Ia cuma berdiri di situ, tapi tetap saja terasa berbahaya...
+=Or rather, isn't this sort of battle dress the sort of thing you want to see?	Atau justru, bukankah busana tempur semacam ini yang ingin kau lihat?
+=Are you gazing at me, or am I gazing at you?	Kau yang menatapku, atau aku yang menatapmu?
+=H-Hey, quit staring there!	H-Hei, berhenti melihat ke situ!
+=W-wait, so you're the client? In, in that case, I guess I can waive the fee...	T-tunggu, jadi kau kliennya? K-kalau begitu, kurasa biayanya bisa kugratiskan...
+=A shining edge that can't be hidden is like an eternal prison.	Ketajaman berkilau yang tak bisa disembunyikan bagai penjara abadi.
+=Gifts you with flourishing new life.	Menghadiahimu kehidupan baru yang bersemi.
+=Precise movements swiftly break through enemy defenses.	Gerakan yang presisi menembus pertahanan musuh dengan cepat.
+=A precisely-aimed advance robs the foe of its ability to retaliate.	Serbuan yang terarah dengan presisi merampas kemampuan musuh untuk membalas.
+=The dying struggle of the enemy is engraved on the cold marble.	Perlawanan terakhir musuh terukir di marmer yang dingin.
+=As refreshing as the spring wind whistling through the forest.	Sesegar angin musim semi yang bersiul menembus hutan.
+=Burst out the stars and light up the night.	Hamburkan bintang-bintangnya dan terangi malam.
+=Beneath the mask.	Di balik topeng.
+=Oh, they say this color brings good luck, I hope it helps...	Oh, katanya warna ini membawa keberuntungan, semoga saja membantu...
+=No matter what, there'll always be someone using it to do unnecessary things.	Bagaimanapun juga, selalu ada saja yang memakainya untuk hal yang tidak perlu.
+=Picking it up feels like you have the confidence to protect important people.	Mengangkatnya terasa seperti punya keyakinan untuk melindungi orang-orang penting.
+=Ready, aim, fire— It's the same thing you've done to it so many times before.	Siap, bidik, tembak— Persis yang sudah berkali-kali kau lakukan padanya.
+=The Sinbreaker's power trumps any and all empty talk.	Kekuatan Sinbreaker mengalahkan segala omong kosong.
+=Going against the flow in a chaotic world requires courage and determination.	Melawan arus di dunia yang kacau butuh keberanian dan tekad.
+=The rules and order of this era are upheld by it.	Aturan dan ketertiban zaman ini ditegakkan olehnya.
+=Only through careful refinement can form and spirit be perfectly united.	Hanya lewat penyempurnaan yang cermat, wujud dan jiwa bisa menyatu sempurna.
+=The ancient starlight, the eternal vigilance.	Cahaya bintang purba, kewaspadaan yang abadi.
+=Ceiling and visibility unlimited.	Langit-langit dan jarak pandang tanpa batas.
+=Proper previous preparation prevents poor practical performance.	Persiapan yang matang sejak awal mencegah hasil kerja yang payah.
+=It's been used for too long and is now only barely able to fire.	Sudah terlalu lama dipakai dan sekarang nyaris tidak bisa menembak.
+=Give me an access port and I can crack any program.	Beri aku satu port akses dan aku bisa membobol program apa pun.
+=It looks useless, but it improves the wearer's style points.	Kelihatannya tidak berguna, tapi menambah nilai gaya pemakainya.
+=Time for the main character to take the stage!	Saatnya tokoh utama naik panggung!
+=Spirits rise with every toast, inaugurating a joyful verse of celebration.	Semangat naik di tiap dentingan gelas, membuka bait perayaan yang riang.
+=The swaying of the rhythm illustrates a metered, nigh-endless waltz.	Ayunan iramanya melukiskan waltz yang berbirama dan nyaris tak berujung.
+=It's never too late to let your dreams take wing, so come fly the feline skies.	Tak pernah terlambat membiarkan mimpimu terbang, jadi ayo arungi langit para kucing.
+=May each of your moments be sweet and crystallized into undying fairytales.	Semoga tiap momenmu manis dan mengkristal jadi dongeng yang tak lekang.
+=Was this life born from a place of warmth and dampness? No, perhaps everything was just a joke that it played.	Apakah kehidupan ini lahir dari tempat yang hangat dan lembap? Bukan, mungkin semuanya cuma lelucon yang ia mainkan.
+=Enduring perseverance may yet uplift intransigence to immortality.	Ketekunan yang bertahan bisa mengangkat kekerasan hati sampai ke keabadian.
+=The proof of having broken through multiple barriers and delved into the core fo the mystery.	Bukti telah menembus banyak penghalang dan menyelami inti misterinya.
+=A collector whose name is known far and wide, the best benchmark for a prized collection.	Kolektor yang namanya dikenal luas, tolok ukur terbaik untuk sebuah koleksi berharga.
+=The bigger the wind and waves, the more expensive the fish!	Makin besar angin dan ombaknya, makin mahal ikannya!
+=Not shown to players	Tidak ditampilkan ke pemain
+
+# --- teks Covenant & afinitas ---
+=Despite the long years, her heart has never changed.	Meski bertahun-tahun berlalu, hatinya tak pernah berubah.
+=She diligently completes her mission of defending Comrade Commander each day.	Ia menuntaskan misinya menjaga Kamerad Commander dengan tekun tiap hari.
+=Amidst the interplay of light and darkness, she reveals her unspoken feelings to you and you alone.	Di antara permainan terang dan gelap, ia menyingkapkan perasaan tak terucapnya hanya kepadamu.
+=Some things are priceless, belonging only to that special someone in your heart.	Ada hal-hal yang tak ternilai, hanya milik seseorang yang istimewa di hatimu.
+=The quiet clink of handcuffs is the pair's wordless signal.	Denting lirih borgol adalah isyarat tanpa kata di antara mereka berdua.
+=Can you hear it? She hides longing in the depths of her heart, but just who is that longing aimed at?	Kau dengar itu? Ia menyembunyikan kerinduan di lubuk hatinya, tapi kepada siapa kerinduan itu tertuju?
+=Your eyes are her canvas and she'll fill them up, bit by bit.	Matamu adalah kanvasnya, dan ia akan mengisinya sedikit demi sedikit.
+=Her unknown longing builds with each passing day, and her memories of the past become her sole solace.	Kerinduannya yang tak dikenali menumpuk tiap harinya, dan kenangan masa lalu jadi satu-satunya penghiburnya.
+=She's just a little shy and doesn't know how to express her overflowing feelings.	Ia cuma sedikit pemalu dan tidak tahu cara mengungkapkan perasaannya yang meluap.
+=Her infatuation with you made her stop and refuse to cross the finish line.	Rasa cintanya padamu membuatnya berhenti dan menolak melewati garis akhir.
+=Everything in the world has a price, but in her heart, you are invaluable.	Segala hal di dunia punya harga, tapi di hatinya kau tak ternilai.
+=While she's not given to swearing grand oaths, she will silently tighten the screws of happiness for you.	Meski ia bukan tipe yang mengucap sumpah muluk, diam-diam ia akan mengencangkan sekrup kebahagiaan untukmu.
+=The crown she most desires is nothing more than your cherishing gaze.	Mahkota yang paling ia dambakan tak lebih dari tatapan sayangmu.
+=All she longs for is to spend a peaceful afternoon curled up in a secret nook with you.	Yang ia dambakan hanyalah menghabiskan sore yang damai meringkuk di sudut rahasia bersamamu.
+=All the love she can't bring herself to express, injected right into your heart.	Semua cinta yang tak sanggup ia ungkapkan, disuntikkan langsung ke dalam hatimu.
+=Each Wish Voucher is filled with sincere feelings, symbolizing a bond between two hearts that can never be broken.	Tiap Wish Voucher sarat perasaan yang tulus, melambangkan ikatan dua hati yang tak akan pernah putus.
+=She leaves her unique mark on you.	Ia meninggalkan jejak khasnya padamu.
+=In the darkness of the night, those eyes gaze only upon you.	Dalam gelapnya malam, mata itu hanya menatapmu.
+=Until the dawn comes, she will prove in the most dazzling way that this unity condensed from shared time is irreplaceable.	Sampai fajar tiba, ia akan membuktikan dengan cara paling memesona bahwa kesatuan yang mengental dari waktu bersama ini tak tergantikan.
+=She will clear all enemies from your path, not because it's the right thing to do, but because it's what you want her to do.	Ia akan menyingkirkan semua musuh dari jalanmu, bukan karena itu hal yang benar, tapi karena itu yang kau inginkan darinya.
+=Farewell to awkward mystery; in its place is her speaking the words of her covenant to you.	Selamat tinggal misteri yang canggung; sebagai gantinya ia mengucapkan kata-kata perjanjiannya padamu.
+=Unbeknownst to you, you have always been the most important signpost on her way forward.	Tanpa kau sadari, kau selalu jadi penunjuk arah terpenting dalam perjalanannya ke depan.
+=An unusual agreement that is only ratified with people important to you.	Kesepakatan tak biasa yang hanya disahkan bersama orang-orang yang penting bagimu.
+=She remembers every little kindness you did her.	Ia mengingat tiap kebaikan kecil yang kau lakukan untuknya.
+=Her quiet whisper narrates the warmest wishes of her neural cloud.	Bisikan lirihnya menuturkan harapan paling hangat dari neural cloud-nya.
+=In a digital realm of 0s and 1s, the story of love and hope carries on.	Di alam digital berisi 0 dan 1, kisah cinta dan harapan terus berlanjut.
+=No matter where you are, that sense of protection and attachment will always reach you.	Di mana pun kau berada, rasa terlindungi dan keterikatan itu akan selalu sampai padamu.
+=As the clamor fades and the light dies down, what remains in her neural cloud is that person whose form she constantly revisits.	Saat riuhnya mereda dan cahayanya meredup, yang tersisa di neural cloud-nya adalah sosok orang yang terus-menerus ia kunjungi kembali.
+=In the vast starry sky, you're the Polaris guiding her gaze.	Di langit berbintang yang luas, kau adalah Polaris yang menuntun pandangannya.
+=A pure heart, given to my lord.	Hati yang murni, kupersembahkan untuk tuanku.
+=Despite her cool exterior, she will give her all and show her smile to you and you alone.	Meski tampak dingin di luar, ia akan mengerahkan segalanya dan menunjukkan senyumnya hanya padamu.
+=No matter how difficult the skill, she'd learn it just to help you.	Sesulit apa pun keahliannya, ia akan mempelajarinya cuma demi membantumu.
+=Now you can stroke her head and her kitty to your heart's content.	Sekarang kau bisa mengelus kepalanya dan kucingnya sepuasmu.
+=The dishes she makes are filled with her feelings, and only you have the privilege of tasting them.	Masakan yang ia buat sarat dengan perasaannya, dan hanya kau yang berhak mencicipinya.
+=She will follow your trail and never leave, even when winter comes.	Ia akan mengikuti jejakmu dan tak akan pergi, bahkan saat musim dingin tiba.
+=Exquisite dishes arrive on your plate, inviting your eyes and your tastebuds to embark on a marvellous journey.	Hidangan yang elok tersaji di piringmu, mengajak mata dan lidahmu menempuh perjalanan yang menakjubkan.
+=If you want to know who she's working so hard for, just look at the person that she's standing by.	Kalau kau ingin tahu ia bekerja sekeras itu demi siapa, lihat saja orang yang berdiri di sisinya.
+=Sincerity is never giving up.	Ketulusan itu berarti tidak pernah menyerah.
+=Have you sensed the feelings of the maiden's heart hidden behind her toys?	Sudahkah kau merasakan perasaan hati seorang gadis yang tersembunyi di balik mainannya?
+=This radio station will only ever have one host and only one listener.	Stasiun radio ini akan selamanya hanya punya satu penyiar dan satu pendengar.
+=There is nothing to worry about in this moment.	Tak ada yang perlu dikhawatirkan saat ini.
+=The future she paints is dyed in your colors.	Masa depan yang ia lukis diwarnai dengan warnamu.
+=The sweetness is just right, yet it is not enough to carry the deep affection in her smile.	Manisnya pas, tapi tetap tak cukup untuk menampung dalamnya kasih sayang di senyumnya.
+=For best results, she's engaged the most expensive weapon personalization service on the market for you.	Demi hasil terbaik, ia menyewa jasa personalisasi senjata termahal di pasaran untukmu.
+=You must feel quite bored on days without cases, so please accept this challenge.	Kau pasti bosan sekali di hari-hari tanpa kasus, jadi tolong terima tantangan ini.
+=It takes no time at all for bullets to hit the enemy, so just how long will it take Sakura to work her way into your heart?	Peluru butuh waktu sekejap saja untuk mengenai musuh, jadi berapa lama Sakura butuh waktu untuk masuk ke hatimu?
+=Elegant dances are not just for watching; the rhythm contains her wishes which she hopes will reach you.	Tarian yang anggun bukan cuma untuk ditonton; iramanya menyimpan harapannya yang ingin sampai padamu.
+=You're late for a very important date, so try and keep up with it!	Kau terlambat untuk janji yang sangat penting, jadi ayo kejar!
+=Commander~ Want to watch me rehearsing a routine with Building Block Yoohee?	Commander~ Mau lihat aku latihan rutin bareng Building Block Yoohee?
+
+# --- baris suara Doll ---
+="Hehe, is that all?"	"Hehe, cuma segitu?"
+="Take this! Yeeart—"	"Rasakan ini! Yeeat—"
+="Big Sis says we need to salute each other before we fight!"	"Kata Kakak, kita harus saling memberi hormat sebelum bertarung!"
+="Want to spar?"	"Mau tanding?"
+="If only it still had its snowmaking abilities."	"Andai saja ia masih bisa membuat salju."
+="Is this the level of opponent you want me to deal with? Commander."	"Cuma lawan selevel ini yang kau suruh kuhadapi, Commander?"
+="Ready? Let's go for a spin together."	"Siap? Ayo berputar bersama."
+="No matter how many forms I change into, my original appearance is still the coolest, isn't it."	"Sebanyak apa pun wujud yang kuubah, wujud asliku tetap yang paling keren, kan."
+="No matter what happens, I will definitely protect everyone."	"Apa pun yang terjadi, aku pasti akan melindungi semuanya."
+="Our gratitude to the Commande of the Elmo for services rendered to the Great Wall Railway outpost garrison command."	"Terima kasih kami kepada Commande Elmo atas jasanya bagi komando garnisun pos Great Wall Railway."
+="May our friendship grow forever."	"Semoga persahabatan kita tumbuh selamanya."
+="No matter what fate may bring us, we will meet again at the end of the path."	"Apa pun yang takdir bawa untuk kita, kita akan bertemu lagi di ujung jalan."
+
+# --- label & item fungsional ---
+=Dispatch Count	Jumlah Pengiriman
+=No Badge Yet	Belum Ada Badge
+=Shop Recruitment Fast Travel Object Sci-Fi	Objek Perjalanan Cepat Rekrutmen Toko Sci-Fi
+=Nemesis' Standard Combat Gear	Perlengkapan Tempur Standar Nemesis
+=Nemesis' simulation data, only effective in Peak Value Assessment.	Data simulasi Nemesis, hanya berlaku di Peak Value Assessment.
+=A set of Elite T-Doll simulation data—now, feel the power of IOP's technology! Groza·Black Crown's simulation data is only valid for Peak Value Assessment.	Satu set data simulasi T-Doll Elite—sekarang, rasakan kekuatan teknologi IOP! Data simulasi Groza·Black Crown hanya berlaku untuk Peak Value Assessment.
+=Changes the Rec Room Stool's appearance after use.	Mengganti tampilan bangku Rec Room setelah dipakai.
+=Weapon skin based on the Retired RO635.	Weapon skin berdasarkan Retired RO635.
+=A common weapon blueprint, with clean lines outlining the weapon's contours..	Blueprint senjata common, dengan garis bersih yang menegaskan lekuk senjatanya..
+=A rare weapon blueprint, with clean lines outlining the weapon's contours..	Blueprint senjata rare, dengan garis bersih yang menegaskan lekuk senjatanya..
+=An epic weapon blueprint, with clean lines outlining the weapon's contours..	Blueprint senjata epic, dengan garis bersih yang menegaskan lekuk senjatanya..
+=Unlocks the specialty drink of the active bartender upon obtaining.	Membuka minuman spesial bartender yang sedang bertugas begitu didapat.
+=Upon acquisition, unlocks the drink Black Russian, usable at the water bar on the event floor.	Setelah didapat, membuka minuman Black Russian yang bisa dipakai di water bar lantai event.
+=You can choose a green-quality breakthrough material to acquire	Kamu bisa memilih material breakthrough kualitas hijau untuk didapat
+=Supplies are in short supply; collect them with your stamp! It can be used to redeem rewards in Backstage Supply.	Pasokan sedang menipis; kumpulkan dengan stempelmu! Bisa dipakai untuk menukar hadiah di Backstage Supply.
+=Now, it's time for the protagonist to appear! It can be used to participate in the battles in challenge mode and auto battles.	Sekarang saatnya sang tokoh utama muncul! Bisa dipakai untuk ikut pertempuran di challenge mode dan auto battle.
+=After opening it, you will receive a T4 attachment of the specified weapon type.	Setelah dibuka, kamu akan menerima attachment T4 dari jenis senjata yang ditentukan.
+=After opening, you will acquire a T4 rarity attachment from the specified set combinations.	Setelah dibuka, kamu akan mendapat attachment rarity T4 dari kombinasi set yang ditentukan.
+=After opening, you will acquire a T4 rarity attachment from the specified weapon type and set combinations.	Setelah dibuka, kamu akan mendapat attachment rarity T4 dari jenis senjata dan kombinasi set yang ditentukan.
+^Unlocked by reaching Adept V in Combat Exercise Season - ([^.]+)\.$	Terbuka dengan mencapai Adept V di Combat Exercise Season - \1.
+^After purchasing the graffiti, you can change the related furniture in the Central Bedroom Theme: ([^.]+) to the ([^.]+) theme style\.$	Setelah membeli grafitinya, kamu bisa mengubah perabot terkait di Central Bedroom Theme: \1 ke gaya tema \2.
+=A decisive assault that tears through all barriers — A special award from B.R.I.E.F.	Serbuan tegas yang merobek semua penghalang — Penghargaan khusus dari B.R.I.E.F.
+=A burning will that melts away all obstacles — A special award from B.R.I.E.F.	Kehendak membara yang melelehkan semua rintangan — Penghargaan khusus dari B.R.I.E.F.

@@ -1,0 +1,71 @@
+# Deskripsi SKILL — putaran ketiga puluh delapan ekor panjang.
+#
+# Bagian 2 dari lima berkas (70-74). Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "within <color=#f26c1c>within 6 tiles</color>"   ("within" ganda)
+#   "the active skill<color=#3487e0>..."             (kurang spasi sebelum tag)
+#range 0 130000
+
+# --- klausa pembatas ---
+=Can be triggered at most <color=#f26c1c>once</color> per turn.	Bisa aktif maksimal <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can be triggered <color=#f26c1c>once</color> per turn.	Efek ini bisa aktif <color=#f26c1c>sekali</color> setiap giliran.
+=This effect can be triggered <color=#f26c1c>once</color> every turn.	Efek ini bisa aktif <color=#f26c1c>sekali</color> setiap giliran.
+=This can trigger at most <color=#f26c1c>1</color> time per turn.	Ini bisa aktif maksimal <color=#f26c1c>1</color> kali setiap giliran.
+=Can be triggered up to <color=#f26c1c>2 times</color> per turn.	Bisa aktif maksimal <color=#f26c1c>2 kali</color> setiap giliran.
+=These effects cannot stack.	Efek-efek ini tidak bisa menumpuk.
+=A maximum of <color=#f26c1c>1 instance</color> of <color=#3487e0>{0}</color> can exist at one time.	Maksimal <color=#f26c1c>1</color> <color=#3487e0>{0}</color> bisa ada pada satu waktu.
+=<color=#3487e0>{0}</color> is consumed thereafter.	<color=#3487e0>{0}</color> dipakai habis setelahnya.
+=Applies <color=#3487e0>{0}</color>.	Menerapkan <color=#3487e0>{0}</color>.
+=Gains <color=#f26c1c>1 instance</color> of <color=#3487e0>{1}</color>.	Mendapat <color=#f26c1c>1</color> <color=#3487e0>{1}</color>.
+=The City Warden gains <color=#3487e0>{0}</color>.	City Warden mendapatkan <color=#3487e0>{0}</color>.
+=Immune to all control and Command Prohibition effects.	Kebal terhadap semua efek kendali dan Command Prohibition.
+=Prioritizes <color=#f26c1c>physical Dolls</color>.	Mengutamakan <color=#f26c1c>Doll physical</color>.
+=Prioritizes <color=#f26c1c>non-physical Dolls</color>.	Mengutamakan <color=#f26c1c>Doll non-physical</color>.
+=Select the nearest enemy target.	Pilih target musuh terdekat.
+=Select an enemy target within <color=#f26c1c>within 6 tiles</color>.	Pilih target musuh dalam <color=#f26c1c>dalam 6 tile</color>.
+=Marks the farthest enemy target.	Menandai target musuh terjauh.
+=Explosion also triggers upon death.	Ledakannya juga aktif saat mati.
+=This damage is shared evenly among all targets in range.	Damage ini dibagi rata ke semua target dalam jangkauan.
+
+# --- serangan ---
+=Deals AoE Physical damage to all enemy targets within <color=#f26c1c>4 tiles</color> in the selected direction.	Memberikan AoE Physical damage ke semua target musuh <color=#f26c1c>dalam 4 tile</color> ke arah yang dipilih.
+=Selects 1 direction and moves to the farthest tile within <color=#f26c1c>7 tiles</color>, dealing melee <color=#e67129>Burn damage</color> equal to <color=#f26c1c>130%</color> of attack to the first enemy encountered.	Memilih 1 arah lalu bergerak ke tile terjauh <color=#f26c1c>dalam 7 tile</color>, memberikan melee <color=#e67129>Burn damage</color> setara <color=#f26c1c>130%</color> Attack ke musuh pertama yang ditemui.
+=Before attacking an enemy target in <color=#f26c1c>Peripheral Battlefield 1</color> or the Core Battlefield, applies <color=#3487e0>{0}</color> to it for <color=#f26c1c>2 Rounds</color>.	Sebelum menyerang target musuh di <color=#f26c1c>Peripheral Battlefield 1</color> atau Core Battlefield, menerapkan <color=#3487e0>{0}</color> kepadanya selama <color=#f26c1c>2 ronde</color>.
+=At the start of the turn, applies <color=#3487e0>{0}</color> to all enemy units.	Di awal giliran, menerapkan <color=#3487e0>{0}</color> ke semua unit musuh.
+=When taking targeted damage, if the attacker has movement debuffs, applies <color=#3487e0>{0}</color> to them for <color=#f26c1c>1 turn</color> before damage is dealt.	Saat menerima targeted damage, jika penyerangnya memiliki debuff pergerakan, menerapkan <color=#3487e0>{0}</color> kepada mereka selama <color=#f26c1c>1 giliran</color> sebelum damage-nya masuk.
+=When attacking enemy units with more than <color=#f26c1c>2</color> debuffs, applies <color=#3487e0>{0}</color> to them.	Saat menyerang unit musuh yang memiliki lebih dari <color=#f26c1c>2</color> debuff, menerapkan <color=#3487e0>{0}</color> kepada mereka.
+=After all enemy units on the Peripheral Battlefield die, applies <color=#3487e0>{3}</color> to the allied unit with the highest ATK on the Core Battlefield.	Setelah semua unit musuh di Peripheral Battlefield mati, menerapkan <color=#3487e0>{3}</color> ke unit sekutu dengan ATK tertinggi di Core Battlefield.
+
+# --- stat ---
+=After attacking, the damage multiplier for the next use of this skill increases by <color=#f26c1c>50%</color>, up to a maximum of <color=#f26c1c>100%</color>.	Setelah menyerang, damage multiplier untuk pemakaian skill ini berikutnya meningkat sebesar <color=#f26c1c>50%</color>, maksimal <color=#f26c1c>100%</color>.
+=For each enemy hit, increases damage dealt by an additional <color=#f26c1c>10%</color>, up to a maximum of <color=#f26c1c>50%</color>.	Untuk setiap musuh yang terkena, damage yang diberikan bertambah sebesar <color=#f26c1c>10%</color>, maksimal <color=#f26c1c>50%</color>.
+=If a Boss is hit, this increase will be immediately raised to the maximum value of <color=#f26c1c>50%</color>.	Jika Boss yang terkena, kenaikan ini langsung dinaikkan ke nilai maksimum <color=#f26c1c>50%</color>.
+=The damage multiplier increases based on the number of <color=#3487e0>{1}</color> stacks.	Damage multiplier meningkat berdasarkan jumlah stack <color=#3487e0>{1}</color>.
+=For every <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color> possessed, the damage multiplier increases by <color=#f26c1c>10%</color>.	Untuk setiap <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color> yang dimiliki, damage multiplier meningkat sebesar <color=#f26c1c>10%</color>.
+=If the target has <color=#3487e0>Overheat Combustion</color>, damage dealt by targeted Support Attacks increases by <color=#f26c1c>5%</color>.	Jika target memiliki <color=#3487e0>Overheat Combustion</color>, damage dari targeted Support Attack meningkat sebesar <color=#f26c1c>5%</color>.
+=Damage dealt to URNC mechanical units increases by <color=#f26c1c>100%</color>.	Damage ke unit mekanis URNC meningkat sebesar <color=#f26c1c>100%</color>.
+=Damage dealt to enemy units on the Core Battlefield increases; after all enemy units on the Peripheral Battlefield die, the damage dealt increases.	Damage ke unit musuh di Core Battlefield meningkat; setelah semua unit musuh di Peripheral Battlefield mati, damage yang diberikan meningkat.
+=After receiving healing, the damage dealt by the user's next attack is increased by <color=#f26c1c>5%</color>.	Setelah menerima healing, damage serangan pengguna berikutnya meningkat sebesar <color=#f26c1c>5%</color>.
+=After receiving healing, the damage dealt by the user's next active skill is increased by <color=#f26c1c>5%</color>.	Setelah menerima healing, damage skill aktif pengguna berikutnya meningkat sebesar <color=#f26c1c>5%</color>.
+=After healing, applies <color=#3487e0>{0}</color>.	Setelah menyembuhkan, menerapkan <color=#3487e0>{0}</color>.
+=When in Stability Break, gains <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color>.	Saat sedang Stability Break, mendapatkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color>.
+=During Stability Break, this unit is unable to receive stability restoration effects.	Selama Stability Break, unit ini tidak bisa menerima efek pemulihan Stability.
+=Restores stability to full <color=#f26c1c>2 turns</color> after entering Stability Break and cleanses <color=#3487e0>{0}</color>.	Memulihkan Stability sampai penuh <color=#f26c1c>2 giliran</color> setelah memasuki Stability Break lalu membersihkan <color=#3487e0>{0}</color>.
+=If it hits <color=#f26c1c>2</color> or more targets, gain <color=#3487e0>{0}</color>.	Jika mengenai <color=#f26c1c>2</color> target atau lebih, mendapatkan <color=#3487e0>{0}</color>.
+=Gain <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color> and <color=#3487e0>{2}</color> <color=#f26c1c>once</color>.	Mendapat <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color> dan <color=#3487e0>{2}</color> <color=#f26c1c>sekali</color>.
+=Fills Confectance Index to maximum at the start of the battle.	Mengisi Confectance Index sampai penuh di awal pertempuran.
+=In addition, apply <color=#3487e0>{0}</color> to all ally Dolls <color=#f26c1c>within 8 tiles</color> (not including herself).	Selain itu, menerapkan <color=#3487e0>{0}</color> ke semua Doll sekutu <color=#f26c1c>dalam 8 tile</color> (tidak termasuk dirinya sendiri).
+=In addition, apply <color=#f26c1c>1</color> random buff to an ally unit.	Selain itu, menerapkan <color=#f26c1c>1</color> buff acak ke satu unit sekutu.
+
+# --- spesifik karakter ---
+=After this skill, Welrod can use the basic attack <color=#3487e0>Hushed Erasure</color>, the active skill<color=#3487e0>Joint Investigation</color> or the active skill<color=#3487e0>Subjective Sanction</color>.	Setelah skill ini, Welrod bisa memakai basic attack <color=#3487e0>Hushed Erasure</color>, skill aktif<color=#3487e0>Joint Investigation</color> atau skill aktif<color=#3487e0>Subjective Sanction</color>.
+=After skill usage, Basti can use the active skill <color=#3487e0>Landmine Girl</color>, the active skill <color=#3487e0>Bad Influence</color>, or the Ultimate skill <color=#3487e0>Candy-Coated Carnage</color>.	Setelah skill dipakai, Basti bisa memakai skill aktif <color=#3487e0>Landmine Girl</color>, skill aktif <color=#3487e0>Bad Influence</color>, atau skill Ultimate <color=#3487e0>Candy-Coated Carnage</color>.
+=After the attack, Yoohee gains 1 use of the active skill <color=#3487e0>Graceful Pirouette</color> or the active skill <color=#3487e0>Passionate Resonance</color>.	Setelah serangan itu, Yoohee mendapatkan 1 pemakaian skill aktif <color=#3487e0>Graceful Pirouette</color> atau skill aktif <color=#3487e0>Passionate Resonance</color>.
+=After this skill, Soppo performs the basic attack<color=#3487e0>Hunting Fang</color> on the nearest enemy target <color=#f26c1c>within 8 tiles</color>.	Setelah skill ini, Soppo melancarkan basic attack<color=#3487e0>Hunting Fang</color> ke target musuh terdekat <color=#f26c1c>dalam 8 tile</color>.
+=When Lind holds <color=#f26c1c>5 or more</color> stacks of <color=#3487e0>{1}</color>, before attacking enemy targets with <color=#3487e0>{0}</color>, triggers the effects of <color=#3487e0>{0}</color>.	Saat Lind memiliki <color=#f26c1c>5 stack atau lebih</color> <color=#3487e0>{1}</color>, sebelum menyerang target musuh yang memiliki <color=#3487e0>{0}</color>, memicu efek <color=#3487e0>{0}</color>.
+=After making an active attack, Lainie cannot perform any more active attacks during this allied turn.	Setelah melancarkan serangan aktif, Lainie tidak bisa melancarkan serangan aktif lagi pada giliran sekutu ini.
+=At the start of battle, Liushih summons <color=#3487e0>{0}</color> by her side.	Di awal pertempuran, Liushih memanggil <color=#3487e0>{0}</color> di sisinya.
+=At the start of the battle, Zhaohui summons 1 <color=#3487e0>Imperturbable Arrow</color> on a surrounding tile.	Di awal pertempuran, Zhaohui memanggil 1 <color=#3487e0>Imperturbable Arrow</color> di tile sekitarnya.
+=After using a skill to attack, she generates <color=#3487e0>{1}</color> within the area.	Setelah memakai skill untuk menyerang, dia menghasilkan <color=#3487e0>{1}</color> di area itu.
+=This skill cannot be used if the City Warden is undergoing <color=#3487e0>{0}</color>.	Skill ini tidak bisa dipakai jika City Warden sedang mengalami <color=#3487e0>{0}</color>.

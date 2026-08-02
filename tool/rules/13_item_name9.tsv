@@ -1,0 +1,70 @@
+# Nama item — penambalan pola komponen + keluarga terakhir.
+#
+# DUA CELAH yang ditemukan setelah 06_item_name2.tsv dipasang:
+#
+#   1. Ada huruf Yunani KEEMPAT: "Precise Grade Large Output Component Δ".
+#      Kelas karakter [αβγ] di berkas 06 hanya menampung tiga, jadi seluruh
+#      tingkat Δ lolos diam-diam. Di sini dipakai [αβγΔδ] agar delta besar
+#      maupun kecil tertangkap.
+#   2. Ada varian TANPA akhiran huruf sama sekali:
+#      "Precise Grade Small Precision Component". Pola di berkas 06 mewajibkan
+#      satu huruf Yunani, jadi baris ini pun lolos.
+#
+# Aturan di bawah dijalankan SETELAH berkas 06 (nomor lebih besar), jadi baris
+# yang sudah tertangkap di sana tidak sampai ke sini — tidak ada tumpang tindih.
+#range 0 130000
+
+# --- komponen: huruf Yunani keempat ---
+^(Civilian|Industrial|Precise|Military) Grade (Small|Medium|Large) (Precision|Output|Endurance|Tactical|Coverage|Response) Component ([αβγΔδ])$	Komponen \3 \2 Kelas \1 \4
+# --- komponen: tanpa akhiran huruf ---
+^(Civilian|Industrial|Precise|Military) Grade (Small|Medium|Large) (Precision|Output|Endurance|Tactical|Coverage|Response) Component$	Komponen \3 \2 Kelas \1
+^(Civilian|Industrial|Precise|Military) Grade Base Component Random Box$	Kotak Acak Komponen Dasar Kelas \1
+
+# --- kotak attachment sisa ---
+^T(\d) Attachment Supply Box$	Kotak Pasokan Attachment T\1
+^T(\d) Attachment Box$	Kotak Attachment T\1
+^T(\d) Attachment Box (V|VI|VII)$	Kotak Attachment T\1 \2
+^T(\d) Custom Weapon Type Attachment Box$	Kotak Attachment Tipe Senjata Kustom T\1
+^T(\d) Custom Kit Attachment Box$	Kotak Attachment Perangkat Kustom T\1
+^T(\d) Highly Customized Attachment Box$	Kotak Attachment Kustomisasi Tinggi T\1
+^Emergency Repair T(\d) Attachment Box$	Kotak Attachment Perbaikan Darurat T\1
+^Emergency Repair (Civilian|Industrial|Precise|Military) Grade Attachment Box$	Kotak Attachment Perbaikan Darurat Kelas \1
+^Phase Strike T(\d) Attachment Box$	Kotak Attachment Phase Strike T\1
+
+# --- kunci senjata per peran ---
+^(Induction|Bearing|Suppression|Support) Weapon Key$	Kunci Senjata \1
+
+# --- perabot & dekorasi ---
+^Big Plant - (.+)$	Tanaman Besar - \1
+^Succulent Plant Pot$	Pot Tanaman Sukulen
+^Curio Color Scheme - (.+)$	Skema Warna Barang Antik - \1
+^Light Effect - (.+)$	Efek Cahaya - \1
+
+# --- penggerak taktis ---
+^Tactical Drive - (.+)$	Penggerak Taktis - \1
+^Regenerative Drive$	Penggerak Regeneratif
+^Data Drive$	Penggerak Data
+
+# --- baterai & daya bertingkat ---
+^(Standard|Elite|Basic) Lightweight Battery Pack$	Paket Baterai Ringan \1
+^(Standard|Elite|Basic) Fuel Power Box$	Kotak Daya Bahan Bakar \1
+
+# --- kotak hadiah & pasokan sisa ---
+^Reminiscing the Past Gift Box$	Kotak Hadiah Mengenang Masa Lalu
+^Entrustment from the Past Gift Box$	Kotak Hadiah Amanat dari Masa Lalu
+^Longing of the Past Gift Box$	Kotak Hadiah Kerinduan Masa Lalu
+^Engraved Lessons from the Past Gift Box$	Kotak Hadiah Pelajaran Terukir dari Masa Lalu
+^Daily Free Gift Pack$	Paket Hadiah Gratis Harian
+^Returnee Supply Gift Box$	Kotak Hadiah Pasokan Pemain Kembali
+^Weekly Supply Crate$	Peti Pasokan Mingguan
+^Skills Custom Gift Box$	Kotak Hadiah Kustom Skill
+^Gold-Blue Gift Box$	Kotak Hadiah Emas-Biru
+
+# --- izin & poin sisa ---
+^Delve Permit$	Izin Penelusuran
+^Restricted Zone Access Permit$	Izin Akses Zona Terbatas
+^Compile Point$	Poin Kompilasi
+^Smart Auth Token$	Token Otorisasi Pintar
+^Sangvis Ferri Badge$	Lencana Sangvis Ferri
+^No Badge$	Tanpa Lencana
+^Fireworks Voucher$	Voucher Kembang Api

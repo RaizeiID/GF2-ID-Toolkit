@@ -1,0 +1,74 @@
+# Teks rasa skill (BattleSkillDisplayData field 6) — bagian 1.
+#
+# Ini satu-satunya kategori yang tadinya 0%. Isinya kalimat bergaya sastra:
+# semboyan, celetuk karakter, kalimat puitis. Berbeda dari deskripsi mekanik,
+# di sini terjemahannya BOLEH luwes — yang penting nada dan kesannya sama,
+# bukan struktur kalimatnya.
+#
+# Dipasang lewat glossary (cocok seluruh string), bukan segments, supaya tidak
+# ada risiko terpotong oleh pemisah kalimat.
+#
+# Nama diri tetap Inggris: Mo, Sharkry, Cheeta, Sabrina, Peritya, Zucchero,
+# Tin Soldier Army, Doll.
+#range 0 130000
+
+"Stay away from me, I'm tired and mad and I'm fixing to blow somebody sky high! Hahahaha! Actually, I feel much better now."	"Menjauh dariku, aku capek, aku kesal, dan aku siap meledakkan seseorang sampai ke langit! Hahahaha! Eh, sebenarnya sekarang aku sudah jauh lebih enak."
+Fire grenades swiftly to resolve the battle quickly.	Lontarkan granat secepatnya supaya pertempuran cepat selesai.
+Even weak firepower can lead enemies to their demise.	Daya tembak yang lemah pun bisa menggiring musuh ke ajalnya.
+Don't try to debate with these three drunks, especially when these drunks are busy loading their RPGs.	Jangan coba berdebat dengan tiga pemabuk ini, apalagi kalau para pemabuk itu sedang sibuk mengisi RPG.
+The source of all fear is insufficient firepower... Hm? Haven't I heard that somewhere before?	Sumber segala ketakutan adalah daya tembak yang kurang... Hm? Rasanya aku pernah dengar itu di suatu tempat.
+"We'll cover our investment with one, we'll make a profit with two, and with three... hehe, we'll be rich!"	"Satu untuk balik modal, dua untuk untung, dan dengan tiga... hehe, kita kaya!"
+Mo thinks these enemies are crappy toys that aren't built to last, so Mo has decided to use a bit of strength to fix everyone up.	Mo pikir musuh-musuh ini cuma mainan jelek yang tidak dibuat untuk awet, jadi Mo memutuskan pakai sedikit tenaga untuk membereskan mereka semua.
+Like a curse, but also like a blessing.	Bagai kutukan, tapi juga bagai berkah.
+Never drop your guard against a marked target.	Jangan pernah lengah terhadap target yang sudah ditandai.
+Fists like the wind, lightning in my step!	Tinju secepat angin, petir di setiap langkah!
+Proper previous preparation prevents poor procedure performance.	Persiapan yang pas sejak awal mencegah pelaksanaan yang payah.
+A righteous Doll firmly believes that no sin can be hidden, and that villains will reap what they sow.	Doll yang lurus hati yakin betul tidak ada dosa yang bisa disembunyikan, dan penjahat akan menuai apa yang ditanamnya.
+The bear of justice is never late; it's just waiting for the perfect moment to strike.	Beruang keadilan tidak pernah terlambat; dia cuma menunggu saat yang paling tepat untuk menyerang.
+Pain comes hand in hand with pleasure, and the boundary between the real and the surreal can become hard to discern.	Sakit datang bergandengan dengan nikmat, dan batas antara yang nyata dan yang bukan jadi sulit dibedakan.
+This is the price paid... for that irretrievable past.	Inilah harga yang dibayar... untuk masa lalu yang tak bisa ditarik kembali.
+A fusion of weight and grace. A thunderous song of battle.	Perpaduan antara bobot dan keanggunan. Nyanyian perang yang menggelegar.
+I pass on my knowledge and will to you.	Kuwariskan ilmu dan kehendakku kepadamu.
+The silent calculation explodes forth in this moment.	Perhitungan yang senyap meledak tepat di saat ini.
+She gives her enemies bullets and serves her friends coffee.	Musuhnya diberi peluru, kawannya disuguhi kopi.
+Aim for the vital point, striving to conquer the enemy with a single move.	Bidik titik vitalnya, berusaha menaklukkan musuh dalam satu gerakan.
+A coward in your sight is better gone.	Pengecut yang ada di depan matamu lebih baik lenyap saja.
+The Tin Soldier Army will always protect children's smiles!	Tin Soldier Army akan selalu menjaga senyum anak-anak!
+The soothing balm that eases anxiety is also a narcotic that snares the soul.	Balsam penenang yang meredakan cemas juga narkotika yang menjerat jiwa.
+Warm-up’s over. The enemy shall shatter under my blade.	Pemanasan selesai. Musuh akan hancur di bawah bilahku.
+I won't let any of my comrades fall again.	Aku tidak akan membiarkan seorang pun rekanku tumbang lagi.
+Careful there, don’t get burnt by Sharkry’s intense passion.	Hati-hati, jangan sampai terbakar oleh gairah membara Sharkry.
+Clear the table to show the utmost respect for the meal.	Habiskan isi meja sebagai bentuk hormat tertinggi pada santapan.
+Don't be fooled, this isn't just playtime~	Jangan tertipu, ini bukan sekadar main-main~
+Attention! Look up! Cheeta's special fireworks show is about to begin!	Perhatian! Tengadah! Pertunjukan kembang api spesial Cheeta segera dimulai!
+Dedicated idols who pour their hearts into every performance.	Idol yang berdedikasi, mencurahkan segenap hati di tiap penampilan.
+Moments of gratitude in daily life transform into the power to protect companions here and now.	Rasa syukur dalam keseharian berubah menjadi kekuatan untuk melindungi kawan, di sini dan sekarang.
+Enemy coordinates confirmed, all hostiles will be erased.	Koordinat musuh terkonfirmasi, seluruh lawan akan dihapus.
+A coordinated offense and precise targeting.	Serangan yang terkoordinasi dan pembidikan yang jitu.
+Even a faint flame can light the way for allies and lead enemies to their demise.	Nyala api yang redup pun bisa menerangi jalan kawan sekaligus menggiring musuh ke ajalnya.
+Banish everything, reject everything.	Enyahkan segalanya, tolak segalanya.
+Time to bring the madness of dreams to life!	Saatnya menghidupkan kegilaan dari alam mimpi!
+An exceptional leader provides perfect cover for every action of their teammates.	Pemimpin yang unggul memberi perlindungan sempurna untuk tiap gerak rekan setimnya.
+Sinners ought to repent.	Para pendosa sepatutnya bertobat.
+Someday, the Zucchero will become a shelter from the storm for all our friends.	Suatu hari nanti, Zucchero akan jadi tempat berteduh dari badai bagi semua kawan kita.
+Peritya takes great interest in capturing the discomfiture of her enemies.	Peritya sangat menikmati momen saat musuhnya salah tingkah.
+Sleep well, sleep long. From dusk till high noon, and you'll be reborn.	Tidurlah nyenyak, tidurlah lama. Dari senja sampai tengah hari, dan kau akan terlahir kembali.
+I'm not biting you, just sharpening my teeth.	Aku bukan menggigitmu, cuma mengasah gigi.
+Make strategic use of every resource to gain the advantage on the battlefield.	Manfaatkan tiap sumber daya secara strategis untuk merebut keunggulan di medan tempur.
+The bared blade quells all the land.	Bilah yang terhunus menundukkan seluruh negeri.
+A cold glint in the mist turns to a deadly slash.	Kilau dingin di balik kabut berubah menjadi tebasan mematikan.
+Sabrina is never stingy with ingredients. The same goes for ammunition!	Sabrina tidak pernah pelit bahan masakan. Begitu juga soal amunisi!
+Aim for the battlefield’s weakest point to secure victory.	Bidik titik terlemah medan tempur untuk memastikan kemenangan.
+A classic signature cocktail is key to keeping customers coming back.	Koktail andalan yang klasik adalah kunci supaya pelanggan terus datang lagi.
+The past, the future, the resonance of destiny, I hear it all.	Masa lalu, masa depan, gema takdir — semuanya kudengar.
+No need to worry, the enemy will soon crumble.	Tak perlu khawatir, musuh akan segera runtuh.
+Why not take this chance to play one more melody?	Kenapa tidak pakai kesempatan ini untuk memainkan satu melodi lagi?
+Even the sweetest pinecones have a hard exterior.	Bahkan buah pinus yang paling manis pun bercangkang keras.
+Paving the way for your partners in silence.	Membuka jalan bagi rekan-rekanmu dalam diam.
+The blade bursts forth with searing heat.	Bilahnya meledak dengan panas yang membakar.
+For honor, I shall take not one step back!	Demi kehormatan, aku takkan mundur selangkah pun!
+Let me have my dreams. Everything I wish for is right in there.	Biarkan aku bermimpi. Semua yang kuinginkan ada di dalam sana.
+Become captivated by Sharkry's rising melody!	Terpikatlah oleh melodi Sharkry yang meninggi!
+An explosion from two hundred and fifty million light-years away arrives now.	Ledakan dari jarak dua ratus lima puluh juta tahun cahaya tiba sekarang.
+Understanding how to deliver a lethal blow and excelling at remaining hidden demonstrates professionalism.	Paham cara melancarkan pukulan mematikan sekaligus piawai bersembunyi — itulah tanda profesional.
+As a leader, I must never fall behind other Dolls.	Sebagai pemimpin, aku tidak boleh tertinggal dari Doll lain.

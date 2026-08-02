@@ -1,0 +1,340 @@
+# Batch 5 — UI lobby: menu utama, panel Doll, kafe/toko, pesan sistem (Tier 1).
+# Tetap Inggris (sengaja): nama karakter & musuh (Armor Convict - COR Type I, dst),
+#   nama event/paket/outfit (ElmoMart, Gilded Banquet, Daybreak Twin Pack, Ad Astra,
+#   Glittering Starwish, Outfit - ...), nama lokasi dalam dunia (Safehouse, Dark Zone,
+#   Trading Post, Crew Deck, Zucchero Cafe), judul game, dan istilah mekanik yang lazim
+#   dipakai gamer Indonesia (Buff, Debuff, Damage, HP, Level, Skill, Boss, Auto, Filter,
+#   Preset, Status, Stability, Ultimate, Skin, Outfit, Attachment, Passive, Active).
+# Placeholder {0} {1} dan tag <color=...> disalin apa adanya.
+#range 0 125000
+
+# --- navigasi & panel utama ---
+Main Page	Halaman Utama
+My Command	Komandoku
+Command	Komando
+Commissions	Komisi
+Mission	Misi
+Campaign	Kampanye
+Exchange	Tukar
+Search	Cari
+Access	Akses
+Collection	Koleksi
+Curios	Barang Antik
+Ornaments	Ornamen
+Wardrobe	Lemari Pakaian
+Dormitory	Asrama
+Storeroom	Gudang
+Ops Room	Ruang Operasi
+Repair Station	Stasiun Perbaikan
+Charging Station	Stasiun Pengisian Daya
+Reactivation Station	Stasiun Reaktivasi
+Integrated Service Station	Stasiun Layanan Terpadu
+Reactivate Service Station	Aktifkan Ulang Stasiun Layanan
+Weapon Gallery	Galeri Senjata
+Crafting List	Daftar Kerajinan
+Purchase List	Daftar Pembelian
+Beginner's Guide	Panduan Pemula
+Overall Explanation	Penjelasan Menyeluruh
+Brief Description	Deskripsi Singkat
+Unlock Conditions	Syarat Membuka
+Victory Conditions	Syarat Kemenangan
+Fail Conditions	Syarat Kegagalan
+Victory Target	Target Kemenangan
+Appraisal Objectives	Objektif Penilaian
+Requirement	Syarat
+Milestone	Tonggak
+Permanent	Permanen
+Daily Login	Login Harian
+Auto Reward	Hadiah Otomatis
+Normal Mode	Mode Normal
+Rest Time	Waktu Istirahat
+Birthday	Ulang Tahun
+Feedback Wall	Dinding Masukan
+Opinion Box	Kotak Saran
+Lost Items	Barang Hilang
+Repair Kit	Perlengkapan Perbaikan
+Protection	Perlindungan
+Heavy Ammo	Amunisi Berat
+Ammo Refill	Isi Ulang Amunisi
+Ammo Refill EX	Isi Ulang Amunisi EX
+Fast Travel	Perjalanan Cepat
+Emergency Exit	Pintu Keluar Darurat
+Excavation	Penggalian
+Recovery	Pemulihan
+HP Recovery	Pemulihan HP
+Clean Up	Bersihkan
+Environment Cleanup	Pembersihan Lingkungan
+Resource Widget	Widget Sumber Daya
+Computational Widget	Widget Komputasi
+Overclock Functions	Fungsi Overclock
+Fire Control Presets	Preset Kendali Tembak
+Weapon Effectiveness	Efektivitas Senjata
+Weapon Blueprint	Cetak Biru Senjata
+Change Outfit	Ganti Outfit
+Change Doll	Ganti Doll
+Preset Doll	Doll Preset
+Last Doll	Doll Terakhir
+Doll Trial	Uji Coba Doll
+Squad Status	Status Regu
+Status Information	Informasi Status
+Enemy Details	Detail Musuh
+Raw Material Details	Detail Bahan Baku
+Required Ingredients	Bahan yang Dibutuhkan
+Passive Skills	Skill Pasif
+Debuff Effects	Efek Debuff
+Attachment Calibration	Kalibrasi Attachment
+Adjustment Boost	Boost Penyesuaian
+Sync Permission	Izin Sinkronisasi
+Search Permissions	Izin Pencarian
+Exclusive Access	Akses Eksklusif
+Challenge Access	Akses Tantangan
+Command Illustration	Ilustrasi Komando
+Path Point	Titik Jalur
+Relay Point	Titik Relai
+Target Point	Titik Sasaran
+Transfer Points	Titik Pindah
+Cipher Points	Cipher Point
+Bounty Reward	Hadiah Bounty
+Draw Results	Hasil Undian
+Memory Puzzle	Teka-teki Ingatan
+Dispatch Buff	Buff Pengiriman
+Dispatch Production	Produksi Pengiriman
+Loop Assistant	Asisten Loop
+Platoon Leader	Pemimpin Platoon
+Additional Aid	Bantuan Tambahan
+Journey Witness	Saksi Perjalanan
+Preparation Missions	Misi Persiapan
+Boundary Push Mission	Misi Boundary Push
+Expansion Drill	Latihan Ekspansi
+Performance Rehearsal	Gladi Pertunjukan
+Test Personnel	Personel Uji
+Self-Provided	Milik Sendiri
+Unoccupied	Kosong
+Not Available	Tidak Tersedia
+Currently unavailable	Saat ini tidak tersedia
+Out of Stock	Stok Habis
+Standard not met	Standar belum terpenuhi
+Insufficient HP	HP tidak cukup
+Insufficient Sardis Gold	Sardis Gold tidak cukup
+Move	Gerak
+Terrain	Medan
+Alert	Siaga
+Listen	Dengarkan
+Repair	Perbaiki
+Destroy	Hancurkan
+Discard	Buang
+Evacuate	Evakuasi
+Append	Tambahkan
+Preparing	Menyiapkan
+Execute	Jalankan
+Connect	Sambungkan
+Switch On	Nyalakan
+Can Open	Bisa Dibuka
+Hack	Retas
+Edit	Ubah
+Dodge	Elak
+Stealth	Siluman
+Barricade	Barikade
+Poison Cloud	Awan Racun
+Mystery Box	Kotak Misteri
+Surprise Backpack	Ransel Kejutan
+Standard Supplies	Pasokan Standar
+Standard Supply Box	Kotak Pasokan Standar
+Special Supplies	Pasokan Khusus
+Frontline Supply	Pasokan Garis Depan
+Possible drops	Kemungkinan drop
+Number of uses	Jumlah pemakaian
+Bonus Remaining	Sisa Bonus
+Move Range {0}	Jangkauan Gerak {0}
+Turn {0}	Giliran {0}
+Team 1	Regu 1
+Team 2	Regu 2
+Team 01	Regu 01
+Team 02	Regu 02
+Opens in {0}	Buka dalam {0}
+Ends In {0}	Berakhir dalam {0}
+Owned: {0}	Dimiliki: {0}
+Occupied: {0}	Ditempati: {0}
+{0} Remains	Sisa {0}
+{0} Hours	{0} Jam
+{0}% Completed	{0}% Selesai
+Top {0}%	{0}% Teratas
+Deployed Dolls:	Doll yang Diterjunkan:
+End Time:	Waktu Berakhir:
+Preparation Time:	Waktu Persiapan:
+Combat Effectiveness:	Efektivitas Tempur:
+Open From: {0} - {1}	Buka dari: {0} - {1}
+{0}-{1} Unlocked	{0}-{1} Terbuka
+
+# --- pertempuran & komando ---
+End Action	Akhiri Aksi
+Turn starts	Giliran dimulai
+Battle Begins	Pertempuran Dimulai
+Allied Turn Begins	Giliran Sekutu Dimulai
+Allies go first	Sekutu bergerak lebih dulu
+Selecting Target	Memilih Sasaran
+Target Lock	Kunci Sasaran
+Boss Fight	Pertarungan Boss
+Boss Battle	Pertempuran Boss
+Outpost Battle	Pertempuran Pos
+Decisive Battle	Pertempuran Penentu
+Decisive Moment	Momen Penentu
+Chase Team	Regu Pengejar
+The chase begins	Pengejaran dimulai
+Stop Reinforcements	Hentikan Bala Bantuan
+Continue Defense	Lanjutkan Pertahanan
+Defense Start	Pertahanan Dimulai
+Stability Defense	Pertahanan Stability
+Preemptive Strike	Serangan Pendahulu
+Fixed Damage	Damage Tetap
+Attack Boost	Boost Attack
+Defense Boost	Boost Pertahanan
+Healing Boost	Boost Penyembuhan
+Physical Boost	Boost Physical
+Burn Boost	Boost Burn
+Hydro Boost	Boost Hydro
+Freeze Boost	Boost Freeze
+Electric Boost	Boost Electric
+Corrosion Boost	Boost Corrosion
+Buff Increment	Kenaikan Buff
+Critical Damage Increased	Critical Damage Meningkat
+Enemy Eliminated	Musuh Dilumpuhkan
+Player Eliminated	Pemain Dilumpuhkan
+Enemy buffs cleansed	Buff musuh dibersihkan
+Allied debuffs cleansed	Debuff sekutu dibersihkan
+Unable to deploy	Tidak bisa diterjunkan
+Please deploy a Doll	Silakan terjunkan satu Doll
+Please select at least one Doll	Pilih setidaknya satu Doll
+Current Recommended Dolls	Doll yang Disarankan Saat Ini
+Recommended Move Location	Lokasi Gerak yang Disarankan
+Recommended Interaction Location	Lokasi Interaksi yang Disarankan
+Ally and enemy location	Lokasi sekutu dan musuh
+Path point capture status	Status penguasaan titik jalur
+Occupation successful	Penguasaan berhasil
+Destruction successful	Penghancuran berhasil
+Transporter Escort Completed	Pengawalan Pengangkut Selesai
+Eliminate the enemy boss	Habisi boss musuh
+All targets accomplished	Semua target tercapai
+Choose up to {0} targets	Pilih maksimal {0} sasaran
+Attacked by {0}! HP -{1}%	Diserang {0}! HP -{1}%
+All doll HP +{0}%	HP semua Doll +{0}%
+All Dolls' HP is full	HP semua Doll penuh
+All Dolls' stability +{0}	Stability semua Doll +{0}
+All doll stability is full	Stability semua Doll penuh
+stability index + {0}	indeks stability + {0}
+Attack increased by 10%	Attack meningkat 10%
+Attack increased by 20%	Attack meningkat 20%
+Attack increased by 30%	Attack meningkat 30%
+Attack increased by 40%	Attack meningkat 40%
+Attack increased by 50%	Attack meningkat 50%
+Max HP increased by 10%	Max HP meningkat 10%
+Max HP increased by 20%	Max HP meningkat 20%
+Max HP increased by 30%	Max HP meningkat 30%
+Max HP increased by 40%	Max HP meningkat 40%
+Max HP increased by 50%	Max HP meningkat 50%
+No commands	Tidak ada komando
+Commands are full	Komando sudah penuh
+Commands Obtained	Komando Didapat
+Replace Command	Ganti Komando
+Destroy Command	Hancurkan Komando
+Keep at least one Command	Sisakan setidaknya satu Komando
+List of Commands to destroy	Daftar Komando yang akan dihancurkan
+No Commands To Intercept	Tidak ada komando untuk dicegat
+Orders of others	Pesanan orang lain
+All supplies lost	Semua pasokan hilang
+Collect Intel Chest	Ambil Peti Intel
+Begin Exploration	Mulai Penjelajahan
+Choosing direction	Memilih arah
+Current mission	Misi saat ini
+
+# --- kafe & toko ---
+Coffee	Kopi
+Drinks Menu	Menu Minuman
+Place Order	Pesan
+No orders yet	Belum ada pesanan
+Sale Price	Harga Jual
+Total Sales	Total Penjualan
+Total Sales +{0}	Total Penjualan +{0}
+Customer(s)	Pelanggan
+Customer(s) +{0}	Pelanggan +{0}
+Shop Rating	Rating Toko
+Shop rating improved	Rating toko meningkat
+Restricted by store rating	Dibatasi rating toko
+Has achieved the highest rating	Sudah mencapai rating tertinggi
+Shop Popularity	Popularitas Toko
+No sales data	Tidak ada data penjualan
+{0} Sales Ranking	Peringkat Penjualan {0}
+Grand Opening	Pembukaan Besar
+Café Opening Time:	Waktu Buka Kafe:
+Open 24/7	Buka 24 Jam
+Current Trending	Sedang Tren
+Recommended For You	Direkomendasikan untukmu
+No recommendations	Tidak ada rekomendasi
+Merch Exchange	Tukar Merch
+Click on Merch	Klik Merch
+Click on Feedback Wall	Klik Dinding Masukan
+Click on the weapon	Klik senjatanya
+Opinion Box is full	Kotak Saran penuh
+Consolidating opinions	Merangkum masukan
+Highly Rated Note	Catatan Berperingkat Tinggi
+Positive Feedback Redemption	Penukaran Masukan Positif
+Note Automatic Exchange	Penukaran Catatan Otomatis
+New exchange order added	Pesanan penukaran baru ditambahkan
+Equivalent Exchange	Pertukaran Setara
+Exchange Complete	Penukaran Selesai
+Inspiration Gathering	Mengumpulkan Inspirasi
+Brewing Successful	Penyeduhan Berhasil
+Craft successfully	Berhasil dibuat
+Use successful	Berhasil dipakai
+Withdraw successful	Penarikan berhasil
+Modification successful	Modifikasi berhasil
+Published Successfully	Berhasil Diterbitkan
+Replacement successful	Penggantian berhasil
+Test complete	Tes selesai
+Has stopped running	Sudah berhenti berjalan
+Upgrade Self-Serve Bar	Tingkatkan Bar Swalayan
+Appoint On-Duty Attendant	Tunjuk Petugas Jaga
+Freight Machine	Mesin Angkut
+
+# --- pesan sistem & konfirmasi ---
+I Understand	Aku Mengerti
+Click to confirm	Klik untuk konfirmasi
+Click Replace	Klik Ganti
+Click to Hide	Klik untuk Sembunyikan
+Purchase Confirmation	Konfirmasi Pembelian
+Selection limit reached	Batas pilihan tercapai
+Maximum selectable quantity reached	Jumlah maksimum yang bisa dipilih tercapai
+Current maximum level reached	Level maksimum saat ini tercapai
+Level cap raised	Batas level dinaikkan
+Level progress	Progres level
+{0} upgrade successful	{0} berhasil ditingkatkan
+{0} has been used	{0} sudah dipakai
+{0} Triggered	{0} Terpicu
+Select 1 reward	Pilih 1 hadiah
+You can only select one reward	Kau hanya bisa memilih satu hadiah
+All rewards obtained	Semua hadiah sudah didapat
+All rewards acquired	Semua hadiah sudah diperoleh
+No items acquired yet	Belum ada barang yang didapat
+Obtainable through destruction	Bisa didapat lewat penghancuran
+No available acqusition method	Tidak ada cara perolehan yang tersedia
+Required items not selected	Barang yang dibutuhkan belum dipilih
+Provided items not selected	Barang yang disediakan belum dipilih
+One-Click Collect	Ambil Sekali Klik
+Perform {0} draws	Lakukan {0} tarikan
+This prize pool is not open	Kolam hadiah ini belum dibuka
+The prize pool has been closed	Kolam hadiah sudah ditutup
+Open this round's prize pool	Buka kolam hadiah ronde ini
+Reset this round's prize pool	Atur ulang kolam hadiah ronde ini
+Awaiting Your Participation	Menunggu Partisipasimu
+Companion Banned	Pendamping Dilarang
+View friends only	Lihat teman saja
+While you were away	Selagi kau pergi
+Welcome back, Commander	Selamat datang kembali, Commander
+Refresh available in {0} seconds	Bisa disegarkan dalam {0} detik
+Click anywhere on the screen to continue	Klik di mana saja pada layar untuk melanjutkan
+Unlock by completing the preceding stage	Buka dengan menyelesaikan stage sebelumnya
+Unlocked when Commander Level reaches 40	Terbuka saat Level Commander mencapai 40
+Reactivation command in effect	Komando reaktivasi sedang berlaku
+Military Supplies Escort Score	Skor Pengawalan Pasokan Militer
+(A while later.)	(Beberapa saat kemudian.)
+(Some time later.)	(Beberapa waktu kemudian.)

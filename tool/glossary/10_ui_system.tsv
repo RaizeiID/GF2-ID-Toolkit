@@ -1,0 +1,286 @@
+# Batch 6 — UI sistem: pengaturan, toko/pemasok, ekspedisi, attachment, pesan konfirmasi.
+# Tetap Inggris (sengaja): nama mode & event (Hazard Patrol, Wasteland Impact, Delusional
+#   Adventure, Iliad - Part 1/2, Trojan Legacy, Gilded Banquet, Party - Light of Wishes,
+#   Dawn of the Stele Caster, Loveflash, Rhythmic Tempo, Pathforger), nama lokasi
+#   (Safehouse, Zucchero Cat Cafe, Dormitory, Storeroom), dan istilah mekanik yang lazim
+#   dipakai gamer (Buff, Damage, HP, Level, Skill, Doll, Boss, Auto, Preset, Widget,
+#   Attachment, Covenant, Affinity, Elite, Growth Data, Fixed/Expansion Key).
+# Catatan: beberapa baris sumber memang salah ketik di game ("blurprints", "requires not
+#   met", "acqusition") — disalin apa adanya supaya tetap cocok.
+#range 0 125000
+
+# --- pengaturan & sistem ---
+Language	Bahasa
+Key Bindings	Pengaturan Tombol
+Voices	Suara
+Vignetting	Vignet
+Filter Intensity	Intensitas Filter
+Rendering Ratio	Rasio Render
+Immersive Mode	Mode Imersif
+Commander Hidden	Commander Disembunyikan
+Commander Displayed	Commander Ditampilkan
+Turn and View	Putar dan Lihat
+Quit View Adjustment	Keluar dari Penyesuaian Tampilan
+Tile Auxiliary Lines	Garis Bantu Petak
+Chase Camera in Auto Battle	Kamera Pengejar saat Auto Battle
+Skip Story	Lewati Cerita
+Resume Story	Lanjutkan Cerita
+Resource management	Pengelolaan sumber daya
+Resource Settings	Pengaturan Sumber Daya
+Deleting...	Menghapus...
+Shutting down	Mematikan
+Boot Loading	Memuat Boot
+Standing By	Bersiaga
+In transit	Dalam perjalanan
+Cooling down	Mendingin
+Offline	Luring
+Unread	Belum dibaca
+Invite	Undang
+Registration	Pendaftaran
+Application Code:	Kode Aplikasi:
+Edit Name	Ubah Nama
+Change Tag	Ubah Tag
+Tag selection	Pemilihan tag
+Word count {0}/7	Jumlah kata {0}/7
+Nickname successfully changed!	Nama panggilan berhasil diubah!
+You have reached today's limit for nickname changes	Kau sudah mencapai batas penggantian nama panggilan hari ini
+Too many operations, please try again later	Terlalu banyak operasi, coba lagi nanti
+Confirm in {0} seconds	Konfirmasi dalam {0} detik
+Countdown over	Hitung mundur selesai
+Text goes here	Teks di sini
+Red Dot Notification for Unlocking Dolls' Outfit	Notifikasi Titik Merah untuk Membuka Outfit Doll
+Red Dot Notification for Unlocking Weapon & Attachment Skins	Notifikasi Titik Merah untuk Membuka Weapon Skin & Attachment
+Do you wish to close the pop-up? (Download progress has been saved)	Mau menutup pop-up ini? (Progres unduhan sudah disimpan)
+Cancelling will terminate all downloads in progress. Do you wish to cancel?	Membatalkan akan menghentikan semua unduhan yang berjalan. Mau membatalkan?
+Deletion failed, please restart the game and try again	Penghapusan gagal, mulai ulang game lalu coba lagi
+
+# --- Doll, senjata & attachment ---
+Endowment	Anugerah
+Recollection	Kenangan
+Attribute Enhancement	Peningkatan Atribut
+Custom Specialization	Spesialisasi Kustom
+Armament Details	Detail Persenjataan
+Load Capacity	Kapasitas Muatan
+Fuel Consumption	Konsumsi Bahan Bakar
+Uses per single combat	Pemakaian per satu pertempuran
+Weapons system mounted	Sistem senjata terpasang
+Mount	Pasang
+Not installed	Belum terpasang
+Installed Successfully	Berhasil dipasang
+Remove all	Lepas semua
+Attachment Set	Set Attachment
+Attachment Component	Komponen Attachment
+Attachment Function	Fungsi Attachment
+Attachment has been removed	Attachment sudah dilepas
+No available installation locations	Tidak ada lokasi pemasangan yang tersedia
+Insufficient Storeroom capacity. Please clear out some weapon attachments	Kapasitas Storeroom tidak cukup. Kosongkan sebagian attachment senjata
+Quality Orientation	Orientasi Kualitas
+Function Orientation	Orientasi Fungsi
+Suit Orientation	Orientasi Set
+Part Orientation	Orientasi Bagian
+*Reading carrier cards can increase the drop rate of specific attachments	*Membaca kartu pembawa bisa menaikkan tingkat drop attachment tertentu
+Batch Calibration	Kalibrasi Massal
+Batch Calibration Times	Jumlah Kalibrasi Massal
+Custom Calibration	Kalibrasi Kustom
+Regular Calibration	Kalibrasi Biasa
+Maximum number of Precision Boost Chips used per calibration	Jumlah maksimum Precision Boost Chip yang dipakai per kalibrasi
+Ends ahead of time once Extreme Calibration is possible and stat boosts are improved	Berhenti lebih awal begitu Extreme Calibration memungkinkan dan peningkatan statnya membaik
+Boosted Stat Preview	Pratinjau Stat yang Ditingkatkan
+Max Level Preview	Pratinjau Level Maksimum
+Current imprint	Imprint saat ini
+Raise Level	Naikkan Level
+Previous level	Level sebelumnya
+Next Level	Level Berikutnya
+Please upgrade this Doll's level first	Naikkan dulu level Doll ini
+Upgrade requires not met	Syarat peningkatan belum terpenuhi
+Affinity requirements not met	Syarat Affinity belum terpenuhi
+This Doll's Affinity is not yet unlocked	Affinity Doll ini belum terbuka
+Reach Affinity Level 5 {0}/{1}	Capai Affinity Level 5 {0}/{1}
+Hold 1 Covenant Ring {0}/{1}	Miliki 1 Covenant Ring {0}/{1}
+This Doll does not have Fixed/Expansion Keys	Doll ini tidak punya Fixed/Expansion Key
+Missing equipped Growth Data	Growth Data yang terpasang tidak ada
+After changing cores, equipped Growth Data will be automatically removed	Setelah mengganti core, Growth Data yang terpasang akan otomatis dilepas
+Preset Doll, cannot be replaced	Doll Preset, tidak bisa diganti
+No weapon blurprints	Tidak ada cetak biru senjata
+You need to unlock the weapon first	Kau harus membuka senjatanya dulu
+// Weapon Attributes	// Atribut Senjata
+Suitability Rating	Peringkat Kecocokan
+Effects	Efek
+Induces the following set effect	Memunculkan efek set berikut
+Trial	Uji Coba
+Initial	Awal
+Initial Scope	Cakupan Awal
+Basic Completion	Penyelesaian Dasar
+Requirements	Syarat
+Item Rewards	Hadiah Barang
+Memorial Images	Gambar Kenangan
+Latest Achievements	Pencapaian Terbaru
+Achievement Trophy	Piala Pencapaian
+Select Decorations	Pilih Dekorasi
+Send Gift	Kirim Hadiah
+After sending out your gift, you will receive a custom wall decoration	Setelah mengirim hadiahmu, kau akan menerima dekorasi dinding kustom
+Go to the Dormitory	Pergi ke Asrama
+Go to the Dormitory ({0})	Pergi ke Asrama ({0})
+{0} is keeping you company...	{0} sedang menemanimu...
+Embarrassed	Malu
+Happy	Senang
+Moved	Terharu
+
+# --- toko, pemasok & pengiriman ---
+Mileage Purchase	Pembelian Mileage
+Sale Amount	Jumlah Penjualan
+Item(s) sold	Barang terjual
+No Widgets to sell	Tidak ada Widget untuk dijual
+Supplier Details	Detail Pemasok
+Supplier Level Rewards	Hadiah Level Pemasok
+Purchasing Level Rewards	Hadiah Level Pembelian
+Product Supply Maximum	Batas Maksimum Pasokan Produk
+Product Refresh Probability	Peluang Penyegaran Produk
+Products will be steadily updated	Produk akan terus diperbarui
+All products from current shipment purchased	Semua produk dari kiriman ini sudah dibeli
+Shipment No. {0}	Kiriman No. {0}
+Shipment No. {0} refresh	Penyegaran Kiriman No. {0}
+Next shipment will arrive in {0}	Kiriman berikutnya tiba dalam {0}
+Current number of selectable shipments	Jumlah kiriman yang bisa dipilih saat ini
+Confirm purchase of {0}	Konfirmasi pembelian {0}
+until next free refresh	sampai penyegaran gratis berikutnya
+This refresh is free	Penyegaran ini gratis
+Do you wish to refresh the selection?	Mau menyegarkan pilihannya?
+Widget will be purchased after confirming selection	Widget akan dibeli setelah pilihan dikonfirmasi
+Please select Doll with Widget effect	Pilih Doll yang punya efek Widget
+Guaranteed to receive	Dijamin didapat
+Chance to obtain	Peluang mendapatkan
+When an Elite Doll is obtained it is guaranteed to be the selected Doll	Saat Doll Elite didapat, dijamin Doll yang dipilih
+Log in for a chance to win the grand prize!	Login untuk berpeluang memenangkan hadiah utama!
+Time-Limited Push	Dorongan Waktu Terbatas
+The time-limited Event has ended	Event waktu terbatas sudah berakhir
+No Inspiration items available for exchange	Tidak ada barang Inspiration untuk ditukar
+Materials Exchange has been completed	Penukaran Material sudah selesai
+Dispatch Data	Data Pengiriman
+This week's dispatches <color=#f26c1c>{0}</color>/{1}	Pengiriman minggu ini <color=#f26c1c>{0}</color>/{1}
+Weekly total dispatch rewards have been reset	Total hadiah pengiriman mingguan sudah diatur ulang
+Reached weekly collection limit	Batas pengambilan mingguan tercapai
+Weekly Recreation Points reach {0}	Recreation Point mingguan mencapai {0}
+Expedition Experience Reaches {0}	Pengalaman Ekspedisi Mencapai {0}
+Unlocks at Voyage Collection level 60	Terbuka di level Voyage Collection 60
+No collection records yet	Belum ada catatan koleksi
+
+# --- pertempuran, eksplorasi & ekspedisi ---
+Current Wave	Gelombang Saat Ini
+Stage Select	Pilih Stage
+Reloading	Mengisi Ulang
+Using Skill	Memakai Skill
+Triggered	Terpicu
+Select direction	Pilih arah
+Please select a direction to move	Pilih arah untuk bergerak
+Please select the number of steps forward	Pilih berapa langkah maju
+Fewest Steps	Langkah Tersedikit
+Sub-Battlefield	Medan Tempur Cabang
+Combat Encounter	Perjumpaan Tempur
+Decisive Victory	Kemenangan Telak
+Escort Successful	Pengawalan Berhasil
+Place Successful	Berhasil ditempatkan
+Replacement Successful	Penggantian Berhasil
+Time Taken	Waktu yang Ditempuh
+Game Starts In	Permainan Dimulai Dalam
+Highest Perfect Streak	Rentetan Sempurna Tertinggi
+Highest damage this round	Damage tertinggi ronde ini
+Autobattle	Auto Battle
+Autobattle Count	Jumlah Auto Battle
+Rewind in Progress	Putar Balik Berjalan
+Rewinds depleted	Putar balik habis
+Previous turn	Giliran sebelumnya
+Next turn	Giliran berikutnya
+Turn Order: {0}	Urutan Giliran: {0}
+Tactics Updated	Taktik Diperbarui
+Enter Command	Masukkan Komando
+Verify Entry	Verifikasi Masukan
+Squad List	Daftar Regu
+Modify Defensive Lineup	Ubah Susunan Bertahan
+Please finish deploying your defense	Selesaikan dulu penempatan pertahananmu
+Do you wish to use Platoon Dolls to support you in battle?	Mau memakai Doll Platoon untuk mendukungmu dalam pertempuran?
+Do you wish to share your saved Fire Control Preset with your platoon?	Mau membagikan Preset Kendali Tembak yang kau simpan ke platoon-mu?
+Conditional Strategy Custom Setting ({0}/{1})	Pengaturan Kustom Strategi Bersyarat ({0}/{1})
+No strategy available	Tidak ada strategi yang tersedia
+Situation Details	Detail Situasi
+Danger Level	Tingkat Bahaya
+Speed of Monster's Patrol	Kecepatan Patroli Monster
+Warning! An enemy boss is approaching fast!!!	Peringatan! Boss musuh mendekat dengan cepat!!!
+This action will trigger the enemy attack	Aksi ini akan memicu serangan musuh
+This skill can't be used normally	Skill ini tidak bisa dipakai secara normal
+Unable to instant-kill. Battle commencing.	Tidak bisa dibunuh seketika. Pertempuran dimulai.
+Character cannot perform actions	Karakter tidak bisa melakukan aksi
+Currently performing action, cannot edit	Sedang melakukan aksi, tidak bisa diubah
+Currently performing {0}, cannot edit	Sedang melakukan {0}, tidak bisa diubah
+In stationary mode	Dalam mode diam
+Currently in use	Sedang dipakai
+Not currently equipped	Saat ini tidak terpasang
+Interacting	Berinteraksi
+Out of Hand	Lepas Kendali
+Temporary Evacuation	Evakuasi Sementara
+Abandon Exploration	Tinggalkan Penjelajahan
+Confirm mission failure?	Konfirmasi misi gagal?
+Mission failed, all Dolls have been destroyed	Misi gagal, semua Doll hancur
+Failure Reason:	Alasan Kegagalan:
+Moving to {0}, do you wish to proceed?	Berpindah ke {0}, mau dilanjutkan?
+Do you wish to proceed to the next stage?	Mau lanjut ke stage berikutnya?
+Area Locked	Area Terkunci
+Supplies lost this time	Pasokan yang hilang kali ini
+No supply crates to claim	Tidak ada peti pasokan untuk diklaim
+Hidden supplies found! Gain Access Permission ×1	Pasokan tersembunyi ditemukan! Dapat Access Permission ×1
+You won't be able to return to the save point if all exploration supplies are lost	Kau tidak akan bisa kembali ke titik simpan kalau semua pasokan penjelajahan habis
+Routine Exploration Rewards	Hadiah Penjelajahan Rutin
+Supplies Exploration Rewards	Hadiah Penjelajahan Pasokan
+Exploration Rewards (Can be obtained without clearing the level)	Hadiah Penjelajahan (Bisa didapat tanpa menyelesaikan levelnya)
+Exploration Duration: <color=#f0d867>{0}</color>	Durasi Penjelajahan: <color=#f0d867>{0}</color>
+The transport vehicle is not within range, interaction failed!	Kendaraan pengangkut tidak dalam jangkauan, interaksi gagal!
+Please gather sufficient resources to initiate the Transporter	Kumpulkan sumber daya yang cukup untuk menjalankan Transporter
+Room Tasks	Tugas Ruangan
+Clear Tips	Tips Penyelesaian
+Memorize the positions of paired cards in the preparation phase	Hafalkan posisi kartu berpasangan di fase persiapan
+Current output: Intelligence Puzzle overflow conversion rate {0}%	Keluaran saat ini: tingkat konversi limpahan Intelligence Puzzle {0}%
+Investigation Progress Rank	Peringkat Progres Penyelidikan
+Drill Progress	Progres Latihan
+Exercise Drill stage description	Deskripsi stage Latihan Tanding
+Carefully observe opponent's tactics, devise a combat plan, then achieve victory	Amati taktik lawan dengan teliti, susun rencana tempur, lalu raih kemenangan
+Matched with opponent's North-line Formation	Dipertemukan dengan Formasi Jalur Utara lawan
+Matched with opponent's South-line Formation	Dipertemukan dengan Formasi Jalur Selatan lawan
+Proceed the acceptance upon completion of training	Lanjutkan penerimaannya setelah pelatihan selesai
+Current Challenge Points	Poin Tantangan Saat Ini
+Challenge Tier can be increased upon completion of all Challenge Targets	Tingkat Tantangan bisa dinaikkan setelah semua Target Tantangan selesai
+Top Position Leaderboard	Papan Peringkat Posisi Teratas
+Elmo Leaderboard	Papan Peringkat Elmo
+The rankings are refreshed every hour.	Peringkatnya disegarkan setiap jam.
+My rank	Peringkatku
+Last Time	Terakhir Kali
+Current Selection: {0}	Pilihan Saat Ini: {0}
+Confirm Difficulty Level Unlock: {0}	Konfirmasi Membuka Tingkat Kesulitan: {0}
+Please unlock the previous difficulty level	Buka dulu tingkat kesulitan sebelumnya
+Unlock by completing stage <color=#f26c1c>{0}</color>	Buka dengan menyelesaikan stage <color=#f26c1c>{0}</color>
+Please unlock the previous intel first!	Buka dulu intel sebelumnya!
+Unlock the previous intel first	Buka dulu intel sebelumnya
+Click the button on the right to play this part of the story	Klik tombol di kanan untuk memutar bagian cerita ini
+Rack unlocks when UAV level reaches {0}	Rak terbuka saat level UAV mencapai {0}
+Confirm to use Collapse Pieces to register a Platoon	Konfirmasi memakai Collapse Piece untuk mendaftarkan Platoon
+No application necessary	Tidak perlu mendaftar
+The cycle has been reset.	Siklusnya sudah diatur ulang.
+Doll permissions will be reset when the cycle resets.	Izin Doll akan diatur ulang saat siklusnya diatur ulang.
+New data received	Data baru diterima
+Do you want to apply the current view to Scenic Tour - {0}?	Mau menerapkan tampilan saat ini ke Scenic Tour - {0}?
+<color=#F26C1C>Drink</color> not yet used. Start looping anyway?	<color=#F26C1C>Minuman</color> belum dipakai. Tetap mulai loop?
+No <color=#F26C1C>Meal</color> has been used yet, start the loop?	Belum ada <color=#F26C1C>Makanan</color> yang dipakai, mulai loop?
+<color=#3487e0>Vision Restriction</color>: Reduce accuracy of self by 100%.	<color=#3487e0>Vision Restriction</color>: Menurunkan akurasi diri sendiri 100%.
+<color=#3487e0>Firepower Expansion I</color>: Increase accuracy of self by 15%.	<color=#3487e0>Firepower Expansion I</color>: Menaikkan akurasi diri sendiri 15%.
+<color=#3487e0>Firepower Expansion II</color>: Increase accuracy of self by 25%.	<color=#3487e0>Firepower Expansion II</color>: Menaikkan akurasi diri sendiri 25%.
+
+# --- baris suara Doll di layar penjelajahan ---
+Not good. Don't worry, I'm good at running away!	Gawat. Tenang, aku jago kabur!
+Um... Is everyone keeping up?	Emm... Semuanya masih menyusul?
+Please follow behind me, Your Excellency.	Silakan ikuti di belakangku, Tuan.
+I'll cover you. Everyone, try to keep up.	Aku akan melindungi kalian. Semuanya, usahakan tetap menyusul.
+... The stars... drifting, gathering and scattering...	... Bintang-bintang... hanyut, berkumpul lalu berserak...
+I'll rip you to shreds next time.	Lain kali akan kucabik-cabik kau.
+Show's over! Thank you for watching~	Pertunjukan selesai! Terima kasih sudah menonton~
+Withdraw, there's no need to let an idiot waste your time.	Mundur, tidak perlu membiarkan orang bodoh membuang waktumu.
+Understood... I'll withdraw at your order, Commander. Don't keep me waiting...	Dimengerti... aku akan mundur atas perintahmu, Commander. Jangan membuatku menunggu...
+Got it. Change of plan, relocating now.	Baik. Rencana berubah, pindah posisi sekarang.

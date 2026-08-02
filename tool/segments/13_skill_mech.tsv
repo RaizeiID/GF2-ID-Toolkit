@@ -1,0 +1,106 @@
+# Deskripsi skill — keluarga kalimat mekanik.
+#
+# Ditulis sebagai regex keluarga, bukan kalimat per kalimat: satu aturan
+# menutupi seluruh varian angkanya. Jenis elemen/status ditangkap backref
+# supaya nama seperti Burn, Corrosion, Freeze, Hydro tetap Inggris.
+#
+# Istilah tetap Inggris: damage, stack, tile, buff, debuff, healing, AoE,
+# Stability Break, HOC Power, Tactical/Response value, Confectance Index,
+# phase, physical, HP.
+#range 0 130000
+
+# --- stat naik/turun sederhana ---
+^Max HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Max HP meningkat sebesar \1\2%</color>.
+^Increases attack by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color>.
+^Increase damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage \1\2%</color>.
+^Increase damage taken by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage yang diterima \1\2%</color>.
+^Reduce damage taken by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Kurangi damage yang diterima \1\2%</color>.
+^Healing received is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Healing yang diterima berkurang sebesar \1\2%</color>.
+^AoE damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage AoE yang diberikan meningkat sebesar \1\2%</color>.
+^AoE damage taken reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage AoE yang diterima berkurang sebesar \1\2%</color>.
+^Damage multiplier is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage multiplier meningkat sebesar \1\2%</color>.
+^Increase (\w+) damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage \1 \2\3%</color>.
+^Increase (\w+) damage dealt by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage \1 yang diberikan \2\3%</color>.
+^Increase critical rate and critical damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Rate dan Critical Damage meningkat sebesar \1\2%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color> dan damage yang diberikan meningkat sebesar \3\4%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color> dan Defense meningkat sebesar \3\4%</color>.
+^After eliminating a target, the eliminator's damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah mengalahkan target, damage penyerangnya meningkat sebesar \1\2%</color>.
+
+# --- damage per elemen (nama elemen dibawa backref) ---
+^(<color=#[0-9a-fA-F]+>)(\w+) damage</color> dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> yang diberikan meningkat sebesar \3\4%</color>.
+^(<color=#[0-9a-fA-F]+>)(\w+) damage</color> is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> meningkat sebesar \3\4%</color>.
+^(\w+) damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1 meningkat sebesar \2\3%</color>.
+^(\w+) damage dealt by all allied units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1 dari semua unit sekutu meningkat sebesar \2\3%</color>.
+^Ally units' (<color=#[0-9a-fA-F]+>)(\w+) damage</color> is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> unit sekutu meningkat sebesar \3\4%</color>.
+^Allied units' (<color=#[0-9a-fA-F]+>)(\w+) damage</color> is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> unit sekutu meningkat sebesar \3\4%</color>.
+^Ally units' (\w+) damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1 unit sekutu meningkat sebesar \2\3%</color>.
+^Ally units' damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and their defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima unit sekutu berkurang sebesar \1\2%</color> dan Defense mereka meningkat sebesar \3\4%</color>.
+^Damage taken by allied units is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima unit sekutu berkurang sebesar \1\2%</color> dan Defense meningkat sebesar \3\4%</color>.
+^Damage dealt by out-of-turn attacks is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari serangan di luar giliran meningkat sebesar \1\2%</color>.
+^Damage dealt by all physical summons on the battlefield is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari semua summon fisik di medan perang meningkat sebesar \1\2%</color>.
+^Damage dealt by this unit's (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari \1\2</color> unit ini meningkat sebesar \3\4%</color>.
+^After dealing phase damage, phase damage is permanently increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah memberikan damage phase, damage phase meningkat permanen \1\2%</color>.
+
+# --- kondisi target ---
+^Increases damage dealt to targets with debuffs by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target yang memiliki debuff meningkat sebesar \1\2%</color>.
+^Damage to targets with movement debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target dengan debuff pergerakan meningkat sebesar \1\2%</color>.
+^Damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> when attacking targets with Electric debuffs\.$	Damage meningkat sebesar \1\2%</color> saat menyerang target dengan debuff Electric.
+^If the debuff is Electric, damage is further increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika debuff-nya Electric, damage meningkat lagi \1\2%</color>.
+^If a target is eliminated, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, up to (<color=#[0-9a-fA-F]+>)([\d.]+) stacks</color>\.$	Jika target dikalahkan, damage yang diberikan meningkat sebesar \1\2%</color>, hingga \3\4 stack</color>.
+^If only 1 target is hit, the damage multiplier increases by an additional (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika hanya 1 target yang terkena, damage multiplier naik tambahan \1\2%</color>.
+^If the attack is a (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>, damage boost is additionally increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika serangannya \1\2</color>, peningkatan damage bertambah sebesar \3\4%</color>.
+
+# --- pertahanan & penetrasi ---
+^Attacks ignore (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Serangan mengabaikan \1\2%</color> Defense target.
+^When dealing (\w+) damage, ignores (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Saat memberikan damage \1, mengabaikan \2\3%</color> Defense target.
+^This is considered an? (\w+) defense debuff\.$	Ini dianggap debuff Defense \1.
+
+# --- stability ---
+^Stability damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Damage Stability yang diterima berkurang sebesar \1\2 poin</color>.
+^Stability damage taken is reduced\.$	Damage Stability yang diterima berkurang.
+^If an attack exploits a weakness, stability damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Jika serangan mengeksploitasi kelemahan, damage Stability yang diberikan meningkat sebesar \1\2 poin</color>.
+^When stability index is greater than (<color=#[0-9a-fA-F]+>)([\d.]+)</color>, reduce damage taken by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat Stability Index lebih dari \1\2</color>, kurangi damage yang diterima \3\4%</color>.
+^When in Stability Break, cannot benefit from stability recovery effects\.$	Saat dalam Stability Break, tidak bisa menerima efek pemulihan Stability.
+^Stability Break state lasts for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color> before restoring stability index to full\.$	Kondisi Stability Break bertahan \1\2 giliran</color> sebelum Stability Index pulih penuh.
+^After suffering Stability Break, it will not regain stability under any circumstances\.$	Setelah mengalami Stability Break, Stability tidak akan pulih dalam kondisi apa pun.
+
+# --- penerapan status & stack ---
+^Applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Menerapkan \1\2</color> selama \3\4 giliran</color>.
+^Applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to all enemy units within (<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color>\.$	Menerapkan \1\2</color> ke semua unit musuh dalam \3\4 tile</color>.
+^Before making an active attack, applies (<color=#[0-9a-fA-F]+>)([\d.]+) stacks?</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to the target\.$	Sebelum melakukan serangan aktif, menerapkan \1\2 stack</color> \3\4</color> ke target.
+^Gains (<color=#[0-9a-fA-F]+>)([\d.]+) stacks?</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Mendapat \1\2 stack</color> \3\4</color>.
+^At the start of the turn, gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal giliran, mendapatkan \1\2</color>.
+^At the end of this unit's turn, gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di akhir giliran unit ini, mendapatkan \1\2</color>.
+^(<color=#[0-9a-fA-F]+>)(\{\d+\})</color> taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1\2</color> yang diterima berkurang sebesar \3\4%</color>.
+^This attack is considered a (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Serangan ini dianggap \1\2</color>.
+^When she has (<color=#[0-9a-fA-F]+>)([\d.]+) stacks</color> of (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>, she gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Saat dia memiliki \1\2 stack</color> \3\4</color>, dia mendapatkan \5\6</color>.
+^Otherwise, convert the damage accumulated through (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Jika tidak, ubah damage yang terkumpul lewat \1\2</color> jadi \3\4</color>.
+
+# --- pemicu ---
+^This can only be triggered (<color=#[0-9a-fA-F]+>)once</color> per turn\.$	Ini hanya bisa terpicu \1sekali</color> per giliran.
+^This effect can only be triggered (<color=#[0-9a-fA-F]+>)once</color> per turn\.$	Efek ini hanya bisa terpicu \1sekali</color> per giliran.
+^This effect can be triggered up to (<color=#[0-9a-fA-F]+>)once</color> per turn\.$	Efek ini bisa terpicu hingga \1sekali</color> per giliran.
+^This effect can be triggered at most (<color=#[0-9a-fA-F]+>)once</color> per turn\.$	Efek ini bisa terpicu paling banyak \1sekali</color> per giliran.
+
+# --- multiplier & sumber daya ---
+^Damage multiplier is increased to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of HOC Power\.$	Damage multiplier naik menjadi \1\2%</color> dari HOC Power.
+^Damage multiplier increases to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of HOC Power\.$	Damage multiplier naik menjadi \1\2%</color> dari HOC Power.
+^Damage multiplier is increased to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of Tactical value\.$	Damage multiplier naik menjadi \1\2%</color> dari Tactical value.
+^Damage multiplier is increased to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of Response value\.$	Damage multiplier naik menjadi \1\2%</color> dari Response value.
+^(<color=#[0-9a-fA-F]+>)Each point</color> of mobility expended increases the damage multiplier by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1Tiap poin</color> Mobility yang dipakai menaikkan damage multiplier \2\3%</color>.
+^Gains (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of Confectance Index\.$	Mendapat \1\2 poin</color> Confectance Index.
+^Vector gains (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of Confectance Index\.$	Vector mendapatkan \1\2 poin</color> Confectance Index.
+^Expends all points of Confectance Index\.$	Menghabiskan semua poin Confectance Index.
+
+# --- jangkauan & area ---
+^After hitting an enemy target, the damage radius of the next skill is increased to (<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color>\.$	Setelah mengenai target musuh, radius damage skill berikutnya naik menjadi \1\2 tile</color>.
+^After hitting an enemy target, the area of effect for the next use of the skill is increased to (<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color>\.$	Setelah mengenai target musuh, area efek penggunaan skill berikutnya naik menjadi \1\2 tile</color>.
+^This damage is evenly distributed between all targets within the area of effect\.$	Damage ini dibagi rata ke semua target dalam area efek.
+^Interacting units can continue to move with remaining mobility\.$	Unit yang berinteraksi masih bisa bergerak dengan sisa Mobility.
+^(<color=#[0-9a-fA-F]+>)([\d.]+) tiles?</color>\.$	\1\2 tile</color>.
+
+# --- lain-lain ---
+^Deals physical damage\.$	Memberikan damage physical.
+^Deal physical damage\.$	Memberi damage physical.
+^At the end of the action, recovers (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of maximum HP\.$	Di akhir aksi, memulihkan \1\2%</color> HP maksimum.
+^Only effective during (<color=#[0-9a-fA-F]+>)([^<>]+)</color>\.$	Hanya berlaku selama \1\2</color>.

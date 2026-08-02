@@ -1,0 +1,28 @@
+# Sisa baris dialog Iliad Part 1.5 & Part 2 yang benar-benar perlu diterjemahkan.
+#
+# Ditemukan lewat verifystory.py, yang membandingkan naskah baseline dengan berkas
+# yang BENAR-BENAR TERPASANG di folder game — bukan dengan daftar glossary, karena
+# sebuah baris bisa ada di glossary tapi tidak pernah diterapkan (mis. #range meleset).
+#
+# Isinya hanya sapaan dan kata umum: Miss/Ms. -> Nona, Mother -> Ibu, Big Sis -> Kak,
+# Backup -> Bantuan, AR Team -> Tim AR. Nama diri, nama organisasi (Doll Community,
+# Griffin Alumni Association, Frostfall Squad, The Elmo), seruan, serta baris Rusia
+# dan Mandarin yang memang disengaja TIDAK ada di sini — lihat story_asis.txt.
+#range 125000 9999999
+
+Backup?	Bantuan?
+AR... Team?!	Tim AR?!
+Big Sis! Big Sis!	Kak! Kak!
+Miss Kalina...	Nona Kalina...
+...Miss... Kalina...	...Nona... Kalina...
+Miss Sloan!	Nona Sloan!
+Miss Lee...!	Nona Lee...!
+Hmm? Miss Lee?	Hmm? Nona Lee?
+Miss Tokarev...	Nona Tokarev...
+Miss Tokarev?	Nona Tokarev?
+Eh? Miss Helian!	Eh? Nona Helian!
+Miss Helian...	Nona Helian...
+—Ms. Shadowless...?	—Nona Shadowless...?
+Miss Mayling... Commander...	Nona Mayling... Commander...
+—Mother?	—Ibu?
+Mother...	Ibu...

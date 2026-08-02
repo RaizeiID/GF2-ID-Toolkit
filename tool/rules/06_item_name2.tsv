@@ -1,0 +1,56 @@
+# Nama item — keluarga generik yang teratur (bahan, kotak, tiket).
+#
+# Berbeda dari 05_item_name.tsv yang menerjemahkan label jenis di depan nama diri,
+# berkas ini menggarap nama yang SELURUHNYA deskriptif: bahan kerajinan, kotak
+# pasokan, voucher. Inilah yang paling sering dibaca pemain di layar inventaris.
+#
+# Keluarga komponen (150 item) benar-benar teratur:
+#   <Grade> Grade <Ukuran> <Tipe> Component <α|β|γ>
+# Huruf Yunani α/β/γ adalah penanda tingkat — dibawa apa adanya lewat backref,
+# JANGAN diubah jadi a/b/c karena akan memutus kecocokan dengan tabel resep.
+#
+# Kelas senjata (AR/SMG/RF/HG/SG/MG/Blade) dan kode tingkat (T1/T2/T3) juga
+# dibawa apa adanya.
+#range 0 130000
+
+# --- komponen kerajinan bergradasi ---
+^Civilian Grade (Small|Medium|Large) Precision Component ([αβγ])$	Komponen Precision \1 Kelas Sipil \2
+^Civilian Grade (Small|Medium|Large) Output Component ([αβγ])$	Komponen Output \1 Kelas Sipil \2
+^Civilian Grade (Small|Medium|Large) Endurance Component ([αβγ])$	Komponen Endurance \1 Kelas Sipil \2
+^Civilian Grade (Small|Medium|Large) Tactical Component ([αβγ])$	Komponen Tactical \1 Kelas Sipil \2
+^Civilian Grade (Small|Medium|Large) Coverage Component ([αβγ])$	Komponen Coverage \1 Kelas Sipil \2
+^Civilian Grade (Small|Medium|Large) Response Component ([αβγ])$	Komponen Response \1 Kelas Sipil \2
+^Industrial Grade (Small|Medium|Large) Precision Component ([αβγ])$	Komponen Precision \1 Kelas Industri \2
+^Industrial Grade (Small|Medium|Large) Output Component ([αβγ])$	Komponen Output \1 Kelas Industri \2
+^Industrial Grade (Small|Medium|Large) Endurance Component ([αβγ])$	Komponen Endurance \1 Kelas Industri \2
+^Industrial Grade (Small|Medium|Large) Tactical Component ([αβγ])$	Komponen Tactical \1 Kelas Industri \2
+^Industrial Grade (Small|Medium|Large) Coverage Component ([αβγ])$	Komponen Coverage \1 Kelas Industri \2
+^Industrial Grade (Small|Medium|Large) Response Component ([αβγ])$	Komponen Response \1 Kelas Industri \2
+^Precise Grade (Small|Medium|Large) Precision Component ([αβγ])$	Komponen Precision \1 Kelas Presisi \2
+^Precise Grade (Small|Medium|Large) Output Component ([αβγ])$	Komponen Output \1 Kelas Presisi \2
+^Precise Grade (Small|Medium|Large) Endurance Component ([αβγ])$	Komponen Endurance \1 Kelas Presisi \2
+^Precise Grade (Small|Medium|Large) Tactical Component ([αβγ])$	Komponen Tactical \1 Kelas Presisi \2
+^Precise Grade (Small|Medium|Large) Coverage Component ([αβγ])$	Komponen Coverage \1 Kelas Presisi \2
+^Precise Grade (Small|Medium|Large) Response Component ([αβγ])$	Komponen Response \1 Kelas Presisi \2
+^Military Grade (Small|Medium|Large) Precision Component ([αβγ])$	Komponen Precision \1 Kelas Militer \2
+^Military Grade (Small|Medium|Large) Output Component ([αβγ])$	Komponen Output \1 Kelas Militer \2
+^Military Grade (Small|Medium|Large) Endurance Component ([αβγ])$	Komponen Endurance \1 Kelas Militer \2
+^Military Grade (Small|Medium|Large) Tactical Component ([αβγ])$	Komponen Tactical \1 Kelas Militer \2
+^Military Grade (Small|Medium|Large) Coverage Component ([αβγ])$	Komponen Coverage \1 Kelas Militer \2
+^Military Grade (Small|Medium|Large) Response Component ([αβγ])$	Komponen Response \1 Kelas Militer \2
+
+# --- kotak hadiah bertingkat ---
+^(Purple|Orange|Blue|Green|Red) Sentiment Gift Box (I|II|III|IV|V)$	Kotak Hadiah Sentiment \1 \2
+^(Purple|Orange|Blue|Green|Red) Sentiment Gift Box$	Kotak Hadiah Sentiment \1
+^(Purple|Orange|Blue|Green|Red) Sentiment Chest$	Peti Sentiment \1
+^Bond Keepsake Gift Box (I|II|III|IV|V)$	Kotak Hadiah Kenang-Kenangan Bond \1
+^Credit Gift Box ([αβγ])$	Kotak Hadiah Credit \1
+
+# --- kotak pasokan attachment ---
+^T(\d) (AR|SMG|RF|HG|SG|MG|Blade) Attachment Supply Box$	Kotak Pasokan Attachment \2 T\1
+^(AR|SMG|RF|HG|SG|MG|Blade) White Attachment Supply Box$	Kotak Pasokan Attachment Putih \1
+^Specialized White Attachment Supply Box$	Kotak Pasokan Attachment Putih Khusus
+^Tuned Supply Box (\d)$	Kotak Pasokan Tersetel \1
+
+# --- data pertumbuhan Ovule ---
+^Ovule Growth Data ([αβγ])$	Data Pertumbuhan Ovule \1

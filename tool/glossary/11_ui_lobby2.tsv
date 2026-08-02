@@ -1,0 +1,328 @@
+# Batch 7 — label antarmuka lanjutan: arsip karakter, layar tempur, kafe, gudang, sistem.
+# Disaring dengan bentuk khas label (tanpa tanda baca akhir kalimat, bukan dialog),
+# lalu diurutkan berdasarkan berapa banyak id yang memuatnya.
+# Tetap Inggris (sengaja): nama orang/NPC (Browning, Rossetti, Spencer, dst), nama Doll &
+#   musuh (Darture, Falconer, Poludnitsa, Dinergate, Imagoform, Corposant, Deichgraf),
+#   nama event/mode/lokasi (Aphelion, Analemma, Summer Echo, Welwyn Mist, Boundary Push,
+#   Hazard Patrol, Abyss, Rondo, Sonata), kelas Doll (Vanguard, Bulwark, Sentinel),
+#   string internal (HOC ppt, Hunter PPT, Victory PPT), dan istilah mekanik yang lazim
+#   dipakai gamer (Buff, Damage, HP, Skill, Combo, Cover, Crit Rate, Auto Battle, Phase,
+#   Stability, Confectance, Doll, Boss, Elite, Preset, Filter, Status).
+#range 0 125000
+
+# --- arsip & profil karakter ---
+About Her Hobbies	Tentang Hobinya
+About Pets	Tentang Hewan Peliharaan
+About the Past	Tentang Masa Lalu
+About Companions	Tentang Rekan
+About 404	Tentang 404
+About Movies	Tentang Film
+About Combat	Tentang Pertempuran
+About Colors	Tentang Warna
+About Snacks	Tentang Camilan
+About Hobbies	Tentang Hobi
+About Emotions	Tentang Emosi
+About Shopping	Tentang Belanja
+About Training	Tentang Latihan
+About Leadership	Tentang Kepemimpinan
+About the Future	Tentang Masa Depan
+About Entertainment	Tentang Hiburan
+About Toys	Tentang Mainan
+About Leva	Tentang Leva
+About fear	Tentang rasa takut
+About Work	Tentang Pekerjaan
+About Jokes	Tentang Lelucon
+About Bikes	Tentang Sepeda
+About Music	Tentang Musik
+About Games	Tentang Permainan
+About Intel	Tentang Intel
+Voice	Suara
+Portrait	Potret
+Journals	Jurnal
+Chronicles	Kronik
+Basic Data	Data Dasar
+Body Model	Model Tubuh
+Holography	Holografi
+Memorial Images	Gambar Kenangan
+Honor Hall	Aula Kehormatan
+Favorite	Favorit
+Wishlist	Daftar Keinginan
+Accessories	Aksesori
+Outfits	Outfit
+Themes	Tema
+Picture	Gambar
+Title	Gelar
+
+# --- layar tempur ---
+Battle Prep	Persiapan Tempur
+Battle Area	Area Pertempuran
+Battle Log	Catatan Pertempuran
+Battle Won	Pertempuran Menang
+End Battle	Akhiri Pertempuran
+End Game	Akhiri Permainan
+End Chase	Akhiri Pengejaran
+Next Turn	Giliran Berikutnya
+Round	Ronde
+Wave 1	Gelombang 1
+Wave 2	Gelombang 2
+Wave 3	Gelombang 3
+Wave 4	Gelombang 4
+Wave 5	Gelombang 5
+Enemy Types	Jenis Musuh
+Enemy Recon	Pengintaian Musuh
+Scout Mode	Mode Intai
+Scout	Intai
+Melee	Jarak Dekat
+Sniper	Penembak Jitu
+Taunt	Pancing
+Suppress	Tekan
+Suppression	Penekanan
+Retaliation	Serangan Balasan
+Detonate	Ledakkan
+Ignition	Penyalaan
+Flammable	Mudah Terbakar
+Fireproof	Tahan Api
+Poisoned	Keracunan
+Immobilized	Tidak Bisa Bergerak
+Invincible	Kebal
+Defensive	Bertahan
+Defend	Bertahan Diri
+Invade	Serbu
+Siege	Kepung
+Siege II	Kepung II
+Conquest	Penaklukan
+Fortress	Benteng
+Patrol	Patroli
+Standby	Bersiaga
+Waiting	Menunggu
+Recovering	Memulihkan Diri
+Repaired	Sudah Diperbaiki
+Repair Time	Waktu Perbaikan
+Self-Repair	Perbaikan Sendiri
+Armor Boost	Boost Armor
+Healing	Penyembuhan
+Health	Kesehatan
+Endurance	Ketahanan
+Lethargy	Lesu
+Cooldown	Waktu Jeda
+Auto Fire	Tembak Otomatis
+Auto Skill	Skill Otomatis
+Move Left	Geser Kiri
+Move Right	Geser Kanan
+Forward	Maju
+Climb	Panjat
+Teleport	Teleportasi
+Impassable	Tidak Bisa Dilewati
+Swamp Tile	Petak Rawa
+Rugged Path	Jalur Terjal
+Lost Path	Jalur Hilang
+Story Node	Simpul Cerita
+Narration	Narasi
+Blitz Time	Waktu Blitz
+Clear Time	Waktu Penyelesaian
+{0} seconds	{0} detik
+{0} Placed	{0} Ditempatkan
+Cleared {0}	Selesai {0}
+Lost {0}	Kehilangan {0}
+Score {0}	Skor {0}
+Rating: {0}	Peringkat: {0}
+Points +{0}	Poin +{0}
+50 points	50 poin
+100 points	100 poin
+No status	Tanpa status
+No details	Tanpa rincian
+No rewards	Tanpa hadiah
+No friends	Tidak ada teman
+Not yet	Belum
+Available	Tersedia
+Unobtained	Belum Didapat
+Upgradable	Bisa Ditingkatkan
+Viewable	Bisa Dilihat
+Archived	Diarsipkan
+Accepted	Diterima
+Obtained on	Didapat pada
+Accumulated	Terkumpul
+
+# --- regu, Doll & perlengkapan ---
+Doll List	Daftar Doll
+Dolls	Doll
+Elite Doll	Doll Elite
+Invite Doll	Undang Doll
+Deploy HOC	Terjunkan HOC
+Squad	Regu
+Position	Posisi
+Main Stat	Stat Utama
+Attribute	Atribut
+Quality	Kualitas
+Common	Umum
+Uncommon	Tidak Umum
+Legendary	Legendaris
+Tier 1	Tingkat 1
+Tier 2	Tingkat 2
+Tier 3	Tingkat 3
+Cadet	Kadet
+Resources	Sumber Daya
+Supply Box	Kotak Pasokan
+Airdrop	Kiriman Udara
+Light Ammo	Amunisi Ringan
+Oil Barrel	Tong Minyak
+Treasure	Harta Karun
+Stone	Batu
+Water	Air
+Flame	Api
+Flood	Banjir
+Mucus	Lendir
+Anode	Anoda
+Stack	Tumpukan
+Amount	Jumlah
+Value	Nilai
+Unit Price	Harga Satuan
+Price	Harga
+On Sale	Sedang Diskon
+To Shop	Ke Toko
+Glory Store	Toko Kejayaan
+Redemption	Penukaran
+Convert	Konversi
+Delete	Hapus
+Uninstall	Copot Pemasangan
+Edit Mode	Mode Ubah
+Lock Plan	Kunci Rencana
+Load Plan	Muat Rencana
+Plan 1	Rencana 1
+Plan 2	Rencana 2
+Framework	Kerangka
+Upshift	Naik Gigi
+Reversing	Mundur
+Vehicle	Kendaraan
+Hangar	Hanggar
+Navigation	Navigasi
+Strategies	Strategi
+Tactics	Taktik
+Custom	Kustom
+Simple	Sederhana
+Smooth	Halus
+Stable	Stabil
+Average	Rata-rata
+Small-sized	Ukuran Kecil
+Large-sized	Ukuran Besar
+Focus	Fokus
+Sight	Bidikan
+Power	Daya
+Buffer	Penyangga
+Splash	Cipratan
+Disruption	Gangguan
+Phase Two	Fase Dua
+Phase Clash	Benturan Phase
+Cold Snap	Hawa Dingin
+Weather	Cuaca
+Security	Keamanan
+Blacklist	Daftar Hitam
+Preferred	Diutamakan
+In survey	Sedang disurvei
+Added	Ditambahkan
+Daily	Harian
+Daily News	Berita Harian
+Daily Quiz	Kuis Harian
+New Year	Tahun Baru
+Wednesday	Rabu
+Day 1	Hari 1
+Day 2	Hari 2
+Day 3	Hari 3
+Day 4	Hari 4
+Day 5	Hari 5
+Day 6	Hari 6
+Day 7	Hari 7
+Season 1	Musim 1
+Season 2	Musim 2
+Season 3	Musim 3
+Season 4	Musim 4
+Season 5	Musim 5
+Graphics	Grafis
+Adjust FoV	Atur FoV
+Change View	Ubah Tampilan
+Quick Join	Gabung Cepat
+Matchmaking	Pencarian Lawan
+Match Found	Lawan Ditemukan
+Hard Mode	Mode Sulit
+Extreme	Ekstrem
+Casual	Santai
+Practice	Latihan
+Exercise	Latih Tanding
+Pursuit	Pengejaran
+Windfall	Rezeki Nomplok
+Impressive	Mengesankan
+Relaxation	Relaksasi
+Confluence	Pertemuan Arus
+Pioneering	Perintisan
+Whisper	Bisikan
+Trilogy	Trilogi
+Infinity	Tak Terhingga
+Checkmate	Skakmat
+Demotion	Penurunan Peringkat
+Recharge	Isi Ulang
+Response	Respons
+Attract	Menarik
+Angry	Marah
+Cooking	Memasak
+Head Chef	Kepala Koki
+Give Dish	Beri Hidangan
+Dish File	Berkas Hidangan
+Server Cat	Kucing Pelayan
+Manager Cat	Kucing Manajer
+Greeter Cat	Kucing Penyambut
+Barista Cat	Kucing Barista
+Mascot Cat	Kucing Maskot
+Gift Mail	Surat Hadiah
+Mine	Ranjau
+Tester	Penguji
+×{0}/Times	×{0}/Kali
+
+# --- panel & pesan yang lebih panjang ---
+Refitting Room	Ruang Pemasangan Ulang
+Dispatch Room	Ruang Pengiriman
+Repair Device	Perbaiki Perangkat
+Artifact Recovery	Pemulihan Artefak
+Filter Supply Pile	Saring Tumpukan Pasokan
+Crystal Collection	Koleksi Kristal
+Military Simulation	Simulasi Militer
+Targeted Procurement	Pengadaan Bersasaran
+Shortlist Phase	Tahap Seleksi
+High-Speed Rail	Kereta Cepat
+Enter / Remove	Masuk / Keluarkan
+Please click on Groza	Klik Groza
+Welcome to Zucchero Café	Selamat datang di Zucchero Café
+The Zucchero Café Event has concluded	Event Zucchero Café sudah berakhir
+Confirm button highlighted on Chapter Selection screen	Tombol konfirmasi disorot di layar Pemilihan Bab
+The Opinion Wall is full. Please consolidate feedback first	Dinding Saran sudah penuh. Rangkum dulu masukannya
+Next rating unlocks after completing all missions [{0}/{1}]	Peringkat berikutnya terbuka setelah semua misi selesai [{0}/{1}]
+Click the Opinion Box to stick the note on the Feedback Wall	Klik Kotak Saran untuk menempelkan catatan di Dinding Masukan
+Unlocks <color=#8be0ff>60</color> paid rewards	Membuka <color=#8be0ff>60</color> hadiah berbayar
+At <color=#8be0ff>Level 30</color>, unlock the <color=#8be0ff>Journey Guardian Custom Gift Box</color>	Di <color=#8be0ff>Level 30</color>, buka <color=#8be0ff>Journey Guardian Custom Gift Box</color>
+All Exploration rewards obtained	Semua hadiah Penjelajahan sudah didapat
+No craftable commands available	Tidak ada komando yang bisa dibuat
+Currently collected commands ({0}/{1})	Komando yang terkumpul saat ini ({0}/{1})
+Only one command left, cannot be deleted	Tinggal satu komando, tidak bisa dihapus
+Insufficient points, occupation failed	Poin tidak cukup, penguasaan gagal
+Rewards will be acquired after settlement	Hadiah didapat setelah penyelesaian
+Obtained through Limited-Time Event	Didapat lewat Event Waktu Terbatas
+Limited Monthly Outfit Access Permissions	Izin Akses Outfit Bulanan Terbatas
+The current round's prize pool has been reset	Kolam hadiah ronde ini sudah diatur ulang
+The current round's prize pool has been opened	Kolam hadiah ronde ini sudah dibuka
+All rewards in this prize pool have been acquired	Semua hadiah di kolam hadiah ini sudah didapat
+First guarantee will guarantee the selected Doll	Jaminan pertama akan menjamin Doll yang dipilih
+Please select the team members to heal {0}/{1}	Pilih anggota regu yang akan disembuhkan {0}/{1}
+Click on the empty areas to close the interface	Klik area kosong untuk menutup antarmuka
+Connection failed! Please log in again! Code:3	Sambungan gagal! Silakan login lagi! Kode:3
+Battle connection failed, please try again	Sambungan pertempuran gagal, coba lagi
+Transporter has not been activated, cannot reverse	Transporter belum diaktifkan, tidak bisa mundur
+No valid target in range, only movement points obtained	Tidak ada sasaran sah dalam jangkauan, hanya poin gerak yang didapat
+Event has ended. Unclaimed rewards will be sent via mail	Event sudah berakhir. Hadiah yang belum diklaim akan dikirim lewat surat
+The command is full, a replacement needs to be purchased	Komandonya penuh, penggantinya harus dibeli
+The date has changed, home screen will automatically refresh	Tanggalnya berganti, layar utama akan otomatis disegarkan
+You have already joined another Platoon	Kau sudah bergabung dengan Platoon lain
+Currently using Refitting Room settings	Sedang memakai pengaturan Ruang Pemasangan Ulang
+Please input the Platoon mission statement	Masukkan pernyataan misi Platoon
+Feedback Received: <color=#d67849>{0} ×{1}</color>	Masukan Diterima: <color=#d67849>{0} ×{1}</color>
+I'm supporting <color=#3d68e2>{0}</color>!	Aku mendukung <color=#3d68e2>{0}</color>!
+Looks like this attempt was a failure	Sepertinya percobaan ini gagal
+The box has been successfully opened	Kotaknya berhasil dibuka

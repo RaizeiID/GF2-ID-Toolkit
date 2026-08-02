@@ -1,0 +1,89 @@
+# Nama item — barang generik satuan.
+#
+# Yang tidak masuk pola regex: bahan, konsumabel, tiket, mata uang. Semuanya
+# deskriptif dan sering dibaca di layar inventaris.
+#
+# Nama diri kosmetik, nama banner, dan nama efek plug-in TIDAK ada di sini —
+# sama seperti nama skill, itu dibiarkan Inggris.
+#
+# Istilah permainan tetap Inggris: Credit, Component, Attachment, Neural,
+# Doll, Elite, Supply, Buff.
+#range 0 130000
+
+Component	Komponen
+Data Fragment	Fragmen Data
+Data Connections	Koneksi Data
+Machine Parts	Suku Cadang Mesin
+Crystalline Silicon	Silikon Kristalin
+Glue	Lem
+Broken Circuit	Sirkuit Rusak
+Universal Calculation Module	Modul Perhitungan Universal
+Support Unit Upgrade Material	Bahan Peningkatan Unit Support
+Repair Toolbox	Kotak Perkakas Perbaikan
+Experience Box	Kotak Pengalaman
+Emergency Medical Kit	Kotak Medis Darurat
+Surplus Goods Crate	Peti Barang Sisa
+Three-day Benefit Supply Box	Kotak Pasokan Manfaat Tiga Hari
+Gathered Wish Gift Box	Kotak Hadiah Wish Terkumpul
+Credit Gift Set	Set Hadiah Credit
+Credit Token	Token Credit
+Wishing Coin	Koin Permohonan
+Harvest Coin	Koin Panen
+Cache Coin	Koin Cache
+Coin of Time	Koin Waktu
+Meow Meow Coin	Koin Meow Meow
+Silver Coins	Koin Perak
+Supply Stamp	Prangko Pasokan
+Special Intel	Intel Khusus
+Forbidden Intel	Intel Terlarang
+Treasure Hint	Petunjuk Harta
+Exclusive Title	Gelar Eksklusif
+Commission Letter	Surat Penugasan
+Joint Application Certificate	Sertifikat Pengajuan Bersama
+Bounty Hunter's License	Lisensi Pemburu Hadiah
+Short-Term Cache Key	Kunci Cache Jangka Pendek
+Universal Chain Key	Kunci Rantai Universal
+Universal Upgrade Key	Kunci Peningkatan Universal
+Action Key	Kunci Aksi
+Starwish Ticket	Tiket Starwish
+Rhapsody Ticket	Tiket Rhapsody
+Loop Ticket	Tiket Loop
+Concert Ticket	Tiket Konser
+Exhibition Hall Ticket	Tiket Balai Pameran
+Fighting Beast's Ticket	Tiket Beast Petarung
+Ticket Stub	Sobekan Tiket
+Theater Discount Coupon	Kupon Diskon Teater
+Glory Voucher	Voucher Glory
+Starring Voucher	Voucher Bintang Utama
+Show Voucher	Voucher Pertunjukan
+Time Voucher	Voucher Waktu
+Traceback Voucher	Voucher Traceback
+Oath Voucher	Voucher Sumpah
+Aphelion Voucher	Voucher Aphelion
+Couturier Surprise Voucher	Voucher Kejutan Couturier
+Hot Spring Vacation Voucher	Voucher Liburan Pemandian Air Panas
+Cooking Ingredient Pack	Paket Bahan Masakan
+Cooking Condiment Pack	Paket Bumbu Masakan
+Cooking Meal Kit Pack	Paket Perlengkapan Masakan
+Companion Neural Archive Self-Select Pack	Paket Pilih Sendiri Neural Archive Pendamping
+Companion Weapon Self-Select Pack	Paket Pilih Sendiri Senjata Pendamping
+Isomeric Common Key Self-Select Gift Box	Kotak Hadiah Pilih Sendiri Common Key Isomerik
+Daybreak Archive Custom Gift Box	Kotak Hadiah Kustom Archive Daybreak
+Daybreak Weapon Custom Gift Box	Kotak Hadiah Kustom Senjata Daybreak
+Elite Doll Neural Custom Gift Box	Kotak Hadiah Kustom Neural Doll Elite
+Thanksgiving Neural Archive Custom Gift Box	Kotak Hadiah Kustom Neural Archive Thanksgiving
+Thanksgiving Weapon Custom Gift Box	Kotak Hadiah Kustom Senjata Thanksgiving
+Light of Dawn Supply Package	Paket Pasokan Light of Dawn
+Break of Dawn Supply Package	Paket Pasokan Break of Dawn
+Meow Supplies	Perbekalan Meow
+Scavenge Supplies LV3	Perbekalan Pemulungan LV3
+Special Badges	Lencana Khusus
+Battle Badges	Lencana Pertempuran
+Collect Badges	Lencana Koleksi
+Service Badges	Lencana Layanan
+Gift Details	Rincian Hadiah
+Joyful Note	Catatan Riang
+Approval	Persetujuan
+Crystallization	Kristalisasi
+Tomato	Tomat
+Sea Salt Ricola	Ricola Garam Laut

@@ -1,0 +1,110 @@
+# Panel event gelombang 2 — menuntaskan 16 panel berikutnya (urutan dari panels.py).
+# Fokus: kluster [Access Details] (detail rate gacha senjata), Mystery Box,
+# sistem Rekreasi, Light and Shadow Agreement, dan Harvest Coins.
+#
+# Nama tetap Inggris: Custom Procurement, Self-Custom Procurement, Standard Procurement,
+# Elite Weapon, Retired Weapon, Withdrawal Receipts, Redundant Pieces, Wishing Coins,
+# Harvest Coins, Dispatch Voucher/Plan, Recreation Points/Node, Crew Deck, Mood Score,
+# Merkle Leaves, Mystery Box, Underground Brokers, Poludnitsa, Saga, Elmo,
+# dan seluruh nama senjata & event.
+#
+# Catatan: sebagian kalimat memuat "\n" LITERAL (dua karakter) yang dirender game
+# sebagai ganti baris. Mode literal "=" tidak menyentuh backslash, jadi ditulis apa adanya.
+#range 0 125000
+
+# ============ [Access Details] — daftar senjata dibawa backref ============
+^<color=#f26c1c>※ During the event, the limited Elite Weapons (.+) will be made available exclusively through the \[Custom Procurement - Weapon\] event\.$	<color=#f26c1c>※ Selama event, Elite Weapon terbatas \1 hanya tersedia lewat event [Custom Procurement - Weapon].
+^<size=22><b>\[Access Details\]</b></size> <color=#32434a><b>Self-Custom Procurement - Weapon</b> is a limited-time weapon access event\.</color> <color=#f26c1c>※ During the event, the limited Elite Weapons (.+) will be made available exclusively through the \[Custom Procurement - Weapon\] event\.$	<size=22><b>[Detail Access]</b></size> <color=#32434a><b>Self-Custom Procurement - Weapon</b> adalah event access senjata waktu terbatas.</color> <color=#f26c1c>※ Selama event, Elite Weapon terbatas \1 hanya tersedia lewat event [Custom Procurement - Weapon].
+^<color=#32434a><b>Self-Custom Procurement - Weapon</b> is a limited-time weapon access event\.</color> <color=#f26c1c>※ During the event, the limited Elite Weapons (.+) will be made available exclusively through the \[Custom Procurement - Weapon\] event\.$	<color=#32434a><b>Self-Custom Procurement - Weapon</b> adalah event access senjata waktu terbatas.</color> <color=#f26c1c>※ Selama event, Elite Weapon terbatas \1 hanya tersedia lewat event [Custom Procurement - Weapon].
+^After the event ends, the Elite Weapons (.+) will not be added to \[Standard Procurement\]\.</color>$	Setelah event berakhir, Elite Weapon \1 tidak akan ditambahkan ke [Standard Procurement].</color>
+=After the event ends, these Elite Weapons will not be added to [Standard Procurement].</color>	Setelah event berakhir, Elite Weapon ini tidak akan ditambahkan ke [Standard Procurement].</color>
+=<size=22><b>[Access Details]</b></size>	<size=22><b>[Detail Access]</b></size>
+=<color=#32434a><b>Self-Custom Procurement - Weapon</b> is a limited-time weapon access event.</color>	<color=#32434a><b>Self-Custom Procurement - Weapon</b> adalah event access senjata waktu terbatas.</color>
+=<color=#32434a><b>Custom Procurement - Weapon</b> is a limited-time weapon access event</color>.	<color=#32434a><b>Custom Procurement - Weapon</b> adalah event access senjata waktu terbatas</color>.
+
+# --- judul bagian & rate ---
+=- Elite Weapon Drop Rate Details:	- Detail Drop Rate Elite Weapon:
+=- Standard Doll and Weapon Drop Rate Details:	- Detail Drop Rate Doll dan Senjata Standard:
+=- Detailed Rules	- Aturan Rinci
+=In this banner, the base drop rate of obtaining an Elite Weapon is <color=#EDA51C>{0}{1}{2}</color>, with a total drop rate (including guaranteed accesses) of <color=#EDA51C>{3}</color> for Elite Weapons.	Di banner ini, drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>{0}{1}{2}</color>, dengan total drop rate (termasuk access jaminan) <color=#EDA51C>{3}</color> untuk Elite Weapon.
+=In this banner, the base drop rate of obtaining a standard weapon is <color=#AC65E8>{4}{5}{6}</color>, with a total drop rate (including guaranteed accesses) of <color=#AC65E8>{7}</color> for standard weapons.	Di banner ini, drop rate dasar mendapat senjata standar adalah <color=#AC65E8>{4}{5}{6}</color>, dengan total drop rate (termasuk access jaminan) <color=#AC65E8>{7}</color> untuk senjata standar.
+=In this banner, the base drop rate of obtaining an Elite Weapon is <color=#EDA51C>[VAL1]</color>, with a total drop rate (including guaranteed accesses) of <color=#EDA51C>[VAL2]</color> for Elite Weapons.	Di banner ini, drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL1]</color>, dengan total drop rate (termasuk access jaminan) <color=#EDA51C>[VAL2]</color> untuk Elite Weapon.
+=In this banner, the base drop rate of obtaining a standard weapon is <color=#AC65E8>[VAL3]</color>, with a total drop rate (including guaranteed accesses) of <color=#AC65E8>[VAL4]</color> for standard weapons.	Di banner ini, drop rate dasar mendapat senjata standar adalah <color=#AC65E8>[VAL3]</color>, dengan total drop rate (termasuk access jaminan) <color=#AC65E8>[VAL4]</color> untuk senjata standar.
+=- Elite Weapon Drop Rate Details:\nIn this banner, the base drop rate of obtaining an Elite Weapon is <color=#EDA51C>{0}{1}{2}</color>, with a total drop rate (including guaranteed accesses) of <color=#EDA51C>{3}</color> for Elite Weapons.	- Detail Drop Rate Elite Weapon:\nDi banner ini, drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>{0}{1}{2}</color>, dengan total drop rate (termasuk access jaminan) <color=#EDA51C>{3}</color> untuk Elite Weapon.
+=- Standard Doll and Weapon Drop Rate Details:\nIn this banner, the base drop rate of obtaining a standard weapon is <color=#AC65E8>{4}{5}{6}</color>, with a total drop rate (including guaranteed accesses) of <color=#AC65E8>{7}</color> for standard weapons.	- Detail Drop Rate Doll dan Senjata Standard:\nDi banner ini, drop rate dasar mendapat senjata standar adalah <color=#AC65E8>{4}{5}{6}</color>, dengan total drop rate (termasuk access jaminan) <color=#AC65E8>{7}</color> untuk senjata standar.
+=- Elite Weapon Drop Rate Details:\nIn this banner, the base drop rate of obtaining an Elite Weapon is <color=#EDA51C>[VAL1]</color>, with a total drop rate (including guaranteed accesses) of <color=#EDA51C>[VAL2]</color> for Elite Weapons.	- Detail Drop Rate Elite Weapon:\nDi banner ini, drop rate dasar mendapat Elite Weapon adalah <color=#EDA51C>[VAL1]</color>, dengan total drop rate (termasuk access jaminan) <color=#EDA51C>[VAL2]</color> untuk Elite Weapon.
+=- Standard Doll and Weapon Drop Rate Details:\nIn this banner, the base drop rate of obtaining a standard weapon is <color=#AC65E8>[VAL3]</color>, with a total drop rate (including guaranteed accesses) of <color=#AC65E8>[VAL4]</color> for standard weapons.	- Detail Drop Rate Doll dan Senjata Standard:\nDi banner ini, drop rate dasar mendapat senjata standar adalah <color=#AC65E8>[VAL3]</color>, dengan total drop rate (termasuk access jaminan) <color=#AC65E8>[VAL4]</color> untuk senjata standar.
+
+# --- aturan jaminan ---
+=In this banner, every 10 accesses guarantees either a standard or Elite Weapon.	Di banner ini, tiap 10 access dijamin mendapat senjata standar atau Elite Weapon.
+=In this banner, if you do not obtain an Elite Weapon within 50 consecutive accesses, the drop rate of obtaining an Elite Weapon will increase, and every 70 accesses guarantees an Elite Weapon.	Di banner ini, kalau kamu tidak mendapat Elite Weapon dalam 50 access berturut-turut, drop rate Elite Weapon akan naik, dan tiap 70 access dijamin mendapat Elite Weapon.
+=In this banner, if you do not obtain an Elite Weapon within 50 consecutive accesses, the drop rate of obtaining an Elite Weapon will increase.	Di banner ini, kalau kamu tidak mendapat Elite Weapon dalam 50 access berturut-turut, drop rate Elite Weapon akan naik.
+=Every 70 accesses guarantees an Elite Weapon.	Tiap 70 access dijamin mendapat Elite Weapon.
+=Once an Elite Weapon is obtained at any time, the count resets, and the drop rate of obtaining an Elite Weapon returns to the base rate.	Begitu Elite Weapon didapat kapan pun, hitungannya direset dan drop rate Elite Weapon kembali ke rate dasar.
+=If the Elite Weapon obtained is not the featured Elite Weapon, the next guaranteed Elite Weapon will be the featured Elite Weapon.	Kalau Elite Weapon yang didapat bukan Elite Weapon unggulan, Elite Weapon jaminan berikutnya dipastikan yang unggulan.
+=The guarantee count for this banner does not carry over and is independent of other banners.	Hitungan jaminan banner ini tidak terbawa dan terpisah dari banner lain.
+=The probability for obtaining each Elite Weapon is the same.	Probabilitas mendapat tiap Elite Weapon adalah sama.
+=The probability for obtaining each standard weapon is the same.	Probabilitas mendapat tiap senjata standar adalah sama.
+=The probability of obtaining a standard weapon is <color=#AC65E8>[VAL5]</color> (with a total combined probability of <color=#AC65E8>[VAL6]</color> after including the guarantee).	Probabilitas mendapat senjata standar adalah <color=#AC65E8>[VAL5]</color> (dengan total probabilitas gabungan <color=#AC65E8>[VAL6]</color> setelah menghitung jaminan).
+=The probability of obtaining an Elite Weapon is <color=#EDA51C>[VAL7]</color> (with a total combined probability of <color=#EDA51C>[VAL8]</color> after including the guarantee).	Probabilitas mendapat Elite Weapon adalah <color=#EDA51C>[VAL7]</color> (dengan total probabilitas gabungan <color=#EDA51C>[VAL8]</color> setelah menghitung jaminan).
+=The probability increases by <color=#EDA51C>[VAL9]</color> for the next access and continues increasing by the same amount for every access thereafter.	Probabilitasnya naik <color=#EDA51C>[VAL9]</color> untuk access berikutnya dan terus naik dengan jumlah sama untuk tiap access setelahnya.
+=In this banner, each time you obtain a Retired Weapon, you will receive 2 Withdrawal Receipts.	Di banner ini, tiap kali mendapat Retired Weapon, kamu menerima 2 Withdrawal Receipts.
+=Each time you obtain a standard doll or weapon, you will receive 12 Redundant Pieces.	Tiap kali mendapat Doll atau senjata standar, kamu menerima 12 Redundant Pieces.
+=Each time you obtain an Elite Doll or Weapon, you will receive 60 Redundant Pieces.	Tiap kali mendapat Elite Doll atau Weapon, kamu menerima 60 Redundant Pieces.
+=Each time you obtain an Elite Doll or Weapon, you will receive 60 Redundant Pieces.\n	Tiap kali mendapat Elite Doll atau Weapon, kamu menerima 60 Redundant Pieces.\n
+
+# ============ [Mystery Box Description] ============
+=<size=22><b>[Mystery Box Description]</b></size>	<size=22><b>[Deskripsi Mystery Box]</b></size>
+=A mysterious electronic device located on the Elmo, decorated in a vibrant style in order to tempt people to try it out.	Perangkat elektronik misterius di Elmo, dihias dengan gaya mencolok supaya orang tergoda mencobanya.
+=You can spend Wishing Coins to win various items.	Kamu bisa memakai Wishing Coins untuk memenangkan berbagai item.
+=- Mystery Box Detailed Rules	- Aturan Rinci Mystery Box
+=Whenever you make a draw from the Mystery Box, there is a chance to win a standard, rare, or limited prize.	Tiap kali menarik dari Mystery Box, ada peluang memenangkan hadiah standar, rare, atau terbatas.
+=Detailed probabilities are as follows:	Probabilitas rincinya sebagai berikut:
+=Whenever a draw is made from the Mystery Box, the combined probability of winning a limited prize is [VAL1].	Tiap kali menarik dari Mystery Box, probabilitas gabungan memenangkan hadiah terbatas adalah [VAL1].
+=When a limited prize is won, you are guaranteed to obtain 1 elite Doll Peritya.	Saat hadiah terbatas dimenangkan, kamu dijamin mendapat 1 Doll elite Peritya.
+=Whenever a draw is made from the Mystery Box, the combined probability of winning a rare prize is [VAL2].	Tiap kali menarik dari Mystery Box, probabilitas gabungan memenangkan hadiah rare adalah [VAL2].
+=When a rare prize is won, there is a random and equal chance to obtain one of the following Standard weapons: [Hare], [.50 Nemesis], [.380 Curva], [Vepr-12], [OTs-14], [MP7H1], and [Pecheneg-SP].	Saat hadiah rare dimenangkan, ada peluang acak dan setara untuk mendapat salah satu senjata Standard berikut: [Hare], [.50 Nemesis], [.380 Curva], [Vepr-12], [OTs-14], [MP7H1], dan [Pecheneg-SP].
+=Whenever a draw is made from the Mystery Box, the combined probability of winning a standard prize is [VAL3].	Tiap kali menarik dari Mystery Box, probabilitas gabungan memenangkan hadiah standar adalah [VAL3].
+=Among them, the probability of obtaining [Sardis Gold ×6,000] is [VAL4], the probability of obtaining [Combat Report ×6,000] is [VAL5], the probability of obtaining [Analysis Blueprint ×6,000] is [VAL6], the probability of obtaining [Stock Boost Bar T1 ×8] is [VAL7], the probability of obtaining [Stock Boost Bar T2 ×2] is [VAL8], the probability of obtaining [Stock Boost Bar T3 ×1] is [VAL9], the probability of obtaining [Transcription Conductor III ×8] is [VAL10], the probability of obtaining [Transcription Conductor IV ×7] is [VAL11], the probability of obtaining [Transcription Conductor V ×4] is [VAL12], the probability of obtaining [Transcription Conductor VI ×3] is [VAL13], and the probability of obtaining [Standard Memory Stick ×3] is [VAL14].	Di antaranya, probabilitas mendapat [Sardis Gold ×6,000] adalah [VAL4], [Combat Report ×6,000] adalah [VAL5], [Analysis Blueprint ×6,000] adalah [VAL6], [Stock Boost Bar T1 ×8] adalah [VAL7], [Stock Boost Bar T2 ×2] adalah [VAL8], [Stock Boost Bar T3 ×1] adalah [VAL9], [Transcription Conductor III ×8] adalah [VAL10], [Transcription Conductor IV ×7] adalah [VAL11], [Transcription Conductor V ×4] adalah [VAL12], [Transcription Conductor VI ×3] adalah [VAL13], dan [Standard Memory Stick ×3] adalah [VAL14].
+=As the Mystery Box remains a prototype and cannot handle frequent usage, the rewards from it can only be collected up to a maximum of 100 times per week.	Karena Mystery Box masih prototipe dan tidak tahan pemakaian sering, hadiahnya hanya bisa diambil maksimal 100 kali per minggu.
+
+# ============ [Recreation System Explanation] ============
+=<size=22><b>[Recreation System Explanation]</b></size>	<size=22><b>[Penjelasan Sistem Rekreasi]</b></size>
+=Various activities on the Crew Deck generate Recreation Points.	Berbagai aktivitas di Crew Deck menghasilkan Recreation Points.
+=The detailed means of acquiring Recreation Points are as follows:	Cara mendapatkan Recreation Points secara rinci sebagai berikut:
+=- [40 Recreation Points]: Dreamscape, Delicious Cuisine, Tea Time	- [40 Recreation Points]: Dreamscape, Delicious Cuisine, Tea Time
+=- [20 Recreation Points]: Dulcet Whisper, triggering Interludes, upgrading dishes, upgrading drinks at the Counter, unlocking Private Meeting logs, building on the Crew Deck	- [20 Recreation Points]: Dulcet Whisper, memicu Interludes, meningkatkan hidangan, meningkatkan minuman di Counter, membuka log Private Meeting, membangun di Crew Deck
+=- [10 Recreation Points]: Playing Crimson Arcade games, gaining Affinity points	- [10 Recreation Points]: Main game Crimson Arcade, mendapat poin Affinity
+=- [5 Recreation Points]: Making edits on the Crew Deck, daily conversations	- [5 Recreation Points]: Melakukan edit di Crew Deck, percakapan harian
+=The first interaction each day grants additional [Mood Score] and [Merkle Leaves].	Interaksi pertama tiap hari memberi tambahan [Mood Score] dan [Merkle Leaves].
+=Each week, you can unlock [Recreation Node] rewards by gaining [Recreation Points].	Tiap minggu, kamu bisa membuka hadiah [Recreation Node] dengan mengumpulkan [Recreation Points].
+=A maximum of 100 Recreation Points can be gained per day.	Maksimal 100 Recreation Points bisa didapat per hari.
+=[Recreation Node] rewards will reset at 05:00 a.m.	Hadiah [Recreation Node] direset pukul 05:00
+=every Monday.	tiap Senin.
+
+# ============ [Intro] Light and Shadow Agreement ============
+=<size=20>An investment agreement provided by Poludnitsa and Saga.	<size=20>Perjanjian investasi yang disediakan Poludnitsa dan Saga.
+=Once signed, you can obtain massive returns for a very small cost.	Setelah ditandatangani, kamu bisa mendapat imbal hasil besar dengan biaya sangat kecil.
+=Of course, if you are willing to make additional investments, high-value rebates await you.	Tentu saja, kalau kamu bersedia berinvestasi lebih, rabat bernilai tinggi menantimu.
+=Once activated, you will receive special assistance from the Underground Brokers for a period of time.	Setelah diaktifkan, kamu akan menerima bantuan khusus dari Underground Brokers untuk jangka waktu tertentu.
+="Light and Shadow Agreement" Event Period: <color=#F26C1C>2026/4/28 08:00:00 - 2026/5/11 04:59:59</color>.	Periode Event "Light and Shadow Agreement": <color=#F26C1C>2026/4/28 08:00:00 - 2026/5/11 04:59:59</color>.
+=By accumulating logins for specified days during the event, players can claim free rewards and pay to unlock the "Advanced Incentive" rewards.	Dengan mengumpulkan login pada hari-hari tertentu selama event, pemain bisa mengklaim hadiah gratis dan membayar untuk membuka hadiah "Advanced Incentive".
+=After unlocking the "Advanced Incentive," the event end time will be extended to <color=#F26C1C>2026/5/18 04:59:59</color>.	Setelah membuka "Advanced Incentive," waktu berakhir event diperpanjang sampai <color=#F26C1C>2026/5/18 04:59:59</color>.
+=The cumulative status will update daily at 5:00.	Status kumulatif diperbarui tiap hari pukul 5:00.
+=After the event ends, the interface will close, and any unlocked rewards will automatically become invalid and will not be refunded.	Setelah event berakhir, antarmukanya ditutup, dan hadiah yang tidak terbuka otomatis hangus serta tidak dikembalikan.
+=After the event ends (calculated according to the extended time), unlocked but unclaimed rewards will be sent via mail.	Setelah event berakhir (dihitung berdasarkan waktu yang diperpanjang), hadiah yang sudah terbuka tapi belum diklaim akan dikirim lewat surat.
+=The mail will be automatically deleted after 15 days.</size>	Surat akan terhapus otomatis setelah 15 hari.</size>
+
+# ============ Harvest Coins / Dispatch Plan ============
+=<size=20>Complete missions to obtain [Harvest Coins].	<size=20>Selesaikan misi untuk mendapat [Harvest Coins].
+=[Harvest Coins] can be used to draw limited prizes and they can also be used to draw [Dispatch Vouchers] to have the dev team perform various challenges!</size>	[Harvest Coins] bisa dipakai untuk menarik hadiah terbatas dan juga menarik [Dispatch Vouchers] agar tim dev menjalankan berbagai tantangan!</size>
+=While missions are active, you can complete missions to obtain [Harvest Coins].	Selama misi aktif, kamu bisa menyelesaikan misi untuk mendapat [Harvest Coins].
+=You can proceed to the event webpage to use [Harvest Coins] to draw prizes.	Kamu bisa membuka halaman web event untuk memakai [Harvest Coins] menarik hadiah.
+=For more details and draw rules, please check the event webpage.	Untuk detail dan aturan penarikan, silakan cek halaman web event.
+=For every 1000 [Harvest Coins] Commanders spend, they will automatically gain 1 [Dispatch Voucher].	Tiap 1000 [Harvest Coins] yang dipakai Komandan, otomatis mendapat 1 [Dispatch Voucher].
+=[Dispatch Vouchers] can be used to vote in [Dispatch Plan].	[Dispatch Vouchers] bisa dipakai untuk memilih di [Dispatch Plan].
+=The dev team will abide by the dispatch suggestions of the Commanders and complete the most voted-for task on the [Dispatch Plan].	Tim dev akan mengikuti usulan para Komandan dan menyelesaikan tugas dengan suara terbanyak di [Dispatch Plan].
+=The voting results from [Dispatch Plan] will be computed based on data from all regions around the world.	Hasil pemungutan suara [Dispatch Plan] dihitung berdasarkan data dari semua region di seluruh dunia.
+=The results for the [Dispatch Plan] will be updated once per hour.	Hasil [Dispatch Plan] diperbarui sekali tiap jam.
+=The popularity score for the [Dispatch Plan] is positively correlated with the number of votes.	Skor popularitas [Dispatch Plan] berkorelasi positif dengan jumlah suara.
+=It only reflects the proportion of votes received and does not reflect the actual number of votes received.</size>	Ini hanya mencerminkan proporsi suara yang diterima, bukan jumlah suara sebenarnya.</size>

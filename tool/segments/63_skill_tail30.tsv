@@ -1,0 +1,80 @@
+# Deskripsi SKILL — putaran ketiga puluh ekor panjang.
+#
+# Bagian 4 dari lima berkas yang ditulis sekaligus (60-64). Tetap 1:1, harfiah ("=").
+#
+# Salah ketik permainan yang disalin apa adanya:
+#   "<color=#f26c1c>2%</color of Max HP"   (tag tutup rusak — kembaran baris 4% di berkas 50)
+#   "targeted Physical damage,  and gains"  (dua spasi)
+#range 0 130000
+
+# --- serangan ---
+=Selects <color=#f26c1c>the farthest</color> enemy target, deals physical damage equal to <color=#f26c1c>120%</color> of attack and teleports it to a tile within a <color=#f26c1c>5x5 area</color> around the user.	Memilih target musuh <color=#f26c1c>terjauh</color>, memberikan physical damage setara <color=#f26c1c>120%</color> Attack lalu memindahkannya ke tile dalam <color=#f26c1c>area 5x5</color> di sekitar pengguna.
+=Deals physical damage and teleports the target.	Memberikan physical damage lalu memindahkan target.
+=Selects the <color=#f26c1c>1 farthest</color> enemy target, dealing physical damage equal to <color=#f26c1c>120%</color> of attack, teleports it to a tile within a <color=#f26c1c>5x5 area</color> around self, and applies <color=#3487e0>{0}</color>.	Memilih <color=#f26c1c>1 target musuh terjauh</color>, memberikan physical damage setara <color=#f26c1c>120%</color> Attack, memindahkannya ke tile dalam <color=#f26c1c>area 5x5</color> di sekitar diri, lalu menerapkan <color=#3487e0>{0}</color>.
+=Deals physical damage, teleports the target, and applies <color=#3487e0>{0}</color>.	Memberikan physical damage, memindahkan target, lalu menerapkan <color=#3487e0>{0}</color>.
+=At the start of the unit's turn, if there is an enemy target within a straight line of <color=#f26c1c>8 tiles</color> from self, deals AoE physical damage equal to <color=#f26c1c>80%</color> of attack to the nearest enemy target in range.	Di awal giliran unit ini, jika ada target musuh dalam garis lurus <color=#f26c1c>8 tile</color> dari diri sendiri, memberikan AoE physical damage setara <color=#f26c1c>80%</color> Attack ke target musuh terdekat dalam jangkauan.
+=At the start of the user's turn, if there is an enemy target within a straight line of <color=#f26c1c>8 tiles</color> from self, deals AoE physical damage to the nearest enemy target in range.	Di awal giliran pengguna, jika ada target musuh dalam garis lurus <color=#f26c1c>8 tile</color> dari diri sendiri, memberikan AoE physical damage ke target musuh terdekat dalam jangkauan.
+=Selects 1 tile within <color=#f26c1c>5 tiles</color> to attack, applying <color=#3487e0>{0}</color> to all enemy targets within <color=#f26c1c>2 tiles</color>, dealing AoE physical damage equal to <color=#f26c1c>100%</color> of attack and applying <color=#3487e0>{1}</color> for <color=#f26c1c>2 turns</color>.	Memilih 1 tile <color=#f26c1c>dalam 5 tile</color> untuk diserang, menerapkan <color=#3487e0>{0}</color> ke semua target musuh <color=#f26c1c>dalam 2 tile</color>, memberikan AoE physical damage setara <color=#f26c1c>100%</color> Attack lalu menerapkan <color=#3487e0>{1}</color> selama <color=#f26c1c>2 giliran</color>.
+=Applies <color=#3487e0>{0}</color> to the target, deals AoE physical damage to the target and all enemy targets within <color=#f26c1c>2 tiles</color> and applies <color=#3487e0>{1}</color> to the target.	Menerapkan <color=#3487e0>{0}</color> ke target, memberikan AoE physical damage ke target dan semua target musuh <color=#f26c1c>dalam 2 tile</color> lalu menerapkan <color=#3487e0>{1}</color> ke target.
+=Deals AoE physical damage to the target and all enemy targets within <color=#f26c1c>2 tiles</color> and applies <color=#3487e0>{0}</color> and <color=#3487e0>{1}</color> to the target.	Memberikan AoE physical damage ke target dan semua target musuh <color=#f26c1c>dalam 2 tile</color> lalu menerapkan <color=#3487e0>{0}</color> dan <color=#3487e0>{1}</color> ke target.
+=Deal AoE physical damage equal to <color=#f26c1c>80%</color> of attack that ignores Cover to all enemy targets within a radius of <color=#f26c1c>3 to 5 tiles</color>.	Berikan AoE physical damage setara <color=#f26c1c>80%</color> Attack yang mengabaikan Cover ke semua target musuh dalam radius <color=#f26c1c>3 sampai 5 tile</color>.
+=Deal AoE physical damage that ignores Cover to all enemy targets within a radius of <color=#f26c1c>3 to 5 tiles</color>.	Berikan AoE physical damage yang mengabaikan Cover ke semua target musuh dalam radius <color=#f26c1c>3 sampai 5 tile</color>.
+=Deals AoE <color=#e67129>Burn damage</color> equal to <color=#f26c1c>40%</color> of attack to all enemy units on the battlefield.	Memberikan AoE <color=#e67129>Burn damage</color> setara <color=#f26c1c>40%</color> Attack ke semua unit musuh di medan tempur.
+=Deals AoE <color=#e67129>Burn damage</color> to all enemy units on the battlefield.	Memberikan AoE <color=#e67129>Burn damage</color> ke semua unit musuh di medan tempur.
+=Selects 1 enemy target <color=#f26c1c>within 9 tiles</color>, deals Physical damage equal to <color=#f26c1c>120%</color> of attack to it, and applies <color=#3487e0>{0}</color> for <color=#f26c1c>2 turns</color>.	Memilih 1 target musuh <color=#f26c1c>dalam 9 tile</color>, memberikan Physical damage setara <color=#f26c1c>120%</color> Attack kepadanya, lalu menerapkan <color=#3487e0>{0}</color> selama <color=#f26c1c>2 giliran</color>.
+=Selects any <color=#f26c1c>2 enemy targets</color> on the battlefield, deals Physical damage equal to <color=#f26c1c>80%</color> of attack to them, then generates <color=#3487e0>{0}</color> <color=#f26c1c>within 2 tiles</color> of them for <color=#f26c1c>2 turns</color>.	Memilih <color=#f26c1c>2 target musuh</color> mana pun di medan tempur, memberikan Physical damage setara <color=#f26c1c>80%</color> Attack kepada mereka, lalu menghasilkan <color=#3487e0>{0}</color> <color=#f26c1c>dalam 2 tile</color> dari mereka selama <color=#f26c1c>2 giliran</color>.
+=If an enemy unit within range deals AoE damage, launches a Counterattack against the target, dealing targeted Physical damage,  and gains 1 stack of <color=#3487e0>{0}</color>.	Jika unit musuh dalam jangkauan memberikan AoE damage, melancarkan Counterattack ke target itu, memberikan targeted Physical damage, lalu mendapatkan 1 stack <color=#3487e0>{0}</color>.
+=Effective range is increased by <color=#f26c1c>1 tile</color>.	Jangkauan efektifnya bertambah sebanyak <color=#f26c1c>1 tile</color>.
+=If only 1 target is hit, applies <color=#3487e0>{2}</color> for <color=#f26c1c>1 turn</color>.	Jika hanya 1 target yang terkena, menerapkan <color=#3487e0>{2}</color> selama <color=#f26c1c>1 giliran</color>.
+=<color=#3487e0>{0}</color> is now applied before the attack instead of after.	<color=#3487e0>{0}</color> kini diterapkan sebelum serangan, bukan sesudahnya.
+
+# --- stability & stat ---
+=When attacking, if stability is higher than the target's, applies <color=#3487e0>{0}</color> to the target.	Saat menyerang, jika Stability-nya lebih tinggi dari milik target, menerapkan <color=#3487e0>{0}</color> ke target.
+=When attacking, if stability index is higher than the target's, apply <color=#3487e0>{0}</color> to the target for <color=#f26c1c>2 turns</color>.	Saat menyerang, jika Stability Index-nya lebih tinggi dari milik target, menerapkan <color=#3487e0>{0}</color> ke target selama <color=#f26c1c>2 giliran</color>.
+=After suffering Stability Break, regains all stability at the start of the next turn.	Setelah mengalami Stability Break, memulihkan seluruh Stability di awal giliran berikutnya.
+=This effect is ignored when taking <color=#42cce0>Freeze damage</color>.	Efek ini diabaikan saat menerima <color=#42cce0>Freeze damage</color>.
+=Attack, defense, max HP, and stability are all increased by <color=#f26c1c>100%</color>.	Serangan, Defense, Max HP, dan Stability semuanya meningkat sebesar <color=#f26c1c>100%</color>.
+=Attack, defense, Max HP and stability are all increased.	Serangan, Defense, Max HP dan Stability semuanya meningkat.
+=If the target is inflicted with <color=#3487e0>{0}</color>, deal additional fixed damage equal to <color=#f26c1c>60%</color> of the target's current HP, as well as <color=#f26c1c>4 points</color> of stability damage.	Jika target terkena <color=#3487e0>{0}</color>, memberikan tambahan fixed damage setara <color=#f26c1c>60%</color> HP target saat ini, sekaligus <color=#f26c1c>4 poin</color> Stability damage.
+=If the target is inflicted with <color=#3487e0>{0}</color>, deals additional fixed damage and stability damage.	Jika target terkena <color=#3487e0>{0}</color>, memberikan tambahan fixed damage dan Stability damage.
+=For each <color=#3487e0>{0}</color> applied, gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{1}</color>.	Untuk setiap <color=#3487e0>{0}</color> yang diterapkan, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{1}</color>.
+=After taking damage, max HP is increased by <color=#f26c1c>5%</color>, stacking up to <color=#f26c1c>10 times</color>.	Setelah menerima damage, Max HP meningkat sebesar <color=#f26c1c>5%</color>, menumpuk sampai <color=#f26c1c>10 kali</color>.
+=After taking damage, damage taken is reduced by <color=#f26c1c>3%</color>, stacking up to <color=#f26c1c>10 times</color>.	Setelah menerima damage, damage yang diterima berkurang sebesar <color=#f26c1c>3%</color>, menumpuk sampai <color=#f26c1c>10 kali</color>.
+=After being healed, attack is increased by <color=#f26c1c>3%</color>, stacking up to <color=#f26c1c>10 times</color>.	Setelah disembuhkan, Attack meningkat sebesar <color=#f26c1c>3%</color>, menumpuk sampai <color=#f26c1c>10 kali</color>.
+=After being healed, damage dealt is increased by <color=#f26c1c>5%</color>, stacking up to <color=#f26c1c>10 times</color>.	Setelah disembuhkan, damage yang diberikan meningkat sebesar <color=#f26c1c>5%</color>, menumpuk sampai <color=#f26c1c>10 kali</color>.
+=When dealing damage, if this unit's HP is lower than <color=#f26c1c>80%</color>, damage dealt is further reduced by <color=#f26c1c>25%</color>.	Saat memberikan damage, jika HP unit ini di bawah <color=#f26c1c>80%</color>, damage yang diberikan berkurang lagi <color=#f26c1c>25%</color>.
+=Before attacking, if this unit's HP is greater than <color=#f26c1c>35%</color>, it takes fixed damage equal to <color=#f26c1c>10%</color> of initial max HP and the damage dealt by this attack is increased by <color=#f26c1c>20%</color>.	Sebelum menyerang, jika HP unit ini lebih dari <color=#f26c1c>35%</color>, dia menerima fixed damage setara <color=#f26c1c>10%</color> Max HP awal dan damage serangan ini meningkat sebesar <color=#f26c1c>20%</color>.
+=For <color=#f26c1c>each</color> <color=#2caadb>Flow Recovery</color> plugin possessed, attack is increased by <color=#f26c1c>5%</color>, stacking up to <color=#f26c1c>6 times</color>.	Untuk <color=#f26c1c>setiap</color> plugin <color=#2caadb>Flow Recovery</color> yang dimiliki, Attack meningkat sebesar <color=#f26c1c>5%</color>, menumpuk sampai <color=#f26c1c>6 kali</color>.
+=For <color=#f26c1c>each</color> <color=#2caadb>Flow Recovery</color> plugin possessed, Max HP is increased by <color=#f26c1c>5%</color>, stacking up to <color=#f26c1c>9 times</color>.	Untuk <color=#f26c1c>setiap</color> plugin <color=#2caadb>Flow Recovery</color> yang dimiliki, Max HP meningkat sebesar <color=#f26c1c>5%</color>, menumpuk sampai <color=#f26c1c>9 kali</color>.
+=<color=#f26c1c>Each time</color> a Doll is enhanced, damage dealt by <color=#3487e0>{0}</color> is increased by <color=#f26c1c>10%</color>.	<color=#f26c1c>Setiap kali</color> ada Doll yang ditingkatkan, damage yang diberikan <color=#3487e0>{0}</color> meningkat sebesar <color=#f26c1c>10%</color>.
+=<color=#f26c1c>Each time</color> a Doll is enhanced, <color=#3487e0>{0}</color>'s maximum stability is increased by <color=#f26c1c>1 point</color>.	<color=#f26c1c>Setiap kali</color> ada Doll yang ditingkatkan, Stability maksimum <color=#3487e0>{0}</color> bertambah sebesar <color=#f26c1c>1 poin</color>.
+
+# --- pemulihan & dukungan ---
+=At the end of the action, if HP is below <color=#f26c1c>50%</color>, restores HP equal to <color=#f26c1c>10%</color> of Max HP.	Di akhir aksi, jika HP di bawah <color=#f26c1c>50%</color>, memulihkan HP setara <color=#f26c1c>10%</color> Max HP.
+=At the end of action, gains <color=#3487e0>{0}</color> for 1 turn.	Di akhir aksi, mendapatkan <color=#3487e0>{0}</color> selama 1 giliran.
+=At the end of action, gains <color=#3487e0>{0}</color>.	Di akhir aksi, mendapatkan <color=#3487e0>{0}</color>.
+=Applies <color=#3487e0>{0}</color> to all allied units on the battlefield.	Menerapkan <color=#3487e0>{0}</color> ke semua unit sekutu di medan tempur.
+=Applies <color=#3487e0>{0}</color> to all allied units on the battlefield for <color=#f26c1c>2 turns</color>.	Menerapkan <color=#3487e0>{0}</color> ke semua unit sekutu di medan tempur selama <color=#f26c1c>2 giliran</color>.
+=After <color=#3487e0>{0}</color> performs an active attack, cleanses <color=#f26c1c>1</color> debuff from all ally units.	Setelah <color=#3487e0>{0}</color> melancarkan serangan aktif, membersihkan <color=#f26c1c>1</color> debuff dari semua unit sekutu.
+=After <color=#3487e0>{0}</color>'s active attack deals damage, it recovers HP equal to <color=#f26c1c>20%</color> of the damage from that attack.	Setelah serangan aktif <color=#3487e0>{0}</color> memberikan damage, dia memulihkan HP setara <color=#f26c1c>20%</color> damage serangan itu.
+=After <color=#3487e0>{0}</color> performs an active attack, it applies <color=#3487e0>{1}</color> to the enemy target for 1 turn.	Setelah <color=#3487e0>{0}</color> melancarkan serangan aktif, dia menerapkan <color=#3487e0>{1}</color> ke target musuh selama 1 giliran.
+=When an ally Doll takes damage, <color=#3487e0>{0}</color> shares <color=#f26c1c>50%</color> of the initial damage.	Saat Doll sekutu menerima damage, <color=#3487e0>{0}</color> ikut menanggung <color=#f26c1c>50%</color> damage awalnya.
+=When an ally normal unit dies, gain <color=#3487e0>{0}</color> and the killer gains <color=#3487e0>{1}</color>.	Saat unit sekutu biasa mati, mendapatkan <color=#3487e0>{0}</color> dan yang membunuhnya mendapatkan <color=#3487e0>{1}</color>.
+=After dying, heals <color=#3487e0>Amni's Leg</color> for <color=#f26c1c>2%</color of Max HP.	Setelah mati, menyembuhkan <color=#3487e0>Amni's Leg</color> sebesar <color=#f26c1c>2%</color of Max HP.
+
+# --- pergerakan & summon ---
+=After moving, generates <color=#3487e0>{0}</color> in the area of movement for <color=#f26c1c>2 turns</color>.	Setelah bergerak, menghasilkan <color=#3487e0>{0}</color> di area yang dilewati selama <color=#f26c1c>2 giliran</color>.
+=After moving, generates <color=#3487e0>{0}</color> in the area of movement.	Setelah bergerak, menghasilkan <color=#3487e0>{0}</color> di area yang dilewati.
+=After dealing damage <color=#f26c1c>3 times</color>, summons an Entropy Virus near self.	Setelah memberikan damage <color=#f26c1c>3 kali</color>, memanggil Entropy Virus di dekat diri sendiri.
+
+# --- spesifik karakter ---
+=If Yoohee has <color=#f26c1c>3 or more points</color> of Confectance Index, expends an additional <color=#f26c1c>2 points</color> of Confectance Index to ignore <color=#f26c1c>30%</color> of the target's defense for this attack.	Jika Yoohee memiliki <color=#f26c1c>3 poin atau lebih</color> Confectance Index, memakai tambahan <color=#f26c1c>2 poin</color> Confectance Index untuk mengabaikan <color=#f26c1c>30%</color> Defense target pada serangan ini.
+
+# --- teks internal ---
+=Substructure Basic Attack	Basic Attack Substruktur
+=Ultimate Assist talent	Talenta Ultimate Assist
+=Test 1: Regain Confectance Index at the end of the turn.	Tes 1: Mendapat kembali Confectance Index di akhir giliran.
+=Test 2: Regain Confectance Index at the end of the turn.	Tes 2: Mendapat kembali Confectance Index di akhir giliran.
+=Original Battle Mech 2 Remove Completion Marker	Hapus Penanda Selesai Battle Mech 2 Asli
+=Original Battle Mech 2 Remove Transmission Marker	Hapus Penanda Transmisi Battle Mech 2 Asli
+=Original Battle Mech 2 Remove Protection Command	Hapus Perintah Perlindungan Battle Mech 2 Asli

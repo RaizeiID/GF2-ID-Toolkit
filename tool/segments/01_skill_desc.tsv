@@ -1,0 +1,132 @@
+# Deskripsi skill & buff (id 90000-115000), diterjemahkan per KALIMAT.
+#
+# Mesin segment bersifat semua-atau-tidak: sebuah deskripsi hanya diubah kalau
+# SETIAP kalimatnya cocok dengan salah satu aturan di sini. Jadi tidak akan pernah
+# ada tooltip yang setengah Indonesia setengah Inggris.
+#
+# (<color=#[0-9a-fA-F]+>) menangkap tag warna utuh supaya markup-nya tidak rusak.
+#
+# Istilah tetap Inggris (lazim di komunitas gacha ID): buff, debuff, cleanse,
+# dispel, stack, damage, healing, tile, phase, Doll, HP, Stability Break,
+# Ultimate Skill, Cooldown, Physical, Electric, Burn, Hydro, Freeze, Corrosion,
+# Core Battlefield, Peripheral Battlefield, Crew Deck, Covenant, dan nama skill.
+#
+# Rentang = seluruh Tier 1. Kalimat deskripsi item ternyata tersebar dari id ~23.900
+# sampai ~115.500, bukan hanya di blok skill 90.000-115.000.
+#range 0 125000
+
+# --- boilerplate buff/debuff ---
+^Considered a buff\.$	Dianggap buff.
+^Considered a debuff\.$	Dianggap debuff.
+^Considered a buff, cannot be cleansed\.$	Dianggap buff, tidak bisa di-cleanse.
+^Considered a debuff, cannot be cleansed\.$	Dianggap debuff, tidak bisa di-cleanse.
+^Considered a debuff, can be cleansed\.$	Dianggap debuff, bisa di-cleanse.
+^Considered a defense debuff\.$	Dianggap debuff Defense.
+^Considered a Burn buff, cannot be cleansed\.$	Dianggap buff Burn, tidak bisa di-cleanse.
+^Cannot be cleansed\.$	Tidak bisa di-cleanse.
+^This buff cannot be cleansed\.$	Buff ini tidak bisa di-cleanse.
+^This debuff cannot be cleansed\.$	Debuff ini tidak bisa di-cleanse.
+^This effect cannot be cleansed\.$	Efek ini tidak bisa di-cleanse.
+^Cannot be dispelled\.$	Tidak bisa di-dispel.
+^Buff cannot be dispelled\.$	Buff tidak bisa di-dispel.
+^Debuff cannot be dispelled\.$	Debuff tidak bisa di-dispel.
+^This is considered a buff\.$	Ini dianggap buff.
+^This is considered a buff, cannot be cleansed\.$	Ini dianggap buff, tidak bisa di-cleanse.
+
+# --- stacking ---
+^Stackable\.$	Bisa ditumpuk.
+^Can be stacked\.$	Bisa ditumpuk.
+^Does not stack\.$	Tidak bisa ditumpuk.
+^This effect can stack\.$	Efek ini bisa ditumpuk.
+^Can be stacked, considered a buff, cannot be cleansed\.$	Bisa ditumpuk, dianggap buff, tidak bisa di-cleanse.
+^Maximum of (<color=#[0-9a-fA-F]+>)(\d+) stacks?</color>\.$	Maksimal \1\2 stack</color>.
+^Stacks up to (<color=#[0-9a-fA-F]+>)(\d+) times?</color>\.$	Bisa ditumpuk hingga \1\2 kali</color>.
+^This effect stacks up to (<color=#[0-9a-fA-F]+>)(\d+) times?</color>\.$	Efek ini bisa ditumpuk hingga \1\2 kali</color>.
+^This effect has a maximum of (<color=#[0-9a-fA-F]+>)(\d+) stacks?</color>\.$	Efek ini maksimal \1\2 stack</color>.
+
+# --- naik/turun nilai ---
+^Damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan meningkat sebesar \1\2%</color>.
+^Damage dealt is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan berkurang sebesar \1\2%</color>.
+^Damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima berkurang sebesar \1\2%</color>.
+^Damage taken is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diterima meningkat sebesar \1\2%</color>.
+^Increase damage dealt by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage yang diberikan \1\2%</color>.
+^Increases healing done by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Healing yang diberikan meningkat sebesar \1\2%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color>.
+^Attack is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack berkurang sebesar \1\2%</color>.
+^Defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense meningkat sebesar \1\2%</color>.
+^Defense is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense berkurang sebesar \1\2%</color>.
+^Mobility is reduced by (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>\.$	Mobility berkurang sebesar \1\2 tile</color>.
+^Mobility is increased by (<color=#[0-9a-fA-F]+>)(\d+) tiles?</color>\.$	Mobility meningkat sebesar \1\2 tile</color>.
+^Increase attack, defense and HP by ([\d.]+)%\.$	Tingkatkan serangan, Defense, dan HP sebesar \1%.
+
+# --- damage per jenis ---
+^Damage dealt by Dolls is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari Doll meningkat sebesar \1\2%</color>.
+^Damage dealt by (\w+) Dolls is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari Doll \1 meningkat sebesar \2\3%</color>.
+^Damage dealt by active attacks is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari serangan aktif meningkat sebesar \1\2%</color>.
+^Critical damage dealt by basic attacks is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Damage dari serangan dasar meningkat sebesar \1\2%</color>.
+^Phase damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage phase yang diberikan meningkat sebesar \1\2%</color>.
+^Physical damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage Physical yang diberikan meningkat sebesar \1\2%</color>.
+^Burn damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage Burn yang diberikan meningkat sebesar \1\2%</color>.
+^Ultimate Skill damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage Ultimate Skill meningkat sebesar \1\2%</color>.
+^Phase Enhancement and Phase Resistance is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Phase Enhancement dan Phase Resistance meningkat sebesar \1\2%</color>.
+^Damage and healing effects from this unit's physical summons are increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dan healing dari summon fisik unit ini meningkat sebesar \1\2%</color>.
+^Damage multiplier is increased to (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage multiplier naik menjadi \1\2%</color>.
+^Deals (<color=#[0-9a-fA-F]+>)(\w+) damage</color>\.$	Memberikan \1\2 damage</color>.
+^Deals Physical damage\.$	Memberikan Physical damage.
+
+# --- durasi & pemicu ---
+^This effect lasts for (<color=#[0-9a-fA-F]+>)(\d+) turns?</color>\.$	Efek ini bertahan \1\2 giliran</color>.
+^This effect can trigger up to (<color=#[0-9a-fA-F]+>)(\d+) times?</color> per turn\.$	Efek ini bisa terpicu hingga \1\2 kali</color> per giliran.
+^This effect can be triggered up to (<color=#[0-9a-fA-F]+>)(\d+) times?</color> per turn\.$	Efek ini bisa terpicu hingga \1\2 kali</color> per giliran.
+^This can be triggered up to (<color=#[0-9a-fA-F]+>)(\d+) times?</color> per turn\.$	Ini bisa terpicu hingga \1\2 kali</color> per giliran.
+^This effect can trigger at most (<color=#[0-9a-fA-F]+>)once</color> per turn\.$	Efek ini bisa terpicu paling banyak \1sekali</color> per giliran.
+^Triggers (<color=#[0-9a-fA-F]+>)(\d+)</color> times?\.$	Terpicu \1\2</color> kali.
+^Cooldown: (<color=#[0-9a-fA-F]+>)(\d+) turns?</color>\.$	Cooldown: \1\2 giliran</color>.
+^Each use of this skill can hit (<color=#[0-9a-fA-F]+>)(\d+)</color> targets\.$	Setiap penggunaan skill ini bisa mengenai \1\2</color> target.
+^This damage can be shared\.$	Damage ini bisa dibagi.
+
+# --- state & stability ---
+^Gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Mendapat \1\2</color>.
+^At the start of battle, gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal pertempuran, mendapatkan \1\2</color>.
+^At the start of the battle, gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Di awal pertempuran, mendapatkan \1\2</color>.
+^At the start of battle, enter the (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> state\.$	Di awal pertempuran, masuk ke state \1\2</color>.
+^Currently in (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Saat ini dalam \1\2</color>.
+^Unable to receive stability restoration effects during Stability Break\.$	Tidak bisa menerima efek pemulihan Stability selama Stability Break.
+^Restores stability to full (<color=#[0-9a-fA-F]+>)(\d+) turns?</color> after Stability Break\.$	Memulihkan Stability penuh \1\2 giliran</color> setelah Stability Break.
+^Restore stability index to full (<color=#[0-9a-fA-F]+>)(\d+) turns?</color> after Stability Break\.$	Memulihkan Stability Index penuh \1\2 giliran</color> setelah Stability Break.
+^Restores stability index to full (<color=#[0-9a-fA-F]+>)(\d+) turns?</color> after Stability Break\.$	Memulihkan Stability Index penuh \1\2 giliran</color> setelah Stability Break.
+^Recovers all points of stability (<color=#[0-9a-fA-F]+>)(\d+) turns?</color> after entering Stability Break\.$	Memulihkan seluruh poin Stability \1\2 giliran</color> setelah masuk Stability Break.
+^When stability is (<color=#[0-9a-fA-F]+>)greater than 0</color>, damage taken is reduced\.$	Saat Stability \1lebih dari 0</color>, damage yang diterima berkurang.
+^When stability is (<color=#[0-9a-fA-F]+>)greater than 0</color>, damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat Stability \1lebih dari 0</color>, damage yang diterima berkurang sebesar \2\3%</color>.
+
+# --- kondisi bersyarat ---
+^If the target is not on a phase tile, Physical damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika target tidak berada di phase tile, damage Physical yang diberikan meningkat sebesar \1\2%</color>.
+^If the target's current HP percentage is above (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, increases damage dealt to them by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika persentase HP target saat ini di atas \1\2%</color>, damage ke target meningkat sebesar \3\4%</color>.
+^When standing on any phase tiles, damage dealt or healing given is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat berdiri di phase tile mana pun, damage atau healing yang diberikan meningkat sebesar \1\2%</color>.
+^If a single attack hits (<color=#[0-9a-fA-F]+>)(\d+)</color> or more targets, damage dealt by that attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika satu serangan mengenai \1\2</color> target atau lebih, damage serangan itu meningkat sebesar \3\4%</color>.
+^Active Physical attacks ignore (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Serangan Physical aktif mengabaikan \1\2%</color> Defense target.
+^Damage dealt to enemy units on the Core Battlefield is increased\.$	Damage ke unit musuh di Core Battlefield meningkat.
+^Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased\.$	Setelah semua unit musuh di Peripheral Battlefield tewas, damage dari unit ini meningkat.
+
+# --- deskripsi item & hadiah ---
+^After obtaining, it can be swapped with other accessories for the same slot\.$	Setelah didapat, bisa ditukar dengan aksesori lain untuk slot yang sama.
+^Can be used to change the corresponding weapon skin\.$	Bisa dipakai untuk mengganti weapon skin terkait.
+^Can be used to change the corresponding attachment skin\.$	Bisa dipakai untuk mengganti attachment skin terkait.
+^Can be used to replace the corresponding weapon skin\.$	Bisa dipakai untuk mengganti weapon skin terkait.
+^This can be used to replace the corresponding weapon skin\.$	Ini bisa dipakai untuk mengganti weapon skin terkait.
+^The attachments from this chest have higher base attributes\.$	Attachment dari peti ini memiliki atribut dasar lebih tinggi.
+^The appearance will be randomly selected from any base design\.$	Tampilannya dipilih acak dari desain dasar mana pun.
+^A new Doll and experience\.$	Doll baru dan pengalaman.
+^A heartfelt return gift from your Doll, obtained after forming a Covenant\.$	Hadiah balasan tulus dari Doll-mu, didapat setelah membentuk Covenant.
+^Can be placed on the Crew Deck\.$	Bisa ditempatkan di Crew Deck.
+^It must be used at the Crew Deck's Counter\.$	Harus dipakai di Counter Crew Deck.
+^A rare weapon blueprint with clean lines outlining the weapon's contours\.$	Blueprint senjata rare dengan garis bersih yang menegaskan kontur senjata.
+^A common weapon blueprint with clean lines outlining the weapon's contours\.$	Blueprint senjata common dengan garis bersih yang menegaskan kontur senjata.
+^An Affinity Key which grants the corresponding skill when equipped\.$	Affinity Key yang memberikan skill terkait saat dipasang.
+^A Universal Key: Skill, which grants the corresponding skill when equipped\.$	Universal Key: Skill, yang memberikan skill terkait saat dipasang.
+^Can be used when changing namecard backgrounds\.$	Bisa dipakai saat mengganti latar namecard.
+^A namecard background unlocked by purchasing the current paid tier of Voyage Logs\.$	Latar namecard yang terbuka dengan membeli tier berbayar Voyage Logs saat ini.
+^Obtained by establishing a covenant with a Doll and having your affinity reach a certain level\.$	Didapat dengan membentuk covenant bersama Doll dan afinitas mencapai level tertentu.
+^Changes the Step Bench's appearance after use\.$	Mengubah tampilan Step Bench setelah dipakai.
+^Please use with care!$	Gunakan dengan bijak!
+^Share your feelings with her\.$	Bagikan perasaanmu padanya.

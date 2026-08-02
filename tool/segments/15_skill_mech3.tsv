@@ -1,0 +1,51 @@
+# Deskripsi skill — keluarga mekanik putaran ketiga, dipilih dari daftar
+# "tinggal kurang satu kalimat" yang dikelompokkan per template.
+#
+# Nama elemen (Electric, Hydro, Burn, Freeze, Corrosion, Physical, Polyphase)
+# ditangkap backref supaya tetap Inggris.
+#range 0 130000
+
+# --- kondisi tile (beberapa varian penulisan di sumbernya) ---
+^When attacking a target on an? (\w+) tile, an? (\w+) tile or a Polyphase tile based on either of those tiles,\s*damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menyerang target di tile \1, tile \2, atau tile Polyphase turunan salah satunya, damage yang diberikan meningkat sebesar \3\4%</color>.
+^If attacking a target on an? (\w+) tile, an? (\w+) tile, or a Polyphase tile derived from either of those tiles, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika menyerang target di tile \1, tile \2, atau tile Polyphase turunan salah satunya, damage yang diberikan meningkat sebesar \3\4%</color>.
+^When attacking on a target standing on (\w+) tiles, (\w+) tiles or Polyphase tiles derived from either of these, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menyerang target yang berdiri di tile \1, tile \2, atau tile Polyphase turunan salah satunya, damage yang diberikan meningkat sebesar \3\4%</color>.
+^When attacking a target on an? (\w+) tile, (\w+) tile or Polyphase tile derived from either of those, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menyerang target di tile \1, tile \2, atau tile Polyphase turunan salah satunya, damage yang diberikan meningkat sebesar \3\4%</color>.
+^When attacking a unit on an? (\w+) tile, an? (\w+) tile or Polyphase tile derived from either of these, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menyerang unit di tile \1, tile \2, atau tile Polyphase turunan salah satunya, damage yang diberikan meningkat sebesar \3\4%</color>.
+
+# --- stat dalam poin (bukan persen) ---
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Attack meningkat sebesar \1\2 poin</color>.
+^Max HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Max HP meningkat sebesar \1\2 poin</color>.
+^Critical rate is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Rate meningkat sebesar \1\2%</color>.
+^Increase healing by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan healing \1\2%</color>.
+^Damage dealt increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan meningkat sebesar \1\2%</color>.
+^Damage dealt reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage yang diberikan berkurang sebesar \1\2%</color>.
+^Increase targeted damage from active skills by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage tertarget dari skill aktif \1\2%</color>.
+^Physical and phase damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage Physical dan phase yang diberikan meningkat sebesar \1\2%</color>.
+
+# --- stat gabungan ---
+^Defense is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Defense meningkat sebesar \1\2%</color> dan damage yang diterima berkurang sebesar \3\4%</color>.
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> and AoE damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Attack meningkat sebesar \1\2%</color> dan damage AoE yang diberikan meningkat sebesar \3\4%</color>.
+^Stability damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> and maximum stability is increased by (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color>\.$	Damage Stability yang diterima berkurang sebesar \1\2 poin</color> dan Stability maksimum meningkat sebesar \3\4 poin</color>.
+
+# --- stacking ---
+^Attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, stacking up to (<color=#[0-9a-fA-F]+>)([\d.]+) times</color>\.$	Attack meningkat sebesar \1\2%</color>, bisa ditumpuk hingga \3\4 kali</color>.
+^Damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, stacking up to (<color=#[0-9a-fA-F]+>)([\d.]+) times</color>\.$	Damage yang diberikan meningkat sebesar \1\2%</color>, bisa ditumpuk hingga \3\4 kali</color>.
+^Active skill damage increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, effective (<color=#[0-9a-fA-F]+>)once</color>\.$	Damage skill aktif meningkat sebesar \1\2%</color>, berlaku \3sekali</color>.
+^Active healing and damage dealt increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, effective (<color=#[0-9a-fA-F]+>)once</color>\.$	Healing aktif dan damage yang diberikan meningkat sebesar \1\2%</color>, berlaku \3sekali</color>.
+
+# --- kondisi elemen & debuff ---
+^Damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> when attacking targets with (\w+) debuffs\.$	Damage meningkat sebesar \1\2%</color> saat menyerang target dengan debuff \3.
+^Damage dealt to targets with (\w+) debuffs is further increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke target dengan debuff \1 meningkat lagi \2\3%</color>.
+^When dealing (\w+) damage, attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan damage \1, Attack meningkat sebesar \2\3%</color>.
+^When taking (\w+) damage, final damage taken is reduced by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menerima damage \1, damage akhir yang diterima berkurang sebesar \2\3%</color>.
+^If an active skill does not deal damage, attack for the current round is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika skill aktif tidak memberikan damage, serangan untuk ronde ini meningkat sebesar \1\2%</color>.
+
+# --- akumulasi bertingkat ---
+^Each Doll hit by an ally unit's attack increases the damage of that attack by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setiap Doll yang terkena serangan unit sekutu menaikkan damage serangan itu sebesar \1\2%</color>, hingga maksimal \3\4%</color>.
+^When ally units hit a target, for each phase weakness on the target, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat unit sekutu mengenai target, untuk setiap kelemahan phase pada target, damage yang diberikan meningkat sebesar \1\2%</color>, hingga maksimal \3\4%</color>.
+^(<color=#[0-9a-fA-F]+>)Each</color> basic attack increases critical damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1Tiap</color> serangan dasar menaikkan Critical Damage \2\3%</color>, hingga maksimal \4\5%</color>.
+^(<color=#[0-9a-fA-F]+>)Each</color> time an ally unit deals damage, the next instance of damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, to a maximum of (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	\1Tiap</color> kali unit sekutu memberikan damage, damage berikutnya meningkat sebesar \2\3%</color>, hingga maksimal \4\5%</color>.
+
+# --- stat berbasis nilai ---
+^Damage taken increases by (<color=#[0-9a-fA-F]+>)([\d.%+ ]+)</color> of (\w+) stat\.$	Damage yang diterima meningkat sebesar \1\2</color> dari stat \3.
+^Damage taken increases by (<color=#[0-9a-fA-F]+>)([\d.%+ ]+)</color> of HOC Power\.$	Damage yang diterima meningkat sebesar \1\2</color> dari HOC Power.

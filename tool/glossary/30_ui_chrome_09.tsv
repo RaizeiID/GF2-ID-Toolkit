@@ -1,0 +1,160 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 9).
+#
+# Nama diri dibiarkan Inggris: Zucchero, Cafe Rush, Klukai, Vector, Lenna,
+# Mechty, Andoris, Elmo, Leva, Harpsy, Soirée, Frostfire Leap, Neverwinter
+# Whispers, Elmo In Bloom, Elmo Startup.
+#
+# "/.AR", "/.SMG", "/.SG", "Type 97", "CS/LS06" adalah kode/nama model senjata —
+# tidak dimasukkan, keluarannya identik.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Curio, Crew Deck, Buff,
+# Neural Helix, Confectance, Echelon, Aptitude, T4, Attachment.
+#range 75000 90000
+
+Reached the evacuation point, immediate withdrawal.	Sampai di titik evakuasi, segera mundur.
+Automatically expends all components with the same name	Otomatis memakai semua komponen dengan nama sama
+Minimum of {0} energy required to attempt activation	Butuh minimal {0} energi untuk mencoba mengaktifkan
+Reward obtained, Eber Paper Cutting increased by {0}	Hadiah didapat, Eber Paper Cutting bertambah {0}
+Do you wish to retrieve all Curios on the Crew Deck?	Mau mengambil semua Curio di Crew Deck?
+Select venue main road with terrain, {0}/{1} selected	Pilih jalan utama lokasi yang bermedan, {0}/{1} dipilih
+Current Calculation Level: <color=#e24c38>{0}</color>	Level Perhitungan Saat Ini: <color=#e24c38>{0}</color>
+No more items will be gained for repeated challenges	Tantangan berulang tidak memberi item lagi
+Challenge Mode is only open during the current event	Challenge Mode hanya terbuka selama acara berlangsung
+Please select an empty waypoint within the valid range	Pilih titik jalur kosong di dalam jangkauan yang berlaku
+Please complete the Neural Expansion of this Doll first	Selesaikan dulu Neural Expansion Doll ini
+<color=#ccad8526>Cargo rating has maxed out</color>	<color=#ccad8526>Peringkat kargo sudah mentok</color>
+The level of the Doll cannot exceed the Commander Level	Level Doll tidak boleh melebihi Commander Level
+Decorations can be purchased through the Furniture Shop	Dekorasi bisa dibeli lewat Furniture Shop
+{0} <color=#f26c1c>lacks the following items</color>	{0} <color=#f26c1c>kekurangan item berikut</color>
+Gain <color=#ffffa4>10 levels</color> upon unlocking	Dapat <color=#ffffa4>10 level</color> saat terbuka
+After an area is cleaned up, furniture can be added	Setelah area dibersihkan, perabot bisa ditambahkan
+The <color=#F26C1C>Armory</color> has been unlocked	<color=#F26C1C>Armory</color> sudah terbuka
+The <color=#F26C1C>Weapon Gallery</color> can be built	<color=#F26C1C>Weapon Gallery</color> sudah bisa dibangun
+Takes effect after being equipped to Affinity Key slot	Berlaku setelah dipasang di slot Affinity Key
+Force-deployed Dolls cannot be withdrawn or replaced	Doll yang wajib ditempatkan tidak bisa ditarik atau diganti
+Includes all contents of the current Voyage Collection	Termasuk seluruh isi Voyage Collection saat ini
+Rewards obtained from rebuilding the Central Bedroom	Hadiah dari membangun ulang Central Bedroom
+Daily Challenge Attempts <color=#F26C1C>{0}/{1}</color>	Percobaan Tantangan Harian <color=#F26C1C>{0}/{1}</color>
+Commander has reached <color=#f26c1c>Level {0}</color>	Commander sudah mencapai <color=#f26c1c>Level {0}</color>
+Increase your Affinity with {0} to unlock the archives	Naikkan Afinitasmu dengan {0} untuk membuka arsipnya
+Maximum storage limit reached. Cannot acquire more.	Batas penyimpanan maksimum tercapai. Tidak bisa menambah.
+Claim your reward after successfully making a wish.	Klaim hadiahmu setelah berhasil membuat permohonan.
+<color=#f26c1c>{0}</color> accesses remaining today	Sisa <color=#f26c1c>{0}</color> akses hari ini
+<color=#f26c1c>{0}</color> accesses remaining this week	Sisa <color=#f26c1c>{0}</color> akses minggu ini
+Insufficient <color=#f26c1c>remaining accesses</color>	<color=#f26c1c>Sisa akses</color> tidak cukup
+<color=#F26C1C>[{0}]</color> One-Time Reward Preview:	Pratinjau Hadiah Sekali Pakai <color=#F26C1C>[{0}]</color>:
+Unlock more customers by raising the Cat Café level	Buka lebih banyak pelanggan dengan menaikkan level Cat Café
+Unlocks after obtaining {1} points in {0} difficulty	Terbuka setelah mendapat {1} poin di kesulitan {0}
+Boost in attributes for all dolls with the same name	Peningkatan atribut untuk semua doll bernama sama
+Zoom in to the maximum to experience the focus effect	Perbesar sampai maksimum untuk merasakan efek fokusnya
+Affinity Growth Speed: <color=#f26c1c>{0}/{1}</color>	Kecepatan Pertumbuhan Afinitas: <color=#f26c1c>{0}/{1}</color>
+Total Beacon Exploration <color=#3f96BA>{0}/{1}</color>	Total Penjelajahan Beacon <color=#3f96BA>{0}/{1}</color>
+Take part in the event to receive generous rewards	Ikuti acaranya untuk menerima hadiah melimpah
+New outfit available! Claim free pulls upon login!	Busana baru tersedia! Klaim pull gratis saat login!
+Aptitude Selection	Pemilihan Aptitude
+Overclock Simulation	Simulasi Overclock
+Challenge Request	Permintaan Tantangan
+T4 Attachments	Attachment T4
+<color=#f26c1c>{0}</color> has enabled auto battle	<color=#f26c1c>{0}</color> mengaktifkan auto battle
+No carrier card	Tidak ada kartu pembawa
+No materials available	Tidak ada bahan tersedia
+Targeted scheduling activated	Penjadwalan bertarget diaktifkan
+Survey Duration	Durasi Survei
+Estimated Completion {0}%	Perkiraan Penyelesaian {0}%
+Reconnaissance mission has expired	Misi pengintaian sudah kedaluwarsa
+Expected completion rate below 100%. Confirm dispatch?	Perkiraan tingkat penyelesaian di bawah 100%. Kirim juga?
+Expedition Experience Threshold	Ambang Pengalaman Ekspedisi
+Target Expedition Experience	Target Pengalaman Ekspedisi
+Echelon {0} has withdrawn due to a lack of supplies!	Echelon {0} mundur karena kehabisan perbekalan!
+Expedition Experience greater than {0}	Pengalaman Ekspedisi lebih dari {0}
+Support Aptitude: Mining	Aptitude Dukungan: Penambangan
+Proceed to Soirée choice	Lanjut ke pilihan Soirée
+Soirée continues in {0}	Soirée berlanjut dalam {0}
+Will be sent by mail {0} after the Soirée ends	Akan dikirim lewat surat {0} setelah Soirée berakhir
+Selected Advantaged Side	Pihak Unggul Terpilih
+Challenge Task	Tugas Tantangan
+Abort Challenge	Batalkan Tantangan
+Advance Warning	Peringatan Dini
+Surveillance	Pengawasan
+The creative tasting has ended	Sesi cicip kreatif sudah berakhir
+Total Customers Served	Total Pelanggan Dilayani
+Zucchero Assistant	Asisten Zucchero
+Zucchero Merch	Merch Zucchero
+Cafe Rush Guide	Panduan Cafe Rush
+Cafe Rush Schedule	Jadwal Cafe Rush
+Sales Target	Target Penjualan
+Begin Cafe Rush	Mulai Cafe Rush
+Cats	Kucing
+Customers	Pelanggan
+Current Theme:	Tema Saat Ini:
+{0}'s Support	Dukungan {0}
+Takes effect after enhancement is activated	Berlaku setelah peningkatan diaktifkan
+Activating	Mengaktifkan
+Leaderboard refresh may have a slight delay	Penyegaran papan peringkat mungkin sedikit tertunda
+Termination Code Computation	Perhitungan Kode Terminasi
+Cipher Table	Tabel Sandi
+Starting Simulation	Memulai Simulasi
+Collecting...	Mengumpulkan...
+Sample - {0}	Sampel - {0}
+Storage box expanded successfully	Kotak penyimpanan berhasil diperluas
+Backpack is full, unable to retrieve	Ransel penuh, tidak bisa mengambil
+Backpack is full, unable to equip	Ransel penuh, tidak bisa memasang
+Growth data equipped successfully	Growth data berhasil dipasang
+Growth data replaced successfully	Growth data berhasil diganti
+Growth data removed successfully	Growth data berhasil dilepas
+Insufficient stamina	Stamina tidak cukup
+Not enough characters in the battle lineup to proceed	Karakter di susunan tempur kurang, tidak bisa lanjut
+Insufficient character strength, unable to proceed	Kekuatan karakter tidak cukup, tidak bisa lanjut
+Total number of attempts: {0}	Total jumlah percobaan: {0}
+Click anywhere to exit	Klik di mana saja untuk keluar
+Duration: {0}	Durasi: {0}
+【{0}】Challenge Accomplished	【{0}】Tantangan Tercapai
+【{0}】Challenge Over	【{0}】Tantangan Berakhir
+Sprint; master your own direction.	Melesat; kuasai arahmu sendiri.
+Taunt Robot	Robot Pengalih
+Soak Robot	Robot Penahan
+Confectance Suppression Type	Tipe Penekan Confectance
+Document Recovery Type	Tipe Pemulih Dokumen
+Proceed to establish defense	Lanjut membangun pertahanan
+Overall Progress of Beginner's Assessment	Progres Keseluruhan Penilaian Pemula
+Assessment Phase	Fase Penilaian
+Rewards can be claimed after phase completion	Hadiah bisa diklaim setelah fase selesai
+Claim the Doll	Klaim Doll-nya
+Acquire tomorrow	Dapatkan besok
+Celebration Special Gift	Hadiah Spesial Perayaan
+Log in to collect	Login untuk mengambil
+Year-End Harvest	Panen Akhir Tahun
+Elite Doll: Harpsy	Doll Elite: Harpsy
+Rewind	Putar Ulang
+Action Points	Action Point
+Move {0}	Pindah {0}
+Cumulative Rewards	Hadiah Kumulatif
+Component(s) obtained	Komponen didapat
+Large enemy wave incoming!	Gelombang musuh besar datang!
+Support Leaderboard Reward	Hadiah Papan Peringkat Dukungan
+Congratulations	Selamat
+Click An Empty Space To Continue	Klik Ruang Kosong untuk Lanjut
+Theme	Tema
+Exit directly to the Ops Room?	Langsung keluar ke Ops Room?
+Change Room	Ganti Ruangan
+Sort by Relevance	Urutkan Berdasarkan Relevansi
+Sort by Quality	Urutkan Berdasarkan Kualitas
+Dating mission activated	Misi kencan diaktifkan
+Purchase Sources	Sumber Pembelian
+Acquire by activating all Neural Helix Nodes	Didapat dengan mengaktifkan semua Node Neural Helix
+Boosted Items	Item Ditingkatkan
+Access Records	Catatan Akses
+Dummy Doll	Doll Tiruan
+Standard Doll	Doll Standar
+Elite Dolls	Doll Elite
+{0} Popularity Ranking	Peringkat Popularitas {0}
+Protocol Unlock	Pembukaan Protokol
+Highest Damage Dealt	Damage Terbesar yang Diberikan
+Deploy Formation	Formasi Penempatan
+Total Damage Dealt	Total Damage Diberikan
+Damage taken	Damage diterima
+Damage Output	Keluaran Damage
+Photo Settings	Pengaturan Foto
+Expression and Action Settings	Pengaturan Ekspresi dan Aksi
+Lens Effects	Efek Lensa
+Filter Settings	Pengaturan Filter

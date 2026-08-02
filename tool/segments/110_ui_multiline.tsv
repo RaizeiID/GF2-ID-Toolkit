@@ -1,0 +1,87 @@
+# Antarmuka berbaris ganda.
+#
+# Teks yang mengandung baris baru tidak bisa masuk glossary (satu baris TSV =
+# satu aturan), jadi ditangani per kalimat lewat mesin segments. Pemisahnya
+# memecah pada titik DAN baris baru, jadi tiap kalimat harus punya barisnya
+# sendiri — kalau satu kalimat saja terlewat, seluruh stringnya tidak berubah.
+#
+# Id 86726 ("LUSTRATIO" + kutipan Dante tanpa spasi) tidak digarap: itu bagian
+# teka-teki berbahasa Italia yang sengaja dipecah di dalam permainan.
+#
+# Enam pengumuman gacha Outfit Procurement (id 86657-86661, 89693; 9.000-13.000
+# karakter masing-masing) juga tidak digarap — isinya ratusan nama item unik
+# plus puluhan placeholder [VALn], dan lebih aman dibiarkan Inggris daripada
+# separuh jalan. Itu satu-satunya sisa besar di kategori antarmuka.
+#range 0 130000
+
+=There is a Soirée in progress.	Ada Soirée yang sedang berlangsung.
+=Are you sure you want to leave the Crew Deck?	Yakin mau meninggalkan Crew Deck?
+=Your Soirée progress will be saved.	Progres Soirée-mu akan disimpan.
+=Your Soirée progress will not be saved.	Progres Soirée-mu tidak akan disimpan.
+=No pictures saved on this device	Tidak ada gambar tersimpan di perangkat ini
+=You can take some through Frozen Prism	Kamu bisa memotretnya lewat Frozen Prism
+=Dine In: Will be consumed after cooking and effects will take place immediately	Makan di Tempat: Langsung dimakan setelah dimasak dan efeknya berlaku seketika
+=Take Out: Gain a dish after cooking, which can be given to Dolls or eaten during a battle.	Bawa Pulang: Mendapat hidangan setelah dimasak, yang bisa diberikan ke Doll atau dimakan saat bertempur.
+=<color=#f26c1c>Missing items and skins</color> from the plan will not be applied.	<color=#f26c1c>Item dan skin yang tidak ada</color> di rencana tidak akan diterapkan.
+=The current plan will be <color=#f26c1c>overwritten</color>, existing data might be lost.	Rencana saat ini akan <color=#f26c1c>ditimpa</color>, data yang ada bisa hilang.
+=Forced evacuation will not result in the loss of exploration materials.	Evakuasi paksa tidak membuat bahan penjelajahan hilang.
+=1 exploration permit is issued daily, with a maximum stack limit of 3 permits.	1 izin penjelajahan diberikan tiap hari, dengan batas tumpukan maksimal 3 izin.
+=The merit points earned within the Platoon will not be retained.	Poin jasa yang didapat di dalam Platoon tidak akan dipertahankan.
+=The Platoon reputation earned will be retained and can be used after joining a new Guild.	Reputasi Platoon yang didapat tetap dipertahankan dan bisa dipakai setelah bergabung ke Guild baru.
+=I saw the dangle I gave you in the ops room just now.	Aku lihat gantungan yang kuberikan padamu di ops room barusan.
+=You must like it very much if you put it in such a visible place.	Kamu pasti sangat menyukainya kalau sampai menaruhnya di tempat yang begitu terlihat.
+=You don't need to thank me too much; it's only natural for me to understand your tastes as your personal assistant.	Tidak perlu terlalu berterima kasih; wajar saja aku paham seleramu sebagai asisten pribadimu.
+=If you insist on showing your appreciation, then you can help me do motorcycle maintenance after I get back from my mission.	Kalau kamu tetap mau menunjukkan rasa terima kasih, bantu saja aku merawat motorku setelah aku pulang dari misi.
+=Perhaps I was not clear enough just now, so I'd like to add something on.	Mungkin tadi aku kurang jelas, jadi aku mau menambahkan sesuatu.
+=I made an embroidered four-leaf clover patch.	Aku membuat bordir tambalan semanggi berdaun empat.
+=Supposedly, putting it on will bless you with good luck.	Katanya, memakainya akan membawa keberuntungan.
+=Please let me know if it helps.	Kabari aku kalau memang membantu.
+=I'll make more of them for myself.	Aku akan membuat lebih banyak untuk diriku sendiri.
+=Commander♪ I just checked my savings status with Leva.	Commander♪ Aku baru saja mengecek tabunganku bersama Leva.
+=I'm full of confidence now!	Sekarang aku penuh percaya diri!
+=I calculated; I'll be able to buy enough gold ore if I save up 30 years of my salary.	Sudah kuhitung; aku bisa membeli bijih emas yang cukup kalau menabung gaji selama 30 tahun.
+=Therefore, it's entirely possible you might receive a real golden throne at some point in the future.	Jadi, sangat mungkin suatu hari nanti kamu menerima singgasana emas sungguhan.
+=So wait for me, Commander!	Jadi tunggu aku, Commander!
+=Have you tried the pillow yet? How is it?	Sudah coba bantalnya? Gimana rasanya?
+=Both its supportiveness and softness are top notch.	Sokongan maupun kelembutannya kelas satu.
+=You won't be able to lift your head off it once you try it.	Sekali coba, kamu tidak akan sanggup mengangkat kepala darinya.
+=I also dosed it with a sleep-inducing scent spray.	Aku juga menyemprotinya dengan wangi pengundang kantuk.
+=Sweet dreams, Commander.	Mimpi indah, Commander.
+=We have detected that you were in a <color=#f26c1c>{0}</color> battle when you exited the game.	Kami mendeteksi kamu sedang di pertempuran <color=#f26c1c>{0}</color> saat keluar dari permainan.
+=Do you want to continue?	Mau melanjutkan?
+=Note: Canceling all unsettled progress will lead to a temporary disconnection.	Catatan: Membatalkan semua progres yang belum dihitung akan memutus sambungan sementara.
+=<color=#e24c38>{0}</color> additional choice(s) from Doll Selection	<color=#e24c38>{0}</color> pilihan tambahan dari Pemilihan Doll
+=<color=#e24c38>{1}</color> additional choice(s) from Plugin Selection	<color=#e24c38>{1}</color> pilihan tambahan dari Pemilihan Plugin
+=<color=#e24c38>{2}</color> additional choice(s) from Treasure Selection	<color=#e24c38>{2}</color> pilihan tambahan dari Pemilihan Harta Karun
+=Echo ends in {0}	Echo berakhir dalam {0}
+=You can obtain a <color=#f26c1c>special title</color> if you complete all key choices during the event's timeframe.	Kamu bisa mendapat <color=#f26c1c>gelar khusus</color> kalau menyelesaikan semua pilihan penting selama acara berlangsung.
+=Tactical scores are earned by achieving special conditions during battles.	Skor taktis didapat dengan memenuhi kondisi khusus selama bertempur.
+=There's a maximum limit to tactical scores; once reached, no more scores can be earned.	Ada batas maksimum skor taktis; begitu tercapai, skor tidak bisa bertambah lagi.
+=Tactical scores can only be gained in the Extreme Projection maps; they cannot be earned in other stages.	Skor taktis hanya bisa didapat di peta Extreme Projection; tidak bisa didapat di stage lain.
+=Tactical scores can be obtained only when the battle ends and progress is calculated, which simultaneously increases the projection points on a 1:1 ratio.	Skor taktis hanya didapat saat pertempuran berakhir dan progresnya dihitung, yang sekaligus menaikkan poin proyeksi dengan rasio 1:1.
+=The mission scores are earned through completing missions.	Skor misi didapat dengan menyelesaikan misi.
+=There is a cap on mission scores; once reached, no more scores can be earned.	Ada batas atas skor misi; begitu tercapai, skor tidak bisa bertambah lagi.
+=Mission progress can only be increased when the battle ends and progress is calculated.	Progres misi hanya bisa naik saat pertempuran berakhir dan progresnya dihitung.
+=When claiming mission rewards and getting mission scores, mapping points will also increase at a 1:1 ratio.	Saat mengklaim hadiah misi dan mendapat skor misi, poin pemetaan juga naik dengan rasio 1:1.
+=New event gameplay is now available!	Gameplay acara baru sudah tersedia!
+=Participate in the event to receive a total of <color=#f08423>Interview Permit ×45+, Access Permit ×25+, Outfit Permit ×30+, Collapse Piece ×13000+</color>	Ikuti acaranya untuk menerima total <color=#f08423>Interview Permit ×45+, Access Permit ×25+, Outfit Permit ×30+, Collapse Piece ×13000+</color>
+=You can also get <color=#f08423>[Elite Doll: Harpsy], [Commander's New Outfit: Nightfire]</color> and other rewards for free!	Kamu juga bisa mendapat <color=#f08423>[Doll Elite: Harpsy], [Busana Baru Commander: Nightfire]</color> dan hadiah lainnya gratis!
+=When using the [Quick Join] function, the system will automatically assign the Commander to a Platoon that meets the joining criteria.	Saat memakai fungsi [Quick Join], sistem otomatis menempatkan Commander di Platoon yang memenuhi kriteria bergabung.
+=Currently, during the [Gunsmoke Frontline] event, using this function will prevent you from leaving the Platoon until the event ends.	Saat ini, selama acara [Gunsmoke Frontline], memakai fungsi ini membuatmu tidak bisa keluar dari Platoon sampai acaranya berakhir.
+=If you choose to leave the Platoon after joining, you will only be able to join a new Platoon after 5:00 a.m.	Kalau kamu memilih keluar dari Platoon setelah bergabung, kamu baru bisa gabung Platoon baru setelah pukul 5:00 pagi
+=the next day.	keesokan harinya.
+=How was your nap? Do you feel fully relaxed now?	Gimana tidur siangnya? Sudah benar-benar rileks?
+=You can keep that eyemask.	Penutup mata itu boleh kamu simpan.
+=When I'm not around, you can use it to get a good rest while at work.	Saat aku tidak ada, kamu bisa memakainya untuk istirahat nyenyak di sela kerja.
+=Although, I'd prefer if you came to find me if you needed to rest...	Meski begitu, aku lebih suka kalau kamu mencariku saat butuh istirahat...
+=Judging by the look on your face, you must have really enjoyed that present, right? Well, since you liked it so much, why not hang it up at your desk? Looking at it everyday is bound to improve your mood, right?	Melihat raut wajahmu, kamu pasti sangat menyukai hadiah itu, ya? Kalau memang begitu suka, kenapa tidak digantung saja di mejamu? Melihatnya tiap hari pasti memperbaiki suasana hatimu, kan?
+=Also...	Lagi pula...
+=This picture frame is getting a little old and it might not be able to take further modifications...	Bingkai foto ini sudah agak tua dan mungkin tidak kuat kalau dimodifikasi lagi...
+=So how about we just leave it as it is and let it symbolize the bond between the two of us? Sound good to you?	Jadi bagaimana kalau kita biarkan apa adanya saja, sebagai lambang ikatan kita berdua? Setuju?
+=That was an interesting way to deliver seasonal well-wishes, don't you think? I heard from Mayling that people who receive gifts like that will have lots of good luck in the coming days.	Cara yang menarik untuk menyampaikan ucapan selamat musim, bukan? Aku dengar dari Mayling, orang yang menerima hadiah seperti itu akan sangat beruntung di hari-hari mendatang.
+=Now, why did I choose a gift like this? That's because when you light fireworks, we're both dyed the same color in each other's eyes~	Nah, kenapa aku memilih hadiah seperti ini? Karena saat kembang api dinyalakan, kita berdua terwarnai warna yang sama di mata satu sama lain~
+=Dearest Commander~~	Commander tersayang~~
+=Don't forget to log in everyday!!! (>W<)	Jangan lupa login tiap hari!!! (>W<)
+=Are you sure you want to send it to [<color=#f26c1c>{0}</color>]?	Yakin mau mengirimnya ke [<color=#f26c1c>{0}</color>]?
+=There's no taking it back once it's sent, you know.	Sekali terkirim tidak bisa ditarik lagi, lho.
+=There's no taking it back, you know.	Tidak bisa ditarik lagi, lho.

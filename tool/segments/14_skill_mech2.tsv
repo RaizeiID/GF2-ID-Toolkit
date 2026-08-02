@@ -1,0 +1,64 @@
+# Deskripsi skill — keluarga kalimat mekanik, putaran kedua.
+# Nama elemen, nama karakter, dan nama status dibawa backref supaya tetap Inggris.
+#range 0 130000
+
+# --- cooldown & batas pakai ---
+^This has a cooldown of (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Ini memiliki cooldown \1\2 giliran</color>.
+^For each target hit, reduce this skill's cooldown by (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Setiap target yang terkena, kurangi cooldown skill ini \1\2 giliran</color>.
+^After this skill is used, it cannot be used again until the end of the next allied turn\.$	Setelah skill ini dipakai, tidak bisa dipakai lagi sampai akhir giliran sekutu berikutnya.
+^Cannot be used more than once per turn\.$	Tidak bisa dipakai lebih dari sekali per giliran.
+^This effect can only be triggered once per turn\.$	Efek ini hanya bisa terpicu sekali per giliran.
+^Can stack up to (<color=#[0-9a-fA-F]+>)([\d.]+) times</color>\.$	Bisa ditumpuk hingga \1\2 kali</color>.
+
+# --- stat ---
+^This unit's Max HP is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Max HP unit ini meningkat sebesar \1\2%</color>.
+^Healing received is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Healing yang diterima meningkat sebesar \1\2%</color>.
+^Critical damage from basic attacks is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Critical Damage dari serangan dasar meningkat sebesar \1\2%</color>.
+^Damage dealt to PMC units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke unit PMC meningkat sebesar \1\2%</color>.
+^Damage dealt by this unit's physical summons is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage dari summon fisik unit ini meningkat sebesar \1\2%</color>.
+^If other allied units have this effect, ignore an additional (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> of the target's defense\.$	Jika unit sekutu lain memiliki efek ini, abaikan tambahan \1\2%</color> Defense target.
+
+# --- damage per elemen (varian huruf besar & bentuk lain) ---
+^Increase (<color=#[0-9a-fA-F]+>)(\w+) [Dd]amage</color> dealt by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Tingkatkan damage \1\2</color> yang diberikan \3\4%</color>.
+^(<color=#[0-9a-fA-F]+>)(\w+) Damage</color> dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> yang diberikan meningkat sebesar \3\4%</color>.
+^(<color=#[0-9a-fA-F]+>)(\w+) damage</color> dealt by all allied units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> dari semua unit sekutu meningkat sebesar \3\4%</color>.
+^All (\w+) damage dealt by allied units is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Semua damage \1 dari unit sekutu meningkat sebesar \2\3%</color>.
+^(<color=#[0-9a-fA-F]+>)(\w+) damage</color> is increased by another (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage \1\2</color> meningkat lagi \3\4%</color>.
+^After performing a basic attack, (\w+) damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah melakukan serangan dasar, damage \1 meningkat sebesar \2\3%</color>.
+^When dealing (<color=#[0-9a-fA-F]+>)(\w+) damage</color>, damage boost is additionally increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat memberikan damage \1\2</color>, peningkatan damage bertambah sebesar \3\4%</color>.
+^When allied units deal (<color=#[0-9a-fA-F]+>)(\w+) damage</color>, critical damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat unit sekutu memberikan damage \1\2</color>, Critical Damage meningkat sebesar \3\4%</color>.
+^Deals AoE (<color=#[0-9a-fA-F]+>)(\w+) damage</color> to all enemy units within (\d+) tiles in the selected direction\.$	Memberikan damage AoE \1\2</color> ke semua unit musuh dalam \3 tile pada arah yang dipilih.
+^Deals physical damage and applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Memberikan damage physical dan menerapkan \1\2</color>.
+
+# --- kondisi target ---
+^Damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> against targets with defense debuffs\.$	Damage meningkat sebesar \1\2%</color> terhadap target dengan debuff Defense.
+^Damage dealt to enemy units with (\w+) debuffs is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Damage ke unit musuh dengan debuff \1 meningkat sebesar \2\3%</color>.
+^Damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> against enemy targets with (\w+) debuffs\.$	Damage yang diberikan meningkat sebesar \1\2%</color> terhadap target musuh dengan debuff \3.
+^Increases damage by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color> to enemy units with full HP or a lower HP percentage than the user\.$	Damage ke unit musuh ber-HP penuh atau berpersentase HP lebih rendah dari pengguna meningkat sebesar \1\2%</color>.
+^If they have a Shield effect, damage dealt is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika mereka memiliki efek Shield, damage yang diberikan meningkat sebesar \1\2%</color>.
+^If HP is above (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>, out-of-turn damage is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika HP di atas \1\2%</color>, damage di luar giliran meningkat sebesar \3\4%</color>.
+^If there is a target with (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> on the battlefield, this attack prioritizes that target\.$	Jika ada target ber-\1\2</color> di medan perang, serangan ini memprioritaskan target itu.
+^If a (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> is already on the field, teleports it to the selected tile instead\.$	Jika \1\2</color> sudah ada di medan, dia dipindahkan ke tile yang dipilih.
+^If the attack kills the enemy target, (\w+) gains (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Jika serangan ini mengalahkan target musuh, \1 mendapatkan \2\3</color>.
+^If there is no Cover near the target, deals (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of stability damage to the target before the attack\.$	Jika tidak ada Cover di dekat target, berikan \1\2 poin</color> damage Stability ke target sebelum serangan.
+
+# --- buff/debuff berantai ---
+^When applying a debuff, the damage of the next active skill is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menerapkan debuff, damage skill aktif berikutnya meningkat sebesar \1\2%</color>.
+^When applying a buff to an allied target, increases damage dealt by the next active skill by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menerapkan buff ke target sekutu, damage skill aktif berikutnya meningkat sebesar \1\2%</color>.
+^When applying a buff to an allied target, increases damage dealt by the next attack by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Saat menerapkan buff ke target sekutu, damage serangan berikutnya meningkat sebesar \1\2%</color>.
+^After applying a buff to an allied target, increase healing and damage dealt by the next effect by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Setelah menerapkan buff ke target sekutu, healing dan damage efek berikutnya meningkat sebesar \1\2%</color>.
+^When actively healing a target, applies (<color=#[0-9a-fA-F]+>)(\{\d+\})</color> to the target for (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color>\.$	Saat menyembuhkan target secara aktif, menerapkan \1\2</color> ke target selama \3\4 giliran</color>.
+^If an active skill does not deal damage, critical damage dealt by the next attack is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika skill aktif tidak memberikan damage, Critical Damage serangan berikutnya meningkat sebesar \1\2%</color>.
+
+# --- stability ---
+^Regains all points of stability (<color=#[0-9a-fA-F]+>)([\d.]+) turns?</color> after entering Stability Break\.$	Memulihkan seluruh poin Stability \1\2 giliran</color> setelah masuk Stability Break.
+^During Stability Break, whenever stability is recovered, additionally restores (<color=#[0-9a-fA-F]+>)([\d.]+) points?</color> of stability index\.$	Selama Stability Break, setiap kali Stability pulih, tambahan \1\2 poin</color> Stability Index dipulihkan.
+^When the user's stability index is greater than (<color=#[0-9a-fA-F]+>)([\d.]+)</color>, maintain (<color=#[0-9a-fA-F]+>)(\{\d+\})</color>\.$	Saat Stability Index pengguna lebih dari \1\2</color>, pertahankan \3\4</color>.
+
+# --- multiplier ---
+^Damage multiplier is increased to (<color=#[0-9a-fA-F]+>)([\d+ .]+)%</color> of Precision value\.$	Damage multiplier naik menjadi \1\2%</color> dari Precision value.
+
+# Sumber kalimat berikut rusak di aslinya (kata "damage" hilang):
+# "If an attack exploits a weakness is increased by X%." — diterjemahkan sesuai
+# maksud yang jelas dari kalimat sejenis di deskripsi lain.
+^If an attack exploits a weakness is increased by (<color=#[0-9a-fA-F]+>)([\d.]+)%</color>\.$	Jika serangan mengeksploitasi kelemahan, damage meningkat sebesar \1\2%</color>.

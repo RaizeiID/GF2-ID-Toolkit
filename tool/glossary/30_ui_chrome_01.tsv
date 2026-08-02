@@ -1,0 +1,114 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 1).
+#
+# Rentang id 86.000-89.999 adalah antarmuka sungguhan. Band di bawahnya
+# (75.000-78.999 nama buff, 79.000-85.999 dialog karakter) BUKAN antarmuka meski
+# ikut terhitung di kategori "UI" pada pengukur progres — itu sebabnya angka UI
+# terlihat rendah padahal menu utamanya sudah banyak digarap.
+#
+# Placeholder {0} {1} harus utuh; build menolak jalan kalau ada yang hilang.
+# String yang isinya cuma placeholder atau angka ("×{0}", "{0}.{1}/{2}:{3}", "10")
+# tidak dimasukkan — keluarannya identik dan hanya jadi baris mati.
+#
+# Istilah permainan tetap Inggris: AP, Combo, FULL COMBO, Doll, Commander,
+# Platoon, HP, Level, Auto Battle.
+#range 75000 90000
+
+Combat is set to double speed	Pertempuran diatur ke kecepatan ganda
+Manager's Details	Detail Manajer
+Weapon Level	Level Senjata
+Commander's Marker	Penanda Commander
+Players in Combat	Pemain dalam Pertempuran
+Your application has been submitted!	Pengajuanmu sudah dikirim!
+Captain	Kapten
+Vice-Captain	Wakil Kapten
+Your application has been approved	Pengajuanmu disetujui
+Your application has been rejected	Pengajuanmu ditolak
+Name cannot be empty	Nama tidak boleh kosong
+Come on, let's move!	Ayo, kita berangkat!
+Alright, alright - time to head out!~	Baik, baik - waktunya berangkat!~
+3, 2, 1, Retreat!☆	3, 2, 1, Mundur!☆
+Hurry up, it's time to go♪	Cepat, sudah waktunya pergi♪
+Permanent Base	Markas Permanen
+Tactical Base	Markas Taktis
+Modification Completed	Modifikasi Selesai
+First try each day is free	Percobaan pertama tiap hari gratis
+Unlockable	Bisa Dibuka
+Proceed to Level Up	Lanjut Naikkan Level
+Maximum enhancement reached	Peningkatan maksimum tercapai
+No components of this type	Tidak ada komponen jenis ini
+Enhancement successful	Peningkatan berhasil
+Basic Stat Boost	Peningkatan Stat Dasar
+Skill effects improved	Efek skill meningkat
+Attempt to activate	Coba aktifkan
+Compile Station	Stasiun Kompilasi
+Interrupt	Hentikan
+Insufficient energy	Energi tidak cukup
+No global events have occurred	Belum ada peristiwa global
+{0} is in progress, unable to start	{0} sedang berjalan, tidak bisa dimulai
+Significant Achievement	Pencapaian Penting
+Abandon Battle	Tinggalkan Pertempuran
+Battle Locked	Pertempuran Terkunci
+Unexplored	Belum Dijelajahi
+Enter Scene	Masuk Adegan
+Commission Details	Detail Penugasan
+Launched attack on {0}, dealing damage!	Melancarkan serangan ke {0}, memberikan damage!
+Under surveillance and attack from {0}!	Sedang diawasi dan diserang {0}!
+Collection Details	Detail Koleksi
+Unregistered Doll	Doll Belum Terdaftar
+No Ornaments	Tidak Ada Ornamen
+Chase successful, area threat eliminated	Pengejaran berhasil, ancaman area lenyap
+No stages to autobattle	Tidak ada stage untuk autobattle
+{0} selected	{0} dipilih
+Choose from the items below	Pilih dari item di bawah ini
+{0}/{1} selected	{0}/{1} dipilih
+Critical Calculation	Perhitungan Kritis
+Fiercer Enemies	Musuh Lebih Ganas
+Weakened Capabilities	Kemampuan Melemah
+Select one to be your main framework	Pilih satu jadi framework utamamu
+{0}/{1} Cleared	{0}/{1} Selesai
+Tactical Enhancement	Peningkatan Taktis
+{0} Efficiency	Efisiensi {0}
+Harvest	Panen
+Collection Complete	Koleksi Lengkap
+Harvesting Ended	Pemanenan Berakhir
+Harvesting Efficiency	Efisiensi Pemanenan
+Action Points Spent	Action Point Terpakai
+Remaining Action Points	Sisa Action Point
+Overall setup	Pengaturan menyeluruh
+Permanent systems	Sistem permanen
+Not yet open	Belum dibuka
+Formation One	Formasi Satu
+Formation Two	Formasi Dua
+Formation Three	Formasi Tiga
+Formation Four	Formasi Empat
+Formation Five	Formasi Lima
+Management Center	Pusat Manajemen
+Enhancement completed	Peningkatan selesai
+Calibration results confirmation	Konfirmasi hasil kalibrasi
+Obtaining Phase Imprint	Mendapatkan Phase Imprint
+The Platoon is full	Platoon sudah penuh
+Application submitted, await approval	Pengajuan terkirim, tunggu persetujuan
+Joined	Bergabung
+Edit Note	Ubah Catatan
+Character Count {0}/{1}	Jumlah Karakter {0}/{1}
+Friend request sent	Permintaan pertemanan terkirim
+No buffs selected	Tidak ada buff yang dipilih
+Switched to random deployment	Beralih ke penempatan acak
+Switched to sequential deployment	Beralih ke penempatan berurutan
+Forbid	Larang
+Season {0}	Musim {0}
+{0} Level	Level {0}
+Auto Battle In Progress	Auto Battle Sedang Berjalan
+Could not settle this battle	Tidak bisa menyelesaikan pertempuran ini
+Enemy has been destroyed	Musuh sudah hancur
+Maximum selections reached	Pilihan maksimum tercapai
+Collect Coins	Kumpulkan Koin
+100% Collection	Koleksi 100%
+Delusional Adventure	Petualangan Delusi
+Return to Checkpoint	Kembali ke Checkpoint
+Machina Pursuit	Pengejaran Machina
+Current round {0}/{1}	Ronde saat ini {0}/{1}
+Round Over	Ronde Berakhir
+Miss	Meleset
+Challenge Over	Tantangan Berakhir
+No battlefield buff obtained yet	Belum ada buff medan tempur yang didapat

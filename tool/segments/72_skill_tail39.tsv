@@ -1,0 +1,69 @@
+# Deskripsi SKILL — putaran ketiga puluh sembilan ekor panjang.
+#
+# Bagian 3 dari lima berkas (70-74). Tetap 1:1, harfiah ("=").
+#range 0 130000
+
+# --- klausa pendek ---
+=Stability Break lasts for <color=#f26c1c>2 turns</color>.	Stability Break bertahan <color=#f26c1c>2 giliran</color>.
+=Restores all Stability Index 2 turns after Stability Break.	Memulihkan seluruh Stability Index 2 giliran setelah Stability Break.
+=Restores stability to full 2 turns after entering Stability Break.	Memulihkan Stability sampai penuh 2 giliran setelah memasuki Stability Break.
+=Restore stability index.	Memulihkan Stability Index.
+=Restore <color=#f26c1c>2</color> stability index.	Memulihkan <color=#f26c1c>2</color> Stability Index.
+=Will not be automatically targeted by the enemy.	Tidak akan otomatis disasar musuh.
+=Immune to movement debuffs.	Kebal terhadap debuff pergerakan.
+=Immune to displacement, Mobility debuffs, and command prohibition effects.	Kebal terhadap efek pemindahan, debuff Mobility, dan larangan perintah.
+=This effect can trigger a maximum of <color=#f26c1c>1 time</color> per turn.	Efek ini bisa aktif maksimal <color=#f26c1c>1 kali</color> setiap giliran.
+=Activates once every 3 turns.	Aktif sekali setiap 3 giliran.
+=Damage dealt to targets with <color=#3487e0>{0}</color> is increased.	Damage ke target yang memiliki <color=#3487e0>{0}</color> meningkat.
+=Damage dealt to Paradeus units is increased.	Damage ke unit Paradeus meningkat.
+=If only 1 target is hit, the damage multiplier increases further.	Jika hanya 1 target yang terkena, damage multiplier naik lagi.
+=Deals physical damage and gains <color=#3487e0>{0}</color>.	Memberikan physical damage lalu mendapatkan <color=#3487e0>{0}</color>.
+=Cheyanne gains <color=#3487e0>{0}</color>.	Cheyanne mendapatkan <color=#3487e0>{0}</color>.
+=Belka gains <color=#3487e0>{0}</color>.	Belka mendapatkan <color=#3487e0>{0}</color>.
+=Belka gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{0}</color>.	Belka mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{0}</color>.
+=Mityl gains <color=#3487e0>{1}</color>.	Mityl mendapatkan <color=#3487e0>{1}</color>.
+=Attacks 1 enemy unit, reducing their energy by 1 point.	Menyerang 1 unit musuh, mengurangi energi mereka sebesar 1 poin.
+
+# --- link & summon ---
+=Is linked to the <color=#f26c1c>Deichgraf - Festung</color>.	Terhubung dengan <color=#f26c1c>Deichgraf - Festung</color>.
+=When this unit gains <color=#3487e0>{0}</color>, the <color=#f26c1c>Deichgraf - Festung</color> gains <color=#3487e0>{1}</color>.	Saat unit ini mendapatkan <color=#3487e0>{0}</color>, <color=#f26c1c>Deichgraf - Festung</color> mendapatkan <color=#3487e0>{1}</color>.
+=When this unit is destroyed, the link effect is nullified.	Saat unit ini hancur, efek tautannya ditiadakan.
+=Selects an enemy target and summons <color=#3487e0>{8}</color> to follow it.	Memilih target musuh lalu memanggil <color=#3487e0>{8}</color> untuk mengikutinya.
+=Upon death, the <color=#f26c1c>Mammoth - Modified</color> gains <color=#3487e0>{0}</color>.	Saat mati, <color=#f26c1c>Mammoth - Modified</color> mendapatkan <color=#3487e0>{0}</color>.
+=At the start of the turn, emerge and release captured ELIDs.	Di awal giliran, muncul lalu melepaskan ELID yang ditangkap.
+=Released ELIDs can act immediately.	ELID yang dilepaskan bisa langsung bergerak.
+
+# --- serangan ---
+=Simultaneously, destroy destructible Cover within a <color=#f26c1c>3x3 area</color> around the user.	Bersamaan dengan itu, menghancurkan Cover yang bisa dihancurkan dalam <color=#f26c1c>area 3x3</color> di sekitar pengguna.
+=The City Warden moves to the selected tile and attacks the closest enemy to Papasha, dealing Physical damage equal to <color=#f26c1c>150%</color> of attack.	City Warden bergerak ke tile terpilih lalu menyerang musuh terdekat dari Papasha, memberikan Physical damage setara <color=#f26c1c>150%</color> Attack.
+=Prioritizes attacking the nearest target using <color=#3487e0>[Gravity Oscillation - Sweep]</color>.	Mengutamakan menyerang target terdekat memakai <color=#3487e0>[Gravity Oscillation - Sweep]</color>.
+=If under the effect of <color=#f26c1c>2 or more</color> Burn buffs, perform an additional attack on the original target, dealing <color=#e67129>Burn damage</color> equal to <color=#f26c1c>75%</color> of attack and <color=#f26c1c>2</color> stability damage.	Jika sedang terkena <color=#f26c1c>2 atau lebih</color> buff Burn, melancarkan serangan tambahan ke target semula, memberikan <color=#e67129>Burn damage</color> setara <color=#f26c1c>75%</color> Attack dan <color=#f26c1c>2</color> Stability damage.
+=If there are obstacles along the knockback path, applies <color=#3487e0>{1}</color> to the knockback target for <color=#f26c1c>1 turn</color>.	Jika ada penghalang di jalur dorongan, menerapkan <color=#3487e0>{1}</color> ke target yang terdorong selama <color=#f26c1c>1 giliran</color>.
+=Apply <color=#3487e0>{1}</color> based on the number of enemy units within <color=#f26c1c>5 tiles</color> of the selected target.	Menerapkan <color=#3487e0>{1}</color> berdasarkan jumlah unit musuh <color=#f26c1c>dalam 5 tile</color> dari target terpilih.
+=After the skill is used, triggers all enemies' effects of <color=#3487e0>{4}</color> and the on-death effects of <color=#3487e0>{2}</color>.	Setelah skill dipakai, memicu semua efek <color=#3487e0>{4}</color> milik musuh dan efek saat-mati <color=#3487e0>{2}</color>.
+=After making an active attack, this unit cannot perform any more active attacks during this allied turn.	Setelah melancarkan serangan aktif, unit ini tidak bisa melancarkan serangan aktif lagi pada giliran sekutu ini.
+
+# --- stat ---
+=The damage multiplier increases based on the number of <color=#3487e0>{2}</color> stacks possessed.	Damage multiplier meningkat berdasarkan jumlah stack <color=#3487e0>{2}</color> yang dimiliki.
+=This skill's critical rate is reduced by <color=#f26c1c>100%</color> and deals additional fixed damage equal to <color=#f26c1c>50%</color> of defense.	Critical Rate skill ini berkurang sebesar <color=#f26c1c>100%</color> dan memberikan tambahan fixed damage setara <color=#f26c1c>50%</color> Defense.
+=This skill's critical rate is reduced and deals additional fixed damage.	Critical Rate skill ini berkurang dan memberikan tambahan fixed damage.
+=For every other allied unit within <color=#f26c1c>6 tiles</color>, stability damage dealt is increased by <color=#f26c1c>1 point</color>.	Untuk setiap unit sekutu lain <color=#f26c1c>dalam 6 tile</color>, Stability damage yang diberikan bertambah sebesar <color=#f26c1c>1 poin</color>.
+=For every other allied unit within <color=#f26c1c>6 tiles</color>, stability damage dealt is increased.	Untuk setiap unit sekutu lain <color=#f26c1c>dalam 6 tile</color>, Stability damage yang diberikan bertambah.
+=For every <color=#f26c1c>6 points</color> of initial max HP, critical rate is increased by <color=#f26c1c>0.1%</color>, to a maximum increase of <color=#f26c1c>60%</color>.	Untuk setiap <color=#f26c1c>6 poin</color> Max HP awal, Critical Rate meningkat sebesar <color=#f26c1c>0.1%</color>, maksimal naik sebesar <color=#f26c1c>60%</color>.
+=Critical damage against targets not protected by Cover is increased by <color=#f26c1c>10%</color>.	Critical Damage terhadap target yang tidak terlindungi Cover meningkat sebesar <color=#f26c1c>10%</color>.
+=During Stability Break, damage taken is reduced by <color=#f26c1c>50%</color> and this unit is unable to receive stability restoration effects.	Selama Stability Break, damage yang diterima berkurang sebesar <color=#f26c1c>50%</color> dan unit ini tidak bisa menerima efek pemulihan Stability.
+=If a skill does not deal damage during the turn, gains <color=#3487e0>{0}</color>.	Jika skill tidak memberikan damage pada giliran itu, mendapatkan <color=#3487e0>{0}</color>.
+=If any weakness is exploited, when healing allied targets, apply <color=#3487e0>{0}</color> to them.	Jika ada kelemahan yang dieksploitasi, saat menyembuhkan target sekutu, menerapkan <color=#3487e0>{0}</color> kepada mereka.
+=Grants maximum enhancement if the target has Electric debuffs.	Memberikan peningkatan maksimum jika target memiliki debuff Electric.
+=This enhancement cannot be triggered again if the skill has already been enhanced.	Peningkatan ini tidak bisa aktif lagi jika skill-nya sudah ditingkatkan.
+=This skill can be used when <color=#3487e0>{0}</color> is in the <color=#3487e0>{4}</color> state.	Skill ini bisa dipakai saat <color=#3487e0>{0}</color> berada dalam kondisi <color=#3487e0>{4}</color>.
+=<color=#f26c1c>Rank II</color>: The attack now deals <color=#e67129>Burn damage</color> that ignores cover.	<color=#f26c1c>Rank II</color>: Serangannya kini memberikan <color=#e67129>Burn damage</color> yang mengabaikan Cover.
+=Frost Barrier absorption amount is equal to <color=#f26c1c>130%</color> of Suomi's initial attack, but cannot exceed <color=#f26c1c>100%</color> of the target's max HP.	Daya serap Frost Barrier setara <color=#f26c1c>130%</color> Attack awal Suomi, tapi tidak boleh melebihi <color=#f26c1c>100%</color> Max HP target.
+
+# --- spesifik karakter ---
+=After using <color=#3487e0>{1}</color>, consumes all stacks of <color=#3487e0>{0}</color> from the target, and Robella gains an equal number of stacks of <color=#3487e0>{2}</color>.	Setelah memakai <color=#3487e0>{1}</color>, menghabiskan seluruh stack <color=#3487e0>{0}</color> dari target, dan Robella mendapatkan stack <color=#3487e0>{2}</color> sebanyak itu juga.
+=If Confectance Index is full, <color=#3487e0>Marzanna's Sanction</color> can immediately be used again.	Jika Confectance Index penuh, <color=#3487e0>Marzanna's Sanction</color> bisa langsung dipakai lagi.
+=If a target with <color=#3487e0>{0}</color> is killed, the next time <color=#3487e0>Hunting Instinct</color> is used this round, <color=#3487e0>{0}</color> will be applied.	Jika target yang memiliki <color=#3487e0>{0}</color> terbunuh, pada pemakaian <color=#3487e0>Hunting Instinct</color> berikutnya di ronde ini, <color=#3487e0>{0}</color> akan diterapkan.
+=After making an active attack, Soppo gains <color=#f26c1c>1 stack</color> of <color=#3487e0>{2}</color>.	Setelah melancarkan serangan aktif, Soppo mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{2}</color>.
+=Whenever Yoohee applies <color=#f26c1c>3 or more</color> <color=#3487e0>{2}</color>, triggers <color=#3487e0>{3}</color> once, gaining <color=#f26c1c>1 stack</color> of <color=#3487e0>{4}</color>.	Setiap kali Yoohee menerapkan <color=#f26c1c>3 atau lebih</color> <color=#3487e0>{2}</color>, memicu <color=#3487e0>{3}</color> sekali, mendapatkan <color=#f26c1c>1 stack</color> <color=#3487e0>{4}</color>.
+=When gaining <color=#f26c1c>Positive Charge</color> or <color=#f26c1c>Negative Charge</color>, if the Beak Beasteel has <color=#f26c1c>Positive Charge</color>, all skills treat it as having <color=#f26c1c>Positive Charge</color> and vice versa.	Saat mendapatkan <color=#f26c1c>Positive Charge</color> atau <color=#f26c1c>Negative Charge</color>, jika Beak Beasteel memiliki <color=#f26c1c>Positive Charge</color>, semua skill menganggapnya memiliki <color=#f26c1c>Positive Charge</color>, begitu pula sebaliknya.

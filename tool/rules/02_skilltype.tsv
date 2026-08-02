@@ -1,0 +1,7 @@
+# Label tipe skill: "Active / Targeted / Control", "Passive / AoE / Cleanse", dst.
+# Hanya kata Active/Passive yang diterjemahkan — sisanya (AoE, Cleanse, Buff,
+# Debuff, Control, Tile, Healing, Targeted) istilah gamer yang dibiarkan Inggris.
+#range 0 125000
+
+^Active / (.+)$	Aktif / \1
+^Passive / (.+)$	Pasif / \1

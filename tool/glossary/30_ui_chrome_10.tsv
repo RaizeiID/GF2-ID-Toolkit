@@ -1,0 +1,291 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 10).
+#
+# "{0:D2} Days {1:D2} Hours" memakai format .NET D2 (dua digit). Placeholder-nya
+# disalin persis termasuk ":D2" — mengubahnya membuat jam/hari salah tampil.
+#
+# "Unocked after obtaining the corresponding Doll" salah eja di aslinya
+# (Unocked). Ditulis persis begitu supaya barisnya cocok.
+#
+# "Dollars" di sini mata uang dalam game, bukan bentuk jamak Doll — jadi "Dolar".
+#
+# Nama diri dibiarkan: Elmo, Meow Mart, Mayling, Nagant, Dawnforger, Starfall
+# Tide, Gilded Banquet, Arma Inscripta, Starwish, Pathforger, Trailblaze, HOC.
+#range 75000 90000
+
+Look At Camera	Lihat ke Kamera
+Hide Commander	Sembunyikan Commander
+Hide Dolls	Sembunyikan Doll
+Insufficient Harvest Checks	Cek Panen tidak cukup
+Do you wish to clear all currently-selected products?	Mau mengosongkan semua produk yang dipilih?
+Current Level: Lv.{0}	Level Saat Ini: Lv.{0}
+Turn Time	Waktu Giliran
+Combat Information	Informasi Tempur
+Player Status	Status Pemain
+Combat Dolls	Doll Tempur
+Imitation Device	Perangkat Tiruan
+Unknown Player Data	Data Pemain Tidak Dikenal
+No random events have occurred	Belum ada peristiwa acak
+Over-the-Shoulder View	Tampilan dari Balik Bahu
+Strategic View	Tampilan Strategis
+Automatic Pre-deployment	Pra-penempatan Otomatis
+Manual Pre-deployment	Pra-penempatan Manual
+Currently carrying growth data	Sedang membawa growth data
+Bonus Overview	Ikhtisar Bonus
+Lost Growth Data	Growth Data Hilang
+Unlock all missions of the preceding difficulty level	Buka semua misi tingkat kesulitan sebelumnya
+Starting the battle will trigger monster reinforcements	Memulai pertempuran akan memanggil bala bantuan monster
+Click to Start	Klik untuk Mulai
+Insufficient energy remaining	Sisa energi tidak cukup
+{0} has been completed	{0} sudah selesai
+{0} + remaining stability value	{0} + sisa nilai stability
+Feedback Reward	Hadiah Umpan Balik
+Dollars	Dolar
+Current Feedback Amount: <color=#F0AF14>{0}</color>	Jumlah Umpan Balik Saat Ini: <color=#F0AF14>{0}</color>
+{0:D2} Days {1:D2} Hours	{0:D2} Hari {1:D2} Jam
+{0:D2} Hour	{0:D2} Jam
+Festive Gifts	Hadiah Perayaan
+There are stages currently being challenged!	Ada stage yang sedang ditantang!
+Occupation successful, {0} Eber's silhouettes consumed	Pendudukan berhasil, {0} siluet Eber terpakai
+Can be equipped after heavy weapons team is assigned	Bisa dipasang setelah tim senjata berat ditugaskan
+Slot unlocks after HOC Rank reaches Level {0}	Slot terbuka setelah HOC Rank mencapai Level {0}
+Extra Effects	Efek Tambahan
+HOC Parameters Increased	Parameter HOC Meningkat
+Cat Garden	Taman Kucing
+Cat Toys	Mainan Kucing
+Coat Color	Warna Bulu
+Scratching Board	Papan Garuk
+Pattern	Corak
+Kitty Decor	Dekorasi Kucing
+Team {0} Ready	Tim {0} Siap
+Select Route	Pilih Rute
+Harvest Count	Jumlah Panen
+Team {0} will withdraw to previous point	Tim {0} akan mundur ke titik sebelumnya
+Expended Supplies	Perbekalan Terpakai
+All Types	Semua Jenis
+Doll Model	Model Doll
+Monster Model	Model Monster
+Please drag the desired Curio to edit the layout	Seret Curio yang diinginkan untuk mengubah tata letak
+Do you wish to clear all placed Curios?	Mau mengosongkan semua Curio yang terpasang?
+Changes made have not been saved, do you wish to save?	Perubahan belum disimpan, mau menyimpannya?
+Requires a full set purchase of {0}	Butuh pembelian satu set penuh {0}
+Decoration Gallery	Galeri Dekorasi
+Preset Management	Manajemen Preset
+Rotate Model	Putar Model
+No ranking records	Tidak ada rekor peringkat
+Current Season Ranking	Peringkat Musim Ini
+Previous Ranking	Peringkat Sebelumnya
+Exercise Rewards	Hadiah Latihan
+Not participated	Belum ikut
+Choose up to {0}	Pilih maksimal {0}
+Please choose {0} encounters	Pilih {0} perjumpaan
+Encounter triggered, Charge -{0}	Perjumpaan terpicu, Charge -{0}
+Patrol currently in progress	Patroli sedang berjalan
+Encounter triggered, Charge +{0}	Perjumpaan terpicu, Charge +{0}
+Encounter triggered, HP +{0}%	Perjumpaan terpicu, HP +{0}%
+Encounter triggered, healing effects reduced by -{0}%	Perjumpaan terpicu, efek penyembuhan turun -{0}%
+Encounter triggered, healing effects increased by +{0}%	Perjumpaan terpicu, efek penyembuhan naik +{0}%
+Insufficient required materials	Bahan yang dibutuhkan tidak cukup
+Inadequate adhesive curing	Pengeringan perekat belum cukup
+Experience required is not sufficient	Pengalaman yang dibutuhkan belum cukup
+Special Edition	Edisi Khusus
+T1 materials	Bahan T1
+Materials of T2 and below	Bahan T2 ke bawah
+Materials of T3 and below	Bahan T3 ke bawah
+Materials of T4 and below	Bahan T4 ke bawah
+After unlocking the weapon, make a special setup	Setelah senjatanya terbuka, buat pengaturan khusus
+A surprise discount of {0}%	Diskon kejutan {0}%
+Payment currently unavailable	Pembayaran sedang tidak tersedia
+Hire	Rekrut
+Hired	Direkrut
+Installation successful	Pemasangan berhasil
+Remold	Bentuk Ulang
+No Growth Data	Tidak Ada Growth Data
+The following items will be gained after dismantling	Item berikut akan didapat setelah dibongkar
+Firepower Module	Modul Firepower
+Science Module	Modul Science
+Logistics Module	Modul Logistics
+Adaptation Module	Modul Adaptation
+Control Module	Modul Control
+Tactics Module	Modul Tactics
+Weapon load capacity is insufficient, swap failed	Kapasitas beban senjata tidak cukup, penukaran gagal
+<color=#f26c1c>[{0}]</color> Weighted	<color=#f26c1c>[{0}]</color> Diberi Bobot
+{0} boosted by an extra <color=#f26c1c>Lv.{1}</color>	{0} ditingkatkan tambahan <color=#f26c1c>Lv.{1}</color>
+Damaged attachments cannot be calibrated	Attachment yang rusak tidak bisa dikalibrasi
+No attribute bonus	Tidak ada bonus atribut
+No application records available	Tidak ada catatan pengajuan
+Customize banner frame	Kustomisasi bingkai spanduk
+Customize banner pattern	Kustomisasi corak spanduk
+Platoon Name	Nama Platoon
+Method of joining	Cara bergabung
+Application needed	Perlu pengajuan
+Received the following resources	Menerima sumber daya berikut
+Click on a blank space to continue	Klik ruang kosong untuk lanjut
+Completely empty	Kosong melompong
+This battle will withdraw the team	Pertempuran ini akan menarik mundur tim
+The enemy is weak, victory will be easy	Musuhnya lemah, kemenangan akan mudah
+Expedition Rumors	Desas-desus Ekspedisi
+Unknown Result	Hasil Tidak Diketahui
+New event gameplay is now available!	Gameplay acara baru sudah tersedia!
+Perfect!	Sempurna!
+Cannot Interfere	Tidak Bisa Ikut Campur
+Support Failed	Dukungan Gagal
+Streamed	Disiarkan
+Defeat {0} To Unlock	Kalahkan {0} untuk Membuka
+Tip: Items must be used at the right time	Tips: Item harus dipakai di waktu yang tepat
+Try again	Coba lagi
+To the left	Ke kiri
+To the right	Ke kanan
+Tier {0}	Tingkat {0}
+Section {0}	Bagian {0}
+Hierarchy Promotion	Kenaikan Hierarki
+Midsummer Gift	Hadiah Pertengahan Musim Panas
+Summer Renewal Season	Musim Pembaruan Musim Panas
+Navigation Screen	Layar Navigasi
+Hide UI	Sembunyikan UI
+Viewing Mode	Mode Tampilan
+Drag	Seret
+In Communication	Sedang Berkomunikasi
+Brief Explanation	Penjelasan Singkat
+Detailed Explanation	Penjelasan Rinci
+Alert Speed of Monsters	Kecepatan Siaga Monster
+Unable to hit	Tidak bisa mengenai
+Enter Cover	Masuk Cover
+Leave Cover	Keluar Cover
+Portal of Blue Energy	Portal Energi Biru
+Success rate of activation	Tingkat keberhasilan aktivasi
+Set Effect Anchored Drop	Jatuhan Terarah Efek Set
+Select Set Effect	Pilih Efek Set
+Number of Selections	Jumlah Pilihan
+Potential Phase Imprint	Potensi Phase Imprint
+Increase	Naikkan
+Proficiency Boost	Peningkatan Kemahiran
+Reach Level 40 to unlock Nagant's Outfit	Capai Level 40 untuk membuka Busana Nagant
+First guaranteed Doll will be your selected Doll	Doll jaminan pertama adalah Doll pilihanmu
+First-Time Double Value Bonus	Bonus Nilai Ganda Pertama Kali
+Record Reset	Rekor Diatur Ulang
+Elmo Annual Investigation Report	Laporan Investigasi Tahunan Elmo
+There may be a delay before the leaderboard updates	Mungkin ada jeda sebelum papan peringkat diperbarui
+Please unlock the previous intel first	Buka dulu intel sebelumnya
+Obtained after unlocking	Didapat setelah terbuka
+Rugged Journey	Perjalanan Terjal
+Complete the corresponding stage to unlock	Selesaikan stage terkait untuk membukanya
+Unocked after obtaining the corresponding Doll	Terbuka setelah mendapatkan Doll terkait
+Neural Expansion {0} unlocked	Neural Expansion {0} terbuka
+Claim <color=#ff2c52>Outfit Permit ×5</color> for free	Klaim <color=#ff2c52>Outfit Permit ×5</color> gratis
+The Elmo Patch-Up Operation	Operasi Perbaikan Elmo
+Rebuilding The Elmo	Membangun Ulang Elmo
+Support Stats	Stat Dukungan
+Support Bonus	Bonus Dukungan
+Adjust Components	Sesuaikan Komponen
+Heavy Ordnance Corps	Korps Persenjataan Berat
+Return to main battlefield	Kembali ke medan tempur utama
+Sub-Battlefield Suitability	Kecocokan Sub-Medan Tempur
+Chase interrupted	Pengejaran terhenti
+Continue Trailblaze	Lanjutkan Trailblaze
+Target Score	Skor Target
+Starwish Ticket Shop	Toko Tiket Starwish
+Exchange by consuming {0}	Tukar dengan memakai {0}
+Remaining Purchases: {0}	Sisa Pembelian: {0}
+Active Mechanic	Mekanik Aktif
+Grade and Battle Score	Nilai dan Skor Pertempuran
+Chance to Obtain	Peluang Mendapatkan
+Intertwined Assault	Serangan Terjalin
+Cultivate	Kembangkan
+Total Affinity Gained	Total Afinitas Didapat
+Cleanliness Level	Tingkat Kebersihan
+Flower withered	Bunganya layu
+Flower ready for harvest	Bunganya siap dipanen
+Livability Description Text	Teks Deskripsi Kelayakan Huni
+Can be claimed after Growth Reaches {0}	Bisa diklaim setelah Pertumbuhan mencapai {0}
+All components removed	Semua komponen dilepas
+Search components	Cari komponen
+Do you want to remove all components?	Mau melepas semua komponen?
+{0} Framework	Framework {0}
+{0} requires {1}	{0} butuh {1}
+Insufficient load capacity, cannot install	Kapasitas beban tidak cukup, tidak bisa dipasang
+Unlocks when HOC Rank reaches Level {0}	Terbuka saat HOC Rank mencapai Level {0}
+Fill previous slot first	Isi dulu slot sebelumnya
+Obtained through Phase Clash and similar gameplay modes	Didapat lewat Phase Clash dan mode sejenis
+Cannot install Talent Components with the same name	Tidak bisa memasang Talent Component bernama sama
+Product Refresh	Penyegaran Produk
+Deluxe rewards	Hadiah mewah
+Supplier Level	Level Pemasok
+Begin Order	Mulai Pesanan
+Confirm Order	Konfirmasi Pesanan
+Amend Order	Ubah Pesanan
+Current Price	Harga Saat Ini
+Are you certain you wish to unlock?	Yakin mau membukanya?
+Intelligent Upgrade	Peningkatan Cerdas
+Current Mode	Mode Saat Ini
+No products currently for sale	Saat ini tidak ada produk yang dijual
+The enemy is waiting to be revealed.	Musuhnya menunggu untuk terungkap.
+Show Rewards	Tampilkan Hadiah
+{0}/{1} Remaining	Sisa {0}/{1}
+Min	Mnt
+Neural Archive and Weapon Dual Select Pack	Paket Pilih Ganda Neural Archive dan Senjata
+New area unlocked aboard the Elmo!	Area baru di Elmo sudah terbuka!
+Your Couturier Surprise Voucher can be claimed via mail	Voucher Kejutan Couturier-mu bisa diklaim lewat surat
+Claim via mail	Klaim lewat surat
+Tickets scratched: <color=#ffde96>{0}</color>/5	Tiket digosok: <color=#ffde96>{0}</color>/5
+Resource Production	Produksi Sumber Daya
+Resource Conversion	Konversi Sumber Daya
+Current output:	Keluaran saat ini:
+Current Storage: <color=#F0AF14>{0}</color>/{1}	Penyimpanan Saat Ini: <color=#F0AF14>{0}</color>/{1}
+In chronological order	Urut waktu
+In priority order	Urut prioritas
+Please enter share code	Masukkan kode berbagi
+Scheme successfully loaded	Skema berhasil dimuat
+No skills that can be added	Tidak ada skill yang bisa ditambahkan
+Do you wish to confirm clearing of all custom settings?	Yakin mau mengosongkan semua pengaturan kustom?
+Cancel edit	Batalkan perubahan
+Clear {0} to unlock	Selesaikan {0} untuk membukanya
+Max Charge: {0}	Charge Maks: {0}
+Legend	Keterangan
+Area not yet unlocked	Area belum terbuka
+Travelling... {0}%	Bepergian... {0}%
+Ultimate Skill Animation	Animasi Ultimate Skill
+Don't Skip	Jangan Lewati
+Performance in the Refitting Room	Pertunjukan di Refitting Room
+Don't Play	Jangan Putar
+Enemy reinforcements will arrive on the enemy's turn	Bala bantuan musuh datang di giliran musuh
+{0} hours {1} minutes	{0} jam {1} menit
+Item Recycling	Daur Ulang Item
+This is not a Greeter Cat	Ini bukan Greeter Cat
+Management Handbook	Buku Panduan Manajemen
+Capacity:	Kapasitas:
+Recommended Cat Power	Cat Power yang Disarankan
+All Cafe Rushes completed, please check the handbook	Semua Cafe Rush selesai, cek buku panduannya
+New Cafe Rush will open in {0}	Cafe Rush baru dibuka dalam {0}
+Complete previous Cafe Rush	Selesaikan Cafe Rush sebelumnya
+License	Lisensi
+Cat Cafe Rank	Peringkat Cat Cafe
+Current Damage	Damage Saat Ini
+Each mission	Tiap misi
+At least one Doll must be dispatched	Minimal satu Doll harus dikirim
+Battle (+{0}%)	Pertempuran (+{0}%)
+Mining (+{0}%)	Penambangan (+{0}%)
+Exploration (+{0}%)	Penjelajahan (+{0}%)
+Surveying (+{0}%)	Survei (+{0}%)
+First Discovered By Platoon	Pertama Ditemukan Platoon
+Copies Discovered By Platoon: {0}	Salinan yang Ditemukan Platoon: {0}
+Platoon Ranking Reward	Hadiah Peringkat Platoon
+Starting Supplies	Perbekalan Awal
+Starting Credits	Credit Awal
+Remote Dice	Dadu Jarak Jauh
+Command Dice	Dadu Komando
+{0} Pathforger Index obtained	{0} Pathforger Index didapat
+Current Pathforger Index	Pathforger Index Saat Ini
+Pathforge Objectives	Sasaran Pathforge
+Gameplay Details	Detail Gameplay
+Obtain Function	Fungsi Perolehan
+Upgrade Function	Fungsi Peningkatan
+Times Remaining: {0}	Sisa Kesempatan: {0}
+Data Overview	Ikhtisar Data
+Beginner Supply	Perbekalan Pemula
+Not Acquired Yet	Belum Didapat
+Proceed to Obtain	Lanjut Mendapatkan
+Reward Settlement	Perhitungan Hadiah
+When light departs	Saat cahaya pergi
+how are we to proceed on a path strewn with danger?	bagaimana kita melangkah di jalan yang penuh bahaya?
+Not joined	Belum bergabung
+Frontier Conquest	Penaklukan Perbatasan

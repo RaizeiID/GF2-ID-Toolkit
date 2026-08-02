@@ -1,0 +1,36 @@
+# Batch 7 — keluarga templat UI: syarat membuka, misi harian/afinitas, judul kampanye.
+# Satu aturan di sini menggantikan puluhan sampai ratusan baris glossary, karena
+# string-string ini hanya berbeda NAMA atau ANGKA.
+#
+# Nama karakter ditangkap backref, jadi tidak pernah ikut diterjemahkan. Sesuai
+# jebakan yang dicatat di README, penangkap nama memakai kelas karakter yang tidak
+# bisa melompati batas klausa — bukan (.+) — kecuali kalau polanya memang berakhir
+# di ujung string.
+#range 0 125000
+
+# --- syarat membuka (± 550 string) ---
+^Unlocked when ([A-Za-z][A-Za-z0-9'’. -]*) reaches Level (\d+)$	Terbuka saat \1 mencapai Level \2
+^Unlocked when ([A-Za-z][A-Za-z0-9'’. -]*) reaches level (\d+)$	Terbuka saat \1 mencapai level \2
+^Unlocked after ([A-Za-z][A-Za-z0-9'’. -]*) reaches Level (\d+)$	Terbuka setelah \1 mencapai Level \2
+# Varian ber-artikel harus di ATAS yang umum: build memakai aturan pertama yang cocok,
+# dan tanpa ini "the" ikut tertinggal ("...mendapatkan the Doll Welrod").
+^Unlocked after obtaining the (.+)$	Terbuka setelah mendapatkan \1
+^Unlocked upon obtaining the (.+)$	Terbuka begitu mendapatkan \1
+^Unlocked after obtaining (.+)$	Terbuka setelah mendapatkan \1
+^Unlocked upon obtaining (.+)$	Terbuka begitu mendapatkan \1
+^Drinks Menu unlocks at level \{0\}$	Menu Minuman terbuka di level {0}
+
+# --- misi afinitas & interaksi Doll ---
+^Obtained by raising ([A-Za-z][A-Za-z0-9'’. -]*)'s Affinity to Level (\d+)$	Didapat dengan menaikkan Affinity \1 ke Level \2
+^Give ([A-Za-z][A-Za-z0-9'’. -]*) a gift once$	Beri \1 hadiah satu kali
+^Clear any stage once with ([A-Za-z][A-Za-z0-9'’. -]*) deployed$	Selesaikan stage mana pun sekali dengan \1 diterjunkan
+^Perform ([A-Za-z][A-Za-z0-9'’. -]*) Neural Expansion (\d+) times$	Lakukan Neural Expansion \1 sebanyak \2 kali
+^View all of (.+)'s Private Meeting Logs$	Lihat semua Private Meeting Log \1
+^A new Doll and experience\. Join the Trial Stage and fight alongside (.+)!$	Doll dan pengalaman baru. Ikuti Trial Stage dan bertarung bersama \1!
+^(.+) - Joined$	\1 - Bergabung
+^From: (.+)$	Dari: \1
+
+# --- judul kampanye & musuh bersegmen ---
+^Story Campaign (\d+)-(\d+)$	Kampanye Cerita \1-\2
+^Story Campaign Stage ([A-Z]{2}-\d+-\d+)$	Stage Kampanye Cerita \1
+^Enemy ([A-Za-z][A-Za-z0-9'’. -]*) at Segment (\d+)$	Musuh \1 di Segmen \2

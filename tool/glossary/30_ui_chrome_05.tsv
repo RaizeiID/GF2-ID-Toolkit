@@ -1,0 +1,170 @@
+# Antarmuka — menu, tombol, dan pesan sistem (bagian 5).
+#
+# "Corposant", "Spotless Sunrise", "Amidst the Starry Night", "Dulcet Whisper",
+# "Shining Edge Twin Pack", "ElmoMart", "Elmo Cloud", "Mimicrate" adalah nama
+# diri (busana, paket, tempat, jenis musuh) — dibiarkan Inggris.
+#
+# "INITIAL,ELEMENTARY,INTERMEDIATE,SENIOR" adalah daftar kunci berkoma yang
+# dipakai kode untuk memetakan tingkat; tidak dimasukkan karena format datanya
+# rawan pecah kalau kata-katanya diubah.
+#
+# Istilah permainan tetap Inggris: Doll, Commander, Curio, Skin, Buff, Preset,
+# Platoon, Boss, Pt., Rec., T2/T3.
+#range 75000 90000
+
+Full Rec.	Rec. Penuh
+Storage Limit	Batas Penyimpanan
+Limited-time discount: Ends in {0}	Diskon waktu terbatas: Berakhir dalam {0}
+Gift pack expired	Paket hadiah kedaluwarsa
+Unlocked after purchasing the preceding package	Terbuka setelah membeli paket sebelumnya
+Event Explanation	Penjelasan Acara
+Midsummer reunion, generous gifts	Reuni pertengahan musim panas, hadiah melimpah
+Place and proceed	Tempatkan lalu lanjutkan
+Current location: {0}	Lokasi saat ini: {0}
+Date obtained: {0}	Tanggal didapat: {0}
+Commander's Hotline	Hotline Commander
+Plan Details	Detail Rencana
+Furniture	Perabot
+Curio Display Cabinet	Lemari Pajang Curio
+Leisure Hall Display Wall	Dinding Pajang Aula Santai
+Picture Wall	Dinding Gambar
+Standard Furniture	Perabot Standar
+Room Is Locked	Ruangan Terkunci
+Some furniture pieces have not yet been built	Sebagian perabot belum dibangun
+{0} has not been unlocked yet	{0} belum terbuka
+Missing {0}	Kurang {0}
+Proceed to clean	Lanjut membersihkan
+User Instructions	Petunjuk Pemakaian
+Talent component already installed	Komponen talenta sudah terpasang
+Component already installed	Komponen sudah terpasang
+Component Skills	Skill Komponen
+Not deployed	Belum ditempatkan
+Default team set	Tim bawaan diatur
+Energy Expended: {0}	Energi Terpakai: {0}
+{0} reaches {1}	{0} mencapai {1}
+Upgrades after {0}	Naik tingkat setelah {0}
+Exploration Progress	Progres Penjelajahan
+Connecting...	Menyambungkan...
+Current Exchange Quantity	Jumlah Penukaran Saat Ini
+Story Campaign is Now Open	Story Campaign sudah dibuka
+{0} Attempts Remaining	Sisa {0} Percobaan
+Dig!	Gali!
+Clue Collection	Kumpulan Petunjuk
+*Daily missions refresh at 05:00	*Misi harian disegarkan pukul 05:00
+Current Frenzy Level	Tingkat Frenzy Saat Ini
+Enemy Buffs	Buff Musuh
+Obtain after [{0}/{0}] clears	Didapat setelah [{0}/{0}] penyelesaian
+Frenzy Exercise has been unlocked	Frenzy Exercise sudah terbuka
+Complete tasks, obtain daily rewards.	Selesaikan tugas, dapatkan hadiah harian.
+Select a limited Doll and weapon of your choice	Pilih satu Doll terbatas dan senjata pilihanmu
+2025 Annual Report	Laporan Tahunan 2025
+- New Content -	- Konten Baru -
+- Rewards -	- Hadiah -
+Clean up {0}	Bersihkan {0}
+<color=#F26C1C>Rec Room</color> Unlocked	<color=#F26C1C>Rec Room</color> Terbuka
+Increase level to unlock more items	Naikkan level untuk membuka lebih banyak item
+Clearance Records	Rekor Penyelesaian
+Total Challenge Attempts	Total Percobaan Tantangan
+Gravity Flip	Balik Gravitasi
+Affinity Level	Level Afinitas
+Increase ratio	Rasio peningkatan
+Proceed to Evolution	Lanjut ke Evolusi
+Universal Key: Attribute	Universal Key: Atribut
+Conflict Zone (Boss)	Zona Konflik (Boss)
+Anomaly Area	Area Anomali
+Battlefield Overload	Medan Tempur Kelebihan Beban
+Progress Overview	Ikhtisar Progres
+Current Area: {0}	Area Saat Ini: {0}
+Time Limit: {0} seconds	Batas Waktu: {0} detik
+Remaining enemies: {0}/{1}	Sisa musuh: {0}/{1}
+No weapons	Tidak ada senjata
+Applicable Weapon: {0}	Senjata yang Cocok: {0}
+Upgrade limit reached	Batas peningkatan tercapai
+Cannot exceed the character's current level cap	Tidak boleh melebihi batas level karakter saat ini
+The weapon has reached its maximum level	Senjata sudah mencapai level maksimum
+Quick selection successful	Pemilihan cepat berhasil
+Upgrade weapon by {0} level(s)	Naikkan senjata {0} level
+Acquisition Method	Cara Mendapatkan
+View acquisition method	Lihat cara mendapatkan
+Enable {0}	Aktifkan {0}
+{0} has been enabled	{0} sudah diaktifkan
+No Skin	Tidak Ada Skin
+Current level: <color=#F26c1c>{0}</color>	Level saat ini: <color=#F26c1c>{0}</color>
+Current recommended Doll	Doll yang disarankan saat ini
+Drill Rewards	Hadiah Latihan
+Unlocked in {0} days	Terbuka dalam {0} hari
+Effective this season	Berlaku musim ini
+Effective this attempt	Berlaku percobaan ini
+Platoon Assistance	Bantuan Platoon
+{0} has unlocked	{0} sudah terbuka
+New Chronicles entry unlocked	Entri Chronicles baru terbuka
+Latest Update	Pembaruan Terbaru
+New content added	Konten baru ditambahkan
+{0} gains a temporary buff: {1}	{0} mendapat buff sementara: {1}
+Unlocked: {0}/{1}	Terbuka: {0}/{1}
+Already worn	Sudah dipakai
+Begin playback	Mulai pemutaran
+Change scene	Ganti adegan
+Select scene	Pilih adegan
+Add Doll	Tambah Doll
+Invite now	Undang sekarang
+Doll Unobtained	Doll Belum Didapat
+Edit Successful	Perubahan Berhasil
+Mimicrate Found - Shelterer	Mimicrate Ditemukan - Shelterer
+Mimicrate Found - Nourisher	Mimicrate Ditemukan - Nourisher
+This Doll must be deployed in the upcoming battle	Doll ini wajib ditempatkan di pertempuran berikutnya
+<color=#8cb440>Boost Ground Effects</color>	<color=#8cb440>Efek Tanah Penguat</color>
+<color=#be5032>Abnormal Ground Effects</color>	<color=#be5032>Efek Tanah Abnormal</color>
+Mandatory Deployment	Penempatan Wajib
+Ground Effects	Efek Tanah
+Preset Dolls cannot be withdrawn or replaced	Doll preset tidak bisa ditarik atau diganti
+Obtained through	Didapat lewat
+Review Rewards	Hadiah Tinjauan
+Number of Reviews	Jumlah Tinjauan
+Theme Rewards	Hadiah Tema
+Complete the current stage to unlock auto battle	Selesaikan stage ini untuk membuka auto battle
+{0}({1} remaining)	{0}(sisa {1})
+Expedition Area	Area Ekspedisi
+Conquest Ranking reaches {0}	Peringkat Penaklukan mencapai {0}
+Personal Record	Rekor Pribadi
+Priority targets	Target prioritas
+New Strategy	Strategi Baru
+Save Plan	Simpan Rencana
+The default plan cannot be customized	Rencana bawaan tidak bisa dikustomisasi
+Test Plan	Rencana Uji
+Set Fire Control Preset Name	Atur Nama Preset Fire Control
+Save position	Simpan posisi
+Collected:{0}	Terkumpul:{0}
+Collection Tokens {0}/{1}	Token Koleksi {0}/{1}
+Current Phase	Fase Saat Ini
+Check Rewards	Periksa Hadiah
+All Categories	Semua Kategori
+Suitable Weapons:	Senjata yang Cocok:
+{0} Selection	Pemilihan {0}
+Weapon Modification	Modifikasi Senjata
+Enhancement Command	Perintah Peningkatan
+No weapon attachments meet the requirements	Tidak ada attachment senjata yang memenuhi syarat
+No attachments equipped at the current position	Tidak ada attachment terpasang di posisi ini
+Team Edit	Ubah Tim
+No Permission	Tidak Ada Izin
+Challenge Progress	Progres Tantangan
+Time until reset: {0}	Waktu sampai reset: {0}
+Authorized	Diizinkan
+Challenge Unavailable	Tantangan Tidak Tersedia
+Breakthrough Score	Skor Terobosan
+Select battlefield buff	Pilih buff medan tempur
+Collected Battlefield Buffs	Buff Medan Tempur Terkumpul
+Growth Status	Status Pertumbuhan
+Growth Stopped	Pertumbuhan Berhenti
+Obtain [{0}]	Dapatkan [{0}]
+Revive	Hidupkan Kembali
+Recalled To Life	Dipanggil Kembali ke Kehidupan
+Random position	Posisi acak
+Claim List	Daftar Klaim
+Select the items you wish to sell	Pilih item yang mau kamu jual
+Daily Limit: {0}/{1}	Batas Harian: {0}/{1}
+Weekly Limit: {0}/{1}	Batas Mingguan: {0}/{1}
+Uncollected	Belum Diambil
+No items for sale available	Tidak ada item yang dijual
+Add Action	Tambah Aksi
+Action Changes	Perubahan Aksi

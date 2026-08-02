@@ -1,0 +1,113 @@
+# Panel info event & gacha (75 panel tersebar di id 12.886-88.876).
+#
+# Strategi: panel-panel ini rata-rata 27 kalimat, dan mesin bersifat semua-atau-tidak,
+# jadi menerjemahkan "kalimat tersering" tidak menghasilkan apa pun (top 200 -> 0 panel).
+# Yang dikerjakan di sini: MENUNTASKAN panel termurah satu per satu.
+#
+# Awalan "=" = mode literal: polanya disalin apa adanya, tanpa regex.
+#
+# Judul bagian generik diterjemahkan ([Introduction] -> [Pengantar]), tapi nama sistem
+# dan event tetap Inggris: Exclusive Access, Standard Procurement, Targeted Access,
+# Advanced Defense Exercise, The Wishing Well, Elmo, Elmo Reignition, Starry Celebration,
+# Supply Mission, Intelligence Puzzles, Withdrawal Receipt, Breaker Coins, Collapse Pieces,
+# Dulcet Whisper, Time Capsule, Starry Cake, Monthly Incremental Contract, Neural Survey.
+#range 0 125000
+
+# --- penomoran daftar (menutupi 310 kemunculan) ---
+^(\d+)\.$	\1.
+=<size=20>1.	<size=20>1.
+=</color></size>	</color></size>
+=</size>	</size>
+
+# --- pola "rewards from X increased to N%" (6 varian) ---
+^<size=20>During the event, rewards from (.+) are increased (?:to|by) (\d+)%\.</size>$	<size=20>Selama event, hadiah dari \1 ditingkatkan \2%.</size>
+
+# --- panel [Exclusive Access] ---
+=<size=22><b>[Exclusive Access]</b></size>	<size=22><b>[Exclusive Access]</b></size>
+=Progress toward the Exclusive Access reward accumulates only during the first 260 pulls in Standard Procurement, with each pull increasing the progress by 1 point.	Progres hadiah Exclusive Access hanya bertambah selama 260 pull pertama di Standard Procurement, dan tiap pull menambah 1 poin.
+=Once the Exclusive Access reward progress reaches 260, you can select one Doll from the following: Qiongjiu, Tololo, Sabrina, Peritya, Vepley, or Mosin-Nagant.	Begitu progres hadiah Exclusive Access mencapai 260, kamu bisa memilih satu Doll berikut: Qiongjiu, Tololo, Sabrina, Peritya, Vepley, atau Mosin-Nagant.
+=The Dolls available for selection in Exclusive Access will not change with patch updates, and each Commander can only claim the reward Doll only once.	Doll yang bisa dipilih di Exclusive Access tidak berubah saat update patch, dan tiap Komandan hanya bisa mengklaim Doll hadiah sekali saja.
+
+# --- panel [Advanced Defense Exercise] ---
+=<size=24><color=#1a2c33><b>[Advanced Defense Exercise]</b></color></size>	<size=24><color=#1a2c33><b>[Advanced Defense Exercise]</b></color></size>
+=<size=20><color=#384b52>During Advanced Defense Exercise, the defending side must establish two distinct defense lines within the same preset terrain: the Southern Line and the Northern Line.	<size=20><color=#384b52>Selama Advanced Defense Exercise, pihak bertahan harus membangun dua garis pertahanan berbeda di medan preset yang sama: Southern Line dan Northern Line.
+=The attacking side will randomly encounter one of these defense lines.	Pihak penyerang akan menghadapi salah satu garis pertahanan itu secara acak.
+=The defending side must deploy Dolls and support units on both defense lines.	Pihak bertahan harus mengerahkan Doll dan unit dukungan di kedua garis pertahanan.
+=Dolls and support units deployed on both lines can be duplicated.	Doll dan unit dukungan yang dikerahkan di kedua garis boleh sama.
+
+# --- panel The Wishing Well ---
+=<size=24><color=#1a2c33><b>[Introduction]</b></color></size>	<size=24><color=#1a2c33><b>[Pengantar]</b></color></size>
+=<size=24><color=#1a2c33><b>[Event Rules]</b></color></size>	<size=24><color=#1a2c33><b>[Aturan Event]</b></color></size>
+=<size=24><color=#1a2c33><b>[Event rules]</b></color></size>	<size=24><color=#1a2c33><b>[Aturan Event]</b></color></size>
+=<size=20><color=#384b52>To foster a greater sense of belonging in the Elmo, the Commander has commissioned Mayling to develop an online platform called "The Wishing Well." Here, Dolls can submit their wishes to be granted by the Commander.	<size=20><color=#384b52>Untuk menumbuhkan rasa memiliki di Elmo, Komandan menugaskan Mayling mengembangkan platform online bernama "The Wishing Well." Di sini, Doll bisa mengajukan permintaan untuk dikabulkan Komandan.
+=<size=20><color=#384b52>To foster a greater sense of belonging in the Elmo, the Commander has commissioned Mayling to develop an online platform called “The Wishing Well".	<size=20><color=#384b52>Untuk menumbuhkan rasa memiliki di Elmo, Komandan menugaskan Mayling mengembangkan platform online bernama “The Wishing Well".
+=Here, Dolls can submit their wishes to be granted by the Commander.	Di sini, Doll bisa mengajukan permintaan untuk dikabulkan Komandan.
+=Those whose wishes are fulfilled present the Commander a return gift, along with a letter expressing their gratitude.</color></size>	Mereka yang permintaannya terkabul akan memberi Komandan hadiah balasan beserta surat ucapan terima kasih.</color></size>
+=Those whose wishes are fulfilled present the Commander a reciprocal gift, along with a letter expressing their gratitude.</color></size>	Mereka yang permintaannya terkabul akan memberi Komandan hadiah balasan beserta surat ucapan terima kasih.</color></size>
+=<size=20><color=#384b52>After the Event opens, the Commander starts receiving daily wish commissions from the Dolls.	<size=20><color=#384b52>Setelah Event dibuka, Komandan mulai menerima komisi permintaan harian dari para Doll.
+=<size=20><color=#384b52>After the event begins, the Commander starts receiving daily wish commissions from the Dolls.	<size=20><color=#384b52>Setelah event dimulai, Komandan mulai menerima komisi permintaan harian dari para Doll.
+=Complete all tasks within a commission to receive a reward and unlock a response letter.</color></size>	Selesaikan semua tugas dalam satu komisi untuk mendapat hadiah dan membuka surat balasan.</color></size>
+=Complete all tasks within a commission to receive a reward and unlock a response letter.	Selesaikan semua tugas dalam satu komisi untuk mendapat hadiah dan membuka surat balasan.
+=-Duplicate acquisitions of Makiatto's [Dulcet Whisper] story item <color=#EDA51C>[Time Capsule - Pulse-Racing Night]</color> will be converted to 1080 Breaker Coins.</color></size>	-Perolehan ganda item cerita [Dulcet Whisper] milik Makiatto <color=#EDA51C>[Time Capsule - Pulse-Racing Night]</color> akan dikonversi jadi 1080 Breaker Coins.</color></size>
+
+# --- panel berburu harta karun ---
+=<size=24><color=#1a2c33><b>[Event Content]</b></color></size>	<size=24><color=#1a2c33><b>[Isi Event]</b></color></size>
+=<size=24><color=#1a2c33><b>[Event Details]</b></color></size>	<size=24><color=#1a2c33><b>[Detail Event]</b></color></size>
+=<size=24><color=#1a2c33><b>[Event Introduction]</b></color></size>	<size=24><color=#1a2c33><b>[Pengantar Event]</b></color></size>
+=Search for usable supplies by digging through the ruins and the desert.	Cari suplai yang berguna dengan menggali reruntuhan dan gurun.
+=During the event, participate in clue collection to obtain treasure hints.	Selama event, ikuti pengumpulan petunjuk untuk mendapat hint harta karun.
+=Each fragment of the treasure map used reveals 1 tile.	Tiap fragmen peta harta karun yang dipakai membuka 1 tile.
+=Uncovering 5 adjacent tiles in a straight line, either horizontally or vertically, will earn you a treasure reward.	Membuka 5 tile berdampingan dalam satu garis lurus, mendatar atau menurun, memberimu hadiah harta karun.
+
+# --- panel Starry Celebration (anniversary) ---
+=<size=20>Join the Starry Celebration, decorate a cake every week and win anniversary prizes!</size>	<size=20>Ikuti Starry Celebration, hias kue tiap minggu, dan menangkan hadiah anniversary!</size>
+=Commanders can decorate in phases and gain decoration rewards.	Komandan bisa menghias secara bertahap dan mendapat hadiah dekorasi.
+=If a Commander does not decorate a cake during a particular phase, the Commander will not be able to gain any missed rewards and the cake will automatically change status.	Kalau Komandan tidak menghias kue di suatu fase, hadiah yang terlewat tidak bisa didapat lagi dan status kue akan berubah otomatis.
+=On the day of the anniversary, Commanders can light the candle on the cake and gain the memorial item [Starry Cake], as well as randomly receiving one of the following rewards: [Collapse Pieces ×22,222], [Collapse Pieces ×5,000], [Collapse Pieces ×3,000], [Collapse Pieces ×1,500], [Collapse Pieces ×1,000] and [Collapse Pieces ×500].</size>	Pada hari anniversary, Komandan bisa menyalakan lilin di kue dan mendapat item peringatan [Starry Cake], serta menerima secara acak salah satu hadiah berikut: [Collapse Pieces ×22,222], [Collapse Pieces ×5,000], [Collapse Pieces ×3,000], [Collapse Pieces ×1,500], [Collapse Pieces ×1,000] dan [Collapse Pieces ×500].</size>
+
+# --- panel survei B.R.I.E.F. ---
+=<size=20>B.R.I.E.F.	<size=20>B.R.I.E.F.
+=has issued a special commission—conduct an in-depth survey of a certain sector.	menerbitkan komisi khusus—lakukan survei mendalam atas suatu sektor.
+=The more the gathered intel meets the requirements, the better the rewards.	Makin sesuai intel yang terkumpul dengan syaratnya, makin bagus hadiahnya.
+=Dispatch the right Dolls to maximize your operation's effectiveness.</size>	Kirim Doll yang tepat untuk memaksimalkan efektivitas operasimu.</size>
+=<size=20>2 surveys may be obtained daily, and the total number of surveys will not be reset.	<size=20>2 survei bisa didapat tiap hari, dan total survei tidak akan direset.
+=A maximum of 12 surveys can be obtained during the event.</size>	Maksimal 12 survei bisa didapat selama event.</size>
+
+# --- panel drop ganda ---
+=The number of bonus attempts you can obtain each day is limited.	Jumlah percobaan bonus yang bisa didapat tiap hari terbatas.
+=The available drop multiplier, remaining attempts, and the maximum number of attempts are subject to the event description.	Drop multiplier yang tersedia, sisa percobaan, dan jumlah maksimum percobaan mengikuti deskripsi event.
+=By consuming bonus attempts and Intelligence Puzzles, an extra reward settlement will be granted on top of the original rewards (extra drops do not include first-clear rewards).	Dengan memakai percobaan bonus dan Intelligence Puzzles, akan diberikan penyelesaian hadiah tambahan di atas hadiah asli (drop tambahan tidak termasuk hadiah tuntas pertama).
+=Single reward amounts may vary according to the instance's mechanics.	Jumlah hadiah tunggal bisa berbeda tergantung mekanik instance-nya.
+=The double reward attempts will reset daily at 05:00 (server time).</size>	Percobaan hadiah ganda direset tiap hari pukul 05:00 (waktu server).</size>
+=<size=20>During the event, rewards from Supply Mission are increased to 200% by spending extra drop instances and solving Intelligence Puzzles.</size>	<size=20>Selama event, hadiah dari Supply Mission ditingkatkan jadi 200% dengan memakai instance drop tambahan dan menyelesaikan Intelligence Puzzles.</size>
+=<size=20>During the event, rewards from Supply Mission are increased to 200% by spending extra drop instances and solving Intelligence Puzzle puzzles.</size>	<size=20>Selama event, hadiah dari Supply Mission ditingkatkan jadi 200% dengan memakai instance drop tambahan dan menyelesaikan Intelligence Puzzles.</size>
+=The daily extra drop instances from Supply Missions in this event are shared across all missions.	Instance drop tambahan harian dari Supply Mission di event ini dibagi ke semua misi.
+=Therefore, please allocate extra drop instances wisely.	Karena itu, alokasikan instance drop tambahan dengan bijak.
+=There is a daily limit on the number of times you can get multiple drops.	Ada batas harian untuk berapa kali kamu bisa mendapat drop ganda.
+=Refer to the event instructions for more information on the drop rate, remaining chances and maximum amount of chances.	Lihat instruksi event untuk informasi lebih lanjut soal drop rate, sisa kesempatan, dan jumlah maksimum kesempatan.
+=When the [Monthly Incremental Contract] and [Elmo Reignition] event runs along with other events, extra drop instances from the [Monthly Incremental Contract] and the [Elmo Reignition] event will be consumed first.	Kalau event [Monthly Incremental Contract] dan [Elmo Reignition] berjalan bersamaan dengan event lain, instance drop tambahan dari event [Monthly Incremental Contract] dan [Elmo Reignition] akan dipakai lebih dulu.
+=When the [Elmo Reignition] event runs along with other events, extra drop instances from the [Elmo Reignition] event will be consumed first.	Kalau event [Elmo Reignition] berjalan bersamaan dengan event lain, instance drop tambahan dari event [Elmo Reignition] akan dipakai lebih dulu.
+=After expending extra reward instances from the event and Intelligence Puzzles, you will receive an additional round of prize drops on top of the original (this extra drop round does not include first-clear rewards).	Setelah memakai instance hadiah tambahan dari event dan Intelligence Puzzles, kamu akan menerima satu putaran drop hadiah tambahan di atas yang asli (putaran drop tambahan ini tidak termasuk hadiah tuntas pertama).
+=The precise amount of rewards may vary depending on the rules of the stage in question.	Jumlah pasti hadiah bisa berbeda tergantung aturan stage terkait.
+=The times for double rewards reset daily at 05:00 AM server time.</size>	Waktu hadiah ganda direset tiap hari pukul 05:00 waktu server.</size>
+
+# --- panel [Access Rules]: rate gacha ---
+=<size=22><b>[Access Rules]</b></size>	<size=22><b>[Aturan Access]</b></size>
+=<color=#32434a>The base probability of pulling an elite rarity item is 0.6%, the total probability including the guarantee is 1.6%.	<color=#32434a>Probabilitas dasar mendapat item rarity elite adalah 0.6%, total probabilitas termasuk jaminan adalah 1.6%.
+=You are guaranteed to pull an elite rarity item within 80 pulls.	Kamu dijamin mendapat item rarity elite dalam 80 pull.
+=The base probability of pulling a purple rarity item is 6%, the total probability including the guarantee is 13.1%.	Probabilitas dasar mendapat item rarity ungu adalah 6%, total probabilitas termasuk jaminan adalah 13.1%.
+=You are guaranteed to pulling a purple rarity item within 10 pulls.	Kamu dijamin mendapat item rarity ungu dalam 10 pull.
+=The probability of pulling a standard rarity item through the guarantee system is 99.4%, while the probability of pulling an elite rarity item is 0.6%.	Probabilitas mendapat item rarity standar lewat sistem jaminan adalah 99.4%, sementara probabilitas mendapat item rarity elite adalah 0.6%.
+=When an elite rarity item is pulled through [Targeted Access], there is a 50% chance that it will be a rate-up item.	Saat item rarity elite didapat lewat [Targeted Access], ada peluang 50% item itu adalah item rate-up.
+=If the item pulled is not a rate-up item, the next elite rarity item pulled will be guaranteed to be the rate-up item.	Kalau item yang didapat bukan item rate-up, item rarity elite berikutnya dijamin item rate-up.
+=Each pull grants one Withdrawal Receipt as a by-product.</color>	Tiap pull memberi satu Withdrawal Receipt sebagai produk sampingan.</color>
+
+# --- panel hadiah peringkat ---
+=<size=18>■ Ranking Rewards:	<size=18>■ Hadiah Peringkat:
+=(For the final ranking results, please refer to the reward settlement email)	(Untuk hasil peringkat akhir, silakan lihat email penyelesaian hadiah)
+=Doll Ranking:	Peringkat Doll:
+=<color=#f26c1c><b>[First Place]</b></color> will receive a new outfit (with swappable accessories) and a new weapon skin.	<color=#f26c1c><b>[Peringkat Pertama]</b></color> akan menerima outfit baru (dengan aksesori yang bisa ditukar) dan weapon skin baru.
+=<color=#f26c1c><b>[Second Place]</b></color> will receive a new outfit and a new weapon skin.	<color=#f26c1c><b>[Peringkat Kedua]</b></color> akan menerima outfit baru dan weapon skin baru.
+=<color=#f26c1c><b>[Third Place]</b></color> will receive a new weapon skin.	<color=#f26c1c><b>[Peringkat Ketiga]</b></color> akan menerima weapon skin baru.
+=(The estimated outfit release date will be announced once the event ends.	(Perkiraan tanggal rilis outfit akan diumumkan setelah event berakhir.
+=Please look forward to it!)	Nantikan!)

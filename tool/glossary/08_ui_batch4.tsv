@@ -1,0 +1,379 @@
+# Batch 4 — label UI + baris tempur/petualangan yang sering muncul (id 75.000-90.000).
+# Konvensi sapaan: di layar arsip karakter (20_char_bio, 22_char_quote) "Commander"
+#   diterjemahkan "Komandan"; di dalam permainan (cerita, tempur, UI) tetap "Commander",
+#   mengikuti mayoritas isi glossary.
+# Dilewati (sengaja): nama event/produk/outfit (Gilded Banquet, Daybreak Twin Pack,
+#   Arclight Logs, Soiree Echoes, Couturier Surprise Voucher, Outfit - ...), nama mode,
+#   angka & simbol murni, dan baris yang isinya hanya nama diri.
+# Placeholder {0} {1} {} dan tag <color=...> disalin apa adanya.
+#range 75000 90000
+
+# --- label & tombol ---
+Standard	Standar
+Passport	Paspor
+Playtime	Waktu Main
+Sundries	Serba-serbi
+Surrender	Menyerah
+Yesterday	Kemarin
+Nightmare	Mimpi Buruk
+Frostbite	Radang Beku
+Resonance	Resonansi
+Enervated	Lemas
+Expression	Ekspresi
+Background	Latar
+Strengthen	Perkuat
+Meltdown	Leleh Total
+Game Over	Permainan Berakhir
+(Current)	(Saat Ini)
+Apply	Terapkan
+Times	Kali
+Refit	Pasang Ulang
+Action	Aksi
+Ambush	Sergap
+Lock-on	Kunci Sasaran
+Fortify	Perkuat Posisi
+No Buffs	Tanpa Buff
+Foe	Musuh
+Ago	Lalu
+Frenzy Level	Level Frenzy
+Battle Victory	Pertempuran Menang
+Battle Failure	Pertempuran Gagal
+Neural Expansion	Ekspansi Neural
+Neural Migration	Migrasi Neural
+Load Rating	Kapasitas Muatan
+Quick Equip	Pasang Cepat
+Living Area	Area Tinggal
+Growth Data	Data Pertumbuhan
+Select Dish	Pilih Hidangan
+Intelligence	Intel
+Frenzy Buffs	Buff Frenzy
+Staging Area	Area Persiapan
+Buff Details	Detail Buff
+Cancel Rewind	Batalkan Putar Balik
+Add Materials	Tambah Material
+Phase Rewards	Hadiah Phase
+Seeking Light	Mencari Cahaya
+Activate Node	Aktifkan Node
+Challenge Log	Catatan Tantangan
+Floor Progress	Progres Lantai
+Battle History	Riwayat Pertempuran
+View Squad Buff	Lihat Buff Regu
+Authorized Doll	Doll Berwenang
+Begin Challenge	Mulai Tantangan
+Weekly Progress	Progres Mingguan
+Algorithm Skills	Skill Algoritma
+Gunsmoke Rewards	Hadiah Gunsmoke
+Upgrade Complete	Peningkatan Selesai
+Deployable Dolls	Doll yang Bisa Diterjunkan
+Upgrade completed	Peningkatan selesai
+Character Details	Detail Karakter
+Guardian's Battle	Pertempuran Guardian
+Battlelog Trading	Perdagangan Battlelog
+Challenge Ranking	Peringkat Tantangan
+Delightful Reward	Hadiah Menyenangkan
+Attachment Quality	Kualitas Attachment
+Heavy Weapons Team	Heavy Weapons Team
+Remaining Supplies	Sisa Pasokan
+Confirm to discard	Konfirmasi untuk membuang
+New level unlocked	Level baru terbuka
+Weapon Attachments	Attachment Senjata
+Additional rewards	Hadiah tambahan
+Extreme Calibration	Kalibrasi Ekstrem
+Elmo Special Supply	Pasokan Khusus Elmo
+Platoon Leaderboard	Papan Peringkat Platoon
+Analytical Workstation	Stasiun Kerja Analisis
+Insufficient materials	Material tidak cukup
+No records available	Tidak ada catatan
+Purification Credits	Purification Credit
+Proceed to Crew Deck	Menuju Crew Deck
+Usable Special Intel	Intel Khusus yang Bisa Dipakai
+All challenges completed	Semua tantangan selesai
+Proceed to the Crew Deck	Menuju Crew Deck
+Proceed to Mail to claim	Buka Mail untuk mengklaim
+Today's Recreation Points	Recreation Point Hari Ini
+Recreation Point Progress	Progres Recreation Point
+Automatic Action Sequence	Urutan Aksi Otomatis
+No pending friend requests	Tidak ada permintaan teman
+Targeted Access Permission	Izin Akses Bersasaran
+Intelligence Storage Status	Status Penyimpanan Intel
+Determine the Auto Battle sequence	Tentukan urutan Auto Battle
+Clear prerequisite stages to unlock	Selesaikan stage prasyarat untuk membukanya
+Trendy Outfit Box	Kotak Outfit Kekinian
+Limited-time Outfit Access Permissions Box	Kotak Izin Akses Outfit Waktu Terbatas
+{0} days ago	{0} hari lalu
+{0} hours ago	{0} jam lalu
+{0} minutes ago	{0} menit lalu
+{0} minutes	{0} menit
+{0} Remaining	Sisa {0}
+{} Days Remaining	Sisa {} Hari
+{0} turns left	Sisa {0} giliran
+Unlock at level {0}	Terbuka di level {0}
+Subject to Commander Level	Mengikuti Level Commander
+Harvest Coins: {0}	Harvest Coin: {0}
+Built <color=#f26c1c>{0}</color>	Dibangun <color=#f26c1c>{0}</color>
+Labyrinth Ranking	Peringkat Labyrinth
+Assault Simulation	Simulasi Serbuan
+Custom Procurement	Pengadaan Kustom
+Challenge Mode - Part I	Mode Tantangan - Bagian I
+Challenge Mode - Part II	Mode Tantangan - Bagian II
+Recreation Point Tracker	Pelacak Recreation Point
+
+# --- perintah & aba-aba tempur ---
+Run!	Lari!
+Do it.	Lakukan.
+Agreed.	Setuju.
+Cover me!	Lindungi aku!
+Acknowledged.	Diterima.
+Understood~	Dimengerti~
+Do it, then!	Kalau begitu lakukan!
+Begin the operation!	Mulai operasinya!
+Take the target down.	Jatuhkan targetnya.
+Turn around and fight!	Balik badan dan lawan!
+Frontal breakthrough.	Terobos dari depan.
+Let's defend first.	Bertahan dulu.
+Let's retreat first.	Mundur dulu.
+Should we open fire?	Kita tembak saja?
+Stay alert, everyone.	Semuanya tetap waspada.
+Stay alert, just in case.	Tetap waspada, untuk jaga-jaga.
+Scout out the flanks.	Intai sisi sayapnya.
+Search the surroundings.	Geledah sekitarnya.
+Break through the front!	Terobos bagian depan!
+Go back the way we came!	Kembali lewat jalan tadi!
+Everyone, move together.	Semuanya bergerak bersama.
+Ambush them using the terrain.	Sergap mereka memakai medannya.
+Take them out at range.	Habisi mereka dari jarak jauh.
+Ignore them and rush over!	Abaikan mereka dan terjang!
+Don't waste time. Attack.	Jangan buang waktu. Serang.
+Hostiles incoming! Move out!	Musuh datang! Bergerak!
+We're under attack!!	Kita diserang!!
+Find cover and prepare for combat!	Cari perlindungan dan bersiap bertempur!
+Act quickly. Eliminate them first!	Bergerak cepat. Habisi mereka dulu!
+Forget it, take them out first!	Sudahlah, habisi mereka dulu!
+Something's not right, retreat.	Ada yang tidak beres, mundur.
+Look for another path of retreat.	Cari jalan mundur yang lain.
+Go around and find another path.	Memutar dan cari jalan lain.
+Find a place to hide if you can.	Cari tempat bersembunyi kalau bisa.
+Can't be helped, turn and fight!	Tidak bisa dihindari, balik dan lawan!
+No mercy, use every gun we have!	Tanpa ampun, pakai semua senjata yang ada!
+Line up with the corner and fire!	Sejajarkan dengan sudutnya lalu tembak!
+Use the tactical grapple.	Pakai grapple taktisnya.
+Intimidate them into surrendering.	Gertak mereka supaya menyerah.
+Copy. Executing.	Diterima. Dijalankan.
+Copy. Commencing battle.	Diterima. Pertempuran dimulai.
+Copy. All units, begin evacuation!	Diterima. Semua unit, mulai evakuasi!
+Alright, commencing combat...	Baik, memulai pertempuran...
+Arrived at the designated location.	Tiba di lokasi yang ditentukan.
+Ready for breakout.	Siap menerobos keluar.
+Transponder:\nDeploying supply crate.	Transponder:\nMenurunkan peti pasokan.
+Assault vehicle damaged	Kendaraan serbu rusak
+Detonation point B2, set.	Titik ledak B2, siap.
+Detonation point B5 set.	Titik ledak B5 siap.
+Commander, target locked.	Commander, target terkunci.
+ELIDs! Prepare for combat!	ELID! Bersiap bertempur!
+Careful, robot approaching!	Hati-hati, robot mendekat!
+Watch your six!	Awas belakangmu!
+Tch, they found us.	Cih, mereka menemukan kita.
+Tch... More Varjagers?	Cih... Varjagers lagi?
+Tch... coming towards me.	Cih... datang ke arahku.
+Trying to run? Dream on!	Mau kabur? Mimpi saja!
+Go, crush them.	Maju, hancurkan mereka.
+Prove your courage.	Buktikan keberanianmu.
+Prove your strength.	Buktikan kekuatanmu.
+Give it your all!	Kerahkan semuanya!
+I'll support you.	Aku akan mendukungmu.
+I'll keep everyone safe.	Aku akan menjaga semuanya tetap aman.
+Confirmed. "Cleanup" complete.	Terkonfirmasi. "Pembersihan" selesai.
+Crap, the ELIDs are catching up!	Sial, ELID-nya menyusul!
+Where are they?!	Di mana mereka?!
+Who's there?!	Siapa di situ?!
+We fighting?!	Kita bertarung?!
+We've been had!	Kita kena tipu!
+Hmm, enemies seem to be all around!	Hmm, sepertinya musuh ada di mana-mana!
+Could they be here...	Jangan-jangan mereka di sini...
+
+# --- respons & obrolan pendek ---
+Now...	Sekarang...
+Is it?	Benarkah?
+Hello?	Halo?
+Oh no!	Gawat!
+Me?	Aku?
+What kind?	Yang mana?
+That's it?	Cuma itu?
+Hold on...	Tunggu...
+...Hold on.	...Tunggu.
+Never mind.	Sudahlah.
+Interesting...	Menarik...
+Let me try...	Biar kucoba...
+Yes, of course.	Ya, tentu saja.
+Of course I am!	Tentu saja iya!
+Not too shabby!	Lumayan juga!
+We did it~	Berhasil~
+Yes, I am.	Ya, benar.
+Yeah, we're workers!	Iya, kami pekerja!
+Yeah, we're visitors!	Iya, kami tamu!
+I didn't bring a gun!	Aku tidak bawa senjata!
+Less talk, more work.	Sedikit bicara, banyak kerja.
+I'll leave it to you.	Kuserahkan padamu.
+You go help them out.	Kau bantu mereka.
+I'm counting on you!	Aku mengandalkanmu!
+What are you saying?	Kau bicara apa?
+That's genius, boss!	Itu jenius, Boss!
+...I understand now!	...Sekarang aku paham!
+I've got a bad feeling.	Firasatku tidak enak.
+I've recorded it.	Sudah kurekam.
+I know, Commander.	Aku tahu, Commander.
+Thanks, Commander!	Terima kasih, Commander!
+Understood, I'll lead the way!	Dimengerti, aku yang memimpin jalan!
+Understood! I'll be right back!	Dimengerti! Aku segera kembali!
+U-understood!	D-dimengerti!
+Yes, stay alert.	Ya, tetap waspada.
+Yes, that will do!	Ya, itu cukup!
+Right, let's do this!	Baik, ayo lakukan!
+Alright, let's begin.	Baik, mari mulai.
+Alright! Leave it to me!	Baik! Serahkan padaku!
+Alright, sounds interesting.	Baik, kedengarannya menarik.
+Yeah! Let's do this together!	Iya! Ayo lakukan bersama!
+Speaking of which...	Ngomong-ngomong...
+I... I don't know...	Aku... aku tidak tahu...
+...No, it's nothing.	...Tidak, bukan apa-apa.
+Huh, that went well.	Wah, itu berjalan lancar.
+Hehe, you get me!	Hehe, kau paham aku!
+Put safety first.	Utamakan keselamatan.
+See, much better?	Lihat, jauh lebih baik kan?
+But! It's bitter!	Tapi! Ini pahit!
+What do you want?	Kau mau apa?
+Better performance?	Performa yang lebih baik?
+Don't hesitate anymore.	Jangan ragu lagi.
+Don't hurt yourself.	Jangan sampai melukai dirimu.
+Give a moment to think.	Beri waktu untuk berpikir.
+Say something encouraging.	Katakan sesuatu yang menyemangati.
+Might as well come clean now.	Sekalian saja mengaku sekarang.
+Uh, could we negotiate?	Eh, bisa kita bernegosiasi?
+I'm afraid I must decline.	Maaf, aku harus menolak.
+Of course. I'm used to it.	Tentu. Aku sudah terbiasa.
+Sigh. I suppose we'll try.	Haah. Kurasa kita coba saja.
+Alright, no more from you.	Sudah, cukup darimu.
+You don't need to tell me!	Tidak perlu kau beri tahu!
+That's what I was thinking!	Itu yang kupikirkan!
+Not willingly, I might add.	Bukan karena mau, ngomong-ngomong.
+That depends on my mood!	Itu tergantung suasana hatiku!
+On my turf, you listen to me.	Di wilayahku, kau menurut padaku.
+Depends on how well you shoot.	Tergantung seberapa jitu tembakanmu.
+What if they don't surrender?	Bagaimana kalau mereka tidak menyerah?
+Isn't that a little too risky?	Bukankah itu agak terlalu berisiko?
+Have you made up your mind yet?	Kau sudah memutuskan?
+This is about as far as it goes.	Kira-kira sampai sini batasnya.
+Our conditions only allow so much.	Keadaan kita cuma memungkinkan sejauh ini.
+It's clear what I need to do.	Sudah jelas apa yang harus kulakukan.
+I'm done... I need to rest...	Aku sudah habis... aku butuh istirahat...
+Thank goodness, you're awake!	Syukurlah, kau sadar!
+We can finally get out of here.	Akhirnya kita bisa keluar dari sini.
+Um, there's no need. Thank you.	Emm, tidak perlu. Terima kasih.
+One second! I'm almost done!	Sebentar! Aku hampir selesai!
+Hello, hello? Do you read me?	Halo, halo? Kau dengar aku?
+Enough yelling, we've landed.	Cukup berteriaknya, kita sudah mendarat.
+Hooray! Got it!	Asyik! Dapat!
+Hooray! We're rich!	Asyik! Kita kaya!
+Hehe, we're pretty lucky.	Hehe, kita cukup beruntung.
+Whoa, this one's pretty good.	Wah, yang ini lumayan bagus.
+The creativity reward isn't bad.	Hadiah kreativitasnya lumayan.
+Parts are still worth something.	Onderdilnya masih ada harganya.
+What just hit me?	Apa yang barusan mengenaiku?
+Woah! What was that?	Wah! Apa itu tadi?
+Wait, what's that sound?	Tunggu, suara apa itu?
+What's this...?	Apa ini...?
+Eh?! How did this...	Eh?! Kenapa bisa...
+H-how did this happen?	B-bagaimana ini bisa terjadi?
+Of course it didn't work!	Tentu saja tidak berhasil!
+Well, that's troublesome.	Yah, itu merepotkan.
+Eh? Was that all it took?	Eh? Cuma segitu saja?
+Oops, I think we broke it.	Ups, sepertinya kita merusaknya.
+Maybe a restart would fix it.	Mungkin restart bisa memperbaikinya.
+Have you tested it at all?	Kau sudah mengujinya sama sekali?
+Don't you come any closer!	Jangan mendekat lagi!
+Answer me. Who are you?!	Jawab aku. Kau siapa?!
+Please tell us how to leave.	Tolong beri tahu cara keluar dari sini.
+Can we talk now?	Sekarang bisa kita bicara?
+W-what are you doing? Can't we just talk this out?!	A-apa yang kau lakukan? Tidak bisakah kita bicarakan baik-baik?!
+Huh? Explosives?	Hah? Bahan peledak?
+Are these... Collapse Crystals?	Ini... Collapse Crystal?
+It's here, in my hand!	Ada di sini, di tanganku!
+Ugh... What an awful smell.	Ugh... baunya parah sekali.
+It smells... sweet...?	Baunya... manis...?
+...Bitter...	...Pahit...
+Good for health.	Bagus untuk kesehatan.
+Take two pieces.	Ambil dua potong.
+Three cups of soda.	Tiga gelas soda.
+One serving of popcorn.	Satu porsi popcorn.
+The energy bar looks filling.	Energy bar-nya kelihatan mengenyangkan.
+Let's go with the tenderloin.	Kita pilih has dalamnya saja.
+Let's go for the canned herring.	Kita ambil herring kalengan saja.
+What flavors should we go for?	Kita pilih rasa apa?
+So many things to choose from...	Banyak sekali pilihannya...
+Let's just purchase tokens.	Beli token saja.
+Robella, give me the tokens.	Robella, berikan tokennya.
+Take the biggest blind box.	Ambil blind box yang paling besar.
+Open the biggest box.	Buka kotak yang paling besar.
+Open the medium box.	Buka kotak yang sedang.
+Open the smallest box.	Buka kotak yang paling kecil.
+Hit the red switch.	Tekan sakelar merahnya.
+Hit the blue switch.	Tekan sakelar birunya.
+Hit the yellow switch.	Tekan sakelar kuningnya.
+Give it a good push.	Dorong yang kuat.
+Give it a few more smacks.	Pukul beberapa kali lagi.
+Try the lockpicking tools.	Coba pakai alat congkel kuncinya.
+Pry open the toolbox.	Congkel kotak perkakasnya.
+Try opening the furnace.	Coba buka tungkunya.
+Try digging downwards.	Coba gali ke bawah.
+Try searching the bushes.	Coba geledah semak-semaknya.
+Try the waste area.	Coba area limbahnya.
+Try the finished goods area.	Coba area barang jadinya.
+Try starting the ore washer.	Coba nyalakan pencuci bijihnya.
+Try an on-the-spot mix.	Coba racik di tempat.
+Try repairing a medical model.	Coba perbaiki model mediknya.
+Dismantle the mechanical arm.	Bongkar lengan mekanisnya.
+Dismantle the charging station.	Bongkar stasiun pengisian dayanya.
+Improve its language module first.	Perbaiki dulu modul bahasanya.
+Administer anesthetic first.	Berikan anestesinya dulu.
+Use all the anesthetic you have.	Pakai semua anestesi yang ada.
+Charge the medical drones.	Isi daya drone mediknya.
+Figure out his history first.	Cari tahu dulu riwayatnya.
+Figure out how he's wounded first.	Cari tahu dulu bagaimana dia terluka.
+Have them hand over the key first.	Suruh mereka menyerahkan kuncinya dulu.
+Have a look at the HR files.	Lihat berkas HR-nya.
+Open the door, we're breaking out.	Buka pintunya, kita menerobos keluar.
+Draw a pail of water up first?	Timba dulu seember air?
+Go straight into the well.	Langsung masuk ke sumurnya.
+Those home appliances will do.	Peralatan rumah tangga itu cukup.
+That arcade machine will do.	Mesin arkade itu cukup.
+That water tower seems to be full.	Menara airnya sepertinya penuh.
+It won't be there for much longer.	Itu tidak akan ada di sana lama lagi.
+Let's take a look at the fields.	Mari lihat ladangnya.
+Yeah, let's use it to relocate.	Iya, pakai itu untuk pindah.
+But getting past won't be easy.	Tapi melewatinya tidak akan mudah.
+No, we'll deal with it here.	Tidak, kita urus di sini saja.
+Go eliminate the black mage.	Pergi habisi penyihir hitamnya.
+Go with an action film.	Pilih film aksi.
+Go with a sci-fi film.	Pilih film fiksi ilmiah.
+Go with a love film.	Pilih film roman.
+Try to persuade him.	Coba bujuk dia.
+Tell it you are visitors.	Bilang padanya kalian tamu.
+Tell it you're workers here.	Bilang padanya kalian pekerja di sini.
+Tell it you're its master.	Bilang padanya kau tuannya.
+Ten minutes had passed.	Sepuluh menit telah berlalu.
+This route appears to be wrong	Rute ini sepertinya salah
+Reward obtained... or not	Hadiah didapat... atau tidak
+Perhaps it just happens to like the flavor.	Mungkin dia memang kebetulan suka rasanya.
+On the other end, in a lightless, small room, a hellscape unfolds.	Di ujung sana, di ruang kecil tanpa cahaya, pemandangan neraka terbentang.
+Transponder:\nVoice verification failed, initiating automatic defenses.	Transponder:\nVerifikasi suara gagal, pertahanan otomatis dijalankan.
+Normal log in initiated, scanning.	Masuk normal dijalankan, memindai.
+A complaint has been submitted about your severe treatments	Sebuah keluhan telah diajukan soal pengobatanmu yang keras
+You were hurt in the cave-in	Kau terluka saat runtuhan itu
+Is this place really soundproofed?	Tempat ini benar-benar kedap suara?
+A remote control lever?	Tuas kendali jarak jauh?
+Laser sensors?! How'd you get these?	Sensor laser?! Dari mana kau dapat ini?
+
+# Baris yang id-nya ternyata ada di ruang dialog cerita, bukan UI.
+# Ditemukan oleh `python newver.py` (cocok teksnya, tapi mati karena di luar #range).
+#range 125000 9999999
+Alright, I'll try.	Baik, akan kucoba.
