@@ -10,3 +10,8 @@ tool/_mk.py
 # selamanya dan tidak bisa dihapus tanpa menulis ulang riwayat.
 # Ia juga sebagian besar berisi teks asli penerbit (cerita baru 6% diterjemahkan).
 siap-pakai/
+
+# Global: only release data and scripts are published.
+Global/cadangan/
+Global/siap-pakai/
+Global/tool/__pycache__/

@@ -12,3 +12,7 @@
 
 # Jangan pernah diperlakukan sebagai teks.
 *.bytes binary
+
+# Preserve literal CRLF in Global BAT files, including Download ZIP.
+Global/*.bat -text
+Global/*.zip binary

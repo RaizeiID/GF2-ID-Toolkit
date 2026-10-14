@@ -1,0 +1,90 @@
+{
+  "format": "gfl2-global-approved-package-v1",
+  "release": "2026-10-14",
+  "source_baseline_hashes": {
+    "LangPackageTableEnusData.bytes": "D1C7474EE93234C13CBF079A21CDE9637E83DC14971208A64C9F9EF365EFB8DC",
+    "AvgContentData.bytes": "38B038571ADCF91112963CE440FB1E4E59F1C9745256A4DF0A6D8C2AAF81DD72",
+    "us/ItemData.bytes": "DE3B2B29314A27827AE612636CDA3C5BA3E3572EEB73B5CAF28846FDEE0AC240",
+    "VoiceLoveData.bytes": "28D4CA81B2F2FFC518F4D5F4265EC902FFABA02AA452BEF1DEBC1AC443F1744D"
+  },
+  "payload_sha256": "60EA2350B064E272E0BC593913B22F57F902F249DCAC4428823F48FDBB852682",
+  "parser_sha256": "F3211295EB05313BC88945767D0C77F888B37EFDA9A59F0BE7F06BF8F0DD33A8",
+  "files": [
+    {
+      "relative": "LangPackageTableThthData.bytes",
+      "kind": "language_package",
+      "bytes": 44081833,
+      "sha256": "F1C58F754B0A0339AB0216663EEAD8D585192D6AB2C10C622E2B274EB9A98864",
+      "accepted_preimage_sha256": [
+        "D7D5FA1C91B9E4369BA308E36101CDC5D1EB0E5583E447012B62913D9C57C09B",
+        "EAB3EFA2A61C2B8C96D05190F2139F2E810F8F5C2F1601FE572AEA49C3164634",
+        "F1C58F754B0A0339AB0216663EEAD8D585192D6AB2C10C622E2B274EB9A98864"
+      ]
+    },
+    {
+      "relative": "LangPackageTableThthBuiltinData.bytes",
+      "kind": "language_package",
+      "bytes": 3186,
+      "sha256": "99C6904328E3658719DDD82B526648D760890B2E25E49AB64A161179EB00D4DA",
+      "accepted_preimage_sha256": [
+        "3222C180B147E06D96F8DEA66B93675F0E6160E1A9459698879F826DD1066EF6",
+        "99C6904328E3658719DDD82B526648D760890B2E25E49AB64A161179EB00D4DA"
+      ]
+    },
+    {
+      "relative": "intl/RegionLangSelectData.bytes",
+      "kind": "region_label",
+      "bytes": 227,
+      "sha256": "832D0B24C5C945D4E2D66052FFC661FCF411F27F0534B457ADB63CDE52FD6B5B",
+      "accepted_preimage_sha256": [
+        "832D0B24C5C945D4E2D66052FFC661FCF411F27F0534B457ADB63CDE52FD6B5B",
+        "92F637BCA31C2F89AD3B316EC30FF83BE81AAFA7D8B848BEE4A839CE040BEA56"
+      ]
+    },
+    {
+      "relative": "jp/RegionLangSelectData.bytes",
+      "kind": "region_label",
+      "bytes": 227,
+      "sha256": "D3EBCE9625084643720002D479AFDD9A7C97B87086273EE024653083A6564123",
+      "accepted_preimage_sha256": [
+        "85661F0FEF4BB3BCF87F43EF248D2A2DF2E98B6024340EBD40B8255A9D0F7F02",
+        "D3EBCE9625084643720002D479AFDD9A7C97B87086273EE024653083A6564123"
+      ]
+    },
+    {
+      "relative": "kr/RegionLangSelectData.bytes",
+      "kind": "region_label",
+      "bytes": 226,
+      "sha256": "CFEB594BD173689EA80921D18783C3FF81DB1D8B057D6677DC286603C3233D39",
+      "accepted_preimage_sha256": [
+        "B4125B2788C892D7581FBF33256D5317AD4ABE3C3704C1FE4747F73E4902EEAA",
+        "CFEB594BD173689EA80921D18783C3FF81DB1D8B057D6677DC286603C3233D39"
+      ]
+    },
+    {
+      "relative": "tw/RegionLangSelectData.bytes",
+      "kind": "region_label",
+      "bytes": 227,
+      "sha256": "0D4AECB22356339FA83ABC8139C905C68BF18EB9B226D412C79EA8072166AC5D",
+      "accepted_preimage_sha256": [
+        "0D4AECB22356339FA83ABC8139C905C68BF18EB9B226D412C79EA8072166AC5D",
+        "87FCACA1213D55A5137560B2F8826CF34C4E3B377D8C62D43A88E00C9305567B"
+      ]
+    },
+    {
+      "relative": "us/RegionLangSelectData.bytes",
+      "kind": "region_label",
+      "bytes": 227,
+      "sha256": "3383472776026A6B952719E2DA4E4BD1077D0D4DB8AB334C500618D0158D1D88",
+      "accepted_preimage_sha256": [
+        "2056E302ECC847E907FA2A163AD16DB6CB754FF6F524943A4704206065FE099F",
+        "3383472776026A6B952719E2DA4E4BD1077D0D4DB8AB334C500618D0158D1D88"
+      ]
+    }
+  ],
+  "main_slots": 430226,
+  "main_chunks": 46780,
+  "language_authority": "Previously approved installed Global package; byte-identical snapshot, no translation rewrite.",
+  "IN_GAME_VERIFIED": "NO",
+  "manual_repository": "https://github.com/RaizeiID/GFL2-Bahasa-Indonesia-Global-"
+}

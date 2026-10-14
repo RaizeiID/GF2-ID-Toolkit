@@ -1,7 +1,29 @@
 # Terjemahan Bahasa Indonesia — Girls' Frontline 2: Exilium
 
-Alih bahasa tidak resmi untuk GF2: Exilium. **Bukan mod, bukan injeksi, bukan
-DLL** — hanya satu berkas data (tabel teks) yang diganti isinya.
+Alih bahasa tidak resmi untuk GF2: Exilium melalui modifikasi paket data teks game.
+
+## Global — pembaruan 14 Oktober 2026
+
+Folder [**Global**](Global/README.md) menyediakan metode BAT untuk paket Indonesia yang telah disahkan, termasuk Mityl, Koleda dan perbaikan teks pendukung. Pemasang memperbarui paket utama pada slot Thai, Builtin, serta label menu bahasa; memeriksa kecocokan versi, membuat backup, dan melakukan readback.
+
+1. Unduh repositori (**Code → Download ZIP**) dan ekstrak di luar folder game.
+2. Pasang Python 3.10+, pilih Thai/Thailand di Global, lalu tutup game dan launcher.
+3. Jalankan `Global/Pasang-Indonesia-Manual.bat`, masukkan folder game/`Table`, lalu ketik `PASANG` setelah pemeriksaan lulus.
+4. Untuk memulihkan backup sebelum transaksi, gunakan `Global/Kembalikan-Bahasa-Thailand.bat`.
+
+Rilis Global diverifikasi pada baseline PC Windows/Steam saat ini. Bila game update dan hash tidak cocok, pemasang berhenti; gunakan rilis yang sudah direbase. Cakupan yang tersedia bukan klaim seluruh konten 100% Indonesia.
+
+### Global — metode timpa file
+
+- [**Repositori metode timpa Global**](https://github.com/RaizeiID/GFL2-Bahasa-Indonesia-Global-)
+- [**Unduh LangPackageTableThthData.bytes**](https://raw.githubusercontent.com/RaizeiID/GFL2-Bahasa-Indonesia-Global-/refs/heads/main/LangPackageTableThthData.bytes)
+
+> [!WARNING]
+> ❗ Penggunaan bahasa Indonesia melalui perubahan file game termasuk modifikasi. Tetap ada risiko terkena BAN; tidak ada jaminan bebas risiko.
+
+## CN — panduan lama
+
+Bagian di bawah adalah jalur CN terdahulu; angka cakupan dan tanggal rilisnya merupakan catatan historis. Untuk Global gunakan folder dan panduan Global di atas.
 
 ## Pasang — pilih salah satu
 
